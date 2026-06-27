@@ -1,0 +1,1145 @@
+[
+  {
+    "label": "start-selected",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "stage-area route-view-enter is-visible"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "selected-to-case-0ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 0.994512,
+      "y": -0.023202,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "selected-to-case-80ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 0.377368,
+      "y": -1.84892,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "selected-to-case-180ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 0,
+      "y": -5.90837,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "selected-to-case-240ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study route-view-enter is-visible"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "caseHeading": {
+      "opacity": 0,
+      "y": 18
+    },
+    "caseHero": {
+      "opacity": 0,
+      "y": 0
+    },
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "selected-to-case-360ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study route-view-enter is-visible"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "caseHeading": {
+      "opacity": 0.021207,
+      "y": 10.9771
+    },
+    "caseHero": {
+      "opacity": 0,
+      "y": 0
+    },
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "selected-to-case-520ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study route-view-enter is-visible"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "caseHeading": {
+      "opacity": 0.560224,
+      "y": 1.93984
+    },
+    "caseHero": {
+      "opacity": 0,
+      "y": 0
+    },
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "selected-to-case-760ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study route-view-enter is-visible"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "caseHeading": {
+      "opacity": 1,
+      "y": 0.118404
+    },
+    "caseHero": {
+      "opacity": 0.459499,
+      "y": 0
+    },
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "selected-to-case-1040ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study route-view-enter is-visible"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "caseHeading": {
+      "opacity": 1,
+      "y": 0
+    },
+    "caseHero": {
+      "opacity": 1,
+      "y": 0
+    },
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "case-to-about-0ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "caseHeading": {
+      "opacity": 1,
+      "y": 0
+    },
+    "caseHero": {
+      "opacity": 1,
+      "y": 0
+    },
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "case-to-about-80ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 0.4972,
+      "y": -1.45451,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "caseHeading": {
+      "opacity": 1,
+      "y": 0
+    },
+    "caseHero": {
+      "opacity": 1,
+      "y": 0
+    },
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "case-to-about-180ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 0,
+      "y": -5.84936,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0.995578,
+      "y": 0.0166692,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "caseHeading": {
+      "opacity": 1,
+      "y": 0
+    },
+    "caseHero": {
+      "opacity": 1,
+      "y": 0
+    },
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0.995578,
+      "height": 202.5625,
+      "y": 0.0166692
+    }
+  },
+  {
+    "label": "case-to-about-240ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0.201389,
+      "y": 1.50648,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0.201389,
+      "height": 164.765625,
+      "y": 1.50648
+    }
+  },
+  {
+    "label": "case-to-about-360ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "case-to-about-520ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "case-to-about-760ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "case-to-about-1040ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "about-to-selected-0ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "about-to-selected-80ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "about-to-selected-180ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "stage-area route-view-exit"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "about-to-selected-240ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 0.548442,
+      "y": -3.14926,
+      "classes": "stage-area route-view-enter is-visible"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "about-to-selected-360ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 0.962268,
+      "y": -0.421993,
+      "classes": "stage-area route-view-enter is-visible"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0,
+      "y": 8,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0,
+      "height": 0,
+      "y": 8
+    }
+  },
+  {
+    "label": "about-to-selected-520ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 0.999889,
+      "y": -0.0161934,
+      "classes": "stage-area route-view-enter is-visible"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 0.846006,
+      "y": 0.324898,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 0.846006,
+      "height": 194.75,
+      "y": 0.324898
+    }
+  },
+  {
+    "label": "about-to-selected-760ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "stage-area route-view-enter is-visible"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  },
+  {
+    "label": "about-to-selected-1040ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "stage-area route-view-enter is-visible"
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0,
+      "y": 0,
+      "classes": "case-study route-view-exit"
+    },
+    "about": {
+      "hidden": false,
+      "opacity": 1,
+      "y": 0,
+      "classes": "bio-card"
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": 1,
+      "y": 0
+    },
+    "navPanelBio": {
+      "opacity": 1,
+      "height": 203,
+      "y": 0
+    }
+  }
+]

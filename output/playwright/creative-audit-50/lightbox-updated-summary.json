@@ -1,0 +1,206 @@
+[
+  {
+    "label": "open-000ms",
+    "open": true,
+    "classes": "lightbox is-open",
+    "opacity": 0,
+    "transform": "matrix(0.992, 0, 0, 0.992, 0, 10)",
+    "backdropOpacity": 0,
+    "imageOpacity": 0,
+    "imageTransform": "matrix(0.992, 0, 0, 0.992, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 85.1199951171875,
+      "y": 230.3520050048828,
+      "width": 1269.760009765625,
+      "height": 459.2960205078125
+    }
+  },
+  {
+    "label": "open-020ms",
+    "open": true,
+    "classes": "lightbox is-open",
+    "opacity": 0.0824791,
+    "transform": "matrix(0.992368, 0, 0, 0.992368, 0, 9.5398)",
+    "backdropOpacity": 0.0996849,
+    "imageOpacity": 0.0696905,
+    "imageTransform": "matrix(0.992294, 0, 0, 0.992294, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 84.8843994140625,
+      "y": 229.8065643310547,
+      "width": 1270.231201171875,
+      "height": 459.4664306640625
+    }
+  },
+  {
+    "label": "open-060ms",
+    "open": true,
+    "classes": "lightbox is-open",
+    "opacity": 0.387652,
+    "transform": "matrix(0.993412, 0, 0, 0.993412, 0, 8.23512)",
+    "backdropOpacity": 0.496317,
+    "imageOpacity": 0.307844,
+    "imageTransform": "matrix(0.99306, 0, 0, 0.99306, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 84.21636962890625,
+      "y": 228.26026916503906,
+      "width": 1271.5673828125,
+      "height": 459.94970703125
+    }
+  },
+  {
+    "label": "open-120ms",
+    "open": true,
+    "classes": "lightbox is-open",
+    "opacity": 0.885873,
+    "transform": "matrix(0.996596, 0, 0, 0.996596, 0, 4.25518)",
+    "backdropOpacity": 0.93652,
+    "imageOpacity": 0.822487,
+    "imageTransform": "matrix(0.99534, 0, 0, 0.99534, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 82.17864990234375,
+      "y": 223.54322814941406,
+      "width": 1275.642578125,
+      "height": 461.42388916015625
+    }
+  },
+  {
+    "label": "open-240ms",
+    "open": true,
+    "classes": "lightbox is-open",
+    "opacity": 1,
+    "transform": "matrix(0.999602, 0, 0, 0.999602, 0, 0.496844)",
+    "backdropOpacity": 1,
+    "imageOpacity": 0.998829,
+    "imageTransform": "matrix(0.999085, 0, 0, 0.999085, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 80.25439453125,
+      "y": 219.0888671875,
+      "width": 1279.4912109375,
+      "height": 462.81591796875
+    }
+  },
+  {
+    "label": "open-340ms",
+    "open": true,
+    "classes": "lightbox is-open",
+    "opacity": 1,
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "backdropOpacity": 1,
+    "imageOpacity": 1,
+    "imageTransform": "matrix(0.999995, 0, 0, 0.999995, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 80,
+      "y": 218.5,
+      "width": 1280,
+      "height": 463
+    }
+  },
+  {
+    "label": "open-420ms",
+    "open": true,
+    "classes": "lightbox is-open",
+    "opacity": 1,
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "backdropOpacity": 1,
+    "imageOpacity": 1,
+    "imageTransform": "matrix(1, 0, 0, 1, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 80,
+      "y": 218.5,
+      "width": 1280,
+      "height": 463
+    }
+  },
+  {
+    "label": "close-000ms",
+    "open": true,
+    "classes": "lightbox is-closing",
+    "opacity": 1,
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "backdropOpacity": 1,
+    "imageOpacity": 1,
+    "imageTransform": "matrix(1, 0, 0, 1, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 80,
+      "y": 218.5,
+      "width": 1280,
+      "height": 463
+    }
+  },
+  {
+    "label": "close-060ms",
+    "open": true,
+    "classes": "lightbox is-closing",
+    "opacity": 0.928413,
+    "transform": "matrix(0.999796, 0, 0, 0.999796, 0, 0.306435)",
+    "backdropOpacity": 0.928413,
+    "imageOpacity": 0.948928,
+    "imageTransform": "matrix(0.999889, 0, 0, 0.999889, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 80.1307373046875,
+      "y": 218.8537139892578,
+      "width": 1279.738525390625,
+      "height": 462.90545654296875
+    }
+  },
+  {
+    "label": "close-140ms",
+    "open": true,
+    "classes": "lightbox is-closing",
+    "opacity": 0.2329,
+    "transform": "matrix(0.997789, 0, 0, 0.997789, 0, 3.31687)",
+    "backdropOpacity": 0.2329,
+    "imageOpacity": 0.447188,
+    "imageTransform": "matrix(0.999109, 0, 0, 0.999109, 0, 0)",
+    "imageHidden": false,
+    "rect": {
+      "x": 81.41522216796875,
+      "y": 222.32879638671875,
+      "width": 1277.16943359375,
+      "height": 461.97613525390625
+    }
+  },
+  {
+    "label": "close-260ms",
+    "open": false,
+    "classes": "lightbox",
+    "opacity": 0,
+    "transform": "none",
+    "backdropOpacity": 0,
+    "imageOpacity": 0,
+    "imageTransform": "none",
+    "imageHidden": true,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "label": "close-340ms",
+    "open": false,
+    "classes": "lightbox",
+    "opacity": 0,
+    "transform": "none",
+    "backdropOpacity": 0,
+    "imageOpacity": 0,
+    "imageTransform": "none",
+    "imageHidden": true,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  }
+]

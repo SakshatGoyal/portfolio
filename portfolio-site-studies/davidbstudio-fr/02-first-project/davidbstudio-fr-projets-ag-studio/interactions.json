@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "tag": "button",
+    "text": "Projets",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 17,
+      "y": 936,
+      "width": 104.25,
+      "height": 45
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "button",
+    "text": "À propos",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 141.25,
+      "y": 936,
+      "width": 122.0625,
+      "height": 45
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "button",
+    "text": "Contact ☻",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 284.3125,
+      "y": 936,
+      "width": 131.21875,
+      "height": 45
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "button",
+    "text": "",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 1375,
+      "y": 934,
+      "width": 49,
+      "height": 49
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  }
+]

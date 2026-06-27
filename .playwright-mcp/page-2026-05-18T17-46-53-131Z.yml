@@ -1,0 +1,7 @@
+- generic [ref=e6]:
+  - generic [ref=e9]:
+    - img
+  - generic [ref=e12]:
+    - textbox "Password" [active] [ref=e13]
+    - button "Submit" [ref=e14] [cursor=pointer]:
+      - img [ref=e17]

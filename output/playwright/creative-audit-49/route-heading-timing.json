@@ -1,0 +1,376 @@
+[
+  {
+    "label": "selected-to-case-60ms",
+    "hash": "#selected-work",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0.646295",
+      "transform": "matrix(1, 0, 0, 1, 0, -1.05417)",
+      "y": 54.9,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 633,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "Selected Work"
+    ],
+    "pendingNav": [
+      "01 Palo Alto Networks"
+    ]
+  },
+  {
+    "label": "selected-to-case-140ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": {
+      "opacity": "0.765874",
+      "transform": "matrix(1, 0, 0, 1, 0, 8.46349)",
+      "y": 166.5,
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manag"
+    },
+    "caseHero": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 276,
+      "text": ""
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 633,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "01 Palo Alto Networks"
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "selected-to-case-230ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": {
+      "opacity": "0.985401",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.11461)",
+      "y": 160.1,
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manag"
+    },
+    "caseHero": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 276,
+      "text": ""
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 633,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "01 Palo Alto Networks"
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "selected-to-case-420ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.151865)",
+      "y": 158.2,
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manag"
+    },
+    "caseHero": {
+      "opacity": "0.353767",
+      "transform": "none",
+      "y": 276,
+      "text": ""
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 633,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "01 Palo Alto Networks"
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "about-to-case-60ms",
+    "hash": "#about",
+    "body": "shell-ready route-about",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 157.4,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 844,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "About me"
+    ],
+    "pendingNav": [
+      "02 DocuSign - Global Data Analytics"
+    ]
+  },
+  {
+    "label": "about-to-case-140ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": {
+      "opacity": "0.801237",
+      "transform": "matrix(1, 0, 0, 1, 0, 7.74942)",
+      "y": 164.3,
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every "
+    },
+    "caseHero": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 274.6,
+      "text": ""
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 844,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "about-to-case-230ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": {
+      "opacity": "0.985392",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.11516)",
+      "y": 159.9,
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every "
+    },
+    "caseHero": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 275.8,
+      "text": ""
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "0.0386132",
+      "transform": "matrix(1, 0, 0, 1, 0, 3.64594)",
+      "y": 729.2,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "about-to-case-420ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.15192)",
+      "y": 158.2,
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every "
+    },
+    "caseHero": {
+      "opacity": "0.353539",
+      "transform": "none",
+      "y": 276,
+      "text": ""
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.00656404)",
+      "y": 633.2,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "mobile-selected-to-case-180ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": {
+      "opacity": "0.724642",
+      "transform": "matrix(1, 0, 0, 1, 0, 9.23073)",
+      "y": 113.2,
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manag"
+    },
+    "caseHero": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 260,
+      "text": ""
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 593,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "01 Palo Alto Networks"
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "mobile-selected-to-case-420ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "selected": {
+      "opacity": "0",
+      "transform": "none",
+      "y": 0,
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spread"
+    },
+    "caseTitle": {
+      "opacity": "0.999985",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.498242)",
+      "y": 104.5,
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manag"
+    },
+    "caseHero": {
+      "opacity": "0.0596378",
+      "transform": "none",
+      "y": 260,
+      "text": ""
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area."
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 11.9721, 0)",
+      "y": 593,
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years,"
+    },
+    "activeNav": [
+      "01 Palo Alto Networks"
+    ],
+    "pendingNav": []
+  }
+]

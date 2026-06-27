@@ -1,0 +1,44 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "Back to Home",
+    "href": "https://karinasirqueira.com/",
+    "aria": "",
+    "rect": {
+      "x": 1357.140625,
+      "y": 64.734375,
+      "width": 18.125,
+      "height": 18.125
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "button",
+    "text": "",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 144,
+      "height": 1000
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "button",
+    "text": "",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 1296,
+      "y": 0,
+      "width": 144,
+      "height": 1000
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  }
+]

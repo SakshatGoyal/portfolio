@@ -1,0 +1,3153 @@
+{
+  "title": "Karolis Kosas — CUJO",
+  "url": "https://karoliskosas.com/cujo-3/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 12239,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(230, 230, 230)",
+    "rgb(249, 251, 252)",
+    "rgb(10, 10, 10)"
+  ],
+  "fonts": [
+    "Times",
+    "Helvetica, sans-serif",
+    "Aeonik-Regular"
+  ],
+  "samples": [
+    {
+      "tag": "html",
+      "className": "flexbox no-touchevents objectfit object-fit no-ios no-ipad no-iphone no-firefox no-chrome-no-safari no-chrome no-instagram-browser lay-objectfit desktop-size",
+      "text": "Karolis Kosas — CUJO /* essential styles that need to be in head */ html{ overflow-y: scroll; /* needs to be min-height:",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 12238.8125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "body",
+      "className": "page-template-default page page-id-239 no-touchdevice type-page id-239 slug-cujo-3 mobile-menu-style_1 mobile-menu-has-animation thumb-mo-image-no-transition thumb-video-and-mouseover-image-behavior-show-image mobile_menu_bar_hidden mobile_burger_style_default_thin sticky-footer-option-enabled intro-disabled not-protected mobile-menu-animation-possible",
+      "text": "Created with Laytheme.com@keyframes fadeIn {0% { opacity: 0; }100% { opacity: 1; }}._ts_1781897367438{color:black;text-d",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 12238.8125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "_ts_1781897367438",
+      "text": "Created with Laytheme.com",
+      "rect": {
+        "x": 1255.59375,
+        "y": 963,
+        "width": 174.40625,
+        "height": 27
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "25px",
+        "letterSpacing": "0.12px",
+        "margin": "0px",
+        "padding": "0px 10px",
+        "borderRadius": "20px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "lay-content hascustomphonegrid footer-nocustomphonegrid nocover cpl-nocover cover-enabled-on-phone",
+      "text": "@media (min-width: 601px){#grid.id-239{padding-top:160px;}#grid.id-239{padding-bottom:160px;}} @media (min-width: 601px)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 12238.8125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "grid lay-not-empty id-239  ",
+      "text": "@media (min-width: 601px){#grid.id-239{padding-top:160px;}#grid.id-239{padding-bottom:160px;}} @media (min-width: 601px)",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 12238.8125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "160px 0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "grid-inner",
+      "text": "@media (min-width: 601px){#grid.id-239{padding-top:160px;}#grid.id-239{padding-bottom:160px;}} @media (min-width: 601px)",
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 11918.8125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage first-row row-0",
+      "text": "CUJO provides the power of enterprise security solutions in a simple and elegant device. I helped CUJO shape their brand",
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 172.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 80px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "CUJO provides the power of enterprise security solutions in a simple and elegant device. I helped CUJO shape their brand",
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 172.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "CUJO provides the power of enterprise security solutions in a simple and elegant device. I helped CUJO shape their brand",
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 172.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-10 colstart-1 colend-11 no-frame-overflow align-bottom first-child no-parallax type-text id-1018  no-sticky",
+      "text": "CUJO provides the power of enterprise security solutions in a simple and elegant device. I helped CUJO shape their brand",
+      "rect": {
+        "x": 122.390625,
+        "y": 160,
+        "width": 1195.203125,
+        "height": 172.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1018 ",
+      "text": "CUJO provides the power of enterprise security solutions in a simple and elegant device. I helped CUJO shape their brand",
+      "rect": {
+        "x": 122.390625,
+        "y": 160,
+        "width": 1195.203125,
+        "height": 172.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_Project_Description",
+      "text": "CUJO provides the power of enterprise security solutions in a simple and elegant device. I helped CUJO shape their brand",
+      "rect": {
+        "x": 122.390625,
+        "y": 160,
+        "width": 1195.203125,
+        "height": 172.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-1",
+      "text": "My roleUser research, prototyping, UI designBuilt a maintained a design systemArt direction and brand designResultsIncre",
+      "rect": {
+        "x": 0,
+        "y": 412.78125,
+        "width": 1440,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 80px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "My roleUser research, prototyping, UI designBuilt a maintained a design systemArt direction and brand designResultsIncre",
+      "rect": {
+        "x": 0,
+        "y": 412.78125,
+        "width": 1440,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "My roleUser research, prototyping, UI designBuilt a maintained a design systemArt direction and brand designResultsIncre",
+      "rect": {
+        "x": 0,
+        "y": 412.78125,
+        "width": 1440,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-5 colstart-1 colend-6 no-frame-overflow align-top first-child no-parallax type-text id-1019  no-sticky",
+      "text": "My roleUser research, prototyping, UI designBuilt a maintained a design systemArt direction and brand design",
+      "rect": {
+        "x": 122.390625,
+        "y": 412.78125,
+        "width": 583.203125,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1019 ",
+      "text": "My roleUser research, prototyping, UI designBuilt a maintained a design systemArt direction and brand design",
+      "rect": {
+        "x": 122.390625,
+        "y": 412.78125,
+        "width": 583.203125,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "My role",
+      "rect": {
+        "x": 122.390625,
+        "y": 412.78125,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "User research, prototyping, UI design",
+      "rect": {
+        "x": 122.390625,
+        "y": 450.78125,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Built a maintained a design system",
+      "rect": {
+        "x": 122.390625,
+        "y": 488.78125,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Art direction and brand design",
+      "rect": {
+        "x": 122.390625,
+        "y": 526.78125,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-0 span-5 colstart-6 colend-11 no-frame-overflow align-top not-first-child no-parallax type-text id-1020  no-sticky",
+      "text": "ResultsIncrease of app's MAUs and retention rate Decreased design to dev handoff timeImproved CUJO.com conversion rate",
+      "rect": {
+        "x": 734.390625,
+        "y": 412.78125,
+        "width": 583.203125,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1020 ",
+      "text": "ResultsIncrease of app's MAUs and retention rate Decreased design to dev handoff timeImproved CUJO.com conversion rate",
+      "rect": {
+        "x": 734.390625,
+        "y": 412.78125,
+        "width": 583.203125,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Results",
+      "rect": {
+        "x": 734.390625,
+        "y": 412.78125,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Increase of app's MAUs and retention rate",
+      "rect": {
+        "x": 734.390625,
+        "y": 450.78125,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Decreased design to dev handoff time",
+      "rect": {
+        "x": 734.390625,
+        "y": 488.78125,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Improved CUJO.com conversion rate",
+      "rect": {
+        "x": 734.390625,
+        "y": 526.78125,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-2",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 636.78125,
+        "width": 1440,
+        "height": 891
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 636.78125,
+        "width": 1440,
+        "height": 891
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 636.78125,
+        "width": 1440,
+        "height": 891
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-0 span-12 colstart-0 colend-12 no-frame-overflow align-bottom first-child no-parallax type-img id-1021  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 636.78125,
+        "width": 1440,
+        "height": 891
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img  landscape  ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 636.78125,
+        "width": 1440,
+        "height": 891
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded lazyloaded",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 636.78125,
+        "width": 1440,
+        "height": 891
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 636.78125,
+        "width": 1440,
+        "height": 891
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 891px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-3",
+      "text": "For an ordinary person, anything related to cyber security seems abstract and cryptic.The truth is that most people simp",
+      "rect": {
+        "x": 0,
+        "y": 1687.78125,
+        "width": 1440,
+        "height": 836.015625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "For an ordinary person, anything related to cyber security seems abstract and cryptic.The truth is that most people simp",
+      "rect": {
+        "x": 0,
+        "y": 1687.78125,
+        "width": 1440,
+        "height": 836.015625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "For an ordinary person, anything related to cyber security seems abstract and cryptic.The truth is that most people simp",
+      "rect": {
+        "x": 0,
+        "y": 1687.78125,
+        "width": 1440,
+        "height": 836.015625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-4 colstart-1 colend-5 no-frame-overflow align-top first-child no-parallax type-text id-1022  no-sticky",
+      "text": "For an ordinary person, anything related to cyber security seems abstract and cryptic.The truth is that most people simp",
+      "rect": {
+        "x": 122.390625,
+        "y": 1687.78125,
+        "width": 460.796875,
+        "height": 394
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1022 ",
+      "text": "For an ordinary person, anything related to cyber security seems abstract and cryptic.The truth is that most people simp",
+      "rect": {
+        "x": 122.390625,
+        "y": 1687.78125,
+        "width": 460.796875,
+        "height": 394
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_Default",
+      "text": "For an ordinary person, anything related to cyber security seems abstract and cryptic.",
+      "rect": {
+        "x": 122.390625,
+        "y": 1687.78125,
+        "width": 460.796875,
+        "height": 176
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "40px",
+        "fontWeight": "300",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "The truth is that most people simply do not care enough about their online safety to pay for extra device, unless it's s",
+      "rect": {
+        "x": 122.390625,
+        "y": 1871.78125,
+        "width": 460.796875,
+        "height": 210
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-5 colstart-6 colend-11 no-frame-overflow align-top not-first-child no-parallax type-img id-1023  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 734.390625,
+        "y": 1687.78125,
+        "width": 583.203125,
+        "height": 836.015625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img  portrait  ",
+      "text": "",
+      "rect": {
+        "x": 734.390625,
+        "y": 1687.78125,
+        "width": 583.203125,
+        "height": 836.015625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 734.390625,
+        "y": 1687.78125,
+        "width": 583.203125,
+        "height": 836.015625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 734.390625,
+        "y": 1687.78125,
+        "width": 583.203125,
+        "height": 836.015625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 836.016px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-4",
+      "text": "CUJO app allows to monitor and control activity on your wifi. The app is focussed around two key use cases - monitoring ",
+      "rect": {
+        "x": 0,
+        "y": 2683.796875,
+        "width": 1440,
+        "height": 132
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 40px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "CUJO app allows to monitor and control activity on your wifi. The app is focussed around two key use cases - monitoring ",
+      "rect": {
+        "x": 0,
+        "y": 2683.796875,
+        "width": 1440,
+        "height": 132
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "CUJO app allows to monitor and control activity on your wifi. The app is focussed around two key use cases - monitoring ",
+      "rect": {
+        "x": 0,
+        "y": 2683.796875,
+        "width": 1440,
+        "height": 132
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-10 colstart-1 colend-11 no-frame-overflow align-bottom first-child no-parallax type-text id-1024  no-sticky",
+      "text": "CUJO app allows to monitor and control activity on your wifi. The app is focussed around two key use cases - monitoring ",
+      "rect": {
+        "x": 122.390625,
+        "y": 2683.796875,
+        "width": 1195.203125,
+        "height": 132
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1024 ",
+      "text": "CUJO app allows to monitor and control activity on your wifi. The app is focussed around two key use cases - monitoring ",
+      "rect": {
+        "x": 122.390625,
+        "y": 2683.796875,
+        "width": 1195.203125,
+        "height": 132
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_Default",
+      "text": "CUJO app allows to monitor and control activity on your wifi. The app is focussed around two key use cases - monitoring ",
+      "rect": {
+        "x": 122.390625,
+        "y": 2683.796875,
+        "width": 1195.203125,
+        "height": 132
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "40px",
+        "fontWeight": "300",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-5",
+      "text": "To redefine the architecture of the app, we asked our users to define what are some of the most important questions that",
+      "rect": {
+        "x": 0,
+        "y": 2855.796875,
+        "width": 1440,
+        "height": 264
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 80px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "To redefine the architecture of the app, we asked our users to define what are some of the most important questions that",
+      "rect": {
+        "x": 0,
+        "y": 2855.796875,
+        "width": 1440,
+        "height": 264
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "To redefine the architecture of the app, we asked our users to define what are some of the most important questions that",
+      "rect": {
+        "x": 0,
+        "y": 2855.796875,
+        "width": 1440,
+        "height": 264
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-5 colstart-1 colend-6 no-frame-overflow align-bottom first-child no-parallax type-text id-1025  no-sticky",
+      "text": "To redefine the architecture of the app, we asked our users to define what are some of the most important questions that",
+      "rect": {
+        "x": 122.390625,
+        "y": 2855.796875,
+        "width": 583.203125,
+        "height": 264
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1025 ",
+      "text": "To redefine the architecture of the app, we asked our users to define what are some of the most important questions that",
+      "rect": {
+        "x": 122.390625,
+        "y": 2855.796875,
+        "width": 583.203125,
+        "height": 264
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "To redefine the architecture of the app, we asked our users to define what are some of the most important questions that",
+      "rect": {
+        "x": 122.390625,
+        "y": 2855.796875,
+        "width": 583.203125,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "1. Am I exposed to any threats?",
+      "rect": {
+        "x": 122.390625,
+        "y": 2983.796875,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "2. What devices are active on my Wi-Fi? What is their activity?",
+      "rect": {
+        "x": 122.390625,
+        "y": 3021.796875,
+        "width": 583.203125,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "3. What are my children doing online. How can I prevent them from seeing the bad stuff?",
+      "rect": {
+        "x": 122.390625,
+        "y": 3059.796875,
+        "width": 583.203125,
+        "height": 60
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-0 span-5 colstart-6 colend-11 no-frame-overflow align-top not-first-child no-parallax type-text id-1026  no-sticky",
+      "text": "From a series of prototypes, we landed on a tab-based app architecture, each dedicated to a specific aspect of the netwo",
+      "rect": {
+        "x": 734.390625,
+        "y": 2855.796875,
+        "width": 583.203125,
+        "height": 180
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1026 ",
+      "text": "From a series of prototypes, we landed on a tab-based app architecture, each dedicated to a specific aspect of the netwo",
+      "rect": {
+        "x": 734.390625,
+        "y": 2855.796875,
+        "width": 583.203125,
+        "height": 180
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "From a series of prototypes, we landed on a tab-based app architecture, each dedicated to a specific aspect of the netwo",
+      "rect": {
+        "x": 734.390625,
+        "y": 2855.796875,
+        "width": 583.203125,
+        "height": 180
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-6",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 3199.796875,
+        "width": 1440,
+        "height": 789.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 3199.796875,
+        "width": 1440,
+        "height": 789.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 3199.796875,
+        "width": 1440,
+        "height": 789.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-10 colstart-1 colend-11 no-frame-overflow align-bottom first-child no-parallax type-img id-1027  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 3199.796875,
+        "width": 1195.203125,
+        "height": 789.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img  landscape  ",
+      "text": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 3199.796875,
+        "width": 1195.203125,
+        "height": 789.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 3199.796875,
+        "width": 1195.203125,
+        "height": 789.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 3199.796875,
+        "width": 1195.203125,
+        "height": 789.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 789.328px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-7",
+      "text": "Part of CUJO's promise to protect every single device connected to your network. Naturally, we needed a custom icon set ",
+      "rect": {
+        "x": 0,
+        "y": 4149.125,
+        "width": 1440,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 80px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Part of CUJO's promise to protect every single device connected to your network. Naturally, we needed a custom icon set ",
+      "rect": {
+        "x": 0,
+        "y": 4149.125,
+        "width": 1440,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Part of CUJO's promise to protect every single device connected to your network. Naturally, we needed a custom icon set ",
+      "rect": {
+        "x": 0,
+        "y": 4149.125,
+        "width": 1440,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-5 colstart-1 colend-6 no-frame-overflow align-top first-child no-parallax type-text id-1028  no-sticky",
+      "text": "Part of CUJO's promise to protect every single device connected to your network. Naturally, we needed a custom icon set ",
+      "rect": {
+        "x": 122.390625,
+        "y": 4149.125,
+        "width": 583.203125,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1028 ",
+      "text": "Part of CUJO's promise to protect every single device connected to your network. Naturally, we needed a custom icon set ",
+      "rect": {
+        "x": 122.390625,
+        "y": 4149.125,
+        "width": 583.203125,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Part of CUJO's promise to protect every single device connected to your network. Naturally, we needed a custom icon set ",
+      "rect": {
+        "x": 122.390625,
+        "y": 4149.125,
+        "width": 583.203125,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-8",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 4319.125,
+        "width": 1440,
+        "height": 597.890625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 4319.125,
+        "width": 1440,
+        "height": 597.890625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 4319.125,
+        "width": 1440,
+        "height": 597.890625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-2 span-8 colstart-2 colend-10 no-frame-overflow align-bottom first-child no-parallax type-img id-1029  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 244.796875,
+        "y": 4319.125,
+        "width": 950.390625,
+        "height": 597.890625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 72px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img image-transparent-bg landscape  ",
+      "text": "",
+      "rect": {
+        "x": 244.796875,
+        "y": 4319.125,
+        "width": 950.390625,
+        "height": 525.890625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 244.796875,
+        "y": 4319.125,
+        "width": 950.390625,
+        "height": 525.890625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 244.796875,
+        "y": 4319.125,
+        "width": 950.390625,
+        "height": 525.890625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 525.891px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-9",
+      "text": "Protecting children from the bad stuff is increasingly important for families whose kid's are taking their first steps o",
+      "rect": {
+        "x": 0,
+        "y": 5077.015625,
+        "width": 1440,
+        "height": 176
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 40px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Protecting children from the bad stuff is increasingly important for families whose kid's are taking their first steps o",
+      "rect": {
+        "x": 0,
+        "y": 5077.015625,
+        "width": 1440,
+        "height": 176
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Protecting children from the bad stuff is increasingly important for families whose kid's are taking their first steps o",
+      "rect": {
+        "x": 0,
+        "y": 5077.015625,
+        "width": 1440,
+        "height": 176
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-10 colstart-1 colend-11 no-frame-overflow align-bottom first-child no-parallax type-text id-1030  no-sticky",
+      "text": "Protecting children from the bad stuff is increasingly important for families whose kid's are taking their first steps o",
+      "rect": {
+        "x": 122.390625,
+        "y": 5077.015625,
+        "width": 1195.203125,
+        "height": 176
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1030 ",
+      "text": "Protecting children from the bad stuff is increasingly important for families whose kid's are taking their first steps o",
+      "rect": {
+        "x": 122.390625,
+        "y": 5077.015625,
+        "width": 1195.203125,
+        "height": 176
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_Default",
+      "text": "Protecting children from the bad stuff is increasingly important for families whose kid's are taking their first steps o",
+      "rect": {
+        "x": 122.390625,
+        "y": 5077.015625,
+        "width": 1195.203125,
+        "height": 176
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "40px",
+        "fontWeight": "300",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-10",
+      "text": "At the top of app's most requested features were parental controls. Our users wanted to be able to control what their ki",
+      "rect": {
+        "x": 0,
+        "y": 5293.015625,
+        "width": 1440,
+        "height": 240
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 80px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "At the top of app's most requested features were parental controls. Our users wanted to be able to control what their ki",
+      "rect": {
+        "x": 0,
+        "y": 5293.015625,
+        "width": 1440,
+        "height": 240
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "At the top of app's most requested features were parental controls. Our users wanted to be able to control what their ki",
+      "rect": {
+        "x": 0,
+        "y": 5293.015625,
+        "width": 1440,
+        "height": 240
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-5 colstart-1 colend-6 no-frame-overflow align-bottom first-child no-parallax type-text id-1031  no-sticky",
+      "text": "At the top of app's most requested features were parental controls. Our users wanted to be able to control what their ki",
+      "rect": {
+        "x": 122.390625,
+        "y": 5293.015625,
+        "width": 583.203125,
+        "height": 240
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1031 ",
+      "text": "At the top of app's most requested features were parental controls. Our users wanted to be able to control what their ki",
+      "rect": {
+        "x": 122.390625,
+        "y": 5293.015625,
+        "width": 583.203125,
+        "height": 240
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "At the top of app's most requested features were parental controls. Our users wanted to be able to control what their ki",
+      "rect": {
+        "x": 122.390625,
+        "y": 5293.015625,
+        "width": 583.203125,
+        "height": 240
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-0 span-5 colstart-6 colend-11 no-frame-overflow align-top not-first-child no-parallax type-text id-1032  no-sticky",
+      "text": "Drawing on our conversations with the families, we reimagined the schedules as cards, each dedicated to a time-frame in ",
+      "rect": {
+        "x": 734.390625,
+        "y": 5293.015625,
+        "width": 583.203125,
+        "height": 150
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1032 ",
+      "text": "Drawing on our conversations with the families, we reimagined the schedules as cards, each dedicated to a time-frame in ",
+      "rect": {
+        "x": 734.390625,
+        "y": 5293.015625,
+        "width": 583.203125,
+        "height": 150
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Drawing on our conversations with the families, we reimagined the schedules as cards, each dedicated to a time-frame in ",
+      "rect": {
+        "x": 734.390625,
+        "y": 5293.015625,
+        "width": 583.203125,
+        "height": 150
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-11",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 5613.015625,
+        "width": 1440,
+        "height": 779.203125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 5613.015625,
+        "width": 1440,
+        "height": 779.203125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 5613.015625,
+        "width": 1440,
+        "height": 779.203125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-10 colstart-1 colend-11 no-frame-overflow align-bottom first-child no-parallax type-img id-1033  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 5613.015625,
+        "width": 1195.203125,
+        "height": 779.203125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img image-transparent-bg landscape  ",
+      "text": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 5613.015625,
+        "width": 1195.203125,
+        "height": 779.203125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 5613.015625,
+        "width": 1195.203125,
+        "height": 779.203125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 5613.015625,
+        "width": 1195.203125,
+        "height": 779.203125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 779.203px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-12",
+      "text": "Building on access controls, we could provide additional value by displaying aggregate usage data for each profileWe ext",
+      "rect": {
+        "x": 0,
+        "y": 6552.21875,
+        "width": 1440,
+        "height": 694
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Building on access controls, we could provide additional value by displaying aggregate usage data for each profileWe ext",
+      "rect": {
+        "x": 0,
+        "y": 6552.21875,
+        "width": 1440,
+        "height": 694
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Building on access controls, we could provide additional value by displaying aggregate usage data for each profileWe ext",
+      "rect": {
+        "x": 0,
+        "y": 6552.21875,
+        "width": 1440,
+        "height": 694
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-4 colstart-1 colend-5 no-frame-overflow align-top first-child no-parallax type-text id-1034  no-sticky",
+      "text": "Building on access controls, we could provide additional value by displaying aggregate usage data for each profileWe ext",
+      "rect": {
+        "x": 122.390625,
+        "y": 6552.21875,
+        "width": 460.796875,
+        "height": 512
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1034 ",
+      "text": "Building on access controls, we could provide additional value by displaying aggregate usage data for each profileWe ext",
+      "rect": {
+        "x": 122.390625,
+        "y": 6552.21875,
+        "width": 460.796875,
+        "height": 512
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_Default",
+      "text": "Building on access controls, we could provide additional value by displaying aggregate usage data for each profile",
+      "rect": {
+        "x": 122.390625,
+        "y": 6552.21875,
+        "width": 460.796875,
+        "height": 264
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "40px",
+        "fontWeight": "300",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "We extracted the most meaningful metrics (number of threats, most visited sites, and time spent in each content category",
+      "rect": {
+        "x": 122.390625,
+        "y": 6824.21875,
+        "width": 460.796875,
+        "height": 240
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-2 span-3 colstart-7 colend-10 no-frame-overflow align-middle not-first-child no-parallax type-img id-1035  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 856.796875,
+        "y": 6552.21875,
+        "width": 338.390625,
+        "height": 694
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img image-transparent-bg portrait  ",
+      "text": "",
+      "rect": {
+        "x": 856.796875,
+        "y": 6552.21875,
+        "width": 338.390625,
+        "height": 694
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 856.796875,
+        "y": 6552.21875,
+        "width": 338.390625,
+        "height": 694
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 856.796875,
+        "y": 6552.21875,
+        "width": 338.390625,
+        "height": 694
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 694px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-13",
+      "text": "Apart from the ease of use, the simplicity of parental controls' set up was crucial. Analyzing the funnel of , we were a",
+      "rect": {
+        "x": 0,
+        "y": 7406.21875,
+        "width": 1440,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 40px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Apart from the ease of use, the simplicity of parental controls' set up was crucial. Analyzing the funnel of , we were a",
+      "rect": {
+        "x": 0,
+        "y": 7406.21875,
+        "width": 1440,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Apart from the ease of use, the simplicity of parental controls' set up was crucial. Analyzing the funnel of , we were a",
+      "rect": {
+        "x": 0,
+        "y": 7406.21875,
+        "width": 1440,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-5 colstart-1 colend-6 no-frame-overflow align-top first-child no-parallax type-text id-1036  no-sticky",
+      "text": "Apart from the ease of use, the simplicity of parental controls' set up was crucial. Analyzing the funnel of , we were a",
+      "rect": {
+        "x": 122.390625,
+        "y": 7406.21875,
+        "width": 583.203125,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://laytheme.com/",
+      "text": "Created with Laytheme.com",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1255.59375,
+        "y": 963,
+        "width": 174.40625,
+        "height": 27
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://karoliskosas.com/",
+      "text": "Karolis Kosas",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 2,
+      "href": "http://karoliskosas.com/",
+      "text": "Home",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 3,
+      "href": "http://karoliskosas.com/",
+      "text": "Home",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://karoliskosas.com/",
+      "text": "Karolis Kosas",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 5,
+      "href": "http://karoliskosas.com/home/",
+      "text": "Home",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 299.15625,
+        "y": 12032.8125,
+        "width": 107.25,
+        "height": 48
+      }
+    },
+    {
+      "index": 6,
+      "href": "http://karoliskosas.com/home/",
+      "text": "Home",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Created with Laytheme.com",
+      "href": "https://laytheme.com/",
+      "aria": "",
+      "rect": {
+        "x": 1255.59375,
+        "y": 963,
+        "width": 174.40625,
+        "height": 27
+      }
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "Home",
+      "href": "http://karoliskosas.com/home/",
+      "aria": "",
+      "rect": {
+        "x": 299.15625,
+        "y": 12032.8125,
+        "width": 107.25,
+        "height": 48
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

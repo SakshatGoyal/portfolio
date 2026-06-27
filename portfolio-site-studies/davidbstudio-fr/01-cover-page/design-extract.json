@@ -1,0 +1,3886 @@
+{
+  "title": "david.B.studio – creative studio",
+  "url": "https://davidbstudio.fr/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 13999,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(2, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(253, 249, 246)",
+    "rgb(21, 115, 221)",
+    "rgba(0, 0, 0, 0.5)",
+    "rgb(153, 153, 153)",
+    "rgb(184, 184, 184)",
+    "rgba(2, 0, 0, 0.35)",
+    "rgba(2, 0, 0, 0.63)",
+    "rgba(2, 0, 0, 0.58)",
+    "rgb(244, 244, 244)",
+    "rgb(255, 246, 232)",
+    "rgba(255, 255, 255, 0)",
+    "rgb(119, 119, 119)",
+    "rgb(255, 211, 0)"
+  ],
+  "fonts": [
+    "Inter, sans-serif",
+    "Silka-Regular, sans-serif",
+    "Arial",
+    "silka, sans-serif"
+  ],
+  "samples": [
+    {
+      "tag": "div",
+      "className": "content-container active-content",
+      "text": "ProjetsÀ proposContact ☻ HI ! NICE TO SEE YOU HEREMultidisciplinary & independant creative studio. Feel free to contact ",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "smp-nav-section",
+      "className": "smp-navbar",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 53
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "smp-nav-row",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 53
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "smp-nav-section",
+      "className": "smp-navbar",
+      "text": "ProjetsÀ proposContact ☻",
+      "rect": {
+        "x": 0,
+        "y": 899,
+        "width": 1440,
+        "height": 101
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "17px 0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "smp-nav-row",
+      "className": "",
+      "text": "ProjetsÀ proposContact ☻",
+      "rect": {
+        "x": 0,
+        "y": 916,
+        "width": 1440,
+        "height": 67
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "smp-nav-button is-content",
+      "text": "Projets",
+      "rect": {
+        "x": 17,
+        "y": 916,
+        "width": 155.375,
+        "height": 67
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "15px 30px",
+        "borderRadius": "80px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "text",
+      "text": "Projets",
+      "rect": {
+        "x": 48,
+        "y": 932,
+        "width": 93.375,
+        "height": 35
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "smp-nav-button is-content",
+      "text": "À propos",
+      "rect": {
+        "x": 192.375,
+        "y": 916,
+        "width": 182.078125,
+        "height": 67
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "15px 30px",
+        "borderRadius": "80px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "text",
+      "text": "À propos",
+      "rect": {
+        "x": 223.375,
+        "y": 932,
+        "width": 120.078125,
+        "height": 35
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "smp-nav-button is-content",
+      "text": "Contact ☻",
+      "rect": {
+        "x": 394.453125,
+        "y": 916,
+        "width": 195.828125,
+        "height": 67
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(2, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "15px 30px",
+        "borderRadius": "80px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "text",
+      "text": "Contact ☻",
+      "rect": {
+        "x": 425.453125,
+        "y": 932,
+        "width": 133.828125,
+        "height": 35
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "smp-nav-button is-content",
+      "text": "",
+      "rect": {
+        "x": 1357,
+        "y": 916,
+        "width": 67,
+        "height": 67
+      },
+      "styles": {
+        "color": "rgba(0, 0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Arial",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "15px",
+        "borderRadius": "101px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "icon",
+      "text": "",
+      "rect": {
+        "x": 1373,
+        "y": 932,
+        "width": 35,
+        "height": 35
+      },
+      "styles": {
+        "color": "rgba(0, 0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "transition-wrap",
+      "text": "HI ! NICE TO SEE YOU HEREMultidisciplinary & independant creative studio. Feel free to contact us for a collab ✌︎ Art di",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 13998.84375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "sections",
+      "text": "HI ! NICE TO SEE YOU HEREMultidisciplinary & independant creative studio. Feel free to contact us for a collab ✌︎ Art di",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 13998.84375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 644,
+        "y": 50,
+        "width": 1346,
+        "height": 317.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 644,
+        "y": 50,
+        "width": 542,
+        "height": 317.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 644,
+        "y": 50,
+        "width": 542,
+        "height": 317.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "HI ! NICE TO SEE YOU HERE",
+      "rect": {
+        "x": 30,
+        "y": 257.328125,
+        "width": 1380,
+        "height": 25.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "HI ! NICE TO SEE YOU HERE",
+      "rect": {
+        "x": 30,
+        "y": 257.328125,
+        "width": 1380,
+        "height": 25.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "font_n1k5nfch2",
+      "text": "HI ! NICE TO SEE YOU HERE",
+      "rect": {
+        "x": 30,
+        "y": 260.328125,
+        "width": 217.859375,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Multidisciplinary & independant creative studio. Feel free to contact us for a collab ✌︎",
+      "rect": {
+        "x": 30,
+        "y": 282.921875,
+        "width": 1380,
+        "height": 265.5
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Multidisciplinary & independant creative studio. Feel free to contact us for a collab ✌︎",
+      "rect": {
+        "x": 30,
+        "y": 282.921875,
+        "width": 1380,
+        "height": 265.5
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "75px",
+        "fontWeight": "400",
+        "lineHeight": "88.5px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "font_n1k5nfch2",
+      "text": "Multidisciplinary & independant creative studio. Feel free to",
+      "rect": {
+        "x": 30,
+        "y": 283.921875,
+        "width": 1317.375,
+        "height": 174.5
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "75px",
+        "fontWeight": "400",
+        "lineHeight": "88.5px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "contact us",
+      "rect": {
+        "x": 672.015625,
+        "y": 372.421875,
+        "width": 341.859375,
+        "height": 86
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "75px",
+        "fontWeight": "400",
+        "lineHeight": "88.5px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "font_n1k5nfch2",
+      "text": "contact us",
+      "rect": {
+        "x": 672.015625,
+        "y": 372.421875,
+        "width": 341.859375,
+        "height": 86
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "75px",
+        "fontWeight": "400",
+        "lineHeight": "88.5px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "font_n1k5nfch2",
+      "text": "for a collab ✌︎",
+      "rect": {
+        "x": 30,
+        "y": 372.421875,
+        "width": 1371.59375,
+        "height": 174.5
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "75px",
+        "fontWeight": "400",
+        "lineHeight": "88.5px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content semplice-marquee",
+      "text": "Art direction ⌁ Graphic design ⌁ Branding ⌁ User interface ⌁ Editorial design ⌁ User experience ⌁ Illustration & more …A",
+      "rect": {
+        "x": 0,
+        "y": 698.421875,
+        "width": 1440,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "semplice-marquee-inner",
+      "text": "Art direction ⌁ Graphic design ⌁ Branding ⌁ User interface ⌁ Editorial design ⌁ User experience ⌁ Illustration & more …A",
+      "rect": {
+        "x": -430.3999938964844,
+        "y": 698.421875,
+        "width": 1440,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "semplice-marquee-content semplice-marquee-text",
+      "text": "Art direction ⌁ Graphic design ⌁ Branding ⌁ User interface ⌁ Editorial design ⌁ User experience ⌁ Illustration & more …",
+      "rect": {
+        "x": -430.3999938964844,
+        "y": 714.421875,
+        "width": 1844.171875,
+        "height": 40
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "35px",
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "margin": "0px 20px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "semplice-marquee-content semplice-marquee-text",
+      "text": "Art direction ⌁ Graphic design ⌁ Branding ⌁ User interface ⌁ Editorial design ⌁ User experience ⌁ Illustration & more …",
+      "rect": {
+        "x": 1433.7718505859375,
+        "y": 714.421875,
+        "width": 1844.1719970703125,
+        "height": 40
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "35px",
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "margin": "0px 20px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "semplice-marquee-content semplice-marquee-text",
+      "text": "Art direction ⌁ Graphic design ⌁ Branding ⌁ User interface ⌁ Editorial design ⌁ User experience ⌁ Illustration & more …",
+      "rect": {
+        "x": 3297.94384765625,
+        "y": 714.421875,
+        "width": 1844.171875,
+        "height": 40
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "35px",
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "margin": "0px 20px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry",
+      "text": "Watch makers exposition, affiche, identité MOKO branding NOSCHOOL signalétique, identity Persona Everywhere edition What",
+      "rect": {
+        "x": 40,
+        "y": 800.421875,
+        "width": 1360,
+        "height": 2722.28125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px -5px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item-width",
+      "text": "",
+      "rect": {
+        "x": 40,
+        "y": 800.421875,
+        "width": 113.328125,
+        "height": 2722.28125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-4 cat-11 cat-33",
+      "text": "Watch makers exposition, affiche, identité",
+      "rect": {
+        "x": 40,
+        "y": 800.421875,
+        "width": 453.328125,
+        "height": 565.140625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "Watch makers exposition, affiche, identité",
+      "rect": {
+        "x": 45,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 555.140625
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "Watch makers exposition, affiche, identité",
+      "rect": {
+        "x": 45,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 555.140625
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "Watch makers exposition, affiche, identité",
+      "rect": {
+        "x": 45,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 555.140625
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0.5)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "Watch makers exposition, affiche, identité",
+      "rect": {
+        "x": 15,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 555.140625
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Watch makers exposition, affiche, identité",
+      "rect": {
+        "x": 54.953125,
+        "y": 840.375,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "Watch makers",
+      "rect": {
+        "x": 54.953125,
+        "y": 843.375,
+        "width": 127.078125,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "exposition, affiche, identité",
+      "rect": {
+        "x": 54.953125,
+        "y": 872.375,
+        "width": 165,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(153, 153, 153)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-11",
+      "text": "MOKO branding",
+      "rect": {
+        "x": 493.296875,
+        "y": 800.421875,
+        "width": 453.328125,
+        "height": 494.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "MOKO branding",
+      "rect": {
+        "x": 498.296875,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "MOKO branding",
+      "rect": {
+        "x": 498.296875,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "MOKO branding",
+      "rect": {
+        "x": 498.296875,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0.5)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "MOKO branding",
+      "rect": {
+        "x": 468.296875,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "MOKO branding",
+      "rect": {
+        "x": 508.25,
+        "y": 840.375,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "MOKO",
+      "rect": {
+        "x": 508.25,
+        "y": 843.375,
+        "width": 61.125,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "branding",
+      "rect": {
+        "x": 508.25,
+        "y": 872.375,
+        "width": 54.5,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(184, 184, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-11 cat-33",
+      "text": "NOSCHOOL signalétique, identity",
+      "rect": {
+        "x": 946.609375,
+        "y": 800.421875,
+        "width": 453.328125,
+        "height": 494.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "NOSCHOOL signalétique, identity",
+      "rect": {
+        "x": 951.609375,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "NOSCHOOL signalétique, identity",
+      "rect": {
+        "x": 951.609375,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "NOSCHOOL signalétique, identity",
+      "rect": {
+        "x": 951.609375,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0.5)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "NOSCHOOL signalétique, identity",
+      "rect": {
+        "x": 921.609375,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "NOSCHOOL signalétique, identity",
+      "rect": {
+        "x": 961.5625,
+        "y": 840.375,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "NOSCHOOL",
+      "rect": {
+        "x": 961.5625,
+        "y": 843.375,
+        "width": 114.46875,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "signalétique, identity",
+      "rect": {
+        "x": 961.5625,
+        "y": 872.375,
+        "width": 126.875,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(153, 153, 153)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below",
+      "text": "Persona Everywhere edition",
+      "rect": {
+        "x": 493.296875,
+        "y": 1294.71875,
+        "width": 453.328125,
+        "height": 453.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "Persona Everywhere edition",
+      "rect": {
+        "x": 498.296875,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 443.328125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "Persona Everywhere edition",
+      "rect": {
+        "x": 498.296875,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 443.328125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "Persona Everywhere edition",
+      "rect": {
+        "x": 498.296875,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 443.328125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(2, 0, 0, 0.35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "Persona Everywhere edition",
+      "rect": {
+        "x": 468.296875,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 443.328125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Persona Everywhere edition",
+      "rect": {
+        "x": 508.25,
+        "y": 1334.671875,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "Persona Everywhere",
+      "rect": {
+        "x": 508.25,
+        "y": 1337.671875,
+        "width": 185.65625,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "edition",
+      "rect": {
+        "x": 508.25,
+        "y": 1366.671875,
+        "width": 41.265625,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(184, 184, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below",
+      "text": "What time is it? exposition, identité",
+      "rect": {
+        "x": 946.609375,
+        "y": 1294.71875,
+        "width": 453.328125,
+        "height": 699.375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "What time is it? exposition, identité",
+      "rect": {
+        "x": 951.609375,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 689.375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "What time is it? exposition, identité",
+      "rect": {
+        "x": 951.609375,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 689.375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "What time is it? exposition, identité",
+      "rect": {
+        "x": 951.609375,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 689.375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(2, 0, 0, 0.35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "What time is it? exposition, identité",
+      "rect": {
+        "x": 921.609375,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 689.375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "40px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "What time is it? exposition, identité",
+      "rect": {
+        "x": 961.609375,
+        "y": 1334.71875,
+        "width": 363.328125,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "What time is it?",
+      "rect": {
+        "x": 961.609375,
+        "y": 1337.71875,
+        "width": 136.703125,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "exposition, identité",
+      "rect": {
+        "x": 961.609375,
+        "y": 1366.71875,
+        "width": 115.96875,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(184, 184, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-12",
+      "text": "Chaire Mutation website",
+      "rect": {
+        "x": 40,
+        "y": 1365.5625,
+        "width": 453.328125,
+        "height": 528.9375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "Chaire Mutation website",
+      "rect": {
+        "x": 45,
+        "y": 1365.5625,
+        "width": 443.328125,
+        "height": 518.9375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "Chaire Mutation website",
+      "rect": {
+        "x": 45,
+        "y": 1365.5625,
+        "width": 443.328125,
+        "height": 518.9375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "Chaire Mutation website",
+      "rect": {
+        "x": 45,
+        "y": 1365.5625,
+        "width": 443.328125,
+        "height": 518.9375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(2, 0, 0, 0.35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "Chaire Mutation website",
+      "rect": {
+        "x": 15,
+        "y": 1365.5625,
+        "width": 443.328125,
+        "height": 518.9375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Chaire Mutation website",
+      "rect": {
+        "x": 54.953125,
+        "y": 1405.515625,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "Chaire Mutation",
+      "rect": {
+        "x": 54.953125,
+        "y": 1408.515625,
+        "width": 141.1875,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "website",
+      "rect": {
+        "x": 54.953125,
+        "y": 1437.515625,
+        "width": 47.46875,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(184, 184, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-11 cat-12",
+      "text": "AG studio identité, webdesign",
+      "rect": {
+        "x": 493.296875,
+        "y": 1748.046875,
+        "width": 453.328125,
+        "height": 311.515625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "AG studio identité, webdesign",
+      "rect": {
+        "x": 498.296875,
+        "y": 1748.046875,
+        "width": 443.328125,
+        "height": 301.515625
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "AG studio identité, webdesign",
+      "rect": {
+        "x": 498.296875,
+        "y": 1748.046875,
+        "width": 443.328125,
+        "height": 301.515625
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "AG studio identité, webdesign",
+      "rect": {
+        "x": 498.296875,
+        "y": 1748.046875,
+        "width": 443.328125,
+        "height": 301.515625
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(2, 0, 0, 0.63)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "AG studio identité, webdesign",
+      "rect": {
+        "x": 468.296875,
+        "y": 1748.046875,
+        "width": 443.328125,
+        "height": 301.515625
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "AG studio identité, webdesign",
+      "rect": {
+        "x": 508.25,
+        "y": 1788,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "AG studio",
+      "rect": {
+        "x": 508.25,
+        "y": 1791,
+        "width": 87.828125,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "identité, webdesign",
+      "rect": {
+        "x": 508.25,
+        "y": 1820,
+        "width": 119.875,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(184, 184, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-11 cat-12",
+      "text": "nainai branding, webdesign",
+      "rect": {
+        "x": 40,
+        "y": 1894.5,
+        "width": 453.328125,
+        "height": 453.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "nainai branding, webdesign",
+      "rect": {
+        "x": 45,
+        "y": 1894.5,
+        "width": 443.328125,
+        "height": 443.328125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "nainai branding, webdesign",
+      "rect": {
+        "x": 45,
+        "y": 1894.5,
+        "width": 443.328125,
+        "height": 443.328125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "nainai branding, webdesign",
+      "rect": {
+        "x": 45,
+        "y": 1894.5,
+        "width": 443.328125,
+        "height": 443.328125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(2, 0, 0, 0.58)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "nainai branding, webdesign",
+      "rect": {
+        "x": 15,
+        "y": 1894.5,
+        "width": 443.328125,
+        "height": 443.328125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "nainai branding, webdesign",
+      "rect": {
+        "x": 54.953125,
+        "y": 1934.453125,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "nainai",
+      "rect": {
+        "x": 54.953125,
+        "y": 1937.453125,
+        "width": 53.390625,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "branding, webdesign",
+      "rect": {
+        "x": 54.953125,
+        "y": 1966.453125,
+        "width": 129.21875,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(184, 184, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-12",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "rect": {
+        "x": 946.609375,
+        "y": 1994.09375,
+        "width": 453.328125,
+        "height": 300.703125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "rect": {
+        "x": 951.609375,
+        "y": 1994.09375,
+        "width": 443.328125,
+        "height": 290.703125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "rect": {
+        "x": 951.609375,
+        "y": 1994.09375,
+        "width": 443.328125,
+        "height": 290.703125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "rect": {
+        "x": 951.609375,
+        "y": 1994.09375,
+        "width": 443.328125,
+        "height": 290.703125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(2, 0, 0, 0.35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "rect": {
+        "x": 921.609375,
+        "y": 1994.09375,
+        "width": 443.328125,
+        "height": 290.703125
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "rect": {
+        "x": 961.5625,
+        "y": 2034.046875,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "Maison d'Orsay Paris",
+      "rect": {
+        "x": 961.5625,
+        "y": 2037.046875,
+        "width": 189.4375,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "Webdesign",
+      "rect": {
+        "x": 961.5625,
+        "y": 2066.046875,
+        "width": 69.796875,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(184, 184, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-4",
+      "text": "AIRE • Territoires de travail exposition",
+      "rect": {
+        "x": 493.296875,
+        "y": 2059.5625,
+        "width": 453.328125,
+        "height": 608.484375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "AIRE • Territoires de travail exposition",
+      "rect": {
+        "x": 498.296875,
+        "y": 2059.5625,
+        "width": 443.328125,
+        "height": 598.484375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "AIRE • Territoires de travail exposition",
+      "rect": {
+        "x": 498.296875,
+        "y": 2059.5625,
+        "width": 443.328125,
+        "height": 598.484375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "AIRE • Territoires de travail exposition",
+      "rect": {
+        "x": 498.296875,
+        "y": 2059.5625,
+        "width": 443.328125,
+        "height": 598.484375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(2, 0, 0, 0.35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "AIRE • Territoires de travail exposition",
+      "rect": {
+        "x": 468.296875,
+        "y": 2059.5625,
+        "width": 443.328125,
+        "height": 598.484375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "AIRE • Territoires de travail exposition",
+      "rect": {
+        "x": 508.25,
+        "y": 2099.515625,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "title",
+      "text": "AIRE • Territoires de travail",
+      "rect": {
+        "x": 508.25,
+        "y": 2102.515625,
+        "width": 238.953125,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "category",
+      "text": "exposition",
+      "rect": {
+        "x": 508.25,
+        "y": 2131.515625,
+        "width": 63.046875,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(184, 184, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "masonry-item thumb masonry-content_erketj32f-item below cat-11 cat-12",
+      "text": "Laserskin Branding, webdesign",
+      "rect": {
+        "x": 946.609375,
+        "y": 2294.796875,
+        "width": 453.328125,
+        "height": 292
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 5px 10px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "pg-link",
+      "text": "Laserskin Branding, webdesign",
+      "rect": {
+        "x": 951.609375,
+        "y": 2294.796875,
+        "width": 443.328125,
+        "height": 282
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-inner",
+      "text": "Laserskin Branding, webdesign",
+      "rect": {
+        "x": 951.609375,
+        "y": 2294.796875,
+        "width": 443.328125,
+        "height": 282
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "10px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover",
+      "text": "Laserskin Branding, webdesign",
+      "rect": {
+        "x": 951.609375,
+        "y": 2294.796875,
+        "width": 443.328125,
+        "height": 282
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(2, 0, 0, 0.35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "thumb-hover-meta top-left show-both move-left",
+      "text": "Laserskin Branding, webdesign",
+      "rect": {
+        "x": 921.609375,
+        "y": 2294.796875,
+        "width": 443.328125,
+        "height": 282
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "39.96px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Laserskin Branding, webdesign",
+      "rect": {
+        "x": 961.5625,
+        "y": 2334.75,
+        "width": 363.421875,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://davidbstudio.fr/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 9,
+        "y": 49.71875,
+        "width": 160,
+        "height": 0
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://davidbstudio.fr/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 1381,
+        "y": 53,
+        "width": 50,
+        "height": 0
+      }
+    },
+    {
+      "index": 2,
+      "href": "mailto:bonjour@davidbstudio.fr",
+      "text": "contact us",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 672.015625,
+        "y": 372.421875,
+        "width": 341.859375,
+        "height": 86
+      }
+    },
+    {
+      "index": 3,
+      "href": "mailto:mailto%20: hello@davidbstud.io",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 71.171875,
+        "y": 460.921875,
+        "width": 0,
+        "height": 86
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://davidbstudio.fr/projets/watch-makers",
+      "text": "Watch makers exposition, affiche, identité",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 555.140625
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://davidbstudio.fr/projets/watch-makers",
+      "text": "",
+      "aria": "",
+      "title": "Watch makers",
+      "visible": false,
+      "rect": {
+        "x": 45,
+        "y": 1355.5625,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 6,
+      "href": "https://davidbstudio.fr/projets/moko",
+      "text": "MOKO branding",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 498.296875,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      }
+    },
+    {
+      "index": 7,
+      "href": "https://davidbstudio.fr/projets/moko",
+      "text": "",
+      "aria": "",
+      "title": "MOKO",
+      "visible": false,
+      "rect": {
+        "x": 498.296875,
+        "y": 1284.734375,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 8,
+      "href": "https://davidbstudio.fr/projets/noschool",
+      "text": "NOSCHOOL signalétique, identity",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 951.609375,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      }
+    },
+    {
+      "index": 9,
+      "href": "https://davidbstudio.fr/projets/noschool",
+      "text": "",
+      "aria": "",
+      "title": "NOSCHOOL",
+      "visible": false,
+      "rect": {
+        "x": 951.609375,
+        "y": 1284.734375,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 10,
+      "href": "https://davidbstudio.fr/projets/persona-everywhere",
+      "text": "Persona Everywhere edition",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 498.296875,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 443.328125
+      }
+    },
+    {
+      "index": 11,
+      "href": "https://davidbstudio.fr/projets/persona-everywhere",
+      "text": "",
+      "aria": "",
+      "title": "Persona Everywhere",
+      "visible": false,
+      "rect": {
+        "x": 498.296875,
+        "y": 1738.046875,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 12,
+      "href": "https://davidbstudio.fr/projets/what-time-is-it",
+      "text": "What time is it? exposition, identité",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 951.609375,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 689.375
+      }
+    },
+    {
+      "index": 13,
+      "href": "https://davidbstudio.fr/projets/what-time-is-it",
+      "text": "",
+      "aria": "",
+      "title": "What time is it?",
+      "visible": false,
+      "rect": {
+        "x": 951.609375,
+        "y": 1984.09375,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 14,
+      "href": "https://davidbstudio.fr/projets/chaire-mutation",
+      "text": "Chaire Mutation website",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 1365.5625,
+        "width": 443.328125,
+        "height": 518.9375
+      }
+    },
+    {
+      "index": 15,
+      "href": "https://davidbstudio.fr/projets/chaire-mutation",
+      "text": "",
+      "aria": "",
+      "title": "Chaire Mutation",
+      "visible": false,
+      "rect": {
+        "x": 45,
+        "y": 1884.5,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 16,
+      "href": "https://davidbstudio.fr/projets/ag-studio",
+      "text": "AG studio identité, webdesign",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 498.296875,
+        "y": 1748.046875,
+        "width": 443.328125,
+        "height": 301.515625
+      }
+    },
+    {
+      "index": 17,
+      "href": "https://davidbstudio.fr/projets/ag-studio",
+      "text": "",
+      "aria": "",
+      "title": "AG studio",
+      "visible": false,
+      "rect": {
+        "x": 498.296875,
+        "y": 2049.5625,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 18,
+      "href": "https://davidbstudio.fr/projets/nainai",
+      "text": "nainai branding, webdesign",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 1894.5,
+        "width": 443.328125,
+        "height": 443.328125
+      }
+    },
+    {
+      "index": 19,
+      "href": "https://davidbstudio.fr/projets/nainai",
+      "text": "",
+      "aria": "",
+      "title": "nainai",
+      "visible": false,
+      "rect": {
+        "x": 45,
+        "y": 2337.828125,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 20,
+      "href": "https://davidbstudio.fr/projets/dorsay",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 951.609375,
+        "y": 1994.09375,
+        "width": 443.328125,
+        "height": 290.703125
+      }
+    },
+    {
+      "index": 21,
+      "href": "https://davidbstudio.fr/projets/dorsay",
+      "text": "",
+      "aria": "",
+      "title": "Maison d'Orsay Paris",
+      "visible": false,
+      "rect": {
+        "x": 951.609375,
+        "y": 2284.796875,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 22,
+      "href": "https://davidbstudio.fr/projets/aires",
+      "text": "AIRE • Territoires de travail exposition",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 498.296875,
+        "y": 2059.5625,
+        "width": 443.328125,
+        "height": 598.484375
+      }
+    },
+    {
+      "index": 23,
+      "href": "https://davidbstudio.fr/projets/aires",
+      "text": "",
+      "aria": "",
+      "title": "AIRE • Territoires de travail",
+      "visible": false,
+      "rect": {
+        "x": 498.296875,
+        "y": 2658.046875,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 24,
+      "href": "https://davidbstudio.fr/projets/laserskin",
+      "text": "Laserskin Branding, webdesign",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 951.609375,
+        "y": 2294.796875,
+        "width": 443.328125,
+        "height": 282
+      }
+    },
+    {
+      "index": 25,
+      "href": "https://davidbstudio.fr/projets/laserskin",
+      "text": "",
+      "aria": "",
+      "title": "Laserskin",
+      "visible": false,
+      "rect": {
+        "x": 951.609375,
+        "y": 2576.796875,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 26,
+      "href": "https://davidbstudio.fr/projets/yumistudio",
+      "text": "Yumistudio identité",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 2347.828125,
+        "width": 443.328125,
+        "height": 635.9375
+      }
+    },
+    {
+      "index": 27,
+      "href": "https://davidbstudio.fr/projets/yumistudio",
+      "text": "",
+      "aria": "",
+      "title": "Yumistudio",
+      "visible": false,
+      "rect": {
+        "x": 45,
+        "y": 2983.765625,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 28,
+      "href": "https://davidbstudio.fr/projets/societer",
+      "text": "Societer UI/UX",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 951.609375,
+        "y": 2586.796875,
+        "width": 443.328125,
+        "height": 271.40625
+      }
+    },
+    {
+      "index": 29,
+      "href": "https://davidbstudio.fr/projets/societer",
+      "text": "",
+      "aria": "",
+      "title": "Societer",
+      "visible": false,
+      "rect": {
+        "x": 951.609375,
+        "y": 2858.203125,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 30,
+      "href": "https://davidbstudio.fr/projets/revue-volume",
+      "text": "Revue Volume Edition, Direction artistique",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 498.296875,
+        "y": 2668.046875,
+        "width": 443.328125,
+        "height": 442.796875
+      }
+    },
+    {
+      "index": 31,
+      "href": "https://davidbstudio.fr/projets/revue-volume",
+      "text": "",
+      "aria": "",
+      "title": "Revue Volume",
+      "visible": false,
+      "rect": {
+        "x": 498.296875,
+        "y": 3110.84375,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 32,
+      "href": "https://davidbstudio.fr/projets/agora",
+      "text": "agora exposition",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 951.609375,
+        "y": 2868.203125,
+        "width": 443.328125,
+        "height": 574.171875
+      }
+    },
+    {
+      "index": 33,
+      "href": "https://davidbstudio.fr/projets/agora",
+      "text": "",
+      "aria": "",
+      "title": "agora",
+      "visible": false,
+      "rect": {
+        "x": 951.609375,
+        "y": 3442.375,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 34,
+      "href": "https://davidbstudio.fr/projets/le-tamis-et-le-sable-2",
+      "text": "Le tamis et le sable édition, direction artistique",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 2993.765625,
+        "width": 443.328125,
+        "height": 518.9375
+      }
+    },
+    {
+      "index": 35,
+      "href": "https://davidbstudio.fr/projets/le-tamis-et-le-sable-2",
+      "text": "",
+      "aria": "",
+      "title": "Le tamis et le sable",
+      "visible": false,
+      "rect": {
+        "x": 45,
+        "y": 3512.703125,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 36,
+      "href": "https://davidbstudio.fr/projets/loma",
+      "text": "loma Identité",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 498.296875,
+        "y": 3120.84375,
+        "width": 443.328125,
+        "height": 330.265625
+      }
+    },
+    {
+      "index": 37,
+      "href": "https://davidbstudio.fr/projets/loma",
+      "text": "",
+      "aria": "",
+      "title": "loma",
+      "visible": false,
+      "rect": {
+        "x": 498.296875,
+        "y": 3451.109375,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 38,
+      "href": "mailto:bonjour@davidbstudio.fr",
+      "text": "contact us",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 752.265625,
+        "y": 13803.25,
+        "width": 164.09375,
+        "height": 41
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "button",
+      "text": "Projets",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 17,
+        "y": 916,
+        "width": 155.375,
+        "height": 67
+      }
+    },
+    {
+      "index": 1,
+      "tag": "button",
+      "text": "À propos",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 192.375,
+        "y": 916,
+        "width": 182.078125,
+        "height": 67
+      }
+    },
+    {
+      "index": 2,
+      "tag": "button",
+      "text": "Contact ☻",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 394.453125,
+        "y": 916,
+        "width": 195.828125,
+        "height": 67
+      }
+    },
+    {
+      "index": 3,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 1357,
+        "y": 916,
+        "width": 67,
+        "height": 67
+      }
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "contact us",
+      "href": "mailto:bonjour@davidbstudio.fr",
+      "aria": "",
+      "rect": {
+        "x": 672.015625,
+        "y": 372.421875,
+        "width": 341.859375,
+        "height": 86
+      }
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "Watch makers exposition, affiche, identité",
+      "href": "https://davidbstudio.fr/projets/watch-makers",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 555.140625
+      }
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "MOKO branding",
+      "href": "https://davidbstudio.fr/projets/moko",
+      "aria": "",
+      "rect": {
+        "x": 498.296875,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      }
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "NOSCHOOL signalétique, identity",
+      "href": "https://davidbstudio.fr/projets/noschool",
+      "aria": "",
+      "rect": {
+        "x": 951.609375,
+        "y": 800.421875,
+        "width": 443.328125,
+        "height": 484.3125
+      }
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "Persona Everywhere edition",
+      "href": "https://davidbstudio.fr/projets/persona-everywhere",
+      "aria": "",
+      "rect": {
+        "x": 498.296875,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 443.328125
+      }
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "What time is it? exposition, identité",
+      "href": "https://davidbstudio.fr/projets/what-time-is-it",
+      "aria": "",
+      "rect": {
+        "x": 951.609375,
+        "y": 1294.71875,
+        "width": 443.328125,
+        "height": 689.375
+      }
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Chaire Mutation website",
+      "href": "https://davidbstudio.fr/projets/chaire-mutation",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 1365.5625,
+        "width": 443.328125,
+        "height": 518.9375
+      }
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "AG studio identité, webdesign",
+      "href": "https://davidbstudio.fr/projets/ag-studio",
+      "aria": "",
+      "rect": {
+        "x": 498.296875,
+        "y": 1748.046875,
+        "width": 443.328125,
+        "height": 301.515625
+      }
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "nainai branding, webdesign",
+      "href": "https://davidbstudio.fr/projets/nainai",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 1894.5,
+        "width": 443.328125,
+        "height": 443.328125
+      }
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "href": "https://davidbstudio.fr/projets/dorsay",
+      "aria": "",
+      "rect": {
+        "x": 951.609375,
+        "y": 1994.09375,
+        "width": 443.328125,
+        "height": 290.703125
+      }
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "AIRE • Territoires de travail exposition",
+      "href": "https://davidbstudio.fr/projets/aires",
+      "aria": "",
+      "rect": {
+        "x": 498.296875,
+        "y": 2059.5625,
+        "width": 443.328125,
+        "height": 598.484375
+      }
+    },
+    {
+      "index": 15,
+      "tag": "a",
+      "text": "Laserskin Branding, webdesign",
+      "href": "https://davidbstudio.fr/projets/laserskin",
+      "aria": "",
+      "rect": {
+        "x": 951.609375,
+        "y": 2294.796875,
+        "width": 443.328125,
+        "height": 282
+      }
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "text": "Yumistudio identité",
+      "href": "https://davidbstudio.fr/projets/yumistudio",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 2347.828125,
+        "width": 443.328125,
+        "height": 635.9375
+      }
+    },
+    {
+      "index": 17,
+      "tag": "a",
+      "text": "Societer UI/UX",
+      "href": "https://davidbstudio.fr/projets/societer",
+      "aria": "",
+      "rect": {
+        "x": 951.609375,
+        "y": 2586.796875,
+        "width": 443.328125,
+        "height": 271.40625
+      }
+    },
+    {
+      "index": 18,
+      "tag": "a",
+      "text": "Revue Volume Edition, Direction artistique",
+      "href": "https://davidbstudio.fr/projets/revue-volume",
+      "aria": "",
+      "rect": {
+        "x": 498.296875,
+        "y": 2668.046875,
+        "width": 443.328125,
+        "height": 442.796875
+      }
+    },
+    {
+      "index": 19,
+      "tag": "a",
+      "text": "agora exposition",
+      "href": "https://davidbstudio.fr/projets/agora",
+      "aria": "",
+      "rect": {
+        "x": 951.609375,
+        "y": 2868.203125,
+        "width": 443.328125,
+        "height": 574.171875
+      }
+    },
+    {
+      "index": 20,
+      "tag": "a",
+      "text": "Le tamis et le sable édition, direction artistique",
+      "href": "https://davidbstudio.fr/projets/le-tamis-et-le-sable-2",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 2993.765625,
+        "width": 443.328125,
+        "height": 518.9375
+      }
+    },
+    {
+      "index": 21,
+      "tag": "a",
+      "text": "loma Identité",
+      "href": "https://davidbstudio.fr/projets/loma",
+      "aria": "",
+      "rect": {
+        "x": 498.296875,
+        "y": 3120.84375,
+        "width": 443.328125,
+        "height": 330.265625
+      }
+    },
+    {
+      "index": 22,
+      "tag": "a",
+      "text": "contact us",
+      "href": "mailto:bonjour@davidbstudio.fr",
+      "aria": "",
+      "rect": {
+        "x": 752.265625,
+        "y": 13803.25,
+        "width": 164.09375,
+        "height": 41
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

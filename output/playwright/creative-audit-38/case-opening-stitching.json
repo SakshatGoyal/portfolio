@@ -1,0 +1,176 @@
+[
+  {
+    "t": 220,
+    "heading": {
+      "opacity": 0.0921306,
+      "transform": "matrix(1, 0, 0, 1, 0, 5.99667)",
+      "y": 5.99667,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.68s",
+      "rect": {
+        "top": 163.99667358398438,
+        "bottom": 253.99667358398438,
+        "height": 90
+      }
+    },
+    "hero": {
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5
+      }
+    },
+    "gap": 22.003326416015625,
+    "introOpacity": 0
+  },
+  {
+    "t": 360,
+    "heading": {
+      "opacity": 0.74654,
+      "transform": "matrix(1, 0, 0, 1, 0, 1.37012)",
+      "y": 1.37012,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.68s",
+      "rect": {
+        "top": 159.3701171875,
+        "bottom": 249.3701171875,
+        "height": 90
+      }
+    },
+    "hero": {
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5
+      }
+    },
+    "gap": 26.6298828125,
+    "introOpacity": 0
+  },
+  {
+    "t": 520,
+    "heading": {
+      "opacity": 0.999384,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.215826)",
+      "y": 0.215826,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.68s",
+      "rect": {
+        "top": 158.2158203125,
+        "bottom": 248.2158203125,
+        "height": 90
+      }
+    },
+    "hero": {
+      "opacity": 0.197797,
+      "transform": "none",
+      "y": 0,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5
+      }
+    },
+    "gap": 27.7841796875,
+    "introOpacity": 0
+  },
+  {
+    "t": 700,
+    "heading": {
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.00662718)",
+      "y": 0.00662718,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.68s",
+      "rect": {
+        "top": 158.00662231445312,
+        "bottom": 248.00662231445312,
+        "height": 90
+      }
+    },
+    "hero": {
+      "opacity": 0.955735,
+      "transform": "none",
+      "y": 0,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5
+      }
+    },
+    "gap": 27.993377685546875,
+    "introOpacity": 0
+  },
+  {
+    "t": 900,
+    "heading": {
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.68s",
+      "rect": {
+        "top": 158,
+        "bottom": 248,
+        "height": 90
+      }
+    },
+    "hero": {
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5
+      }
+    },
+    "gap": 28,
+    "introOpacity": 0
+  },
+  {
+    "t": 1180,
+    "heading": {
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.68s",
+      "rect": {
+        "top": 158,
+        "bottom": 248,
+        "height": 90
+      }
+    },
+    "hero": {
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5
+      }
+    },
+    "gap": 28,
+    "introOpacity": 0
+  }
+]

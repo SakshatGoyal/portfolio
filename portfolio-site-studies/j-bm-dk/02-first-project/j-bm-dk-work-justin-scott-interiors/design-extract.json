@@ -1,0 +1,3686 @@
+{
+  "title": "Justin Scott Interiors — J–BM",
+  "url": "https://j-bm.dk/work/justin-scott-interiors",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 6274,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(0, 0, 0) rgb(0, 0, 0) rgb(236, 234, 233)",
+    "rgb(118, 118, 118)",
+    "rgb(236, 234, 233)"
+  ],
+  "fonts": [
+    "\"Open Sans\", Arial, sans-serif",
+    "PPNeueMontreal-Medium-1, sans-serif",
+    "PPNeueMontreal-Regular-1, sans-serif"
+  ],
+  "samples": [
+    {
+      "tag": "header",
+      "className": "nav_p5ubhvtlm semplice-navbar active-navbar sticky-nav use-headroom non-container-nav headroom headroom--top headroom--not-bottom",
+      "text": "J–BM ArchiveInfoWork",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 52
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "J–BM ArchiveInfoWork",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 23.9999px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "navbar-inner menu-type-text",
+      "text": "J–BM ArchiveInfoWork",
+      "rect": {
+        "x": 23.984375,
+        "y": 0,
+        "width": 1392.03125,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "logo navbar-left",
+      "text": "J–BM",
+      "rect": {
+        "x": 23.984375,
+        "y": 0,
+        "width": 40.40625,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "J–BM",
+      "rect": {
+        "x": 23.984375,
+        "y": 17.5,
+        "width": 40.40625,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Medium-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "nav",
+      "className": "standard navbar-right no-container",
+      "text": "ArchiveInfoWork",
+      "rect": {
+        "x": 1292.640625,
+        "y": 0,
+        "width": 123.375,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "ul",
+      "className": "menu",
+      "text": "ArchiveInfoWork",
+      "rect": {
+        "x": 1292.640625,
+        "y": 0,
+        "width": 123.375,
+        "height": 51
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "page_item page-item-725",
+      "text": "Archive",
+      "rect": {
+        "x": 1331.25,
+        "y": 17.5,
+        "width": 56.953125,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "list-item",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Archive",
+      "rect": {
+        "x": 1331.25,
+        "y": 13.5,
+        "width": 56.953125,
+        "height": 21
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px 4px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "page_item page-item-641",
+      "text": "Info",
+      "rect": {
+        "x": 1388.203125,
+        "y": 17.5,
+        "width": 27.8125,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "list-item",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Info",
+      "rect": {
+        "x": 1388.203125,
+        "y": 13.5,
+        "width": 27.8125,
+        "height": 21
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px 0px 0px 4px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "page_item page-item-636",
+      "text": "Work",
+      "rect": {
+        "x": 1292.640625,
+        "y": 17.5,
+        "width": 38.609375,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "list-item",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Work",
+      "rect": {
+        "x": 1292.640625,
+        "y": 13.5,
+        "width": 38.609375,
+        "height": 21
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px 4px 0px 0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-container active-content  hide-on-init",
+      "text": "Bespoke website for a New York City based residential design firm. Justin Scott Interiors Residential design firm Justin",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "transition-wrap",
+      "text": "Bespoke website for a New York City based residential design firm. Justin Scott Interiors Residential design firm Justin",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 6273.953125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "sections",
+      "text": "Bespoke website for a New York City based residential design firm. Justin Scott Interiors Residential design firm Justin",
+      "rect": {
+        "x": 0,
+        "y": 52,
+        "width": 1440,
+        "height": 6221.953125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "52px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "Bespoke website for a New York City based residential design firm.",
+      "rect": {
+        "x": 0,
+        "y": 52,
+        "width": 1440,
+        "height": 196
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "120px 0px 24px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "Bespoke website for a New York City based residential design firm.",
+      "rect": {
+        "x": 0,
+        "y": 172,
+        "width": 1440,
+        "height": 52
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 23.9999px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Bespoke website for a New York City based residential design firm.",
+      "rect": {
+        "x": 15.984375,
+        "y": 172,
+        "width": 1408.03125,
+        "height": 52
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column max-width-h1",
+      "text": "Bespoke website for a New York City based residential design firm.",
+      "rect": {
+        "x": 15.984375,
+        "y": 172,
+        "width": 1408.03125,
+        "height": 52
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Bespoke website for a New York City based residential design firm.",
+      "rect": {
+        "x": 23.984375,
+        "y": 172,
+        "width": 1392.03125,
+        "height": 52
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Bespoke website for a New York City based residential design firm.",
+      "rect": {
+        "x": 23.984375,
+        "y": 172,
+        "width": 1392.03125,
+        "height": 52
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Bespoke website for a New York City based residential design firm.",
+      "rect": {
+        "x": 23.984375,
+        "y": 172,
+        "width": 1392.03125,
+        "height": 52
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "",
+      "text": "Bespoke website for a New York City based residential design firm.",
+      "rect": {
+        "x": 23.984375,
+        "y": 172,
+        "width": 1392.03125,
+        "height": 52
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "lineHeight": "52px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 248,
+        "width": 1440,
+        "height": 806.96875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 248,
+        "width": 1440,
+        "height": 806.96875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 23.9999px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 248,
+        "width": 1408.03125,
+        "height": 806.96875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 248,
+        "width": 1408.03125,
+        "height": 806.96875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 248,
+        "width": 1392.03125,
+        "height": 806.96875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 248,
+        "width": 1392.03125,
+        "height": 806.96875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ce-image",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 248,
+        "width": 1392.03125,
+        "height": 806.96875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 248,
+        "width": 1392.03125,
+        "height": 806.96875
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "Justin Scott Interiors Residential design firm Justin Scott Interiors is a New York City based residential design firm. ",
+      "rect": {
+        "x": 0,
+        "y": 1054.96875,
+        "width": 1440,
+        "height": 418.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 0px 32px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "Justin Scott Interiors Residential design firm Justin Scott Interiors is a New York City based residential design firm. ",
+      "rect": {
+        "x": 0,
+        "y": 1070.96875,
+        "width": 1440,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 23.9999px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Justin Scott Interiors Residential design firm Justin Scott Interiors is a New York City based residential design firm. ",
+      "rect": {
+        "x": 15.984375,
+        "y": 1070.96875,
+        "width": 1408.03125,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 15.984375,
+        "y": 1070.96875,
+        "width": 352,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 23.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 23.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 23.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h2",
+      "className": "",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 23.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Residential design firm",
+      "rect": {
+        "x": 367.984375,
+        "y": 1070.96875,
+        "width": 352,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Residential design firm",
+      "rect": {
+        "x": 375.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Residential design firm",
+      "rect": {
+        "x": 375.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Residential design firm",
+      "rect": {
+        "x": 375.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Residential design firm",
+      "rect": {
+        "x": 375.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column max-width-p",
+      "text": "Justin Scott Interiors is a New York City based residential design firm. Originally from Virginia, Justin has had a life",
+      "rect": {
+        "x": 719.984375,
+        "y": 1070.96875,
+        "width": 352,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Justin Scott Interiors is a New York City based residential design firm. Originally from Virginia, Justin has had a life",
+      "rect": {
+        "x": 727.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Justin Scott Interiors is a New York City based residential design firm. Originally from Virginia, Justin has had a life",
+      "rect": {
+        "x": 727.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Justin Scott Interiors is a New York City based residential design firm. Originally from Virginia, Justin has had a life",
+      "rect": {
+        "x": 727.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 370.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Justin Scott Interiors is a New York City based residential design firm. Originally from Virginia, Justin has had a life",
+      "rect": {
+        "x": 727.984375,
+        "y": 1070.96875,
+        "width": 336,
+        "height": 224.8125
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px 0px 23px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Justin Scott Interiors approached us at Ineo Designlab with the task of creating a new bespoke website showcasing their ",
+      "rect": {
+        "x": 727.984375,
+        "y": 1318.78125,
+        "width": 336,
+        "height": 122.625
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "Client Justin Scott Interiors Services Brand DevelopmentDigital DesignDevelopment Type Studio-based at Ineo Designlab Ye",
+      "rect": {
+        "x": 0,
+        "y": 1473.40625,
+        "width": 1440,
+        "height": 356.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 64px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "Client Justin Scott Interiors Services Brand DevelopmentDigital DesignDevelopment Type Studio-based at Ineo Designlab Ye",
+      "rect": {
+        "x": 0,
+        "y": 1473.40625,
+        "width": 1440,
+        "height": 292.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 23.9999px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1473.40625,
+        "width": 1408.03125,
+        "height": 17
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column spacer-column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1473.40625,
+        "width": 704.015625,
+        "height": 17
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 1473.40625,
+        "width": 688.015625,
+        "height": 17
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column hide-on-mobile",
+      "text": "",
+      "rect": {
+        "x": 720,
+        "y": 1473.40625,
+        "width": 704.015625,
+        "height": 17
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px 16px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Client Justin Scott Interiors",
+      "rect": {
+        "x": 15.984375,
+        "y": 1490.40625,
+        "width": 1408.03125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column spacer-column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1490.40625,
+        "width": 704.015625,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 1490.40625,
+        "width": 688.015625,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Client",
+      "rect": {
+        "x": 720,
+        "y": 1490.40625,
+        "width": 117.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Client",
+      "rect": {
+        "x": 728,
+        "y": 1490.40625,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Client",
+      "rect": {
+        "x": 728,
+        "y": 1490.40625,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Client",
+      "rect": {
+        "x": 728,
+        "y": 1490.40625,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Client",
+      "rect": {
+        "x": 728,
+        "y": 1490.40625,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 837.328125,
+        "y": 1490.40625,
+        "width": 586.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 845.328125,
+        "y": 1490.40625,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 845.328125,
+        "y": 1490.40625,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 845.328125,
+        "y": 1490.40625,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Justin Scott Interiors",
+      "rect": {
+        "x": 845.328125,
+        "y": 1490.40625,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1510.84375,
+        "width": 1408.03125,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column spacer-column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1510.84375,
+        "width": 704.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 1510.84375,
+        "width": 688.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column hide-on-mobile",
+      "text": "",
+      "rect": {
+        "x": 720,
+        "y": 1510.84375,
+        "width": 704.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Services Brand DevelopmentDigital DesignDevelopment",
+      "rect": {
+        "x": 15.984375,
+        "y": 1543.84375,
+        "width": 1408.03125,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column spacer-column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1543.84375,
+        "width": 704.015625,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 1543.84375,
+        "width": 688.015625,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Services",
+      "rect": {
+        "x": 720,
+        "y": 1543.84375,
+        "width": 117.328125,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Services",
+      "rect": {
+        "x": 728,
+        "y": 1543.84375,
+        "width": 101.328125,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Services",
+      "rect": {
+        "x": 728,
+        "y": 1543.84375,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Services",
+      "rect": {
+        "x": 728,
+        "y": 1543.84375,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Services",
+      "rect": {
+        "x": 728,
+        "y": 1543.84375,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Brand DevelopmentDigital DesignDevelopment",
+      "rect": {
+        "x": 837.328125,
+        "y": 1543.84375,
+        "width": 586.671875,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Brand DevelopmentDigital DesignDevelopment",
+      "rect": {
+        "x": 845.328125,
+        "y": 1543.84375,
+        "width": 570.671875,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Brand DevelopmentDigital DesignDevelopment",
+      "rect": {
+        "x": 845.328125,
+        "y": 1543.84375,
+        "width": 570.671875,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Brand DevelopmentDigital DesignDevelopment",
+      "rect": {
+        "x": 845.328125,
+        "y": 1543.84375,
+        "width": 570.671875,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Brand DevelopmentDigital DesignDevelopment",
+      "rect": {
+        "x": 845.328125,
+        "y": 1543.84375,
+        "width": 570.671875,
+        "height": 61.3125
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1605.15625,
+        "width": 1408.03125,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column spacer-column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1605.15625,
+        "width": 704.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 1605.15625,
+        "width": 688.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column hide-on-mobile",
+      "text": "",
+      "rect": {
+        "x": 720,
+        "y": 1605.15625,
+        "width": 704.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Type Studio-based at Ineo Designlab",
+      "rect": {
+        "x": 15.984375,
+        "y": 1638.15625,
+        "width": 1408.03125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column spacer-column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1638.15625,
+        "width": 704.015625,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 1638.15625,
+        "width": 688.015625,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Type",
+      "rect": {
+        "x": 720,
+        "y": 1638.15625,
+        "width": 117.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Type",
+      "rect": {
+        "x": 728,
+        "y": 1638.15625,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Type",
+      "rect": {
+        "x": 728,
+        "y": 1638.15625,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Type",
+      "rect": {
+        "x": 728,
+        "y": 1638.15625,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Type",
+      "rect": {
+        "x": 728,
+        "y": 1638.15625,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Studio-based at Ineo Designlab",
+      "rect": {
+        "x": 837.328125,
+        "y": 1638.15625,
+        "width": 586.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Studio-based at Ineo Designlab",
+      "rect": {
+        "x": 845.328125,
+        "y": 1638.15625,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content underline-links",
+      "text": "Studio-based at Ineo Designlab",
+      "rect": {
+        "x": 845.328125,
+        "y": 1638.15625,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Studio-based at Ineo Designlab",
+      "rect": {
+        "x": 845.328125,
+        "y": 1638.15625,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Studio-based at Ineo Designlab",
+      "rect": {
+        "x": 845.328125,
+        "y": 1638.15625,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Ineo Designlab",
+      "rect": {
+        "x": 951.828125,
+        "y": 1638.15625,
+        "width": 96.8125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1658.59375,
+        "width": 1408.03125,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column spacer-column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1658.59375,
+        "width": 704.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 1658.59375,
+        "width": 688.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column hide-on-mobile",
+      "text": "",
+      "rect": {
+        "x": 720,
+        "y": 1658.59375,
+        "width": 704.015625,
+        "height": 33
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Year 2022",
+      "rect": {
+        "x": 15.984375,
+        "y": 1691.59375,
+        "width": 1408.03125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px -8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column spacer-column",
+      "text": "",
+      "rect": {
+        "x": 15.984375,
+        "y": 1691.59375,
+        "width": 704.015625,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 1691.59375,
+        "width": 688.015625,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Year",
+      "rect": {
+        "x": 720,
+        "y": 1691.59375,
+        "width": 117.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Year",
+      "rect": {
+        "x": 728,
+        "y": 1691.59375,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Year",
+      "rect": {
+        "x": 728,
+        "y": 1691.59375,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Year",
+      "rect": {
+        "x": 728,
+        "y": 1691.59375,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Year",
+      "rect": {
+        "x": 728,
+        "y": 1691.59375,
+        "width": 101.328125,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(118, 118, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "PPNeueMontreal-Regular-1, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "20.4444px",
+        "letterSpacing": "-0.36px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "2022",
+      "rect": {
+        "x": 837.328125,
+        "y": 1691.59375,
+        "width": 586.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "2022",
+      "rect": {
+        "x": 845.328125,
+        "y": 1691.59375,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content underline-links",
+      "text": "2022",
+      "rect": {
+        "x": 845.328125,
+        "y": 1691.59375,
+        "width": 570.671875,
+        "height": 20.4375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://j-bm.dk/",
+      "text": "J–BM",
+      "aria": "",
+      "title": "J–BM",
+      "visible": true,
+      "rect": {
+        "x": 23.984375,
+        "y": 17.5,
+        "width": 40.40625,
+        "height": 16
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://j-bm.dk/archive",
+      "text": "Archive",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1331.25,
+        "y": 13.5,
+        "width": 56.953125,
+        "height": 21
+      }
+    },
+    {
+      "index": 2,
+      "href": "https://j-bm.dk/info",
+      "text": "Info",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1388.203125,
+        "y": 13.5,
+        "width": 27.8125,
+        "height": 21
+      }
+    },
+    {
+      "index": 3,
+      "href": "https://j-bm.dk/",
+      "text": "Work",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1292.640625,
+        "y": 13.5,
+        "width": 38.609375,
+        "height": 21
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://j-bm.dk/archive",
+      "text": "Archive",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://j-bm.dk/info",
+      "text": "Info",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 6,
+      "href": "https://j-bm.dk/",
+      "text": "Work",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 7,
+      "href": "https://ineo.dk/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 977.015625,
+        "y": 1490.40625,
+        "width": 0,
+        "height": 19
+      }
+    },
+    {
+      "index": 8,
+      "href": "https://ineo.dk/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 932.703125,
+        "y": 1584.71875,
+        "width": 0,
+        "height": 19
+      }
+    },
+    {
+      "index": 9,
+      "href": "https://ineo.dk/",
+      "text": "Ineo Designlab",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 951.828125,
+        "y": 1638.15625,
+        "width": 96.8125,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 10,
+      "href": "https://ineo.dk/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 880.6875,
+        "y": 1706.59375,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 11,
+      "href": "https://jsi.j-bm.dk/",
+      "text": "View solution",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 845.328125,
+        "y": 1745.03125,
+        "width": 85.65625,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 12,
+      "href": "https://j-bm.dk/info",
+      "text": "Read more",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 728,
+        "y": 5586.71875,
+        "width": 71.796875,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 13,
+      "href": "https://j-bm.dk/work/connevo",
+      "text": "",
+      "aria": "",
+      "title": "Connevo",
+      "visible": false,
+      "rect": {
+        "x": 23.984375,
+        "y": 5966.078125,
+        "width": 336,
+        "height": 0
+      }
+    },
+    {
+      "index": 14,
+      "href": "https://j-bm.dk/work/connevo",
+      "text": "Connevo",
+      "aria": "",
+      "title": "Connevo",
+      "visible": true,
+      "rect": {
+        "x": 23.984375,
+        "y": 5974.078125,
+        "width": 44.015625,
+        "height": 14
+      }
+    },
+    {
+      "index": 15,
+      "href": "https://j-bm.dk/work/active-peak",
+      "text": "",
+      "aria": "",
+      "title": "Active Peak",
+      "visible": false,
+      "rect": {
+        "x": 375.984375,
+        "y": 5966.078125,
+        "width": 336,
+        "height": 0
+      }
+    },
+    {
+      "index": 16,
+      "href": "https://j-bm.dk/work/active-peak",
+      "text": "Active Peak",
+      "aria": "",
+      "title": "Active Peak",
+      "visible": true,
+      "rect": {
+        "x": 375.984375,
+        "y": 5974.078125,
+        "width": 55.9375,
+        "height": 14
+      }
+    },
+    {
+      "index": 17,
+      "href": "https://j-bm.dk/work/cornerstone-learning",
+      "text": "",
+      "aria": "",
+      "title": "Cornerstone Learning",
+      "visible": false,
+      "rect": {
+        "x": 727.984375,
+        "y": 5966.078125,
+        "width": 336,
+        "height": 0
+      }
+    },
+    {
+      "index": 18,
+      "href": "https://j-bm.dk/work/cornerstone-learning",
+      "text": "Cornerstone Learning",
+      "aria": "",
+      "title": "Cornerstone Learning",
+      "visible": true,
+      "rect": {
+        "x": 727.984375,
+        "y": 5974.078125,
+        "width": 105.203125,
+        "height": 14
+      }
+    },
+    {
+      "index": 19,
+      "href": "https://j-bm.dk/work/expenze",
+      "text": "",
+      "aria": "",
+      "title": "Expenze",
+      "visible": false,
+      "rect": {
+        "x": 1079.984375,
+        "y": 5966.078125,
+        "width": 336,
+        "height": 0
+      }
+    },
+    {
+      "index": 20,
+      "href": "https://j-bm.dk/work/expenze",
+      "text": "Expenze",
+      "aria": "",
+      "title": "Expenze",
+      "visible": true,
+      "rect": {
+        "x": 1079.984375,
+        "y": 5974.078125,
+        "width": 42.046875,
+        "height": 14
+      }
+    },
+    {
+      "index": 21,
+      "href": "https://j-bm.dk/work/hirata-gen-collection",
+      "text": "",
+      "aria": "",
+      "title": "Hirata Gen Collection",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 22,
+      "href": "https://j-bm.dk/work/hirata-gen-collection",
+      "text": "Hirata Gen Collection",
+      "aria": "",
+      "title": "Hirata Gen Collection",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 23,
+      "href": "https://j-bm.dk/work/commit-biologics",
+      "text": "",
+      "aria": "",
+      "title": "Commit Biologics",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 24,
+      "href": "https://j-bm.dk/work/commit-biologics",
+      "text": "Commit Biologics",
+      "aria": "",
+      "title": "Commit Biologics",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 25,
+      "href": "https://j-bm.dk/work/kolofon",
+      "text": "",
+      "aria": "",
+      "title": "Kolofon",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 26,
+      "href": "https://j-bm.dk/work/kolofon",
+      "text": "Kolofon",
+      "aria": "",
+      "title": "Kolofon",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 27,
+      "href": "https://j-bm.dk/work/butchers-lab",
+      "text": "",
+      "aria": "",
+      "title": "Butcher's Lab",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 28,
+      "href": "https://j-bm.dk/work/butchers-lab",
+      "text": "Butcher's Lab",
+      "aria": "",
+      "title": "Butcher's Lab",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 29,
+      "href": "mailto:mail@j-bm.dk",
+      "text": "Email",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 728,
+        "y": 6083.078125,
+        "width": 35.234375,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 30,
+      "href": "tel:+4560149501",
+      "text": "Phone",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 728,
+        "y": 6107.515625,
+        "width": 42.71875,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 31,
+      "href": "https://www.instagram.com/johnnybachmadsen/",
+      "text": "Instagram",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 728,
+        "y": 6131.953125,
+        "width": 64.703125,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 32,
+      "href": "https://www.linkedin.com/in/johnnybachmadsen/",
+      "text": "LinkedIn",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 728,
+        "y": 6156.390625,
+        "width": 54.71875,
+        "height": 20.4375
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "J–BM",
+      "href": "https://j-bm.dk/",
+      "aria": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 17.5,
+        "width": 40.40625,
+        "height": 16
+      }
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "Archive",
+      "href": "https://j-bm.dk/archive",
+      "aria": "",
+      "rect": {
+        "x": 1331.25,
+        "y": 13.5,
+        "width": 56.953125,
+        "height": 21
+      }
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "Info",
+      "href": "https://j-bm.dk/info",
+      "aria": "",
+      "rect": {
+        "x": 1388.203125,
+        "y": 13.5,
+        "width": 27.8125,
+        "height": 21
+      }
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "Work",
+      "href": "https://j-bm.dk/",
+      "aria": "",
+      "rect": {
+        "x": 1292.640625,
+        "y": 13.5,
+        "width": 38.609375,
+        "height": 21
+      }
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "Ineo Designlab",
+      "href": "https://ineo.dk/",
+      "aria": "",
+      "rect": {
+        "x": 951.828125,
+        "y": 1638.15625,
+        "width": 96.8125,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "View solution",
+      "href": "https://jsi.j-bm.dk/",
+      "aria": "",
+      "rect": {
+        "x": 845.328125,
+        "y": 1745.03125,
+        "width": 85.65625,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "Read more",
+      "href": "https://j-bm.dk/info",
+      "aria": "",
+      "rect": {
+        "x": 728,
+        "y": 5586.71875,
+        "width": 71.796875,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "Connevo",
+      "href": "https://j-bm.dk/work/connevo",
+      "aria": "",
+      "rect": {
+        "x": 23.984375,
+        "y": 5974.078125,
+        "width": 44.015625,
+        "height": 14
+      }
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "Active Peak",
+      "href": "https://j-bm.dk/work/active-peak",
+      "aria": "",
+      "rect": {
+        "x": 375.984375,
+        "y": 5974.078125,
+        "width": 55.9375,
+        "height": 14
+      }
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "Cornerstone Learning",
+      "href": "https://j-bm.dk/work/cornerstone-learning",
+      "aria": "",
+      "rect": {
+        "x": 727.984375,
+        "y": 5974.078125,
+        "width": 105.203125,
+        "height": 14
+      }
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Expenze",
+      "href": "https://j-bm.dk/work/expenze",
+      "aria": "",
+      "rect": {
+        "x": 1079.984375,
+        "y": 5974.078125,
+        "width": 42.046875,
+        "height": 14
+      }
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "Email",
+      "href": "mailto:mail@j-bm.dk",
+      "aria": "",
+      "rect": {
+        "x": 728,
+        "y": 6083.078125,
+        "width": 35.234375,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "Phone",
+      "href": "tel:+4560149501",
+      "aria": "",
+      "rect": {
+        "x": 728,
+        "y": 6107.515625,
+        "width": 42.71875,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "Instagram",
+      "href": "https://www.instagram.com/johnnybachmadsen/",
+      "aria": "",
+      "rect": {
+        "x": 728,
+        "y": 6131.953125,
+        "width": 64.703125,
+        "height": 20.4375
+      }
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/in/johnnybachmadsen/",
+      "aria": "",
+      "rect": {
+        "x": 728,
+        "y": 6156.390625,
+        "width": 54.71875,
+        "height": 20.4375
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

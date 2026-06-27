@@ -1,0 +1,350 @@
+[
+  {
+    "url": "https://karoliskosas.com/cujo-3/",
+    "status": 200,
+    "type": "document",
+    "method": "GET",
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Fri, 19 Jun 2026 19:29:27 GMT",
+      "link": "<https://karoliskosas.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://karoliskosas.com/wp-json/wp/v2/pages/239>; rel=\"alternate\"; type=\"application/json\"\n<https://karoliskosas.com/?p=239>; rel=shortlink",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0001-a51717978f4296ef.html",
+    "bytes": 176011
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/themes/lay/frontend/assets/css/frontend.style.css?ver=9.8.1",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "content-encoding": "gzip",
+      "etag": "\"17789-6410d3d04c5bd-gzip\"",
+      "expires": "Fri, 26 Jun 2026 19:29:10 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "14961",
+      "date": "Fri, 19 Jun 2026 19:29:10 GMT",
+      "last-modified": "Mon, 13 Oct 2025 17:02:54 GMT",
+      "vary": "Accept-Encoding",
+      "server": "Apache",
+      "content-type": "text/css"
+    },
+    "file": "files/0002-6f0def9ecf794f61.css",
+    "bytes": 96137
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/themes/lay/frontend/assets/js/events_channels.min.js?ver=9.8.1",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "content-encoding": "gzip",
+      "etag": "\"12f6-6410d3d05043d-gzip\"",
+      "accept-ranges": "bytes",
+      "content-length": "1831",
+      "date": "Fri, 19 Jun 2026 19:29:10 GMT",
+      "last-modified": "Mon, 13 Oct 2025 17:02:54 GMT",
+      "vary": "Accept-Encoding",
+      "server": "Apache",
+      "content-type": "application/javascript"
+    },
+    "file": "files/0003-438728edadbefb81.js",
+    "bytes": 4854
+  },
+  {
+    "url": "https://karoliskosas.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "content-encoding": "gzip",
+      "etag": "\"15ed7-6063479fdb4c0-gzip\"",
+      "accept-ranges": "bytes",
+      "content-length": "31049",
+      "date": "Fri, 19 Jun 2026 19:29:10 GMT",
+      "last-modified": "Mon, 25 Sep 2023 20:05:15 GMT",
+      "vary": "Accept-Encoding",
+      "server": "Apache",
+      "content-type": "application/javascript"
+    },
+    "file": "files/0004-391800733b51a10c.js",
+    "bytes": 89815
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2019/10/Aeonik-Regular.woff",
+    "status": 200,
+    "type": "font",
+    "method": "GET",
+    "headers": {
+      "accept-ranges": "bytes",
+      "content-length": "47820",
+      "etag": "\"bacc-594367a7228c0\"",
+      "date": "Fri, 19 Jun 2026 19:29:11 GMT",
+      "last-modified": "Sun, 06 Oct 2019 04:36:27 GMT",
+      "content-type": "application/font-woff",
+      "server": "Apache"
+    },
+    "file": "files/0005-7c769a6a4c536280.woff",
+    "bytes": 47820
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/themes/lay/frontend/assets/js/vendor.min.js?ver=9.8.1",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "content-encoding": "gzip",
+      "etag": "\"1bf60-6410d3d04f49d-gzip\"",
+      "accept-ranges": "bytes",
+      "content-length": "37279",
+      "date": "Fri, 19 Jun 2026 19:29:11 GMT",
+      "last-modified": "Mon, 13 Oct 2025 17:02:54 GMT",
+      "vary": "Accept-Encoding",
+      "server": "Apache",
+      "content-type": "application/javascript"
+    },
+    "file": "files/0006-74795216ffc6ed7c.js",
+    "bytes": 114528
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/themes/lay/frontend/assets/js/frontend.app.min.js?ver=9.8.1",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "content-encoding": "gzip",
+      "etag": "\"4fd43-6410d3d05043d-gzip\"",
+      "accept-ranges": "bytes",
+      "date": "Fri, 19 Jun 2026 19:29:11 GMT",
+      "last-modified": "Mon, 13 Oct 2025 17:02:54 GMT",
+      "vary": "Accept-Encoding",
+      "server": "Apache",
+      "content-type": "application/javascript"
+    },
+    "file": "files/0007-c92ecfeb8af687be.js",
+    "bytes": 326979
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-HKPZWDE975",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "private, max-age=900",
+      "content-encoding": "zstd",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "expires": "Fri, 19 Jun 2026 19:29:11 GMT",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-length": "156250",
+      "date": "Fri, 19 Jun 2026 19:29:11 GMT",
+      "x-xss-protection": "0",
+      "content-type": "application/javascript; charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Google Tag Manager",
+      "access-control-allow-headers": "Cache-Control"
+    },
+    "file": "files/0008-b536f925f2a35ef7.js",
+    "bytes": 451122
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/0.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"2f9b8-5614c6b782d00\"",
+      "expires": "Fri, 26 Jun 2026 19:29:27 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "195000",
+      "date": "Fri, 19 Jun 2026 19:29:27 GMT",
+      "last-modified": "Wed, 27 Dec 2017 06:22:12 GMT",
+      "content-type": "image/jpeg",
+      "server": "Apache"
+    },
+    "file": "files/0009-47bf808a91e26b5a.jpg",
+    "bytes": 195000
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HKPZWDE975&gtm=45je66h0v883892635za200zd883892635&_p=1781897367393&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=984260262.1781897352&frm=0&pscdl=noapi&rcb=8&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118395333~119027224~119392696~119392704~119456239~119456247&sid=1781897351&sct=1&seg=1&dl=https%3A%2F%2Fkaroliskosas.com%2Fcujo-3%2F&dt=Karolis%20Kosas%20%E2%80%94%20CUJO&en=page_view&_ee=1&gap.plf=5&tfd=6006",
+    "status": 204,
+    "type": "fetch",
+    "method": "POST",
+    "headers": {
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:138:0",
+      "report-to": "{\"group\":\"ascnsrsggc:138:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:138:0\"}],}",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "https://karoliskosas.com",
+      "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:138:0",
+      "content-length": "0",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "date": "Fri, 19 Jun 2026 19:29:32 GMT",
+      "content-type": "text/plain",
+      "server": "Golfe2"
+    },
+    "file": "files/0010-0311b760d4bbd952.bin",
+    "error": "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/1c.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"4b385-56156c020a580\"",
+      "expires": "Fri, 26 Jun 2026 19:29:32 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "308101",
+      "date": "Fri, 19 Jun 2026 19:29:32 GMT",
+      "last-modified": "Wed, 27 Dec 2017 18:41:42 GMT",
+      "content-type": "image/jpeg",
+      "server": "Apache"
+    },
+    "file": "files/0011-74ee097111194afa.jpg",
+    "bytes": 308101
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/2.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"27888-5614c6bf23f00\"",
+      "expires": "Fri, 26 Jun 2026 19:29:37 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "161928",
+      "date": "Fri, 19 Jun 2026 19:29:37 GMT",
+      "last-modified": "Wed, 27 Dec 2017 06:22:20 GMT",
+      "content-type": "image/jpeg",
+      "server": "Apache"
+    },
+    "file": "files/0012-9d5082c9ee8f1b3f.jpg",
+    "bytes": 161928
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/05b.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"104f2-561956995ce40\"",
+      "expires": "Fri, 26 Jun 2026 19:29:37 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "66802",
+      "date": "Fri, 19 Jun 2026 19:29:37 GMT",
+      "last-modified": "Sat, 30 Dec 2017 21:27:13 GMT",
+      "content-type": "image/png",
+      "server": "Apache"
+    },
+    "file": "files/0013-fa9929b60efe64ca.png",
+    "bytes": 66802
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/5.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"2a93d-5619569c39500\"",
+      "expires": "Fri, 26 Jun 2026 19:29:37 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "174397",
+      "date": "Fri, 19 Jun 2026 19:29:37 GMT",
+      "last-modified": "Sat, 30 Dec 2017 21:27:16 GMT",
+      "content-type": "image/png",
+      "server": "Apache"
+    },
+    "file": "files/0014-58a832f5937d8dd2.png",
+    "bytes": 174397
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/flow.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"19064-56199c9051f80\"",
+      "expires": "Fri, 26 Jun 2026 19:29:38 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "102500",
+      "date": "Fri, 19 Jun 2026 19:29:38 GMT",
+      "last-modified": "Sun, 31 Dec 2017 02:40:14 GMT",
+      "content-type": "image/png",
+      "server": "Apache"
+    },
+    "file": "files/0015-baa4f37f557152b8.png",
+    "bytes": 102500
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/4.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"33c1f-5614c6c6c5100\"",
+      "expires": "Fri, 26 Jun 2026 19:29:38 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "211999",
+      "date": "Fri, 19 Jun 2026 19:29:38 GMT",
+      "last-modified": "Wed, 27 Dec 2017 06:22:28 GMT",
+      "content-type": "image/jpeg",
+      "server": "Apache"
+    },
+    "file": "files/0016-c5ccd30abc341c98.jpg",
+    "bytes": 211999
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/UI-Components-1.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"2ba50-5619a617d1b00\"",
+      "expires": "Fri, 26 Jun 2026 19:29:39 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "178768",
+      "date": "Fri, 19 Jun 2026 19:29:39 GMT",
+      "last-modified": "Sun, 31 Dec 2017 03:22:52 GMT",
+      "content-type": "image/png",
+      "server": "Apache"
+    },
+    "file": "files/0017-5e6bd1ce0a9d76d8.png",
+    "bytes": 178768
+  },
+  {
+    "url": "https://karoliskosas.com/wp-content/uploads/2017/12/6.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=604800",
+      "etag": "\"19ef0-5614c6d1429c0\"",
+      "expires": "Fri, 26 Jun 2026 19:29:39 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "106224",
+      "date": "Fri, 19 Jun 2026 19:29:39 GMT",
+      "last-modified": "Wed, 27 Dec 2017 06:22:39 GMT",
+      "content-type": "image/jpeg",
+      "server": "Apache"
+    },
+    "file": "files/0018-6036c6121934ec64.jpg",
+    "bytes": 106224
+  }
+]

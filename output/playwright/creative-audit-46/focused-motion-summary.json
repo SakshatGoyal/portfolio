@@ -1,0 +1,812 @@
+[
+  {
+    "label": "desktop-selected-220ms",
+    "hash": "#selected-work",
+    "p": [
+      {
+        "i": 1,
+        "label": "0.847268",
+        "thumb": "0.382179",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 2.47129% round 2px)",
+        "delays": [
+          "0.18s",
+          "0.31s",
+          "0.51s",
+          "0.61s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "0.586063",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.215s",
+          "0.37s",
+          "0.545s",
+          "0.645s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "0.257262",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.25s",
+          "0.43s",
+          "0.59s",
+          "0.685s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "0.0920161",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.285s",
+          "0.49s",
+          "0.625s",
+          "0.72s"
+        ]
+      }
+    ],
+    "title": null,
+    "hero": null,
+    "intro1": null,
+    "intro2": null
+  },
+  {
+    "label": "desktop-selected-400ms",
+    "hash": "#selected-work",
+    "p": [
+      {
+        "i": 1,
+        "label": "1",
+        "thumb": "0.972362",
+        "title": "0.0805166",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 0.110553% round 2px)",
+        "delays": [
+          "0.18s",
+          "0.31s",
+          "0.51s",
+          "0.61s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "1",
+        "thumb": "0.93939",
+        "title": "0.0313277",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 0.242441% round 2px)",
+        "delays": [
+          "0.215s",
+          "0.37s",
+          "0.545s",
+          "0.645s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "1",
+        "thumb": "0.87343",
+        "title": "0.00285854",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 0.506282% round 2px)",
+        "delays": [
+          "0.25s",
+          "0.43s",
+          "0.59s",
+          "0.685s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "1",
+        "thumb": "0.738204",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 1.04718% round 2px)",
+        "delays": [
+          "0.285s",
+          "0.49s",
+          "0.625s",
+          "0.72s"
+        ]
+      }
+    ],
+    "title": null,
+    "hero": null,
+    "intro1": null,
+    "intro2": null
+  },
+  {
+    "label": "desktop-selected-760ms",
+    "hash": "#selected-work",
+    "p": [
+      {
+        "i": 1,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "inset(0px 0px 0% round 2px)",
+        "delays": [
+          "0.18s",
+          "0.31s",
+          "0.51s",
+          "0.61s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "inset(0px 0px 0% round 2px)",
+        "delays": [
+          "0.215s",
+          "0.37s",
+          "0.545s",
+          "0.645s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "inset(0px 0px 0% round 2px)",
+        "delays": [
+          "0.25s",
+          "0.43s",
+          "0.59s",
+          "0.685s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "1",
+        "thumb": "0.999996",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "inset(0px 0px 1.42637e-05% round 2px)",
+        "delays": [
+          "0.285s",
+          "0.49s",
+          "0.625s",
+          "0.72s"
+        ]
+      }
+    ],
+    "title": null,
+    "hero": null,
+    "intro1": null,
+    "intro2": null
+  },
+  {
+    "label": "desktop-selected-1260ms",
+    "hash": "#selected-work",
+    "p": [
+      {
+        "i": 1,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "inset(0px 0px 0% round 2px)",
+        "delays": [
+          "0.18s",
+          "0.31s",
+          "0.51s",
+          "0.61s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "inset(0px 0px 0% round 2px)",
+        "delays": [
+          "0.215s",
+          "0.37s",
+          "0.545s",
+          "0.645s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "inset(0px 0px 0% round 2px)",
+        "delays": [
+          "0.25s",
+          "0.43s",
+          "0.59s",
+          "0.685s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "inset(0px 0px 0% round 2px)",
+        "delays": [
+          "0.285s",
+          "0.49s",
+          "0.625s",
+          "0.72s"
+        ]
+      }
+    ],
+    "title": null,
+    "hero": null,
+    "intro1": null,
+    "intro2": null
+  },
+  {
+    "label": "desktop-case-open-620ms",
+    "hash": "#case/palo-alto-networks",
+    "p": [
+      {
+        "i": 1,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.18s",
+          "0.31s",
+          "0.51s",
+          "0.61s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.215s",
+          "0.37s",
+          "0.545s",
+          "0.645s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.25s",
+          "0.43s",
+          "0.59s",
+          "0.685s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.285s",
+          "0.49s",
+          "0.625s",
+          "0.72s"
+        ]
+      }
+    ],
+    "title": {
+      "opacity": "0.956638",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.54888)"
+    },
+    "hero": {
+      "opacity": "0.0386679",
+      "transform": "none"
+    },
+    "intro1": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 18)",
+      "y": 915.5
+    },
+    "intro2": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 18)",
+      "y": 985.5
+    }
+  },
+  {
+    "label": "desktop-case-open-1270ms",
+    "hash": "#case/palo-alto-networks",
+    "p": [
+      {
+        "i": 1,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.18s",
+          "0.31s",
+          "0.51s",
+          "0.61s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.215s",
+          "0.37s",
+          "0.545s",
+          "0.645s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.25s",
+          "0.43s",
+          "0.59s",
+          "0.685s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0.285s",
+          "0.49s",
+          "0.625s",
+          "0.72s"
+        ]
+      }
+    ],
+    "title": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "hero": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "intro1": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 18)",
+      "y": 915.5
+    },
+    "intro2": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 18)",
+      "y": 985.5
+    }
+  },
+  {
+    "label": "mobile-case-open-1050ms",
+    "hash": "#case/harvard-business-school",
+    "p": [
+      {
+        "i": 1,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      }
+    ],
+    "title": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "hero": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "intro1": {
+      "opacity": "0.995074",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.519294)",
+      "y": 607.71
+    },
+    "intro2": {
+      "opacity": "0.981886",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.08437)",
+      "y": 718.65
+    }
+  },
+  {
+    "label": "mobile-case-open-1460ms",
+    "hash": "#case/harvard-business-school",
+    "p": [
+      {
+        "i": 1,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      }
+    ],
+    "title": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "hero": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "intro1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 607.19
+    },
+    "intro2": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 717.56
+    }
+  },
+  {
+    "label": "mobile-case-open-1820ms",
+    "hash": "#case/harvard-business-school",
+    "p": [
+      {
+        "i": 1,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "0",
+        "thumb": "0",
+        "title": "0",
+        "year": "0",
+        "thumbClip": "inset(0px 0px 4% round 2px)",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      }
+    ],
+    "title": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "hero": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "intro1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 607.19
+    },
+    "intro2": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 717.56
+    }
+  },
+  {
+    "label": "reduced-selected-100ms",
+    "hash": "#selected-work",
+    "p": [
+      {
+        "i": 1,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "none",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "none",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "none",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "none",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      }
+    ],
+    "title": null,
+    "hero": null,
+    "intro1": null,
+    "intro2": null
+  },
+  {
+    "label": "reduced-case-100ms",
+    "hash": "#case/harvard-business-school",
+    "p": [
+      {
+        "i": 1,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "none",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 2,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "none",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 3,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "none",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      },
+      {
+        "i": 4,
+        "label": "1",
+        "thumb": "1",
+        "title": "1",
+        "year": "1",
+        "thumbClip": "none",
+        "delays": [
+          "0s",
+          "0s",
+          "0s",
+          "0s"
+        ]
+      }
+    ],
+    "title": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "hero": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "intro1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 607.19
+    },
+    "intro2": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 717.56
+    }
+  }
+]

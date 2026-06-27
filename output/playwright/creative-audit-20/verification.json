@@ -1,0 +1,1094 @@
+{
+  "selectedSamples": [
+    {
+      "ms": 80,
+      "label": {
+        "tag": "div",
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "opacity": 0,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.32s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 108.1875,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      },
+      "thumb": {
+        "tag": "a",
+        "text": "",
+        "classes": "project-thumb-link",
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "border-radius",
+        "transitionDuration": "0.19s",
+        "animationName": "selected-work-image-in",
+        "animationDuration": "0.72s",
+        "animationDelay": "0.54s",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 25.951934814453125,
+          "y": 159.9014434814453,
+          "width": 484.08050537109375,
+          "height": 363.0565185546875
+        }
+      },
+      "title": {
+        "tag": "h2",
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 12)",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-title-in",
+        "animationDuration": "0.62s",
+        "animationDelay": "0.65s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 539.78125,
+          "width": 487.984375,
+          "height": 49.203125
+        }
+      },
+      "year": {
+        "tag": "div",
+        "text": "2025-26",
+        "classes": "project-year",
+        "opacity": 0,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.73s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 594.34375,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      }
+    },
+    {
+      "ms": 220,
+      "label": {
+        "tag": "div",
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "opacity": 0.00945166,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.32s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 108.1875,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      },
+      "thumb": {
+        "tag": "a",
+        "text": "",
+        "classes": "project-thumb-link",
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "border-radius",
+        "transitionDuration": "0.19s",
+        "animationName": "selected-work-image-in",
+        "animationDuration": "0.72s",
+        "animationDelay": "0.54s",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 25.951934814453125,
+          "y": 159.9014434814453,
+          "width": 484.08050537109375,
+          "height": 363.0565185546875
+        }
+      },
+      "title": {
+        "tag": "h2",
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 12)",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-title-in",
+        "animationDuration": "0.62s",
+        "animationDelay": "0.65s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 539.78125,
+          "width": 487.984375,
+          "height": 49.203125
+        }
+      },
+      "year": {
+        "tag": "div",
+        "text": "2025-26",
+        "classes": "project-year",
+        "opacity": 0,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.73s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 594.34375,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      }
+    },
+    {
+      "ms": 360,
+      "label": {
+        "tag": "div",
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "opacity": 0.699701,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.32s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 108.1875,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      },
+      "thumb": {
+        "tag": "a",
+        "text": "",
+        "classes": "project-thumb-link",
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "border-radius",
+        "transitionDuration": "0.19s",
+        "animationName": "selected-work-image-in",
+        "animationDuration": "0.72s",
+        "animationDelay": "0.54s",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 25.951934814453125,
+          "y": 159.9014434814453,
+          "width": 484.08050537109375,
+          "height": 363.0565185546875
+        }
+      },
+      "title": {
+        "tag": "h2",
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 12)",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-title-in",
+        "animationDuration": "0.62s",
+        "animationDelay": "0.65s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 539.78125,
+          "width": 487.984375,
+          "height": 49.203125
+        }
+      },
+      "year": {
+        "tag": "div",
+        "text": "2025-26",
+        "classes": "project-year",
+        "opacity": 0,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.73s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 594.34375,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      }
+    },
+    {
+      "ms": 520,
+      "label": {
+        "tag": "div",
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.32s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 108.1875,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      },
+      "thumb": {
+        "tag": "a",
+        "text": "",
+        "classes": "project-thumb-link",
+        "opacity": 0.750533,
+        "transform": "matrix(0.998004, 0, 0, 0.998004, 0, 3.49255)",
+        "transitionProperty": "border-radius",
+        "transitionDuration": "0.19s",
+        "animationName": "selected-work-image-in",
+        "animationDuration": "0.72s",
+        "animationDelay": "0.54s",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24.4869384765625,
+          "y": 148.2952423095703,
+          "width": 487.010498046875,
+          "height": 365.25396728515625
+        }
+      },
+      "title": {
+        "tag": "h2",
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "opacity": 0.299595,
+        "transform": "matrix(1, 0, 0, 1, 0, 8.40486)",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-title-in",
+        "animationDuration": "0.62s",
+        "animationDelay": "0.65s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 536.1860961914062,
+          "width": 487.984375,
+          "height": 49.203125
+        }
+      },
+      "year": {
+        "tag": "div",
+        "text": "2025-26",
+        "classes": "project-year",
+        "opacity": 0,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.73s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 594.34375,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      }
+    },
+    {
+      "ms": 760,
+      "label": {
+        "tag": "div",
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.32s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 108.1875,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      },
+      "thumb": {
+        "tag": "a",
+        "text": "",
+        "classes": "project-thumb-link",
+        "opacity": 0.980689,
+        "transform": "matrix(0.999846, 0, 0, 0.999846, 0, 0.270361)",
+        "transitionProperty": "border-radius",
+        "transitionDuration": "0.19s",
+        "animationName": "selected-work-image-in",
+        "animationDuration": "0.72s",
+        "animationDelay": "0.54s",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24.037689208984375,
+          "y": 144.7361297607422,
+          "width": 487.90899658203125,
+          "height": 365.92779541015625
+        }
+      },
+      "title": {
+        "tag": "h2",
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "opacity": 0.964418,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.42698)",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-title-in",
+        "animationDuration": "0.62s",
+        "animationDelay": "0.65s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 528.208251953125,
+          "width": 487.984375,
+          "height": 49.203125
+        }
+      },
+      "year": {
+        "tag": "div",
+        "text": "2025-26",
+        "classes": "project-year",
+        "opacity": 0.896029,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.73s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 594.34375,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      }
+    },
+    {
+      "ms": 1100,
+      "label": {
+        "tag": "div",
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.32s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 108.1875,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      },
+      "thumb": {
+        "tag": "a",
+        "text": "",
+        "classes": "project-thumb-link",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "border-radius",
+        "transitionDuration": "0.19s",
+        "animationName": "selected-work-image-in",
+        "animationDuration": "0.72s",
+        "animationDelay": "0.54s",
+        "borderRadius": "2px",
+        "cursor": "pointer",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 144.4375,
+          "width": 487.984375,
+          "height": 365.984375
+        }
+      },
+      "title": {
+        "tag": "h2",
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-title-in",
+        "animationDuration": "0.62s",
+        "animationDelay": "0.65s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 527.78125,
+          "width": 487.984375,
+          "height": 49.203125
+        }
+      },
+      "year": {
+        "tag": "div",
+        "text": "2025-26",
+        "classes": "project-year",
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "animationName": "selected-work-meta-in",
+        "animationDuration": "0.3s",
+        "animationDelay": "0.73s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 594.34375,
+          "width": 487.984375,
+          "height": 18.890625
+        }
+      }
+    }
+  ],
+  "caseSamples": [
+    {
+      "ms": 120,
+      "heading": {
+        "tag": "h1",
+        "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+        "classes": "case-title case-heading-motion",
+        "opacity": 0,
+        "transform": "matrix(0.995, 0, 0, 0.995, 0, 18)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 26.47991943359375,
+          "y": 176.22500610351562,
+          "width": 987.0089111328125,
+          "height": 89.54998779296875
+        }
+      },
+      "hero": {
+        "tag": "figure",
+        "text": "",
+        "classes": "case-media case-hero-media",
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "6px",
+        "cursor": "default",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 27.9678955078125,
+          "y": 288.2300109863281,
+          "width": 984.032958984375,
+          "height": 553.0400390625
+        }
+      },
+      "intro": {
+        "tag": "div",
+        "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “source” means for internal teams.",
+        "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 277.984375,
+          "y": 921.5,
+          "width": 483.984375,
+          "height": 151
+        }
+      }
+    },
+    {
+      "ms": 300,
+      "heading": {
+        "tag": "h1",
+        "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+        "classes": "case-title case-heading-motion is-visible",
+        "opacity": 0.0510744,
+        "transform": "matrix(0.99809, 0, 0, 0.99809, 0, 6.8759)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24.94732666015625,
+          "y": 164.96185302734375,
+          "width": 990.0740966796875,
+          "height": 89.82809448242188
+        }
+      },
+      "hero": {
+        "tag": "figure",
+        "text": "",
+        "classes": "case-media case-hero-media",
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "6px",
+        "cursor": "default",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 27.9678955078125,
+          "y": 288.2300109863281,
+          "width": 984.032958984375,
+          "height": 553.0400390625
+        }
+      },
+      "intro": {
+        "tag": "div",
+        "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “source” means for internal teams.",
+        "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 277.984375,
+          "y": 921.5,
+          "width": 483.984375,
+          "height": 151
+        }
+      }
+    },
+    {
+      "ms": 520,
+      "heading": {
+        "tag": "h1",
+        "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+        "classes": "case-title case-heading-motion is-visible",
+        "opacity": 0.821678,
+        "transform": "matrix(0.999811, 0, 0, 0.999811, 0, 0.678962)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24.093536376953125,
+          "y": 158.6874542236328,
+          "width": 991.78173828125,
+          "height": 89.98301696777344
+        }
+      },
+      "hero": {
+        "tag": "figure",
+        "text": "",
+        "classes": "case-media case-hero-media is-visible",
+        "opacity": 0.141353,
+        "transform": "matrix(0.998627, 0, 0, 0.998627, 0, 2.40209)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "6px",
+        "cursor": "default",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24.680816650390625,
+          "y": 274.78472900390625,
+          "width": 990.607177734375,
+          "height": 556.7347412109375
+        }
+      },
+      "intro": {
+        "tag": "div",
+        "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “source” means for internal teams.",
+        "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 277.984375,
+          "y": 921.5,
+          "width": 483.984375,
+          "height": 151
+        }
+      }
+    },
+    {
+      "ms": 820,
+      "heading": {
+        "tag": "h1",
+        "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+        "classes": "case-title case-heading-motion is-visible",
+        "opacity": 1,
+        "transform": "matrix(0.999999, 0, 0, 0.999999, 0, 0.00215046)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24.00030517578125,
+          "y": 158.00218200683594,
+          "width": 991.9681396484375,
+          "height": 89.99993896484375
+        }
+      },
+      "hero": {
+        "tag": "figure",
+        "text": "",
+        "classes": "case-media case-hero-media is-visible",
+        "opacity": 0.961512,
+        "transform": "matrix(0.999944, 0, 0, 0.999944, 0, 0.0978374)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "6px",
+        "cursor": "default",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24.027740478515625,
+          "y": 272.1134338378906,
+          "width": 991.913330078125,
+          "height": 557.4688720703125
+        }
+      },
+      "intro": {
+        "tag": "div",
+        "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “source” means for internal teams.",
+        "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 277.984375,
+          "y": 921.5,
+          "width": 483.984375,
+          "height": 151
+        }
+      }
+    },
+    {
+      "ms": 1050,
+      "heading": {
+        "tag": "h1",
+        "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+        "classes": "case-title case-heading-motion is-visible",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 158,
+          "width": 991.96875,
+          "height": 90
+        }
+      },
+      "hero": {
+        "tag": "figure",
+        "text": "",
+        "classes": "case-media case-hero-media is-visible",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 2.15028e-05)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "6px",
+        "cursor": "default",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 272.0000305175781,
+          "width": 991.96875,
+          "height": 557.5
+        }
+      },
+      "intro": {
+        "tag": "div",
+        "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “source” means for internal teams.",
+        "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 277.984375,
+          "y": 921.5,
+          "width": 483.984375,
+          "height": 151
+        }
+      }
+    },
+    {
+      "ms": 1300,
+      "heading": {
+        "tag": "h1",
+        "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+        "classes": "case-title case-heading-motion is-visible",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 158,
+          "width": 991.96875,
+          "height": 90
+        }
+      },
+      "hero": {
+        "tag": "figure",
+        "text": "",
+        "classes": "case-media case-hero-media is-visible",
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "6px",
+        "cursor": "default",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 24,
+          "y": 272,
+          "width": 991.96875,
+          "height": 557.5
+        }
+      },
+      "intro": {
+        "tag": "div",
+        "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “source” means for internal teams.",
+        "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "borderRadius": "0px",
+        "cursor": "auto",
+        "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "rect": {
+          "x": 277.984375,
+          "y": 921.5,
+          "width": 483.984375,
+          "height": 151
+        }
+      }
+    }
+  ],
+  "introAfterScroll": {
+    "tag": "div",
+    "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “source” means for internal teams.",
+    "classes": "case-intro case-reveal-text case-intro-list-emphasis is-visible",
+    "opacity": 1,
+    "transform": "none",
+    "transitionProperty": "transform, opacity",
+    "transitionDuration": "0.74s, 0.54s",
+    "animationName": "none",
+    "animationDuration": "0s",
+    "animationDelay": "0s",
+    "borderRadius": "0px",
+    "cursor": "auto",
+    "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+    "rect": {
+      "x": 277.984375,
+      "y": 373.5,
+      "width": 483.984375,
+      "height": 151
+    }
+  },
+  "revealRoles": [
+    {
+      "selector": ".case-section-title",
+      "tag": "h2",
+      "classes": "case-section-title case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.52s, 0.42s",
+      "borderRadius": "0px",
+      "cursor": "auto"
+    },
+    {
+      "selector": ".case-copy",
+      "tag": "div",
+      "classes": "case-copy case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.74s, 0.54s",
+      "borderRadius": "0px",
+      "cursor": "auto"
+    },
+    {
+      "selector": ".case-statement",
+      "tag": "div",
+      "classes": "case-statement case-reveal-text case-block-compact",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 16)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.62s, 0.48s",
+      "borderRadius": "0px",
+      "cursor": "auto"
+    },
+    {
+      "selector": ".case-caption-text",
+      "tag": "p",
+      "classes": "case-caption-text case-reveal-text",
+      "opacity": 0,
+      "transform": "none",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.42s",
+      "borderRadius": "0px",
+      "cursor": "auto"
+    },
+    {
+      "selector": ".case-reveal-image",
+      "tag": "button",
+      "classes": "case-media case-reveal-image is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "borderRadius": "6px",
+      "cursor": "zoom-in"
+    },
+    {
+      "selector": ".case-meta-row",
+      "tag": "div",
+      "classes": "case-meta-row case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "border-color",
+      "transitionDuration": "0.52s",
+      "borderRadius": "0px",
+      "cursor": "auto"
+    }
+  ],
+  "heroBefore": {
+    "tag": "figure",
+    "text": "",
+    "classes": "case-media case-hero-media is-visible",
+    "opacity": 1,
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "transitionProperty": "opacity, transform",
+    "transitionDuration": "0.62s, 0.76s",
+    "animationName": "none",
+    "animationDuration": "0s",
+    "animationDelay": "0s",
+    "borderRadius": "6px",
+    "cursor": "default",
+    "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+    "rect": {
+      "x": 24,
+      "y": -1028,
+      "width": 991.96875,
+      "height": 557.5
+    }
+  },
+  "heroClickOpens": false,
+  "evidenceBefore": {
+    "tag": "button",
+    "text": "",
+    "classes": "case-media case-reveal-image is-visible",
+    "opacity": 1,
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "transitionProperty": "transform, opacity, border-radius",
+    "transitionDuration": "0.7s, 0.5s, 0.4s",
+    "animationName": "none",
+    "animationDuration": "0s",
+    "animationDelay": "0s",
+    "borderRadius": "11.9635px",
+    "cursor": "zoom-in",
+    "fontFamily": "Arial",
+    "rect": {
+      "x": 24,
+      "y": 266.15625,
+      "width": 652.984375,
+      "height": 366.8125
+    }
+  },
+  "evidenceClickOpens": true,
+  "lightboxClose": {
+    "tag": "button",
+    "text": "",
+    "classes": "lightbox-close",
+    "opacity": 1,
+    "transform": "none",
+    "transitionProperty": "background-color, border-radius",
+    "transitionDuration": "0.1s, 0.1s",
+    "animationName": "none",
+    "animationDuration": "0s",
+    "animationDelay": "0s",
+    "borderRadius": "2px",
+    "cursor": "pointer",
+    "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+    "rect": {
+      "x": 1310,
+      "y": 230.5,
+      "width": 38,
+      "height": 38
+    }
+  },
+  "closeLineCount": 2,
+  "lightboxClosed": true,
+  "mobileDrawer": {
+    "panelBoxShadow": "none",
+    "panelRect": {
+      "x": 3.7805447578430176,
+      "y": 56,
+      "width": 390,
+      "height": 788
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "contactGapToBottom": 24
+  }
+}

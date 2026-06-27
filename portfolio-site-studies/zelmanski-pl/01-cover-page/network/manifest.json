@@ -1,0 +1,624 @@
+[
+  {
+    "url": "https://www.zelmanski.pl/",
+    "status": 200,
+    "type": "document",
+    "method": "GET",
+    "headers": {
+      "accept-ranges": "none",
+      "content-encoding": "gzip",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "link": "<https://www.zelmanski.pl/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.zelmanski.pl/wp-json/wp/v2/pages/925>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://www.zelmanski.pl/>; rel=shortlink",
+      "server": "Apache",
+      "vary": "Accept-Encoding",
+      "x-powered-by": "PHP/8.0"
+    },
+    "file": "files/0001-ee9cb611db54eb71.html",
+    "bytes": 82634
+  },
+  {
+    "url": "blob:https://www.zelmanski.pl/b45efebe-4353-457b-ad81-23e0a7169cb7",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "content-type": "text/javascript",
+      "content-length": "1185"
+    },
+    "file": "files/0002-eb608f248276cfcd.js",
+    "error": "response.body: Target page, context or browser has been closed"
+  },
+  {
+    "url": "https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "content-encoding": "br",
+      "cf-cache-status": "HIT",
+      "age": "4325",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=pPgY3Gf%2BboYGR3s2qDkNEIh7YLfi7h%2ByLkbH%2B4eROlCSzxGBbEIPLDtJw%2BrapCn7bWzyo60bq8FqU7mnQ0LsOC8tVJKPctB5cFEQx364ey%2BqcuM1Rlr49tw2fjU278Ei%2BIxDCGvRV5T%2F1udfDbJz\"}]}",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "application/javascript; charset=utf-8",
+      "last-modified": "Fri, 19 Jun 2026 18:17:58 GMT",
+      "vary": "accept-encoding",
+      "x-frame-options": "SAMEORIGIN",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "cf-ray": "a0e4f233aeb3fa1a-SJC",
+      "x-z": "3246",
+      "x-xss-protection": "1; mode=block",
+      "server": "cloudflare"
+    },
+    "file": "files/0003-b801a4c75a2fbcfb.js",
+    "bytes": 2779
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/themes/semplice6/style.css?ver=6.0.3",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "none",
+      "content-length": "599",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "text/css",
+      "last-modified": "Wed, 12 Oct 2022 17:49:30 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0004-573153ed5b91bbe1.css",
+    "bytes": 1201
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-includes/css/dist/block-library/style.min.css?ver=6.7.5",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "15177",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "text/css",
+      "last-modified": "Tue, 14 Jan 2025 09:18:07 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0005-afd8fc1a9ed640f5.css",
+    "bytes": 114706
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "none",
+      "content-length": "2592",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "text/css",
+      "last-modified": "Sun, 15 Aug 2021 13:47:46 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0006-d30ed5c39b38b8c0.css",
+    "bytes": 11256
+  },
+  {
+    "url": "https://use.typekit.net/bfa8ixq.css",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains;",
+      "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+      "timing-allow-origin": "*",
+      "content-encoding": "gzip",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-origin": "*",
+      "content-length": "1035",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "akamai-grn": "0.9fa33017.1781897403.1ee1a92b",
+      "content-type": "text/css;charset=utf-8",
+      "vary": "Accept-Encoding",
+      "server": "nginx"
+    },
+    "file": "files/0007-e0eb8c6a806fbae7.css",
+    "bytes": 7958
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/uploads/2024/06/Zelmanski_logo_24.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "5255",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Thu, 27 Jun 2024 08:41:21 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0008-3c89cb67ce408a60.svg",
+    "bytes": 5255
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/themes/semplice6/assets/css/frontend.min.css?ver=6.0.3",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "30724",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "text/css",
+      "last-modified": "Wed, 12 Oct 2022 17:49:31 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0009-f3b61d0b4534bb49.css",
+    "bytes": 252916
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "4872",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 24 Nov 2023 12:27:43 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0010-f643403d5e312b98.js",
+    "bytes": 13577
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/uploads/2024/08/cover-front.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "272073",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 21 Aug 2024 13:13:24 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0011-0e72d8fcc3ad832e.jpg",
+    "bytes": 272073
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/uploads/2024/07/portfolio-craft_matters.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "6632",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Tue, 02 Jul 2024 19:32:55 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0012-90457d5cd7a0245a.svg",
+    "bytes": 6632
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:03 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "30368",
+      "date": "Fri, 19 Jun 2026 19:30:03 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 24 Nov 2023 12:27:43 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0013-f461a034f0a855ae.js",
+    "bytes": 87553
+  },
+  {
+    "url": "https://p.typekit.net/p.css?s=1&k=bfa8ixq&ht=tk&f=15837.39494.39495.39500.39501.39504.39505.39508.39509.45393&a=1104955&app=typekit&e=css",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "public, max-age=604800",
+      "etag": "\"68f9ccb3-5\"",
+      "cross-origin-resource-policy": "cross-origin",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "5",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "text/css",
+      "last-modified": "Thu, 23 Oct 2025 06:35:31 GMT",
+      "server": "nginx"
+    },
+    "file": "files/0014-fd663d0782084709.css",
+    "bytes": 5
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/uploads/2024/07/portfolio_arrow_up.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "258",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Tue, 02 Jul 2024 22:38:29 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0015-8d3822259edb1b3d.svg",
+    "bytes": 258
+  },
+  {
+    "url": "https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent-code.js",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "content-encoding": "br",
+      "cf-cache-status": "HIT",
+      "age": "2174",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2%2FfYqEdrWvFZh4xFL9r80XIIZZ9OP055i%2FbDmA3GbrQUQ%2FmNvYWRVKglF3NTLOiBk7p9RtKe2fYMfidbekypG4izuarqlStNmI8zoym%2Fqpq3v%2F30%2Bs7elhRGvexnbTv3KV6I5nmnyL9aVhre2Dic\"}]}",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "application/javascript; charset=utf-8",
+      "last-modified": "Fri, 19 Jun 2026 18:53:56 GMT",
+      "vary": "accept-encoding",
+      "x-frame-options": "SAMEORIGIN",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "cf-ray": "a0e4f23828a6fa1a-SJC",
+      "x-z": "3246",
+      "x-xss-protection": "1; mode=block",
+      "server": "cloudflare"
+    },
+    "file": "files/0016-128338c4be817a10.js",
+    "bytes": 221548
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/themes/semplice6/assets/js/shared.scripts.min.js?ver=6.0.3",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Wed, 12 Oct 2022 17:49:31 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0017-5e8a6b5f1c886023.js",
+    "bytes": 666948
+  },
+  {
+    "url": "https://www.termsfeed.com/public-ping/cookie-consent/4.1.0/cookie-consent.js/www.zelmanski.pl",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "private, immutable, max-age=3600",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "cf-cache-status": "BYPASS",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=w8LepsuPbXT7y55F6beU%2Bg65UoJYcgiGq8XP4%2FMw1zxTuzKmmzMTNgppCpEHsw2G%2F8kLBqqqN3IBFeUPmZCYywCrKE9o0dh5CuGjRGNg7z%2BzP%2BPhJGYcOA72MYv7t7tuYBk48cSngb5oXHKwTNU9\"}]}",
+      "cf-ray": "a0e4f23828a7fa1a-SJC",
+      "accept-ranges": "bytes",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "content-length": "0",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "application/javascript; charset=utf-8",
+      "vary": "accept-encoding",
+      "server": "cloudflare"
+    },
+    "file": "files/0018-4223368490ce8660.pl",
+    "bytes": 0
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.7.5",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "540",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Thu, 06 Oct 2022 15:40:06 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0019-6975a17d0dc0de02.js",
+    "bytes": 1191
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/themes/semplice6/assets/js/frontend.min.js?ver=6.0.3",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "18918",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Wed, 12 Oct 2022 17:49:31 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0020-9c309bc3303f7ec8.js",
+    "bytes": 69217
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/themes/semplice6/assets/js/frontend.scripts.min.js?ver=6.0.3",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "26805",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Wed, 12 Oct 2022 17:49:31 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0021-ce5438c8582bf06f.js",
+    "bytes": 79555
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/uploads/2024/06/folio_details_cell_corner_desktop.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "883",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Thu, 27 Jun 2024 15:29:29 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0022-837ffad34834a25b.svg",
+    "bytes": 883
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/uploads/2024/06/folio_details_cell_1_long-desktop.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1108",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Thu, 27 Jun 2024 14:26:06 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0023-d50decea401b18f7.svg",
+    "bytes": 1108
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "38789",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Fri, 24 Nov 2023 12:27:44 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0024-2d23b22b755a3216.js",
+    "bytes": 158005
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/uploads/2024/08/Portfolio-short-COMPRESS.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-10894480/10894481",
+      "expires": "Fri, 19 Jun 2026 20:30:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "10894481",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Wed, 21 Aug 2024 13:15:58 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0025-835f40470f215494.mp4",
+    "error": "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/uploads/2024/08/Portfolio-short-COMPRESS.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 65536-10894480/10894481",
+      "expires": "Fri, 19 Jun 2026 20:30:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "10828945",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Wed, 21 Aug 2024 13:15:58 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0026-835f40470f215494.mp4",
+    "bytes": 10828945
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-2FDKWQ5Q4W",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cache-control": "private, max-age=900",
+      "content-encoding": "zstd",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "expires": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-length": "159569",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "x-xss-protection": "0",
+      "content-type": "application/javascript; charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Google Tag Manager",
+      "access-control-allow-headers": "Cache-Control"
+    },
+    "file": "files/0027-858f7ac9d2a34856.js",
+    "bytes": 463277
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-2FDKWQ5Q4W&gtm=45je66h0h1v9136274343za200zd9136274343&_p=1781897404129&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=740438193&_eu=AAAAAGA&are=1&cid=162044517.1781897404&ec_mode=a&frm=0&pscdl=noapi&rcb=18&sr=1440x1000&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938466~115938469~119027224~119392696~119392704~119456239~119456247&sid=1781897404&sct=1&seg=0&dl=https%3A%2F%2Fwww.zelmanski.pl%2F&dt=Tom%20(Zelmanski)%20is%20a%20designer%20%26%20Tom%20is%20busy%20af%20-%20Tomasz%20Zelma%C5%84ski&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2411",
+    "status": 204,
+    "type": "fetch",
+    "method": "POST",
+    "headers": {
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:196:0",
+      "report-to": "{\"group\":\"ascnsrsggc:196:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:196:0\"}],}",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "https://www.zelmanski.pl",
+      "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:196:0",
+      "content-length": "0",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "text/plain",
+      "server": "Golfe2"
+    },
+    "file": "files/0028-dd72eb4d4b8feae0.bin",
+    "error": "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-content/themes/semplice6/assets/images/frontend/mediaelement/bigplay.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "18197",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "image/png",
+      "last-modified": "Wed, 12 Oct 2022 17:49:33 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0029-4f64e99d47c980be.png",
+    "bytes": 18197
+  },
+  {
+    "url": "https://www.zelmanski.pl/wp-includes/js/mediaelement/mejs-controls.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:45:04 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "4598",
+      "date": "Fri, 19 Jun 2026 19:30:04 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Tue, 01 Aug 2017 04:43:51 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0030-87dac4f94ca4283d.svg",
+    "bytes": 4598
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-2FDKWQ5Q4W&gtm=45je66h0h1v9136274343za200zd9136274343&_p=1781897404129&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=740438193&_eu=AEAAAGQ&ae=a&are=1&cid=162044517.1781897404&frm=0&pscdl=noapi&rcb=18&sr=834x1112&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115616986~115938466~115938469~119027224~119392696~119392704~119456239~119456247&sid=1781897404&sct=1&seg=1&dl=https%3A%2F%2Fwww.zelmanski.pl%2F&dt=Tom%20(Zelmanski)%20is%20a%20designer%20%26%20Tom%20is%20busy%20af%20-%20Tomasz%20Zelma%C5%84ski&en=scroll&epn.percent_scrolled=90&_et=25959&tfd=33371",
+    "status": 204,
+    "type": "fetch",
+    "method": "POST",
+    "headers": {
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:196:0",
+      "report-to": "{\"group\":\"ascnsrsggc:196:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:196:0\"}],}",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "https://www.zelmanski.pl",
+      "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:196:0",
+      "content-length": "0",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "date": "Fri, 19 Jun 2026 19:30:35 GMT",
+      "content-type": "text/plain",
+      "server": "Golfe2"
+    },
+    "file": "files/0031-cc4c4c740575069a.bin",
+    "error": "response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  }
+]

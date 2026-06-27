@@ -1,0 +1,72 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "HOME",
+    "href": "https://www.philliplee.co/#home",
+    "aria": "",
+    "rect": {
+      "x": 928.859375,
+      "y": 15,
+      "width": 76.5625,
+      "height": 32.046875
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "a",
+    "text": "WORK",
+    "href": "https://www.philliplee.co/#featured",
+    "aria": "",
+    "rect": {
+      "x": 1009.421875,
+      "y": 15,
+      "width": 76.5625,
+      "height": 32.046875
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "a",
+    "text": "LIBRARY",
+    "href": "https://www.philliplee.co/#library",
+    "aria": "",
+    "rect": {
+      "x": 1089.984375,
+      "y": 15,
+      "width": 102.484375,
+      "height": 32.046875
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "a",
+    "text": "EXPERIMENTS",
+    "href": "https://www.philliplee.co/#experiments",
+    "aria": "",
+    "rect": {
+      "x": 1196.46875,
+      "y": 15,
+      "width": 137.046875,
+      "height": 32.046875
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  },
+  {
+    "index": 4,
+    "tag": "a",
+    "text": "CONTACT",
+    "href": "https://www.philliplee.co/#contact",
+    "aria": "",
+    "rect": {
+      "x": 1337.515625,
+      "y": 15,
+      "width": 102.484375,
+      "height": 32.046875
+    },
+    "screenshot": "screenshots/hover/hover-04.png"
+  }
+]

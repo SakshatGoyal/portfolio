@@ -1,0 +1,222 @@
+[
+  {
+    "label": "desktop-selected-settled",
+    "hash": "#selected-work",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    },
+    "selectedTitleOpacity": 1,
+    "selectedTitleClipPath": "none",
+    "lightboxOpen": false
+  },
+  {
+    "label": "desktop-about-settled",
+    "hash": "#about",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    },
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "lightboxOpen": false
+  },
+  {
+    "label": "desktop-case-palo-alto-networks-opening",
+    "hash": "#case/palo-alto-networks",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    },
+    "caseHeadingY": 0,
+    "caseHeroOpacity": 1,
+    "caseHeroTransform": "none",
+    "caseIntroOpacity": 0,
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "firstRevealImageRadius": "0px",
+    "lightboxOpen": false
+  },
+  {
+    "label": "desktop-case-docusign-global-data-analytics-opening",
+    "hash": "#case/docusign-global-data-analytics",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    },
+    "caseHeadingY": 0,
+    "caseHeroOpacity": 1,
+    "caseHeroTransform": "none",
+    "caseIntroOpacity": 0,
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "firstRevealImageRadius": "0px",
+    "lightboxOpen": false
+  },
+  {
+    "label": "desktop-case-harvard-business-school-opening",
+    "hash": "#case/harvard-business-school",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    },
+    "caseHeadingY": 0,
+    "caseHeroOpacity": 1,
+    "caseHeroTransform": "none",
+    "caseIntroOpacity": 0,
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "firstRevealImageRadius": "0px",
+    "lightboxOpen": false
+  },
+  {
+    "label": "desktop-case-docusign-onereport-opening",
+    "hash": "#case/docusign-onereport",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    },
+    "caseHeadingY": 0,
+    "caseHeroOpacity": 1,
+    "caseHeroTransform": "none",
+    "caseIntroOpacity": 0,
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "firstRevealImageRadius": "0px",
+    "lightboxOpen": false
+  },
+  {
+    "label": "desktop-case-media-settled",
+    "hash": "#case/palo-alto-networks",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    },
+    "caseHeadingY": 0,
+    "caseHeroOpacity": 1,
+    "caseHeroTransform": "none",
+    "caseIntroOpacity": 1,
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "firstRevealImageRadius": "6px",
+    "lightboxOpen": false
+  },
+  {
+    "label": "desktop-lightbox-open",
+    "hash": "#case/palo-alto-networks",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    },
+    "caseHeadingY": 0,
+    "caseHeroOpacity": 1,
+    "caseHeroTransform": "none",
+    "caseIntroOpacity": 1,
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "firstRevealImageRadius": "6px",
+    "lightboxOpen": true
+  },
+  {
+    "label": "phone-selected-settled",
+    "hash": "#selected-work",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 788,
+      "bottom": 844,
+      "viewportHeight": 844
+    },
+    "selectedTitleOpacity": 1,
+    "selectedTitleClipPath": "none",
+    "lightboxOpen": false
+  },
+  {
+    "label": "phone-nav-open",
+    "hash": "#selected-work",
+    "headerTransformY": 0,
+    "navOpen": true,
+    "panelCoverage": {
+      "top": 56,
+      "height": 788,
+      "bottom": 844,
+      "viewportHeight": 844
+    },
+    "selectedTitleOpacity": 1,
+    "selectedTitleClipPath": "none",
+    "lightboxOpen": false
+  },
+  {
+    "label": "phone-case-hbs-1000ms",
+    "hash": "#case/harvard-business-school",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 788,
+      "bottom": 844,
+      "viewportHeight": 844
+    },
+    "caseHeadingY": 0,
+    "caseHeroOpacity": 1,
+    "caseHeroTransform": "none",
+    "caseIntroOpacity": 0,
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "firstRevealImageRadius": "0px",
+    "lightboxOpen": false
+  },
+  {
+    "label": "phone-case-hbs-1700ms",
+    "hash": "#case/harvard-business-school",
+    "headerTransformY": 0,
+    "navOpen": false,
+    "panelCoverage": {
+      "top": 56,
+      "height": 788,
+      "bottom": 844,
+      "viewportHeight": 844
+    },
+    "caseHeadingY": 0,
+    "caseHeroOpacity": 1,
+    "caseHeroTransform": "none",
+    "caseIntroOpacity": 0.967735,
+    "selectedTitleOpacity": 0,
+    "selectedTitleClipPath": "none",
+    "firstRevealImageRadius": "0px",
+    "lightboxOpen": false
+  }
+]

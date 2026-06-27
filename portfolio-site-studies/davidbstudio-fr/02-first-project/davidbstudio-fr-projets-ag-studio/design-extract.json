@@ -1,0 +1,3624 @@
+{
+  "title": "AG studio – david.B.studio",
+  "url": "https://davidbstudio.fr/projets/ag-studio",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 10831,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(2, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(253, 249, 246)",
+    "rgb(21, 115, 221)",
+    "rgb(119, 119, 119)",
+    "rgb(255, 211, 0)"
+  ],
+  "fonts": [
+    "Inter, sans-serif",
+    "Silka-Regular, sans-serif",
+    "Arial"
+  ],
+  "samples": [
+    {
+      "tag": "div",
+      "className": "content-container active-content",
+      "text": "ProjetsÀ proposContact ☻ AG studioCabinet de conseil en programmation architecturale Refonte de l'identité du studio et ",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "smp-nav-section",
+      "className": "smp-navbar",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 53
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "smp-nav-row",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 53
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "smp-nav-section",
+      "className": "smp-navbar",
+      "text": "ProjetsÀ proposContact ☻",
+      "rect": {
+        "x": 0,
+        "y": 917,
+        "width": 1440,
+        "height": 83
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "17px 0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "smp-nav-row",
+      "className": "",
+      "text": "ProjetsÀ proposContact ☻",
+      "rect": {
+        "x": 0,
+        "y": 934,
+        "width": 1440,
+        "height": 49
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "smp-nav-button is-content",
+      "text": "Projets",
+      "rect": {
+        "x": 17,
+        "y": 936,
+        "width": 104.25,
+        "height": 45
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "borderRadius": "26px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "text",
+      "text": "Projets",
+      "rect": {
+        "x": 38,
+        "y": 947,
+        "width": 62.25,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "smp-nav-button is-content",
+      "text": "À propos",
+      "rect": {
+        "x": 141.25,
+        "y": 936,
+        "width": 122.0625,
+        "height": 45
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "borderRadius": "26px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "text",
+      "text": "À propos",
+      "rect": {
+        "x": 162.25,
+        "y": 947,
+        "width": 80.0625,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "smp-nav-button is-content",
+      "text": "Contact ☻",
+      "rect": {
+        "x": 284.3125,
+        "y": 936,
+        "width": 131.21875,
+        "height": 45
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "borderRadius": "26px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "text",
+      "text": "Contact ☻",
+      "rect": {
+        "x": 305.3125,
+        "y": 947,
+        "width": 89.21875,
+        "height": 23
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "smp-nav-button is-content",
+      "text": "",
+      "rect": {
+        "x": 1375,
+        "y": 934,
+        "width": 49,
+        "height": 49
+      },
+      "styles": {
+        "color": "rgba(0, 0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Arial",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "10px",
+        "borderRadius": "26px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "icon",
+      "text": "",
+      "rect": {
+        "x": 1386,
+        "y": 945,
+        "width": 27,
+        "height": 27
+      },
+      "styles": {
+        "color": "rgba(0, 0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "transition-wrap",
+      "text": "AG studioCabinet de conseil en programmation architecturale Refonte de l'identité du studio et conception de leur site i",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 10831
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "sections",
+      "text": "AG studioCabinet de conseil en programmation architecturale Refonte de l'identité du studio et conception de leur site i",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 10831
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "smp-section",
+      "className": "semplice-cover is-empty-cover",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "show-more show-more-visible click-handler",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 918.015625,
+        "width": 1440,
+        "height": 79.984375
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "30px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "AG studioCabinet de conseil en programmation architecturale",
+      "rect": {
+        "x": 30,
+        "y": 1187,
+        "width": 675,
+        "height": 111
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "",
+      "text": "AG studio",
+      "rect": {
+        "x": 30,
+        "y": 1187,
+        "width": 675,
+        "height": 75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "400",
+        "lineHeight": "75px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 30px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Cabinet de conseil en programmation architecturale",
+      "rect": {
+        "x": 30,
+        "y": 1292,
+        "width": 675,
+        "height": 6
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "21.996px",
+        "fontWeight": "400",
+        "lineHeight": "5.994px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Refonte de l'identité du studio et conception de leur site internet.collaboration design avec Takumi Kobayashi développe",
+      "rect": {
+        "x": 30,
+        "y": 1348,
+        "width": 1380,
+        "height": 78
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Refonte de l'identité du studio et conception de leur site internet.collaboration design avec Takumi Kobayashi développe",
+      "rect": {
+        "x": 30,
+        "y": 1348,
+        "width": 1380,
+        "height": 78
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Takumi Kobayashi",
+      "rect": {
+        "x": 237.984375,
+        "y": 1376,
+        "width": 145.921875,
+        "height": 21
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Jérôme Montagne",
+      "rect": {
+        "x": 158.09375,
+        "y": 1402,
+        "width": 145.09375,
+        "height": 21
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 1526,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 1526,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 1526,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 735,
+        "y": 1526,
+        "width": 675,
+        "height": 932.421875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 735,
+        "y": 1526,
+        "width": 675,
+        "height": 932.421875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 735,
+        "y": 1526,
+        "width": 675,
+        "height": 932.421875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 2558.421875,
+        "width": 1027.5,
+        "height": 698.84375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 2558.421875,
+        "width": 1027.5,
+        "height": 698.84375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 2558.421875,
+        "width": 1027.5,
+        "height": 698.84375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 3357.265625,
+        "width": 675,
+        "height": 898.125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 3357.265625,
+        "width": 675,
+        "height": 898.125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 3357.265625,
+        "width": 675,
+        "height": 898.125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-video is-content hide-controls smp-autoplay is-paused",
+      "text": "",
+      "rect": {
+        "x": 735,
+        "y": 3357.265625,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "video",
+      "text": "",
+      "rect": {
+        "x": 735,
+        "y": 3357.265625,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 4355.390625,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 4355.390625,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 4355.390625,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-video is-content hide-controls smp-autoplay is-paused",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 5302.796875,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "video",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 5302.796875,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-video is-content hide-controls smp-autoplay is-paused",
+      "text": "",
+      "rect": {
+        "x": 735,
+        "y": 5302.796875,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "video",
+      "text": "",
+      "rect": {
+        "x": 735,
+        "y": 5302.796875,
+        "width": 675,
+        "height": 675
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 6077.796875,
+        "width": 910,
+        "height": 558.796875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 6077.796875,
+        "width": 910,
+        "height": 558.796875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 6077.796875,
+        "width": 910,
+        "height": 558.796875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-video is-content hide-controls smp-autoplay is-paused",
+      "text": "",
+      "rect": {
+        "x": 970,
+        "y": 6077.796875,
+        "width": 440,
+        "height": 440
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "video",
+      "text": "",
+      "rect": {
+        "x": 970,
+        "y": 6077.796875,
+        "width": 440,
+        "height": 440
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 6736.59375,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 6736.59375,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 6736.59375,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-image",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 7684,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 7684,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 30,
+        "y": 7684,
+        "width": 1380,
+        "height": 847.40625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-video is-content hide-controls smp-autoplay is-paused",
+      "text": "",
+      "rect": {
+        "x": 45,
+        "y": 8731.40625,
+        "width": 430,
+        "height": 430
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "video",
+      "text": "",
+      "rect": {
+        "x": 45,
+        "y": 8731.40625,
+        "width": 430,
+        "height": 430
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-video is-content hide-controls smp-autoplay is-paused",
+      "text": "",
+      "rect": {
+        "x": 505,
+        "y": 8731.40625,
+        "width": 430,
+        "height": 430
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "video",
+      "text": "",
+      "rect": {
+        "x": 505,
+        "y": 8731.40625,
+        "width": 430,
+        "height": 430
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "smp-video is-content hide-controls smp-autoplay is-paused",
+      "text": "",
+      "rect": {
+        "x": 965,
+        "y": 8731.40625,
+        "width": 430,
+        "height": 430
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "video",
+      "text": "",
+      "rect": {
+        "x": 965,
+        "y": 8731.40625,
+        "width": 430,
+        "height": 430
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "PROJETS",
+      "rect": {
+        "x": 45,
+        "y": 9387.40625,
+        "width": 1350,
+        "height": 75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "",
+      "text": "PROJETS",
+      "rect": {
+        "x": 45,
+        "y": 9387.40625,
+        "width": 1350,
+        "height": 75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "34.992px",
+        "fontWeight": "400",
+        "lineHeight": "75px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "smp-section",
+      "className": "section-module",
+      "text": "AG studio identité, webdesign nainai identité AIRE • Territoires de travail exposition loma Identité Le tamis et le sabl",
+      "rect": {
+        "x": 0,
+        "y": 9462.40625,
+        "width": 1440,
+        "height": 1065
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "25px 0px 0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg apg-table",
+      "text": "AG studio identité, webdesign nainai identité AIRE • Territoires de travail exposition loma Identité Le tamis et le sabl",
+      "rect": {
+        "x": 45,
+        "y": 9487.40625,
+        "width": 1350,
+        "height": 1040
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-247 apg-post apg-post-table",
+      "text": "AG studio identité, webdesign",
+      "rect": {
+        "x": 45,
+        "y": 9487.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "AG studio identité, webdesign",
+      "rect": {
+        "x": 45,
+        "y": 9487.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "AG studio",
+      "rect": {
+        "x": 75,
+        "y": 9504.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "AG studio",
+      "rect": {
+        "x": 75,
+        "y": 9504.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "identité, webdesign",
+      "rect": {
+        "x": 720,
+        "y": 9504.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "identité, webdesign",
+      "rect": {
+        "x": 720,
+        "y": 9504.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-178 apg-post apg-post-table",
+      "text": "nainai identité",
+      "rect": {
+        "x": 45,
+        "y": 9552.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "nainai identité",
+      "rect": {
+        "x": 45,
+        "y": 9552.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "nainai",
+      "rect": {
+        "x": 75,
+        "y": 9569.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "nainai",
+      "rect": {
+        "x": 75,
+        "y": 9569.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "identité",
+      "rect": {
+        "x": 720,
+        "y": 9569.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "identité",
+      "rect": {
+        "x": 720,
+        "y": 9569.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-153 apg-post apg-post-table",
+      "text": "AIRE • Territoires de travail exposition",
+      "rect": {
+        "x": 45,
+        "y": 9617.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "AIRE • Territoires de travail exposition",
+      "rect": {
+        "x": 45,
+        "y": 9617.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "AIRE • Territoires de travail",
+      "rect": {
+        "x": 75,
+        "y": 9634.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "AIRE • Territoires de travail",
+      "rect": {
+        "x": 75,
+        "y": 9634.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "exposition",
+      "rect": {
+        "x": 720,
+        "y": 9634.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "exposition",
+      "rect": {
+        "x": 720,
+        "y": 9634.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-75 apg-post apg-post-table",
+      "text": "loma Identité",
+      "rect": {
+        "x": 45,
+        "y": 9682.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "loma Identité",
+      "rect": {
+        "x": 45,
+        "y": 9682.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "loma",
+      "rect": {
+        "x": 75,
+        "y": 9699.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "loma",
+      "rect": {
+        "x": 75,
+        "y": 9699.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "Identité",
+      "rect": {
+        "x": 720,
+        "y": 9699.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "Identité",
+      "rect": {
+        "x": 720,
+        "y": 9699.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-32 apg-post apg-post-table",
+      "text": "Le tamis et le sable édition",
+      "rect": {
+        "x": 45,
+        "y": 9747.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "Le tamis et le sable édition",
+      "rect": {
+        "x": 45,
+        "y": 9747.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "Le tamis et le sable",
+      "rect": {
+        "x": 75,
+        "y": 9764.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "Le tamis et le sable",
+      "rect": {
+        "x": 75,
+        "y": 9764.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "édition",
+      "rect": {
+        "x": 720,
+        "y": 9764.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "édition",
+      "rect": {
+        "x": 720,
+        "y": 9764.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-30 apg-post apg-post-table",
+      "text": "agora exposition",
+      "rect": {
+        "x": 45,
+        "y": 9812.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "agora exposition",
+      "rect": {
+        "x": 45,
+        "y": 9812.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "agora",
+      "rect": {
+        "x": 75,
+        "y": 9829.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "agora",
+      "rect": {
+        "x": 75,
+        "y": 9829.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "exposition",
+      "rect": {
+        "x": 720,
+        "y": 9829.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "exposition",
+      "rect": {
+        "x": 720,
+        "y": 9829.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-29 apg-post apg-post-table",
+      "text": "Societer UI/UX",
+      "rect": {
+        "x": 45,
+        "y": 9877.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "Societer UI/UX",
+      "rect": {
+        "x": 45,
+        "y": 9877.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "Societer",
+      "rect": {
+        "x": 75,
+        "y": 9894.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "Societer",
+      "rect": {
+        "x": 75,
+        "y": 9894.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "UI/UX",
+      "rect": {
+        "x": 720,
+        "y": 9894.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "UI/UX",
+      "rect": {
+        "x": 720,
+        "y": 9894.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-9 apg-post apg-post-table",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "rect": {
+        "x": 45,
+        "y": 9942.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "rect": {
+        "x": 45,
+        "y": 9942.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "Maison d'Orsay Paris",
+      "rect": {
+        "x": 75,
+        "y": 9959.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "Maison d'Orsay Paris",
+      "rect": {
+        "x": 75,
+        "y": 9959.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "Webdesign",
+      "rect": {
+        "x": 720,
+        "y": 9959.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "Webdesign",
+      "rect": {
+        "x": 720,
+        "y": 9959.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "post-318 apg-post apg-post-table",
+      "text": "Chaire Mutation website",
+      "rect": {
+        "x": 45,
+        "y": 10007.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(253, 249, 246)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "apg-table-link",
+      "text": "Chaire Mutation website",
+      "rect": {
+        "x": 45,
+        "y": 10007.40625,
+        "width": 1350,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(21, 115, 221)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 30px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-title",
+      "text": "Chaire Mutation",
+      "rect": {
+        "x": 75,
+        "y": 10024.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "title",
+      "text": "Chaire Mutation",
+      "rect": {
+        "x": 75,
+        "y": 10024.40625,
+        "width": 645,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "apg-table-column table-column-type",
+      "text": "website",
+      "rect": {
+        "x": 720,
+        "y": 10024.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "type",
+      "text": "website",
+      "rect": {
+        "x": 720,
+        "y": 10024.40625,
+        "width": 322.5,
+        "height": 32
+      },
+      "styles": {
+        "color": "rgb(2, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Silka-Regular, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://davidbstudio.fr/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 9,
+        "y": 49.71875,
+        "width": 160,
+        "height": 0
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://davidbstudio.fr/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 1381,
+        "y": 53,
+        "width": 50,
+        "height": 0
+      }
+    },
+    {
+      "index": 2,
+      "href": "http://www.cmjnrvb.net/",
+      "text": "Takumi Kobayashi",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 237.984375,
+        "y": 1376,
+        "width": 145.921875,
+        "height": 21
+      }
+    },
+    {
+      "index": 3,
+      "href": "https://jeromem.net/",
+      "text": "Jérôme Montagne",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 158.09375,
+        "y": 1402,
+        "width": 145.09375,
+        "height": 21
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://davidbstudio.fr/projets/ag-studio",
+      "text": "AG studio identité, webdesign",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 9487.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://davidbstudio.fr/projets/nainai",
+      "text": "nainai identité",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 9552.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 6,
+      "href": "https://davidbstudio.fr/projets/aires",
+      "text": "AIRE • Territoires de travail exposition",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 9617.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 7,
+      "href": "https://davidbstudio.fr/projets/loma",
+      "text": "loma Identité",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 9682.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 8,
+      "href": "https://davidbstudio.fr/projets/le-tamis-et-le-sable-2",
+      "text": "Le tamis et le sable édition",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 9747.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 9,
+      "href": "https://davidbstudio.fr/projets/agora",
+      "text": "agora exposition",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 9812.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 10,
+      "href": "https://davidbstudio.fr/projets/societer",
+      "text": "Societer UI/UX",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 9877.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 11,
+      "href": "https://davidbstudio.fr/projets/dorsay",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 9942.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 12,
+      "href": "https://davidbstudio.fr/projets/chaire-mutation",
+      "text": "Chaire Mutation website",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 10007.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 13,
+      "href": "https://davidbstudio.fr/projets/laserskin",
+      "text": "Laserskin Branding, webdesign",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 10072.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 14,
+      "href": "https://davidbstudio.fr/projets/what-time-is-it",
+      "text": "What time is it? exposition, identité",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 10137.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 15,
+      "href": "https://davidbstudio.fr/projets/revue-volume",
+      "text": "Revue Volume Edition",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 10202.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 16,
+      "href": "https://davidbstudio.fr/projets/moko",
+      "text": "MOKO branding",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 10267.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 17,
+      "href": "https://davidbstudio.fr/projets/persona-everywhere",
+      "text": "Persona Everywhere edition",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 10332.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 18,
+      "href": "https://davidbstudio.fr/projets/yumistudio",
+      "text": "Yumistudio identité",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 10397.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 19,
+      "href": "https://davidbstudio.fr/projets/noschool",
+      "text": "NOSCHOOL signalétique, identity",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 45,
+        "y": 10462.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 20,
+      "href": "mailto:bonjour@davidbstudio.fr",
+      "text": "contact us",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 752.265625,
+        "y": 10635.40625,
+        "width": 164.09375,
+        "height": 41
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "button",
+      "text": "Projets",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 17,
+        "y": 936,
+        "width": 104.25,
+        "height": 45
+      }
+    },
+    {
+      "index": 1,
+      "tag": "button",
+      "text": "À propos",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 141.25,
+        "y": 936,
+        "width": 122.0625,
+        "height": 45
+      }
+    },
+    {
+      "index": 2,
+      "tag": "button",
+      "text": "Contact ☻",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 284.3125,
+        "y": 936,
+        "width": 131.21875,
+        "height": 45
+      }
+    },
+    {
+      "index": 3,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 1375,
+        "y": 934,
+        "width": 49,
+        "height": 49
+      }
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "Takumi Kobayashi",
+      "href": "http://www.cmjnrvb.net/",
+      "aria": "",
+      "rect": {
+        "x": 237.984375,
+        "y": 1376,
+        "width": 145.921875,
+        "height": 21
+      }
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "Jérôme Montagne",
+      "href": "https://jeromem.net/",
+      "aria": "",
+      "rect": {
+        "x": 158.09375,
+        "y": 1402,
+        "width": 145.09375,
+        "height": 21
+      }
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "AG studio identité, webdesign",
+      "href": "https://davidbstudio.fr/projets/ag-studio",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 9487.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "nainai identité",
+      "href": "https://davidbstudio.fr/projets/nainai",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 9552.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "AIRE • Territoires de travail exposition",
+      "href": "https://davidbstudio.fr/projets/aires",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 9617.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "loma Identité",
+      "href": "https://davidbstudio.fr/projets/loma",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 9682.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Le tamis et le sable édition",
+      "href": "https://davidbstudio.fr/projets/le-tamis-et-le-sable-2",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 9747.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "agora exposition",
+      "href": "https://davidbstudio.fr/projets/agora",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 9812.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "Societer UI/UX",
+      "href": "https://davidbstudio.fr/projets/societer",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 9877.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "Maison d'Orsay Paris Webdesign",
+      "href": "https://davidbstudio.fr/projets/dorsay",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 9942.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "Chaire Mutation website",
+      "href": "https://davidbstudio.fr/projets/chaire-mutation",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 10007.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 15,
+      "tag": "a",
+      "text": "Laserskin Branding, webdesign",
+      "href": "https://davidbstudio.fr/projets/laserskin",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 10072.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "text": "What time is it? exposition, identité",
+      "href": "https://davidbstudio.fr/projets/what-time-is-it",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 10137.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 17,
+      "tag": "a",
+      "text": "Revue Volume Edition",
+      "href": "https://davidbstudio.fr/projets/revue-volume",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 10202.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 18,
+      "tag": "a",
+      "text": "MOKO branding",
+      "href": "https://davidbstudio.fr/projets/moko",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 10267.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 19,
+      "tag": "a",
+      "text": "Persona Everywhere edition",
+      "href": "https://davidbstudio.fr/projets/persona-everywhere",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 10332.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 20,
+      "tag": "a",
+      "text": "Yumistudio identité",
+      "href": "https://davidbstudio.fr/projets/yumistudio",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 10397.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 21,
+      "tag": "a",
+      "text": "NOSCHOOL signalétique, identity",
+      "href": "https://davidbstudio.fr/projets/noschool",
+      "aria": "",
+      "rect": {
+        "x": 45,
+        "y": 10462.40625,
+        "width": 1350,
+        "height": 65
+      }
+    },
+    {
+      "index": 22,
+      "tag": "a",
+      "text": "contact us",
+      "href": "mailto:bonjour@davidbstudio.fr",
+      "aria": "",
+      "rect": {
+        "x": 752.265625,
+        "y": 10635.40625,
+        "width": 164.09375,
+        "height": 41
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

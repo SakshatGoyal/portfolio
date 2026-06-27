@@ -1,0 +1,100 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "Studio Nordost",
+    "href": "https://studio-nordost.com/",
+    "aria": "",
+    "rect": {
+      "x": 383.984375,
+      "y": 73,
+      "width": 296.46875,
+      "height": 66
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "a",
+    "text": "CoLab",
+    "href": "https://www.colabgroup.com/",
+    "aria": "",
+    "rect": {
+      "x": 1203.765625,
+      "y": 225.625,
+      "width": 44.71875,
+      "height": 22
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "a",
+    "text": "Süd RLC",
+    "href": "https://www.sudrlc.com/",
+    "aria": "",
+    "rect": {
+      "x": 1254.359375,
+      "y": 225.625,
+      "width": 59.046875,
+      "height": 22
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "a",
+    "text": "Salić",
+    "href": "https://www.salic.at/",
+    "aria": "",
+    "rect": {
+      "x": 1319.28125,
+      "y": 225.625,
+      "width": 32.46875,
+      "height": 22
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  },
+  {
+    "index": 4,
+    "tag": "a",
+    "text": "Merlicek & Partner",
+    "href": "https://merlicek-partner.at/",
+    "aria": "",
+    "rect": {
+      "x": 1080,
+      "y": 246.953125,
+      "width": 121,
+      "height": 22
+    },
+    "screenshot": "screenshots/hover/hover-04.png"
+  },
+  {
+    "index": 5,
+    "tag": "a",
+    "text": "Raven & Finch",
+    "href": "https://www.ravenandfinch.com/",
+    "aria": "",
+    "rect": {
+      "x": 1235.75,
+      "y": 246.953125,
+      "width": 94.453125,
+      "height": 22
+    },
+    "screenshot": "screenshots/hover/hover-05.png"
+  },
+  {
+    "index": 6,
+    "tag": "a",
+    "text": "info@shemetsberger.com",
+    "href": "mailto:info@shemetsberger.com",
+    "aria": "",
+    "rect": {
+      "x": 1079.984375,
+      "y": 948.328125,
+      "width": 171.53125,
+      "height": 22
+    },
+    "screenshot": "screenshots/hover/hover-06.png"
+  }
+]

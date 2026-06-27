@@ -1,0 +1,3645 @@
+{
+  "title": "Karolis Kosas",
+  "url": "https://karoliskosas.com/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 9836,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(230, 230, 230)",
+    "rgb(10, 10, 10)"
+  ],
+  "fonts": [
+    "Times",
+    "Helvetica, sans-serif",
+    "Aeonik-Regular"
+  ],
+  "samples": [
+    {
+      "tag": "html",
+      "className": "flexbox no-touchevents objectfit object-fit no-ios no-ipad no-iphone no-firefox no-chrome-no-safari no-chrome no-instagram-browser lay-objectfit desktop-size",
+      "text": "Karolis Kosas /* essential styles that need to be in head */ html{ overflow-y: scroll; /* needs to be min-height: 100% i",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 9836.25
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "body",
+      "className": "home blog no-touchdevice type-page id-2 slug-home mobile-menu-style_1 mobile-menu-has-animation thumb-mo-image-no-transition thumb-video-and-mouseover-image-behavior-show-image mobile_menu_bar_hidden mobile_burger_style_default_thin sticky-footer-option-enabled intro-disabled not-protected mobile-menu-animation-possible",
+      "text": "Created with Laytheme.com@keyframes fadeIn {0% { opacity: 0; }100% { opacity: 1; }}._ts_1781897351473{color:black;text-d",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 9836.25
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "_ts_1781897351473",
+      "text": "Created with Laytheme.com",
+      "rect": {
+        "x": 1255.59375,
+        "y": 963,
+        "width": 174.40625,
+        "height": 27
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "25px",
+        "letterSpacing": "0.12px",
+        "margin": "0px",
+        "padding": "0px 10px",
+        "borderRadius": "20px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "lay-content hascustomphonegrid footer-hascustomphonegrid nocover cpl-nocover cover-enabled-on-phone",
+      "text": "@media (min-width: 601px){#grid.id-2{padding-top:160px;}#grid.id-2{padding-bottom:160px;}} @media (min-width: 601px){#gr",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 9836.25
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "grid lay-not-empty id-2  ",
+      "text": "@media (min-width: 601px){#grid.id-2{padding-top:160px;}#grid.id-2{padding-bottom:160px;}} @media (min-width: 601px){#gr",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 9476.25
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "160px 0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "grid-inner",
+      "text": "@media (min-width: 601px){#grid.id-2{padding-top:160px;}#grid.id-2{padding-bottom:160px;}} @media (min-width: 601px){#gr",
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 9156.25
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage first-row row-0",
+      "text": "Karolis Kosas is a product designer at OpenAI, previously Stripe.",
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Karolis Kosas is a product designer at OpenAI, previously Stripe.",
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Karolis Kosas is a product designer at OpenAI, previously Stripe.",
+      "rect": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-10 colstart-1 colend-11 no-frame-overflow align-top first-child no-parallax type-text id-225  no-sticky",
+      "text": "Karolis Kosas is a product designer at OpenAI, previously Stripe.",
+      "rect": {
+        "x": 120,
+        "y": 160,
+        "width": 1200,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_225 ",
+      "text": "Karolis Kosas is a product designer at OpenAI, previously Stripe.",
+      "rect": {
+        "x": 120,
+        "y": 160,
+        "width": 1200,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_headline",
+      "text": "Karolis Kosas is a product designer at OpenAI, previously Stripe.",
+      "rect": {
+        "x": 120,
+        "y": 160,
+        "width": 1200,
+        "height": 144
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "62px",
+        "fontWeight": "300",
+        "lineHeight": "62px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 no-stickies no-horizontal-grid no-webglslideshow no-row-hoverimage  row-1",
+      "text": "CUJO — Home Internet SecurityCUJO is a home internet security company, providing the power of enterprise security soluti",
+      "rect": {
+        "x": 0,
+        "y": 464,
+        "width": 1440,
+        "height": 729.75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "CUJO — Home Internet SecurityCUJO is a home internet security company, providing the power of enterprise security soluti",
+      "rect": {
+        "x": 0,
+        "y": 464,
+        "width": 1440,
+        "height": 729.75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "CUJO — Home Internet SecurityCUJO is a home internet security company, providing the power of enterprise security soluti",
+      "rect": {
+        "x": 0,
+        "y": 464,
+        "width": 1440,
+        "height": 729.75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-5 colstart-1 colend-6 no-frame-overflow align-middle first-child no-parallax type-text id-226  no-sticky",
+      "text": "CUJO — Home Internet SecurityCUJO is a home internet security company, providing the power of enterprise security soluti",
+      "rect": {
+        "x": 120,
+        "y": 721.78125,
+        "width": 600,
+        "height": 286.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_226 ",
+      "text": "CUJO — Home Internet SecurityCUJO is a home internet security company, providing the power of enterprise security soluti",
+      "rect": {
+        "x": 120,
+        "y": 721.78125,
+        "width": 600,
+        "height": 286.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_HeadlineProject",
+      "text": "CUJO — Home Internet Security",
+      "rect": {
+        "x": 120,
+        "y": 721.78125,
+        "width": 600,
+        "height": 115.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "CUJO is a home internet security company, providing the power of enterprise security solutions in a simple and elegant d",
+      "rect": {
+        "x": 120,
+        "y": 844.96875,
+        "width": 600,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 942.96875,
+        "width": 600,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 972.96875,
+        "width": 133.46875,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "_link",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 966.96875,
+        "width": 133.46875,
+        "height": 41
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "24px 0px 0px",
+        "padding": "6px 28px 8px",
+        "borderRadius": "30px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-5 colstart-7 colend-12 no-frame-overflow align-middle not-first-child no-parallax type-img id-227  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 912,
+        "y": 464,
+        "width": 600,
+        "height": 729.75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img image-transparent-bg portrait  ",
+      "text": "",
+      "rect": {
+        "x": 912,
+        "y": 464,
+        "width": 600,
+        "height": 729.75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-gif lazyload loaded lazyloaded",
+      "text": "",
+      "rect": {
+        "x": 912,
+        "y": 464,
+        "width": 600,
+        "height": 729.75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 912,
+        "y": 464,
+        "width": 600,
+        "height": 729.75
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 729.75px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 no-stickies no-horizontal-grid no-webglslideshow no-row-hoverimage  row-2",
+      "text": "Event Discovery Platform YPlanAs a creative director, I was responsible for bringing YPlan’s mobile experience into the ",
+      "rect": {
+        "x": 0,
+        "y": 1353.75,
+        "width": 1440,
+        "height": 839.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Event Discovery Platform YPlanAs a creative director, I was responsible for bringing YPlan’s mobile experience into the ",
+      "rect": {
+        "x": 0,
+        "y": 1353.75,
+        "width": 1440,
+        "height": 839.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Event Discovery Platform YPlanAs a creative director, I was responsible for bringing YPlan’s mobile experience into the ",
+      "rect": {
+        "x": 0,
+        "y": 1353.75,
+        "width": 1440,
+        "height": 839.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-0 span-5 colstart-0 colend-5 no-frame-overflow align-middle first-child no-parallax type-img id-228  no-sticky",
+      "text": "",
+      "rect": {
+        "x": -72,
+        "y": 1353.75,
+        "width": 600,
+        "height": 839.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img  portrait  ",
+      "text": "",
+      "rect": {
+        "x": -72,
+        "y": 1353.75,
+        "width": 600,
+        "height": 839.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": -72,
+        "y": 1353.75,
+        "width": 600,
+        "height": 839.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": -72,
+        "y": 1353.75,
+        "width": 600,
+        "height": 839.0625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 839.062px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-5 colstart-6 colend-11 no-frame-overflow align-middle not-first-child no-parallax type-text id-229  no-sticky",
+      "text": "Event Discovery Platform YPlanAs a creative director, I was responsible for bringing YPlan’s mobile experience into the ",
+      "rect": {
+        "x": 720,
+        "y": 1687.1875,
+        "width": 600,
+        "height": 316.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_229 ",
+      "text": "Event Discovery Platform YPlanAs a creative director, I was responsible for bringing YPlan’s mobile experience into the ",
+      "rect": {
+        "x": 720,
+        "y": 1687.1875,
+        "width": 600,
+        "height": 316.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_HeadlineProject",
+      "text": "Event Discovery Platform YPlan",
+      "rect": {
+        "x": 720,
+        "y": 1687.1875,
+        "width": 600,
+        "height": 115.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "As a creative director, I was responsible for bringing YPlan’s mobile experience into the web, optimizing the checkout f",
+      "rect": {
+        "x": 720,
+        "y": 1810.375,
+        "width": 600,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "See more",
+      "rect": {
+        "x": 720,
+        "y": 1938.375,
+        "width": 600,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "See more",
+      "rect": {
+        "x": 720,
+        "y": 1968.375,
+        "width": 133.46875,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "_link",
+      "text": "See more",
+      "rect": {
+        "x": 720,
+        "y": 1962.375,
+        "width": 133.46875,
+        "height": 41
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "24px 0px 0px",
+        "padding": "6px 28px 8px",
+        "borderRadius": "30px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 no-stickies no-horizontal-grid no-webglslideshow no-row-hoverimage  row-3",
+      "text": "Film Utility App Cinema Club Cinema Club is focussed on simplifying the process of finding showtimes and booking tickets",
+      "rect": {
+        "x": 0,
+        "y": 2352.8125,
+        "width": 1440,
+        "height": 703.90625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 320px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Film Utility App Cinema Club Cinema Club is focussed on simplifying the process of finding showtimes and booking tickets",
+      "rect": {
+        "x": 0,
+        "y": 2352.8125,
+        "width": 1440,
+        "height": 703.90625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Film Utility App Cinema Club Cinema Club is focussed on simplifying the process of finding showtimes and booking tickets",
+      "rect": {
+        "x": 0,
+        "y": 2352.8125,
+        "width": 1440,
+        "height": 703.90625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-5 colstart-1 colend-6 no-frame-overflow align-middle first-child no-parallax type-text id-230  no-sticky",
+      "text": "Film Utility App Cinema Club Cinema Club is focussed on simplifying the process of finding showtimes and booking tickets",
+      "rect": {
+        "x": 120,
+        "y": 2618.671875,
+        "width": 600,
+        "height": 316.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_230 ",
+      "text": "Film Utility App Cinema Club Cinema Club is focussed on simplifying the process of finding showtimes and booking tickets",
+      "rect": {
+        "x": 120,
+        "y": 2618.671875,
+        "width": 600,
+        "height": 316.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_HeadlineProject",
+      "text": "Film Utility App Cinema Club",
+      "rect": {
+        "x": 120,
+        "y": 2618.671875,
+        "width": 600,
+        "height": 115.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Cinema Club is focussed on simplifying the process of finding showtimes and booking tickets in the cinemas across UK and",
+      "rect": {
+        "x": 120,
+        "y": 2741.859375,
+        "width": 600,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 2869.859375,
+        "width": 600,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 2899.859375,
+        "width": 133.46875,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(10, 10, 10)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "_link",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 2893.859375,
+        "width": 133.46875,
+        "height": 41
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "24px 0px 0px",
+        "padding": "6px 28px 8px",
+        "borderRadius": "30px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-5 colstart-7 colend-12 no-frame-overflow align-middle not-first-child no-parallax type-img id-231  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 912,
+        "y": 2352.8125,
+        "width": 600,
+        "height": 703.90625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img  portrait  ",
+      "text": "",
+      "rect": {
+        "x": 912,
+        "y": 2352.8125,
+        "width": 600,
+        "height": 703.90625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 912,
+        "y": 2352.8125,
+        "width": 600,
+        "height": 703.90625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 912,
+        "y": 2352.8125,
+        "width": 600,
+        "height": 703.90625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 703.906px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 no-stickies no-horizontal-grid no-webglslideshow no-row-hoverimage  row-4",
+      "text": "Rapt StudioRapt Studio's work blurs the boundaries between space, brand and digital. I helped to define Rapt’s online co",
+      "rect": {
+        "x": 0,
+        "y": 3376.71875,
+        "width": 1440,
+        "height": 825.234375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Rapt StudioRapt Studio's work blurs the boundaries between space, brand and digital. I helped to define Rapt’s online co",
+      "rect": {
+        "x": 0,
+        "y": 3376.71875,
+        "width": 1440,
+        "height": 825.234375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Rapt StudioRapt Studio's work blurs the boundaries between space, brand and digital. I helped to define Rapt’s online co",
+      "rect": {
+        "x": 0,
+        "y": 3376.71875,
+        "width": 1440,
+        "height": 825.234375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-0 span-7 colstart-0 colend-7 no-frame-overflow align-middle first-child no-parallax type-img id-743  no-sticky",
+      "text": "",
+      "rect": {
+        "x": -144,
+        "y": 3376.71875,
+        "width": 840,
+        "height": 825.234375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img image-transparent-bg landscape  ",
+      "text": "",
+      "rect": {
+        "x": -144,
+        "y": 3376.71875,
+        "width": 840,
+        "height": 825.234375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": -144,
+        "y": 3376.71875,
+        "width": 840,
+        "height": 825.234375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": -144,
+        "y": 3376.71875,
+        "width": 840,
+        "height": 825.234375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 825.234px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-0 span-4 colstart-7 colend-11 no-frame-overflow align-middle not-first-child no-parallax type-text id-1231  no-sticky",
+      "text": "Rapt StudioRapt Studio's work blurs the boundaries between space, brand and digital. I helped to define Rapt’s online co",
+      "rect": {
+        "x": 840,
+        "y": 3717.03125,
+        "width": 480,
+        "height": 288.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_1231 ",
+      "text": "Rapt StudioRapt Studio's work blurs the boundaries between space, brand and digital. I helped to define Rapt’s online co",
+      "rect": {
+        "x": 840,
+        "y": 3717.03125,
+        "width": 480,
+        "height": 288.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_HeadlineProject",
+      "text": "Rapt Studio",
+      "rect": {
+        "x": 840,
+        "y": 3717.03125,
+        "width": 480,
+        "height": 57.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Rapt Studio's work blurs the boundaries between space, brand and digital. I helped to define Rapt’s online content strat",
+      "rect": {
+        "x": 840,
+        "y": 3782.625,
+        "width": 480,
+        "height": 150
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "See more",
+      "rect": {
+        "x": 840,
+        "y": 3940.625,
+        "width": 480,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "See more",
+      "rect": {
+        "x": 840,
+        "y": 3970.625,
+        "width": 133.46875,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "_link",
+      "text": "See more",
+      "rect": {
+        "x": 840,
+        "y": 3964.625,
+        "width": 133.46875,
+        "height": 41
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "24px 0px 0px",
+        "padding": "6px 28px 8px",
+        "borderRadius": "30px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 no-stickies no-horizontal-grid no-webglslideshow no-row-hoverimage  row-5",
+      "text": "MUBI — Curated Film NetworkWith only 30 films available at any one time, MUBI is like Netflix without the bloat. I helpe",
+      "rect": {
+        "x": 0,
+        "y": 4361.953125,
+        "width": 1440,
+        "height": 870
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "MUBI — Curated Film NetworkWith only 30 films available at any one time, MUBI is like Netflix without the bloat. I helpe",
+      "rect": {
+        "x": 0,
+        "y": 4361.953125,
+        "width": 1440,
+        "height": 870
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "MUBI — Curated Film NetworkWith only 30 films available at any one time, MUBI is like Netflix without the bloat. I helpe",
+      "rect": {
+        "x": 0,
+        "y": 4361.953125,
+        "width": 1440,
+        "height": 870
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-4 colstart-1 colend-5 no-frame-overflow align-middle first-child no-parallax type-text id-235  no-sticky",
+      "text": "MUBI — Curated Film NetworkWith only 30 films available at any one time, MUBI is like Netflix without the bloat. I helpe",
+      "rect": {
+        "x": 120,
+        "y": 4710.859375,
+        "width": 480,
+        "height": 316.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_235 ",
+      "text": "MUBI — Curated Film NetworkWith only 30 films available at any one time, MUBI is like Netflix without the bloat. I helpe",
+      "rect": {
+        "x": 120,
+        "y": 4710.859375,
+        "width": 480,
+        "height": 316.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_HeadlineProject",
+      "text": "MUBI — Curated Film Network",
+      "rect": {
+        "x": 120,
+        "y": 4710.859375,
+        "width": 480,
+        "height": 115.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "With only 30 films available at any one time, MUBI is like Netflix without the bloat. I helped MUBI to build their socia",
+      "rect": {
+        "x": 120,
+        "y": 4834.046875,
+        "width": 480,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 4962.046875,
+        "width": 480,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 4992.046875,
+        "width": 133.46875,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(10, 10, 10)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "_link",
+      "text": "See more",
+      "rect": {
+        "x": 120,
+        "y": 4986.046875,
+        "width": 133.46875,
+        "height": 41
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "24px 0px 0px",
+        "padding": "6px 28px 8px",
+        "borderRadius": "30px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-6 colstart-6 colend-12 no-frame-overflow align-middle not-first-child no-parallax type-img id-236  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 792,
+        "y": 4361.953125,
+        "width": 720,
+        "height": 870
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img  portrait  ",
+      "text": "",
+      "rect": {
+        "x": 792,
+        "y": 4361.953125,
+        "width": 720,
+        "height": 870
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 792,
+        "y": 4361.953125,
+        "width": 720,
+        "height": 870
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 792,
+        "y": 4361.953125,
+        "width": 720,
+        "height": 870
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 870px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 absolute-positioning-vertically-in-apl no-stickies no-horizontal-grid no-webglslideshow no-row-hoverimage  row-6",
+      "text": "PrivateMobile and TV Experience for Nowness",
+      "rect": {
+        "x": 0,
+        "y": 5391.953125,
+        "width": 1440,
+        "height": 852.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 160px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "PrivateMobile and TV Experience for Nowness",
+      "rect": {
+        "x": 0,
+        "y": 5391.953125,
+        "width": 1440,
+        "height": 852.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "PrivateMobile and TV Experience for Nowness",
+      "rect": {
+        "x": 0,
+        "y": 5391.953125,
+        "width": 1440,
+        "height": 852.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-0 span-6 colstart-0 colend-6 no-frame-overflow align-bottom first-child no-parallax type-img id-237  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 5391.953125,
+        "width": 720,
+        "height": 852.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img  portrait  ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 5391.953125,
+        "width": 720,
+        "height": 852.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 5391.953125,
+        "width": 720,
+        "height": 852.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 5391.953125,
+        "width": 720,
+        "height": 852.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 852.578px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-4 colstart-7 colend-11 no-frame-overflow align-middle not-first-child no-parallax type-text id-238  no-sticky",
+      "text": "PrivateMobile and TV Experience for Nowness",
+      "rect": {
+        "x": 840,
+        "y": 5789.84375,
+        "width": 480,
+        "height": 200.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_238 ",
+      "text": "PrivateMobile and TV Experience for Nowness",
+      "rect": {
+        "x": 840,
+        "y": 5789.84375,
+        "width": 480,
+        "height": 200.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Private",
+      "rect": {
+        "x": 840,
+        "y": 5789.84375,
+        "width": 480,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_HeadlineProject",
+      "text": "Mobile and TV Experience for Nowness",
+      "rect": {
+        "x": 840,
+        "y": 5817.84375,
+        "width": 480,
+        "height": 172.78125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-2 absolute-positioning-vertically-in-apl no-stickies no-horizontal-grid no-webglslideshow no-row-hoverimage  row-7",
+      "text": "Anchovy — Gradient MakerAnchovy is an extremely simple iPhone app that turns words into color gradient postcards, that c",
+      "rect": {
+        "x": 0,
+        "y": 6404.53125,
+        "width": 1440,
+        "height": 604.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 320px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Anchovy — Gradient MakerAnchovy is an extremely simple iPhone app that turns words into color gradient postcards, that c",
+      "rect": {
+        "x": 0,
+        "y": 6404.53125,
+        "width": 1440,
+        "height": 604.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Anchovy — Gradient MakerAnchovy is an extremely simple iPhone app that turns words into color gradient postcards, that c",
+      "rect": {
+        "x": 0,
+        "y": 6404.53125,
+        "width": 1440,
+        "height": 604.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-4 colstart-1 colend-5 no-frame-overflow align-bottom first-child no-parallax type-text id-239  no-sticky",
+      "text": "Anchovy — Gradient MakerAnchovy is an extremely simple iPhone app that turns words into color gradient postcards, that c",
+      "rect": {
+        "x": 120,
+        "y": 6765.03125,
+        "width": 480,
+        "height": 316.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_239 ",
+      "text": "Anchovy — Gradient MakerAnchovy is an extremely simple iPhone app that turns words into color gradient postcards, that c",
+      "rect": {
+        "x": 120,
+        "y": 6765.03125,
+        "width": 480,
+        "height": 316.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_HeadlineProject",
+      "text": "Anchovy — Gradient Maker",
+      "rect": {
+        "x": 120,
+        "y": 6765.03125,
+        "width": 480,
+        "height": 115.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "_quote",
+      "text": "Anchovy is an extremely simple iPhone app that turns words into color gradient postcards, that can be mailed on demand t",
+      "rect": {
+        "x": 120,
+        "y": 6888.21875,
+        "width": 480,
+        "height": 120
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 8px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Get the app",
+      "rect": {
+        "x": 120,
+        "y": 7016.21875,
+        "width": 480,
+        "height": 65
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "40px",
+        "fontWeight": "300",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Get the app",
+      "rect": {
+        "x": 120,
+        "y": 7026.21875,
+        "width": 151.71875,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(10, 10, 10)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "40px",
+        "fontWeight": "300",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "_link",
+      "text": "Get the app",
+      "rect": {
+        "x": 120,
+        "y": 7040.21875,
+        "width": 151.71875,
+        "height": 41
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "24px 0px 0px",
+        "padding": "6px 28px 8px",
+        "borderRadius": "30px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col has-offset place-normal push-1 span-6 colstart-6 colend-12 no-frame-overflow align-middle not-first-child no-parallax type-img id-240  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 792,
+        "y": 6404.53125,
+        "width": 720,
+        "height": 604.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img image-transparent-bg landscape  ",
+      "text": "",
+      "rect": {
+        "x": 792,
+        "y": 6404.53125,
+        "width": 720,
+        "height": 604.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 792,
+        "y": 6404.53125,
+        "width": 720,
+        "height": 604.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 792,
+        "y": 6404.53125,
+        "width": 720,
+        "height": 604.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 604.688px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  one-col-row row-col-amt-1 absolute-positioning-vertically-in-apl no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-8",
+      "text": "Archive —",
+      "rect": {
+        "x": 0,
+        "y": 7329.21875,
+        "width": 1440,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 100px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "Archive —",
+      "rect": {
+        "x": 0,
+        "y": 7329.21875,
+        "width": 1440,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "Archive —",
+      "rect": {
+        "x": 0,
+        "y": 7329.21875,
+        "width": 1440,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-1 span-5 colstart-1 colend-6 no-frame-overflow align-bottom first-child no-parallax type-text id-241  no-sticky",
+      "text": "Archive —",
+      "rect": {
+        "x": 120,
+        "y": 7329.21875,
+        "width": 600,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text lay-textformat-parent text_241 ",
+      "text": "Archive —",
+      "rect": {
+        "x": 120,
+        "y": 7329.21875,
+        "width": 600,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "_HeadlineProject",
+      "text": "Archive —",
+      "rect": {
+        "x": 120,
+        "y": 7329.21875,
+        "width": 600,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Aeonik-Regular",
+        "fontSize": "48px",
+        "fontWeight": "300",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row  row-col-amt-3 no-stickies no-y-offsets no-horizontal-grid no-webglslideshow no-row-hoverimage  row-9",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 7477.21875,
+        "width": 1440,
+        "height": 384
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row-inner ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 7477.21875,
+        "width": 1440,
+        "height": 384
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-wrap ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 7477.21875,
+        "width": 1440,
+        "height": 384
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "grid",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col no-offset place-normal push-0 span-4 colstart-0 colend-4 no-frame-overflow align-bottom first-child no-parallax type-img id-242  no-sticky",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 7477.21875,
+        "width": 480,
+        "height": 384
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "img image-transparent-bg landscape  ",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 7477.21875,
+        "width": 480,
+        "height": 384
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "lay-image-original lazyload loaded",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 7477.21875,
+        "width": 480,
+        "height": 384
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ph",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 7477.21875,
+        "width": 480,
+        "height": 384
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 384px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://laytheme.com/",
+      "text": "Created with Laytheme.com",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1255.59375,
+        "y": 963,
+        "width": 174.40625,
+        "height": 27
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://karoliskosas.com/",
+      "text": "Karolis Kosas",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 2,
+      "href": "http://karoliskosas.com/",
+      "text": "Home",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 3,
+      "href": "http://karoliskosas.com/",
+      "text": "Home",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://karoliskosas.com/",
+      "text": "Karolis Kosas",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://karoliskosas.com/cujo-3/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 120,
+        "y": 972.96875,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 6,
+      "href": "https://karoliskosas.com/yplan-2/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 720,
+        "y": 1968.375,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 7,
+      "href": "https://karoliskosas.com/cinemaclub/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 120,
+        "y": 2899.859375,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 8,
+      "href": "https://karoliskosas.com/rapt/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 840,
+        "y": 3970.625,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 9,
+      "href": "https://karoliskosas.com/mubi-5/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 120,
+        "y": 4992.046875,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 10,
+      "href": "https://itunes.apple.com/gb/app/anchovy/id1062341095?mt=8",
+      "text": "Get the app",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 120,
+        "y": 7026.21875,
+        "width": 151.71875,
+        "height": 48
+      }
+    },
+    {
+      "index": 11,
+      "href": "https://medium.com/yplan-eng/how-to-give-people-what-they-want-and-not-loose-your-soul-b160712de2e",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 120,
+        "y": 8990.25,
+        "width": 0,
+        "height": 48
+      }
+    },
+    {
+      "index": 12,
+      "href": "https://medium.com/@karoliskosas/about-getting-lost-9faec0feb21c",
+      "text": "About getting lost — 2016",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 120,
+        "y": 9042.25,
+        "width": 459.703125,
+        "height": 48
+      }
+    },
+    {
+      "index": 13,
+      "href": "https://medium.com/yplan-eng/how-to-give-people-what-they-want-and-not-loose-your-soul-b160712de2e",
+      "text": "How to give people what they want and not lose your soul — 2015",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 120,
+        "y": 9094.25,
+        "width": 442.765625,
+        "height": 136
+      }
+    },
+    {
+      "index": 14,
+      "href": "http://www.anonymous-press.com/autonomous-systems.pdf",
+      "text": "Autonomous systems — 2013",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 120,
+        "y": 9226.25,
+        "width": 434.8125,
+        "height": 92
+      }
+    },
+    {
+      "index": 15,
+      "href": "http://2015.jamlondon.io/",
+      "text": "Jam — London 2015",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 720,
+        "y": 9223.25,
+        "width": 356.828125,
+        "height": 48
+      }
+    },
+    {
+      "index": 16,
+      "href": "http://datamat.es/",
+      "text": "Datamates — London 2016",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 720,
+        "y": 9270.25,
+        "width": 480.375,
+        "height": 48
+      }
+    },
+    {
+      "index": 17,
+      "href": "https://karoliskosas.com/about/",
+      "text": "product designer",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 18,
+      "href": "http://karoliskosas.com/cujo-3/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 19,
+      "href": "http://karoliskosas.com/yplan-2/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 20,
+      "href": "http://karoliskosas.com/cinemaclub/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 21,
+      "href": "http://karoliskosas.com/rapt/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 22,
+      "href": "http://karoliskosas.com/mubi-5/",
+      "text": "See more",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 23,
+      "href": "https://itunes.apple.com/gb/app/anchovy/id1062341095?mt=8",
+      "text": "Get the app",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 24,
+      "href": "https://medium.com/yplan-eng/how-to-give-people-what-they-want-and-not-loose-your-soul-b160712de2e",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 25,
+      "href": "https://medium.com/@karoliskosas/about-getting-lost-9faec0feb21c",
+      "text": "About getting lost — 2016",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 26,
+      "href": "https://medium.com/yplan-eng/how-to-give-people-what-they-want-and-not-loose-your-soul-b160712de2e",
+      "text": "How to give people what they want and not lose your soul — 2015",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 27,
+      "href": "http://www.anonymous-press.com/autonomous-systems.pdf",
+      "text": "Autonomous systems — 2013",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 28,
+      "href": "http://2015.jamlondon.io/",
+      "text": "Jam — London 2015",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 29,
+      "href": "http://datamat.es/",
+      "text": "Datamates — London 2016",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 30,
+      "href": "mailto:hello@karoliskosas.com",
+      "text": "hello@karoliskosas.com",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 122.390625,
+        "y": 9632.25,
+        "width": 425.96875,
+        "height": 48
+      }
+    },
+    {
+      "index": 31,
+      "href": "mailto:hello@karoliskosas.com",
+      "text": "hello@karoliskosas.com",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Created with Laytheme.com",
+      "href": "https://laytheme.com/",
+      "aria": "",
+      "rect": {
+        "x": 1255.59375,
+        "y": 963,
+        "width": 174.40625,
+        "height": 27
+      }
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "See more",
+      "href": "https://karoliskosas.com/cujo-3/",
+      "aria": "",
+      "rect": {
+        "x": 120,
+        "y": 972.96875,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "See more",
+      "href": "https://karoliskosas.com/yplan-2/",
+      "aria": "",
+      "rect": {
+        "x": 720,
+        "y": 1968.375,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "See more",
+      "href": "https://karoliskosas.com/cinemaclub/",
+      "aria": "",
+      "rect": {
+        "x": 120,
+        "y": 2899.859375,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "See more",
+      "href": "https://karoliskosas.com/rapt/",
+      "aria": "",
+      "rect": {
+        "x": 840,
+        "y": 3970.625,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "See more",
+      "href": "https://karoliskosas.com/mubi-5/",
+      "aria": "",
+      "rect": {
+        "x": 120,
+        "y": 4992.046875,
+        "width": 133.46875,
+        "height": 24
+      }
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "Get the app",
+      "href": "https://itunes.apple.com/gb/app/anchovy/id1062341095?mt=8",
+      "aria": "",
+      "rect": {
+        "x": 120,
+        "y": 7026.21875,
+        "width": 151.71875,
+        "height": 48
+      }
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "About getting lost — 2016",
+      "href": "https://medium.com/@karoliskosas/about-getting-lost-9faec0feb21c",
+      "aria": "",
+      "rect": {
+        "x": 120,
+        "y": 9042.25,
+        "width": 459.703125,
+        "height": 48
+      }
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "How to give people what they want and not lose your soul — 2015",
+      "href": "https://medium.com/yplan-eng/how-to-give-people-what-they-want-and-not-loose-your-soul-b160712de2e",
+      "aria": "",
+      "rect": {
+        "x": 120,
+        "y": 9094.25,
+        "width": 442.765625,
+        "height": 136
+      }
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "Autonomous systems — 2013",
+      "href": "http://www.anonymous-press.com/autonomous-systems.pdf",
+      "aria": "",
+      "rect": {
+        "x": 120,
+        "y": 9226.25,
+        "width": 434.8125,
+        "height": 92
+      }
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Jam — London 2015",
+      "href": "http://2015.jamlondon.io/",
+      "aria": "",
+      "rect": {
+        "x": 720,
+        "y": 9223.25,
+        "width": 356.828125,
+        "height": 48
+      }
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "Datamates — London 2016",
+      "href": "http://datamat.es/",
+      "aria": "",
+      "rect": {
+        "x": 720,
+        "y": 9270.25,
+        "width": 480.375,
+        "height": 48
+      }
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "hello@karoliskosas.com",
+      "href": "mailto:hello@karoliskosas.com",
+      "aria": "",
+      "rect": {
+        "x": 122.390625,
+        "y": 9632.25,
+        "width": 425.96875,
+        "height": 48
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

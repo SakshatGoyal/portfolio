@@ -1,0 +1,701 @@
+[
+  {
+    "label": "drawer-selected-to-case-0ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "right": 390
+      },
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 16,
+        "y": 80,
+        "width": 358,
+        "height": 238,
+        "right": 374
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 390,
+        "height": 1866.453125,
+        "right": 390
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "sideAbout": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0.000183615, 0)",
+      "x": 0.000183615,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 16.00018310546875,
+        "y": 593,
+        "width": 358,
+        "height": 187,
+        "right": 374.00018310546875
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ]
+  },
+  {
+    "label": "drawer-selected-to-case-80ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 46.6606, 0)",
+      "x": 46.6606,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "rect": {
+        "x": 46.66057586669922,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "right": 436.6605758666992
+      },
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 62.66057586669922,
+        "y": 80,
+        "width": 358,
+        "height": 238,
+        "right": 420.6605758666992
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 0.638912,
+      "transform": "matrix(1, 0, 0, 1, 0, -1.07329)",
+      "x": 0,
+      "y": -1.07329,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 54.92671203613281,
+        "width": 390,
+        "height": 1866.453125,
+        "right": 390
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "sideAbout": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0.000183615, 0)",
+      "x": 0.000183615,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 62.66075897216797,
+        "y": 593,
+        "width": 358,
+        "height": 187,
+        "right": 420.66075897216797
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ]
+  },
+  {
+    "label": "drawer-selected-to-case-180ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 335.266, 0)",
+      "x": 335.266,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "rect": {
+        "x": 335.2655029296875,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "right": 725.2655029296875
+      },
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "hidden": false,
+      "opacity": 0.232901,
+      "transform": "matrix(1, 0, 0, 1, 7.78167, 0)",
+      "x": 7.78167,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 359.04718017578125,
+        "y": 80,
+        "width": 358,
+        "height": 238,
+        "right": 717.0471801757812
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, -5.73558)",
+      "x": 0,
+      "y": -5.73558,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 50.26441955566406,
+        "width": 390,
+        "height": 1866.453125,
+        "right": 390
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "sideAbout": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0.554847, 0)",
+      "x": 0.554847,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 351.8203430175781,
+        "y": 593,
+        "width": 357.9999694824219,
+        "height": 187,
+        "right": 709.8203125
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ]
+  },
+  {
+    "label": "drawer-selected-to-case-260ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 389.987, 0)",
+      "x": 389.987,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "rect": {
+        "x": 389.987060546875,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "right": 779.987060546875
+      },
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "hidden": false,
+      "opacity": 0.0217848,
+      "transform": "matrix(1, 0, 0, 1, 11.189, 0)",
+      "x": 11.189,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 417.17608642578125,
+        "y": 80,
+        "width": 358,
+        "height": 238,
+        "right": 775.1760864257812
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "transform": "none",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 6035.421875,
+        "right": 390
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "sideAbout": {
+      "hidden": false,
+      "opacity": 0.121851,
+      "transform": "matrix(1, 0, 0, 1, 9.76861, 0)",
+      "x": 9.76861,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 415.75567626953125,
+        "y": 593,
+        "width": 358,
+        "height": 187,
+        "right": 773.7556762695312
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ]
+  },
+  {
+    "label": "drawer-selected-to-case-360ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 390, 0)",
+      "x": 390,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "rect": {
+        "x": 390,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "right": 780
+      },
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "hidden": false,
+      "opacity": 0.0000683587,
+      "transform": "matrix(1, 0, 0, 1, 11.9215, 0)",
+      "x": 11.9215,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 417.9214782714844,
+        "y": 80,
+        "width": 358.0000305175781,
+        "height": 238,
+        "right": 775.9215087890625
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "transform": "none",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 6035.421875,
+        "right": 390
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "sideAbout": {
+      "hidden": false,
+      "opacity": 0.00505555,
+      "transform": "matrix(1, 0, 0, 1, 11.7091, 0)",
+      "x": 11.7091,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 417.7091369628906,
+        "y": 593,
+        "width": 357.9999694824219,
+        "height": 187,
+        "right": 775.7091064453125
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ]
+  },
+  {
+    "label": "drawer-selected-to-case-520ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 390, 0)",
+      "x": 390,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "rect": {
+        "x": 390,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "right": 780
+      },
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 12, 0)",
+      "x": 12,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 418,
+        "y": 80,
+        "width": 358,
+        "height": 238,
+        "right": 776
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0,
+      "transform": "none",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "x": 0,
+      "y": 0,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 6035.421875,
+        "right": 390
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "sideAbout": {
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 11.9999, 0)",
+      "x": 11.9999,
+      "y": 0,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "rect": {
+        "x": 417.9999084472656,
+        "y": 593,
+        "width": 357.9999694824219,
+        "height": 187,
+        "right": 775.9998779296875
+      },
+      "inert": false,
+      "ariaHidden": null
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ]
+  }
+]

@@ -1,0 +1,222 @@
+@media only screen and (min-width: 1440px) { body {font-size: 14.4px;} }
+.grain-base { pointer-events: none; }
+HOME
+WORK
+LIBRARY
+EXPERIMENTS
+CONTACT
+Phillip Lee
+is a
+designer,
+‍
+storyteller
+and
+lover of
+airplane window seats.
+He is currently building product at
+AIRBNB
+.
+PAST AGENCIES
+Ueno
+AKQA
+fuseproject
+Prolific Interactive
+Butler, Shine, Stern & Partners
+CLIENT LIST
+Spotify
+Twitter
+Apple
+Samsung
+Lululemon
+Crossfit
+ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK ENOUGH TALK SHOW ME THE WORK
+Featured – Featured – Featured
+CASE STUDY
+Twitter
+Developer Platform
+Define and develop the Developer Platform rebrand through multiple mediums across Twitter.
+CREATIVE DIRECTION
+BRANDING
+CASE STUDY
+CASE STUDY
+Twitter
+Tweet Tiles
+Opening up the Twitter feed to our developer community, empowering them to build and enhance the public conversation.
+STRATEGY
+‍‍PRODUCT DESIGN
+CASE STUDY
+CASE STUDY
+Amp
+Fitness
+The future of fitness designed for your living room
+HEAD OF DESIGN
+UI/UX/STRATEGY
+WEBSITE
+CASE STUDY
+Spotify
+Backstage
+Expanding beyond the core of the Spotify business and enabling product development companies to access everything they need through a single UI.
+MOTION DESIGN
+‍‍‍‍PRODUCT DESIGN
+CASE STUDY
+CASE STUDY
+Forme Life
+Mirror
+The first of its kind fitness machine combines an elegant resistance trainer with a full length, touch screen, mirror.
+ART DIRECTION
+PRODUCT DESIGN
+CASE STUDY
+DESIGN DEEP DIVE
+Forme Life
+Workout Builder
+We built a web based platform that would automatically sync with the Forme Life Workout Mirror. Athletes and trainers could adjust subscription settings, create custom workouts and manage their workout library on any computer with an internet connection.
+ART DIRECTION
+PRODUCT DESIGN
+CASE STUDY
+TOO MUCH SCROLLING. SHOW ME MORE BUT LESS. TOO MUCH SCROLLING. SHOW ME MORE BUT LESS. TOO MUCH SCROLLING. SHOW ME MORE BUT LESS. TOO MUCH SCROLLING. SHOW ME MORE BUT LESS. TOO MUCH SCROLLING. SHOW ME MORE BUT LESS. TOO MUCH SCROLLING. SHOW ME MORE BUT LESS. TOO MUCH SCROLLING. SHOW ME MORE BUT LESS. TOO MUCH SCROLLING. SHOW ME MORE BUT LESS.
+Project Library
+– Project Library
+INDEX
+PROJECT
+CATEGORY
+01
+Apple
+In-Store
+CONFIDENTIAL
+02
+Lululemon
+Web
+ANIMATION
+03
+Crossfit Games
+iOS
+PRODUCT DESIGN
+04
+Gist Shopping
+iOS
+PRODUCT DESIGN
+05
+Wearable Exploration
+On-Device
+FUTURE TECH
+06
+Grove Collaborative
+iOS
+PRODUCT DESIGN
+07
+Stix
+Web
+ANIMATION
+08
+Analyst Chat
+Desktop
+PRODUCT DESIGN
+09
+Thoughts & Articles
+Medium
+ARTICLE
+INDEX
+PROJECT
+CATEGORY
+01
+Apple
+In-Store
+CONFIDENTIAL
+02
+Lululemon
+Web
+ANIMATION
+03
+Crossfit Games
+iOS
+PRODUCT DESIGN
+04
+Gist Shopping
+iOS
+PRODUCT DESIGN
+05
+Wearable Exploration
+On-Device
+FUTURE TECH
+06
+Grove Collaborative
+iOS
+PRODUCT DESIGN
+07
+Amalie
+Web
+ANIMATION
+08
+Analyst Chat
+Desktop
+PRODUCT DESIGN
+09
+Thoughts & Articles
+Medium
+ARTICLE
+OKAY, BUT WHAT ELSE YOU GOT? OKAY, BUT WHAT ELSE YOU GOT? OKAY, BUT WHAT ELSE YOU GOT? OKAY, BUT WHAT ELSE YOU GOT? OKAY, BUT WHAT ELSE YOU GOT? OKAY, BUT WHAT ELSE YOU GOT? OKAY, BUT WHAT ELSE YOU GOT?
+Sandbox & Experiments
+02 ‣
+Glass and light material study.
+C4D
+01 ‣
+Experiments with light and reflections
+C4D
+EDITOR'S NOTE
+Phil's interest in light, reflections and textures led him to learn how to create 3D scenes. He is constantly inspired by The 3D artist community and their visual wizardry.
+04 ‣
+See In Black
+WEB
+03 ‣
+Movement and motion studies with light and glass.
+C4D
+EDITOR'S NOTE
+An ongoing study of animation and micro-interactions in user interfaces. How does motion carry meaning and purpose for the story of the experience?
+06 ‣
+Habits for dummies.
+GRAPHIC DESIGN
+05 ‣
+Foldable screen UI
+FUTURE
+EDITOR'S NOTE
+Putting pixels to things that Phil cares about. This is an ongoing collection of work that lets Phil express his thoughts through visuals - thoughts about life, work and psychology, all the good stuff.
+08 ‣
+Please give a damn!
+GRAPHIC DESIGN
+07 ‣
+Mindset on repeat.
+GRAPHIC DESIGN
+09 ‣
+Upward Spirals
+GRAPHIC DESIGN
+Still here? Might as well browse some bonus content.
+This is bonus content that Phil wasn't quite sure if you’d be interested in. That’s why he put it at the end.
+EDITOR'S NOTE
+EDITOR'S NOTE
+EDITOR'S NOTEE
+HE LIKES TO READ
+EDITOR'S NOTE
+EDITOR'S NOTE
+EDITOR'S NOTEE
+HE DRAWS SOMETIMES
+EDITOR'S NOTE
+EDITOR'S NOTE
+EDITOR'S NOTEE
+HE TAKES PHOTOS
+"PHOTOS," NOT PICTURES.
+SOUNDS MORE ARTSY.
+EDITOR'S NOTE
+EDITOR'S NOTE
+EDITOR'S NOTEE
+HE TALKS ABOUT
+HIS THOUGHTS
+Say hi or internet stalk him s'more.
+EMAIL PHIL
+DRIBBBLE
+INSTAGRAM
+DRIBBBLE
+TWITTER
+PHOTOGRAPHY
+MEDIUM
+LINKEDIN
+$(window).on('beforeunload', function() { $('body').hide(); $(window).scrollTop(0); });

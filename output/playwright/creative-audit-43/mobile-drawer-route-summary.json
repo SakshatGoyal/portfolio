@@ -1,0 +1,1343 @@
+[
+  {
+    "label": "drawer-open-selected",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready nav-open",
+    "bodyOverflow": "hidden",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "true",
+      "label": "Close navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 0,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": false,
+      "ariaHidden": null
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0.00113806
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-selected-to-case-0ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 0,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ]
+  },
+  {
+    "label": "drawer-selected-to-case-80ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 59.6564,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 0.51401
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ]
+  },
+  {
+    "label": "drawer-selected-to-case-180ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 348.847,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.184088,
+      "x": 8.44849
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0.929652,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ]
+  },
+  {
+    "label": "drawer-selected-to-case-260ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 389.987,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.0217876,
+      "x": 11.1889
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0.121864,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-selected-to-case-360ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.0000693847,
+      "x": 11.9213
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0.00507803,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-selected-to-case-520ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-selected-to-case-760ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-selected-to-case-1040ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-open-case",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready nav-open",
+    "bodyOverflow": "hidden",
+    "active": "case-study",
+    "menu": {
+      "expanded": "true",
+      "label": "Close navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 0,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": false,
+      "ariaHidden": null
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0.00117974
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-case-to-about-0ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 0,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 48
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ]
+  },
+  {
+    "label": "drawer-case-to-about-80ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 60.0416,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 0.51046
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 48
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ]
+  },
+  {
+    "label": "drawer-case-to-about-180ms",
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "bodyOverflow": "auto",
+    "active": "case-study",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 349.291,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.182505,
+      "x": 8.47085
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": false,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0.922315,
+      "height": 47.90625
+    },
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ]
+  },
+  {
+    "label": "drawer-case-to-about-260ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "bodyOverflow": "auto",
+    "active": "about",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 389.987,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.0217737,
+      "x": 11.1893
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0.121799,
+      "height": 31.265625
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-case-to-about-360ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "bodyOverflow": "auto",
+    "active": "about",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.0000691865,
+      "x": 11.9213
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0.0050737,
+      "height": 0
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-case-to-about-520ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "bodyOverflow": "auto",
+    "active": "about",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 0
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-case-to-about-760ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "bodyOverflow": "auto",
+    "active": "about",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 0
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-case-to-about-1040ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "bodyOverflow": "auto",
+    "active": "about",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 0
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-open-about",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about nav-open",
+    "bodyOverflow": "hidden",
+    "active": "about",
+    "menu": {
+      "expanded": "true",
+      "label": "Close navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 0,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": false,
+      "ariaHidden": null
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0.00232218
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 0
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-about-to-selected-0ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "bodyOverflow": "auto",
+    "active": "about",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 0,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 0
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ]
+  },
+  {
+    "label": "drawer-about-to-selected-80ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "bodyOverflow": "auto",
+    "active": "about",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 61.049,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 1,
+      "x": 0
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 0.501247
+    },
+    "sideAbout": {
+      "opacity": 1,
+      "height": 0
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ]
+  },
+  {
+    "label": "drawer-about-to-selected-180ms",
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "bodyOverflow": "auto",
+    "active": "about",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 350.072,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.17972,
+      "x": 8.51031
+    },
+    "selected": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": false,
+      "opacity": 0
+    },
+    "sideAbout": {
+      "opacity": 0.99606,
+      "height": 0
+    },
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ]
+  },
+  {
+    "label": "drawer-about-to-selected-260ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 389.993,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.0214498,
+      "x": 11.1969
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 0.67507
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "sideAbout": {
+      "opacity": 0.0463187,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-about-to-selected-360ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0.0000137076,
+      "x": 11.9397
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 0.962326
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-about-to-selected-520ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 0.999889
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-about-to-selected-760ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "drawer-about-to-selected-1040ms",
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "bodyOverflow": "auto",
+    "active": "selected-work",
+    "menu": {
+      "expanded": "false",
+      "label": "Open navigation",
+      "background": "rgb(255, 255, 255)",
+      "radius": "2px"
+    },
+    "panel": {
+      "opacity": 1,
+      "x": 390,
+      "bg": "rgb(255, 255, 255)",
+      "transitionProperty": "transform",
+      "inert": true,
+      "ariaHidden": "true"
+    },
+    "panelFirstChild": {
+      "opacity": 0,
+      "x": 12
+    },
+    "selected": {
+      "hidden": false,
+      "opacity": 1
+    },
+    "caseStudy": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "aboutRoute": {
+      "hidden": true,
+      "opacity": 0
+    },
+    "sideAbout": {
+      "opacity": 0,
+      "height": 187
+    },
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "pendingNav": []
+  }
+]

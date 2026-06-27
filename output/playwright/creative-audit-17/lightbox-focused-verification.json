@@ -1,0 +1,21 @@
+{
+  "dialogOpen": true,
+  "lightboxFont": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+  "closeButton": {
+    "text": "",
+    "ariaLabel": "Close image preview",
+    "lineCount": 2,
+    "rect": {
+      "x": 1310,
+      "y": 230.5,
+      "width": 38,
+      "height": 38
+    },
+    "fontFamily": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+    "borderRadius": "2px",
+    "backgroundColor": "rgb(255, 255, 255)"
+  },
+  "captionFont": "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+  "captionText": "Early AI interaction exploration interface",
+  "closedAfterButton": true
+}

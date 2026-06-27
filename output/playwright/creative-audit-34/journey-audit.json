@@ -1,0 +1,5822 @@
+[
+  {
+    "label": "desktop-selected-settled",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#selected-work",
+    "hash": "#selected-work",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "scrollY": 0,
+      "docHeight": 1207
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1039.96875,
+        "y": 56,
+        "width": 400.03125,
+        "height": 844,
+        "bottom": 900
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 80,
+        "width": 103,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1 is-active",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 120,
+        "width": 138,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1071.96875,
+        "y": 160,
+        "width": 192,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 1055.96875,
+        "y": 838,
+        "width": 340,
+        "height": 38,
+        "bottom": 876
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 108.1875,
+        "width": 487.984375,
+        "height": 505.046875,
+        "bottom": 613.234375
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 144.4375,
+        "width": 487.984375,
+        "height": 365.984375,
+        "bottom": 510.421875
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 527.78125,
+        "width": 487.984375,
+        "height": 49.203125,
+        "bottom": 576.984375
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": null,
+    "caseHero": null,
+    "caseIntro": null,
+    "firstRevealImage": null,
+    "firstCaption": null,
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    }
+  },
+  {
+    "label": "desktop-about-settled",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#about",
+    "hash": "#about",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "scrollY": 0,
+      "docHeight": 900
+    },
+    "body": {
+      "className": "shell-ready route-about",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1039.96875,
+        "y": 56,
+        "width": 400.03125,
+        "height": 844,
+        "bottom": 900
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1 is-active",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 80,
+        "width": 103,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 120,
+        "width": 138,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1071.96875,
+        "y": 160,
+        "width": 192,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 1055.96875,
+        "y": 838,
+        "width": 340,
+        "height": 38,
+        "bottom": 876
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.62s, 0.42s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 277.984375,
+        "y": 158,
+        "width": 483.984375,
+        "height": 54,
+        "bottom": 212
+      }
+    },
+    "caseHeading": null,
+    "caseHero": null,
+    "caseIntro": null,
+    "firstRevealImage": null,
+    "firstCaption": null,
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    }
+  },
+  {
+    "label": "desktop-case-palo-alto-networks-opening",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#case/palo-alto-networks",
+    "hash": "#case/palo-alto-networks",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "scrollY": 0,
+      "docHeight": 7413
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1039.96875,
+        "y": 56,
+        "width": 400.03125,
+        "height": 844,
+        "bottom": 900
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 80,
+        "width": 103,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 120,
+        "width": 138,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2 is-active",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1071.96875,
+        "y": 160,
+        "width": 192,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 1055.96875,
+        "y": 838,
+        "width": 340,
+        "height": 38,
+        "bottom": 876
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.62s, 0.42s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "className": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.7s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "text": "",
+      "className": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5
+      }
+    },
+    "caseIntro": {
+      "selector": ".case-intro",
+      "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “s",
+      "className": "case-intro case-reveal-text case-intro-list-emphasis",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 24)",
+        "x": 0,
+        "y": 24,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 277.984375,
+        "y": 917.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1068.5
+      }
+    },
+    "firstRevealImage": {
+      "selector": ".case-reveal-image:not(.case-hero-media)",
+      "text": "",
+      "className": "case-media case-reveal-image",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(0.95, 0, 0, 0.95, 0, 48)",
+        "x": 0,
+        "y": 48,
+        "scaleX": 0.95,
+        "scaleY": 0.95
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionDelay": "0s, 0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 40.324615478515625,
+        "y": 2010.3265380859375,
+        "width": 620.335205078125,
+        "height": 348.4718017578125,
+        "bottom": 2358.79833984375
+      }
+    },
+    "firstCaption": {
+      "selector": ".case-caption-text, .case-caption",
+      "text": "Forming early opinions on AI interactions for our users.",
+      "className": "case-caption-text case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 2319.96875,
+        "width": 652.984375,
+        "height": 32.1875,
+        "bottom": 2352.15625
+      }
+    },
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    }
+  },
+  {
+    "label": "desktop-case-docusign-global-data-analytics-opening",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#case/docusign-global-data-analytics",
+    "hash": "#case/docusign-global-data-analytics",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "scrollY": 0,
+      "docHeight": 9123
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1039.96875,
+        "y": 56,
+        "width": 400.03125,
+        "height": 844,
+        "bottom": 900
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 80,
+        "width": 103,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 120,
+        "width": 138,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1071.96875,
+        "y": 160,
+        "width": 192,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 1055.96875,
+        "y": 838,
+        "width": 340,
+        "height": 38,
+        "bottom": 876
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.62s, 0.42s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "className": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.7s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "text": "",
+      "className": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5
+      }
+    },
+    "caseIntro": {
+      "selector": ".case-intro",
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal tools.Featur",
+      "className": "case-intro case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 24)",
+        "x": 0,
+        "y": 24,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 277.984375,
+        "y": 917.5,
+        "width": 483.984375,
+        "height": 220.78125,
+        "bottom": 1138.28125
+      }
+    },
+    "firstRevealImage": {
+      "selector": ".case-reveal-image:not(.case-hero-media)",
+      "text": "",
+      "className": "case-media case-reveal-image",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(0.95, 0, 0, 0.95, 0, 48)",
+        "x": 0,
+        "y": 48,
+        "scaleX": 0.95,
+        "scaleY": 0.95
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionDelay": "0s, 0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 129.22225952148438,
+        "y": 2015.3199462890625,
+        "width": 781.508544921875,
+        "height": 439.6571044921875,
+        "bottom": 2454.97705078125
+      }
+    },
+    "firstCaption": {
+      "selector": ".case-caption-text, .case-caption",
+      "text": "Controls for a user finding ‘similar’ customers.",
+      "className": "case-caption-text case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 3334.640625,
+        "width": 652.984375,
+        "height": 32.1875,
+        "bottom": 3366.828125
+      }
+    },
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    }
+  },
+  {
+    "label": "desktop-case-harvard-business-school-opening",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#case/harvard-business-school",
+    "hash": "#case/harvard-business-school",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "scrollY": 0,
+      "docHeight": 8769
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1039.96875,
+        "y": 56,
+        "width": 400.03125,
+        "height": 844,
+        "bottom": 900
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 80,
+        "width": 103,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 120,
+        "width": 138,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1071.96875,
+        "y": 160,
+        "width": 192,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 1055.96875,
+        "y": 838,
+        "width": 340,
+        "height": 38,
+        "bottom": 876
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.62s, 0.42s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "text": "HBS AI Institute is a global research center that provides research-driven insights on using AI to advance business and society.",
+      "className": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.7s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "text": "",
+      "className": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5
+      }
+    },
+    "caseIntro": {
+      "selector": ".case-intro",
+      "text": "The AI team at Harvard Business School set out to create personas for users who would use AI to support strategic thinking, not just production tasks. To addres",
+      "className": "case-intro case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 24)",
+        "x": 0,
+        "y": 24,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 277.984375,
+        "y": 917.5,
+        "width": 483.984375,
+        "height": 196.78125,
+        "bottom": 1114.28125
+      }
+    },
+    "firstRevealImage": {
+      "selector": ".case-reveal-image:not(.case-hero-media)",
+      "text": "",
+      "className": "case-media case-reveal-image",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(0.95, 0, 0, 0.95, 0, 48)",
+        "x": 0,
+        "y": 48,
+        "scaleX": 0.95,
+        "scaleY": 0.95
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionDelay": "0s, 0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 40.324615478515625,
+        "y": 2038.8902587890625,
+        "width": 620.335205078125,
+        "height": 1426.7664794921875,
+        "bottom": 3465.65673828125
+      }
+    },
+    "firstCaption": {
+      "selector": ".case-caption-text, .case-caption",
+      "text": "A user pulling context into their chat, and identifying potential sales plays.",
+      "className": "case-caption-text case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 700.984375,
+        "y": 1961.34375,
+        "width": 314.96875,
+        "height": 48.375,
+        "bottom": 2009.71875
+      }
+    },
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    }
+  },
+  {
+    "label": "desktop-case-docusign-onereport-opening",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#case/docusign-onereport",
+    "hash": "#case/docusign-onereport",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "scrollY": 0,
+      "docHeight": 7760
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1039.96875,
+        "y": 56,
+        "width": 400.03125,
+        "height": 844,
+        "bottom": 900
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 80,
+        "width": 103,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 120,
+        "width": 138,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1071.96875,
+        "y": 160,
+        "width": 192,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 1055.96875,
+        "y": 838,
+        "width": 340,
+        "height": 38,
+        "bottom": 876
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.62s, 0.42s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "text": "OneReport was designed as a way for DocuSign’s leadership to access data on mobile.",
+      "className": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.7s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "text": "",
+      "className": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5
+      }
+    },
+    "caseIntro": {
+      "selector": ".case-intro",
+      "text": "After a large-scale migration of the internal dashboards I'd designed for the product, finance, marketing, sales, and executive teams, the Director of Data & An",
+      "className": "case-intro case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 24)",
+        "x": 0,
+        "y": 24,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 277.984375,
+        "y": 917.5,
+        "width": 483.984375,
+        "height": 239.96875,
+        "bottom": 1157.46875
+      }
+    },
+    "firstRevealImage": {
+      "selector": ".case-reveal-image:not(.case-hero-media)",
+      "text": "",
+      "className": "case-media case-reveal-image",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(0.95, 0, 0, 0.95, 0, 48)",
+        "x": 0,
+        "y": 48,
+        "scaleX": 0.95,
+        "scaleY": 0.95
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionDelay": "0s, 0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 32.1328125,
+        "y": 1987.091064453125,
+        "width": 309.046875,
+        "height": 278.95849609375,
+        "bottom": 2266.049560546875
+      }
+    },
+    "firstCaption": {
+      "selector": ".case-caption-text, .case-caption",
+      "text": "Grouping features based on the problem they solve for a customer.",
+      "className": "case-caption-text case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 91.984375,
+        "y": 3856.859375,
+        "width": 856,
+        "height": 32.1875,
+        "bottom": 3889.046875
+      }
+    },
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    }
+  },
+  {
+    "label": "desktop-case-media-settled",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#case/palo-alto-networks",
+    "hash": "#case/palo-alto-networks",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "scrollY": 1735,
+      "docHeight": 7413
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1039.96875,
+        "y": 56,
+        "width": 400.03125,
+        "height": 844,
+        "bottom": 900
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 80,
+        "width": 103,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 120,
+        "width": 138,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2 is-active",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1071.96875,
+        "y": 160,
+        "width": 192,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 1055.96875,
+        "y": 838,
+        "width": 340,
+        "height": 38,
+        "bottom": 876
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.62s, 0.42s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "className": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.7s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": -1577,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": -1487
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "text": "",
+      "className": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24,
+        "y": -1463,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": -905.5
+      }
+    },
+    "caseIntro": {
+      "selector": ".case-intro",
+      "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “s",
+      "className": "case-intro case-reveal-text case-intro-list-emphasis is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 277.984375,
+        "y": -841.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": -690.5
+      }
+    },
+    "firstRevealImage": {
+      "selector": ".case-reveal-image:not(.case-hero-media)",
+      "text": "",
+      "className": "case-media case-reveal-image is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionDelay": "0s, 0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24,
+        "y": 218.15625,
+        "width": 652.984375,
+        "height": 366.8125,
+        "bottom": 584.96875
+      }
+    },
+    "firstCaption": {
+      "selector": ".case-caption-text, .case-caption",
+      "text": "Forming early opinions on AI interactions for our users.",
+      "className": "case-caption-text case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 584.96875,
+        "width": 652.984375,
+        "height": 32.1875,
+        "bottom": 617.15625
+      }
+    },
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    }
+  },
+  {
+    "label": "desktop-lightbox-open",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#case/palo-alto-networks",
+    "hash": "#case/palo-alto-networks",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "scrollY": 1735,
+      "docHeight": 7413
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1039.96875,
+        "y": 56,
+        "width": 400.03125,
+        "height": 844,
+        "bottom": 900
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 80,
+        "width": 103,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1055.96875,
+        "y": 120,
+        "width": 138,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2 is-active",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 1071.96875,
+        "y": 160,
+        "width": 192,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 1055.96875,
+        "y": 838,
+        "width": 340,
+        "height": 38,
+        "bottom": 876
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.62s, 0.42s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "className": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.7s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": -1577,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": -1487
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "text": "",
+      "className": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24,
+        "y": -1463,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": -905.5
+      }
+    },
+    "caseIntro": {
+      "selector": ".case-intro",
+      "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native users.What “s",
+      "className": "case-intro case-reveal-text case-intro-list-emphasis is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 277.984375,
+        "y": -841.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": -690.5
+      }
+    },
+    "firstRevealImage": {
+      "selector": ".case-reveal-image:not(.case-hero-media)",
+      "text": "",
+      "className": "case-media case-reveal-image is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionDelay": "0s, 0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24,
+        "y": 218.15625,
+        "width": 652.984375,
+        "height": 366.8125,
+        "bottom": 584.96875
+      }
+    },
+    "firstCaption": {
+      "selector": ".case-caption-text, .case-caption",
+      "text": "Forming early opinions on AI interactions for our users.",
+      "className": "case-caption-text case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 24,
+        "y": 584.96875,
+        "width": 652.984375,
+        "height": 32.1875,
+        "bottom": 617.15625
+      }
+    },
+    "lightbox": {
+      "open": true,
+      "className": "lightbox",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 80,
+        "y": 218.5,
+        "width": 1280,
+        "height": 463
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 844,
+      "bottom": 900,
+      "viewportHeight": 900
+    }
+  },
+  {
+    "label": "phone-selected-settled",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#selected-work",
+    "hash": "#selected-work",
+    "viewport": {
+      "w": 390,
+      "h": 844,
+      "scrollY": 0,
+      "docHeight": 1922
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 330,
+        "y": 8.5,
+        "width": 44,
+        "height": 38,
+        "bottom": 46.5
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 390, 0)",
+        "x": 390,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.26s, 0.18s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden auto",
+      "rect": {
+        "x": 390,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "bottom": 844
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 80,
+        "width": 102.84375,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1 is-active",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 120,
+        "width": 137.71875,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 434,
+        "y": 160,
+        "width": 191.828125,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 12, 0)",
+        "x": 12,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 782,
+        "width": 358,
+        "height": 38,
+        "bottom": 820
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 414.5,
+        "bottom": 518.5
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 136.890625,
+        "width": 358,
+        "height": 268.5,
+        "bottom": 405.390625
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 419.390625,
+        "width": 358,
+        "height": 66.21875,
+        "bottom": 485.609375
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": null,
+    "caseHero": null,
+    "caseIntro": null,
+    "firstRevealImage": null,
+    "firstCaption": null,
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 788,
+      "bottom": 844,
+      "viewportHeight": 844
+    }
+  },
+  {
+    "label": "phone-nav-open",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#selected-work",
+    "hash": "#selected-work",
+    "viewport": {
+      "w": 390,
+      "h": 844,
+      "scrollY": 0,
+      "docHeight": 1922
+    },
+    "body": {
+      "className": "shell-ready nav-open",
+      "overflowY": "hidden"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgb(242, 245, 245)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 330,
+        "y": 8.5,
+        "width": 44,
+        "height": 38,
+        "bottom": 46.5
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.26s, 0.18s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden auto",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "bottom": 844
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 80,
+        "width": 102.84375,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1 is-active",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 120,
+        "width": 137.71875,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 32,
+        "y": 160,
+        "width": 191.828125,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0.0287542, 0)",
+        "x": 0.0287542,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.13s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16.02875328063965,
+        "y": 782,
+        "width": 358,
+        "height": 38,
+        "bottom": 820
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 414.5,
+        "bottom": 518.5
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 136.890625,
+        "width": 358,
+        "height": 268.5,
+        "bottom": 405.390625
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 419.390625,
+        "width": 358,
+        "height": 66.21875,
+        "bottom": 485.609375
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": null,
+    "caseHero": null,
+    "caseIntro": null,
+    "firstRevealImage": null,
+    "firstCaption": null,
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 788,
+      "bottom": 844,
+      "viewportHeight": 844
+    }
+  },
+  {
+    "label": "phone-case-hbs-1000ms",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#case/harvard-business-school",
+    "hash": "#case/harvard-business-school",
+    "viewport": {
+      "w": 390,
+      "h": 844,
+      "scrollY": 0,
+      "docHeight": 6965
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgb(242, 245, 245)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 330,
+        "y": 8.5,
+        "width": 44,
+        "height": 38,
+        "bottom": 46.5
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 390, 0)",
+        "x": 390,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.26s, 0.18s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden auto",
+      "rect": {
+        "x": 390,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "bottom": 844
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 80,
+        "width": 102.84375,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 120,
+        "width": 137.71875,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 434,
+        "y": 160,
+        "width": 191.828125,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 12, 0)",
+        "x": 12,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 782,
+        "width": 358,
+        "height": 38,
+        "bottom": 820
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "text": "HBS AI Institute is a global research center that provides research-driven insights on using AI to advance business and society.",
+      "className": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.7s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 170,
+        "bottom": 274
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "text": "",
+      "className": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 16,
+        "y": 294,
+        "width": 358,
+        "height": 201.1875,
+        "bottom": 495.1875
+      }
+    },
+    "caseIntro": {
+      "selector": ".case-intro",
+      "text": "The AI team at Harvard Business School set out to create personas for users who would use AI to support strategic thinking, not just production tasks. To addres",
+      "className": "case-intro case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 24)",
+        "x": 0,
+        "y": 24,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 631.1875,
+        "width": 358,
+        "height": 272.375,
+        "bottom": 903.5625
+      }
+    },
+    "firstRevealImage": {
+      "selector": ".case-reveal-image:not(.case-hero-media)",
+      "text": "",
+      "className": "case-media case-reveal-image",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(0.95, 0, 0, 0.95, 0, 48)",
+        "x": 0,
+        "y": 48,
+        "scaleX": 0.95,
+        "scaleY": 0.95
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionDelay": "0s, 0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24.949996948242188,
+        "y": 1895.162841796875,
+        "width": 340.0999755859375,
+        "height": 782.22119140625,
+        "bottom": 2677.384033203125
+      }
+    },
+    "firstCaption": {
+      "selector": ".case-caption-text, .case-caption",
+      "text": "A user pulling context into their chat, and identifying potential sales plays.",
+      "className": "case-caption-text case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 2669.96875,
+        "width": 358,
+        "height": 48.375,
+        "bottom": 2718.34375
+      }
+    },
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 788,
+      "bottom": 844,
+      "viewportHeight": 844
+    }
+  },
+  {
+    "label": "phone-case-hbs-1700ms",
+    "url": "file:///Users/sakshatgoyal/Documents/GitHub/portfolio/index.html#case/harvard-business-school",
+    "hash": "#case/harvard-business-school",
+    "viewport": {
+      "w": 390,
+      "h": 844,
+      "scrollY": 0,
+      "docHeight": 6965
+    },
+    "body": {
+      "className": "shell-ready",
+      "overflowY": "auto"
+    },
+    "header": {
+      "selector": ".site-nav",
+      "text": "Sākshāt Goyal Product Designer",
+      "className": "site-nav",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 56,
+        "bottom": 56
+      }
+    },
+    "menuToggle": {
+      "selector": ".menu-toggle",
+      "text": "",
+      "className": "menu-toggle",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgb(242, 245, 245)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 330,
+        "y": 8.5,
+        "width": 44,
+        "height": 38,
+        "bottom": 46.5
+      }
+    },
+    "navPanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "className": "side-panel",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 390, 0)",
+        "x": 390,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.26s, 0.18s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden auto",
+      "rect": {
+        "x": 390,
+        "y": 56,
+        "width": 390,
+        "height": 788,
+        "bottom": 844
+      }
+    },
+    "navAbout": {
+      "selector": ".panel-nav .nav-item[href=\"#about\"]",
+      "text": "About me",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 80,
+        "width": 102.84375,
+        "height": 38,
+        "bottom": 118
+      }
+    },
+    "navSelected": {
+      "selector": ".panel-nav .nav-item[href=\"#selected-work\"]",
+      "text": "Selected Work",
+      "className": "nav-item nav-level-1",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 120,
+        "width": 137.71875,
+        "height": 38,
+        "bottom": 158
+      }
+    },
+    "navProject1": {
+      "selector": ".project-links .nav-item[href=\"#case/palo-alto-networks\"]",
+      "text": "01 Palo Alto Networks",
+      "className": "nav-item nav-level-2",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "color, border-radius",
+      "transitionDuration": "0.1s, 0.1s",
+      "transitionDelay": "0s, 0.075s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 434,
+        "y": 160,
+        "width": 191.828125,
+        "height": 38,
+        "bottom": 198
+      }
+    },
+    "contact": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "className": "contact-links",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 12, 0)",
+        "x": 12,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.21s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 418,
+        "y": 782,
+        "width": 358,
+        "height": 38,
+        "bottom": 820
+      }
+    },
+    "selectedTile1": {
+      "selector": ".project-tile:first-child",
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26",
+      "className": "project-tile project-motion-item is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedThumb1": {
+      "selector": ".project-tile:first-child .project-thumb-link",
+      "text": "",
+      "className": "project-thumb-link",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "border-radius",
+      "transitionDuration": "0.19s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s",
+      "animationDelay": "0.54s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "selectedTitle1": {
+      "selector": ".project-tile:first-child .project-title",
+      "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+      "className": "project-title",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s",
+      "animationDelay": "0.65s",
+      "clipPath": "none",
+      "pointerEvents": "none",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+      "className": "",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    },
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "text": "HBS AI Institute is a global research center that provides research-driven insights on using AI to advance business and society.",
+      "className": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 0)",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.7s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 170,
+        "bottom": 274
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "text": "",
+      "className": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "6px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.4s, 0.6s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 16,
+        "y": 294,
+        "width": 358,
+        "height": 201.1875,
+        "bottom": 495.1875
+      }
+    },
+    "caseIntro": {
+      "selector": ".case-intro",
+      "text": "The AI team at Harvard Business School set out to create personas for users who would use AI to support strategic thinking, not just production tasks. To addres",
+      "className": "case-intro case-reveal-text is-visible",
+      "opacity": 0.967735,
+      "transform": {
+        "raw": "matrix(1, 0, 0, 1, 0, 2.29691)",
+        "x": 0,
+        "y": 2.29691,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionDelay": "0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 609.484375,
+        "width": 358,
+        "height": 272.375,
+        "bottom": 881.859375
+      }
+    },
+    "firstRevealImage": {
+      "selector": ".case-reveal-image:not(.case-hero-media)",
+      "text": "",
+      "className": "case-media case-reveal-image",
+      "opacity": 0,
+      "transform": {
+        "raw": "matrix(0.95, 0, 0, 0.95, 0, 48)",
+        "x": 0,
+        "y": 48,
+        "scaleX": 0.95,
+        "scaleY": 0.95
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionDelay": "0s, 0s, 0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "hidden",
+      "rect": {
+        "x": 24.949996948242188,
+        "y": 1895.162841796875,
+        "width": 340.0999755859375,
+        "height": 782.22119140625,
+        "bottom": 2677.384033203125
+      }
+    },
+    "firstCaption": {
+      "selector": ".case-caption-text, .case-caption",
+      "text": "A user pulling context into their chat, and identifying potential sales plays.",
+      "className": "case-caption-text case-reveal-text",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionDelay": "0s",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "animationDelay": "0s",
+      "clipPath": "none",
+      "pointerEvents": "auto",
+      "overflow": "visible",
+      "rect": {
+        "x": 16,
+        "y": 2669.96875,
+        "width": 358,
+        "height": 48.375,
+        "bottom": 2718.34375
+      }
+    },
+    "lightbox": {
+      "open": false,
+      "className": "lightbox",
+      "opacity": 0,
+      "transform": {
+        "raw": "none",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "panelCoverage": {
+      "top": 56,
+      "height": 788,
+      "bottom": 844,
+      "viewportHeight": 844
+    }
+  }
+]

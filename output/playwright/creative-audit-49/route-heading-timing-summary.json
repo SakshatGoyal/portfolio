@@ -1,0 +1,224 @@
+[
+  {
+    "label": "selected-to-case-60ms",
+    "hash": "#selected-work",
+    "active": [
+      "Selected Work"
+    ],
+    "pending": [
+      "01 Palo Alto Networks"
+    ],
+    "selected": {
+      "opacity": "0.646295"
+    },
+    "title": null,
+    "hero": null,
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "selected-to-case-140ms",
+    "hash": "#case/palo-alto-networks",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": {
+      "opacity": "0.765874",
+      "transform": "matrix(1, 0, 0, 1, 0, 8.46349)",
+      "y": 166.5
+    },
+    "hero": {
+      "opacity": "0"
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "selected-to-case-230ms",
+    "hash": "#case/palo-alto-networks",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": {
+      "opacity": "0.985401",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.11461)",
+      "y": 160.1
+    },
+    "hero": {
+      "opacity": "0"
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "selected-to-case-420ms",
+    "hash": "#case/palo-alto-networks",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.151865)",
+      "y": 158.2
+    },
+    "hero": {
+      "opacity": "0.353767"
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "about-to-case-60ms",
+    "hash": "#about",
+    "active": [
+      "About me"
+    ],
+    "pending": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": null,
+    "hero": null,
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)"
+    }
+  },
+  {
+    "label": "about-to-case-140ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "active": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pending": [],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": {
+      "opacity": "0.801237",
+      "transform": "matrix(1, 0, 0, 1, 0, 7.74942)",
+      "y": 164.3
+    },
+    "hero": {
+      "opacity": "0"
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)"
+    }
+  },
+  {
+    "label": "about-to-case-230ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "active": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pending": [],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": {
+      "opacity": "0.985392",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.11516)",
+      "y": 159.9
+    },
+    "hero": {
+      "opacity": "0"
+    },
+    "sideBio": {
+      "opacity": "0.0386132",
+      "transform": "matrix(1, 0, 0, 1, 0, 3.64594)"
+    }
+  },
+  {
+    "label": "about-to-case-420ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "active": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pending": [],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.15192)",
+      "y": 158.2
+    },
+    "hero": {
+      "opacity": "0.353539"
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.00656404)"
+    }
+  },
+  {
+    "label": "mobile-selected-to-case-180ms",
+    "hash": "#case/palo-alto-networks",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": {
+      "opacity": "0.724642",
+      "transform": "matrix(1, 0, 0, 1, 0, 9.23073)",
+      "y": 113.2
+    },
+    "hero": {
+      "opacity": "0"
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "label": "mobile-selected-to-case-420ms",
+    "hash": "#case/palo-alto-networks",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "opacity": "0"
+    },
+    "title": {
+      "opacity": "0.999985",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.498242)",
+      "y": 104.5
+    },
+    "hero": {
+      "opacity": "0.0596378"
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 11.9721, 0)"
+    }
+  }
+]

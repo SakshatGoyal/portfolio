@@ -1,0 +1,179 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e7]:
+      - navigation:
+        - list:
+          - listitem [ref=e8]:
+            - link "INDEX" [ref=e9] [cursor=pointer]:
+              - /url: http://web.archive.org/web/20221002193619/https://www.lizvwells.com/
+      - link "Liz Wells" [ref=e11] [cursor=pointer]:
+        - /url: http://web.archive.org/web/20221002193619/https://www.lizvwells.com/
+      - navigation:
+        - list:
+          - listitem [ref=e12]:
+            - link "INFO" [ref=e13] [cursor=pointer]:
+              - /url: http://web.archive.org/web/20221002193619/https://www.lizvwells.com/info
+  - generic [ref=e16]:
+    - generic [ref=e21]:
+      - heading "Lynching in America" [level=1] [ref=e25]
+      - heading "GOOGLE & EQUAL JUSTICE INITIATIVE" [level=5] [ref=e29]
+    - iframe [ref=e38]:
+      
+    - heading "Google and the Equal Justice Initiative joined together to tell the stories of families affected by the history of racial terror in America." [level=2] [ref=e49]
+    - generic [ref=e54]:
+      - img "lizvwells-casestudy-lynchinginamerica-sketch1" [ref=e57]
+      - heading "EARLY FLOW OPTION" [level=6] [ref=e61]: EARLY FLOW OPTION
+    - generic [ref=e64]:
+      - heading "About the Project" [level=2] [ref=e72]
+      - paragraph [ref=e78]: For 28 years, EJI has been conducting research and collecting data about the effects of lynching in America during the era of racial terror, from 1865 to 1950. During this difficult time in America’s history, over 4,000 people of color were lynched by white Americans and there has never been justice for the victims and their families. We turned this data into a collection of interactive maps and stories that greatly expanded access to EJI’s work. EJI wanted to bring this history back to the front of our collective political consciousness in a way that forces us to confront our country’s dark past and the legacy it left for so many families.
+    - generic [ref=e83]:
+      - img "lizvwells-casestudy-lynchinginamerica-sketch2" [ref=e86]
+      - heading "EARLY FLOW OPTION" [level=6] [ref=e90]: EARLY FLOW OPTION
+    - generic [ref=e93]:
+      - heading "UX Challenges" [level=2] [ref=e101]
+      - paragraph [ref=e107]: "One of the many challenges of this project was the subject matter. We acknowledge that this isn’t easy for many users to face, which is why the content was presented through different mediums: audio stories, data on interactive maps and a short film. We needed to find a way to create a through-line weaving these three different storytelling media together to form a continuous narrative. Through the content hierarchy, we also needed to balance real, human stories with EJI’s data."
+    - generic [ref=e112]:
+      - img "lizvwells-casestudy-lynchinginamerica-sketch3" [ref=e115]
+      - heading "SKETCH OF INTERACTIVE MAP WITH NUMBER OF LYNCHING VICTIMS DATA" [level=6] [ref=e119]: SKETCH OF INTERACTIVE MAP WITH NUMBER OF LYNCHING VICTIMS DATA
+    - paragraph [ref=e130]: For this project, it was especially important that the content is as accessible as possible, which is why we worked from a mobile-first design perspective to guarantee an equally good experience on both mobile and desktop.
+    - generic [ref=e135]:
+      - img "lizvwells-casestudy-lynchinginamerica-sketch4" [ref=e138]
+      - heading "EJI MUSEUM TABLE SCREENS SKETCHES" [level=6] [ref=e142]: EJI MUSEUM TABLE SCREENS SKETCHES
+    - paragraph [ref=e153]: Additionally, we had to adapt the interactive map for touch display in the Brooklyn Museum and EJI’s own museum in Montgomery, Alabama, which will open in 2018. This posed additional UX challenges, because the same UI had to accommodate users on a mobile screen, desktop users and users on a 80-inch touch screen in a busy museum environment.
+    - generic [ref=e158]:
+      - img "lizvwells-casestudy-lynchinginamerica-mobilewires" [ref=e161]
+      - heading "MOBILE WIREFRAMES" [level=6] [ref=e165]: MOBILE WIREFRAMES
+    - generic [ref=e168]:
+      - heading "UX Solutions" [level=2] [ref=e176]
+      - paragraph [ref=e182]: To ensure continued interaction with the site after acknowledgment of the subject matter, we let each user’s sense of exploration dictate the flow of the site. After the site’s intro resolves, the user is given the global menu. From there, they can travel to any section of the site. Once the user is in the site’s flow, they can scroll between sections to continue exploring the content or always return to the global nav to jump ahead. We wanted the user to make the choice on how they would explore this subject. Because of the analytics from our National Parks project, we knew that users like choice and they are more likely to stick with something if they choose it rather than getting pushed into a flow they didn’t select.
+    - generic [ref=e187]:
+      - img "lizvwells-casestudy-lynchinginamerica-brooklynmuseum1" [ref=e190]
+      - heading "BROOKLYN MUSEUM EXHIBIT, \"THE LEGACY OF LYNCHING - CONFRONTING RACIAL TERROR IN AMERICA\" JULY 26 - SEPTEMBER 3, 2017. PHOTOGRAPHY BY EMILY KORDOVICH" [level=6] [ref=e194]
+    - paragraph [ref=e205]: The site works on desktop and mobile, letting users have the same experience regardless of their device. The main change between desktop and mobile is the map. On mobile, we had to create a state list because the map would be too small for users to interact with. All of the audio content is available on popular music platforms such as Google Play Music, Soundcloud and iTunes, so users can listen to these stories off-line as well.
+    - generic [ref=e210]:
+      - img "lizvwells-casestudy-lynchinginamerica-brooklynmuseum2" [ref=e213]
+      - heading "THE INTERACTIVE MAP FROM THE SITE ON AN 80-INCH TOUCH SCREEN IN THE EXHIBIT. USERS ARE INVITED TO EXPLORE STATE DATA AND LISTEN TO PROFILE STORIES. PHOTOGRAPHY BY EMILY KORDOVICH" [level=6] [ref=e217]: THE INTERACTIVE MAP FROM THE SITE ON AN 80-INCH TOUCH SCREEN IN THE EXHIBIT. USERS ARE INVITED TO EXPLORE STATE DATA AND LISTEN TO PROFILE STORIES. PHOTOGRAPHY BY EMILY KORDOVICH
+    - paragraph [ref=e228]: To make sure the interactive map worked on the Brooklyn Museum touch screen and then later for EJI’s own museum, we tested the map internally multiple times before launch to make sure it would seamlessly on a huge display. For EJI’s museum display, we adjusted the UX to feature more profile stories, clear UI that users can easily reach on the touch screen table regardless of their height, and the ability for the museum to update map data on the backend when they do more research.
+    - generic [ref=e233]:
+      - img "lizvwells-casestudy-lynchinginamerica-brooklynmuseum3" [ref=e236]
+      - heading "USERS CAN CLICK ON STATES TO EXPLORE EACH COUNTY'S LYNCHING DATA. PHOTOGRAPHY BY EMILY KORDOVICH" [level=6] [ref=e240]: USERS CAN CLICK ON STATES TO EXPLORE EACH COUNTY'S LYNCHING DATA. PHOTOGRAPHY BY EMILY KORDOVICH
+    - generic [ref=e245]:
+      - img "lizvwells-casestudy-lynchinginamerica-brooklynmuseum4" [ref=e248]
+      - heading "USERS CAN WATCH SHORT STORIES ABOUT LYNCHING VICTIMS. PHOTOGRAPHY BY EMILY KORDOVICH" [level=6] [ref=e252]
+    - paragraph [ref=e263]: After completing the Lynching In America site and Brooklyn Museum exhibit, EJI reached out to Stink to adapt the map experience to work on touch screens for The Legacy Museum in Montgomery, AL. This required evolving the site UX to work for a different audience, specifically elderly museum visitors, in the space and on large touch screens.
+    - generic [ref=e268]:
+      - img "lizvwells-casestudy-lynchinginamerica-museumwires" [ref=e271]
+      - heading "WIREFRAMES FOR THE LEGACY MUSEUM INSTALLATION" [level=6] [ref=e275]: WIREFRAMES FOR THE LEGACY MUSEUM INSTALLATION
+    - paragraph [ref=e286]: To do this, I simplified the UI along the bottom of the screen to improve access for users standing or sitting at the screen during the experience. To optimize the map for a touch-based experience, we removed all hover states — users would have to click counties within the state view to see the data. Removing the hover states subsequently altered the way users accessed profile stories from the US map level. To accommodate this change, we removed the thumbnails from the map itself and placed them in a left-hand column that the user could use to separately scroll through from the experience. Because of the museum’s target audience, we also added a persistent Help button. Using images and text, this overlay would explain how to interact with the different levels of content.
+    - generic [ref=e291]:
+      - img "lizvwells-casestudy-lynchinginamerica-usertesting" [ref=e294]
+      - 'heading "LEADING USER TESTING DURING MUSEUM INSTALLATION DEVELOPMENT WITH EJI’S TEAM, INCLUDING FOUNDER, BRYAN STEVENSON, AND THE MUSEUM’S TARGET AUDIENCE: ELDERLY VISITORS" [level=6] [ref=e298]': "LEADING USER TESTING DURING MUSEUM INSTALLATION DEVELOPMENT WITH EJI’S TEAM, INCLUDING FOUNDER, BRYAN STEVENSON, AND THE MUSEUM’S TARGET AUDIENCE: ELDERLY VISITORS"
+    - paragraph [ref=e309]: During the development phase, we user tested with the museum’s target audience and the EJI team. From testing, we found that users enjoyed the option of reading stories rather than listening or watching, in the case they had audio or visual impairments. Users also understood the help button and referenced it if they did not know what to do next after visiting a state.
+    - generic [ref=e314]:
+      - img "lizvwells-casestudy-lynchinginamerica-alabamamuseum1" [ref=e317]
+      - heading "INSTALLATIONS IN THE LEGACY MUSEUM IN MONTGOMERY, ALABAMA" [level=6] [ref=e321]: INSTALLATIONS IN THE LEGACY MUSEUM IN MONTGOMERY, ALABAMA
+    - generic [ref=e326]:
+      - img "lizvwells-casestudy-lynchinginamerica-alabamamuseum2" [ref=e329]
+      - heading "MAP STATE OF THE INSTALLATION. USERS CAN EXPLORE PROFILE STORIES AND STATE DETAIL PAGES" [level=6] [ref=e333]
+    - generic [ref=e338]:
+      - img "lizvwells-casestudy-lynchinginamerica-alabamamuseum3" [ref=e341]
+      - heading "FROM THE STATE DETAIL PAGE, USERS CAN EXPLORE THE NAMES AND NUMBER OF VICTIMS BY STATE AND COUNTY" [level=6] [ref=e345]: FROM THE STATE DETAIL PAGE, USERS CAN EXPLORE THE NAMES AND NUMBER OF VICTIMS BY STATE AND COUNTY
+    - generic [ref=e350]:
+      - img "lizvwells-casestudy-lynchinginamerica-alabamamuseum4" [ref=e353]
+      - heading "PROFILE STORY FROM EACH STATE, ACCESSIBLE FROM THE DETAIL PAGE" [level=6] [ref=e357]: PROFILE STORY FROM EACH STATE, ACCESSIBLE FROM THE DETAIL PAGE
+    - heading "View the project here" [level=2] [ref=e368]:
+      - link "View the project here" [ref=e369] [cursor=pointer]:
+        - /url: http://web.archive.org/web/20221002193619/https://lynchinginamerica.eji.org/
+    - generic [ref=e372]:
+      - generic [ref=e374]:
+        - heading "Team" [level=2] [ref=e378]
+        - heading "CLIENT" [level=3] [ref=e382]
+        - heading "GOOGLE BRAND STUDIOS & EQUAL JUSTICE INITIATIVE" [level=4] [ref=e386]
+        - heading "DIGITAL AGENCY" [level=3] [ref=e390]
+        - heading "STINK STUDIOS" [level=4] [ref=e394]
+        - heading "EXECUTIVE CREATIVE DIRECTOR" [level=3] [ref=e398]
+        - heading "BEN HUGHES" [level=4] [ref=e402]
+        - heading "USER EXPERIENCE DESIGNER" [level=3] [ref=e406]
+        - heading "LIZ WELLS" [level=4] [ref=e410]
+        - heading "LEAD TECHNOLOGIST" [level=3] [ref=e414]
+        - heading "JP GARY" [level=4] [ref=e418]
+        - heading "DEVELOPERS" [level=3] [ref=e422]
+        - heading "MATHIAS VAN IMPE, MANNY VIVODA, RJ KOSINESKI, TIM ROUSSILHE" [level=4] [ref=e426]
+        - heading "BACKEND DEVELOPER" [level=3] [ref=e430]
+        - heading "ABHAYA RAWAL" [level=4] [ref=e434]
+        - heading "EXECUTIVE PRODUCER" [level=3] [ref=e438]
+        - heading "ERICA KUNG" [level=4] [ref=e442]
+        - heading "PRODUCER" [level=3] [ref=e446]
+        - heading "NICKIE KUHN" [level=4] [ref=e450]
+      - generic [ref=e454]:
+        - heading "Awards" [level=2] [ref=e458]
+        - heading "WEBBY" [level=3] [ref=e462]
+        - heading "PEOPLE'S CHOICE FOR BEST CAUSE RELATED CAMPAIGN" [level=4] [ref=e466]
+        - heading "CANNES LIONS" [level=3] [ref=e470]
+        - heading "BRONZE IN DIGITAL DESIGN" [level=4] [ref=e474]: BRONZE IN DIGITAL DESIGN
+        - heading "Press" [level=2] [ref=e478]
+        - heading "NEW YORK TIMES" [level=3] [ref=e482]
+        - heading "\"A LYNCHING MEMORIAL IS OPENING. THE COUNTRY HAS NEVER SEEN ANYTHING LIKE IT.\"" [level=4] [ref=e486]:
+          - link "\"A LYNCHING MEMORIAL IS OPENING. THE COUNTRY HAS NEVER SEEN ANYTHING LIKE IT.\"" [ref=e487] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.nytimes.com/2018/04/25/us/lynching-memorial-alabama.html
+        - heading "DEZEEN" [level=3] [ref=e491]
+        - heading "\"MEMORIAL IN ALABAMA ACKNOWLEDGES VIOLENCE AGAINST AFRICAN AMERICANS\"" [level=4] [ref=e495]:
+          - link "\"MEMORIAL IN ALABAMA ACKNOWLEDGES VIOLENCE AGAINST AFRICAN AMERICANS\"" [ref=e496] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.dezeen.com/2018/04/23/national-memorial-peace-justice-acknowledges-violence-against-african-americans-montgomery-alabama/
+        - heading "SALON" [level=3] [ref=e500]
+        - heading "\"A MUSEUM DEDICATED TO THE HORRORS OF LYNCHING IS WHAT AMERICA NEEDS\"" [level=4] [ref=e504]:
+          - link "\"A MUSEUM DEDICATED TO THE HORRORS OF LYNCHING IS WHAT AMERICA NEEDS\"" [ref=e505] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.salon.com/2018/04/24/a-museum-dedicated-to-the-horrors-of-lynching-is-what-america-needs/
+        - heading "VOX" [level=3] [ref=e509]
+        - heading "\"A NEW LYNCHING MEMORIAL HIGHLIGHTS AMERICA’S GRIM LEGACY OF RACIAL TERRORISM\"" [level=4] [ref=e513]:
+          - link "\"A NEW LYNCHING MEMORIAL HIGHLIGHTS AMERICA’S GRIM LEGACY OF RACIAL TERRORISM\"" [ref=e514] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.vox.com/identities/2018/4/26/17286236/lynching-victims-memorial-alabama-equal-justice-initiative
+        - heading "TECH CRUNCH" [level=3] [ref=e518]
+        - heading "\"EQUAL JUSTICE INITIATIVE, BACKED BY GOOGLE.ORG, LAUNCHES ‘LYNCHING IN AMERICA’\"" [level=4] [ref=e522]:
+          - link "\"EQUAL JUSTICE INITIATIVE, BACKED BY GOOGLE.ORG, LAUNCHES ‘LYNCHING IN AMERICA’\"" [ref=e523] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://techcrunch.com/2017/06/13/lynching-in-america-equal-justice-initiative/
+        - heading "BUZZFEED" [level=3] [ref=e527]
+        - heading "\"GOOGLE JUST RELEASED AN INTERACTIVE MAP OF LYNCHINGS IN THE US\"" [level=4] [ref=e531]:
+          - link "\"GOOGLE JUST RELEASED AN INTERACTIVE MAP OF LYNCHINGS IN THE US\"" [ref=e532] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.buzzfeednews.com/article/blakemontgomery/google-just-released-an-interactive-map-of-lynchings-in-us#.pxMqQolYm
+        - heading "HUFFINGTON POST" [level=3] [ref=e536]
+        - 'heading "\"LYNCHING IN AMERICA: CONFRONTING THE LEGACY OF RACIAL TERROR GOOGLE & EJI PARTNER IN MIGHTY NEW INITIATIVE\"" [level=4] [ref=e540]':
+          - 'link "\"LYNCHING IN AMERICA: CONFRONTING THE LEGACY OF RACIAL TERROR GOOGLE & EJI PARTNER IN MIGHTY NEW INITIATIVE\"" [ref=e541] [cursor=pointer]':
+            - /url: http://web.archive.org/web/20221002193619/https://www.huffpost.com/entry/lynching-in-america-confronting-the-legacy-of-racial_b_593f3686e4b0b65670e56d72
+        - heading "USA TODAY" [level=3] [ref=e545]
+        - heading "\"AMERICA'S LYNCHING HISTORY IS NOW ONLINE\"" [level=4] [ref=e549]:
+          - link "\"AMERICA'S LYNCHING HISTORY IS NOW ONLINE\"" [ref=e550] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.usatoday.com/story/tech/news/2017/06/13/google-equal-justice-initiative-lynching/102782832/
+        - heading "THE NEW YORK TIMES" [level=3] [ref=e554]
+        - heading "\"‘THE LEGACY OF LYNCHING,’ AT THE BROOKLYN MUSEUM, DOCUMENTS VIOLENT RACISM\"" [level=4] [ref=e558]:
+          - link "\"‘THE LEGACY OF LYNCHING,’ AT THE BROOKLYN MUSEUM, DOCUMENTS VIOLENT RACISM\"" [ref=e559] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.nytimes.com/2017/07/26/arts/design/the-legacy-of-lynching-at-the-brooklyn-museum-documents-violent-racism.html?partner=rss&emc=rss
+        - heading "QUARTZ" [level=3] [ref=e563]
+        - heading "\"A NEW GOOGLE-BACKED PLATFORM EXPOSES THE LEGACY OF LYNCHING IN AMERICA\"" [level=4] [ref=e567]:
+          - link "\"A NEW GOOGLE-BACKED PLATFORM EXPOSES THE LEGACY OF LYNCHING IN AMERICA\"" [ref=e568] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://qz.com/1004410/a-new-google-backed-platform-from-the-equal-justice-initiative-aims-to-show-the-legacy-of-lynching-in-america/
+        - heading "THE ROOT" [level=3] [ref=e572]
+        - heading "\"‘LYNCHING IN AMERICA’ SITE LAUNCHED BY GOOGLE TO CONFRONT THE ‘LEGACY OF RACIAL TERROR\"" [level=4] [ref=e576]:
+          - link "\"‘LYNCHING IN AMERICA’ SITE LAUNCHED BY GOOGLE TO CONFRONT THE ‘LEGACY OF RACIAL TERROR\"" [ref=e577] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.theroot.com/lynching-in-america-site-launched-by-google-to-confro-1796081906
+        - heading "ART NEWS" [level=3] [ref=e581]
+        - heading "\"BROOKLYN MUSEUM PARTNERS WITH EQUAL JUSTICE INITIATIVE TO SURVEY ‘THE LEGACY OF LYNCHING’\"" [level=4] [ref=e585]:
+          - link "\"BROOKLYN MUSEUM PARTNERS WITH EQUAL JUSTICE INITIATIVE TO SURVEY ‘THE LEGACY OF LYNCHING’\"" [ref=e586] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/http://www.artnews.com/2017/07/25/brooklyn-museum-partners-with-equal-justice-initiative-to-survey-legacy-of-lynching/
+        - heading "ARTSY" [level=3] [ref=e590]
+        - heading "\"AT THE BROOKLYN MUSEUM, TRACING THE HISTORY OF LYNCHING IN AMERICA\"" [level=4] [ref=e594]:
+          - link "\"AT THE BROOKLYN MUSEUM, TRACING THE HISTORY OF LYNCHING IN AMERICA\"" [ref=e595] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20221002193619/https://www.artsy.net/article/artsy-editorial-exhibition-traces-history-lynching-america
+    - generic [ref=e598]:
+      - heading "HELLO@LIZVWELLS.COM" [level=3] [ref=e604]:
+        - link "HELLO@LIZVWELLS.COM" [ref=e605] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20221002193619/mailto:hello@lizvwells.com
+      - heading "INSTAGRAM TWITTER LINKEDIN" [level=3] [ref=e611]:
+        - link "INSTAGRAM" [ref=e612] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20221002193619/https://www.instagram.com/lizvwells/
+          - text: INSTAGRAM
+        - link "TWITTER" [ref=e613] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20221002193619/https://twitter.com/lizvwells
+          - text: TWITTER
+        - link "LINKEDIN" [ref=e614] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20221002193619/https://www.linkedin.com/in/lizvwells

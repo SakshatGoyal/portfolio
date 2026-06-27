@@ -1,0 +1,16 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "BACK HOME",
+    "href": "https://www.philliplee.co/",
+    "aria": "",
+    "rect": {
+      "x": 4,
+      "y": 15,
+      "width": 119.765625,
+      "height": 32.046875
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  }
+]

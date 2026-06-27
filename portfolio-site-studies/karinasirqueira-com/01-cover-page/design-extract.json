@@ -1,0 +1,741 @@
+{
+  "title": "Karina Sirqueira",
+  "url": "https://karinasirqueira.com/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 1000,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+  ],
+  "fonts": [
+    "\"Helvetica Neue\"",
+    "MFred"
+  ],
+  "samples": [
+    {
+      "tag": "body",
+      "className": "loaded",
+      "text": "Karina Sirqueira function gtag() { dataLayer.push(arguments); } (window.dataLayer = window.dataLayer || []), gtag('js', ",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "home home--2",
+      "text": "Karina Sirqueira",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "home__wrapper",
+      "text": "Karina Sirqueira",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "home__content",
+      "text": "Karina Sirqueira",
+      "rect": {
+        "x": 287.1640625,
+        "y": 228.7109375,
+        "width": 865.671875,
+        "height": 542.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "home__media",
+      "text": "",
+      "rect": {
+        "x": 287.1640625,
+        "y": 228.7109375,
+        "width": 865.671875,
+        "height": 542.578125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "home__media__element home__media__element--0",
+      "text": "",
+      "rect": {
+        "x": 287.1640625,
+        "y": 316.9500427246094,
+        "width": 158.4375,
+        "height": 163.515625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "48.6716%",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "home__media__media",
+      "text": "",
+      "rect": {
+        "x": 283.1640625,
+        "y": 316.9500427246094,
+        "width": 4429.15625,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 0px -4px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "home__media__element home__media__element--1",
+      "text": "",
+      "rect": {
+        "x": 445.6015625,
+        "y": 253.92210388183594,
+        "width": 267.6875,
+        "height": 274.8125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "48.6716%",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "home__media__media",
+      "text": "",
+      "rect": {
+        "x": 445.6015625,
+        "y": 252.92210388183594,
+        "width": 3627.796875,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "-1px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "home__media__element home__media__element--2",
+      "text": "",
+      "rect": {
+        "x": 607.417724609375,
+        "y": 232.2109375,
+        "width": 531.78125,
+        "height": 539.078125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "48.6716%",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "home__media__media",
+      "text": "",
+      "rect": {
+        "x": 606.417724609375,
+        "y": 231.2109375,
+        "width": 1268.421875,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "-1px 0px 0px -1px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "home__media__element home__media__element--3",
+      "text": "",
+      "rect": {
+        "x": 296.5078125,
+        "y": 471.093505859375,
+        "width": 266.21875,
+        "height": 271.28125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "48.6716%",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "home__media__media",
+      "text": "",
+      "rect": {
+        "x": 296.5078125,
+        "y": 471.093505859375,
+        "width": 2444.890625,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "home__media__element home__media__element--4",
+      "text": "",
+      "rect": {
+        "x": 562.7421875,
+        "y": 511.69744873046875,
+        "width": 162.0625,
+        "height": 170.71875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "48.6716%",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "home__media__media",
+      "text": "",
+      "rect": {
+        "x": 562.7421875,
+        "y": 511.69744873046875,
+        "width": 1753.09375,
+        "height": 1000.0000610351562
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "home__media__element home__media__element--5",
+      "text": "",
+      "rect": {
+        "x": 883.0078125,
+        "y": 493.8984375,
+        "width": 267.75,
+        "height": 276.015625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "48.6716%",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "home__media__media",
+      "text": "",
+      "rect": {
+        "x": 878.0078125,
+        "y": 493.8984375,
+        "width": 3935.375,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 0px -5px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "home__media__element home__media__element--6",
+      "text": "",
+      "rect": {
+        "x": 1018.7109375,
+        "y": 630.4296875,
+        "width": 134.484375,
+        "height": 140.84375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "48.6716%",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "home__media__media",
+      "text": "",
+      "rect": {
+        "x": 1018.7109375,
+        "y": 629.4296875,
+        "width": 1806.953125,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "-1px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "home__link",
+      "text": "Karina Sirqueira",
+      "rect": {
+        "x": 1062.0234375,
+        "y": 777.7578125,
+        "width": 90.8125,
+        "height": 14
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "15.5396px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "0.647482px",
+        "margin": "6.47482px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://karinasirqueira.com/projects/fresh-direct/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 287.1640625,
+        "y": 316.9500427246094,
+        "width": 158.4375,
+        "height": 163.515625
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://karinasirqueira.com/projects/mailchimp/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 445.6015625,
+        "y": 253.92210388183594,
+        "width": 267.6875,
+        "height": 274.8125
+      }
+    },
+    {
+      "index": 2,
+      "href": "https://karinasirqueira.com/projects/mta/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 607.417724609375,
+        "y": 232.2109375,
+        "width": 531.78125,
+        "height": 539.078125
+      }
+    },
+    {
+      "index": 3,
+      "href": "https://karinasirqueira.com/projects/airbnb/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 296.5078125,
+        "y": 471.093505859375,
+        "width": 266.21875,
+        "height": 271.28125
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://karinasirqueira.com/projects/wwc/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 562.7421875,
+        "y": 511.69744873046875,
+        "width": 162.0625,
+        "height": 170.71875
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://karinasirqueira.com/projects/gainbridge/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 883.0078125,
+        "y": 493.8984375,
+        "width": 267.75,
+        "height": 276.015625
+      }
+    },
+    {
+      "index": 6,
+      "href": "https://karinasirqueira.com/projects/vista/",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1018.7109375,
+        "y": 630.4296875,
+        "width": 134.484375,
+        "height": 140.84375
+      }
+    },
+    {
+      "index": 7,
+      "href": "https://karinasirqueira.com/about/",
+      "text": "Karina Sirqueira",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1062.0234375,
+        "y": 777.7578125,
+        "width": 90.8125,
+        "height": 14
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "",
+      "href": "https://karinasirqueira.com/projects/fresh-direct/",
+      "aria": "",
+      "rect": {
+        "x": 287.1640625,
+        "y": 316.9500427246094,
+        "width": 158.4375,
+        "height": 163.515625
+      }
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "",
+      "href": "https://karinasirqueira.com/projects/mailchimp/",
+      "aria": "",
+      "rect": {
+        "x": 445.6015625,
+        "y": 253.92210388183594,
+        "width": 267.6875,
+        "height": 274.8125
+      }
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "",
+      "href": "https://karinasirqueira.com/projects/mta/",
+      "aria": "",
+      "rect": {
+        "x": 607.417724609375,
+        "y": 232.2109375,
+        "width": 531.78125,
+        "height": 539.078125
+      }
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "",
+      "href": "https://karinasirqueira.com/projects/airbnb/",
+      "aria": "",
+      "rect": {
+        "x": 296.5078125,
+        "y": 471.093505859375,
+        "width": 266.21875,
+        "height": 271.28125
+      }
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "",
+      "href": "https://karinasirqueira.com/projects/wwc/",
+      "aria": "",
+      "rect": {
+        "x": 562.7421875,
+        "y": 511.69744873046875,
+        "width": 162.0625,
+        "height": 170.71875
+      }
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "",
+      "href": "https://karinasirqueira.com/projects/gainbridge/",
+      "aria": "",
+      "rect": {
+        "x": 883.0078125,
+        "y": 493.8984375,
+        "width": 267.75,
+        "height": 276.015625
+      }
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "",
+      "href": "https://karinasirqueira.com/projects/vista/",
+      "aria": "",
+      "rect": {
+        "x": 1018.7109375,
+        "y": 630.4296875,
+        "width": 134.484375,
+        "height": 140.84375
+      }
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "Karina Sirqueira",
+      "href": "https://karinasirqueira.com/about/",
+      "aria": "",
+      "rect": {
+        "x": 1062.0234375,
+        "y": 777.7578125,
+        "width": 90.8125,
+        "height": 14
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

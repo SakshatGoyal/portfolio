@@ -1,0 +1,6528 @@
+[
+  {
+    "label": "desktop-case-panw-settled",
+    "hash": "#case/palo-alto-networks",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts. I led the end-to-end design of Sales Workb",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 7361
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 276,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native use",
+      "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 898,
+        "width": 484,
+        "height": 151
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 160,
+          "width": 192,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-case-0000ms",
+    "hash": "#case/palo-alto-networks",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts. I led the end-to-end design of Sales Workb",
+      "classes": "case-study route-view-exit",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 7361
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 276,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native use",
+      "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 898,
+        "width": 484,
+        "height": 151
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 160,
+          "width": 192,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-pending",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-case-0080ms",
+    "hash": "#case/palo-alto-networks",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts. I led the end-to-end design of Sales Workb",
+      "classes": "case-study route-view-exit",
+      "hidden": false,
+      "opacity": 0.636731,
+      "transform": "matrix(1, 0, 0, 1, 0, -1.07894)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "width": 1040,
+        "height": 7361
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 157,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 275,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native use",
+      "classes": "case-intro case-reveal-text case-intro-list-emphasis",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 896,
+        "width": 484,
+        "height": 151
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 160,
+          "width": 192,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-pending",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-case-0160ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 0.922602,
+      "transform": "matrix(1, 0, 0, 1, 0, -0.645003)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "width": 1040,
+        "height": 9071
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 0.614889,
+      "transform": "matrix(1, 0, 0, 1, 0, 11.017)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 168,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 275,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 897,
+        "width": 484,
+        "height": 221
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-case-0320ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, -0.0475369)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 9071
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 0.985289,
+      "transform": "matrix(1, 0, 0, 1, 0, 2.12142)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 160,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 276,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 897,
+        "width": 484,
+        "height": 221
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-case-0620ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 9071
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.0434058)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 0.829025,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 276,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 898,
+        "width": 484,
+        "height": 221
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-case-0980ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 9071
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 276,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 898,
+        "width": 484,
+        "height": 221
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-case-1320ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 9071
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 276,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 898,
+        "width": 484,
+        "height": 221
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-selected-0000ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-exit",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 9071
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 276,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 898,
+        "width": 484,
+        "height": 221
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-pending",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0080ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-exit",
+      "hidden": false,
+      "opacity": 0.57486,
+      "transform": "matrix(1, 0, 0, 1, 0, -1.24061)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 55,
+        "width": 1040,
+        "height": 9071
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 24,
+        "y": 157,
+        "width": 992,
+        "height": 90
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 24,
+        "y": 275,
+        "width": 992,
+        "height": 558
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 278,
+        "y": 896,
+        "width": 484,
+        "height": 221
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-pending",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0160ms",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "",
+      "classes": "case-study route-view-exit",
+      "hidden": true,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 1151
+      }
+    },
+    "heading": null,
+    "hero": null,
+    "intro": null,
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.0445374,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.02s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.00233044,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.06s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.19s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.23s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.075s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 28,
+          "y": 147,
+          "width": 480,
+          "height": 360
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.115s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 532,
+          "y": 147,
+          "width": 480,
+          "height": 360
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.245s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 28,
+          "y": 701,
+          "width": 480,
+          "height": 360
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.285s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 532,
+          "y": 701,
+          "width": 480,
+          "height": 360
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.165s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.205s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.335s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.375s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-selected-0320ms",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "",
+      "classes": "case-study route-view-exit",
+      "hidden": true,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 1151
+      }
+    },
+    "heading": null,
+    "hero": null,
+    "intro": null,
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.954006,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.02s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.81272,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.06s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.0262008,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.19s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.23s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.835836,
+        "transform": "matrix(0.997373, 0, 0, 0.997373, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.075s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 25,
+          "y": 145,
+          "width": 487,
+          "height": 365
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.733292,
+        "transform": "matrix(0.995733, 0, 0, 0.995733, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.115s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 529,
+          "y": 145,
+          "width": 486,
+          "height": 364
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.245s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 28,
+          "y": 701,
+          "width": 480,
+          "height": 360
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.285s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 532,
+          "y": 701,
+          "width": 480,
+          "height": 360
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.034945,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.165s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.00597459,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.205s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.335s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.375s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-selected-0520ms",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "",
+      "classes": "case-study route-view-exit",
+      "hidden": true,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 1151
+      }
+    },
+    "heading": null,
+    "hero": null,
+    "intro": null,
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.02s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.06s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.992016,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.19s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.931255,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.23s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.988341,
+        "transform": "matrix(0.999813, 0, 0, 0.999813, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.075s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 24,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.978675,
+        "transform": "matrix(0.999659, 0, 0, 0.999659, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.115s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 528,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.885777,
+        "transform": "matrix(0.998172, 0, 0, 0.998172, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.245s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 24,
+          "y": 698,
+          "width": 487,
+          "height": 365
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.814743,
+        "transform": "matrix(0.997036, 0, 0, 0.997036, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.285s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 529,
+          "y": 699,
+          "width": 487,
+          "height": 365
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.87501,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.165s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.714151,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.205s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.0777005,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.335s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.0251717,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.375s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-selected-0780ms",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "",
+      "classes": "case-study route-view-exit",
+      "hidden": true,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 1151
+      }
+    },
+    "heading": null,
+    "hero": null,
+    "intro": null,
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.02s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.06s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.19s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.23s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.075s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 24,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.999999,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.115s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 528,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.997849,
+        "transform": "matrix(0.999966, 0, 0, 0.999966, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.245s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 24,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.994977,
+        "transform": "matrix(0.99992, 0, 0, 0.99992, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.285s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 528,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.165s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.205s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.994093,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.335s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.964764,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.375s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "desktop-case-to-selected-1000ms",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "",
+      "classes": "case-study route-view-exit",
+      "hidden": true,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 1151
+      }
+    },
+    "heading": null,
+    "hero": null,
+    "intro": null,
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.02s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.06s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.19s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-meta-in",
+        "animationDelay": "0.23s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.075s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 24,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.115s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 528,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.245s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 24,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationName": "selected-work-image-in",
+        "animationDelay": "0.285s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 528,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.165s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.205s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.335s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "selected-work-title-in",
+        "animationDelay": "0.375s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "mobile-case-drawer-open",
+    "hash": "#case/palo-alto-networks",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready nav-open",
+    "caseStage": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts. I led the end-to-end design of Sales Workb",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 6035
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201
+      }
+    },
+    "intro": {
+      "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native use",
+      "classes": "case-intro case-reveal-text case-intro-list-emphasis is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 16,
+        "y": 573,
+        "width": 358,
+        "height": 232
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 32,
+          "y": 160,
+          "width": 192,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "mobile-drawer-case-to-case-0000ms",
+    "hash": "#case/palo-alto-networks",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts. I led the end-to-end design of Sales Workb",
+      "classes": "case-study route-view-exit",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.17s, 0.22s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 6035
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201
+      }
+    },
+    "intro": {
+      "text": "I led the end-to-end design of Sales Workbench by rethinking: How we design data-dense interactive tables.How AI converses with spreadsheet-native use",
+      "classes": "case-intro case-reveal-text case-intro-list-emphasis is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 16,
+        "y": 573,
+        "width": 358,
+        "height": 232
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 32,
+          "y": 160,
+          "width": 192,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-pending",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 32,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-case-to-case-0120ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 0.701696,
+      "transform": "matrix(1, 0, 0, 1, 0, -0.248172)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 7228
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 0.262438,
+      "transform": "matrix(1, 0, 0, 1, 0, 15.374)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 16,
+        "y": 119,
+        "width": 358,
+        "height": 136
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 16,
+        "y": 573,
+        "width": 358,
+        "height": 242
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 184,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "mobile-drawer-case-to-case-0260ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 0.998171,
+      "transform": "matrix(1, 0, 0, 1, 0, -0.0252808)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 7228
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 0.955411,
+      "transform": "matrix(1, 0, 0, 1, 0, 3.52842)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 16,
+        "y": 108,
+        "width": 358,
+        "height": 136
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 16,
+        "y": 573,
+        "width": 358,
+        "height": 242
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 433,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "mobile-drawer-case-to-case-0520ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, -2.19099e-06)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 7228
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.196697)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 0.259258,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 16,
+        "y": 573,
+        "width": 358,
+        "height": 242
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 434,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "mobile-drawer-case-to-case-0900ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 7228
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 16,
+        "y": 573,
+        "width": 358,
+        "height": 242
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 434,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  },
+  {
+    "label": "mobile-drawer-case-to-case-1240ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "caseStage": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization. I initiated research to explor",
+      "classes": "case-study route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.44s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 7228
+      }
+    },
+    "selectedStage": {
+      "text": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Data Analyti",
+      "classes": "stage-area",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "heading": {
+      "text": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "classes": "case-title case-heading-motion is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.36s, 0.68s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136
+      }
+    },
+    "hero": {
+      "text": "",
+      "classes": "case-media case-hero-media is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0.4s, 0.6s",
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201
+      }
+    },
+    "intro": {
+      "text": "I initiated research to explore how internal dashboards could evolve from reporting metrics to helping teams act on them, resulting in two internal to",
+      "classes": "case-intro case-reveal-text is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "animationName": "none",
+      "animationDelay": "0s",
+      "transitionDuration": "0s",
+      "rect": {
+        "x": 16,
+        "y": 573,
+        "width": 358,
+        "height": 242
+      }
+    },
+    "selectedLabels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedThumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.19s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "selectedTitles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationName": "none",
+        "animationDelay": "0s",
+        "transitionDuration": "0.1s, 0.1s",
+        "rect": {
+          "x": 434,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ],
+    "pendingNav": []
+  }
+]

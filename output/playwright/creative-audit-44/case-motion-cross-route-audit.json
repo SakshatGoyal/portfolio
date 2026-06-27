@@ -1,0 +1,271 @@
+{
+  "results": [
+    {
+      "slug": "palo-alto-networks",
+      "hash": "#case/palo-alto-networks",
+      "title": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
+      "headingVisible": true,
+      "heroVisible": true,
+      "visibleTextChildren": 18,
+      "hiddenTextChildrenCount": 0,
+      "hiddenTextChildren": [],
+      "hiddenRevealParentCount": 0,
+      "firstMediaRadius": "6px",
+      "firstMediaClip": "inset(0px)",
+      "fontFamilies": [
+        "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "Arial"
+      ],
+      "monoFamilies": []
+    },
+    {
+      "slug": "docusign-global-data-analytics",
+      "hash": "#case/docusign-global-data-analytics",
+      "title": "Global Data Analytics is a team within DocuSign that builds data analytic tools for every division at the organization.",
+      "headingVisible": true,
+      "heroVisible": true,
+      "visibleTextChildren": 25,
+      "hiddenTextChildrenCount": 0,
+      "hiddenTextChildren": [],
+      "hiddenRevealParentCount": 0,
+      "firstMediaRadius": "6px",
+      "firstMediaClip": "inset(0px)",
+      "fontFamilies": [
+        "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "Arial"
+      ],
+      "monoFamilies": []
+    },
+    {
+      "slug": "harvard-business-school",
+      "hash": "#case/harvard-business-school",
+      "title": "HBS AI Institute is a global research center that provides research-driven insights on using AI to advance business and society.",
+      "headingVisible": true,
+      "heroVisible": true,
+      "visibleTextChildren": 24,
+      "hiddenTextChildrenCount": 0,
+      "hiddenTextChildren": [],
+      "hiddenRevealParentCount": 0,
+      "firstMediaRadius": "6px",
+      "firstMediaClip": "inset(0px)",
+      "fontFamilies": [
+        "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "Arial"
+      ],
+      "monoFamilies": []
+    },
+    {
+      "slug": "docusign-onereport",
+      "hash": "#case/docusign-onereport",
+      "title": "OneReport was designed as a way for DocuSign’s leadership to access  data on mobile.",
+      "headingVisible": true,
+      "heroVisible": true,
+      "visibleTextChildren": 21,
+      "hiddenTextChildrenCount": 0,
+      "hiddenTextChildren": [],
+      "hiddenRevealParentCount": 0,
+      "firstMediaRadius": "6px",
+      "firstMediaClip": "inset(0px)",
+      "fontFamilies": [
+        "Fustat, ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "Arial"
+      ],
+      "monoFamilies": []
+    }
+  ],
+  "hover": {
+    "radius": "12px",
+    "transitionDuration": "0.72s, 0.7s, 0.5s, 0.4s",
+    "transitionProperty": "clip-path, transform, opacity, border-radius"
+  },
+  "reduced": {
+    "heading": {
+      "selector": ".case-heading-motion",
+      "tag": "h1",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "radius": "0px",
+      "clipPath": "none"
+    },
+    "hero": {
+      "selector": ".case-hero-media",
+      "tag": "figure",
+      "opacity": "1",
+      "transform": "none",
+      "radius": "6px",
+      "clipPath": "none"
+    },
+    "textChildren": [
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "ol",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "ol",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      },
+      {
+        "selector": ".case-intro.case-reveal-text > *, .case-copy.case-reveal-text > *, .case-statement.case-reveal-text > *",
+        "tag": "p",
+        "opacity": "1",
+        "transform": "none",
+        "radius": "0px",
+        "clipPath": "none"
+      }
+    ],
+    "images": [
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      },
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      },
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      },
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      },
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      },
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      },
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      },
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      },
+      {
+        "selector": ".case-reveal-image",
+        "tag": "button",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "radius": "6px",
+        "clipPath": "inset(0px)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "label": "selected-620ms",
+    "labelMotion": {
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-meta-in",
+      "animationDuration": "0.3s"
+    },
+    "thumb": {
+      "opacity": 0.808869,
+      "transform": "matrix(0.996942, 0, 0, 0.996942, 0, 0)",
+      "y": 0,
+      "scaleX": 0.996942,
+      "clipPath": "none",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s"
+    },
+    "title": {
+      "opacity": 0.0155954,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s"
+    },
+    "year": {
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-meta-in",
+      "animationDuration": "0.3s"
+    }
+  },
+  {
+    "label": "selected-820ms",
+    "labelMotion": {
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-meta-in",
+      "animationDuration": "0.3s"
+    },
+    "thumb": {
+      "opacity": 0.979041,
+      "transform": "matrix(0.999665, 0, 0, 0.999665, 0, 0)",
+      "y": 0,
+      "scaleX": 0.999665,
+      "clipPath": "none",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s"
+    },
+    "title": {
+      "opacity": 0.662351,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s"
+    },
+    "year": {
+      "opacity": 0.547957,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-meta-in",
+      "animationDuration": "0.3s"
+    }
+  },
+  {
+    "label": "selected-1280ms",
+    "labelMotion": {
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-meta-in",
+      "animationDuration": "0.3s"
+    },
+    "thumb": {
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-image-in",
+      "animationDuration": "0.64s"
+    },
+    "title": {
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-title-in",
+      "animationDuration": "0.42s"
+    },
+    "year": {
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "clipPath": "none",
+      "animationName": "selected-work-meta-in",
+      "animationDuration": "0.3s"
+    }
+  }
+]

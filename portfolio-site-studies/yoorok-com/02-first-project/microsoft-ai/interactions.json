@@ -1,0 +1,170 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "",
+    "href": "https://microsoft.ai/",
+    "aria": "Home MAI link",
+    "rect": {
+      "x": 46.65625,
+      "y": 33.671875,
+      "width": 45,
+      "height": 57.546875
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "a",
+    "text": "Models",
+    "href": "https://microsoft.ai/models/",
+    "aria": "",
+    "rect": {
+      "x": 615.953125,
+      "y": 52.65625,
+      "width": 49.921875,
+      "height": 18
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "button",
+    "text": "",
+    "href": "",
+    "aria": "Models menu",
+    "rect": {
+      "x": 667.53125,
+      "y": 58.453125,
+      "width": 10,
+      "height": 8
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "a",
+    "text": "MAI-Thinking-1",
+    "href": "https://microsoft.ai/models/mai-thinking-1/",
+    "aria": "MAI-Thinking-1",
+    "rect": {
+      "x": 359.234375,
+      "y": 203.21875,
+      "width": 276.671875,
+      "height": 50
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  },
+  {
+    "index": 4,
+    "tag": "a",
+    "text": "MAI-Code-1-Flash",
+    "href": "https://microsoft.ai/models/mai-code-1-flash/",
+    "aria": "MAI-Code-1-Flash",
+    "rect": {
+      "x": 359.234375,
+      "y": 263.21875,
+      "width": 276.671875,
+      "height": 50
+    },
+    "screenshot": "screenshots/hover/hover-04.png"
+  },
+  {
+    "index": 5,
+    "tag": "a",
+    "text": "MAI-Image-2.5",
+    "href": "https://microsoft.ai/models/mai-image-2-5/",
+    "aria": "MAI-Image-2.5",
+    "rect": {
+      "x": 359.234375,
+      "y": 323.21875,
+      "width": 276.671875,
+      "height": 50
+    },
+    "screenshot": "screenshots/hover/hover-05.png"
+  },
+  {
+    "index": 6,
+    "tag": "a",
+    "text": "MAI-Transcribe-1.5",
+    "href": "https://microsoft.ai/models/mai-transcribe-1-5/",
+    "aria": "MAI-Transcribe-1.5",
+    "rect": {
+      "x": 359.234375,
+      "y": 383.21875,
+      "width": 276.671875,
+      "height": 50
+    },
+    "screenshot": "screenshots/hover/hover-06.png"
+  },
+  {
+    "index": 7,
+    "tag": "a",
+    "text": "All models",
+    "href": "https://microsoft.ai/models/",
+    "aria": "",
+    "rect": {
+      "x": 359.234375,
+      "y": 480.421875,
+      "width": 77.859375,
+      "height": 18
+    },
+    "screenshot": "screenshots/hover/hover-07.png"
+  },
+  {
+    "index": 8,
+    "tag": "a",
+    "text": "MAI-Thinking-1",
+    "href": "https://microsoft.ai/models/mai-thinking-1/",
+    "aria": "",
+    "rect": {
+      "x": 662.5625,
+      "y": 383.4375,
+      "width": 109,
+      "height": 13.328125
+    },
+    "screenshot": "screenshots/hover/hover-08.png"
+  },
+  {
+    "index": 9,
+    "tag": "a",
+    "text": "MAI-Code-1-Flash",
+    "href": "https://microsoft.ai/models/mai-code-1-flash/",
+    "aria": "",
+    "rect": {
+      "x": 662.5625,
+      "y": 383.4375,
+      "width": 124.5625,
+      "height": 13.328125
+    },
+    "screenshot": "screenshots/hover/hover-09.png"
+  },
+  {
+    "index": 10,
+    "tag": "a",
+    "text": "MAI-Image-2.5",
+    "href": "https://microsoft.ai/models/mai-image-2-5/",
+    "aria": "",
+    "rect": {
+      "x": 662.5625,
+      "y": 383.4375,
+      "width": 101.203125,
+      "height": 13.328125
+    },
+    "screenshot": "screenshots/hover/hover-10.png"
+  },
+  {
+    "index": 11,
+    "tag": "a",
+    "text": "MAI-Transcribe-1.5",
+    "href": "https://microsoft.ai/models/mai-transcribe-1-5/",
+    "aria": "",
+    "rect": {
+      "x": 662.5625,
+      "y": 383.4375,
+      "width": 140.125,
+      "height": 13.328125
+    },
+    "screenshot": "screenshots/hover/hover-11.png"
+  }
+]

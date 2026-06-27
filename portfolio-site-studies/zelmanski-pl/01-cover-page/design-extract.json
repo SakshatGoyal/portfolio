@@ -1,0 +1,2471 @@
+{
+  "title": "Tom (Zelmanski) is a designer & Tom is busy af - Tomasz Zelmański",
+  "url": "https://www.zelmanski.pl/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 1658,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(127, 128, 136)",
+    "rgb(17, 17, 17)",
+    "rgb(242, 242, 242)",
+    "rgb(25, 25, 26)",
+    "rgb(255, 255, 255)",
+    "rgb(245, 245, 245)",
+    "rgb(0, 0, 0) rgb(0, 0, 0) rgb(227, 227, 227)",
+    "rgb(232, 232, 232)",
+    "rgb(227, 227, 227)",
+    "rgb(227, 227, 227) rgb(0, 0, 0)",
+    "rgb(224, 229, 235) rgb(0, 0, 0) rgb(224, 229, 235) rgb(224, 229, 235)",
+    "rgb(132, 132, 137)",
+    "rgb(224, 229, 235) rgb(224, 229, 235) rgb(224, 229, 235) rgb(0, 0, 0)"
+  ],
+  "fonts": [
+    "\"Open Sans\", Arial, sans-serif",
+    "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "oracle, sans-serif",
+    "Helvetica, Arial, serif"
+  ],
+  "samples": [
+    {
+      "tag": "html",
+      "className": " ",
+      "text": "img:is([sizes=\"auto\" i], [sizes^=\"auto,\" i]) { contain-intrinsic-size: 3000px 1500px } Tom (Zelmanski) is a designer & T",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "body",
+      "className": "home page-template-default page page-id-925 is-frontend dynamic-mode mejs-semplice-ui",
+      "text": "We use cookiesWe use cookies and other tracking technologies to improve your browsing experience on our website, to show",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 30
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(127, 128, 136)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "termsfeed-com---reset termsfeed-com---nb termsfeed-com---palette-light termsfeed-com---nb-simple termsfeed-com---lang-en",
+      "text": "We use cookiesWe use cookies and other tracking technologies to improve your browsing experience on our website, to show",
+      "rect": {
+        "x": 1040,
+        "y": 823.5,
+        "width": 400,
+        "height": 176.5
+      },
+      "styles": {
+        "color": "rgb(17, 17, 17)",
+        "backgroundColor": "rgb(242, 242, 242)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "cc-nb-main-container",
+      "text": "We use cookiesWe use cookies and other tracking technologies to improve your browsing experience on our website, to show",
+      "rect": {
+        "x": 1040,
+        "y": 823.5,
+        "width": 400,
+        "height": 176.5
+      },
+      "styles": {
+        "color": "rgb(17, 17, 17)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "cc-nb-title-container",
+      "text": "We use cookies",
+      "rect": {
+        "x": 1056,
+        "y": 839.5,
+        "width": 368,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(17, 17, 17)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "cc-nb-title",
+      "text": "We use cookies",
+      "rect": {
+        "x": 1056,
+        "y": 839.5,
+        "width": 368,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "cc-nb-text-container",
+      "text": "We use cookies and other tracking technologies to improve your browsing experience on our website, to show you personali",
+      "rect": {
+        "x": 1056,
+        "y": 857.5,
+        "width": 368,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(17, 17, 17)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "cc-nb-text",
+      "text": "We use cookies and other tracking technologies to improve your browsing experience on our website, to show you personali",
+      "rect": {
+        "x": 1056,
+        "y": 857.5,
+        "width": 368,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 16px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "cc-nb-buttons-container",
+      "text": "I agreeI declineChange my preferences",
+      "rect": {
+        "x": 1056,
+        "y": 945.5,
+        "width": 368,
+        "height": 38.5
+      },
+      "styles": {
+        "color": "rgb(17, 17, 17)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "cc-nb-okagree",
+      "text": "I agree",
+      "rect": {
+        "x": 1056,
+        "y": 945.5,
+        "width": 69.359375,
+        "height": 34
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(25, 25, 26)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px 4.5px 4.5px 0px",
+        "padding": "8px 16px",
+        "borderRadius": "2px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "cc-nb-reject",
+      "text": "I decline",
+      "rect": {
+        "x": 1129.859375,
+        "y": 945.5,
+        "width": 76.703125,
+        "height": 34
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgb(242, 242, 242)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px 4.5px 4.5px 0px",
+        "padding": "8px 16px",
+        "borderRadius": "2px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "cc-nb-changep",
+      "text": "Change my preferences",
+      "rect": {
+        "x": 1211.0625,
+        "y": 945.5,
+        "width": 160.078125,
+        "height": 34
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgb(242, 242, 242)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px 4.5px 4.5px 0px",
+        "padding": "8px 16px",
+        "borderRadius": "2px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Update cookies preferences",
+      "rect": {
+        "x": 0,
+        "y": 5,
+        "width": 224.140625,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-container active-content ",
+      "text": "About Archive About Archive Tom is a designer& Tom is busy af rn. Tom is a designer& Tom is busy af rn. Tom is a designe",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "header",
+      "className": "nav_l1sduli6z semplice-navbar active-navbar sticky-nav use-headroom headroom headroom--top headroom--not-bottom",
+      "text": "About Archive",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 88
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "About Archive",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 88
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64.0001px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "navbar-inner menu-type-text",
+      "text": "About Archive",
+      "rect": {
+        "x": 64,
+        "y": 0,
+        "width": 1312,
+        "height": 88
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "logo navbar-left",
+      "text": "",
+      "rect": {
+        "x": 64,
+        "y": 0,
+        "width": 126,
+        "height": 88
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 64,
+        "y": 30,
+        "width": 126,
+        "height": 28
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "lineHeight": "22px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "nav",
+      "className": "standard navbar-right",
+      "text": "About Archive",
+      "rect": {
+        "x": 1132.96875,
+        "y": 0,
+        "width": 243.03125,
+        "height": 88
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "ul",
+      "className": "menu",
+      "text": "About Archive",
+      "rect": {
+        "x": 1132.96875,
+        "y": 0,
+        "width": 243.03125,
+        "height": 88
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "nav-about menu-item menu-item-type-post_type menu-item-object-page menu-item-730",
+      "text": "About",
+      "rect": {
+        "x": 1132.96875,
+        "y": 36,
+        "width": 90.3125,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "list-item",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "About",
+      "rect": {
+        "x": 1132.96875,
+        "y": 35,
+        "width": 90.3125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px 0px 0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "nav-archive menu-item menu-item-type-post_type menu-item-object-page menu-item-849",
+      "text": "Archive",
+      "rect": {
+        "x": 1223.28125,
+        "y": 36,
+        "width": 152.71875,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "list-item",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Archive",
+      "rect": {
+        "x": 1223.28125,
+        "y": 35,
+        "width": 152.71875,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 0px 16px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "transition-wrap",
+      "text": "Tom is a designer& Tom is busy af rn. Tom is a designer& Tom is busy af rn. Tom is a designer& Tom is busy af rn. Video ",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1658
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "sections",
+      "text": "Tom is a designer& Tom is busy af rn. Tom is a designer& Tom is busy af rn. Tom is a designer& Tom is busy af rn. Video ",
+      "rect": {
+        "x": 0,
+        "y": 88,
+        "width": 1440,
+        "height": 1570
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "88px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "Tom is a designer& Tom is busy af rn.",
+      "rect": {
+        "x": 0,
+        "y": 88,
+        "width": 1440,
+        "height": 188
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "20px 0px 0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "Tom is a designer& Tom is busy af rn.",
+      "rect": {
+        "x": 0,
+        "y": 108,
+        "width": 1440,
+        "height": 168
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64.0001px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Tom is a designer& Tom is busy af rn.",
+      "rect": {
+        "x": 48,
+        "y": 108,
+        "width": 1344,
+        "height": 168
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px -16px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "Tom is a designer& Tom is busy af rn.",
+      "rect": {
+        "x": 48,
+        "y": 108,
+        "width": 1344,
+        "height": 168
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Tom is a designer& Tom is busy af rn.",
+      "rect": {
+        "x": 64,
+        "y": 108,
+        "width": 1312,
+        "height": 168
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Tom is a designer& Tom is busy af rn.",
+      "rect": {
+        "x": 64,
+        "y": 108,
+        "width": 1312,
+        "height": 168
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "60px 40px 60px 0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Tom is a designer& Tom is busy af rn.",
+      "rect": {
+        "x": 64,
+        "y": 168,
+        "width": 1272,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Tom is a designer& Tom is busy af rn.",
+      "rect": {
+        "x": 64,
+        "y": 168,
+        "width": 1272,
+        "height": 48
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16.002px",
+        "fontWeight": "400",
+        "lineHeight": "23.994px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "Video Player If you are reading this, it is because your browser does not support the HTML5 video element. 00:1300:0000:",
+      "rect": {
+        "x": 0,
+        "y": 276,
+        "width": 1440,
+        "height": 778
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "40px 0px 0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "Video Player If you are reading this, it is because your browser does not support the HTML5 video element. 00:1300:0000:",
+      "rect": {
+        "x": 0,
+        "y": 316,
+        "width": 1440,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64.0001px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Video Player If you are reading this, it is because your browser does not support the HTML5 video element. 00:1300:0000:",
+      "rect": {
+        "x": 48,
+        "y": 316,
+        "width": 1344,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px -16px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column video-player-container",
+      "text": "Video Player If you are reading this, it is because your browser does not support the HTML5 video element. 00:1300:0000:",
+      "rect": {
+        "x": 48,
+        "y": 316,
+        "width": 1344,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "Video Player If you are reading this, it is because your browser does not support the HTML5 video element. 00:1300:0000:",
+      "rect": {
+        "x": 64,
+        "y": 316,
+        "width": 1312,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content video-player",
+      "text": "Video Player If you are reading this, it is because your browser does not support the HTML5 video element. 00:1300:0000:",
+      "rect": {
+        "x": 64,
+        "y": 316,
+        "width": 1312,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ce-video",
+      "text": "Video Player If you are reading this, it is because your browser does not support the HTML5 video element. 00:1300:0000:",
+      "rect": {
+        "x": 64,
+        "y": 316,
+        "width": 1312,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "mejs-container mejs-container-keyboard-inactive video mejs-video",
+      "text": "If you are reading this, it is because your browser does not support the HTML5 video element. 00:1300:0000:37Use Up/Down",
+      "rect": {
+        "x": 64,
+        "y": 316,
+        "width": 1312,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Helvetica, Arial, serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "mejs-mediaelement",
+      "text": "If you are reading this, it is because your browser does not support the HTML5 video element.",
+      "rect": {
+        "x": 64,
+        "y": 316,
+        "width": 1312,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Helvetica, Arial, serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "video is-content",
+      "text": "If you are reading this, it is because your browser does not support the HTML5 video element.",
+      "rect": {
+        "x": 64,
+        "y": 316,
+        "width": 1312,
+        "height": 738
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Helvetica, Arial, serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "2px",
+        "display": "inline",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 1054,
+        "width": 1440,
+        "height": 80
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 1054,
+        "width": 1440,
+        "height": 80
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64.0001px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "",
+      "rect": {
+        "x": 48,
+        "y": 1054,
+        "width": 1344,
+        "height": 80
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px -16px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "",
+      "rect": {
+        "x": 48,
+        "y": 1054,
+        "width": 1344,
+        "height": 80
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 64,
+        "y": 1054,
+        "width": 1312,
+        "height": 80
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "",
+      "rect": {
+        "x": 64,
+        "y": 1054,
+        "width": 1312,
+        "height": 80
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 80px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "↓ My old work is still available. Launch 2024 portfolio.",
+      "rect": {
+        "x": 0,
+        "y": 1134,
+        "width": 1440,
+        "height": 130
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 0px 40px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "↓ My old work is still available. Launch 2024 portfolio.",
+      "rect": {
+        "x": 0,
+        "y": 1134,
+        "width": 1440,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64.0001px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "↓ My old work is still available. Launch 2024 portfolio.",
+      "rect": {
+        "x": 48,
+        "y": 1134,
+        "width": 1344,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px -16px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "↓ My old work is still available. Launch 2024 portfolio.",
+      "rect": {
+        "x": 48,
+        "y": 1134,
+        "width": 896,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "↓ My old work is still available. Launch 2024 portfolio.",
+      "rect": {
+        "x": 65,
+        "y": 1135,
+        "width": 862,
+        "height": 88
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "↓ My old work is still available.",
+      "rect": {
+        "x": 65,
+        "y": 1135,
+        "width": 862,
+        "height": 44
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "24px 24px 0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "↓ My old work is still available.",
+      "rect": {
+        "x": 89,
+        "y": 1159,
+        "width": 814,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "↓ My old work is still available.",
+      "rect": {
+        "x": 89,
+        "y": 1159,
+        "width": 814,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "19.998px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "Launch 2024 portfolio.",
+      "rect": {
+        "x": 65,
+        "y": 1179,
+        "width": 862,
+        "height": 44
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 24px 24px 38px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "Launch 2024 portfolio.",
+      "rect": {
+        "x": 103,
+        "y": 1179,
+        "width": 800,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Launch 2024 portfolio.",
+      "rect": {
+        "x": 103,
+        "y": 1179,
+        "width": 800,
+        "height": 20
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "19.998px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Launch 2024 portfolio.",
+      "rect": {
+        "x": 103,
+        "y": 1180,
+        "width": 158.34375,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "19.998px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column folio-intro-text",
+      "text": "",
+      "rect": {
+        "x": 944,
+        "y": 1134,
+        "width": 448,
+        "height": 90
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 960,
+        "y": 1135,
+        "width": 416,
+        "height": 88
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "",
+      "rect": {
+        "x": 960,
+        "y": 1135,
+        "width": 416,
+        "height": 53.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "16px 0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 960,
+        "y": 1151,
+        "width": 416,
+        "height": 21.328125
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 960,
+        "y": 1151,
+        "width": 416,
+        "height": 21.328125
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "21.3333px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "content-block",
+      "text": "© Tomasz Zelmański'24 → tomek@zelmanski.pl → +48 698632226",
+      "rect": {
+        "x": 0,
+        "y": 1264,
+        "width": 1440,
+        "height": 394
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "160px 0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container",
+      "text": "© Tomasz Zelmański'24 → tomek@zelmanski.pl → +48 698632226",
+      "rect": {
+        "x": 0,
+        "y": 1424,
+        "width": 1440,
+        "height": 74
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64.0001px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "© Tomasz Zelmański'24 → tomek@zelmanski.pl → +48 698632226",
+      "rect": {
+        "x": 48,
+        "y": 1424,
+        "width": 1344,
+        "height": 74
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px -16px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column footer-left",
+      "text": "",
+      "rect": {
+        "x": 48,
+        "y": 1424,
+        "width": 112,
+        "height": 74
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px",
+        "borderRadius": "2px 0px 0px 2px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 65,
+        "y": 1425,
+        "width": 79,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "",
+      "rect": {
+        "x": 65,
+        "y": 1425,
+        "width": 79,
+        "height": 21.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 65,
+        "y": 1425,
+        "width": 79,
+        "height": 21.328125
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 65,
+        "y": 1425,
+        "width": 79,
+        "height": 21.328125
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "21.3333px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column",
+      "text": "© Tomasz Zelmański'24 → tomek@zelmanski.pl → +48 698632226",
+      "rect": {
+        "x": 160,
+        "y": 1424,
+        "width": 1008,
+        "height": 74
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "© Tomasz Zelmański'24 → tomek@zelmanski.pl → +48 698632226",
+      "rect": {
+        "x": 177,
+        "y": 1425,
+        "width": 974,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "© Tomasz Zelmański'24 → tomek@zelmanski.pl → +48 698632226",
+      "rect": {
+        "x": 177,
+        "y": 1425,
+        "width": 974,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "24px 0px 24px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "is-content",
+      "text": "© Tomasz Zelmański'24 → tomek@zelmanski.pl → +48 698632226",
+      "rect": {
+        "x": 185,
+        "y": 1449,
+        "width": 966,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "© Tomasz Zelmański'24 → tomek@zelmanski.pl → +48 698632226",
+      "rect": {
+        "x": 185,
+        "y": 1449,
+        "width": 966,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "23.994px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "tomek@zelmanski.pl",
+      "rect": {
+        "x": 379.1875,
+        "y": 1452,
+        "width": 152.296875,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(132, 132, 137)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "oracle, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "23.994px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column footer-right",
+      "text": "",
+      "rect": {
+        "x": 1168,
+        "y": 1424,
+        "width": 224,
+        "height": 74
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 16px",
+        "borderRadius": "0px 0px 2px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "content-wrapper",
+      "text": "",
+      "rect": {
+        "x": 1184,
+        "y": 1425,
+        "width": 191,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "column-content",
+      "text": "",
+      "rect": {
+        "x": 1184,
+        "y": 1425,
+        "width": 191,
+        "height": 72
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "30.0001px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "24px 0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ce-image",
+      "text": "",
+      "rect": {
+        "x": 1184,
+        "y": 1449,
+        "width": 191,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "is-content",
+      "text": "",
+      "rect": {
+        "x": 1220.5,
+        "y": 1449,
+        "width": 118,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(25, 25, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Arial, sans-serif",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "relative"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://www.zelmanski.pl/#",
+      "text": "Update cookies preferences",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 0,
+        "y": 5,
+        "width": 224.140625,
+        "height": 20
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://www.zelmanski.pl/",
+      "text": "",
+      "aria": "",
+      "title": "Tomasz Zelmański",
+      "visible": true,
+      "rect": {
+        "x": 64,
+        "y": 30,
+        "width": 126,
+        "height": 28
+      }
+    },
+    {
+      "index": 2,
+      "href": "https://www.zelmanski.pl/about",
+      "text": "About",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1132.96875,
+        "y": 35,
+        "width": 90.3125,
+        "height": 18
+      }
+    },
+    {
+      "index": 3,
+      "href": "https://www.zelmanski.pl/archive",
+      "text": "Archive",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1223.28125,
+        "y": 35,
+        "width": 152.71875,
+        "height": 18
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://www.zelmanski.pl/about",
+      "text": "About",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://www.zelmanski.pl/archive",
+      "text": "Archive",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 6,
+      "href": "javascript:void(0);",
+      "text": "Use Up/Down Arrow keys to increase or decrease volume.",
+      "aria": "Volume Slider",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 7,
+      "href": "https://www.zelmanski.pl/portfolio",
+      "text": "Launch 2024 portfolio.",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 103,
+        "y": 1180,
+        "width": 158.34375,
+        "height": 18
+      }
+    },
+    {
+      "index": 8,
+      "href": "mailto:tomek@zelmanski.pl",
+      "text": "tomek@zelmanski.pl",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 379.1875,
+        "y": 1452,
+        "width": 152.296875,
+        "height": 18
+      }
+    },
+    {
+      "index": 9,
+      "href": "mailto:tomek@zelmanski.pl",
+      "text": "tomek@zelmanski.pl",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "button",
+      "text": "I agree",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 1056,
+        "y": 945.5,
+        "width": 69.359375,
+        "height": 34
+      }
+    },
+    {
+      "index": 1,
+      "tag": "button",
+      "text": "I decline",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 1129.859375,
+        "y": 945.5,
+        "width": 76.703125,
+        "height": 34
+      }
+    },
+    {
+      "index": 2,
+      "tag": "button",
+      "text": "Change my preferences",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 1211.0625,
+        "y": 945.5,
+        "width": 160.078125,
+        "height": 34
+      }
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "Update cookies preferences",
+      "href": "https://www.zelmanski.pl/#",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 5,
+        "width": 224.140625,
+        "height": 20
+      }
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.zelmanski.pl/",
+      "aria": "",
+      "rect": {
+        "x": 64,
+        "y": 30,
+        "width": 126,
+        "height": 28
+      }
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "About",
+      "href": "https://www.zelmanski.pl/about",
+      "aria": "",
+      "rect": {
+        "x": 1132.96875,
+        "y": 35,
+        "width": 90.3125,
+        "height": 18
+      }
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "Archive",
+      "href": "https://www.zelmanski.pl/archive",
+      "aria": "",
+      "rect": {
+        "x": 1223.28125,
+        "y": 35,
+        "width": 152.71875,
+        "height": 18
+      }
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "Launch 2024 portfolio.",
+      "href": "https://www.zelmanski.pl/portfolio",
+      "aria": "",
+      "rect": {
+        "x": 103,
+        "y": 1180,
+        "width": 158.34375,
+        "height": 18
+      }
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "tomek@zelmanski.pl",
+      "href": "mailto:tomek@zelmanski.pl",
+      "aria": "",
+      "rect": {
+        "x": 379.1875,
+        "y": 1452,
+        "width": 152.296875,
+        "height": 18
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

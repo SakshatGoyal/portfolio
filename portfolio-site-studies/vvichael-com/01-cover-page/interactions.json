@@ -1,0 +1,142 @@
+[
+  {
+    "index": 0,
+    "tag": "p",
+    "text": "(BIO)",
+    "href": "",
+    "aria": "Back to landing",
+    "rect": {
+      "x": 12,
+      "y": 11,
+      "width": 24.71875,
+      "height": 11
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "button",
+    "text": "OVERVIEW",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 457.46875,
+      "y": 12,
+      "width": 56.515625,
+      "height": 11
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "button",
+    "text": "INDEX",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 519.53125,
+      "y": 12,
+      "width": 32.015625,
+      "height": 11
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "button",
+    "text": "GRID",
+    "href": "",
+    "aria": "",
+    "rect": {
+      "x": 557.09375,
+      "y": 12,
+      "width": 25.515625,
+      "height": 11
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  },
+  {
+    "index": 4,
+    "tag": "p",
+    "text": "✹ NY 3:38:42 PM",
+    "href": "",
+    "aria": "Toggle dark mode",
+    "rect": {
+      "x": 814.34375,
+      "y": 12,
+      "width": 82.65625,
+      "height": 11
+    },
+    "screenshot": "screenshots/hover/hover-04.png"
+  },
+  {
+    "index": 5,
+    "tag": "a",
+    "text": "WORK",
+    "href": "https://www.vvichael.com/",
+    "aria": "",
+    "rect": {
+      "x": 1317.421875,
+      "y": 10,
+      "width": 32.4375,
+      "height": 14
+    },
+    "screenshot": "screenshots/hover/hover-05.png"
+  },
+  {
+    "index": 6,
+    "tag": "a",
+    "text": "INFO",
+    "href": "https://www.vvichael.com/info",
+    "aria": "",
+    "rect": {
+      "x": 1354.890625,
+      "y": 10,
+      "width": 24.828125,
+      "height": 14
+    },
+    "screenshot": "screenshots/hover/hover-06.png"
+  },
+  {
+    "index": 7,
+    "tag": "a",
+    "text": "PHOTOS",
+    "href": "https://www.vvichael.com/gallery",
+    "aria": "",
+    "rect": {
+      "x": 1384.75,
+      "y": 10,
+      "width": 43.25,
+      "height": 14
+    },
+    "screenshot": "screenshots/hover/hover-07.png"
+  },
+  {
+    "index": 8,
+    "tag": "a",
+    "text": "Instrument",
+    "href": "https://www.instrument.com/",
+    "aria": "",
+    "rect": {
+      "x": 12,
+      "y": 104.59375,
+      "width": 184.8125,
+      "height": 54
+    },
+    "screenshot": "screenshots/hover/hover-08.png"
+  },
+  {
+    "index": 9,
+    "tag": "p",
+    "text": "(SELECTED WORKS)",
+    "href": "",
+    "aria": "Jump to selected works",
+    "rect": {
+      "x": 12,
+      "y": 392,
+      "width": 103.015625,
+      "height": 11
+    },
+    "screenshot": "screenshots/hover/hover-09.png"
+  }
+]

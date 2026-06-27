@@ -1,0 +1,2284 @@
+[
+  {
+    "label": "desktop-selected-settled",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "",
+        "hidden": true,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "",
+        "hidden": true,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.32s, 0.32s, 0.32s, 0.22s, 0.32s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 1056,
+        "y": 633,
+        "width": 368,
+        "height": 203
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 1056,
+        "y": 838,
+        "width": 340,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 1040,
+        "y": 56,
+        "width": 400,
+        "height": 844
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-selected-to-about-0000ms",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about-entering",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "",
+        "hidden": true,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "",
+        "hidden": true,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 1056,
+        "y": 633,
+        "width": 368,
+        "height": 203
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 1056,
+        "y": 838,
+        "width": 340,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 1040,
+        "y": 56,
+        "width": 400,
+        "height": 844
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-selected-to-about-0080ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 844
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 24,
+        "y": 56,
+        "width": 992,
+        "height": 261
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 278,
+        "y": 158,
+        "width": 484,
+        "height": 159
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 278,
+          "y": 158,
+          "width": 484,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 278,
+          "y": 236,
+          "width": 484,
+          "height": 81
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 1056,
+        "y": 633,
+        "width": 368,
+        "height": 203
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 1056,
+        "y": 838,
+        "width": 340,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 1040,
+        "y": 56,
+        "width": 400,
+        "height": 844
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 1056,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-selected-to-about-0160ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 844
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 24,
+        "y": 56,
+        "width": 992,
+        "height": 261
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 278,
+        "y": 158,
+        "width": 484,
+        "height": 159
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 278,
+          "y": 158,
+          "width": 484,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 278,
+          "y": 236,
+          "width": 484,
+          "height": 81
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 1056,
+        "y": 633,
+        "width": 368,
+        "height": 203
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 1056,
+        "y": 838,
+        "width": 340,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 1040,
+        "y": 56,
+        "width": 400,
+        "height": 844
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 1056,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-selected-to-about-0260ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 844
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 24,
+        "y": 56,
+        "width": 992,
+        "height": 261
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 278,
+        "y": 158,
+        "width": 484,
+        "height": 159
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 278,
+          "y": 158,
+          "width": 484,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 278,
+          "y": 236,
+          "width": 484,
+          "height": 81
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 0.0161357,
+      "transform": "matrix(1, 0, 0, 1, 0, 3.73012)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 1056,
+        "y": 731,
+        "width": 368,
+        "height": 108
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 1056,
+        "y": 838,
+        "width": 340,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 1040,
+        "y": 56,
+        "width": 400,
+        "height": 844
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 1056,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-selected-to-about-0420ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 844
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 24,
+        "y": 56,
+        "width": 992,
+        "height": 261
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 278,
+        "y": 158,
+        "width": 484,
+        "height": 159
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 278,
+          "y": 158,
+          "width": 484,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 278,
+          "y": 236,
+          "width": 484,
+          "height": 81
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 1056,
+        "y": 844,
+        "width": 368,
+        "height": 0
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 1056,
+        "y": 838,
+        "width": 340,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 1040,
+        "y": 56,
+        "width": 400,
+        "height": 844
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 1056,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-selected-to-about-0700ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 844
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 24,
+        "y": 56,
+        "width": 992,
+        "height": 261
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 278,
+        "y": 158,
+        "width": 484,
+        "height": 159
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 278,
+          "y": 158,
+          "width": 484,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 278,
+          "y": 236,
+          "width": 484,
+          "height": 81
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 1056,
+        "y": 844,
+        "width": 368,
+        "height": 0
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 1056,
+        "y": 838,
+        "width": 340,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 1040,
+        "y": 56,
+        "width": 400,
+        "height": 844
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 1056,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-selected-to-about-1000ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 1040,
+        "height": 844
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 24,
+        "y": 56,
+        "width": 992,
+        "height": 261
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 278,
+        "y": 158,
+        "width": 484,
+        "height": 159
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 278,
+          "y": 158,
+          "width": 484,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 278,
+          "y": 236,
+          "width": 484,
+          "height": 81
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 1056,
+        "y": 844,
+        "width": 368,
+        "height": 0
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.42s, 0.52s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 1056,
+        "y": 838,
+        "width": 340,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 1040,
+        "y": 56,
+        "width": 400,
+        "height": 844
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 1056,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-before-about",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready nav-open",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "",
+        "hidden": true,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "",
+        "hidden": true,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 0.995922,
+      "transform": "matrix(1, 0, 0, 1, 0.31469, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.1s",
+      "rect": {
+        "x": 16,
+        "y": 593,
+        "width": 358,
+        "height": 187
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 0.986769,
+      "transform": "matrix(1, 0, 0, 1, 0.597893, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.13s",
+      "rect": {
+        "x": 17,
+        "y": 782,
+        "width": 358,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 16,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-to-about-0000ms",
+    "hash": "#selected-work",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about-entering",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": true,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "",
+        "hidden": true,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "",
+        "hidden": true,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0.000570145, 0)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 16,
+        "y": 732,
+        "width": 358,
+        "height": 48
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0.00610304, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 16,
+        "y": 782,
+        "width": 358,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 16,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-to-about-0120ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 186
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 186
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 16,
+          "y": 182,
+          "width": 358,
+          "height": 108
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0.000570145, 0)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 164,
+        "y": 732,
+        "width": 358,
+        "height": 48
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0.00610304, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 164,
+        "y": 782,
+        "width": 358,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 148.418, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 148,
+        "y": 56,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 164,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-to-about-0260ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 186
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 186
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 16,
+          "y": 182,
+          "width": 358,
+          "height": 108
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 0.1217,
+      "transform": "matrix(1, 0, 0, 1, 0.000371393, 2.7888)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 406,
+        "y": 752,
+        "width": 358,
+        "height": 31
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 0.273829,
+      "transform": "matrix(1, 0, 0, 1, 7.97441, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 414,
+        "y": 782,
+        "width": 358,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 389.988, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 390,
+        "y": 56,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 417,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-to-about-0520ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 186
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 186
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 16,
+          "y": 182,
+          "width": 358,
+          "height": 108
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 406,
+        "y": 788,
+        "width": 358,
+        "height": 0
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 11.997, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 418,
+        "y": 782,
+        "width": 358,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 390, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 390,
+        "y": 56,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 418,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-to-about-0900ms",
+    "hash": "#about",
+    "scrollY": 0,
+    "bodyClasses": "shell-ready route-about",
+    "aboutStage": {
+      "selector": ".about-stage",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-stage route-view-enter is-visible",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.36s, 0.44s",
+      "transitionDelay": "0s, 0s",
+      "rect": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "aboutInner": {
+      "selector": ".about-inner",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-inner",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 186
+      }
+    },
+    "aboutCopy": {
+      "selector": ".about-copy",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "about-copy",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "none",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 186
+      }
+    },
+    "aboutParagraphs": [
+      {
+        "selector": ".about-copy p",
+        "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0s",
+        "rect": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 54
+        }
+      },
+      {
+        "selector": ".about-copy p",
+        "text": "Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.",
+        "classes": "about-motion-item is-visible",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.62s, 0.42s",
+        "transitionDelay": "0.11s",
+        "rect": {
+          "x": 16,
+          "y": 182,
+          "width": 358,
+          "height": 108
+        }
+      }
+    ],
+    "sideBio": {
+      "selector": ".bio-card",
+      "text": "I’m a 0 to 1 Product Designer living in the San Francisco Bay Area. Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School",
+      "classes": "bio-card",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transitionProperty": "flex-basis, max-height, padding, opacity, transform",
+      "transitionDuration": "0.18s, 0.18s, 0.18s, 0.1s, 0.18s",
+      "transitionDelay": "0.18s",
+      "rect": {
+        "x": 406,
+        "y": 788,
+        "width": 358,
+        "height": 0
+      }
+    },
+    "contactLinks": {
+      "selector": ".contact-links",
+      "text": "LinkedIn Resume Email Phone",
+      "classes": "contact-links",
+      "hidden": false,
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 12, 0)",
+      "transitionProperty": "opacity, transform",
+      "transitionDuration": "0.26s, 0.36s",
+      "transitionDelay": "0.21s",
+      "rect": {
+        "x": 418,
+        "y": 782,
+        "width": 358,
+        "height": 38
+      }
+    },
+    "sidePanel": {
+      "selector": ".side-panel",
+      "text": "About me Selected Work 01 Palo Alto Networks 02 DocuSign - Global Data Analytics 03 Harvard Business School 04 DocuSign - OneReport I’m a 0 to 1 Product Designe",
+      "classes": "side-panel",
+      "hidden": false,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 390, 0)",
+      "transitionProperty": "transform",
+      "transitionDuration": "0.26s",
+      "transitionDelay": "0s",
+      "rect": {
+        "x": 390,
+        "y": 56,
+        "width": 390,
+        "height": 788
+      }
+    },
+    "activeNav": [
+      {
+        "selector": ".nav-item.is-active",
+        "text": "About me",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "color, border-radius",
+        "transitionDuration": "0.1s, 0.1s",
+        "transitionDelay": "0s, 0.075s",
+        "rect": {
+          "x": 418,
+          "y": 80,
+          "width": 103,
+          "height": 38
+        }
+      }
+    ]
+  }
+]

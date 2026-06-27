@@ -1,0 +1,114 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "J–BM",
+    "href": "https://j-bm.dk/",
+    "aria": "",
+    "rect": {
+      "x": 23.984375,
+      "y": 17.5,
+      "width": 40.40625,
+      "height": 16
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "a",
+    "text": "Archive",
+    "href": "https://j-bm.dk/archive",
+    "aria": "",
+    "rect": {
+      "x": 1331.25,
+      "y": 13.5,
+      "width": 56.953125,
+      "height": 21
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "a",
+    "text": "Info",
+    "href": "https://j-bm.dk/info",
+    "aria": "",
+    "rect": {
+      "x": 1388.203125,
+      "y": 13.5,
+      "width": 27.8125,
+      "height": 21
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "a",
+    "text": "Work",
+    "href": "https://j-bm.dk/",
+    "aria": "",
+    "rect": {
+      "x": 1292.640625,
+      "y": 13.5,
+      "width": 38.609375,
+      "height": 21
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  },
+  {
+    "index": 4,
+    "tag": "a",
+    "text": "Wanna know more?",
+    "href": "https://j-bm.dk/info",
+    "aria": "",
+    "rect": {
+      "x": 870.796875,
+      "y": 224,
+      "width": 388.3125,
+      "height": 52
+    },
+    "screenshot": "screenshots/hover/hover-04.png"
+  },
+  {
+    "index": 5,
+    "tag": "a",
+    "text": "Justin Scott Interiors Brand Development, Digital Design",
+    "href": "https://j-bm.dk/work/justin-scott-interiors",
+    "aria": "",
+    "rect": {
+      "x": 23.984375,
+      "y": 300,
+      "width": 336,
+      "height": 225.875
+    },
+    "screenshot": "screenshots/hover/hover-05.png"
+  },
+  {
+    "index": 6,
+    "tag": "a",
+    "text": "Justin Scott InteriorsBrand Development, Digital Design",
+    "href": "https://j-bm.dk/work/justin-scott-interiors",
+    "aria": "",
+    "rect": {
+      "x": 23.984375,
+      "y": 525.875,
+      "width": 336,
+      "height": 34
+    },
+    "screenshot": "screenshots/hover/hover-06.png"
+  },
+  {
+    "index": 7,
+    "tag": "a",
+    "text": "Connevo Brand Identity, Digital Design",
+    "href": "https://j-bm.dk/work/connevo",
+    "aria": "",
+    "rect": {
+      "x": 375.953125,
+      "y": 300,
+      "width": 1040.015625,
+      "height": 699.296875
+    },
+    "screenshot": "screenshots/hover/hover-07.png"
+  }
+]

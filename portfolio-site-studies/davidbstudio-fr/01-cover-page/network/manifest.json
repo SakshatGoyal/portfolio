@@ -1,0 +1,1173 @@
+[
+  {
+    "url": "https://davidbstudio.fr/",
+    "status": 200,
+    "type": "document",
+    "method": "GET",
+    "headers": {
+      "accept-ranges": "none",
+      "content-encoding": "gzip",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "link": "<https://davidbstudio.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://davidbstudio.fr/wp-json/wp/v2/pages/5>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://davidbstudio.fr/>; rel=shortlink",
+      "server": "Apache",
+      "vary": "Accept-Encoding",
+      "x-powered-by": "PHP/8.3"
+    },
+    "file": "files/0001-cdde5911f98deeea.html",
+    "bytes": 267340
+  },
+  {
+    "url": "blob:https://davidbstudio.fr/be24ccbf-cb69-4f64-bda9-1ca0baa64ece",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "content-type": "text/javascript",
+      "content-length": "1185"
+    },
+    "file": "files/0002-a6909905f67e92e7.js",
+    "error": "response.body: Target page, context or browser has been closed"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "content-encoding": "gzip",
+      "x-content-type-options": "nosniff",
+      "expires": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "content-type": "text/css; charset=utf-8",
+      "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+      "last-modified": "Fri, 19 Jun 2026 18:16:18 GMT",
+      "x-frame-options": "SAMEORIGIN",
+      "strict-transport-security": "max-age=31536000",
+      "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+      "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+      "timing-allow-origin": "*",
+      "cross-origin-opener-policy": "same-origin-allow-popups",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-origin": "*",
+      "x-xss-protection": "0",
+      "server": "ESF"
+    },
+    "file": "files/0003-9af0d6aed960cdf1.css",
+    "bytes": 6273
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/themes/semplice7/style.css?ver=7.2.2",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "553",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "content-type": "text/css",
+      "last-modified": "Wed, 06 May 2026 14:43:33 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0004-d11d49112bd290b4.css",
+    "bytes": 1116
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2025/01/logopastillas.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "5094",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Tue, 21 Jan 2025 21:18:52 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0005-86bc439a08af3181.svg",
+    "bytes": 5094
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2021/11/burger-open.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1109",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Thu, 04 Nov 2021 16:01:50 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0006-2873b040de89c61e.svg",
+    "bytes": 1109
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-includes/css/dist/block-library/style.min.css?ver=6.7.5",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "none",
+      "content-length": "15177",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "content-type": "text/css",
+      "last-modified": "Fri, 29 Nov 2024 09:00:47 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0007-c5dbfb63eff39667.css",
+    "bytes": 114706
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "4872",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Sat, 27 Jan 2024 09:20:00 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0008-3395e311962e9d3e.js",
+    "bytes": 13577
+  },
+  {
+    "url": "https://use.typekit.net/nql4zzu.css",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains;",
+      "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+      "timing-allow-origin": "*",
+      "content-encoding": "gzip",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-origin": "*",
+      "content-length": "588",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "akamai-grn": "0.94a33017.1781897153.b98df27",
+      "content-type": "text/css;charset=utf-8",
+      "vary": "Accept-Encoding",
+      "server": "nginx"
+    },
+    "file": "files/0009-0b3087ea90ebc815.css",
+    "bytes": 1222
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/themes/semplice7/assets/css/frontend.css?ver=7.2.2",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "33926",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "content-type": "text/css",
+      "last-modified": "Wed, 06 May 2026 14:43:32 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0010-2cff3c260996a019.css",
+    "bytes": 228128
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "30368",
+      "date": "Fri, 19 Jun 2026 19:25:53 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Sat, 27 Jan 2024 09:20:00 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0011-bfca1d87a461fff5.js",
+    "bytes": 87553
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2025/01/insta.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1798",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Mon, 20 Jan 2025 17:19:33 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0012-99595e675fb58b43.svg",
+    "bytes": 1798
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2024/02/rebond_Plan-de-travail-1.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:53 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1241",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Thu, 01 Feb 2024 09:03:24 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0013-9dca43cafaa3470f.svg",
+    "bytes": 1241
+  },
+  {
+    "url": "https://p.typekit.net/p.css?s=1&k=nql4zzu&ht=tk&f=38192&a=2739812&app=typekit&e=css",
+    "status": 200,
+    "type": "stylesheet",
+    "method": "GET",
+    "headers": {
+      "cache-control": "public, max-age=604800",
+      "etag": "\"686625db-5\"",
+      "cross-origin-resource-policy": "cross-origin",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "5",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "text/css",
+      "last-modified": "Thu, 03 Jul 2025 06:40:27 GMT",
+      "server": "nginx"
+    },
+    "file": "files/0014-fd11dcfc7f4b0974.css",
+    "bytes": 5
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2025/09/WatchMaker-thumb.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "671980",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 10 Sep 2025 13:46:08 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0015-c72cd8e7e8bcf8c9.jpg",
+    "bytes": 671980
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2025/01/MOKO-Thumb.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1307262",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Fri, 31 Jan 2025 18:11:26 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0016-d92bf819ada0043e.png",
+    "bytes": 1307262
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/themes/semplice7/assets/js/shared.scripts.js?ver=7.2.2",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "none",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Wed, 06 May 2026 14:43:33 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0017-ee25d7a75864d471.js",
+    "bytes": 699435
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.7.5",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "540",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Sat, 27 Jan 2024 09:20:00 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0018-1722cd7e401446e2.js",
+    "bytes": 1191
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2025/09/noschool-thumb.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "2139552",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Tue, 09 Sep 2025 16:09:26 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0019-881501d9efa27e4d.png",
+    "bytes": 2139552
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/agstudio-livre.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "838294",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Sun, 08 Jan 2023 19:37:28 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0020-b47b1d25201d0e6e.png",
+    "bytes": 838294
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/themes/semplice7/assets/js/frontend.scripts.js?ver=7.2.2",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "none",
+      "content-length": "18595",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Wed, 06 May 2026 14:43:33 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0021-63bd58c493dddbb1.js",
+    "bytes": 51849
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/themes/semplice7/assets/js/frontend.js?ver=7.2.2",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "none",
+      "content-length": "26881",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Wed, 06 May 2026 14:43:33 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0022-c4eb1f99c3c450bf.js",
+    "bytes": 96484
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2024/01/PE-6.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1587354",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Mon, 08 Jan 2024 19:32:57 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0023-584138898a851620.jpg",
+    "bytes": 1587354
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17",
+    "status": 200,
+    "type": "script",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "content-encoding": "gzip",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "none",
+      "content-length": "38789",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "application/javascript",
+      "last-modified": "Sat, 27 Jan 2024 09:20:00 GMT",
+      "server": "Apache",
+      "vary": "Accept-Encoding"
+    },
+    "file": "files/0024-e12bb010fa16bb69.js",
+    "bytes": 158005
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/11/vignetteWTII.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "355991",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 29 Nov 2023 22:02:19 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0025-0d82d51d231ea942.jpg",
+    "bytes": 355991
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/10/Chaire-Thumb.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "405370",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Sun, 01 Oct 2023 20:07:01 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0026-8aa046f8c7e33caf.jpg",
+    "bytes": 405370
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/Dorsay-thumb@2x.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1136183",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Thu, 19 Jan 2023 21:33:45 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0027-2969ef6187c998d0.png",
+    "bytes": 1136183
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/faces_Plan-de-travail-1.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "5434",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Thu, 12 Jan 2023 16:58:59 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0028-4cc94ecc8037c83c.svg",
+    "bytes": 5434
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/cover.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "806261",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Wed, 11 Jan 2023 21:09:34 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0029-9efee089a9938b88.png",
+    "bytes": 806261
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/affrouen-copie.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "424665",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:09:23 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0030-a7ef5c03a856a7a7.jpg",
+    "bytes": 424665
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/PE-1.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "726313",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:09:33 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0031-bb2983d09339433f.jpg",
+    "bytes": 726313
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/Journal-copie.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1099294",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:09:40 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0032-12593225a00bc68b.jpg",
+    "bytes": 1099294
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/10/enseigne-rect-lumineuse-neon.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "455176",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Sun, 15 Oct 2023 14:56:05 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0033-e0ecf6573be4fba7.jpg",
+    "bytes": 455176
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/Paper-Bag-Mockups-copie-scaled.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "234081",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:09:40 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0034-6022ba8bfc8fac2b.jpg",
+    "bytes": 234081
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/12/COVERlarge02-scaled.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1028002",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Fri, 29 Dec 2023 21:21:27 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0035-f42a72848301b770.jpg",
+    "bytes": 1028002
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2024/11/CVLOMA-.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "402442",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Thu, 28 Nov 2024 22:35:38 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0036-263297450438c096.jpg",
+    "bytes": 402442
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/CF1A9DBC-C6C4-4A97-AC46-D1F5513CA52A.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "319244",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:40:59 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0037-9569ef9778f71cdc.jpg",
+    "bytes": 319244
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/Menu-project-copie.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1136045",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:09:41 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0038-893a871d17168e0b.jpg",
+    "bytes": 1136045
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/A2.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "124454",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:52:44 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0039-201a1b4284bb7401.jpg",
+    "bytes": 124454
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/spaceposterhd.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1077399",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:45:35 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0040-339e1c4b423fb54e.jpg",
+    "bytes": 1077399
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/covers.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "431039",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Thu, 19 Jan 2023 21:02:15 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0041-a43a0daa64beb012.jpg",
+    "bytes": 431039
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/fragile.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-225754/225755",
+      "expires": "Fri, 19 Jun 2026 20:25:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "225755",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Thu, 19 Jan 2023 21:00:32 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0042-9054d1aa8981c2f5.mp4",
+    "bytes": 225755
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/1024cubes.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-185915/185916",
+      "expires": "Fri, 19 Jun 2026 20:25:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "185916",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Thu, 19 Jan 2023 21:00:07 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0043-6e79a99fa79b8896.mp4",
+    "bytes": 185916
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/10/tamis-thumb.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "3130763",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Mon, 03 Oct 2022 19:48:10 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0044-526ab175f2ae7d2b.png",
+    "bytes": 3130763
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/Home-copie-scaled.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "701567",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:09:45 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0045-05f06b3c75b5b4a0.jpg",
+    "bytes": 701567
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/10/YUMI-Thumb.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "2077554",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Mon, 03 Oct 2022 19:52:21 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0046-9bc66fd789b5458e.png",
+    "bytes": 2077554
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/dog2.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "986881",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:50:52 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0047-bd9605b3d4471531.jpg",
+    "bytes": 986881
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/10/timbres.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "905445",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Mon, 02 Oct 2023 07:34:33 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0048-5522e36b2bc7d949.jpg",
+    "bytes": 905445
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/11/panam-scaled.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "197552",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Mon, 13 Nov 2023 21:09:46 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0049-735bb6596b5fa394.jpg",
+    "bytes": 197552
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2024/01/Illustration_sans_titre.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-1519796/1519797",
+      "expires": "Fri, 19 Jun 2026 20:25:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1519797",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Wed, 10 Jan 2024 21:37:36 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0050-b583b3c0afa20cdc.mp4",
+    "bytes": 1519797
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/pano.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "545266",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Wed, 11 Jan 2023 21:54:50 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0051-4770a2758148e38f.jpg",
+    "bytes": 545266
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/05/affiche.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "871807",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Sun, 22 May 2022 19:38:46 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0052-3afa026ac6bd9494.jpg",
+    "bytes": 871807
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/12/nainai04.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1158274",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Tue, 27 Dec 2022 22:12:59 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0053-c1d2abf0dbd05308.jpg",
+    "bytes": 1158274
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/10/Aires-Thumb@2x.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "965097",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Mon, 03 Oct 2022 21:43:20 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0054-aefd6be6edd90c09.png",
+    "bytes": 965097
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/12/cartes2.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "359324",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Tue, 27 Dec 2022 20:40:00 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0055-d63a4ac07378f785.jpg",
+    "bytes": 359324
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/10/regard.jpg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1229798",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/jpeg",
+      "last-modified": "Fri, 07 Oct 2022 21:42:09 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0056-a36d74e63a622964.jpg",
+    "bytes": 1229798
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/IMG_0921.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-2751652/2751653",
+      "expires": "Fri, 19 Jun 2026 20:25:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "2751653",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Thu, 19 Jan 2023 21:00:29 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0057-979643a26e4f3286.mp4",
+    "bytes": 2751653
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/10/societer-thumb.png",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "591209",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/png",
+      "last-modified": "Mon, 03 Oct 2022 19:49:50 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0058-29809e589cecd386.png",
+    "bytes": 591209
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/dircks.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-8594591/8594592",
+      "expires": "Fri, 19 Jun 2026 20:25:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "8594592",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Thu, 19 Jan 2023 21:18:27 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0059-882e373eb8e4fb10.mp4",
+    "bytes": 8594592
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/01/eponyme-pictos.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-356363/356364",
+      "expires": "Fri, 19 Jun 2026 20:25:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "356364",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Thu, 19 Jan 2023 21:00:36 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0060-220cb161d4488d76.mp4",
+    "bytes": 356364
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2022/05/agora-video.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-3616490/3616491",
+      "expires": "Fri, 19 Jun 2026 20:25:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "3616491",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Sun, 22 May 2022 16:09:54 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0061-235cf172bd5333cd.mp4",
+    "bytes": 3616491
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/uploads/2023/09/cailloux2.mp4",
+    "status": 206,
+    "type": "media",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=3600",
+      "content-range": "bytes 0-884619/884620",
+      "expires": "Fri, 19 Jun 2026 20:25:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "884620",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "video/mp4",
+      "last-modified": "Wed, 27 Sep 2023 20:11:32 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0062-bb58082c5f640944.mp4",
+    "bytes": 884620
+  },
+  {
+    "url": "https://davidbstudio.fr/wp-content/themes/semplice7/assets/images/frontend/video/play.svg",
+    "status": 200,
+    "type": "image",
+    "method": "GET",
+    "headers": {
+      "cache-control": "max-age=900",
+      "expires": "Fri, 19 Jun 2026 19:40:54 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "308",
+      "date": "Fri, 19 Jun 2026 19:25:54 GMT",
+      "content-type": "image/svg+xml",
+      "last-modified": "Wed, 06 May 2026 14:43:33 GMT",
+      "server": "Apache"
+    },
+    "file": "files/0063-5d9242bd77a91971.svg",
+    "bytes": 308
+  }
+]

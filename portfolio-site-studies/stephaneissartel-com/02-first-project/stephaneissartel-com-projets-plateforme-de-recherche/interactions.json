@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "Projets,",
+    "href": "https://stephaneissartel.com/",
+    "aria": "",
+    "rect": {
+      "x": 1060.015625,
+      "y": 30,
+      "width": 44.578125,
+      "height": 17
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "a",
+    "text": "Infos,",
+    "href": "https://stephaneissartel.com/about",
+    "aria": "",
+    "rect": {
+      "x": 1112.59375,
+      "y": 30,
+      "width": 31.609375,
+      "height": 17
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "a",
+    "text": "Questions",
+    "href": "https://stephaneissartel.com/faq",
+    "aria": "",
+    "rect": {
+      "x": 1152.203125,
+      "y": 30,
+      "width": 61.390625,
+      "height": 17
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "a",
+    "text": "Contact",
+    "href": "https://stephaneissartel.com/contact",
+    "aria": "",
+    "rect": {
+      "x": 1374.125,
+      "y": 30,
+      "width": 47.875,
+      "height": 17
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  }
+]

@@ -1,0 +1,772 @@
+[
+  {
+    "label": "desktop-case-open-760",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 24.000030517578125,
+        "y": 158.00015258789062,
+        "width": 991.96875,
+        "height": 89.99998474121094,
+        "bottom": 248.00013732910156,
+        "right": 1015.9687805175781
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.00014131)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 24.017120361328125,
+        "y": 272.07000732421875,
+        "width": 991.9345703125,
+        "height": 557.4807739257812,
+        "bottom": 829.55078125,
+        "right": 1015.9516906738281
+      },
+      "css": {
+        "opacity": 0.981502,
+        "transform": "matrix(0.999965, 0, 0, 0.999965, 0, 0.0604042)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "64px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 277.984375,
+        "y": 1116.5,
+        "width": 483.984375,
+        "height": 223.953125,
+        "bottom": 1340.453125,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-1000",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "64px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 277.984375,
+        "y": 1116.5,
+        "width": 483.984375,
+        "height": 223.953125,
+        "bottom": 1340.453125,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-1300",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "64px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 277.984375,
+        "y": 1116.5,
+        "width": 483.984375,
+        "height": 223.953125,
+        "bottom": 1340.453125,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-1600",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "64px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 277.984375,
+        "y": 1116.5,
+        "width": 483.984375,
+        "height": 223.953125,
+        "bottom": 1340.453125,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-1900",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "64px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 277.984375,
+        "y": 1116.5,
+        "width": 483.984375,
+        "height": 223.953125,
+        "bottom": 1340.453125,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-760",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 16.00006103515625,
+        "y": 104.0013656616211,
+        "width": 357.9998779296875,
+        "height": 135.99993896484375,
+        "bottom": 240.00130462646484,
+        "right": 373.99993896484375
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.00134602)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 16.008743286132812,
+        "y": 260.09027099609375,
+        "width": 357.9825439453125,
+        "height": 201.17767333984375,
+        "bottom": 461.2679443359375,
+        "right": 373.9912872314453
+      },
+      "css": {
+        "opacity": 0.968343,
+        "transform": "matrix(0.999951, 0, 0, 0.999951, 0, 0.0853767)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 601.1875,
+        "width": 358,
+        "height": 232,
+        "bottom": 833.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "112px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 16,
+        "y": 861.1875,
+        "width": 358,
+        "height": 315.125,
+        "bottom": 1176.3125,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-1000",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136,
+        "bottom": 240,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201.1875,
+        "bottom": 461.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 601.1875,
+        "width": 358,
+        "height": 232,
+        "bottom": 833.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "112px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 16,
+        "y": 861.1875,
+        "width": 358,
+        "height": 315.125,
+        "bottom": 1176.3125,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-1300",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136,
+        "bottom": 240,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201.1875,
+        "bottom": 461.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 597.5947875976562,
+        "width": 358,
+        "height": 232,
+        "bottom": 829.5947875976562,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0.172884,
+        "transform": "matrix(1, 0, 0, 1, 0, 24.4073)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "112px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 16,
+        "y": 861.1875,
+        "width": 358,
+        "height": 315.125,
+        "bottom": 1176.3125,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-1600",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136,
+        "bottom": 240,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201.1875,
+        "bottom": 461.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 574.17919921875,
+        "width": 358,
+        "height": 232,
+        "bottom": 806.17919921875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0.992229,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.991654)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "112px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 16,
+        "y": 861.1875,
+        "width": 358,
+        "height": 315.125,
+        "bottom": 1176.3125,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-1900",
+    "hash": "#case/palo-alto-networks",
+    "heading": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136,
+        "bottom": 240,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "hero": {
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201.1875,
+        "bottom": 461.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "marginTop": "0px",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 573.1890869140625,
+        "width": 358,
+        "height": 232,
+        "bottom": 805.1890869140625,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.00161045)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "marginTop": "112px",
+        "borderRadius": "0px"
+      }
+    },
+    "meta": {
+      "rect": {
+        "x": 16,
+        "y": 861.1875,
+        "width": 358,
+        "height": 315.125,
+        "bottom": 1176.3125,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "marginTop": "0px",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  }
+]

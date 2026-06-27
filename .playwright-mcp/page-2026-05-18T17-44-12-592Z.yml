@@ -1,0 +1,63 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic:
+        - link "Liz Wells":
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "INFO" [ref=e10] [cursor=pointer]:
+              - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/info
+  - generic [ref=e13]:
+    - heading "Liz Wells IS A SENIOR USER EXPERIENCE DESIGNER, CURRENTLY WORKING AT STINK STUDIOS" [level=1] [ref=e22]
+    - generic [ref=e29]:
+      - generic:
+        - link:
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/desk-lunch
+        - link "Desk Lunch Personal Project":
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/desk-lunch
+          - generic [ref=e30] [cursor=pointer]: Desk Lunch Personal Project
+      - generic:
+        - link:
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/the-hidden-worlds-of-the-national-parks
+        - link "The Hidden Worlds of the National Parks Google":
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/the-hidden-worlds-of-the-national-parks
+          - generic [ref=e31] [cursor=pointer]: The Hidden Worlds of the National Parks Google
+      - generic:
+        - link:
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/stonewall-forever
+        - link "Stonewall Forever The LGBT Center":
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/stonewall-forever
+          - generic [ref=e32] [cursor=pointer]: Stonewall Forever The LGBT Center
+      - generic:
+        - link:
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/lynching-in-america
+        - link "Lynching in America Google & Equal Justice Initiative":
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/lynching-in-america
+          - generic [ref=e33] [cursor=pointer]: Lynching in America Google & Equal Justice Initiative
+      - generic:
+        - link:
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/sidewalk-toronto
+        - link "Sidewalk Toronto Sidewalk Toronto":
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/sidewalk-toronto
+          - generic [ref=e34] [cursor=pointer]: Sidewalk Toronto Sidewalk Toronto
+      - generic:
+        - link:
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/year-in-music
+        - link "Year in Music 2015 Spotify":
+          - /url: http://web.archive.org/web/20200222182239/https://www.lizvwells.com/project/year-in-music
+          - generic [ref=e35] [cursor=pointer]: Year in Music 2015 Spotify
+    - generic [ref=e38]:
+      - heading "HELLO@LIZVWELLS.COM" [level=3] [ref=e44]:
+        - link "HELLO@LIZVWELLS.COM" [ref=e45] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20200222182239/mailto:hello@lizvwells.com
+      - heading "INSTAGRAM TWITTER LINKEDIN" [level=3] [ref=e51]:
+        - link "INSTAGRAM" [ref=e52] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20200222182239/https://www.instagram.com/lizvwells/
+          - text: INSTAGRAM
+        - link "TWITTER" [ref=e53] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20200222182239/https://twitter.com/lizvwells
+          - text: TWITTER
+        - link "LINKEDIN" [ref=e54] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20200222182239/https://www.linkedin.com/in/lizvwells

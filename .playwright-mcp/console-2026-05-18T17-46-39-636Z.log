@@ -1,0 +1,6 @@
+[     282ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.lizvwells.com/wp-content/uploads/2019/07/lizvwells-casestudy-desklunch-newsletters1.png:0
+[     325ms] [WARNING] yui: NOT loaded: squarespace-cldr_resource_pack @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-b8d716935110c7b2-min.en-US.js:7
+[     325ms] [WARNING] yui: NOT loaded: squarespace-common_vendors_stable @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-b8d716935110c7b2-min.en-US.js:7
+[     325ms] [WARNING] yui: NOT loaded: squarespace-common_vendors @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-b8d716935110c7b2-min.en-US.js:7
+[     335ms] [WARNING] Squarespace.load called but YUI sandbox already exists — skipping re-initialization. @ https://assets.squarespace.com/universal/scripts-compressed/common-1ad23fb5b0e58a3a-min.en-US.js:1
+[     336ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.lizvwells.com/wp-content/uploads/2019/07/lizvwells-casestudy-desklunch-newsletters1.png:0

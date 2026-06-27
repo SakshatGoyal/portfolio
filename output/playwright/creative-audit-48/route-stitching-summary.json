@@ -1,0 +1,696 @@
+[
+  {
+    "label": "selected-to-case-60ms",
+    "hash": "#selected-work",
+    "body": "shell-ready",
+    "active": [
+      "Selected Work"
+    ],
+    "pending": [
+      "01 Palo Alto Networks"
+    ],
+    "selected": {
+      "hidden": false,
+      "opacity": "0.637151",
+      "transform": "matrix(1, 0, 0, 1, 0, -1.07785)"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "selected-to-case-140ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "0.0541307",
+      "transform": "matrix(1, 0, 0, 1, 0, 7.74306)",
+      "y": 165.7
+    },
+    "caseHero": {
+      "opacity": "0",
+      "y": 276
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "selected-to-case-230ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "0.506142",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.11345)",
+      "y": 160.1
+    },
+    "caseHero": {
+      "opacity": "0",
+      "y": 276
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "selected-to-case-420ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.171232)",
+      "y": 158.2
+    },
+    "caseHero": {
+      "opacity": "0.307414",
+      "y": 276
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "selected-to-case-760ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 158
+    },
+    "caseHero": {
+      "opacity": "1",
+      "y": 276
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "case-to-selected-60ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [
+      "Selected Work"
+    ],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 157.6
+    },
+    "caseHero": {
+      "opacity": "1",
+      "y": 275.6
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "case-to-selected-140ms",
+    "hash": "#selected-work",
+    "body": "shell-ready",
+    "active": [
+      "Selected Work"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": false,
+      "opacity": "0.831175",
+      "transform": "matrix(1, 0, 0, 1, 0, -1.40238)"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "case-to-selected-230ms",
+    "hash": "#selected-work",
+    "body": "shell-ready",
+    "active": [
+      "Selected Work"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": false,
+      "opacity": "0.98542",
+      "transform": "matrix(1, 0, 0, 1, 0, -0.208357)"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "case-to-selected-420ms",
+    "hash": "#selected-work",
+    "body": "shell-ready",
+    "active": [
+      "Selected Work"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": false,
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, -2.2635e-06)"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "case-to-selected-760ms",
+    "hash": "#selected-work",
+    "body": "shell-ready",
+    "active": [
+      "Selected Work"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": false,
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "selected-to-about-60ms",
+    "hash": "#selected-work",
+    "body": "shell-ready route-about-entering",
+    "active": [
+      "Selected Work"
+    ],
+    "pending": [
+      "About me"
+    ],
+    "selected": {
+      "hidden": false,
+      "opacity": "0.874524",
+      "transform": "matrix(1, 0, 0, 1, 0, -0.427384)"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "label": "selected-to-about-140ms",
+    "hash": "#about",
+    "body": "shell-ready route-about",
+    "active": [
+      "About me"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 158
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "label": "selected-to-about-230ms",
+    "hash": "#about",
+    "body": "shell-ready route-about",
+    "active": [
+      "About me"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 158
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 6.84173)"
+    }
+  },
+  {
+    "label": "selected-to-about-420ms",
+    "hash": "#about",
+    "body": "shell-ready route-about",
+    "active": [
+      "About me"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 158
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)"
+    }
+  },
+  {
+    "label": "selected-to-about-760ms",
+    "hash": "#about",
+    "body": "shell-ready route-about",
+    "active": [
+      "About me"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 158
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)"
+    }
+  },
+  {
+    "label": "about-to-case-60ms",
+    "hash": "#about",
+    "body": "shell-ready route-about",
+    "active": [
+      "About me"
+    ],
+    "pending": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 157.6
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)"
+    }
+  },
+  {
+    "label": "about-to-case-140ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "body": "shell-ready",
+    "active": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "0.0281228",
+      "transform": "matrix(1, 0, 0, 1, 0, 10.0183)",
+      "y": 165.9
+    },
+    "caseHero": {
+      "opacity": "0",
+      "y": 273.9
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)"
+    }
+  },
+  {
+    "label": "about-to-case-230ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "body": "shell-ready",
+    "active": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "0.270352",
+      "transform": "matrix(1, 0, 0, 1, 0, 3.23305)",
+      "y": 160.9
+    },
+    "caseHero": {
+      "opacity": "0",
+      "y": 275.6
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)"
+    }
+  },
+  {
+    "label": "about-to-case-420ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "body": "shell-ready",
+    "active": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "0.996373",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.267071)",
+      "y": 158.3
+    },
+    "caseHero": {
+      "opacity": "0.169735",
+      "y": 276
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.039561)"
+    }
+  },
+  {
+    "label": "about-to-case-760ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "body": "shell-ready",
+    "active": [
+      "02 DocuSign - Global Data Analytics"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 158
+    },
+    "caseHero": {
+      "opacity": "1",
+      "y": 276
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  {
+    "label": "mobile-selected-to-case-60ms",
+    "hash": "#selected-work",
+    "body": "shell-ready",
+    "active": [
+      "Selected Work"
+    ],
+    "pending": [
+      "01 Palo Alto Networks"
+    ],
+    "selected": {
+      "hidden": false,
+      "opacity": "0.819046",
+      "transform": "matrix(1, 0, 0, 1, 0, -0.590901)"
+    },
+    "caseTitle": null,
+    "caseHero": null,
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "label": "mobile-selected-to-case-180ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "0.0654944",
+      "transform": "matrix(1, 0, 0, 1, 0, 7.09789)",
+      "y": 111.1
+    },
+    "caseHero": {
+      "opacity": "0",
+      "y": 260
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "0.745256",
+      "transform": "matrix(1, 0, 0, 1, 2.27115, 0)"
+    }
+  },
+  {
+    "label": "mobile-selected-to-case-420ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "0.973475",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.451267)",
+      "y": 104.5
+    },
+    "caseHero": {
+      "opacity": "0.0725612",
+      "y": 260
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 11.9722, 0)"
+    }
+  },
+  {
+    "label": "mobile-selected-to-case-900ms",
+    "hash": "#case/palo-alto-networks",
+    "body": "shell-ready",
+    "active": [
+      "01 Palo Alto Networks"
+    ],
+    "pending": [],
+    "selected": {
+      "hidden": true,
+      "opacity": "0",
+      "transform": "none"
+    },
+    "caseTitle": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 104
+    },
+    "caseHero": {
+      "opacity": "1",
+      "y": 260
+    },
+    "aboutP1": {
+      "opacity": "1",
+      "transform": "none",
+      "y": 0
+    },
+    "sideBio": {
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 12, 0)"
+    }
+  }
+]

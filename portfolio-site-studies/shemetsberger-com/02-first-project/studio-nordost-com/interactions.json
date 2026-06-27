@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "",
+    "href": "https://studio-nordost.com/",
+    "aria": "Studio Nordost",
+    "rect": {
+      "x": 64,
+      "y": 38.796875,
+      "width": 85.328125,
+      "height": 28
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "a",
+    "text": "Work",
+    "href": "https://studio-nordost.com/work",
+    "aria": "",
+    "rect": {
+      "x": 181.328125,
+      "y": 32,
+      "width": 69.5,
+      "height": 41.59375
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "a",
+    "text": "Studio",
+    "href": "https://studio-nordost.com/studio",
+    "aria": "",
+    "rect": {
+      "x": 258.828125,
+      "y": 32,
+      "width": 78.28125,
+      "height": 41.59375
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "a",
+    "text": "Contact",
+    "href": "https://studio-nordost.com/contact-us",
+    "aria": "",
+    "rect": {
+      "x": 1287.703125,
+      "y": 32,
+      "width": 88.28125,
+      "height": 41.59375
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  }
+]

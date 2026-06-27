@@ -1,0 +1,114 @@
+[
+  {
+    "index": 0,
+    "tag": "a",
+    "text": "",
+    "href": "https://karinasirqueira.com/projects/fresh-direct/",
+    "aria": "",
+    "rect": {
+      "x": 287.1640625,
+      "y": 316.9500427246094,
+      "width": 158.4375,
+      "height": 163.515625
+    },
+    "screenshot": "screenshots/hover/hover-00.png"
+  },
+  {
+    "index": 1,
+    "tag": "a",
+    "text": "",
+    "href": "https://karinasirqueira.com/projects/mailchimp/",
+    "aria": "",
+    "rect": {
+      "x": 445.6015625,
+      "y": 253.92210388183594,
+      "width": 267.6875,
+      "height": 274.8125
+    },
+    "screenshot": "screenshots/hover/hover-01.png"
+  },
+  {
+    "index": 2,
+    "tag": "a",
+    "text": "",
+    "href": "https://karinasirqueira.com/projects/mta/",
+    "aria": "",
+    "rect": {
+      "x": 607.417724609375,
+      "y": 232.2109375,
+      "width": 531.78125,
+      "height": 539.078125
+    },
+    "screenshot": "screenshots/hover/hover-02.png"
+  },
+  {
+    "index": 3,
+    "tag": "a",
+    "text": "",
+    "href": "https://karinasirqueira.com/projects/airbnb/",
+    "aria": "",
+    "rect": {
+      "x": 296.5078125,
+      "y": 471.093505859375,
+      "width": 266.21875,
+      "height": 271.28125
+    },
+    "screenshot": "screenshots/hover/hover-03.png"
+  },
+  {
+    "index": 4,
+    "tag": "a",
+    "text": "",
+    "href": "https://karinasirqueira.com/projects/wwc/",
+    "aria": "",
+    "rect": {
+      "x": 562.7421875,
+      "y": 511.69744873046875,
+      "width": 162.0625,
+      "height": 170.71875
+    },
+    "screenshot": "screenshots/hover/hover-04.png"
+  },
+  {
+    "index": 5,
+    "tag": "a",
+    "text": "",
+    "href": "https://karinasirqueira.com/projects/gainbridge/",
+    "aria": "",
+    "rect": {
+      "x": 883.0078125,
+      "y": 493.8984375,
+      "width": 267.75,
+      "height": 276.015625
+    },
+    "screenshot": "screenshots/hover/hover-05.png"
+  },
+  {
+    "index": 6,
+    "tag": "a",
+    "text": "",
+    "href": "https://karinasirqueira.com/projects/vista/",
+    "aria": "",
+    "rect": {
+      "x": 1018.7109375,
+      "y": 630.4296875,
+      "width": 134.484375,
+      "height": 140.84375
+    },
+    "screenshot": "screenshots/hover/hover-06.png"
+  },
+  {
+    "index": 7,
+    "tag": "a",
+    "text": "Karina Sirqueira",
+    "href": "https://karinasirqueira.com/about/",
+    "aria": "",
+    "rect": {
+      "x": 1062.0234375,
+      "y": 777.7578125,
+      "width": 90.8125,
+      "height": 14
+    },
+    "screenshot": "screenshots/hover/hover-07.png"
+  }
+]

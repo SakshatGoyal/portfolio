@@ -1,0 +1,265 @@
+{
+  "timeline": [
+    {
+      "ms": 120,
+      "heading": {
+        "opacity": "0.00527641",
+        "transform": "matrix(0.996012, 0, 0, 0.996012, 0, 14.3558)",
+        "visible": true
+      },
+      "hero": {
+        "opacity": "0",
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "visible": false
+      },
+      "intro": {
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "visible": false
+      },
+      "meta": {
+        "opacity": "1",
+        "transform": "none",
+        "visible": false
+      }
+    },
+    {
+      "ms": 260,
+      "heading": {
+        "opacity": "0.173868",
+        "transform": "matrix(0.999085, 0, 0, 0.999085, 0, 3.29435)",
+        "visible": true
+      },
+      "hero": {
+        "opacity": "0.00246611",
+        "transform": "matrix(0.993053, 0, 0, 0.993053, 0, 12.1573)",
+        "visible": true
+      },
+      "intro": {
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "visible": false
+      },
+      "meta": {
+        "opacity": "1",
+        "transform": "none",
+        "visible": false
+      }
+    },
+    {
+      "ms": 430,
+      "heading": {
+        "opacity": "0.862853",
+        "transform": "matrix(0.999843, 0, 0, 0.999843, 0, 0.566639)",
+        "visible": true
+      },
+      "hero": {
+        "opacity": "0.141274",
+        "transform": "matrix(0.998627, 0, 0, 0.998627, 0, 2.40308)",
+        "visible": true
+      },
+      "intro": {
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "visible": false
+      },
+      "meta": {
+        "opacity": "1",
+        "transform": "none",
+        "visible": false
+      }
+    },
+    {
+      "ms": 620,
+      "heading": {
+        "opacity": "1",
+        "transform": "matrix(0.99999, 0, 0, 0.99999, 0, 0.0351908)",
+        "visible": true
+      },
+      "hero": {
+        "opacity": "0.806113",
+        "transform": "matrix(0.999798, 0, 0, 0.999798, 0, 0.352852)",
+        "visible": true
+      },
+      "intro": {
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "visible": false
+      },
+      "meta": {
+        "opacity": "1",
+        "transform": "none",
+        "visible": false
+      }
+    },
+    {
+      "ms": 820,
+      "heading": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      },
+      "hero": {
+        "opacity": "0.998317",
+        "transform": "matrix(0.999988, 0, 0, 0.999988, 0, 0.0217013)",
+        "visible": true
+      },
+      "intro": {
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "visible": false
+      },
+      "meta": {
+        "opacity": "1",
+        "transform": "none",
+        "visible": false
+      }
+    },
+    {
+      "ms": 1050,
+      "heading": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      },
+      "hero": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      },
+      "intro": {
+        "opacity": "0.468877",
+        "transform": "matrix(1, 0, 0, 1, 0, 17.7697)",
+        "visible": true
+      },
+      "meta": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      }
+    },
+    {
+      "ms": 1300,
+      "heading": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      },
+      "hero": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      },
+      "intro": {
+        "opacity": "0.984264",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.49982)",
+        "visible": true
+      },
+      "meta": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      }
+    },
+    {
+      "ms": 1600,
+      "heading": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      },
+      "hero": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      },
+      "intro": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0210925)",
+        "visible": true
+      },
+      "meta": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "visible": true
+      }
+    }
+  ],
+  "contactBefore": {
+    "tag": "span",
+    "text": "LinkedIn",
+    "classes": "nav-item nav-level-1 nav-contact is-disabled",
+    "rect": {
+      "x": 1055.96875,
+      "y": 838,
+      "width": 93,
+      "height": 38
+    },
+    "opacity": "1",
+    "transform": "none",
+    "transitionProperty": "color, border-radius",
+    "transitionDuration": "0.1s, 0.1s",
+    "borderRadius": "2px",
+    "fontSize": "16px",
+    "lineHeight": "21.6px",
+    "pointerEvents": "none",
+    "cursor": "default"
+  },
+  "contactAfterHover": {
+    "tag": "span",
+    "text": "LinkedIn",
+    "classes": "nav-item nav-level-1 nav-contact is-disabled",
+    "rect": {
+      "x": 1055.96875,
+      "y": 838,
+      "width": 93,
+      "height": 38
+    },
+    "opacity": "1",
+    "transform": "none",
+    "transitionProperty": "color, border-radius",
+    "transitionDuration": "0.1s, 0.1s",
+    "borderRadius": "2px",
+    "fontSize": "16px",
+    "lineHeight": "21.6px",
+    "pointerEvents": "none",
+    "cursor": "default"
+  },
+  "contactState": {
+    "hash": "#selected-work",
+    "contactAnchors": 0,
+    "contactDisabledLabels": 4,
+    "liveNavAnchors": 6
+  },
+  "mobileDrawer": {
+    "navOpen": true,
+    "panelRect": {
+      "x": 0,
+      "y": 56,
+      "width": 390,
+      "height": 788
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "panelBoxShadow": "none",
+    "contactBottom": 820,
+    "contactGapToBottom": 24,
+    "contactDisabledLabels": 4
+  },
+  "caseOpen": {
+    "heading": "1",
+    "hero": "1",
+    "intro": "0"
+  },
+  "caseScroll": {
+    "revealCount": 31,
+    "notVisible": [],
+    "imageRadius": "6px"
+  },
+  "reducedState": {
+    "hiddenMotionCount": 0,
+    "firstImageTransitionDuration": "0s"
+  }
+}

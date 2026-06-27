@@ -1,0 +1,175 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e7]:
+      - navigation:
+        - list:
+          - listitem [ref=e8]:
+            - link "INDEX" [ref=e9] [cursor=pointer]:
+              - /url: http://web.archive.org/web/20200813114209/https://www.lizvwells.com/
+      - link "Liz Wells" [ref=e11] [cursor=pointer]:
+        - /url: http://web.archive.org/web/20200813114209/https://www.lizvwells.com/
+      - navigation:
+        - list:
+          - listitem [ref=e12]:
+            - link "INFO" [ref=e13] [cursor=pointer]:
+              - /url: http://web.archive.org/web/20200813114209/https://www.lizvwells.com/info
+  - generic [ref=e16]:
+    - generic [ref=e21]:
+      - heading "The Hidden Worlds of the National Parks" [level=1] [ref=e25]
+      - heading "GOOGLE" [level=5] [ref=e29]
+    - iframe [ref=e38]:
+      
+    - heading "In celebration of the hundred year anniversary of the National Parks Service, we created an interactive tour of five of America’s most beautiful national parks led by real park rangers." [level=2] [ref=e49]
+    - generic [ref=e54]:
+      - img "lizvwells-casestudy-hiddenworldsofthenationalparks-sketch1" [ref=e57]
+      - heading "SKETCHES" [level=6] [ref=e61]
+    - generic [ref=e64]:
+      - heading "About the Project" [level=2] [ref=e72]
+      - paragraph [ref=e78]: Using 16:9 video, 360° video and ambisonic audio, users were able to partake in experiences the average park visitor never gets to see. We shot from helicopters, mountain tops, horseback, and underwater, resulting in over eleven terabytes of footage gathered over twenty-six days and 18,949 miles, edited down to a final experience of twenty-five minutes.
+    - generic [ref=e83]:
+      - img "lizvwells-casestudy-hiddenworldsofthenationalparks-sketch2" [ref=e86]
+      - heading "SKETCHES" [level=6] [ref=e90]
+    - generic [ref=e93]:
+      - heading "UX Challenges" [level=2] [ref=e101]
+      - paragraph [ref=e107]: The content strategy was the first major UX hurdle since we needed to fully map out the digital experience in order to determine what content would need to be shot by the film crew and brought to life by our in-house motion team. After identifying which parks would be featured, we were tasked with creating interactive experiences that highlighted each park’s unique story and the range of diversity of America’s geography.
+    - generic [ref=e112]:
+      - img "lizvwells-casestudy-hiddenworldsofthenationalparks-sketch3" [ref=e115]
+      - heading "SKETCHES" [level=6] [ref=e119]
+    - paragraph [ref=e130]: The second major UX challenge was ensuring a simple and usable experience on every screen, while also allowing for multiple layers of content and navigation. Striking this balance required multiple rounds of prototyping and revisions. We needed to come up with a consistent way to organize all the content accompanying each park, as the site used a combination of different mediums. To ensure a consistent experience for all users, every piece of content needed to be fully accessible on desktop and mobile.
+    - generic [ref=e135]:
+      - img "lizvwells-casestudy-hiddenworldsofthenationalparks-desktopwires" [ref=e138]
+      - heading "DESKTOP WIREFRAMES" [level=6] [ref=e142]
+    - generic [ref=e145]:
+      - heading "UX Solutions" [level=2] [ref=e153]
+      - paragraph [ref=e159]: "To solve our UX challenges, we created a system with two major components: highlights, in which the user would stop and have the chance to engage with content before continuing through the experience, and hot spots, which included smaller, bite-sized content within each highlight. To help the user move between the content, users can always see an exit from of the content they are in, whether it be the map button to skip ahead to another location, the next button within a highlight or an X/back when a user is in an hotspot overlay. We made sure to only film park highlights in stationary points of view so the user will never nauseated when they are viewing this experience on desktop, mobile or Google Cardboard VR."
+    - generic [ref=e164]:
+      - img "lizvwells-casestudy-hiddenworldsofthenationalparks-mobilewires" [ref=e167]
+      - heading "MOBILE WIREFRAMES" [level=6] [ref=e171]
+    - paragraph [ref=e182]: For the interactive experiences, we used 360° animation, directional audio, and WebGL in Kenai Fjords, Bryce Canyon, and Carlsbad Cavern. In Kenai Fjords, we focused on the story of climate change. When the user enters Exit Glacier, they are able to use a slider to select a year to see how much the glacier has recessed over time To adjust the years, the UI was is a simple toggle with the park ranger giving a voice over description of glacier recession. We used 360°animation to make these interactive moments feel consistent with the rest of the experience.
+    - generic [ref=e184]:
+      - iframe [ref=e191]:
+        - generic [ref=f12e2]:
+          - generic [ref=f12e11]:
+            - img [ref=f12e12]
+            - img [ref=f12e14]
+          - generic [ref=f12e17]:
+            - generic [ref=f12e18]:
+              - banner
+            - generic:
+              - button "Play" [ref=f12e19] [cursor=pointer]:
+                - img "Play" [ref=f12e21]
+              - generic [ref=f12e23]:
+                - generic [ref=f12e24] [cursor=pointer]:
+                  - slider "Progress Bar" [ref=f12e25]
+                  - generic [ref=f12e31]: 00:25
+                - button "Settings" [ref=f12e32] [cursor=pointer]:
+                  - img "Settings" [ref=f12e33]
+      - heading "KENAI FJORDS - GLACIER RECESSION INTERACTIVE EXPERIENCE" [level=6] [ref=e198]: KENAI FJORDS - GLACIER RECESSION INTERACTIVE EXPERIENCE
+    - paragraph [ref=e209]: For Carlsbad Cavern, we focused on the life cycle of the Brazilian free-tailed bats and how they use the caves within the park during the summer on their migration path. The user is transformed into a bat and is able to echolocate important items around the cave. When the user finds food or the bat’s baby, the park ranger will then tell the user more about their findings. The user clicks and drags (the same interaction they use to explore all other 360° scenes), to find food and their baby bat in the dark cave. Items the user can interact with will echolocate and the user can respond back by clicking. The echolocation rings will become visible to the user.
+    - generic [ref=e211]:
+      - iframe [ref=e218]:
+        
+      - heading "CARLSBAD CAVERNS - BAT ECHOLOCATION INTERACTIVE EXPERIENCE" [level=6] [ref=e225]: CARLSBAD CAVERNS - BAT ECHOLOCATION INTERACTIVE EXPERIENCE
+    - paragraph [ref=e236]: Bryce Canyon has one of the darkest night skies in America. Because of this, we let the user explore the Milky Way and learn about constellations through a local Native American tribe’s mythology. We selected five key constellations and planets a visitor to the park could see at Bryce on a dark night. We made sure that, in our designs, it was clear that users could select the items by making them more obvious through color, size, and adding animation. When the user selects a constellation, their counter at the bottom will increase for finding one. We wanted to make it immediately clear to the user that there were only so many constellations to find.
+    - generic [ref=e238]:
+      - iframe [ref=e245]:
+        
+      - heading "BRYCE CANYON - NIGHT SKY INTERACTIVE EXPERIENCE" [level=6] [ref=e252]
+    - generic [ref=e257]:
+      - iframe [ref=e261]:
+        
+      - heading "GOOGLE CARDBOARD VR" [level=6] [ref=e265]
+    - heading "View the project here" [level=2] [ref=e276]:
+      - link "View the project here" [ref=e277] [cursor=pointer]:
+        - /url: http://web.archive.org/web/20200813114209/https://artsandculture.withgoogle.com/en-us/
+    - generic [ref=e280]:
+      - generic [ref=e282]:
+        - heading "Team" [level=2] [ref=e286]
+        - heading "CLIENT" [level=3] [ref=e290]
+        - heading "GOOGLE BRAND STUDIOS" [level=4] [ref=e294]
+        - heading "DIGITAL AGENCY" [level=3] [ref=e298]
+        - heading "STINK STUDIOS" [level=4] [ref=e302]
+        - heading "EXECUTIVE CREATIVE DIRECTOR" [level=3] [ref=e306]
+        - heading "BEN HUGHES" [level=4] [ref=e310]
+        - heading "CREATIVE DIRECTOR" [level=3] [ref=e314]
+        - heading "CHRIS KNIGHT" [level=4] [ref=e318]
+        - heading "USER EXPERIENCE DESIGNER" [level=3] [ref=e322]
+        - heading "LIZ WELLS" [level=4] [ref=e326]
+        - heading "ART DIRECTOR" [level=3] [ref=e330]
+        - heading "ERIK HERRSTROM" [level=4] [ref=e334]
+        - heading "MOTION DESIGNERS" [level=3] [ref=e338]
+        - heading "AARON COVRETT, HARRY THOMPSON" [level=4] [ref=e342]
+        - heading "LEAD DEVELOPER" [level=3] [ref=e346]
+        - heading "JP GARY" [level=4] [ref=e350]
+        - heading "DEVELOPERS" [level=3] [ref=e354]
+        - heading "ARNAUD TANIELIAN, ERIK TAHERI" [level=4] [ref=e358]
+        - heading "EXECUTIVE PRODUCER" [level=3] [ref=e362]
+        - heading "PATRICK KRULIK" [level=4] [ref=e366]
+        - heading "SENIOR PRODUCER" [level=3] [ref=e370]
+        - heading "SEAN MANION" [level=4] [ref=e374]
+        - heading "PRODUCER" [level=3] [ref=e378]
+        - heading "ALVIN THAM" [level=4] [ref=e382]
+        - heading "DIRECTOR" [level=3] [ref=e386]
+        - heading "ADAM NEWPORT-BERRA" [level=4] [ref=e390]
+        - heading "PRODUCTION COMPANY" [level=3] [ref=e394]
+        - heading "GHOST ROBOT" [level=4] [ref=e398]
+        - heading "SOUND DESIGN" [level=3] [ref=e402]
+        - heading "SILVER SOUND" [level=4] [ref=e406]
+        - heading "COMPOSITION" [level=3] [ref=e410]
+        - heading "KAITLYN AURELIA SMITH" [level=4] [ref=e414]
+      - generic [ref=e418]:
+        - heading "Awards" [level=2] [ref=e422]
+        - heading "CANNES LIONS" [level=3] [ref=e426]
+        - heading "SHORTLIST IN DIGITAL CRAFT - INTERFACE & NAVIGATION" [level=4] [ref=e430]
+        - heading "THE ONE SHOW" [level=3] [ref=e434]
+        - heading "INNOVATION IN MOVING IMAGE CRAFT GOLD" [level=4] [ref=e438]
+        - heading "THE ONE SHOW" [level=3] [ref=e442]
+        - heading "WEBSITES BRONZE" [level=4] [ref=e446]
+        - heading "D&AD" [level=3] [ref=e450]
+        - heading "WOOD PENCIL FOR DIGITAL MARKETING WEBSITES" [level=4] [ref=e454]
+        - heading "D&AD IMPACT" [level=3] [ref=e458]
+        - heading "WOOD PENCIL FOR EDUCATION" [level=4] [ref=e462]
+        - heading "COMMUNICATION ARTS" [level=3] [ref=e466]
+        - heading "WEBPICK" [level=4] [ref=e470]
+        - heading "WEBBY" [level=3] [ref=e474]
+        - heading "WEB EDUCATION" [level=4] [ref=e478]
+        - heading "WEBBY" [level=3] [ref=e482]
+        - heading "PEOPLE’S VOICE FOR WEB EDUCATION" [level=4] [ref=e486]
+        - heading "WEBBY" [level=3] [ref=e490]
+        - heading "PEOPLE’S VOICE FOR WEB BEST USE OF VIDEO" [level=4] [ref=e494]: PEOPLE’S VOICE FOR WEB BEST USE OF VIDEO
+        - heading "Press" [level=2] [ref=e498]
+        - heading "TECH CRUNCH" [level=3] [ref=e502]
+        - heading "\"GOOGLE NOW LETS YOU EXPLORE U.S. NATIONAL PARKS VIA 360-DEGREE VIRTUAL TOURS\"" [level=4] [ref=e506]:
+          - link "\"GOOGLE NOW LETS YOU EXPLORE U.S. NATIONAL PARKS VIA 360-DEGREE VIRTUAL TOURS\"" [ref=e507] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20200813114209/https://techcrunch.com/2016/08/25/google-now-lets-you-explore-u-s-national-parks-via-360-degree-virtual-tours/
+        - heading "THE DRUM" [level=3] [ref=e511]
+        - heading "\"GOOGLE CELEBRATES THE 100TH ANNIVERSARY OF THE NATIONAL PARK SERVICE WITH 360-DEGREE TOURS\"" [level=4] [ref=e515]:
+          - link "\"GOOGLE CELEBRATES THE 100TH ANNIVERSARY OF" [ref=e516] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20200813114209/https://www.thedrum.com/news/2016/08/25/google-celebrates-100th-anniversary-national-park-service-360-degree-tours
+          - link "THE NATIONAL PARK SERVICE WITH 360-DEGREE TOURS\"" [ref=e517] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20200813114209/https://www.thedrum.com/news/2016/08/25/google-celebrates-100th-anniversary-national-park-service-360-degree-tours
+        - heading "TRAVEL + LEISURE" [level=3] [ref=e521]
+        - heading "\"TAKE A TOUR OF 5 U.S. NATIONAL PARKS WITH GOOGLE’S NEW 360-DEGREE EXHIBIT\"" [level=4] [ref=e525]:
+          - link "\"TAKE A TOUR OF 5 U.S. NATIONAL PARKS WITH GOOGLE’S NEW 360-DEGREE EXHIBIT\"" [ref=e526] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20200813114209/https://www.travelandleisure.com/trip-ideas/national-parks/google-national-parks-centennial
+        - heading "LONELY PLANET" [level=3] [ref=e530]
+        - heading "\"GOOGLE REVEALS THE HIDDEN WORLDS OF AMERICA’S NATIONAL PARKS IN 360-DEGREE VIDEOS\"" [level=4] [ref=e534]:
+          - link "\"GOOGLE REVEALS THE HIDDEN WORLDS OF AMERICA’S NATIONAL PARKS IN 360-DEGREE VIDEOS\"" [ref=e535] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20200813114209/https://www.lonelyplanet.com/usa/travel-tips-and-articles/google-reveals-the-hidden-worlds-of-americas-national-parks-in-360-degree-videos/76f2e41d-553f-5edb-945f-68fd584f4cd2
+        - heading "ENGADGET" [level=3] [ref=e539]
+        - heading "\"GOOGLE OFFERS 360-DEGREE TOURS OF US NATIONAL PARKS\"" [level=4] [ref=e543]:
+          - link "\"GOOGLE OFFERS 360-DEGREE TOURS OF US NATIONAL PARKS\"" [ref=e544] [cursor=pointer]:
+            - /url: http://web.archive.org/web/20200813114209/https://www.engadget.com/2016/08/25/google-offers-360-degree-tours-of-us-national-parks/
+    - generic [ref=e547]:
+      - heading "HELLO@LIZVWELLS.COM" [level=3] [ref=e553]:
+        - link "HELLO@LIZVWELLS.COM" [ref=e554] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20200813114209/mailto:hello@lizvwells.com
+      - heading "INSTAGRAM TWITTER LINKEDIN" [level=3] [ref=e560]:
+        - link "INSTAGRAM" [ref=e561] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20200813114209/https://www.instagram.com/lizvwells/
+          - text: INSTAGRAM
+        - link "TWITTER" [ref=e562] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20200813114209/https://twitter.com/lizvwells
+          - text: TWITTER
+        - link "LINKEDIN" [ref=e563] [cursor=pointer]:
+          - /url: http://web.archive.org/web/20200813114209/https://www.linkedin.com/in/lizvwells

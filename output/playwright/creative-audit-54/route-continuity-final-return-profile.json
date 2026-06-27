@@ -1,0 +1,4052 @@
+[
+  {
+    "label": "desktop-first-selected-0160ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.18s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.22s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.35s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.39s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.235s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 28,
+          "y": 147,
+          "width": 480,
+          "height": 360
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.275s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 532,
+          "y": 147,
+          "width": 480,
+          "height": 360
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.405s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 28,
+          "y": 701,
+          "width": 480,
+          "height": 360
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.445s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 532,
+          "y": 701,
+          "width": 480,
+          "height": 360
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.325s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.365s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.495s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.535s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.485s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.525s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.655s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.695s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1056,
+          "y": 124,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-first-selected-0520ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.18s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.22s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.860822,
+        "transform": "none",
+        "animationDelay": "0.35s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.564816,
+        "transform": "none",
+        "animationDelay": "0.39s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.971607,
+        "transform": "matrix(0.999546, 0, 0, 0.999546, 0, 0)",
+        "animationDelay": "0.235s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 24,
+          "y": 145,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.951789,
+        "transform": "matrix(0.999229, 0, 0, 0.999229, 0, 0)",
+        "animationDelay": "0.275s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 528,
+          "y": 145,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.76263,
+        "transform": "matrix(0.996202, 0, 0, 0.996202, 0, 0)",
+        "animationDelay": "0.405s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 25,
+          "y": 699,
+          "width": 486,
+          "height": 365
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.612442,
+        "transform": "matrix(0.993799, 0, 0, 0.993799, 0, 0)",
+        "animationDelay": "0.445s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 529,
+          "y": 699,
+          "width": 485,
+          "height": 364
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.585256,
+        "transform": "none",
+        "animationDelay": "0.325s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.314471,
+        "transform": "none",
+        "animationDelay": "0.365s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.0106233,
+        "transform": "none",
+        "animationDelay": "0.495s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.535s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.0326479,
+        "transform": "none",
+        "animationDelay": "0.485s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.525s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.655s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.695s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-first-selected-0900ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.18s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.22s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.35s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.39s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.235s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 24,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.275s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 528,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.999593,
+        "transform": "matrix(0.999994, 0, 0, 0.999994, 0, 0)",
+        "animationDelay": "0.405s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 24,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.998581,
+        "transform": "matrix(0.999977, 0, 0, 0.999977, 0, 0)",
+        "animationDelay": "0.445s",
+        "animationDuration": "0.58s",
+        "rect": {
+          "x": 528,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.325s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.365s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.495s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.998743,
+        "transform": "none",
+        "animationDelay": "0.535s",
+        "animationDuration": "0.38s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.485s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.525s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.997252,
+        "transform": "none",
+        "animationDelay": "0.655s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 24,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.953931,
+        "transform": "none",
+        "animationDelay": "0.695s",
+        "animationDuration": "0.26s",
+        "rect": {
+          "x": 528,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0000ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "selectedClass": "stage-area",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0080ms",
+    "hash": "#case/docusign-global-data-analytics",
+    "selectedClass": "stage-area",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "02 DocuSign - Global Data Analytics",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1072,
+          "y": 200,
+          "width": 294,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0160ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.47918,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.221281,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.0894755,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.0267842,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.649191,
+        "transform": "matrix(0.994387, 0, 0, 0.994387, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 25,
+          "y": 145,
+          "width": 485,
+          "height": 364
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.520277,
+        "transform": "matrix(0.992324, 0, 0, 0.992324, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 530,
+          "y": 146,
+          "width": 484,
+          "height": 363
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.345835,
+        "transform": "matrix(0.989533, 0, 0, 0.989533, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 27,
+          "y": 700,
+          "width": 483,
+          "height": 362
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.119394,
+        "transform": "matrix(0.98591, 0, 0, 0.98591, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 531,
+          "y": 701,
+          "width": 481,
+          "height": 361
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.0110398,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.000140233,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0240ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.997719,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.972401,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.944582,
+        "transform": "matrix(0.999113, 0, 0, 0.999113, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 24,
+          "y": 145,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.923914,
+        "transform": "matrix(0.998783, 0, 0, 0.998783, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 528,
+          "y": 145,
+          "width": 487,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.896195,
+        "transform": "matrix(0.998339, 0, 0, 0.998339, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 24,
+          "y": 698,
+          "width": 487,
+          "height": 365
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.858848,
+        "transform": "matrix(0.997742, 0, 0, 0.997742, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 529,
+          "y": 698,
+          "width": 487,
+          "height": 365
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.630197,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.421458,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.250347,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.141251,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.137218,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.0490511,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.00946621,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0320ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.994105,
+        "transform": "matrix(0.999906, 0, 0, 0.999906, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 24,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.990791,
+        "transform": "matrix(0.999853, 0, 0, 0.999853, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 528,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.98615,
+        "transform": "matrix(0.999778, 0, 0, 0.999778, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 24,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.97977,
+        "transform": "matrix(0.999676, 0, 0, 0.999676, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 528,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.995676,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.979125,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.945347,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.988014,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.942171,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.834902,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0520ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 24,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 528,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 24,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 528,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "desktop-case-to-selected-0780ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 108,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 662,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 24,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 528,
+          "y": 144,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 24,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 528,
+          "y": 698,
+          "width": 488,
+          "height": 366
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 528,
+          "width": 488,
+          "height": 49
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 24,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 528,
+          "y": 1081,
+          "width": 488,
+          "height": 25
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 594,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 24,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 528,
+          "y": 1124,
+          "width": 488,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 1056,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-case-to-selected-0000ms",
+    "hash": "#case/palo-alto-networks",
+    "selectedClass": "stage-area",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": true,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "classes": "nav-item nav-level-2 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 32,
+          "y": 160,
+          "width": 192,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-case-to-selected-0120ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.0279445,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.00201942,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 578,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1030,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1482,
+          "width": 358,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.126492,
+        "transform": "matrix(0.986024, 0, 0, 0.986024, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 19,
+          "y": 139,
+          "width": 353,
+          "height": 265
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 19,
+          "y": 613,
+          "width": 352,
+          "height": 264
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 19,
+          "y": 1065,
+          "width": 352,
+          "height": 264
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 19,
+          "y": 1517,
+          "width": 352,
+          "height": 264
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 419,
+          "width": 358,
+          "height": 66
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 893,
+          "width": 358,
+          "height": 45
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 1345,
+          "width": 358,
+          "height": 45
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 1797,
+          "width": 358,
+          "height": 45
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 500,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 952,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1404,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1856,
+          "width": 358,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 166,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-case-to-selected-0240ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.999977,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 578,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.986662,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1030,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 0.938577,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1482,
+          "width": 358,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.933056,
+        "transform": "matrix(0.998929, 0, 0, 0.998929, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 137,
+          "width": 358,
+          "height": 268
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.908466,
+        "transform": "matrix(0.998535, 0, 0, 0.998535, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 611,
+          "width": 357,
+          "height": 268
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.875408,
+        "transform": "matrix(0.998007, 0, 0, 0.998007, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 1063,
+          "width": 357,
+          "height": 268
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.8307,
+        "transform": "matrix(0.997291, 0, 0, 0.997291, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 1515,
+          "width": 357,
+          "height": 268
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.506916,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 419,
+          "width": 358,
+          "height": 66
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.311744,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 893,
+          "width": 358,
+          "height": 45
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.179406,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 1345,
+          "width": 358,
+          "height": 45
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 0.0974863,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 1797,
+          "width": 358,
+          "height": 45
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.0772938,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 500,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.021332,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 952,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0.000209538,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1404,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1856,
+          "width": 358,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 413,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-case-to-selected-0420ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 578,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1030,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1482,
+          "width": 358,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.999997,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 137,
+          "width": 358,
+          "height": 269
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.999954,
+        "transform": "matrix(0.999999, 0, 0, 0.999999, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 610,
+          "width": 358,
+          "height": 268
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.999802,
+        "transform": "matrix(0.999997, 0, 0, 0.999997, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 1062,
+          "width": 358,
+          "height": 268
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 0.999457,
+        "transform": "matrix(0.999991, 0, 0, 0.999991, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 1514,
+          "width": 358,
+          "height": 268
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 419,
+          "width": 358,
+          "height": 66
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 893,
+          "width": 358,
+          "height": 45
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 1345,
+          "width": 358,
+          "height": 45
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 1797,
+          "width": 358,
+          "height": 45
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 500,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 952,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1404,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1856,
+          "width": 358,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 418,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "label": "mobile-drawer-case-to-selected-0700ms",
+    "hash": "#selected-work",
+    "selectedClass": "stage-area route-view-enter is-returning is-visible",
+    "labels": [
+      {
+        "text": "01Palo Alto Networks",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 104,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "02DocuSign - Global Data Analytics",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.014s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 578,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "03Harvard Business School",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.028s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1030,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "04DocuSign - OneReport",
+        "classes": "project-label",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.042s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1482,
+          "width": 358,
+          "height": 19
+        }
+      }
+    ],
+    "thumbs": [
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.01s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 137,
+          "width": 358,
+          "height": 269
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.024s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 610,
+          "width": 358,
+          "height": 269
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.038s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 1062,
+          "width": 358,
+          "height": 269
+        }
+      },
+      {
+        "text": "",
+        "classes": "project-thumb-link",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.052s",
+        "animationDuration": "0.32s",
+        "rect": {
+          "x": 16,
+          "y": 1514,
+          "width": 358,
+          "height": 269
+        }
+      }
+    ],
+    "titles": [
+      {
+        "text": "Leading a platform consolidation + introducing AI to tools for spreadsheet native users.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.044s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 419,
+          "width": 358,
+          "height": 66
+        }
+      },
+      {
+        "text": "Initiating discovery and design for action oriented decision tools.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.058s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 893,
+          "width": 358,
+          "height": 45
+        }
+      },
+      {
+        "text": "Building an AI-enabled research architecture.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.072s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 1345,
+          "width": 358,
+          "height": 45
+        }
+      },
+      {
+        "text": "Defining data analytics experiences on mobile.",
+        "classes": "project-title",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.086s",
+        "animationDuration": "0.18s",
+        "rect": {
+          "x": 16,
+          "y": 1797,
+          "width": 358,
+          "height": 45
+        }
+      }
+    ],
+    "years": [
+      {
+        "text": "2025-26",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.105s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 500,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023-24",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.119s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 952,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2025",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.133s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1404,
+          "width": 358,
+          "height": 19
+        }
+      },
+      {
+        "text": "2023",
+        "classes": "project-year",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.147s",
+        "animationDuration": "0.12s",
+        "rect": {
+          "x": 16,
+          "y": 1856,
+          "width": 358,
+          "height": 19
+        }
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "classes": "nav-item nav-level-1 is-active",
+        "hidden": false,
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0s",
+        "animationDuration": "0s",
+        "rect": {
+          "x": 418,
+          "y": 120,
+          "width": 138,
+          "height": 38
+        }
+      }
+    ]
+  }
+]

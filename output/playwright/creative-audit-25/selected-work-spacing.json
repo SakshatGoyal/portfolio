@@ -1,0 +1,166 @@
+[
+  {
+    "key": "phone",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "listGap": "59.08px",
+    "rowGap": "59.08px",
+    "listDisplay": "flex",
+    "listRect": {
+      "x": 16,
+      "y": 56,
+      "width": 358,
+      "height": 1866.453125,
+      "bottom": 1922.453125,
+      "right": 374
+    },
+    "overflow": 0,
+    "gaps": [
+      59.078125,
+      59.078125,
+      59.078125
+    ],
+    "fourthVisiblePercent": 0,
+    "firstTile": {
+      "x": 16,
+      "y": 104,
+      "width": 358,
+      "height": 414.5,
+      "bottom": 518.5,
+      "right": 374
+    },
+    "secondTile": {
+      "x": 16,
+      "y": 577.578125,
+      "width": 358,
+      "height": 392.90625,
+      "bottom": 970.484375,
+      "right": 374
+    }
+  },
+  {
+    "key": "tablet",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "listGap": "61.44px 15.36px",
+    "rowGap": "61.44px",
+    "listDisplay": "grid",
+    "listRect": {
+      "x": 54,
+      "y": 56,
+      "width": 660,
+      "height": 958.65625,
+      "bottom": 1014.65625,
+      "right": 714
+    },
+    "overflow": 0,
+    "gaps": [
+      -387.734375,
+      61.4375,
+      -366.140625
+    ],
+    "fourthVisiblePercent": 1,
+    "firstTile": {
+      "x": 54,
+      "y": 127.671875,
+      "width": 322.3125,
+      "height": 387.734375,
+      "bottom": 515.40625,
+      "right": 376.3125
+    },
+    "secondTile": {
+      "x": 391.671875,
+      "y": 127.671875,
+      "width": 322.328125,
+      "height": 387.734375,
+      "bottom": 515.40625,
+      "right": 714
+    }
+  },
+  {
+    "key": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "listGap": "48.6px 16px",
+    "rowGap": "48.6px",
+    "listDisplay": "grid",
+    "listRect": {
+      "x": 24,
+      "y": 56,
+      "width": 991.96875,
+      "height": 1151.0625,
+      "bottom": 1207.0625,
+      "right": 1015.96875
+    },
+    "overflow": 0,
+    "gaps": [
+      -505.046875,
+      48.59375,
+      -481.234375
+    ],
+    "fourthVisiblePercent": 0.4949186661904607,
+    "firstTile": {
+      "x": 24,
+      "y": 108.1875,
+      "width": 487.984375,
+      "height": 505.046875,
+      "bottom": 613.234375,
+      "right": 511.984375
+    },
+    "secondTile": {
+      "x": 527.984375,
+      "y": 108.1875,
+      "width": 487.984375,
+      "height": 505.046875,
+      "bottom": 613.234375,
+      "right": 1015.96875
+    }
+  },
+  {
+    "key": "short-desktop",
+    "viewport": {
+      "width": 1366,
+      "height": 720
+    },
+    "listGap": "20px 10px",
+    "rowGap": "20px",
+    "listDisplay": "grid",
+    "listRect": {
+      "x": 134.703125,
+      "y": 56,
+      "width": 717.109375,
+      "height": 925.4375,
+      "bottom": 981.4375,
+      "right": 851.8125
+    },
+    "overflow": 0,
+    "gaps": [
+      -422.109375,
+      20,
+      -399.328125
+    ],
+    "fourthVisiblePercent": 0.5055757718042023,
+    "firstTile": {
+      "x": 134.703125,
+      "y": 76,
+      "width": 353.546875,
+      "height": 422.109375,
+      "bottom": 498.109375,
+      "right": 488.25
+    },
+    "secondTile": {
+      "x": 498.25,
+      "y": 76,
+      "width": 353.5625,
+      "height": 422.109375,
+      "bottom": 498.109375,
+      "right": 851.8125
+    }
+  }
+]

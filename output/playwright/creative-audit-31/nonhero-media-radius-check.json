@@ -1,0 +1,106 @@
+{
+  "settled": {
+    "label": "settled-before-hover",
+    "scrollY": 1735,
+    "image": {
+      "className": "case-media case-reveal-image is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "scaleX": 1,
+      "borderRadius": "6px",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.7s",
+      "transitionTimingFunction": "cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "visible": true
+    },
+    "intro": {
+      "className": "case-intro case-reveal-text case-intro-list-emphasis is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "borderRadius": "0px",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionTimingFunction": "cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)",
+      "visible": true
+    },
+    "section": {
+      "className": "case-section-title case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "borderRadius": "0px",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.5s, 0.36s",
+      "transitionTimingFunction": "cubic-bezier(0.645, 0.045, 0.355, 1), cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "visible": true
+    },
+    "caption": {
+      "className": "case-caption-text case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "borderRadius": "0px",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionTimingFunction": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "visible": true
+    }
+  },
+  "hover": {
+    "label": "hover-after-450ms",
+    "scrollY": 1735,
+    "image": {
+      "className": "case-media case-reveal-image is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "scaleX": 1,
+      "borderRadius": "12px",
+      "transitionProperty": "transform, opacity, border-radius",
+      "transitionDuration": "0.7s, 0.5s, 0.4s",
+      "transitionTimingFunction": "cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "visible": true
+    },
+    "intro": {
+      "className": "case-intro case-reveal-text case-intro-list-emphasis is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "borderRadius": "0px",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.72s, 0.5s",
+      "transitionTimingFunction": "cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)",
+      "visible": true
+    },
+    "section": {
+      "className": "case-section-title case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "borderRadius": "0px",
+      "transitionProperty": "transform, opacity",
+      "transitionDuration": "0.5s, 0.36s",
+      "transitionTimingFunction": "cubic-bezier(0.645, 0.045, 0.355, 1), cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "visible": true
+    },
+    "caption": {
+      "className": "case-caption-text case-reveal-text is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "scaleX": 1,
+      "borderRadius": "0px",
+      "transitionProperty": "opacity",
+      "transitionDuration": "0.36s",
+      "transitionTimingFunction": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "visible": true
+    }
+  }
+}

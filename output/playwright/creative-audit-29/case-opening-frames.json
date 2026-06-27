@@ -1,0 +1,1282 @@
+[
+  {
+    "label": "desktop-case-open-80",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 94,
+        "bottom": 252,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 26.47991943359375,
+        "y": 176.22500610351562,
+        "width": 987.0089111328125,
+        "height": 89.54998779296875,
+        "bottom": 265.7749938964844,
+        "right": 1013.4888305664062
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(0.995, 0, 0, 0.995, 0, 18)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 27.9678955078125,
+        "y": 288.2300109863281,
+        "width": 984.032958984375,
+        "height": 553.0400390625,
+        "bottom": 841.2700500488281,
+        "right": 1012.0008544921875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-180",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 94,
+        "bottom": 252,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 24.629302978515625,
+        "y": 162.62474060058594,
+        "width": 990.710205078125,
+        "height": 89.88581848144531,
+        "bottom": 252.51055908203125,
+        "right": 1015.3395080566406
+      },
+      "css": {
+        "opacity": 0.105305,
+        "transform": "matrix(0.998731, 0, 0, 0.998731, 0, 4.56765)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 27.9678955078125,
+        "y": 288.2300109863281,
+        "width": 984.032958984375,
+        "height": 553.0400390625,
+        "bottom": 841.2700500488281,
+        "right": 1012.0008544921875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-300",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 94,
+        "bottom": 252,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 24.131134033203125,
+        "y": 158.96372985839844,
+        "width": 991.70654296875,
+        "height": 89.9761962890625,
+        "bottom": 248.93992614746094,
+        "right": 1015.8376770019531
+      },
+      "css": {
+        "opacity": 0.713201,
+        "transform": "matrix(0.999736, 0, 0, 0.999736, 0, 0.951829)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 24.92010498046875,
+        "y": 275.7635498046875,
+        "width": 990.1285400390625,
+        "height": 556.4657592773438,
+        "bottom": 832.2293090820312,
+        "right": 1015.0486450195312
+      },
+      "css": {
+        "opacity": 0.0924211,
+        "transform": "matrix(0.998145, 0, 0, 0.998145, 0, 3.24644)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-420",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 94,
+        "bottom": 252,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 24.02081298828125,
+        "y": 158.15289306640625,
+        "width": 991.9271240234375,
+        "height": 89.99623107910156,
+        "bottom": 248.1491241455078,
+        "right": 1015.9479370117188
+      },
+      "css": {
+        "opacity": 0.987861,
+        "transform": "matrix(0.999958, 0, 0, 0.999958, 0, 0.151008)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 24.209686279296875,
+        "y": 272.8577575683594,
+        "width": 991.54931640625,
+        "height": 557.2642822265625,
+        "bottom": 830.1220397949219,
+        "right": 1015.7590026855469
+      },
+      "css": {
+        "opacity": 0.550411,
+        "transform": "matrix(0.999577, 0, 0, 0.999577, 0, 0.739907)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-560",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 94,
+        "bottom": 252,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 24.000274658203125,
+        "y": 158.001953125,
+        "width": 991.96826171875,
+        "height": 89.99995422363281,
+        "bottom": 248.0019073486328,
+        "right": 1015.9685363769531
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(0.999999, 0, 0, 0.999999, 0, 0.00192513)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 24.023895263671875,
+        "y": 272.0976867675781,
+        "width": 991.9208984375,
+        "height": 557.47314453125,
+        "bottom": 829.5708312988281,
+        "right": 1015.9447937011719
+      },
+      "css": {
+        "opacity": 0.968946,
+        "transform": "matrix(0.999952, 0, 0, 0.999952, 0, 0.0842643)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-760",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 94,
+        "bottom": 252,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-1000",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 94,
+        "bottom": 252,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "desktop-case-open-1300",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 94,
+        "bottom": 252,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 24,
+        "y": 158,
+        "width": 991.96875,
+        "height": 90,
+        "bottom": 248,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 24,
+        "y": 272,
+        "width": 991.96875,
+        "height": 557.5,
+        "bottom": 829.5,
+        "right": 1015.96875
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 277.984375,
+        "y": 921.5,
+        "width": 483.984375,
+        "height": 151,
+        "bottom": 1072.5,
+        "right": 761.96875
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-80",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 140,
+        "bottom": 244,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 16.895004272460938,
+        "y": 122.33999633789062,
+        "width": 356.2099609375,
+        "height": 135.32000732421875,
+        "bottom": 257.6600036621094,
+        "right": 373.10496520996094
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(0.995, 0, 0, 0.995, 0, 18)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 17.4320068359375,
+        "y": 274.80474853515625,
+        "width": 355.135986328125,
+        "height": 199.5780029296875,
+        "bottom": 474.38275146484375,
+        "right": 372.5679931640625
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 553.1875,
+        "width": 358,
+        "height": 232,
+        "bottom": 785.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-180",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 140,
+        "bottom": 244,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 16.29046630859375,
+        "y": 109.9520263671875,
+        "width": 357.4190673828125,
+        "height": 135.77931213378906,
+        "bottom": 245.73133850097656,
+        "right": 373.70953369140625
+      },
+      "css": {
+        "opacity": 0.0693698,
+        "transform": "matrix(0.998377, 0, 0, 0.998377, 0, 5.84168)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 17.4320068359375,
+        "y": 274.80474853515625,
+        "width": 355.135986328125,
+        "height": 199.5780029296875,
+        "bottom": 474.38275146484375,
+        "right": 372.5679931640625
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(0.992, 0, 0, 0.992, 0, 14)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 553.1875,
+        "width": 358,
+        "height": 232,
+        "bottom": 785.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-300",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 140,
+        "bottom": 244,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 16.066665649414062,
+        "y": 105.36610412597656,
+        "width": 357.86669921875,
+        "height": 135.94935607910156,
+        "bottom": 241.31546020507812,
+        "right": 373.93336486816406
+      },
+      "css": {
+        "opacity": 0.553022,
+        "transform": "matrix(0.999628, 0, 0, 0.999628, 0, 1.34078)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 16.493515014648438,
+        "y": 265.1022033691406,
+        "width": 357.012939453125,
+        "height": 200.6328125,
+        "bottom": 465.7350158691406,
+        "right": 373.50645446777344
+      },
+      "css": {
+        "opacity": 0.0487951,
+        "transform": "matrix(0.997243, 0, 0, 0.997243, 0, 4.82485)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 553.1875,
+        "width": 358,
+        "height": 232,
+        "bottom": 785.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-420",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 140,
+        "bottom": 244,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 16.013046264648438,
+        "y": 104.26730346679688,
+        "width": 357.973876953125,
+        "height": 135.99008178710938,
+        "bottom": 240.25738525390625,
+        "right": 373.98692321777344
+      },
+      "css": {
+        "opacity": 0.960358,
+        "transform": "matrix(0.999927, 0, 0, 0.999927, 0, 0.262343)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 16.12286376953125,
+        "y": 261.27020263671875,
+        "width": 357.7542724609375,
+        "height": 201.0494384765625,
+        "bottom": 462.31964111328125,
+        "right": 373.87713623046875
+      },
+      "css": {
+        "opacity": 0.336782,
+        "transform": "matrix(0.999314, 0, 0, 0.999314, 0, 1.20117)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 553.1875,
+        "width": 358,
+        "height": 232,
+        "bottom": 785.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-560",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 140,
+        "bottom": 244,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 16.000686645507812,
+        "y": 104.01394653320312,
+        "width": 357.9986572265625,
+        "height": 135.99948120117188,
+        "bottom": 240.013427734375,
+        "right": 373.9993438720703
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(0.999996, 0, 0, 0.999996, 0, 0.0136869)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 16.02044677734375,
+        "y": 260.2114562988281,
+        "width": 357.9591064453125,
+        "height": 201.16452026367188,
+        "bottom": 461.3759765625,
+        "right": 373.97955322265625
+      },
+      "css": {
+        "opacity": 0.902147,
+        "transform": "matrix(0.999886, 0, 0, 0.999886, 0, 0.199965)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 553.1875,
+        "width": 358,
+        "height": 232,
+        "bottom": 785.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-760",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 140,
+        "bottom": 244,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136,
+        "bottom": 240,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 16.000259399414062,
+        "y": 260.00262451171875,
+        "width": 357.99951171875,
+        "height": 201.18722534179688,
+        "bottom": 461.1898498535156,
+        "right": 373.99977111816406
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(0.999999, 0, 0, 0.999999, 0, 0.00248754)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 553.1875,
+        "width": 358,
+        "height": 232,
+        "bottom": 785.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 28)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-1000",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 140,
+        "bottom": 244,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136,
+        "bottom": 240,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201.1875,
+        "bottom": 461.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 530.6270751953125,
+        "width": 358,
+        "height": 232,
+        "bottom": 762.6270751953125,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0.894404,
+        "transform": "matrix(1, 0, 0, 1, 0, 5.43957)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  },
+  {
+    "label": "phone-case-open-1300",
+    "hash": "#case/palo-alto-networks",
+    "shellReady": true,
+    "routeClasses": "case-study route-view-enter is-visible",
+    "titleFrame": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 140,
+        "bottom": 244,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "none",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "borderRadius": "0px"
+      }
+    },
+    "heading": {
+      "rect": {
+        "x": 16,
+        "y": 104,
+        "width": 358,
+        "height": 136,
+        "bottom": 240,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.52s, 0.72s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      },
+      "text": "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts."
+    },
+    "hero": {
+      "rect": {
+        "x": 16,
+        "y": 260,
+        "width": 358,
+        "height": 201.1875,
+        "bottom": 461.1875,
+        "right": 374
+      },
+      "css": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transitionProperty": "opacity, transform",
+        "transitionDuration": "0.62s, 0.76s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "6px"
+      }
+    },
+    "intro": {
+      "rect": {
+        "x": 16,
+        "y": 525.3138427734375,
+        "width": 358,
+        "height": 232,
+        "bottom": 757.3138427734375,
+        "right": 374
+      },
+      "css": {
+        "opacity": 0.999989,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.126367)",
+        "transitionProperty": "transform, opacity",
+        "transitionDuration": "0.74s, 0.54s",
+        "transitionDelay": "0s, 0s",
+        "borderRadius": "0px"
+      }
+    },
+    "overflow": 0
+  }
+]

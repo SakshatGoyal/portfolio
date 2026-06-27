@@ -1,0 +1,3663 @@
+{
+  "title": "Design Studio – Studio Nordost",
+  "url": "https://studio-nordost.com/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 6242,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(245, 245, 245)",
+    "rgb(16, 16, 16)",
+    "rgba(245, 245, 245, 0.8)",
+    "rgba(213, 213, 213, 0.88)",
+    "rgba(0, 0, 0, 0.84)",
+    "rgb(255, 255, 255)",
+    "rgb(110, 110, 110)",
+    "rgba(110, 110, 110, 0.72)",
+    "rgb(228, 228, 228)",
+    "rgb(26, 25, 27)",
+    "rgb(152, 152, 152)",
+    "rgb(250, 250, 250)",
+    "rgba(16, 16, 16, 0.2)",
+    "rgba(16, 16, 16, 0.88)",
+    "rgba(152, 152, 152, 0.72)",
+    "rgb(101, 101, 101)",
+    "rgb(177, 177, 177)"
+  ],
+  "fonts": [
+    "Times",
+    "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "DieGroteskB, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "DieGroteskD, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "GeistMono, Menlo, Consolas, \"Courier New\", monospace"
+  ],
+  "samples": [
+    {
+      "tag": "html",
+      "className": "lenis swup-enabled",
+      "text": "Design Studio – Studio Nordost var _mtm = window._mtm = window._mtm || []; _mtm.push({ 'mtm.startTime': (new Date().getT",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 6241.859375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "body",
+      "className": "",
+      "text": "<div class=\"container fluid\"> <div class=\"row\"> <div class=\"col-xs-12\"> <p style=\"margin-top: 16px; font-size: 4rem;\">Yo",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 6241.859375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "transition-fade",
+      "text": "Work Studio Contact Contact Nordost is a design studio that helps ambitious brands leave lasting impressions. Viiala AG ",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 6241.859375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "nav",
+      "className": "container main-nav color-style-ambient",
+      "text": "Work Studio Contact Contact",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 73.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "32px 64px 0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "fixed"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Work Studio Contact Contact",
+      "rect": {
+        "x": 64,
+        "y": 32,
+        "width": 1312,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12 col-sm-8",
+      "text": "Work Studio Contact",
+      "rect": {
+        "x": 64,
+        "y": 32,
+        "width": 874.65625,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "main-nav-wrapper",
+      "text": "Work Studio Contact",
+      "rect": {
+        "x": 72,
+        "y": 32,
+        "width": 858.65625,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "brand-visual-wrapper",
+      "text": "",
+      "rect": {
+        "x": 72,
+        "y": 38.796875,
+        "width": 85.328125,
+        "height": 28
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "brand-visual",
+      "text": "",
+      "rect": {
+        "x": 64,
+        "y": 38.796875,
+        "width": 85.328125,
+        "height": 28
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(245, 245, 245, 0.8)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "6px 8px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "ul",
+      "className": "menu-items-wrapper",
+      "text": "Work Studio Contact",
+      "rect": {
+        "x": 181.328125,
+        "y": 32,
+        "width": 155.78125,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "menu-item secondary small",
+      "text": "Work",
+      "rect": {
+        "x": 181.328125,
+        "y": 32,
+        "width": 69.5,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(213, 213, 213, 0.88)",
+        "fontFamily": "DieGroteskB, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "10px 16px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "menu-item secondary small",
+      "text": "Studio",
+      "rect": {
+        "x": 258.828125,
+        "y": 32,
+        "width": 78.28125,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(213, 213, 213, 0.88)",
+        "fontFamily": "DieGroteskB, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "10px 16px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-sm-4 show-sm",
+      "text": "Contact",
+      "rect": {
+        "x": 938.65625,
+        "y": 32,
+        "width": 437.328125,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "contact-nav-wrapper",
+      "text": "Contact",
+      "rect": {
+        "x": 938.65625,
+        "y": 32,
+        "width": 437.328125,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "menu-item primary small",
+      "text": "Contact",
+      "rect": {
+        "x": 1287.703125,
+        "y": 32,
+        "width": 88.28125,
+        "height": 41.59375
+      },
+      "styles": {
+        "color": "rgb(245, 245, 245)",
+        "backgroundColor": "rgba(0, 0, 0, 0.84)",
+        "fontFamily": "DieGroteskB, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "10px 16px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container sno value-proposition color-style-ambient",
+      "text": "Nordost is a design studio that helps ambitious brands leave lasting impressions.",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 720
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "192px 64px 96px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row center-sm",
+      "text": "Nordost is a design studio that helps ambitious brands leave lasting impressions.",
+      "rect": {
+        "x": 64,
+        "y": 192,
+        "width": 1312,
+        "height": 432
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12",
+      "text": "Nordost is a design studio that helps ambitious brands leave lasting impressions.",
+      "rect": {
+        "x": 64,
+        "y": 192,
+        "width": 1312,
+        "height": 432
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "hero",
+      "text": "Nordost is a design studio that helps ambitious brands leave lasting impressions.",
+      "rect": {
+        "x": 72,
+        "y": 192,
+        "width": 1296,
+        "height": 432
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskD, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "400",
+        "lineHeight": "108px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Nordost is a design studio that helps ambitious brands leave lasting impressions.",
+      "rect": {
+        "x": 72,
+        "y": 192,
+        "width": 1296,
+        "height": 432
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskD, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "120px",
+        "fontWeight": "400",
+        "lineHeight": "108px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container sno featured-projects color-style-ambient",
+      "text": "Viiala AG Swiss Mobility Startup Brand Identity Website Brand Strategy Stadt Salzburg Platform for Citizens Website Olen",
+      "rect": {
+        "x": 0,
+        "y": 720,
+        "width": 1440,
+        "height": 782.140625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64px 160px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Viiala AG Swiss Mobility Startup Brand Identity Website Brand Strategy Stadt Salzburg Platform for Citizens Website Olen",
+      "rect": {
+        "x": 64,
+        "y": 720,
+        "width": 1312,
+        "height": 622.140625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "col-xs-12 col-sm",
+      "text": "Viiala AG Swiss Mobility Startup Brand Identity Website Brand Strategy",
+      "rect": {
+        "x": 64,
+        "y": 720,
+        "width": 437.328125,
+        "height": 622.109375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "image-wrapper zoom-in",
+      "text": "",
+      "rect": {
+        "x": 72,
+        "y": 720,
+        "width": 421.328125,
+        "height": 532.109375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "lazy-video-wrapper",
+      "text": "",
+      "rect": {
+        "x": 72,
+        "y": 720,
+        "width": 421.328125,
+        "height": 532.109375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "lazy muted loaded",
+      "text": "",
+      "rect": {
+        "x": 72,
+        "y": 720,
+        "width": 421.328125,
+        "height": 532.109375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "project-title",
+      "text": "Viiala AG",
+      "rect": {
+        "x": 72,
+        "y": 1268.109375,
+        "width": 421.328125,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "16px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "tagline",
+      "text": "Swiss Mobility Startup",
+      "rect": {
+        "x": 72,
+        "y": 1292.109375,
+        "width": 421.328125,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(110, 110, 110)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "service-wrapper",
+      "text": "Brand Identity Website Brand Strategy",
+      "rect": {
+        "x": 72,
+        "y": 1324.109375,
+        "width": 421.328125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "8px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "secondary-label btn tight secondary-color",
+      "text": "Brand Identity",
+      "rect": {
+        "x": 72,
+        "y": 1324.109375,
+        "width": 110.8125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgba(110, 110, 110, 0.72)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "secondary-label btn tight secondary-color",
+      "text": "Website",
+      "rect": {
+        "x": 186.8125,
+        "y": 1324.109375,
+        "width": 60.40625,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgba(110, 110, 110, 0.72)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "secondary-label btn tight secondary-color",
+      "text": "Brand Strategy",
+      "rect": {
+        "x": 251.21875,
+        "y": 1324.109375,
+        "width": 110.8125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgba(110, 110, 110, 0.72)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "col-xs-12 col-sm",
+      "text": "Stadt Salzburg Platform for Citizens Website",
+      "rect": {
+        "x": 501.328125,
+        "y": 720,
+        "width": 437.34375,
+        "height": 622.140625
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "image-wrapper zoom-in",
+      "text": "",
+      "rect": {
+        "x": 509.328125,
+        "y": 720,
+        "width": 421.34375,
+        "height": 532.140625
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "project-title",
+      "text": "Stadt Salzburg",
+      "rect": {
+        "x": 509.328125,
+        "y": 1268.140625,
+        "width": 421.34375,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "16px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "tagline",
+      "text": "Platform for Citizens",
+      "rect": {
+        "x": 509.328125,
+        "y": 1292.140625,
+        "width": 421.34375,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(110, 110, 110)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "service-wrapper",
+      "text": "Website",
+      "rect": {
+        "x": 509.328125,
+        "y": 1324.140625,
+        "width": 421.34375,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "8px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "secondary-label btn tight secondary-color",
+      "text": "Website",
+      "rect": {
+        "x": 509.328125,
+        "y": 1324.140625,
+        "width": 60.40625,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgba(110, 110, 110, 0.72)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "col-xs-12 col-sm",
+      "text": "Olento Outdoor Furniture Brand Brand Strategy Brand Identity Website Motion Identity",
+      "rect": {
+        "x": 938.671875,
+        "y": 720,
+        "width": 437.328125,
+        "height": 622.109375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "image-wrapper zoom-in",
+      "text": "",
+      "rect": {
+        "x": 946.671875,
+        "y": 720,
+        "width": 421.328125,
+        "height": 532.109375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "lazy-video-wrapper",
+      "text": "",
+      "rect": {
+        "x": 946.671875,
+        "y": 720,
+        "width": 421.328125,
+        "height": 532.109375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "lazy muted loaded",
+      "text": "",
+      "rect": {
+        "x": 946.671875,
+        "y": 720,
+        "width": 421.328125,
+        "height": 532.109375
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "project-title",
+      "text": "Olento",
+      "rect": {
+        "x": 946.671875,
+        "y": 1268.109375,
+        "width": 421.328125,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "16px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "tagline",
+      "text": "Outdoor Furniture Brand",
+      "rect": {
+        "x": 946.671875,
+        "y": 1292.109375,
+        "width": 421.328125,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(110, 110, 110)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "service-wrapper",
+      "text": "Brand Strategy Brand Identity Website Motion Identity",
+      "rect": {
+        "x": 946.671875,
+        "y": 1324.109375,
+        "width": 421.328125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "margin": "8px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "secondary-label btn tight secondary-color",
+      "text": "Brand Strategy",
+      "rect": {
+        "x": 946.671875,
+        "y": 1324.109375,
+        "width": 110.8125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgba(110, 110, 110, 0.72)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "secondary-label btn tight secondary-color",
+      "text": "Brand Identity",
+      "rect": {
+        "x": 1061.484375,
+        "y": 1324.109375,
+        "width": 110.8125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgba(110, 110, 110, 0.72)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "secondary-label btn tight secondary-color",
+      "text": "Website",
+      "rect": {
+        "x": 1176.296875,
+        "y": 1324.109375,
+        "width": 60.40625,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgba(110, 110, 110, 0.72)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "secondary-label btn tight secondary-color",
+      "text": "Motion Identity",
+      "rect": {
+        "x": 1240.703125,
+        "y": 1324.109375,
+        "width": 118,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgba(110, 110, 110, 0.72)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container sno benefits benefits-style-list color-style-dark",
+      "text": "Stand out through Direction more info Direction turns ambition into a roadmap your team can follow. Direction Direction ",
+      "rect": {
+        "x": 0,
+        "y": 1502.140625,
+        "width": 1440,
+        "height": 782.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(26, 25, 27)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "160px 64px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row benefits-list",
+      "text": "Stand out through Direction more info Direction turns ambition into a roadmap your team can follow. Direction Direction ",
+      "rect": {
+        "x": 64,
+        "y": 1662.140625,
+        "width": 1312,
+        "height": 462.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12 col-md-4 col-lg-4 benefits-list-headline",
+      "text": "Stand out through",
+      "rect": {
+        "x": 64,
+        "y": 1662.140625,
+        "width": 437.328125,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h2",
+      "className": "h2 secondary-color",
+      "text": "Stand out through",
+      "rect": {
+        "x": 72,
+        "y": 1662.140625,
+        "width": 421.328125,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(152, 152, 152)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Stand out through",
+      "rect": {
+        "x": 72,
+        "y": 1662.140625,
+        "width": 421.328125,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(152, 152, 152)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12 col-md-8 col-lg-8",
+      "text": "Direction more info Direction turns ambition into a roadmap your team can follow. Direction Direction turns ambition int",
+      "rect": {
+        "x": 501.328125,
+        "y": 1662.140625,
+        "width": 874.65625,
+        "height": 462.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-items",
+      "text": "Direction more info Direction turns ambition into a roadmap your team can follow. Direction Direction turns ambition int",
+      "rect": {
+        "x": 509.328125,
+        "y": 1662.140625,
+        "width": 858.65625,
+        "height": 462.6875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "benefits-list-item",
+      "text": "Direction more info Direction turns ambition into a roadmap your team can follow. Direction Direction turns ambition int",
+      "rect": {
+        "x": 509.328125,
+        "y": 1662.140625,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-row",
+      "text": "Direction more info",
+      "rect": {
+        "x": 509.328125,
+        "y": 1662.140625,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-heading",
+      "text": "Direction more info",
+      "rect": {
+        "x": 509.328125,
+        "y": 1662.140625,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "benefits-list-title h1",
+      "text": "Direction",
+      "rect": {
+        "x": 509.328125,
+        "y": 1662.140625,
+        "width": 265.765625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(245, 245, 245)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "72px",
+        "fontWeight": "400",
+        "lineHeight": "67.68px",
+        "letterSpacing": "-0.72px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "btn secondary-label tight inverted",
+      "text": "more info",
+      "rect": {
+        "x": 807.09375,
+        "y": 1686.96875,
+        "width": 74.8125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(26, 25, 27)",
+        "backgroundColor": "rgb(152, 152, 152)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "benefits-list-item",
+      "text": "Credibility more info A brand acts as shortcut, clarifying what you offer, why it matters, and what value you bring. Cre",
+      "rect": {
+        "x": 509.328125,
+        "y": 1793.8125,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-row",
+      "text": "Credibility more info",
+      "rect": {
+        "x": 509.328125,
+        "y": 1793.8125,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-heading",
+      "text": "Credibility more info",
+      "rect": {
+        "x": 509.328125,
+        "y": 1793.8125,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "benefits-list-title h1",
+      "text": "Credibility",
+      "rect": {
+        "x": 509.328125,
+        "y": 1793.8125,
+        "width": 296.796875,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(245, 245, 245)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "72px",
+        "fontWeight": "400",
+        "lineHeight": "67.68px",
+        "letterSpacing": "-0.72px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "btn secondary-label tight inverted",
+      "text": "more info",
+      "rect": {
+        "x": 838.125,
+        "y": 1818.640625,
+        "width": 74.8125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(26, 25, 27)",
+        "backgroundColor": "rgb(152, 152, 152)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "benefits-list-item",
+      "text": "Recognition more info Memorability makes you easier to recall, recommend, and return to. Recognition Memorability makes ",
+      "rect": {
+        "x": 509.328125,
+        "y": 1925.484375,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-row",
+      "text": "Recognition more info",
+      "rect": {
+        "x": 509.328125,
+        "y": 1925.484375,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-heading",
+      "text": "Recognition more info",
+      "rect": {
+        "x": 509.328125,
+        "y": 1925.484375,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "benefits-list-title h1",
+      "text": "Recognition",
+      "rect": {
+        "x": 509.328125,
+        "y": 1925.484375,
+        "width": 353.3125,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(245, 245, 245)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "72px",
+        "fontWeight": "400",
+        "lineHeight": "67.68px",
+        "letterSpacing": "-0.72px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "btn secondary-label tight inverted",
+      "text": "more info",
+      "rect": {
+        "x": 894.640625,
+        "y": 1950.3125,
+        "width": 74.8125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(26, 25, 27)",
+        "backgroundColor": "rgb(152, 152, 152)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "benefits-list-item",
+      "text": "Alignment more info Alignment helps sales, marketing, and product tell one coherent story. Alignment Alignment helps sal",
+      "rect": {
+        "x": 509.328125,
+        "y": 2057.15625,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-row",
+      "text": "Alignment more info",
+      "rect": {
+        "x": 509.328125,
+        "y": 2057.15625,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "benefits-list-heading",
+      "text": "Alignment more info",
+      "rect": {
+        "x": 509.328125,
+        "y": 2057.15625,
+        "width": 858.65625,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "benefits-list-title h1",
+      "text": "Alignment",
+      "rect": {
+        "x": 509.328125,
+        "y": 2057.15625,
+        "width": 308.234375,
+        "height": 67.671875
+      },
+      "styles": {
+        "color": "rgb(245, 245, 245)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "72px",
+        "fontWeight": "400",
+        "lineHeight": "67.68px",
+        "letterSpacing": "-0.72px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "btn secondary-label tight inverted",
+      "text": "more info",
+      "rect": {
+        "x": 849.5625,
+        "y": 2081.984375,
+        "width": 74.8125,
+        "height": 18
+      },
+      "styles": {
+        "color": "rgb(26, 25, 27)",
+        "backgroundColor": "rgb(152, 152, 152)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "12px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "3px 5px",
+        "borderRadius": "2px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container sno service-cards color-style-ambient",
+      "text": "Our Services Brand Strategy The blueprint for a differentiated, relevant & sustainable brand + Brand Strategy Close Over",
+      "rect": {
+        "x": 0,
+        "y": 2284.828125,
+        "width": 1440,
+        "height": 918.921875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "160px 64px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row",
+      "text": "Our Services",
+      "rect": {
+        "x": 64,
+        "y": 2444.828125,
+        "width": 1312,
+        "height": 54.390625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12 col-sm-10 col-md-8 col-lg-6",
+      "text": "Our Services",
+      "rect": {
+        "x": 64,
+        "y": 2444.828125,
+        "width": 656,
+        "height": 54.390625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h2",
+      "className": "h2",
+      "text": "Our Services",
+      "rect": {
+        "x": 72,
+        "y": 2444.828125,
+        "width": 640,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 16px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Our Services",
+      "rect": {
+        "x": 72,
+        "y": 2444.828125,
+        "width": 640,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row cards",
+      "text": "Brand Strategy The blueprint for a differentiated, relevant & sustainable brand + Brand Strategy Close Overview We disti",
+      "rect": {
+        "x": 64,
+        "y": 2499.21875,
+        "width": 1312,
+        "height": 544.53125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12 col-lg",
+      "text": "Brand Strategy The blueprint for a differentiated, relevant & sustainable brand + Brand Strategy Close Overview We disti",
+      "rect": {
+        "x": 64,
+        "y": 2499.21875,
+        "width": 437.328125,
+        "height": 544.515625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "card-wrapper hover",
+      "text": "Brand Strategy The blueprint for a differentiated, relevant & sustainable brand +",
+      "rect": {
+        "x": 72,
+        "y": 2499.21875,
+        "width": 421.328125,
+        "height": 544.515625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(250, 250, 250)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "asset-wrapper",
+      "text": "",
+      "rect": {
+        "x": 72,
+        "y": 2499.21875,
+        "width": 421.328125,
+        "height": 421.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "image-wrapper zoom-in",
+      "text": "",
+      "rect": {
+        "x": 72,
+        "y": 2499.21875,
+        "width": 421.328125,
+        "height": 421.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "card-content",
+      "text": "Brand Strategy The blueprint for a differentiated, relevant & sustainable brand +",
+      "rect": {
+        "x": 72,
+        "y": 2920.546875,
+        "width": 421.328125,
+        "height": 123.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "24px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text-wrapper",
+      "text": "Brand Strategy The blueprint for a differentiated, relevant & sustainable brand",
+      "rect": {
+        "x": 96,
+        "y": 2944.546875,
+        "width": 317.328125,
+        "height": 75.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h3",
+      "className": "h3",
+      "text": "Brand Strategy",
+      "rect": {
+        "x": 96,
+        "y": 2944.546875,
+        "width": 317.328125,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "secondary-color small",
+      "text": "The blueprint for a differentiated, relevant & sustainable brand",
+      "rect": {
+        "x": 96,
+        "y": 2976.546875,
+        "width": 317.328125,
+        "height": 43.1875
+      },
+      "styles": {
+        "color": "rgb(110, 110, 110)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskB, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "margin": "8px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "btn secondary-label more-info",
+      "text": "+",
+      "rect": {
+        "x": 429.328125,
+        "y": 2962.140625,
+        "width": 40,
+        "height": 40
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "96px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "plus",
+      "text": "+",
+      "rect": {
+        "x": 444.796875,
+        "y": 2974.140625,
+        "width": 9.0625,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12 col-lg",
+      "text": "Visual Identity The design & motion system people recognize and remember + Visual Identity Close Overview A distinctive ",
+      "rect": {
+        "x": 501.328125,
+        "y": 2499.21875,
+        "width": 437.34375,
+        "height": 544.53125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "card-wrapper hover",
+      "text": "Visual Identity The design & motion system people recognize and remember +",
+      "rect": {
+        "x": 509.328125,
+        "y": 2499.21875,
+        "width": 421.34375,
+        "height": 544.53125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(250, 250, 250)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "asset-wrapper",
+      "text": "",
+      "rect": {
+        "x": 509.328125,
+        "y": 2499.21875,
+        "width": 421.34375,
+        "height": 421.34375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "image-wrapper zoom-in",
+      "text": "",
+      "rect": {
+        "x": 509.328125,
+        "y": 2499.21875,
+        "width": 421.34375,
+        "height": 421.34375
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "card-content",
+      "text": "Visual Identity The design & motion system people recognize and remember +",
+      "rect": {
+        "x": 509.328125,
+        "y": 2920.5625,
+        "width": 421.34375,
+        "height": 123.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "24px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text-wrapper",
+      "text": "Visual Identity The design & motion system people recognize and remember",
+      "rect": {
+        "x": 533.328125,
+        "y": 2944.5625,
+        "width": 317.34375,
+        "height": 75.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h3",
+      "className": "h3",
+      "text": "Visual Identity",
+      "rect": {
+        "x": 533.328125,
+        "y": 2944.5625,
+        "width": 317.34375,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "secondary-color small",
+      "text": "The design & motion system people recognize and remember",
+      "rect": {
+        "x": 533.328125,
+        "y": 2976.5625,
+        "width": 317.34375,
+        "height": 43.1875
+      },
+      "styles": {
+        "color": "rgb(110, 110, 110)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskB, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "margin": "8px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "btn secondary-label more-info",
+      "text": "+",
+      "rect": {
+        "x": 866.671875,
+        "y": 2962.15625,
+        "width": 40,
+        "height": 40
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "96px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "plus",
+      "text": "+",
+      "rect": {
+        "x": 882.140625,
+        "y": 2974.15625,
+        "width": 9.0625,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12 col-lg",
+      "text": "Web & UX They way people experience your brand online + Web & UX Close Overview We plan, design, and build your website ",
+      "rect": {
+        "x": 938.671875,
+        "y": 2499.21875,
+        "width": 437.328125,
+        "height": 544.515625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "card-wrapper hover",
+      "text": "Web & UX They way people experience your brand online +",
+      "rect": {
+        "x": 946.671875,
+        "y": 2499.21875,
+        "width": 421.328125,
+        "height": 544.515625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(250, 250, 250)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "asset-wrapper",
+      "text": "",
+      "rect": {
+        "x": 946.671875,
+        "y": 2499.21875,
+        "width": 421.328125,
+        "height": 421.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "image-wrapper zoom-in",
+      "text": "",
+      "rect": {
+        "x": 946.671875,
+        "y": 2499.21875,
+        "width": 421.328125,
+        "height": 421.328125
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "4px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "card-content",
+      "text": "Web & UX They way people experience your brand online +",
+      "rect": {
+        "x": 946.671875,
+        "y": 2920.546875,
+        "width": 421.328125,
+        "height": 123.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "24px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "text-wrapper",
+      "text": "Web & UX They way people experience your brand online",
+      "rect": {
+        "x": 970.671875,
+        "y": 2944.546875,
+        "width": 317.328125,
+        "height": 75.1875
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h3",
+      "className": "h3",
+      "text": "Web & UX",
+      "rect": {
+        "x": 970.671875,
+        "y": 2944.546875,
+        "width": 317.328125,
+        "height": 24
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "secondary-color small",
+      "text": "They way people experience your brand online",
+      "rect": {
+        "x": 970.671875,
+        "y": 2976.546875,
+        "width": 317.328125,
+        "height": 43.1875
+      },
+      "styles": {
+        "color": "rgb(110, 110, 110)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskB, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "margin": "8px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "btn secondary-label more-info",
+      "text": "+",
+      "rect": {
+        "x": 1304,
+        "y": 2962.140625,
+        "width": 40,
+        "height": 40
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgb(228, 228, 228)",
+        "fontFamily": "GeistMono, Menlo, Consolas, \"Courier New\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "96px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "plus",
+      "text": "+",
+      "rect": {
+        "x": 1319.46875,
+        "y": 2974.140625,
+        "width": 9.0625,
+        "height": 16
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "container sno social-proof color-style-ambient",
+      "text": "Clients and Partners Partner \"They bring a fresh and unique perspective to design - which is increasingly tough in today",
+      "rect": {
+        "x": 0,
+        "y": 3203.75,
+        "width": 1440,
+        "height": 666.390625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(245, 245, 245)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64px 160px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row headline",
+      "text": "Clients and Partners",
+      "rect": {
+        "x": 64,
+        "y": 3203.75,
+        "width": 1312,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px 0px 16px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12 col-sm-10 col-md-8 col-lg-6",
+      "text": "Clients and Partners",
+      "rect": {
+        "x": 64,
+        "y": 3203.75,
+        "width": 656,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h2",
+      "className": "h2",
+      "text": "Clients and Partners",
+      "rect": {
+        "x": 72,
+        "y": 3203.75,
+        "width": 640,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Clients and Partners",
+      "rect": {
+        "x": 72,
+        "y": 3203.75,
+        "width": 640,
+        "height": 38.390625
+      },
+      "styles": {
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "DieGroteskC, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "row entries",
+      "text": "Partner \"They bring a fresh and unique perspective to design - which is increasingly tough in today’s world with every b",
+      "rect": {
+        "x": 64,
+        "y": 3258.140625,
+        "width": 1312,
+        "height": 220
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "col-xs-12",
+      "text": "Partner \"They bring a fresh and unique perspective to design - which is increasingly tough in today’s world with every b",
+      "rect": {
+        "x": 64,
+        "y": 3258.140625,
+        "width": 1312,
+        "height": 220
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 8px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "testimonial-slider has-multiple",
+      "text": "Partner \"They bring a fresh and unique perspective to design - which is increasingly tough in today’s world with every b",
+      "rect": {
+        "x": 72,
+        "y": 3258.140625,
+        "width": 1296,
+        "height": 220
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Times",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://studio-nordost.com/",
+      "text": "",
+      "aria": "Studio Nordost",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 64,
+        "y": 38.796875,
+        "width": 85.328125,
+        "height": 28
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://studio-nordost.com/work",
+      "text": "Work",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 181.328125,
+        "y": 32,
+        "width": 69.5,
+        "height": 41.59375
+      }
+    },
+    {
+      "index": 2,
+      "href": "https://studio-nordost.com/studio",
+      "text": "Studio",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 258.828125,
+        "y": 32,
+        "width": 78.28125,
+        "height": 41.59375
+      }
+    },
+    {
+      "index": 3,
+      "href": "https://studio-nordost.com/contact-us",
+      "text": "Contact",
+      "aria": "",
+      "title": "",
+      "visible": false,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://studio-nordost.com/contact-us",
+      "text": "Contact",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1287.703125,
+        "y": 32,
+        "width": 88.28125,
+        "height": 41.59375
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://studio-nordost.com/work/viiala",
+      "text": "Viiala AG Swiss Mobility Startup Brand Identity Website Brand Strategy",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 64,
+        "y": 720,
+        "width": 437.328125,
+        "height": 622.109375
+      }
+    },
+    {
+      "index": 6,
+      "href": "https://studio-nordost.com/work/fortschritts-kompass",
+      "text": "Stadt Salzburg Platform for Citizens Website",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 501.328125,
+        "y": 720,
+        "width": 437.34375,
+        "height": 622.140625
+      }
+    },
+    {
+      "index": 7,
+      "href": "https://studio-nordost.com/work/olento",
+      "text": "Olento Outdoor Furniture Brand Brand Strategy Brand Identity Website Motion Identity",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 938.671875,
+        "y": 720,
+        "width": 437.328125,
+        "height": 622.109375
+      }
+    },
+    {
+      "index": 8,
+      "href": "mailto:alexander@studio-nordost.com",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 72,
+        "y": 4030.140625,
+        "width": 421.328125,
+        "height": 421.328125
+      }
+    },
+    {
+      "index": 9,
+      "href": "mailto:alexander@studio-nordost.com",
+      "text": "alexander@studio-nordost.com",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 72,
+        "y": 4498.46875,
+        "width": 211.609375,
+        "height": 18
+      }
+    },
+    {
+      "index": 10,
+      "href": "mailto:denise@studio-nordost.com",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 509.328125,
+        "y": 4030.140625,
+        "width": 421.34375,
+        "height": 421.34375
+      }
+    },
+    {
+      "index": 11,
+      "href": "mailto:denise@studio-nordost.com",
+      "text": "denise@studio-nordost.com",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 509.328125,
+        "y": 4498.484375,
+        "width": 190,
+        "height": 18
+      }
+    },
+    {
+      "index": 12,
+      "href": "mailto:sebastian@studio-nordost.com",
+      "text": "",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 946.671875,
+        "y": 4030.140625,
+        "width": 421.328125,
+        "height": 421.328125
+      }
+    },
+    {
+      "index": 13,
+      "href": "mailto:sebastian@studio-nordost.com",
+      "text": "sebastian@studio-nordost.com",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 946.671875,
+        "y": 4498.46875,
+        "width": 211.609375,
+        "height": 18
+      }
+    },
+    {
+      "index": 14,
+      "href": "https://studio-nordost.com/",
+      "text": "Home",
+      "aria": "",
+      "title": "Home",
+      "visible": true,
+      "rect": {
+        "x": 1056,
+        "y": 5785.359375,
+        "width": 312,
+        "height": 27.59375
+      }
+    },
+    {
+      "index": 15,
+      "href": "https://studio-nordost.com/work",
+      "text": "Work",
+      "aria": "",
+      "title": "Work",
+      "visible": true,
+      "rect": {
+        "x": 1056,
+        "y": 5820.953125,
+        "width": 312,
+        "height": 27.59375
+      }
+    },
+    {
+      "index": 16,
+      "href": "https://studio-nordost.com/studio",
+      "text": "Studio",
+      "aria": "",
+      "title": "Studio",
+      "visible": true,
+      "rect": {
+        "x": 1056,
+        "y": 5856.546875,
+        "width": 312,
+        "height": 27.59375
+      }
+    },
+    {
+      "index": 17,
+      "href": "https://studio-nordost.com/contact-us",
+      "text": "Contact",
+      "aria": "",
+      "title": "Contact",
+      "visible": true,
+      "rect": {
+        "x": 1056,
+        "y": 5892.140625,
+        "width": 312,
+        "height": 27.59375
+      }
+    },
+    {
+      "index": 18,
+      "href": "mailto:hi@studio-nordost.com",
+      "text": "hi@studio-nordost.com",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 400,
+        "y": 6197.859375,
+        "width": 312,
+        "height": 44
+      }
+    },
+    {
+      "index": 19,
+      "href": "https://studio-nordost.com/imprint-privacy",
+      "text": "Imprint & Privacy",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 728,
+        "y": 6197.859375,
+        "width": 312,
+        "height": 44
+      }
+    },
+    {
+      "index": 20,
+      "href": "https://www.instagram.com/studio.nordost/",
+      "text": "Connect on Instagram",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1056,
+        "y": 6197.859375,
+        "width": 312,
+        "height": 44
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "",
+      "href": "https://studio-nordost.com/",
+      "aria": "Studio Nordost",
+      "rect": {
+        "x": 64,
+        "y": 38.796875,
+        "width": 85.328125,
+        "height": 28
+      }
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "Work",
+      "href": "https://studio-nordost.com/work",
+      "aria": "",
+      "rect": {
+        "x": 181.328125,
+        "y": 32,
+        "width": 69.5,
+        "height": 41.59375
+      }
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "Studio",
+      "href": "https://studio-nordost.com/studio",
+      "aria": "",
+      "rect": {
+        "x": 258.828125,
+        "y": 32,
+        "width": 78.28125,
+        "height": 41.59375
+      }
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "Contact",
+      "href": "https://studio-nordost.com/contact-us",
+      "aria": "",
+      "rect": {
+        "x": 1287.703125,
+        "y": 32,
+        "width": 88.28125,
+        "height": 41.59375
+      }
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "Viiala AG Swiss Mobility Startup Brand Identity Website Brand Strategy",
+      "href": "https://studio-nordost.com/work/viiala",
+      "aria": "",
+      "rect": {
+        "x": 64,
+        "y": 720,
+        "width": 437.328125,
+        "height": 622.109375
+      }
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "Stadt Salzburg Platform for Citizens Website",
+      "href": "https://studio-nordost.com/work/fortschritts-kompass",
+      "aria": "",
+      "rect": {
+        "x": 501.328125,
+        "y": 720,
+        "width": 437.34375,
+        "height": 622.140625
+      }
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "Olento Outdoor Furniture Brand Brand Strategy Brand Identity Website Motion Iden",
+      "href": "https://studio-nordost.com/work/olento",
+      "aria": "",
+      "rect": {
+        "x": 938.671875,
+        "y": 720,
+        "width": 437.328125,
+        "height": 622.109375
+      }
+    },
+    {
+      "index": 7,
+      "tag": "div",
+      "text": "Brand Strategy The blueprint for a differentiated, relevant & sustainable brand ",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 72,
+        "y": 2499.21875,
+        "width": 421.328125,
+        "height": 544.515625
+      }
+    },
+    {
+      "index": 8,
+      "tag": "div",
+      "text": "Visual Identity The design & motion system people recognize and remember +",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 509.328125,
+        "y": 2499.21875,
+        "width": 421.34375,
+        "height": 544.53125
+      }
+    },
+    {
+      "index": 9,
+      "tag": "div",
+      "text": "Web & UX They way people experience your brand online +",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 946.671875,
+        "y": 2499.21875,
+        "width": 421.328125,
+        "height": 544.515625
+      }
+    },
+    {
+      "index": 10,
+      "tag": "button",
+      "text": "1/9",
+      "href": "",
+      "aria": "Show next testimonial (1/9)",
+      "rect": {
+        "x": 1218.203125,
+        "y": 3282.140625,
+        "width": 125.796875,
+        "height": 42.890625
+      }
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "",
+      "href": "mailto:alexander@studio-nordost.com",
+      "aria": "",
+      "rect": {
+        "x": 72,
+        "y": 4030.140625,
+        "width": 421.328125,
+        "height": 421.328125
+      }
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "alexander@studio-nordost.com",
+      "href": "mailto:alexander@studio-nordost.com",
+      "aria": "",
+      "rect": {
+        "x": 72,
+        "y": 4498.46875,
+        "width": 211.609375,
+        "height": 18
+      }
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "",
+      "href": "mailto:denise@studio-nordost.com",
+      "aria": "",
+      "rect": {
+        "x": 509.328125,
+        "y": 4030.140625,
+        "width": 421.34375,
+        "height": 421.34375
+      }
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "denise@studio-nordost.com",
+      "href": "mailto:denise@studio-nordost.com",
+      "aria": "",
+      "rect": {
+        "x": 509.328125,
+        "y": 4498.484375,
+        "width": 190,
+        "height": 18
+      }
+    },
+    {
+      "index": 15,
+      "tag": "a",
+      "text": "",
+      "href": "mailto:sebastian@studio-nordost.com",
+      "aria": "",
+      "rect": {
+        "x": 946.671875,
+        "y": 4030.140625,
+        "width": 421.328125,
+        "height": 421.328125
+      }
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "text": "sebastian@studio-nordost.com",
+      "href": "mailto:sebastian@studio-nordost.com",
+      "aria": "",
+      "rect": {
+        "x": 946.671875,
+        "y": 4498.46875,
+        "width": 211.609375,
+        "height": 18
+      }
+    },
+    {
+      "index": 17,
+      "tag": "button",
+      "text": "Get in Touch hi@studio-nordost.com Copy Copied",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 72,
+        "y": 5031.859375,
+        "width": 164.8125,
+        "height": 50
+      }
+    },
+    {
+      "index": 18,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://studio-nordost.com/",
+      "aria": "",
+      "rect": {
+        "x": 1056,
+        "y": 5785.359375,
+        "width": 312,
+        "height": 27.59375
+      }
+    },
+    {
+      "index": 19,
+      "tag": "a",
+      "text": "Work",
+      "href": "https://studio-nordost.com/work",
+      "aria": "",
+      "rect": {
+        "x": 1056,
+        "y": 5820.953125,
+        "width": 312,
+        "height": 27.59375
+      }
+    },
+    {
+      "index": 20,
+      "tag": "a",
+      "text": "Studio",
+      "href": "https://studio-nordost.com/studio",
+      "aria": "",
+      "rect": {
+        "x": 1056,
+        "y": 5856.546875,
+        "width": 312,
+        "height": 27.59375
+      }
+    },
+    {
+      "index": 21,
+      "tag": "a",
+      "text": "Contact",
+      "href": "https://studio-nordost.com/contact-us",
+      "aria": "",
+      "rect": {
+        "x": 1056,
+        "y": 5892.140625,
+        "width": 312,
+        "height": 27.59375
+      }
+    },
+    {
+      "index": 22,
+      "tag": "a",
+      "text": "hi@studio-nordost.com",
+      "href": "mailto:hi@studio-nordost.com",
+      "aria": "",
+      "rect": {
+        "x": 400,
+        "y": 6197.859375,
+        "width": 312,
+        "height": 44
+      }
+    },
+    {
+      "index": 23,
+      "tag": "a",
+      "text": "Imprint & Privacy",
+      "href": "https://studio-nordost.com/imprint-privacy",
+      "aria": "",
+      "rect": {
+        "x": 728,
+        "y": 6197.859375,
+        "width": 312,
+        "height": 44
+      }
+    },
+    {
+      "index": 24,
+      "tag": "a",
+      "text": "Connect on Instagram",
+      "href": "https://www.instagram.com/studio.nordost/",
+      "aria": "",
+      "rect": {
+        "x": 1056,
+        "y": 6197.859375,
+        "width": 312,
+        "height": 44
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

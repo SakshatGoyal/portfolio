@@ -1,0 +1,730 @@
+[
+  {
+    "label": "selected-entry-0000ms",
+    "labels": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.18s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.22s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.35s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.39s"
+      }
+    ],
+    "thumbs": [
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.235s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.275s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.405s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.445s"
+      }
+    ],
+    "titles": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.325s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.365s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.495s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.535s"
+      }
+    ],
+    "years": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.485s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.525s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.655s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.695s"
+      }
+    ]
+  },
+  {
+    "label": "selected-entry-0080ms",
+    "labels": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.18s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.22s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.35s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.39s"
+      }
+    ],
+    "thumbs": [
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.235s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.275s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.405s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.445s"
+      }
+    ],
+    "titles": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.325s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.365s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.495s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.535s"
+      }
+    ],
+    "years": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.485s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.525s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.655s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.695s"
+      }
+    ]
+  },
+  {
+    "label": "selected-entry-0180ms",
+    "labels": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.18s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.22s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.35s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.39s"
+      }
+    ],
+    "thumbs": [
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.235s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.275s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.405s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.445s"
+      }
+    ],
+    "titles": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.325s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.365s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.495s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.535s"
+      }
+    ],
+    "years": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.485s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.525s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.655s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.695s"
+      }
+    ]
+  },
+  {
+    "label": "selected-entry-0320ms",
+    "labels": [
+      {
+        "opacity": 0.586042,
+        "transform": "none",
+        "animationDelay": "0.18s"
+      },
+      {
+        "opacity": 0.224449,
+        "transform": "none",
+        "animationDelay": "0.22s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.35s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.39s"
+      }
+    ],
+    "thumbs": [
+      {
+        "opacity": 0.622158,
+        "transform": "matrix(0.993955, 0, 0, 0.993955, 0, 0)",
+        "animationDelay": "0.235s"
+      },
+      {
+        "opacity": 0.382164,
+        "transform": "matrix(0.990115, 0, 0, 0.990115, 0, 0)",
+        "animationDelay": "0.275s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.405s"
+      },
+      {
+        "opacity": 0,
+        "transform": "matrix(0.984, 0, 0, 0.984, 0, 0)",
+        "animationDelay": "0.445s"
+      }
+    ],
+    "titles": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.325s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.365s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.495s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.535s"
+      }
+    ],
+    "years": [
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.485s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.525s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.655s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.695s"
+      }
+    ]
+  },
+  {
+    "label": "selected-entry-0520ms",
+    "labels": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.18s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.22s"
+      },
+      {
+        "opacity": 0.821722,
+        "transform": "none",
+        "animationDelay": "0.35s"
+      },
+      {
+        "opacity": 0.481098,
+        "transform": "none",
+        "animationDelay": "0.39s"
+      }
+    ],
+    "thumbs": [
+      {
+        "opacity": 0.968368,
+        "transform": "matrix(0.999494, 0, 0, 0.999494, 0, 0)",
+        "animationDelay": "0.235s"
+      },
+      {
+        "opacity": 0.946646,
+        "transform": "matrix(0.999146, 0, 0, 0.999146, 0, 0)",
+        "animationDelay": "0.275s"
+      },
+      {
+        "opacity": 0.738517,
+        "transform": "matrix(0.995816, 0, 0, 0.995816, 0, 0)",
+        "animationDelay": "0.405s"
+      },
+      {
+        "opacity": 0.572541,
+        "transform": "matrix(0.993161, 0, 0, 0.993161, 0, 0)",
+        "animationDelay": "0.445s"
+      }
+    ],
+    "titles": [
+      {
+        "opacity": 0.528577,
+        "transform": "none",
+        "animationDelay": "0.325s"
+      },
+      {
+        "opacity": 0.272353,
+        "transform": "none",
+        "animationDelay": "0.365s"
+      },
+      {
+        "opacity": 0.00667519,
+        "transform": "none",
+        "animationDelay": "0.495s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.535s"
+      }
+    ],
+    "years": [
+      {
+        "opacity": 0.021955,
+        "transform": "none",
+        "animationDelay": "0.485s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.525s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.655s"
+      },
+      {
+        "opacity": 0,
+        "transform": "none",
+        "animationDelay": "0.695s"
+      }
+    ]
+  },
+  {
+    "label": "selected-entry-0780ms",
+    "labels": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.18s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.22s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.35s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.39s"
+      }
+    ],
+    "thumbs": [
+      {
+        "opacity": 0.999961,
+        "transform": "matrix(0.999999, 0, 0, 0.999999, 0, 0)",
+        "animationDelay": "0.235s"
+      },
+      {
+        "opacity": 0.999664,
+        "transform": "matrix(0.999995, 0, 0, 0.999995, 0, 0)",
+        "animationDelay": "0.275s"
+      },
+      {
+        "opacity": 0.99161,
+        "transform": "matrix(0.999866, 0, 0, 0.999866, 0, 0)",
+        "animationDelay": "0.405s"
+      },
+      {
+        "opacity": 0.984083,
+        "transform": "matrix(0.999745, 0, 0, 0.999745, 0, 0)",
+        "animationDelay": "0.445s"
+      }
+    ],
+    "titles": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.325s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.365s"
+      },
+      {
+        "opacity": 0.921784,
+        "transform": "none",
+        "animationDelay": "0.495s"
+      },
+      {
+        "opacity": 0.807897,
+        "transform": "none",
+        "animationDelay": "0.535s"
+      }
+    ],
+    "years": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.485s"
+      },
+      {
+        "opacity": 0.998794,
+        "transform": "none",
+        "animationDelay": "0.525s"
+      },
+      {
+        "opacity": 0.412304,
+        "transform": "none",
+        "animationDelay": "0.655s"
+      },
+      {
+        "opacity": 0.139276,
+        "transform": "none",
+        "animationDelay": "0.695s"
+      }
+    ]
+  },
+  {
+    "label": "selected-entry-0900ms",
+    "labels": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.18s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.22s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.35s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.39s"
+      }
+    ],
+    "thumbs": [
+      {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.235s"
+      },
+      {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.275s"
+      },
+      {
+        "opacity": 0.999453,
+        "transform": "matrix(0.999991, 0, 0, 0.999991, 0, 0)",
+        "animationDelay": "0.405s"
+      },
+      {
+        "opacity": 0.998247,
+        "transform": "matrix(0.999972, 0, 0, 0.999972, 0, 0)",
+        "animationDelay": "0.445s"
+      }
+    ],
+    "titles": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.325s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.365s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.495s"
+      },
+      {
+        "opacity": 0.996905,
+        "transform": "none",
+        "animationDelay": "0.535s"
+      }
+    ],
+    "years": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.485s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.525s"
+      },
+      {
+        "opacity": 0.993139,
+        "transform": "none",
+        "animationDelay": "0.655s"
+      },
+      {
+        "opacity": 0.935629,
+        "transform": "none",
+        "animationDelay": "0.695s"
+      }
+    ]
+  },
+  {
+    "label": "selected-entry-1100ms",
+    "labels": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.18s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.22s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.35s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.39s"
+      }
+    ],
+    "thumbs": [
+      {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.235s"
+      },
+      {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.275s"
+      },
+      {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.405s"
+      },
+      {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "animationDelay": "0.445s"
+      }
+    ],
+    "titles": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.325s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.365s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.495s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.535s"
+      }
+    ],
+    "years": [
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.485s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.525s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.655s"
+      },
+      {
+        "opacity": 1,
+        "transform": "none",
+        "animationDelay": "0.695s"
+      }
+    ]
+  }
+]

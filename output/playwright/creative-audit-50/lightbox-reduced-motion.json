@@ -1,0 +1,12 @@
+{
+  "open": true,
+  "classes": "lightbox is-open",
+  "opacity": "1",
+  "transform": "none",
+  "transitionDuration": "0s",
+  "backdropOpacity": "1",
+  "imageHidden": false,
+  "imageOpacity": "1",
+  "imageTransform": "none",
+  "imageTransitionDuration": "0s"
+}

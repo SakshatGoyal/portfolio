@@ -1,0 +1,86 @@
+Forme Life
+Case Study
+[ 01 ]
+An ongoing study of animation and micro-interactions in user interfaces. How does motion carry meaning and purpose for the story of the experience?
+[ 02 ]
+An ongoing study of animation and micro-interactions in user interfaces. How does motion carry meaning and purpose for the story of the experience?
+‍
+01
+An ongoing study of animation and micro-interactions in user interfaces. How does motion carry meaning and purpose for the story of the experience?
+[ 02 ]
+Heading
+Forme Life
+Case STudy
+Heading
+Heading
+Heading 6
+Heading
+This is some text inside of a div block.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+An ongoing study of animation and micro-interactions in user interfaces. How does motion carry meaning and purpose for the story of the experience?
+@media only screen and (min-width: 1440px) { body {font-size: 14.4px;} }
+.grain-base { pointer-events: none; }
+BACK HOME
+Twitter
+Case Study
+[ 1 ] THE CHALLENGE
+Define and develop the Developer Platform rebrand through multiple mediums across Twitter.
+[ 2 ] THE BASICS
+Creative direction and design for web, print and motion graphics.
+[ 3 ] THE DETAILS
+Twitter 2021-2022, 10 months
+Rebranding from enterprise solutions to developer innovation
+This brand reboot marks a strategic shift for the Developer Platform, as the team moves from an enterprise-focused service focus back into an innovative and experimental hub. Third party developers had their fingerprints all over the foundations of Twitter, inventing the use of the hashtag and the retweet. Celebrating and fostering this community is again at the forefront of Twitter's focus as we build
+with
+developers and
+for
+developers.
+[ 01 ]
+Evolving the collage aesthetic of the parent Twitter brand.
+[ 02 ]
+Incorporating graphic design, web design and motion.
+A Visual Identity Full of Depth and Life
+Using the Twitter parent brand as a starting point, the Developer Platform evolves the use of texture and collages to celebrate the creativity of our developer community. Color palettes are simplified to create focus and clarity. Tears on the edges of compositions reveals code underneath, symbolizing the technology that powers everything we do.
+[ 03 ]
+Mastheads for each page of the new developer.twitter.com website.
+[ 04 ]
+Page spreads for the brand book we sent out to developers in the community.
+Showing Up In Print
+We couldn't let it stop on the screen. We put the story in the actual hands of our developer community in the form of newspaper print, stickers and merch. The imperfections of the collage aesthetic became enhanced in print. The impact of color became more powerful when used sparingly on the grey newspaper stock. All of it was to spread a sense of pride as our community flipped through and read the stories of developer innovation on Twitter.
+[ 05 ]
+Hero spreads for chapter sections of the brand book.
+[ 06 ]
+Stickers with our "Build/" tagline.
+[ 07 ]
+Shirts with each of our 5 core principle hero graphics displayed in front.
+[ 08 ]
+A selection of spreads from the brand book.
+Code in Motion
+Our team expanded this rich design language into motion. Textures and collages come to life in a stop-motion style and code is actively gets created on screen. We created a
+vision video
+to capture the Developer Platform mission and kicked off a series of stories from the developer community called
+#BehindtheCode
+. The series explores how developers like
+Tracy Chou
+and
+Janique-ka
+use creativity and code to enhance the Twitter experience. Stories like this inspire us to innovate for the sake of serving the public conversation on Twitter.
+[ 09 ]
+Scenes from our Vision Video.
+[ 10 ]
+Innovation and creativity are the core of the new Developer Platform brand.
+A bit about process
+The success of the hand crafted look of the collage relies on the ability to achieve focus in the composition. The paper textures, tears and code all serve to give the composition character, but if used too liberally can risk being distracting to the story we are trying to tell. We worked hard to keep a singular element as the primary subject of each piece, with secondary and tertiary elements serving that subject with context.
+[ 11 ]
+Exploring to find the perfect composition.
+Not too shabby. Keep exploring below.
+GO HOME
+NEXT PROJECT
+INSTAGRAM
+DRIBBBLE
+TWITTER
+PHOTOGRAPHY
+MEDIUM
+LINKEDIN
+// Page load at the top, https://forum.webflow.com/t/load-page-at-the-top-when-the-user-refreshes/62163/6
+$(window).on('beforeunload', function() { $('body').hide(); $(window).scrollTop(0); });

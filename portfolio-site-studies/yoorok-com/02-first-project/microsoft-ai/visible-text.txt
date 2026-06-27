@@ -1,0 +1,620 @@
+Skip to main content
+Source
+Our Company
+Signal blog
+Official Microsoft Blog
+Microsoft On The Issues
+Asia
+Canada
+Europe, Middle East and Africa
+Latin America
+The Code of Us
+Conexiones
+What's new today
+AI
+Innovation
+Digital Transformation
+Sustainability
+Security
+Work & Life
+Diversity & Inclusion
+Unlocked
+More
+Our Company
+Signal blog
+Official Microsoft Blog
+Microsoft On The Issues
+Asia
+Canada
+Europe, Middle East and Africa
+Latin America
+The Code of Us
+Conexiones
+What's new today
+AI
+Innovation
+Digital Transformation
+Sustainability
+Security
+Work & Life
+Diversity & Inclusion
+Unlocked
+All Microsoft
+Microsoft 365
+Azure
+Copilot
+Windows
+Surface
+XBOX
+Deals
+Small Business
+Support
+Software
+Windows Apps
+Outlook
+OneDrive
+Microsoft Teams
+OneNote
+Microsoft Edge
+Moving from Skype to Teams
+PCs & Devices
+Computers
+Shop XBOX
+Accessories
+VR & mixed reality
+Certified Refurbished
+Trade-in for cash
+Entertainment
+XBOX Game Pass Ultimate
+PC Game Pass
+XBOX games
+PC games
+Business
+Microsoft AI
+Microsoft Security
+Dynamics 365
+Microsoft 365 for business
+Microsoft Power Platform
+Windows 365
+Small Business
+Digital Sovereignty
+Developer & IT
+Azure
+Microsoft Developer
+Microsoft Learn
+Support for AI marketplace apps
+Microsoft Tech Community
+Microsoft Marketplace
+Software companies
+Visual Studio
+Other
+Microsoft Rewards
+Free downloads & security
+Education
+Gift cards
+Licensing
+Unlocked stories
+View Sitemap
+Cancel
+Search
+Models
+Latest models
+Discover the latest MAI models, designed for real-world intelligence
+MAI-Thinking-1
+MAI-Code-1-Flash
+MAI-Image-2.5
+MAI-Transcribe-1.5
+All models
+MAI-Thinking-1
+Built for the complex problems that matter most, with competitive reasoning and top SWE-Bench Pro results at a mid-weight price.
+MAI-Code-1-Flash
+Helps your engineering team write better code faster, with a lightweight, agentic model built into GitHub Copilot and VS Code.
+MAI-Image-2.5
+Create stunning, design-ready images from any text or photo prompt, with best-in-class Arena ELO scores at a lower price.
+MAI-Transcribe-1.5
+Turn noisy audio into precise, domain-specific transcripts, with leading FLEURS and Artificial Analysis accuracy scores.
+Blog
+Featured stories
+The latest breakthroughs and updates from within our team
+Building a hill-climbing machine: Launching seven new MAI models
+8 min read
+MAI-Image-2.5 launches at No. 2 for image editing on Arena
+4 min read
+Introducing MAI-Code-1-Flash
+5 min read
+All stories
+Careers
+Try Models
+Try Models
+Contact
+Privacy & Cookies
+Terms
+Trademarks
+Microsoft.com
+LinkedIn
+Instagram
+X
+Off
+Accessibility Mode
+Off
+Accessibility Mode
+Humanist
+Superintelligence
+Humanist
+Superintelligence
+Responsible AI to empower humanity
+Building a hill-climbing machine:
+Launching seven new MAI models
+announcements
+8 min read
+Discover and build with the latest MAI models
+Discover
+and
+build
+with
+the
+latest
+MAI
+models
+Foundational model
+MAI-Thinking-1
+Learn more
+Built for the complex problems that matter most, with competitive reasoning and top SWE-Bench Pro results at a mid-weight price.
+Learn more
+Foundational model
+MAI-Code-1-Flash
+Learn more
+Helps your engineering team write better code faster, with a lightweight, agentic model built into GitHub Copilot and VS Code.
+Learn more
+Foundational model
+MAI-Image-2.5
+Learn more
+Create stunning, design-ready images from any text or photo prompt, with best-in-class Arena ELO scores at a lower price.
+Learn more
+Foundational model
+MAI-Transcribe-1.5
+Learn more
+Turn noisy audio into precise, domain-specific transcripts, with leading FLEURS and Artificial Analysis accuracy scores.
+Learn more
+Foundational model
+MAI-Voice-2
+Learn more
+Delivers expressive, low-latency speech that holds up across long generations.
+Learn more
+All models
+At MAI, we’re building the world’s most capable AI systems, with humanity at the center of every decision.
+At
+MAI,
+we’re
+building
+the
+world’s
+most
+capable
+AI
+systems,
+with
+humanity
+at
+the
+center
+of
+every
+decision.
+Humanist Superintelligence means building the world’s most advanced AI systems designed to stay controllable, aligned, and firmly in service of humanity.
+Humanist
+Superintelligence
+means
+building
+the
+world’s
+most
+advanced
+AI
+systems
+designed
+to
+stay
+controllable,
+aligned,
+and
+firmly
+in
+service
+of
+humanity.
+Our Values
+Kindness
+Trust
+Quality
+Simplicity
+Safety & Security
+Evaluation
+How we work shapes what we build. A team that communicates with care and makes space for different perspectives builds better.
+How
+we
+work
+shapes
+what
+we
+build.
+A
+team
+that
+communicates
+with
+care
+and
+makes
+space
+for
+different
+perspectives
+builds
+better.
+Trust is earned through consistency and honesty. We’re as clear about our limits as we are about our strengths.
+Trust
+is
+earned
+through
+consistency
+and
+honesty.
+We’re
+as
+clear
+about
+our
+limits
+as
+we
+are
+about
+our
+strengths.
+We aspire to create the very best models in the world: accurate, reliable, and genuinely useful across the work that matters most.
+We
+aspire
+to
+create
+the
+very
+best
+models
+in
+the
+world:
+accurate,
+reliable,
+and
+genuinely
+useful
+across
+the
+work
+that
+matters
+most.
+We design for clarity so you can focus on the work, not the technology.
+We
+design
+for
+clarity
+so
+you
+can
+focus
+on
+the
+work,
+not
+the
+technology.
+We believe responsible and capable AI aren’t in tension. We build with privacy, security, and human rights in mind.
+We
+believe
+responsible
+and
+capable
+AI
+aren’t
+in
+tension.
+We
+build
+with
+privacy,
+security,
+and
+human
+rights
+in
+mind.
+We test rigorously, listen closely, and improve constantly. Our models get better because we never stop measuring.
+We
+test
+rigorously,
+listen
+closely,
+and
+improve
+constantly.
+Our
+models
+get
+better
+because
+we
+never
+stop
+measuring.
+Kindness
+How we work shapes what we build. A team that communicates with care and makes space for different perspectives builds better.
+Trust
+Trust is earned through consistency and honesty. We’re as clear about our limits as we are about our strengths.
+Quality
+We aspire to create the very best models in the world: accurate, reliable, and genuinely useful across the work that matters most.
+Simplicity
+We design for clarity so you can focus on the work, not the technology.
+Safety & Security
+We believe responsible and capable AI aren’t in tension. We build with privacy, security, and human rights in mind.
+Evaluation
+We test rigorously, listen closely, and improve constantly. Our models get better because we never stop measuring.
+Join us
+Join
+us
+We’re a lean, talent-dense team of explorers, researchers, and full-stack engineers. We move fast, sweat the details, and operate at frontier scale with a roadmap to build the world’s most powerful AI models. Most importantly, we’re united by the belief that doing this right is the only way to do it at all.
+If our mission resonates with you, we’d love to talk.
+We’re
+a
+lean,
+talent-
+dense
+team
+of
+explorers,
+researchers,
+and
+full-
+stack
+engineers.
+We
+move
+fast,
+sweat
+the
+details,
+and
+operate
+at
+frontier
+scale
+with
+a
+roadmap
+to
+build
+the
+world’s
+most
+powerful
+AI
+models.
+Most
+importantly,
+we’re
+united
+by
+the
+belief
+that
+doing
+this
+right
+is
+the
+only
+way
+to
+do
+it
+at
+all.
+If
+our
+mission
+resonates
+with
+you,
+we’d
+love
+to
+talk.
+Explore jobs
+Key Locations
+Key
+Locations
+We have offices in cities across the globe.
+Where will you join?
+M
+o
+u
+n
+t
+a
+i
+n
+V
+i
+e
+w
+Sunlit sprawl between the bay and the coastal hills, in the restless heart of the technology industry, where founders, bold ideas, and ambition are never in short supply.
+Explore Jobs
+R
+e
+d
+m
+o
+n
+d
+Where Microsoft began – set among the evergreen forests, lakes, and mountains of the Pacific Northwest, a calm and grounded place built for deep work and the long view.
+Explore Jobs
+N
+e
+w
+Y
+o
+r
+k
+Positioned among landmark architecture, tree-lined plazas, and one of Manhattan’s liveliest creative quarters. With the city’s culture right at its doorstep, it’s a hub of innovation and energy.
+Explore Jobs
+L
+o
+n
+d
+o
+n
+A global capital where centuries of history meet a thriving AI scene, alive with the talent and ideas shaping what comes next.
+Explore Jobs
+Z
+u
+r
+i
+c
+h
+Lake Zurich, the Alps, and Swiss precision, home to some of Europe’s sharpest engineering minds and a deep belief in doing things exactly right.
+Explore Jobs
+We are building a practical superintelligence, rooted in the challenges of real people and businesses. This is the world’s most advanced AI designed to address our biggest problems and always remain under human control.
+We
+are
+building
+a
+practical
+superintelligence,
+rooted
+in
+the
+challenges
+of
+real
+people
+and
+businesses.
+This
+is
+the
+world’s
+most
+advanced
+AI
+designed
+to
+address
+our
+biggest
+problems
+and
+always
+remain
+under
+human
+control.
+Mustafa Suleyman
+CEO Microsoft AI
+Models
+Blog
+Careers
+Playground
+LinkedIn
+Instagram
+X
+Contact
+Privacy & Cookies
+Terms
+Trademarks
+Microsoft.com
+© Microsoft 2026
+This site runs Microsoft Clarity for behavioral insights. By using this site, you consent to the collection and use of your data, such as how you interact with this website, by Microsoft for product improvements. Learn more
+here
+and at our
+Privacy Statement
+.
+
+English (United States)
+Your Privacy Choices Opt-Out Icon
+Your Privacy Choices
+Consumer Health Privacy
+What's new
+Surface Pro
+Surface Laptop
+Surface Laptop Ultra
+Surface RTX Spark Dev Box
+Copilot for organizations
+Copilot for personal use
+Explore Microsoft products
+Windows 11 apps
+Microsoft Store
+Account profile
+Download Center
+Microsoft Store support
+Returns
+Order tracking
+Certified Refurbished
+Microsoft Store Promise
+Flexible Payments
+Education
+Microsoft in education
+Devices for education
+Microsoft Teams for Education
+Microsoft 365 Education
+How to buy for your school
+Educator training and development
+Deals for students and parents
+AI for education
+Business
+Microsoft AI
+Microsoft Security
+Dynamics 365
+Microsoft 365
+Microsoft Power Platform
+Microsoft Teams
+Microsoft 365 Copilot
+Small Business
+Developer & IT
+Azure
+Microsoft Developer
+Microsoft Learn
+Support for AI marketplace apps
+Microsoft Tech Community
+Microsoft Marketplace
+Software companies
+Visual Studio
+Company
+Careers
+About Microsoft
+Company news
+Privacy at Microsoft
+Investors
+Diversity and inclusion
+Accessibility
+Sustainability
+English (United States)
+Your Privacy Choices Opt-Out Icon
+Your Privacy Choices
+<a class="uhf-footer-link" href="https://aka.ms/yourcaliforniaprivacychoices" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalFooter&quot;, &quot;hn&quot;: &quot;LegalNav&quot;, &quot;cN&quot;: &quot;LegalNav_California Privacy_nav&quot;, &quot;ecn&quot;: &quot;LegalNav_CaliforniaPrivacy_nav&quot;, &quot;ehn&quot;: &quot;LegalNav&quot;}"> <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43"> <title>Your Privacy Choices Opt-Out Icon</title> <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"/> <path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"/> <path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"/> <path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"/> </svg> <span>Your Privacy Choices</span> </a>
+Consumer Health Privacy
+Sitemap
+Contact Microsoft
+Privacy
+Manage cookies
+Terms of use
+Trademarks
+Safety & eco
+Recycling
+About our ads
+© Microsoft
+2026
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/wp-base-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+/* <![CDATA[ */ var ms_uhf_data = {"settings":"{\"services\":[{\"name\":\"Clarity\",\"cookies\":\"_clck\",\"domains\":\".wpenginepowered.com\\nmicrosoft.ai\\n.microsoft.ai\",\"categories\":{\"Analytics\":true,\"Advertising\":false,\"SocialMedia\":false},\"code\":\"// Pass consent information to Clarity using Google Consent Mode syntax\\nwindow.dataLayer = window.dataLayer || [];\\nfunction gtag(){ dataLayer.push(arguments); }\\n\\ngtag('consent', 'update', {\\n ad_storage: 'granted',\\n analytics_storage: 'granted'\\n});\\n\\n// Initialize Clarity\\n(function(c,l,a,r,i,t,y){\\n c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\\n t=l.createElement(r); t.async=1;\\n t.src='https://www.clarity.ms/tag/'+i;\\n y=l.getElementsByTagName(r)[0];\\n y.parentNode.insertBefore(t,y);\\n})(window, document, 'clarity', 'script', 'pdgkdeku22');\"},{\"name\":\"1DS\",\"cookies\":\"\",\"domains\":\"\",\"categories\":{\"Analytics\":true,\"Advertising\":false,\"SocialMedia\":false},\"code\":\"(function () {\\n\\n var script = document.createElement('script');\\n script.type = 'text/javascript';\\n script.src = 'https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js';\\n script.async = true;\\n\\n function checkOneDS() {\\n\\n if (!window.oneDS) {\\n // console.log('WAIT_FOR_1DS');\\n setTimeout(checkOneDS, 1000);\\n return;\\n }\\n\\n // console.log('1DS_SCRIPT_LOADED', window.oneDS);\\n\\n const analytics = new window.oneDS.ApplicationInsights();\\n\\n var config = {\\n instrumentationKey: '7e687efd1573485194c70f1e1c755ac1-b9838312-3b20-4674-ac12-6b31252dddcb-6691',\\n channelConfiguration: {\\n eventsLimitInMem: 50\\n },\\n propertyConfiguration: {\\n env: ''\\n },\\n webAnalyticsConfiguration: {\\n autoCapture: {\\n scroll: true,\\n pageView: true,\\n onLoad: true,\\n onUnload: true,\\n click: true,\\n resize: true,\\n jsError: true\\n }\\n }\\n };\\n\\n // console.log('1DS_INIT_START', analytics, config);\\n\\n analytics.initialize(config, []);\\n\\n // console.log('1DS_INIT_DONE');\\n\\n };\\n\\n \\n document.head.appendChild(script);\\n\\n checkOneDS();\\n\\n\\n})();\"}],\"updated\":true}"}; //# sourceURL=ms_uhf_cookies_js-js-extra /* ]]> */
+// Pass consent information to Clarity using Google Consent Mode syntax window.dataLayer = window.dataLayer || []; function gtag(){ dataLayer.push(arguments); } gtag('consent', 'update', { ad_storage: 'granted', analytics_storage: 'granted' }); // Initialize Clarity (function(c,l,a,r,i,t,y){ c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}; t=l.createElement(r); t.async=1; t.src='https://www.clarity.ms/tag/'+i; y=l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t,y); })(window, document, 'clarity', 'script', 'pdgkdeku22');
+(function () { var script = document.createElement('script'); script.type = 'text/javascript'; script.src = 'https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js'; script.async = true; function checkOneDS() { if (!window.oneDS) { // console.log('WAIT_FOR_1DS'); setTimeout(checkOneDS, 1000); return; } // console.log('1DS_SCRIPT_LOADED', window.oneDS); const analytics = new window.oneDS.ApplicationInsights(); var config = { instrumentationKey: '7e687efd1573485194c70f1e1c755ac1-b9838312-3b20-4674-ac12-6b31252dddcb-6691', channelConfiguration: { eventsLimitInMem: 50 }, propertyConfiguration: { env: '' }, webAnalyticsConfiguration: { autoCapture: { scroll: true, pageView: true, onLoad: true, onUnload: true, click: true, resize: true, jsError: true } } }; // console.log('1DS_INIT_START', analytics, config); analytics.initialize(config, []); // console.log('1DS_INIT_DONE'); }; document.head.appendChild(script); checkOneDS(); })();

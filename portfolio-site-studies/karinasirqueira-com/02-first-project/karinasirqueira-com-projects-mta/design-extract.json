@@ -1,0 +1,2491 @@
+{
+  "title": "Karina Sirqueira",
+  "url": "https://karinasirqueira.com/projects/mta/",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scrollHeight": 1000,
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(10, 10, 10)"
+  ],
+  "fonts": [
+    "\"Helvetica Neue\"",
+    "MFred"
+  ],
+  "samples": [
+    {
+      "tag": "body",
+      "className": "loaded",
+      "text": "Back to Home MTA MTA Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better p",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "section",
+      "className": "project project--active",
+      "text": "Back to Home MTA MTA Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better p",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(10, 10, 10)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__wrapper",
+      "text": "Back to Home MTA MTA Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better p",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "project__close",
+      "text": "Back to Home",
+      "rect": {
+        "x": 1357.140625,
+        "y": 64.734375,
+        "width": 18.125,
+        "height": 18.125
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "project__close__icon",
+      "text": "",
+      "rect": {
+        "x": 1357.140625,
+        "y": 64.734375,
+        "width": 18.125,
+        "height": 18.125
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "project__button project__button--previous",
+      "text": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 144,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "svg",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": -21.6875,
+        "y": -14.890625,
+        "width": 43.375,
+        "height": 29.78125
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "-14.8921px 0px 0px -21.6906px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "project__button project__button--next",
+      "text": "",
+      "rect": {
+        "x": 1296,
+        "y": 0,
+        "width": 144,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "svg",
+      "className": "",
+      "text": "",
+      "rect": {
+        "x": 1274.3125,
+        "y": -14.890625,
+        "width": 43.375,
+        "height": 29.78125
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "6.47482px",
+        "fontWeight": "400",
+        "lineHeight": "6.47482px",
+        "letterSpacing": "normal",
+        "margin": "-14.8921px 0px 0px -21.6906px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__content",
+      "text": "MTA MTA Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better plan their jou",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 15956.234375,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "header",
+      "className": "project__header",
+      "text": "MTA",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px 64.7482px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__header__wrapper",
+      "text": "MTA",
+      "rect": {
+        "x": 64.734375,
+        "y": 0,
+        "width": 1310.53125,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "project__header__title",
+      "text": "MTA",
+      "rect": {
+        "x": 64.734375,
+        "y": 0,
+        "width": 1310.53125,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "project__header__image",
+      "text": "",
+      "rect": {
+        "x": 64.734375,
+        "y": 50,
+        "width": 1141.578125,
+        "height": 900
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections",
+      "text": "MTA Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better plan their journey",
+      "rect": {
+        "x": 1440,
+        "y": 0,
+        "width": 14516.234375,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__header",
+      "text": "MTA",
+      "rect": {
+        "x": 1440,
+        "y": 0,
+        "width": 1440,
+        "height": 148.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "absolute"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "project__sections__header__title",
+      "text": "MTA",
+      "rect": {
+        "x": 1504.734375,
+        "y": 64.734375,
+        "width": 20.046875,
+        "height": 19
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "19.4245px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "span",
+      "className": "project__sections__header__title__text",
+      "text": "MTA",
+      "rect": {
+        "x": 1504.734375,
+        "y": 64.734375,
+        "width": 20.046875,
+        "height": 19
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "19.4245px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better plan their journeys.",
+      "rect": {
+        "x": 1440,
+        "y": 0,
+        "width": 1440.5625,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better plan their journeys.",
+      "rect": {
+        "x": 1440,
+        "y": 0,
+        "width": 1440.5625,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__media",
+      "text": "Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better plan their journeys.",
+      "rect": {
+        "x": 1440,
+        "y": 111.53125,
+        "width": 1440.5625,
+        "height": 776.9375
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__description",
+      "text": "Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better plan their journeys.",
+      "rect": {
+        "x": 1504.734375,
+        "y": 730.453125,
+        "width": 181.28125,
+        "height": 93.28125
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "15.5396px",
+        "fontWeight": "400",
+        "lineHeight": "18.6475px",
+        "letterSpacing": "normal",
+        "margin": "0px 93.8849px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Evolving the iconic map to create updates in real time — and help New Yorkers and tourists better plan their journeys.",
+      "rect": {
+        "x": 1504.734375,
+        "y": 730.453125,
+        "width": 181.28125,
+        "height": 93.28125
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "15.5396px",
+        "fontWeight": "400",
+        "lineHeight": "18.6475px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__wrapper",
+      "text": "",
+      "rect": {
+        "x": 1779.890625,
+        "y": 176.265625,
+        "width": 1035.9375,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__gallery project__sections__media__gallery--1",
+      "text": "",
+      "rect": {
+        "x": 1779.890625,
+        "y": 176.265625,
+        "width": 1035.9375,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "figure",
+      "className": "project__sections__media__item",
+      "text": "",
+      "rect": {
+        "x": 1779.890625,
+        "y": 176.265625,
+        "width": 1035.9375,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "project__sections__media__item__image",
+      "text": "",
+      "rect": {
+        "x": 1779.890625,
+        "y": 176.265625,
+        "width": 1035.9375,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "",
+      "rect": {
+        "x": 2880.5625,
+        "y": 0,
+        "width": 1555.671875,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "",
+      "rect": {
+        "x": 2880.5625,
+        "y": 0,
+        "width": 1555.671875,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__media",
+      "text": "",
+      "rect": {
+        "x": 2880.5625,
+        "y": 111.53125,
+        "width": 1555.671875,
+        "height": 776.9375
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__wrapper",
+      "text": "",
+      "rect": {
+        "x": 3220.453125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__gallery project__sections__media__gallery--1",
+      "text": "",
+      "rect": {
+        "x": 3220.453125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "figure",
+      "className": "project__sections__media__item",
+      "text": "",
+      "rect": {
+        "x": 3220.453125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "project__sections__media__item__video",
+      "text": "",
+      "rect": {
+        "x": 3220.453125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "Key features of the new map, which is currently in beta, include:Automatically updating train lines: Train lines will re",
+      "rect": {
+        "x": 4436.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "Key features of the new map, which is currently in beta, include:Automatically updating train lines: Train lines will re",
+      "rect": {
+        "x": 4436.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__content",
+      "text": "Key features of the new map, which is currently in beta, include:Automatically updating train lines: Train lines will re",
+      "rect": {
+        "x": 4662.859375,
+        "y": 0,
+        "width": 986.734375,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__content__wrapper",
+      "text": "Key features of the new map, which is currently in beta, include:Automatically updating train lines: Train lines will re",
+      "rect": {
+        "x": 4727.59375,
+        "y": 328.59375,
+        "width": 857.265625,
+        "height": 342.8125
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__content__description",
+      "text": "Key features of the new map, which is currently in beta, include:Automatically updating train lines: Train lines will re",
+      "rect": {
+        "x": 4727.59375,
+        "y": 328.59375,
+        "width": 857.265625,
+        "height": 342.8125
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "",
+      "text": "Key features of the new map, which is currently in beta, include:",
+      "rect": {
+        "x": 4727.59375,
+        "y": 328.59375,
+        "width": 857.265625,
+        "height": 129.5
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px 0px 16.187px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Automatically updating train lines: Train lines will redraw themselves using real-time data to illustrate current and ac",
+      "rect": {
+        "x": 4727.59375,
+        "y": 483.984375,
+        "width": 857.265625,
+        "height": 107.6875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "20.7194px",
+        "fontWeight": "400",
+        "lineHeight": "26.9353px",
+        "letterSpacing": "normal",
+        "margin": "25.8993px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Moving trains: The user will see trains moving, which helps to signal to users that the map is live and also reflect rea",
+      "rect": {
+        "x": 4727.59375,
+        "y": 617.5625,
+        "width": 857.265625,
+        "height": 53.84375
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "20.7194px",
+        "fontWeight": "400",
+        "lineHeight": "26.9353px",
+        "letterSpacing": "normal",
+        "margin": "25.8993px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "",
+      "rect": {
+        "x": 5876.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "",
+      "rect": {
+        "x": 5876.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__media",
+      "text": "",
+      "rect": {
+        "x": 5955.96875,
+        "y": 111.53125,
+        "width": 1280.515625,
+        "height": 776.9375
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__wrapper",
+      "text": "",
+      "rect": {
+        "x": 6020.703125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__gallery project__sections__media__gallery--1",
+      "text": "",
+      "rect": {
+        "x": 6020.703125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "figure",
+      "className": "project__sections__media__item",
+      "text": "",
+      "rect": {
+        "x": 6020.703125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "project__sections__media__item__video",
+      "text": "",
+      "rect": {
+        "x": 6020.703125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "Greater map detail is exposed as the user zooms in, including the ability to see individual train lines, subway entrance",
+      "rect": {
+        "x": 7316.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "Greater map detail is exposed as the user zooms in, including the ability to see individual train lines, subway entrance",
+      "rect": {
+        "x": 7316.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__content",
+      "text": "Greater map detail is exposed as the user zooms in, including the ability to see individual train lines, subway entrance",
+      "rect": {
+        "x": 7542.859375,
+        "y": 0,
+        "width": 986.734375,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__content__wrapper",
+      "text": "Greater map detail is exposed as the user zooms in, including the ability to see individual train lines, subway entrance",
+      "rect": {
+        "x": 7607.59375,
+        "y": 330.03125,
+        "width": 857.265625,
+        "height": 339.921875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__content__description",
+      "text": "Greater map detail is exposed as the user zooms in, including the ability to see individual train lines, subway entrance",
+      "rect": {
+        "x": 7607.59375,
+        "y": 330.03125,
+        "width": 857.265625,
+        "height": 339.921875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "",
+      "text": "Greater map detail is exposed as the user zooms in, including the ability to see individual train lines, subway entrance",
+      "rect": {
+        "x": 7607.59375,
+        "y": 330.03125,
+        "width": 857.265625,
+        "height": 323.75
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px 0px 16.187px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "",
+      "rect": {
+        "x": 8756.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "",
+      "rect": {
+        "x": 8756.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__media",
+      "text": "",
+      "rect": {
+        "x": 8835.96875,
+        "y": 111.53125,
+        "width": 1280.515625,
+        "height": 776.9375
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__wrapper",
+      "text": "",
+      "rect": {
+        "x": 8900.703125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__gallery project__sections__media__gallery--1",
+      "text": "",
+      "rect": {
+        "x": 8900.703125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "figure",
+      "className": "project__sections__media__item",
+      "text": "",
+      "rect": {
+        "x": 8900.703125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "video",
+      "className": "project__sections__media__item__video",
+      "text": "",
+      "rect": {
+        "x": 8900.703125,
+        "y": 176.265625,
+        "width": 1151.046875,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "As seen in The New York Times, Curbed, Fast Company, Time Out New York, and Gothamist, and the subject of a short docume",
+      "rect": {
+        "x": 10196.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "As seen in The New York Times, Curbed, Fast Company, Time Out New York, and Gothamist, and the subject of a short docume",
+      "rect": {
+        "x": 10196.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__content",
+      "text": "As seen in The New York Times, Curbed, Fast Company, Time Out New York, and Gothamist, and the subject of a short docume",
+      "rect": {
+        "x": 10422.859375,
+        "y": 0,
+        "width": 986.734375,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__content__wrapper",
+      "text": "As seen in The New York Times, Curbed, Fast Company, Time Out New York, and Gothamist, and the subject of a short docume",
+      "rect": {
+        "x": 10487.59375,
+        "y": 232.90625,
+        "width": 857.265625,
+        "height": 534.171875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__content__description",
+      "text": "As seen in The New York Times, Curbed, Fast Company, Time Out New York, and Gothamist, and the subject of a short docume",
+      "rect": {
+        "x": 10487.59375,
+        "y": 232.90625,
+        "width": 857.265625,
+        "height": 534.171875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "h1",
+      "className": "",
+      "text": "As seen in The New York Times, Curbed, Fast Company, Time Out New York, and Gothamist, and the subject of a short docume",
+      "rect": {
+        "x": 10487.59375,
+        "y": 232.90625,
+        "width": 857.265625,
+        "height": 518
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px 0px 16.187px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "The New York Times",
+      "rect": {
+        "x": 10691.015625,
+        "y": 232.90625,
+        "width": 376.40625,
+        "height": 64.75
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Curbed",
+      "rect": {
+        "x": 11088.46875,
+        "y": 232.90625,
+        "width": 139.90625,
+        "height": 64.75
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Fast Company",
+      "rect": {
+        "x": 10487.59375,
+        "y": 297.65625,
+        "width": 261.5,
+        "height": 64.75
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Time Out New York",
+      "rect": {
+        "x": 10770.140625,
+        "y": 297.65625,
+        "width": 356.46875,
+        "height": 64.75
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "Gothamist",
+      "rect": {
+        "x": 10487.59375,
+        "y": 362.40625,
+        "width": 197.71875,
+        "height": 64.75
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "text": "a short documentary",
+      "rect": {
+        "x": 10487.59375,
+        "y": 427.15625,
+        "width": 417.84375,
+        "height": 64.75
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "MFred",
+        "fontSize": "64.7482px",
+        "fontWeight": "400",
+        "lineHeight": "64.7482px",
+        "letterSpacing": "-0.323741px",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "",
+      "rect": {
+        "x": 11636.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "",
+      "rect": {
+        "x": 11636.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__video",
+      "text": "",
+      "rect": {
+        "x": 11715.234375,
+        "y": 0,
+        "width": 1281.984375,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__video__wrapper",
+      "text": "",
+      "rect": {
+        "x": 11779.96875,
+        "y": 176.265625,
+        "width": 1152.515625,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "",
+      "rect": {
+        "x": 13076.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "",
+      "rect": {
+        "x": 13076.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__media",
+      "text": "",
+      "rect": {
+        "x": 13269.015625,
+        "y": 111.53125,
+        "width": 1054.421875,
+        "height": 776.9375
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__wrapper",
+      "text": "",
+      "rect": {
+        "x": 13333.75,
+        "y": 176.265625,
+        "width": 924.953125,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__gallery project__sections__media__gallery--1",
+      "text": "",
+      "rect": {
+        "x": 13333.75,
+        "y": 176.265625,
+        "width": 924.953125,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "figure",
+      "className": "project__sections__media__item",
+      "text": "",
+      "rect": {
+        "x": 13333.75,
+        "y": 176.265625,
+        "width": 924.953125,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "img",
+      "className": "project__sections__media__item__image",
+      "text": "",
+      "rect": {
+        "x": 13333.75,
+        "y": 176.265625,
+        "width": 924.953125,
+        "height": 647.46875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section ",
+      "text": "Work & CoFelipe Memoria, Karina Sirqueira, Francesco Bertelli, Corey Edmondson, Marcela Abbade, Robert Penner, Pedro Put",
+      "rect": {
+        "x": 14516.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "inline-block",
+        "position": "relative"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__section__wrapper",
+      "text": "Work & CoFelipe Memoria, Karina Sirqueira, Francesco Bertelli, Corey Edmondson, Marcela Abbade, Robert Penner, Pedro Put",
+      "rect": {
+        "x": 14516.234375,
+        "y": 0,
+        "width": 1440,
+        "height": 1000
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "article",
+      "className": "project__sections__media",
+      "text": "Work & CoFelipe Memoria, Karina Sirqueira, Francesco Bertelli, Corey Edmondson, Marcela Abbade, Robert Penner, Pedro Put",
+      "rect": {
+        "x": 14516.234375,
+        "y": 111.53125,
+        "width": 404.625,
+        "height": 776.9375
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "0px",
+        "fontWeight": "400",
+        "lineHeight": "0px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "64.7482px",
+        "borderRadius": "0px",
+        "display": "flex",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "project__sections__media__description",
+      "text": "Work & CoFelipe Memoria, Karina Sirqueira, Francesco Bertelli, Corey Edmondson, Marcela Abbade, Robert Penner, Pedro Put",
+      "rect": {
+        "x": 14580.96875,
+        "y": 618.515625,
+        "width": 181.28125,
+        "height": 205.21875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "15.5396px",
+        "fontWeight": "400",
+        "lineHeight": "18.6475px",
+        "letterSpacing": "normal",
+        "margin": "0px 93.8849px 0px 0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Work & CoFelipe Memoria, Karina Sirqueira, Francesco Bertelli, Corey Edmondson, Marcela Abbade, Robert Penner, Pedro Put",
+      "rect": {
+        "x": 14580.96875,
+        "y": 618.515625,
+        "width": 181.28125,
+        "height": 205.21875
+      },
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "\"Helvetica Neue\"",
+        "fontSize": "15.5396px",
+        "fontWeight": "400",
+        "lineHeight": "18.6475px",
+        "letterSpacing": "normal",
+        "margin": "0px",
+        "padding": "0px",
+        "borderRadius": "0px",
+        "display": "block",
+        "position": "static"
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "href": "https://karinasirqueira.com/",
+      "text": "Back to Home",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 1357.140625,
+        "y": 64.734375,
+        "width": 18.125,
+        "height": 18.125
+      }
+    },
+    {
+      "index": 1,
+      "href": "https://www.nytimes.com/2020/10/21/nyregion/new-nyc-subway-map.html",
+      "text": "The New York Times",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 10691.015625,
+        "y": 232.90625,
+        "width": 376.40625,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 2,
+      "href": "https://www.curbed.com/2020/10/first-look-new-yorks-digital-subway-map-comes-alive-today.html",
+      "text": "Curbed",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 11088.46875,
+        "y": 232.90625,
+        "width": 139.90625,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 3,
+      "href": "https://www.fastcompany.com/90566212/nycs-new-subway-tool-settles-the-biggest-debate-in-maps",
+      "text": "Fast Company",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 10487.59375,
+        "y": 297.65625,
+        "width": 261.5,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 4,
+      "href": "https://www.timeout.com/newyork/news/mtas-new-map-lets-you-watch-trains-move-in-real-time-102020",
+      "text": "Time Out New York",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 10770.140625,
+        "y": 297.65625,
+        "width": 356.46875,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 5,
+      "href": "https://gothamist.com/news/mta-unveils-new-digital-live-subway-map-simplify-service-changes",
+      "text": "Gothamist",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 10487.59375,
+        "y": 362.40625,
+        "width": 197.71875,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 6,
+      "href": "https://vimeo.com/469980256",
+      "text": "a short documentary",
+      "aria": "",
+      "title": "",
+      "visible": true,
+      "rect": {
+        "x": 10487.59375,
+        "y": 427.15625,
+        "width": 417.84375,
+        "height": 64.75
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Back to Home",
+      "href": "https://karinasirqueira.com/",
+      "aria": "",
+      "rect": {
+        "x": 1357.140625,
+        "y": 64.734375,
+        "width": 18.125,
+        "height": 18.125
+      }
+    },
+    {
+      "index": 1,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 144,
+        "height": 1000
+      }
+    },
+    {
+      "index": 2,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "aria": "",
+      "rect": {
+        "x": 1296,
+        "y": 0,
+        "width": 144,
+        "height": 1000
+      }
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "The New York Times",
+      "href": "https://www.nytimes.com/2020/10/21/nyregion/new-nyc-subway-map.html",
+      "aria": "",
+      "rect": {
+        "x": 10691.015625,
+        "y": 232.90625,
+        "width": 376.40625,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "Curbed",
+      "href": "https://www.curbed.com/2020/10/first-look-new-yorks-digital-subway-map-comes-alive-today.html",
+      "aria": "",
+      "rect": {
+        "x": 11088.46875,
+        "y": 232.90625,
+        "width": 139.90625,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "Fast Company",
+      "href": "https://www.fastcompany.com/90566212/nycs-new-subway-tool-settles-the-biggest-debate-in-maps",
+      "aria": "",
+      "rect": {
+        "x": 10487.59375,
+        "y": 297.65625,
+        "width": 261.5,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "Time Out New York",
+      "href": "https://www.timeout.com/newyork/news/mtas-new-map-lets-you-watch-trains-move-in-real-time-102020",
+      "aria": "",
+      "rect": {
+        "x": 10770.140625,
+        "y": 297.65625,
+        "width": 356.46875,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "Gothamist",
+      "href": "https://gothamist.com/news/mta-unveils-new-digital-live-subway-map-simplify-service-changes",
+      "aria": "",
+      "rect": {
+        "x": 10487.59375,
+        "y": 362.40625,
+        "width": 197.71875,
+        "height": 64.75
+      }
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "a short documentary",
+      "href": "https://vimeo.com/469980256",
+      "aria": "",
+      "rect": {
+        "x": 10487.59375,
+        "y": 427.15625,
+        "width": 417.84375,
+        "height": 64.75
+      }
+    }
+  ],
+  "navigationStatus": 200,
+  "navigationError": null
+}

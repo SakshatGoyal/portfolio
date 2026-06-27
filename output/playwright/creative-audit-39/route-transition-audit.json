@@ -1,0 +1,2571 @@
+[
+  {
+    "label": "start-selected",
+    "time": 1713.2999999523163,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-enter is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 56,
+        "bottom": 1207.0625,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Da",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "selected-to-case-0ms",
+    "time": 1778.5999999046326,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0.994512,
+      "transform": "matrix(1, 0, 0, 1, 0, -0.023202)",
+      "y": -0.023202,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 55.97679901123047,
+        "bottom": 1207.0392990112305,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Da",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "selected-to-case-80ms",
+    "time": 1861.5999999046326,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0.377368,
+      "transform": "matrix(1, 0, 0, 1, 0, -1.84892)",
+      "y": -1.84892,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 54.151084899902344,
+        "bottom": 1205.2135848999023,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Da",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "selected-to-case-180ms",
+    "time": 1960.5,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, -5.90837)",
+      "y": -5.90837,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 50.09162902832031,
+        "bottom": 1201.1541290283203,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "selected-to-case-240ms",
+    "time": 2019.8999998569489,
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": false,
+      "classes": "case-study route-view-enter is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 56,
+        "bottom": 7417.328125,
+        "height": 7361.328125,
+        "width": 1039.96875
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "hidden": false,
+      "classes": "case-title case-heading-motion",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 18)",
+      "y": 18,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 176,
+        "bottom": 266,
+        "height": 90,
+        "width": 991.96875
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "hidden": false,
+      "classes": "case-media case-hero-media",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5,
+        "width": 991.96875
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "selected-to-case-360ms",
+    "time": 2140.2999999523163,
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": false,
+      "classes": "case-study route-view-enter is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 56,
+        "bottom": 7417.328125,
+        "height": 7361.328125,
+        "width": 1039.96875
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "hidden": false,
+      "classes": "case-title case-heading-motion is-visible",
+      "opacity": 0.021207,
+      "transform": "matrix(1, 0, 0, 1, 0, 10.9771)",
+      "y": 10.9771,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 168.97711181640625,
+        "bottom": 258.97711181640625,
+        "height": 90,
+        "width": 991.96875
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "hidden": false,
+      "classes": "case-media case-hero-media",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5,
+        "width": 991.96875
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "selected-to-case-520ms",
+    "time": 2303.2999999523163,
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": false,
+      "classes": "case-study route-view-enter is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 56,
+        "bottom": 7417.328125,
+        "height": 7361.328125,
+        "width": 1039.96875
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "hidden": false,
+      "classes": "case-title case-heading-motion is-visible",
+      "opacity": 0.560224,
+      "transform": "matrix(1, 0, 0, 1, 0, 1.93984)",
+      "y": 1.93984,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 159.93984985351562,
+        "bottom": 249.93984985351562,
+        "height": 90,
+        "width": 991.96875
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "hidden": false,
+      "classes": "case-media case-hero-media",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5,
+        "width": 991.96875
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "selected-to-case-760ms",
+    "time": 2541.2999999523163,
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": false,
+      "classes": "case-study route-view-enter is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 56,
+        "bottom": 7417.328125,
+        "height": 7361.328125,
+        "width": 1039.96875
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "hidden": false,
+      "classes": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.118404)",
+      "y": 0.118404,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 158.118408203125,
+        "bottom": 248.118408203125,
+        "height": 90,
+        "width": 991.96875
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "hidden": false,
+      "classes": "case-media case-hero-media is-visible",
+      "opacity": 0.459499,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5,
+        "width": 991.96875
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "selected-to-case-1040ms",
+    "time": 2822.899999856949,
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": false,
+      "classes": "case-study route-view-enter is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 56,
+        "bottom": 7417.328125,
+        "height": 7361.328125,
+        "width": 1039.96875
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "hidden": false,
+      "classes": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 158,
+        "bottom": 248,
+        "height": 90,
+        "width": 991.96875
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "hidden": false,
+      "classes": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5,
+        "width": 991.96875
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "case-to-about-0ms",
+    "time": 3767.699999809265,
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": false,
+      "classes": "case-study route-view-exit",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 56,
+        "bottom": 7417.328125,
+        "height": 7361.328125,
+        "width": 1039.96875
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "hidden": false,
+      "classes": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 158,
+        "bottom": 248,
+        "height": 90,
+        "width": 991.96875
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "hidden": false,
+      "classes": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 276,
+        "bottom": 833.5,
+        "height": 557.5,
+        "width": 991.96875
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "case-to-about-80ms",
+    "time": 3848.399999856949,
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": false,
+      "classes": "case-study route-view-exit",
+      "opacity": 0.4972,
+      "transform": "matrix(1, 0, 0, 1, 0, -1.45451)",
+      "y": -1.45451,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 54.54548645019531,
+        "bottom": 7415.873611450195,
+        "height": 7361.328125,
+        "width": 1039.96875
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "hidden": false,
+      "classes": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 156.5454864501953,
+        "bottom": 246.5454864501953,
+        "height": 90,
+        "width": 991.96875
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "hidden": false,
+      "classes": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 274.54547119140625,
+        "bottom": 832.0454711914062,
+        "height": 557.5,
+        "width": 991.96875
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "case-to-about-180ms",
+    "time": 3948.199999809265,
+    "hash": "#case/palo-alto-networks",
+    "bodyClass": "shell-ready route-about-entering",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": false,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, -5.84936)",
+      "y": -5.84936,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 50.1506462097168,
+        "bottom": 7411.478771209717,
+        "height": 7361.328125,
+        "width": 1039.96875
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0.995578,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.0166692)",
+      "y": 0.0166692,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 633.4541625976562,
+        "bottom": 836.0166625976562,
+        "height": 202.5625,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "01 Palo Alto Networks",
+        "href": "#case/palo-alto-networks"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": {
+      "selector": ".case-heading-motion",
+      "hidden": false,
+      "classes": "case-title case-heading-motion is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 152.150634765625,
+        "bottom": 242.15065002441406,
+        "height": 90.00001525878906,
+        "width": 991.96875
+      }
+    },
+    "caseHero": {
+      "selector": ".case-hero-media",
+      "hidden": false,
+      "classes": "case-media case-hero-media is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 270.150634765625,
+        "bottom": 827.650634765625,
+        "height": 557.5,
+        "width": 991.96875
+      }
+    },
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0.995578,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.0166692)",
+      "y": 0.0166692,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 633.4541625976562,
+        "bottom": 836.0166625976562,
+        "height": 202.5625,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "case-to-about-240ms",
+    "time": 4008.0999999046326,
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0.201389,
+      "transform": "matrix(1, 0, 0, 1, 0, 1.50648)",
+      "y": 1.50648,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 672.7408447265625,
+        "bottom": 837.5064697265625,
+        "height": 164.765625,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 158,
+        "bottom": 212,
+        "height": 54,
+        "width": 483.984375
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0.201389,
+      "transform": "matrix(1, 0, 0, 1, 0, 1.50648)",
+      "y": 1.50648,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 672.7408447265625,
+        "bottom": 837.5064697265625,
+        "height": 164.765625,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "case-to-about-360ms",
+    "time": 4128.099999904633,
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 158,
+        "bottom": 212,
+        "height": 54,
+        "width": 483.984375
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "case-to-about-520ms",
+    "time": 4289.799999952316,
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 158,
+        "bottom": 212,
+        "height": 54,
+        "width": 483.984375
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "case-to-about-760ms",
+    "time": 4530.099999904633,
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 158,
+        "bottom": 212,
+        "height": 54,
+        "width": 483.984375
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "case-to-about-1040ms",
+    "time": 4811.699999809265,
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 158,
+        "bottom": 212,
+        "height": 54,
+        "width": 483.984375
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "about-to-selected-0ms",
+    "time": 5745.299999952316,
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 158,
+        "bottom": 212,
+        "height": 54,
+        "width": 483.984375
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "about-to-selected-80ms",
+    "time": 5825.599999904633,
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 156.88812255859375,
+        "bottom": 210.88812255859375,
+        "height": 54,
+        "width": 483.984375
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "about-to-selected-180ms",
+    "time": 5925.5,
+    "hash": "#about",
+    "bodyClass": "shell-ready route-about",
+    "active": "about",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": true,
+      "classes": "stage-area route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "activeNav": [
+      {
+        "text": "About me",
+        "href": "#about"
+      }
+    ],
+    "selectedText": "",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 152.2425994873047,
+        "bottom": 206.2425994873047,
+        "height": 54,
+        "width": 483.984375
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "about-to-selected-240ms",
+    "time": 5984.899999856949,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-enter is-visible",
+      "opacity": 0.548442,
+      "transform": "matrix(1, 0, 0, 1, 0, -3.14926)",
+      "y": -3.14926,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 52.85074234008789,
+        "bottom": 1203.913242340088,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Da",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "about-to-selected-360ms",
+    "time": 6105.699999809265,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-enter is-visible",
+      "opacity": 0.962268,
+      "transform": "matrix(1, 0, 0, 1, 0, -0.421993)",
+      "y": -0.421993,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 55.578006744384766,
+        "bottom": 1206.6405067443848,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Da",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "y": 8,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 844,
+        "bottom": 844,
+        "height": 0,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "about-to-selected-520ms",
+    "time": 6265.399999856949,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-enter is-visible",
+      "opacity": 0.999889,
+      "transform": "matrix(1, 0, 0, 1, 0, -0.0161934)",
+      "y": -0.0161934,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 55.98380661010742,
+        "bottom": 1207.0463066101074,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0.846006,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.324898)",
+      "y": 0.324898,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 641.5748901367188,
+        "bottom": 836.3248901367188,
+        "height": 194.75,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Da",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 0.846006,
+      "transform": "matrix(1, 0, 0, 1, 0, 0.324898)",
+      "y": 0.324898,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 641.5748901367188,
+        "bottom": 836.3248901367188,
+        "height": 194.75,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "about-to-selected-760ms",
+    "time": 6506.099999904633,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-enter is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 56,
+        "bottom": 1207.0625,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Da",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  },
+  {
+    "label": "about-to-selected-1040ms",
+    "time": 6786.199999809265,
+    "hash": "#selected-work",
+    "bodyClass": "shell-ready",
+    "active": "selected-work",
+    "selected": {
+      "selector": "#selected-work",
+      "hidden": false,
+      "classes": "stage-area route-view-enter is-visible",
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 56,
+        "bottom": 1207.0625,
+        "height": 1151.0625,
+        "width": 1039.96875
+      }
+    },
+    "caseStudy": {
+      "selector": "#case-study",
+      "hidden": true,
+      "classes": "case-study route-view-exit",
+      "opacity": 0,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "about": {
+      "selector": "#about",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    },
+    "pendingNav": [],
+    "activeNav": [
+      {
+        "text": "Selected Work",
+        "href": "#selected-work"
+      }
+    ],
+    "selectedText": "01Palo Alto Networks Leading a platform consolidation + introducing AI to tools for spreadsheet native users. 2025-26 02DocuSign - Global Da",
+    "caseHeading": null,
+    "caseHero": null,
+    "aboutP1": {
+      "selector": ".about-copy p:first-child",
+      "hidden": false,
+      "classes": "about-motion-item is-visible",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "none",
+      "rect": {
+        "top": 0,
+        "bottom": 0,
+        "height": 0,
+        "width": 0
+      }
+    },
+    "navPanelBio": {
+      "selector": ".bio-card",
+      "hidden": false,
+      "classes": "bio-card",
+      "opacity": 1,
+      "transform": "none",
+      "y": 0,
+      "pointerEvents": "auto",
+      "rect": {
+        "top": 633,
+        "bottom": 836,
+        "height": 203,
+        "width": 368.03125
+      }
+    }
+  }
+]
