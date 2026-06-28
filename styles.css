@@ -9,6 +9,7 @@
   --motion-curve: cubic-bezier(0.4, 0.14, 0.3, 1);
   --case-entry-curve: cubic-bezier(0.645, 0.045, 0.355, 1);
   --case-rise-curve: cubic-bezier(0.16, 1, 0.3, 1);
+  --selected-work-curve: cubic-bezier(0.4, 0, 0.2, 1);
   --route-exit-duration: 170ms;
   --route-enter-duration: 360ms;
   --route-swap-delay: 90ms;
@@ -355,57 +356,66 @@ body.nav-open .nav-scrim {
   }
 }
 
-.project-motion-item .project-label,
-.project-motion-item .project-year {
-  opacity: 0;
-  transform: none;
-  will-change: opacity;
+.project-motion-item .project-label {
+  overflow: hidden;
 }
 
-.project-motion-item .project-thumb-link,
-.project-motion-item .project-title {
+.project-motion-item .project-label span {
+  display: block;
   opacity: 0;
+  transform: translateY(6px);
+  will-change: opacity, transform;
+}
+
+.project-motion-item .project-year {
+  opacity: 0;
+  transform: translateY(4px);
+  will-change: opacity, transform;
 }
 
 .project-motion-item .project-thumb-link {
-  transform: scale(0.984);
+  opacity: 0;
+  transform: translateY(14px) scale(0.992);
   transform-origin: 50% 50%;
-  clip-path: inset(0 0 4% 0 round 2px);
-  will-change: opacity, transform, clip-path;
+  will-change: opacity, transform;
 }
 
 .project-motion-item .project-title {
-  transform: none;
-  will-change: opacity;
+  opacity: 0;
+  transform: translateY(6px);
+  will-change: opacity, transform;
 }
 
-.project-motion-item.is-visible .project-label,
-.project-motion-item.is-visible .project-year {
-  animation: selected-work-meta-in 260ms var(--case-entry-curve) forwards;
+.project-motion-item.is-visible .project-label span {
+  animation: selected-work-label-mask-in 680ms var(--selected-work-curve) forwards;
 }
 
 .project-motion-item.is-visible .project-title {
-  animation: selected-work-title-in 380ms var(--case-entry-curve) forwards;
+  animation: selected-work-title-in 620ms var(--selected-work-curve) forwards;
+}
+
+.project-motion-item.is-visible .project-year {
+  animation: selected-work-year-in 520ms var(--selected-work-curve) forwards;
 }
 
 .project-motion-item.is-visible .project-thumb-link {
-  animation: selected-work-image-in 580ms var(--case-rise-curve) forwards;
+  animation: selected-work-image-in 820ms var(--selected-work-curve) forwards;
 }
 
-.stage-area.is-returning .project-motion-item.is-visible .project-label,
+.stage-area.is-returning .project-motion-item.is-visible .project-label span,
 .stage-area.is-returning .project-motion-item.is-visible .project-year {
-  animation-duration: 120ms;
+  animation-duration: 420ms;
 }
 
 .stage-area.is-returning .project-motion-item.is-visible .project-title {
-  animation-duration: 180ms;
+  animation-duration: 460ms;
 }
 
 .stage-area.is-returning .project-motion-item.is-visible .project-thumb-link {
-  animation-duration: 320ms;
+  animation-duration: 600ms;
 }
 
-.project-motion-item.is-visible .project-label {
+.project-motion-item.is-visible .project-label span {
   animation-delay: var(--tile-label-delay, var(--tile-delay, 0ms));
 }
 
@@ -421,37 +431,51 @@ body.nav-open .nav-scrim {
   animation-delay: var(--tile-year-delay, calc(var(--tile-delay, 0ms) + 380ms));
 }
 
-@keyframes selected-work-meta-in {
+@keyframes selected-work-label-mask-in {
   from {
     opacity: 0;
+    transform: translateY(6px);
   }
 
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
 @keyframes selected-work-title-in {
   from {
     opacity: 0;
+    transform: translateY(6px);
   }
 
   to {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes selected-work-year-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 @keyframes selected-work-image-in {
   from {
     opacity: 0;
-    transform: scale(0.984);
-    clip-path: inset(0 0 4% 0 round 2px);
+    transform: translateY(14px) scale(0.992);
   }
 
   to {
     opacity: 1;
-    transform: scale(1);
-    clip-path: inset(0 0 0 0 round 2px);
+    transform: translateY(0) scale(1);
   }
 }
 
@@ -1078,10 +1102,12 @@ body.nav-open .nav-scrim {
   }
 
   .project-motion-item .project-label,
+  .project-motion-item .project-label span,
   .project-motion-item .project-thumb-link,
   .project-motion-item .project-title,
   .project-motion-item .project-year,
   .project-motion-item.is-visible .project-label,
+  .project-motion-item.is-visible .project-label span,
   .project-motion-item.is-visible .project-thumb-link,
   .project-motion-item.is-visible .project-title,
   .project-motion-item.is-visible .project-year {

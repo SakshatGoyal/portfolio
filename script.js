@@ -1166,11 +1166,11 @@ const initializeSelectedWorkMotion = () => {
   const items = [...selectedWorkStage.querySelectorAll(".project-tile")];
   const isFirstVisit = isInitialRouteRender;
   const baseDelay = isFirstVisit ? 180 : 0;
-  const rowStep = isFirstVisit ? 170 : 28;
-  const columnStep = isFirstVisit ? 40 : 14;
-  const thumbOffset = isFirstVisit ? 55 : 10;
-  const titleOffset = isFirstVisit ? 90 : 34;
-  const yearOffset = isFirstVisit ? 250 : 95;
+  const rowStep = isFirstVisit ? 155 : 34;
+  const columnStep = isFirstVisit ? 78 : 20;
+  const labelOffset = isFirstVisit ? 170 : 70;
+  const titleOffset = isFirstVisit ? 340 : 130;
+  const yearOffset = isFirstVisit ? 520 : 200;
 
   selectedWorkStage.classList.toggle("is-returning", !isFirstVisit);
 
@@ -1179,15 +1179,15 @@ const initializeSelectedWorkMotion = () => {
     const column = index % 2;
     const rowDelay = row * rowStep;
     const columnDelay = column * columnStep;
-    const labelDelay = baseDelay + rowDelay + columnDelay;
-    const thumbDelay = labelDelay + thumbOffset;
+    const thumbDelay = baseDelay + rowDelay + columnDelay;
+    const labelDelay = thumbDelay + labelOffset;
 
     item.classList.add("project-motion-item");
-    item.style.setProperty("--tile-delay", `${labelDelay}ms`);
+    item.style.setProperty("--tile-delay", `${thumbDelay}ms`);
     item.style.setProperty("--tile-label-delay", `${labelDelay}ms`);
     item.style.setProperty("--tile-thumb-delay", `${thumbDelay}ms`);
-    item.style.setProperty("--tile-title-delay", `${thumbDelay + titleOffset}ms`);
-    item.style.setProperty("--tile-year-delay", `${thumbDelay + yearOffset}ms`);
+    item.style.setProperty("--tile-title-delay", `${labelDelay + titleOffset}ms`);
+    item.style.setProperty("--tile-year-delay", `${labelDelay + yearOffset}ms`);
     item.classList.remove("is-visible");
   });
 
