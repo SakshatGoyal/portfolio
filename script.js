@@ -7,6 +7,7 @@ const selectedWorkStage = document.querySelector("#selected-work");
 const aboutStage = document.querySelector("#about");
 const caseStudyStage = document.querySelector("#case-study");
 const lightbox = document.querySelector(".lightbox");
+const lightboxViewport = document.querySelector(".lightbox-viewport");
 const lightboxImage = document.querySelector(".lightbox-image");
 const lightboxCaption = document.querySelector(".lightbox-caption");
 const lightboxClose = document.querySelector(".lightbox-close");
@@ -19,6 +20,7 @@ let isRouteTransitioning = false;
 let pendingRouteHash = null;
 let pendingNavItem = null;
 let lightboxCloseTimer = null;
+let isLightboxZoomed = false;
 let aboutMotionTimer = null;
 let isInitialRouteRender = true;
 
@@ -1317,9 +1319,9 @@ const renderMedia = (media = [], caption = "", variant = "", isHero = false) => 
   return `
     <div class="${mediaClass}">
       ${media.map((item) => `
-        ${isHero ? `<figure class="case-media ${mediaMotionClass}">
+        ${isHero ? `<button class="case-media ${mediaMotionClass}" type="button" data-full-src="${escapeHtml(item.src)}" data-caption="${escapeHtml(item.alt)}">
           <img src="${escapeHtml(item.src)}" alt="${escapeHtml(item.alt)}">
-        </figure>` : `<button class="case-media ${mediaMotionClass}" type="button" data-full-src="${escapeHtml(item.src)}" data-caption="${escapeHtml(item.alt)}">
+        </button>` : `<button class="case-media ${mediaMotionClass}" type="button" data-full-src="${escapeHtml(item.src)}" data-caption="${escapeHtml(item.alt)}">
           <img src="${escapeHtml(item.src)}" alt="${escapeHtml(item.alt)}">
         </button>`}
       `).join("")}
@@ -1636,15 +1638,57 @@ navItems.forEach((item) => {
   });
 });
 
+const resetLightboxZoom = () => {
+  isLightboxZoomed = false;
+  lightbox?.classList.remove("is-zoomed");
+  if (lightboxImage) {
+    lightboxImage.style.removeProperty("width");
+    lightboxImage.removeAttribute("aria-label");
+  }
+  if (lightboxViewport) {
+    lightboxViewport.scrollLeft = 0;
+    lightboxViewport.scrollTop = 0;
+  }
+};
+
+const setLightboxZoom = (shouldZoom) => {
+  if (!lightbox || !lightboxImage || !lightboxViewport || lightboxImage.hidden) return;
+
+  isLightboxZoomed = shouldZoom;
+  lightbox.classList.toggle("is-zoomed", shouldZoom);
+
+  if (!shouldZoom) {
+    lightboxImage.style.removeProperty("width");
+    lightboxImage.setAttribute("aria-label", "Zoom into image");
+    lightboxViewport.scrollLeft = 0;
+    lightboxViewport.scrollTop = 0;
+    return;
+  }
+
+  const imageBox = lightboxImage.getBoundingClientRect();
+  const naturalWidth = lightboxImage.naturalWidth || imageBox.width;
+  const zoomWidth = Math.max(imageBox.width * 1.75, Math.min(naturalWidth, window.innerWidth * 1.8));
+
+  lightboxImage.style.width = `${Math.round(zoomWidth)}px`;
+  lightboxImage.setAttribute("aria-label", "Zoom out of image");
+
+  window.requestAnimationFrame(() => {
+    lightboxViewport.scrollLeft = Math.max(0, (lightboxViewport.scrollWidth - lightboxViewport.clientWidth) / 2);
+    lightboxViewport.scrollTop = Math.max(0, (lightboxViewport.scrollHeight - lightboxViewport.clientHeight) / 2);
+  });
+};
+
 document.addEventListener("click", (event) => {
   const mediaButton = event.target.closest(".case-media[data-full-src]");
   if (!mediaButton || !lightbox || !lightboxImage || !lightboxCaption) return;
 
   window.clearTimeout(lightboxCloseTimer);
   lightbox.classList.remove("is-open", "is-closing");
+  resetLightboxZoom();
   lastOpenedMedia = mediaButton;
   lightboxImage.src = mediaButton.dataset.fullSrc;
   lightboxImage.alt = mediaButton.querySelector("img")?.alt || "";
+  lightboxImage.setAttribute("aria-label", "Zoom into image");
   lightboxImage.hidden = false;
   lightboxCaption.textContent = mediaButton.dataset.caption || "";
   lightbox.showModal();
@@ -1678,6 +1722,11 @@ const closeLightbox = () => {
 
 lightboxClose?.addEventListener("click", closeLightbox);
 
+lightboxImage?.addEventListener("click", (event) => {
+  event.stopPropagation();
+  setLightboxZoom(!isLightboxZoomed);
+});
+
 lightbox?.addEventListener("click", (event) => {
   if (event.target === lightbox) {
     closeLightbox();
@@ -1692,6 +1741,7 @@ lightbox?.addEventListener("cancel", (event) => {
 lightbox?.addEventListener("close", () => {
   window.clearTimeout(lightboxCloseTimer);
   lightbox.classList.remove("is-open", "is-closing");
+  resetLightboxZoom();
   if (lightboxImage) {
     lightboxImage.hidden = true;
     lightboxImage.removeAttribute("src");

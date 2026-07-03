@@ -543,7 +543,7 @@ body.nav-open .nav-scrim {
 
 .case-hero-media {
   opacity: 0;
-  cursor: default;
+  cursor: zoom-in;
   transform: none;
   transition:
     opacity 400ms var(--case-entry-curve),
@@ -1068,6 +1068,13 @@ body.nav-open .nav-scrim {
   transition: opacity 220ms var(--case-entry-curve);
 }
 
+.lightbox-viewport {
+  max-height: calc(92vh - 96px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .site-nav .brand,
   .site-nav .role,
@@ -1131,15 +1138,27 @@ body.nav-open .nav-scrim {
   max-height: calc(92vh - 96px);
   margin: 0 auto;
   opacity: 0;
+  cursor: zoom-in;
   transform: scale(0.992);
   transition:
     opacity 260ms var(--case-entry-curve),
-    transform 360ms var(--case-entry-curve);
+    transform 360ms var(--case-entry-curve),
+    width 260ms var(--case-entry-curve);
 }
 
 .lightbox.is-open .lightbox-image {
   opacity: 1;
   transform: scale(1);
+}
+
+.lightbox.is-zoomed .lightbox-viewport {
+  cursor: grab;
+}
+
+.lightbox.is-zoomed .lightbox-image {
+  max-width: none;
+  max-height: none;
+  cursor: zoom-out;
 }
 
 .lightbox.is-closing .lightbox-image {
@@ -1207,6 +1226,7 @@ body.nav-open .nav-scrim {
   .lightbox[open],
   .lightbox[open].is-open,
   .lightbox[open].is-closing,
+  .lightbox-viewport,
   .lightbox-image,
   .lightbox.is-open .lightbox-image,
   .lightbox.is-closing .lightbox-image {
@@ -1264,7 +1284,7 @@ body.nav-open .nav-scrim {
 .project-thumb-link {
   display: block;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 6px;
   cursor: pointer;
   transition: border-radius var(--case-block-hover-radius-duration) var(--motion-curve);
 }
@@ -1457,7 +1477,7 @@ body.nav-open .nav-scrim {
 
 @media (hover: hover) and (pointer: fine) {
   .project-thumb-link:hover {
-    border-radius: 8px;
+    border-radius: 17px;
   }
 
   .project-thumb-link:active {
