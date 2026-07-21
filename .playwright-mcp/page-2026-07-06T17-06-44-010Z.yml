@@ -1,0 +1,280 @@
+- generic [active] [ref=f904e1]:
+  - generic [ref=f904e2]:
+    - banner [ref=f904e4]:
+      - generic [ref=f904e8]:
+        - generic [ref=f904e9]:
+          - link [ref=f904e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=f904e12]
+          - generic [ref=f904e17]:
+            - link "Community" [ref=f904e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f904e19]: Community
+            - link "Salaries" [ref=f904e20] [cursor=pointer]:
+              - /url: /salary
+              - generic [ref=f904e21]: Salaries
+            - link "Reviews" [ref=f904e22] [cursor=pointer]:
+              - /url: /company
+              - generic [ref=f904e23]: Reviews
+            - link "Layoffs" [ref=f904e24] [cursor=pointer]:
+              - /url: /layoffs
+              - generic [ref=f904e25]: Layoffs
+            - link "Jobs" [ref=f904e26] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=f904e27]: Jobs
+            - generic [ref=f904e29] [cursor=pointer]:
+              - generic [ref=f904e30]: For Business
+              - img [ref=f904e31]
+          - generic [ref=f904e34]:
+            - img [ref=f904e35]
+            - textbox "Search" [ref=f904e37]
+        - generic [ref=f904e39]:
+          - button "Sign in" [ref=f904e40] [cursor=pointer]
+          - link "Sign up" [ref=f904e41] [cursor=pointer]:
+            - /url: /sign-up?next=/&from=sign-up-top-menu
+    - generic [ref=f904e44]:
+      - generic [ref=f904e47]:
+        - generic [ref=f904e48]:
+          - link "Feed" [ref=f904e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f904e50]:
+              - img [ref=f904e51]
+              - text: Feed
+          - link "My Company" [ref=f904e56] [cursor=pointer]:
+            - /url: /my-company
+            - generic [ref=f904e57]:
+              - img [ref=f904e58]
+              - text: My Company
+          - link "Blind Alters" [ref=f904e60] [cursor=pointer]:
+            - /url: /alter
+            - generic [ref=f904e61]:
+              - img [ref=f904e62]
+              - text: Blind Alters
+          - link "Resources" [ref=f904e65] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=f904e66]:
+              - img [ref=f904e67]
+              - text: Resources
+          - link "Best of Blind NEW" [ref=f904e70] [cursor=pointer]:
+            - /url: /best/2026
+            - generic [ref=f904e71]:
+              - img [ref=f904e72]
+              - text: Best of Blind
+              - generic [ref=f904e75]: NEW
+          - link "Trending" [ref=f904e76] [cursor=pointer]:
+            - /url: /trending
+            - generic [ref=f904e77]:
+              - img [ref=f904e78]
+              - text: Trending
+        - generic [ref=f904e82]:
+          - link "All Channels" [ref=f904e83] [cursor=pointer]:
+            - /url: /channels
+            - generic [ref=f904e84]:
+              - img [ref=f904e85]
+              - text: All Channels
+          - generic [ref=f904e87]:
+            - generic [ref=f904e88]:
+              - heading "Location" [level=2] [ref=f904e89] [cursor=pointer]:
+                - generic [ref=f904e90]: Location
+                - img [ref=f904e91]
+              - generic [ref=f904e93]:
+                - generic [ref=f904e94]:
+                  - link "Channel logo Dallas" [ref=f904e96] [cursor=pointer]:
+                    - /url: /channels/dallas
+                    - generic [ref=f904e97]:
+                      - img "Channel logo" [ref=f904e98]
+                      - generic [ref=f904e99]: Dallas
+                  - link "Channel logo Miami" [ref=f904e101] [cursor=pointer]:
+                    - /url: /channels/miami
+                    - generic [ref=f904e102]:
+                      - img "Channel logo" [ref=f904e103]
+                      - generic [ref=f904e104]: Miami
+                  - link "Channel logo Chicago" [ref=f904e106] [cursor=pointer]:
+                    - /url: /channels/chicago
+                    - generic [ref=f904e107]:
+                      - img "Channel logo" [ref=f904e108]
+                      - generic [ref=f904e109]: Chicago
+                  - link "Channel logo New York" [ref=f904e111] [cursor=pointer]:
+                    - /url: /channels/new-york
+                    - generic [ref=f904e112]:
+                      - img "Channel logo" [ref=f904e113]
+                      - generic [ref=f904e114]: New York
+                  - link "Channel logo Austin" [ref=f904e116] [cursor=pointer]:
+                    - /url: /channels/austin
+                    - generic [ref=f904e117]:
+                      - img "Channel logo" [ref=f904e118]
+                      - generic [ref=f904e119]: Austin
+                - button "Show More" [ref=f904e120] [cursor=pointer]
+            - heading "Industry" [level=2] [ref=f904e123] [cursor=pointer]:
+              - generic [ref=f904e124]: Industry
+              - img [ref=f904e125]
+            - heading "Job Function" [level=2] [ref=f904e128] [cursor=pointer]:
+              - generic [ref=f904e129]: Job Function
+              - img [ref=f904e130]
+            - heading "Learning & Advising" [level=2] [ref=f904e133] [cursor=pointer]:
+              - generic [ref=f904e134]: Learning & Advising
+              - img [ref=f904e135]
+            - heading "Money" [level=2] [ref=f904e138] [cursor=pointer]:
+              - generic [ref=f904e139]: Money
+              - img [ref=f904e140]
+            - button "Show More Channels" [ref=f904e142] [cursor=pointer]
+        - generic [ref=f904e144]:
+          - generic [ref=f904e145]:
+            - generic [ref=f904e146]: Blind
+            - link "Why Blind" [ref=f904e147] [cursor=pointer]:
+              - /url: /why-blind
+              - generic [ref=f904e148]: Why Blind
+            - link "Polls" [ref=f904e149] [cursor=pointer]:
+              - /url: /polls
+              - generic [ref=f904e150]: Polls
+            - link "Blog" [ref=f904e151] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f904e152]: Blog
+            - link "Careers" [ref=f904e153] [cursor=pointer]:
+              - /url: https://careers.teamblind.com/
+              - generic [ref=f904e154]: Careers
+            - link "Privacy" [ref=f904e155] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/privacy
+              - generic [ref=f904e156]: Privacy
+            - link "Terms" [ref=f904e157] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/term
+              - generic [ref=f904e158]: Terms
+          - generic [ref=f904e159]:
+            - generic [ref=f904e160]: Support
+            - link "Community Guidelines" [ref=f904e161] [cursor=pointer]:
+              - /url: /community-guidelines
+              - generic [ref=f904e162]: Community Guidelines
+            - link "FAQs" [ref=f904e163] [cursor=pointer]:
+              - /url: https://help.teamblind.com/
+              - generic [ref=f904e164]: FAQs
+            - link "Newsroom" [ref=f904e165] [cursor=pointer]:
+              - /url: https://press.teamblind.com/
+              - generic [ref=f904e166]: Newsroom
+            - link "Updates" [ref=f904e167] [cursor=pointer]:
+              - /url: /updates
+              - generic [ref=f904e168]: Updates
+            - generic [ref=f904e169]:
+              - button "Do Not Sell or Share My Personal Information" [ref=f904e170] [cursor=pointer]
+              - generic [ref=f904e171]: 2026 Teamblind Inc.
+      - generic [ref=f904e173]:
+        - generic [ref=f904e174]:
+          - generic [ref=f904e177]:
+            - generic [ref=f904e178]: "Sort by :"
+            - combobox "Sort by :" [ref=f904e179] [cursor=pointer]:
+              - generic: Popular
+              - img [ref=f904e180]
+          - link "Channels" [ref=f904e183] [cursor=pointer]:
+            - /url: /channels
+            - img [ref=f904e184]
+            - text: Channels
+        - generic [ref=f904e190]:
+          - article [ref=f904e191]:
+            - generic [ref=f904e203]:
+              - generic [ref=f904e204]:
+                - button "Like this post" [disabled] [ref=f904e205]:
+                  - img [ref=f904e206]
+                - button "Comment on this post" [disabled] [ref=f904e208]:
+                  - img [ref=f904e209]
+                - button "Views" [disabled] [ref=f904e211]:
+                  - img [ref=f904e212]
+              - generic [ref=f904e214]:
+                - button [disabled] [ref=f904e215]:
+                  - img [ref=f904e216]
+                - button "More options" [ref=f904e218] [cursor=pointer]:
+                  - img [ref=f904e219]
+          - article [ref=f904e221]:
+            - generic [ref=f904e233]:
+              - generic [ref=f904e234]:
+                - button "Like this post" [disabled] [ref=f904e235]:
+                  - img [ref=f904e236]
+                - button "Comment on this post" [disabled] [ref=f904e238]:
+                  - img [ref=f904e239]
+                - button "Views" [disabled] [ref=f904e241]:
+                  - img [ref=f904e242]
+              - generic [ref=f904e244]:
+                - button [disabled] [ref=f904e245]:
+                  - img [ref=f904e246]
+                - button "More options" [ref=f904e248] [cursor=pointer]:
+                  - img [ref=f904e249]
+          - article [ref=f904e251]:
+            - generic [ref=f904e263]:
+              - generic [ref=f904e264]:
+                - button "Like this post" [disabled] [ref=f904e265]:
+                  - img [ref=f904e266]
+                - button "Comment on this post" [disabled] [ref=f904e268]:
+                  - img [ref=f904e269]
+                - button "Views" [disabled] [ref=f904e271]:
+                  - img [ref=f904e272]
+              - generic [ref=f904e274]:
+                - button [disabled] [ref=f904e275]:
+                  - img [ref=f904e276]
+                - button "More options" [ref=f904e278] [cursor=pointer]:
+                  - img [ref=f904e279]
+          - article [ref=f904e281]:
+            - generic [ref=f904e293]:
+              - generic [ref=f904e294]:
+                - button "Like this post" [disabled] [ref=f904e295]:
+                  - img [ref=f904e296]
+                - button "Comment on this post" [disabled] [ref=f904e298]:
+                  - img [ref=f904e299]
+                - button "Views" [disabled] [ref=f904e301]:
+                  - img [ref=f904e302]
+              - generic [ref=f904e304]:
+                - button [disabled] [ref=f904e305]:
+                  - img [ref=f904e306]
+                - button "More options" [ref=f904e308] [cursor=pointer]:
+                  - img [ref=f904e309]
+          - article [ref=f904e311]:
+            - generic [ref=f904e323]:
+              - generic [ref=f904e324]:
+                - button "Like this post" [disabled] [ref=f904e325]:
+                  - img [ref=f904e326]
+                - button "Comment on this post" [disabled] [ref=f904e328]:
+                  - img [ref=f904e329]
+                - button "Views" [disabled] [ref=f904e331]:
+                  - img [ref=f904e332]
+              - generic [ref=f904e334]:
+                - button [disabled] [ref=f904e335]:
+                  - img [ref=f904e336]
+                - button "More options" [ref=f904e338] [cursor=pointer]:
+                  - img [ref=f904e339]
+          - article [ref=f904e341]:
+            - generic [ref=f904e353]:
+              - generic [ref=f904e354]:
+                - button "Like this post" [disabled] [ref=f904e355]:
+                  - img [ref=f904e356]
+                - button "Comment on this post" [disabled] [ref=f904e358]:
+                  - img [ref=f904e359]
+                - button "Views" [disabled] [ref=f904e361]:
+                  - img [ref=f904e362]
+              - generic [ref=f904e364]:
+                - button [disabled] [ref=f904e365]:
+                  - img [ref=f904e366]
+                - button "More options" [ref=f904e368] [cursor=pointer]:
+                  - img [ref=f904e369]
+          - article [ref=f904e371]:
+            - generic [ref=f904e383]:
+              - generic [ref=f904e384]:
+                - button "Like this post" [disabled] [ref=f904e385]:
+                  - img [ref=f904e386]
+                - button "Comment on this post" [disabled] [ref=f904e388]:
+                  - img [ref=f904e389]
+                - button "Views" [disabled] [ref=f904e391]:
+                  - img [ref=f904e392]
+              - generic [ref=f904e394]:
+                - button [disabled] [ref=f904e395]:
+                  - img [ref=f904e396]
+                - button "More options" [ref=f904e398] [cursor=pointer]:
+                  - img [ref=f904e399]
+    - region "Notifications alt+T":
+      - list:
+        - listitem [ref=f904e401]:
+          - button "Close toast" [ref=f904e402] [cursor=pointer]:
+            - img [ref=f904e403]
+          - img [ref=f904e407]
+          - generic [ref=f904e410]: The content you're looking for isn't available anymore. Here's a related section you might find useful.
+  - generic [ref=f904e411]: .
+  - alert [ref=f904e412]
+  - button [ref=f904e416] [cursor=pointer]
+  - button "Do Not Sell or Share My Personal Information" [ref=f904e420] [cursor=pointer]:
+    - paragraph [ref=f904e422]: Do Not Sell or Share My Personal Information

@@ -1,5 +1,6 @@
 const navItems = document.querySelectorAll(".nav-item");
 const sectionNavItems = document.querySelectorAll(".panel-nav .nav-item");
+const siteNav = document.querySelector(".site-nav");
 const menuToggle = document.querySelector(".menu-toggle");
 const sidePanel = document.querySelector(".side-panel");
 const navScrim = document.querySelector(".nav-scrim");
@@ -37,266 +38,229 @@ const routeHashes = new Set([
 
 const caseStudies = {
   "palo-alto-networks": {
-    title: "Sales Workbench is an AI-assisted sales operation tool used by Palo Alto Networks to manage their accounts.",
-    hero: {
-      src: "assets/figma-nodes/panw-hero.png",
-      alt: "Sales Workbench table interface and account research panels",
-    },
-    intro: [
-      "I led the end-to-end design of Sales Workbench by rethinking:",
-    ],
-    emphasizedIntro: [0],
-    emphasizedIntroList: true,
-    introList: [
-      "How we design data-dense interactive tables.",
-      "How AI converses with spreadsheet-native users.",
-      "What “source” means for internal teams.",
-    ],
+    variant: "panw-ai",
+    title: "Designing AI experiences for deep analysis and traceability.",
     meta: [
       ["Stakeholder", "Palo Alto Networks"],
       ["Skills", "AI-assisted front-end development\nInteraction Design\nPrototyping"],
       ["Year", "2025-26"],
+      ["Role", "UX Design Lead"],
     ],
+    introCards: [
+      [
+        { text: "Anchored Follow-Ups", weight: "bold" },
+        { text: " help users converge on findings while avoiding the drift of long AI-generated narratives." },
+      ],
+      [
+        { text: "Trace", weight: "bold" },
+        { text: " reimagines “sources” for internal tools, while reducing the cost of verification for a user." },
+      ],
+      "As part of leading the design for the sales workbench, I shaped the user experience for our platform from problem setting to front-end build.",
+    ],
+    context: {
+      title: "Context",
+      body: "Sales Workbench was designed as a tool to consolidate a wide range of tools into a single platform for account teams to manage their Opportunities, Accounts, Telemetry, and other sales activities.\nAlong with consolidation, the leadership wanted to incorporate an AI chatbot as a step towards AI transition.",
+    },
     sections: [
       {
-        title: "AI-interactions for spreadsheet-native users.",
-        body: [
-          [
-            { text: "The project began with a push to bring AI into the sales workflow and specifically as a chatbot. " },
-            { text: "The real disconnect was between the narrative form that AI takes and the fluency users had formed over decades of industry practice.", tone: "primary" },
-          ],
-          [
-            { text: "By experimenting with " },
-            { text: "CopilotKit", tone: "link" },
-            { text: ", I designed tabular responses with interactive rows and columns to enable follow-up interactions. This allowed the users to engage in exploratory analysis rather than single-prompt interactions." },
-          ],
-          [
-            { text: "Through observation, we found users using this combination as a means to triangulate root causes rather than using it for one-off questions, ", tone: "primary" },
-            { text: "which led us to the placeholder tagline:" },
-          ],
-          "“Ask what usually takes four tools to answer.”",
-          "In later phases, we also expanded the interaction pattern to allow context from UI tables to trigger new chats.",
-        ],
         blocks: [
           {
-            type: "copy",
-            body: [
-              [
-                { text: "The project began with a push to bring AI into the sales workflow and specifically as a chatbot. " },
-                { text: "The real disconnect was between the narrative form that AI takes and the fluency users had formed over decades of industry practice.", tone: "primary" },
-              ],
-              [
-                { text: "By experimenting with " },
-                { text: "CopilotKit", tone: "link" },
-                { text: ", I designed tabular responses with interactive rows and columns to enable follow-up interactions. This allowed the users to engage in exploratory analysis rather than single-prompt interactions." },
-              ],
-              [
-                { text: "Through observation, we found users using this combination as a means to triangulate root causes rather than using it for one-off questions, ", tone: "primary" },
-                { text: "which led us to the placeholder tagline:" },
-              ],
-              "“Ask what usually takes four tools to answer.”",
-              "In later phases, we also expanded the interaction pattern to allow context from UI tables to trigger new chats.",
+            type: "placeholder",
+            id: "hero",
+            label: "Hero AI interaction container",
+            ratio: "1032 / 579",
+            tone: "dark",
+            inner: "square",
+            size: "hero",
+            mediaType: "video",
+            src: "panw-uploads/scenario-03-square.webm",
+          },
+          {
+            type: "introGrid",
+            id: "intro",
+          },
+          {
+            type: "mediaContext",
+            id: "context",
+            media: {
+              label: "Sales Workbench interface",
+              ratio: "16 / 9",
+              size: "context",
+              src: "panw-uploads/panw-image-01.png",
+            },
+            context: "context",
+          },
+          {
+            type: "problem",
+            id: "problem",
+            eyebrow: "Problem",
+            lead: "With the push to add AI experiences to platforms, there was a disconnect between AI’s narrative exchanges and the structured, tactile interaction our users knew.",
+            points: [
+              "Leadership wanted to introduce an AI chatbot, but users were indifferent; they see structured UIs as their bread and butter for analysis and deep-dives.",
+              "The effort to verify a false response continued to outweigh the benefits of AI.",
             ],
           },
           {
-            type: "mediaSet",
-            rows: [
-              {
-                layout: "layout-680-328",
-                items: [
-                  {
-                    src: "assets/figma-elements/panw-ai-early-opinion-primary.png",
-                    alt: "Early AI interaction exploration interface",
-                    caption: "Forming early opinions on AI interactions for our users.",
-                  },
-                  {
-                    src: "assets/figma-elements/panw-ai-early-opinion-secondary.png",
-                    alt: "Secondary early AI interaction exploration interface",
-                  },
-                ],
-              },
-              {
-                layout: "layout-768-240",
-                items: [
-                  {
-                    src: "assets/figma-elements/panw-ai-context-chat.png",
-                    alt: "Context-aware chat interaction concept",
-                  },
-                  {
-                    type: "caption",
-                    caption: "A user pulling context into their chat, and identifying potential sales plays.",
-                  },
-                ],
-              },
-              {
-                layout: "layout-full",
-                items: [
-                  {
-                    src: "assets/figma-elements/panw-ai-interaction-panel.png",
-                    alt: "AI interaction panel",
-                    caption: "AI Interaction Panel",
-                  },
-                ],
-              },
-            ],
+            type: "placeholder",
+            id: "abstract",
+            label: "Abstract flow exploration",
+            ratio: "856 / 481",
+            size: "center-wide",
+            src: "panw-uploads/pane-caricature-00.jpg",
           },
-        ],
-      },
-      {
-        title: "Designing traceability for a response.",
-        blocks: [
           {
             type: "copy",
+            id: "approach",
             compact: true,
             body: [
-              "With teams being well-versed with AI tools, “thinking” and “sources” were initially considered as having a standard approach. However 2 observations led me to rethink these critical features.",
+              [
+                { text: "Approach:", weight: "bold" },
+              ],
+              "Amid the push, it became critical to identify and classify tasks that could be accomplished by AI, and ones that should not be AI-fied.",
+            ],
+          },
+          {
+            type: "mediaTextGrid",
+            id: "research",
+            media: [
+              { label: "Research interview and synthesis", ratio: "590.544 / 328", src: "assets/panw-figma/research-synthesis.png" },
+              { label: "Workshop and team discussion", ratio: "592 / 332", src: "panw-uploads/panw-caricature-01.jpg" },
+              { label: "Account-team feedback", ratio: "416 / 371", src: "assets/panw-figma/account-team-feedback.png" },
+            ],
+            text: [
+              "Speaking with Account teams across Americas, EMEA, and APJC, I found different teams having mixed opinions on the introduction of AI into their workflow.",
+              "Consistent themes included:",
             ],
             listType: "ol",
             list: [
-              "Traditionally, “thinking” shows a meandered path models take to reach a conclusion, while our users needed a structured “derivation” of a response, leading with the conclusion.",
-              {
-                text: "A platform’s name does not pass as a “source” for internal teams. What’s more important:",
-                listType: "ol",
-                sublist: [
-                  "Which dataset within the platform?",
-                  "How recently was the data updated?",
-                ],
-              },
+              "AI is always pitched for insights, but information workers need depth",
+              "It is hard to maintain focus along long chat threads.",
+              "Product teams consistently try to automate parts of the work that require human judgement at every step.",
             ],
           },
           {
             type: "copy",
+            id: "structured",
             body: [
-              [
-                { text: "These observations led me to design ", tone: "primary" },
-                { text: "Trace", tone: "primary", weight: "bold" },
-                { text: " (previously ‘Derivation’)." },
-              ],
-              "Trace breaks down a model’s thinking into 4–7 concrete steps, with pathways and timestamps for last refresh.",
-              [
-                { text: "In practice, we discovered that team members would snap a response and its trace together, and drop it in Slack threads to defend a number. The pattern became frequent enough that snapshotting was promoted to an enhancement.", tone: "primary" },
-              ],
+              "Working through abstract unknowns became a bigger focus than one-off insights and reporting tasks.",
+              "While AI was good at synthesizing information from multiple sources, identifying patterns and converging towards a finding required structured, tactile UI elements.",
             ],
           },
           {
-            type: "mediaSet",
-            rows: [
-              {
-                layout: "layout-768-240",
-                items: [
-                  {
-                    src: "assets/figma-elements/panw-trace-early-narrative.png",
-                    alt: "Early narrative traceability exploration",
-                  },
-                  {
-                    type: "caption",
-                    caption: "Early exploration using a narrative structure to show an LLM’s process.",
-                  },
-                ],
-              },
-              {
-                layout: "layout-full",
-                items: [
-                  {
-                    src: "assets/figma-elements/panw-trace-final.png",
-                    alt: "Trace interface outlining response derivation and sources",
-                    caption: [
-                      { text: "Trace", weight: "bold" },
-                      { text: ", outlining steps taken to derive a conclusion, Sources, and when they were last updated. " },
-                    ],
-                  },
-                ],
-              },
+            type: "mediaTextGrid",
+            id: "prototype",
+            flip: true,
+            media: [
+              { label: "Prototype architecture", ratio: "2990 / 1690", mediaType: "video", src: "panw-uploads/selected-cropped-webm/webm/codex shim 03.webm" },
             ],
-          },
-        ],
-      },
-      {
-        title: "Consolidating the digital footprint.",
-        body: [
-          [
-            { text: "Teams had a scattered landscape of multiple single-purpose tools built by distinct teams. " },
-            { text: "The typical approach to consolidation involved a 15+ column table.", tone: "primary" },
-          ],
-          [
-            { text: "To address this, " },
-            { text: "I redesigned the table experience by using interactive tags as the atomic unit of data instead of cells", tone: "primary" },
-            { text: ", and thematically grouping them." },
-          ],
-          [
-            { text: "Post-launch feedback led to the cluster table becoming the default pattern for future table designs with multiple columns. ", tone: "primary" },
-            { text: "The consolidation also led to a sustained reduction in traffic for 7 independently designed tools." },
-          ],
-        ],
-        blocks: [
-          {
-            type: "copy",
-            body: [
+            textTitle: "Prototyping and Technical Hurdles",
+            text: [
+              "Given limited engineering resources, introducing UI snippets into chat responses appeared as a burden for V1. To build confidence, I began researching generative UI.",
               [
-                { text: "Teams had a scattered landscape of multiple single-purpose tools built by distinct teams. " },
-                { text: "The typical approach to consolidation involved a 15+ column table.", tone: "primary" },
+                { text: "I built a prototype that used " },
+                { text: "CopilotKit", tone: "link" },
+                { text: " to connect chat prompts to the user’s current UI context, then sends that context through a " },
+                { text: "Codex shim", weight: "bold" },
+                { text: " that chooses an approved React component and returns structured data for it." },
               ],
-              [
-                { text: "To address this, " },
-                { text: "I redesigned the table experience by using interactive tags as the atomic unit of data instead of cells", tone: "primary" },
-                { text: ", and thematically grouping them." },
-              ],
-              [
-                { text: "Post-launch feedback led to the cluster table becoming the default pattern for future table designs with multiple columns. ", tone: "primary" },
-                { text: "The consolidation also led to a sustained reduction in traffic for 7 independently designed tools." },
-              ],
+              "With a prototype in place, the engineering team was able to build a more scalable solution with a forked CopilotKit repo.",
             ],
           },
           {
-            type: "mediaSet",
-            rows: [
-              {
-                layout: "layout-328-680",
-                items: [
-                  {
-                    src: "assets/figma-elements/panw-consolidation-landscape.png",
-                    alt: "Existing landscape of separate sales tools",
-                    caption: "Existing landscape of tools for our users. ",
-                  },
-                  {
-                    src: "assets/figma-elements/panw-consolidation-tags.png",
-                    alt: "Interactive tags replacing table cells",
-                    caption: "Interactive tags as a replacement to cells.",
-                  },
-                ],
-              },
-              {
-                layout: "layout-full",
-                items: [
-                  {
-                    src: "assets/figma-elements/panw-consolidation-workbench.png",
-                    alt: "Account and Opportunity Workbench interface",
-                    caption: "Account and Opportunity Workbench.",
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: "Takeaway:",
-        blocks: [
-          {
-            type: "statement",
-            compact: true,
-            body: [
-              "Progress begins somewhere between blind acceptance and complete dismissal.",
-            ],
+            type: "placeholder",
+            id: "anchored-prototype",
+            label: "Anchored response prototype",
+            ratio: "1034 / 504",
+            inner: "square",
+            size: "wide-band",
+            tone: "dark",
+            mediaType: "video",
+            src: "panw-uploads/selected-cropped-webm/webm/Anchored Responses snippet 01.webm",
           },
           {
             type: "copy",
+            id: "verification-copy",
             body: [
+              [
+                { text: "The Verification Issue:", weight: "bold" },
+              ],
+              "As data sources are continually updated, it became essential for users to understand how each response was derived. Exposing a model’s thinking did not help; even smarter models tend to “meander” towards a finding.",
+              [
+                { text: "The challenge wasn’t transparency, but " },
+                { text: "the effort spent on verification.", weight: "bold" },
+              ],
+              "Rather than refining a model’s thought process visibility, I explored a conclusion-derivation response approach. The system responds with an answer and produces a concise scannable evidence/decision trail.",
+            ],
+          },
+          {
+            type: "placeholder",
+            id: "trace",
+            label: "Trace derivation response",
+            ratio: "856 / 488",
+            size: "center-wide",
+            src: "assets/panw-figma/trace-derivation.png",
+          },
+          {
+            type: "placeholderPair",
+            id: "verification-pair",
+            items: [
+              { label: "Verification sketch", ratio: "504 / 416", src: "assets/panw-figma/verification-sketch.png" },
+              { label: "Verification component", ratio: "504 / 416", inner: "portrait", src: "assets/panw-figma/verification-component.png" },
+            ],
+          },
+          {
+            type: "placeholder",
+            id: "trace-final",
+            label: "Trace final interaction",
+            ratio: "1032 / 504",
+            inner: "square",
+            tone: "dark",
+            size: "wide-band",
+            mediaType: "video",
+            src: "panw-uploads/selected-cropped-webm/webm/Trace Snippet.webm",
+          },
+          {
+            type: "impact",
+            id: "impact",
+            eyebrow: "Impact:",
+            narratives: [
+              {
+                title: "Anchored Follow-Ups:",
+                body: [
+                  "Reference rows anchored to prompts allowed us to measure continuity in a thread without having to access user messages. We found our additions leading to engagement numbers over twice that of industry standard.",
+                  "The spike in usage also gave our team the push needed to speed up data engineering activities to make more data sources available to the AI.",
+                ],
+              },
+              {
+                title: "Trace:",
+                body: [
+                  "Trace resulted in a feature request for users to take a snapshot of the response along with its trace to drop into slack, salesforce notes, and email threads.",
+                  "A typical response included a terse conclusion, a structured data table, which combined with a clear step by step derivation made for a complete set needed to begin grounded discussions with peers.",
+                ],
+              },
+            ],
+            metrics: [
+              { label: "Arc Rate", value: "23%", delta: "+ 12pts", detail: "over industry standard" },
+              { label: "Arc Depth", value: "4.3", delta: "+ 12pts", detail: "over industry standard" },
+              { label: "Snapshot Rate" },
+            ],
+          },
+          {
+            type: "placeholder",
+            id: "final",
+            label: "AI interaction prompt-entry field / trace-use entrance",
+            ratio: "2992 / 1632",
+            size: "wide-band",
+            src: "assets/panw-figma/final-trace.png",
+          },
+          {
+            type: "takeaway",
+            id: "takeaway",
+            eyebrow: "Takeaway:",
+            body: [
+              [{ text: "Progress begins somewhere between blind acceptance and complete dismissal.", weight: "bold" }],
               "It was certainly uncomfortable being yet another team trying to add a chatbot with tiny chips that simulate “thinking” and treat citations as checkboxes. But acknowledging discomfort while taking action led to some of the more unique experiences in the application, with a lasting impact.",
-              [
-                { text: "The question was never “how do we add a chatbot?” but rather " },
-                { text: "“what assumptions do we carry about the chatbot experience that will fail our users?”", tone: "primary" },
-              ],
+              [{ text: "The question was never “how do we add a chatbot?” but rather “what assumptions do we carry about the chatbot experience that will fail our users?”", weight: "bold" }],
             ],
           },
         ],
@@ -1143,11 +1107,15 @@ const revealMotionItems = (items, stagger = 70, baseDelay = 0) => {
 };
 
 const resetViewportScroll = () => {
+  const pageShell = document.querySelector(".page-shell");
+  pageShell?.scrollTo({ top: 0, behavior: "instant" });
   window.scrollTo({ top: 0, behavior: "instant" });
   window.requestAnimationFrame(() => {
+    pageShell?.scrollTo({ top: 0, behavior: "instant" });
     window.scrollTo({ top: 0, behavior: "instant" });
   });
   window.setTimeout(() => {
+    pageShell?.scrollTo({ top: 0, behavior: "instant" });
     window.scrollTo({ top: 0, behavior: "instant" });
   }, 80);
 };
@@ -1235,6 +1203,53 @@ const cleanupAboutMotion = () => {
   aboutStage?.querySelectorAll(".about-motion-item").forEach((item) => {
     item.classList.remove("is-visible");
   });
+};
+
+let panwProblemBracketFrame = 0;
+
+const updatePanwProblemBrackets = () => {
+  panwProblemBracketFrame = 0;
+
+  document.querySelectorAll(".panw-problem").forEach((problem) => {
+    const lead = problem.querySelector(".panw-problem-lead");
+    const list = problem.querySelector("ol");
+    const items = [...problem.querySelectorAll("li")];
+    if (!lead || !list || items.length < 2) return;
+
+    const listRect = list.getBoundingClientRect();
+    const leadRect = lead.getBoundingClientRect();
+    const markerData = items.map((item) => {
+      const itemRect = item.getBoundingClientRect();
+      const markerStyle = getComputedStyle(item, "::before");
+      const markerHeight = Number.parseFloat(markerStyle.height) || 33;
+      return {
+        item,
+        itemRect,
+        markerHeight,
+        centerY: itemRect.top + (markerHeight / 2),
+        top: itemRect.top,
+      };
+    });
+
+    const firstMarker = markerData[0];
+    const secondMarker = markerData[1];
+    const preferredTop = leadRect.bottom + 18;
+    const topBeforeFirstCircle = firstMarker.top - 24;
+    const lineTop = Math.min(preferredTop, topBeforeFirstCircle);
+    const lineHeight = Math.max(0, secondMarker.centerY - lineTop);
+
+    list.style.setProperty("--panw-problem-line-top", `${lineTop - listRect.top}px`);
+    list.style.setProperty("--panw-problem-line-height", `${lineHeight}px`);
+
+    markerData.forEach(({ item, markerHeight }) => {
+      item.style.setProperty("--panw-problem-tick-y", `${markerHeight / 2}px`);
+    });
+  });
+};
+
+const queuePanwProblemBracketUpdate = () => {
+  if (panwProblemBracketFrame) return;
+  panwProblemBracketFrame = window.requestAnimationFrame(updatePanwProblemBrackets);
 };
 
 const renderRoute = (hash = window.location.hash) => {
@@ -1370,6 +1385,172 @@ const renderMediaSet = (rows = []) => `
   </div>
 `;
 
+const isPanwVideo = (item = {}) => item.mediaType === "video" || /\.(mp4|mov|webm)$/i.test(item.src || "");
+
+const renderPanwMediaAsset = (item = {}) => {
+  if (!item.src) return "";
+
+  const src = escapeHtml(item.src);
+  const label = escapeHtml(item.label || "");
+
+  if (isPanwVideo(item)) {
+    return `<video class="panw-placeholder-image panw-placeholder-video" src="${src}" aria-label="${label}" autoplay loop muted playsinline preload="metadata"></video>`;
+  }
+
+  return `<img class="panw-placeholder-image" src="${src}" alt="${label}">`;
+};
+
+const renderPanwPlaceholder = (item = {}) => `
+  <div class="panw-placeholder${item.src ? " panw-placeholder-has-image" : ""} panw-placeholder-${escapeHtml(item.tone || "neutral")}${item.size ? ` panw-placeholder-${escapeHtml(item.size)}` : ""}${item.id ? ` panw-block-${escapeHtml(item.id)}` : ""} case-reveal-image" style="--placeholder-ratio: ${escapeHtml(item.ratio || "16 / 9")};" aria-label="${escapeHtml(item.label || "Image placeholder")}">
+    ${item.inner ? `
+      <div class="panw-placeholder-inner panw-placeholder-inner-${escapeHtml(item.inner)}">
+        ${renderPanwMediaAsset(item)}
+      </div>
+    ` : renderPanwMediaAsset(item)}
+  </div>
+`;
+
+const renderPanwIntroGrid = (study) => `
+  <div class="panw-intro-grid panw-block-intro">
+    <div class="panw-intro-copy case-reveal-text">
+      ${(study.introCards || []).map((item) => `<p>${renderInlineContent(item)}</p>`).join("")}
+    </div>
+    <dl class="panw-meta case-reveal-text">
+      ${study.meta.map(([label, value]) => `
+        <div class="panw-meta-row">
+          <dt>${escapeLines(label)}</dt>
+          <dd>${escapeLines(value)}</dd>
+        </div>
+      `).join("")}
+    </dl>
+  </div>
+`;
+
+const renderPanwMediaContext = (block, study) => {
+  const context = typeof block.context === "string" ? study[block.context] : block.context;
+
+  return `
+    <div class="panw-media-context${block.id ? ` panw-block-${escapeHtml(block.id)}` : ""}">
+      ${renderPanwPlaceholder(block.media)}
+      ${context ? `
+        <aside class="panw-side-note case-reveal-text">
+          <h2>${escapeLines(context.title || "")}</h2>
+          ${String(context.body || "").split("\n").map((paragraph) => `<p>${escapeLines(paragraph)}</p>`).join("")}
+        </aside>
+      ` : ""}
+    </div>
+  `;
+};
+
+const renderPanwProblem = (block) => `
+  <div class="panw-problem${block.id ? ` panw-block-${escapeHtml(block.id)}` : ""} case-reveal-text">
+    <p class="panw-eyebrow">${escapeLines(block.eyebrow || "")}</p>
+    <p class="panw-problem-lead">${escapeLines(block.lead || "")}</p>
+    <div class="panw-problem-list-wrap">
+      <img class="panw-problem-vector panw-problem-vector-long" src="assets/panw-figma/vector-357.svg" alt="">
+      <img class="panw-problem-vector panw-problem-vector-short" src="assets/panw-figma/vector-358.svg" alt="">
+      <ol>
+        ${(block.points || []).map((point) => `<li>${escapeLines(point)}</li>`).join("")}
+      </ol>
+    </div>
+  </div>
+`;
+
+const renderPanwPlaceholderPair = (block) => `
+  <div class="panw-placeholder-pair${block.id ? ` panw-block-${escapeHtml(block.id)}` : ""}">
+    ${(block.items || []).map(renderPanwPlaceholder).join("")}
+  </div>
+`;
+
+const renderPanwTextColumn = (block) => `
+  <div class="panw-side-note case-reveal-text">
+    ${block.textTitle ? `<h2>${escapeLines(block.textTitle)}</h2>` : ""}
+    ${Array.isArray(block.text)
+      ? block.text.map((item) => `<p>${renderInlineContent(item)}</p>`).join("")
+      : `<p>${escapeLines(block.text || "")}</p>`}
+    ${renderList(block.list || [], block.listType || "ul")}
+  </div>
+`;
+
+const renderPanwResearchGrid = (block) => {
+  const media = block.media || [];
+
+  return `
+    <div class="panw-media-text-grid panw-block-research">
+      <div class="panw-research-column panw-research-left">
+        ${media.slice(0, 2).map(renderPanwPlaceholder).join("")}
+      </div>
+      <div class="panw-research-column panw-research-right">
+        ${renderPanwTextColumn(block)}
+        ${media[2] ? renderPanwPlaceholder(media[2]) : ""}
+      </div>
+    </div>
+  `;
+};
+
+const renderPanwMediaTextGrid = (block) => `
+  <div class="panw-media-text-grid${block.flip ? " panw-media-text-grid-flip" : ""}${block.id ? ` panw-block-${escapeHtml(block.id)}` : ""}">
+    <div class="panw-media-column">
+      ${(block.media || []).map(renderPanwPlaceholder).join("")}
+    </div>
+    ${renderPanwTextColumn(block)}
+  </div>
+`;
+
+const renderPanwImpact = (block) => `
+  <div class="panw-impact${block.id ? ` panw-block-${escapeHtml(block.id)}` : ""}">
+    <div class="panw-impact-copy case-reveal-text">
+      <p class="panw-eyebrow">${escapeLines(block.eyebrow || "")}</p>
+      ${(block.narratives || []).map((item) => `
+        <section class="panw-impact-item">
+          <h2>${escapeLines(item.title || "")}</h2>
+          ${(item.body || []).map((paragraph) => `<p>${escapeLines(paragraph)}</p>`).join("")}
+        </section>
+      `).join("")}
+    </div>
+    <div class="panw-metrics">
+      ${(block.metrics || []).map((metric) => `
+        <article class="panw-metric-card case-reveal-text">
+          <p class="panw-metric-label">${escapeLines(metric.label)}</p>
+          ${metric.value ? `<p class="panw-metric-value">${escapeLines(metric.value)}</p>` : ""}
+          ${(metric.delta || metric.detail) ? `<p class="panw-metric-detail"><span>${escapeLines(metric.delta || "")}</span>${metric.detail ? ` ${escapeLines(metric.detail)}` : ""}</p>` : ""}
+        </article>
+      `).join("")}
+    </div>
+  </div>
+`;
+
+const renderPanwTakeaway = (block) => `
+  <div class="panw-takeaway${block.id ? ` panw-block-${escapeHtml(block.id)}` : ""} case-reveal-text">
+    <p class="panw-eyebrow">${escapeLines(block.eyebrow || "")}</p>
+    ${Array.isArray(block.body)
+      ? block.body.map((item) => `<p>${renderInlineContent(item)}</p>`).join("")
+      : `<p>${escapeLines(block.body || "")}</p>`}
+  </div>
+`;
+
+const renderPanwBlock = (block, study) => {
+  if (block.type === "placeholder") return renderPanwPlaceholder(block);
+  if (block.type === "introGrid") return renderPanwIntroGrid(study);
+  if (block.type === "mediaContext") return renderPanwMediaContext(block, study);
+  if (block.type === "problem") return renderPanwProblem(block);
+  if (block.type === "placeholderPair") return renderPanwPlaceholderPair(block);
+  if (block.type === "mediaTextGrid" && block.id === "research") return renderPanwResearchGrid(block);
+  if (block.type === "mediaTextGrid") return renderPanwMediaTextGrid(block);
+  if (block.type === "impact") return renderPanwImpact(block);
+  if (block.type === "takeaway") return renderPanwTakeaway(block);
+  return renderCaseBlock(block);
+};
+
+const renderPanwCaseStudy = (study) => `
+  <div class="case-inner panw-case-inner">
+    <div class="panw-title-frame">
+      <h1 class="case-title case-heading-motion">${escapeLines(study.title)}</h1>
+    </div>
+    ${(study.sections || []).flatMap((section) => section.blocks || []).map((block) => renderPanwBlock(block, study)).join("")}
+  </div>
+`;
+
 const renderCaseBlock = (block) => {
   if (block.type === "media") {
     return renderMedia(block.media, block.caption, block.variant);
@@ -1381,14 +1562,14 @@ const renderCaseBlock = (block) => {
 
   if (block.type === "statement") {
     return `
-      <div class="case-statement case-reveal-text${block.compact ? " case-block-compact" : ""}">
+      <div class="case-statement case-reveal-text${block.compact ? " case-block-compact" : ""}${block.id ? ` panw-block-${escapeHtml(block.id)}` : ""}">
         ${createParagraphs(block.body || [])}
       </div>
     `;
   }
 
   return `
-    <div class="case-copy case-reveal-text${block.compact ? " case-block-compact" : ""}">
+    <div class="case-copy case-reveal-text${block.compact ? " case-block-compact" : ""}${block.id ? ` panw-block-${escapeHtml(block.id)}` : ""}">
       ${createParagraphs(block.body || [])}
       ${renderList(block.list || [], block.listType || "ul")}
     </div>
@@ -1436,6 +1617,8 @@ const initializeCaseMotion = () => {
   if (!caseStudyStage) return;
 
   cleanupCaseMotion();
+  queuePanwProblemBracketUpdate();
+  document.fonts?.ready.then(queuePanwProblemBracketUpdate);
 
   const heading = caseStudyStage.querySelector(".case-heading-motion");
   const hero = caseStudyStage.querySelector(".case-hero-media");
@@ -1445,6 +1628,14 @@ const initializeCaseMotion = () => {
     heading?.classList.add("is-visible");
     hero?.classList.add("is-visible");
     revealElements.forEach((element) => revealCaseElement(element, 0));
+    window.addEventListener("resize", queuePanwProblemBracketUpdate);
+    caseMotionCleanup = () => {
+      window.removeEventListener("resize", queuePanwProblemBracketUpdate);
+      if (panwProblemBracketFrame) {
+        window.cancelAnimationFrame(panwProblemBracketFrame);
+        panwProblemBracketFrame = 0;
+      }
+    };
     return;
   }
 
@@ -1499,9 +1690,14 @@ const initializeCaseMotion = () => {
   caseMotionCleanup = () => {
     window.removeEventListener("scroll", queueRevealCheck);
     window.removeEventListener("resize", queueRevealCheck);
+    window.removeEventListener("resize", queuePanwProblemBracketUpdate);
     if (revealFrame) {
       window.cancelAnimationFrame(revealFrame);
       revealFrame = 0;
+    }
+    if (panwProblemBracketFrame) {
+      window.cancelAnimationFrame(panwProblemBracketFrame);
+      panwProblemBracketFrame = 0;
     }
     window.clearTimeout(revealStartTimer);
   };
@@ -1519,6 +1715,7 @@ const initializeCaseMotion = () => {
   revealElements.forEach((element) => caseRevealObserver.observe(element));
   window.addEventListener("scroll", queueRevealCheck, { passive: true });
   window.addEventListener("resize", queueRevealCheck);
+  window.addEventListener("resize", queuePanwProblemBracketUpdate);
 
   revealStartTimer = window.setTimeout(() => {
     canRevealCaseContent = true;
@@ -1536,7 +1733,8 @@ const renderCaseStudy = (slug) => {
   if (aboutStage) aboutStage.hidden = true;
   document.body.classList.remove("route-about", "route-about-entering");
   caseStudyStage.hidden = false;
-  caseStudyStage.innerHTML = `
+  caseStudyStage.classList.toggle("case-study-panw", study.variant === "panw-ai");
+  caseStudyStage.innerHTML = study.variant === "panw-ai" ? renderPanwCaseStudy(study) : `
     <div class="case-inner">
       <div class="case-title-frame">
         <h1 class="case-title case-heading-motion">${escapeLines(study.title)}</h1>
@@ -1679,8 +1877,14 @@ const setLightboxZoom = (shouldZoom) => {
 };
 
 document.addEventListener("click", (event) => {
-  const mediaButton = event.target.closest(".case-media[data-full-src]");
-  if (!mediaButton || !lightbox || !lightboxImage || !lightboxCaption) return;
+  const mediaButton = event.target.closest("#case-study .case-media[data-full-src]");
+  if (
+    !mediaButton ||
+    caseStudyStage?.hidden ||
+    !lightbox ||
+    !lightboxImage ||
+    !lightboxCaption
+  ) return;
 
   window.clearTimeout(lightboxCloseTimer);
   lightbox.classList.remove("is-open", "is-closing");
@@ -1788,6 +1992,14 @@ menuToggle?.addEventListener("click", () => {
 navScrim?.addEventListener("click", () => {
   setNavigationOpen(false);
 });
+
+siteNav?.addEventListener("wheel", (event) => {
+  const pageShell = document.querySelector(".page-shell");
+  if (!pageShell) return;
+
+  event.preventDefault();
+  pageShell.scrollBy({ top: event.deltaY, left: 0, behavior: "auto" });
+}, { passive: false });
 
 document.addEventListener("click", (event) => {
   if (!document.body.classList.contains("nav-open")) return;

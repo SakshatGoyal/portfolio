@@ -1,0 +1,29 @@
+# Media rename record - Global-Data-Analytics
+
+| Original | Final |
+| --- | --- |
+| `assets/local-source/IMG_0541.jpeg` | `assets/local-source/gda-workshop-sticky-note-wall.jpeg` |
+| `assets/local-source/IMG_0565.jpeg` | `assets/local-source/gda-whiteboard-synthesis.jpeg` |
+| `assets/local-source/additional-filters.png` | `assets/local-source/gda-comparison-criteria-filters.png` |
+| `assets/local-source/bob-image-04.png` | `assets/local-source/gda-book-of-business-segmentation-model.png` |
+| `assets/local-source/bob-image-05.png` | `assets/local-source/gda-book-of-business-insights-grid.png` |
+| `assets/local-source/bob-image-bob.png` | `assets/local-source/gda-book-of-business-dashboard.png` |
+| `assets/local-source/bob-image-feature.png` | `assets/local-source/gda-feature-usage-baseline-dashboard.png` |
+| `assets/local-source/docusign-bob-caricature.jpg` | `assets/local-source/gda-book-of-business-caricature.jpg` |
+| `assets/local-source/docusign-feature-caricature.jpg` | `assets/local-source/gda-feature-usage-caricature.jpg` |
+| `assets/local-source/feature-usage-insights.png` | `assets/local-source/gda-feature-usage-insights-comparison.png` |
+| `assets/local-source/generic-cover.png` | `assets/local-source/gda-case-cover.png` |
+| `assets/local-source/past-images-gda/bob-image-03.png` | `assets/local-source/past-images-gda/gda-comparison-criteria-slide-alt.png` |
+| `assets/local-source/past-images-gda/bob-image-04.png` | `assets/local-source/past-images-gda/gda-segmentation-model-alt.png` |
+| `assets/local-source/past-images-gda/bob-image-05.png` | `assets/local-source/past-images-gda/gda-insights-grid-alt.png` |
+| `assets/local-source/past-images-gda/bob-image-06.png` | `assets/local-source/past-images-gda/gda-book-of-business-dashboard-laptop-alt-2.png` |
+| `assets/local-source/past-images-gda/bob-image-07.png` | `assets/local-source/past-images-gda/gda-feature-usage-baseline-dashboard-laptop-alt-2.png` |
+| `assets/notion-originals/IMG_0541.jpeg` | `assets/notion-originals/gda-workshop-sticky-note-wall.jpeg` |
+| `assets/notion-originals/IMG_0565.jpeg` | `assets/notion-originals/gda-whiteboard-synthesis.jpeg` |
+| `assets/notion-originals/bob-image-01.png` | `assets/notion-originals/gda-case-overview.png` |
+| `assets/notion-originals/bob-image-02-1.png` | `assets/notion-originals/gda-book-of-business-dashboard-alt.png` |
+| `assets/notion-originals/bob-image-04.png` | `assets/notion-originals/gda-segmentation-model-alt.png` |
+| `assets/notion-originals/bob-image-feature.png` | `assets/notion-originals/gda-feature-usage-baseline-dashboard.png` |
+| `assets/notion-originals/bob-interpretations.png` | `assets/notion-originals/gda-feature-usage-interpretation-grid.png` |
+| `assets/notion-originals/docusign-bob-caricature.jpg` | `assets/notion-originals/gda-book-of-business-caricature.jpg` |
+| `assets/notion-originals/feature-interpretation.png` | `assets/notion-originals/gda-feature-interpretation-panel.png` |

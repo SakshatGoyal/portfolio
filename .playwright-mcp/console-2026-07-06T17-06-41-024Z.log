@@ -1,0 +1,70 @@
+[    1275ms] [WARNING] [GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[    1380ms] [WARNING] 3 is not a valid value for publisherSpecialPurposesIds @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1484ms] [LOG] Push notifications powered by Aimtell. Learn more at https://aimtell.com/developers @ https://cdn.aimtell.com/trackpush/trackpush.min.js:0
+[    1553ms] [LOG] uspData default usp value based on gpc signal @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1554ms] [WARNING] globalPrivacyControl is not available in the browser. Setting usp string as  1NN @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1554ms] [LOG] setting mspa footer with opt out defaults in mspa-api @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1554ms] [ERROR] MspaFooterHTMLId not found, inserting text into footer @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1554ms] [WARNING] Google basic consent is not applicable. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1559ms] [LOG] Less than 30 minute have passed since the stored timestamp. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1894ms] [WARNING] [GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[    2361ms] [LOG] %craven%c Raven v1.20.0-69wxiu background-color:#000;margin-left:1px;padding:1px 3px;font-size:0.75em;color:#ffffff; font-size:0.9em; @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    2543ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:40123)
+    at io (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:90844)
+    at sc (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:131315)
+    at https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126205
+    at u9 (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126306)
+    at s$ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:152688)
+    at MessagePort._ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:1647)
+[    2544ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:40123)
+    at io (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:90844)
+    at sc (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:131315)
+    at https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126205
+    at u9 (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126306)
+    at s$ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:152688)
+    at MessagePort._ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:1647)
+[    2548ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[    2696ms] [WARNING] 3 is not a valid value for publisherSpecialPurposesIds @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    2775ms] [LOG] uspData default usp value based on gpc signal @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    2775ms] [WARNING] globalPrivacyControl is not available in the browser. Setting usp string as  1NN @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    2775ms] [LOG] setting mspa footer with opt out defaults in mspa-api @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    2775ms] [ERROR] MspaFooterHTMLId not found, inserting text into footer @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    2775ms] [WARNING] Google basic consent is not applicable. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    2777ms] [LOG] Less than 30 minute have passed since the stored timestamp. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    3254ms] [LOG] Push notifications powered by Aimtell. Learn more at https://aimtell.com/developers @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    3539ms] [TIMEEND] a: 0 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    4313ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    4427ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    4572ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4572ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4572ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4842ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4847ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4913ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cs.lkqd.net/cs?partnerId=59&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dlkqd_dbm%26google_hm%3D%24%24rawlkqduserid%7Cbase64%24%24:0
+[    4946ms] [ERROR] Permissions policy violation: accelerometer is not allowed in this document. @ :0
+[    4946ms] [WARNING] The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features @ :0
+[    4946ms] [ERROR] Permissions policy violation: accelerometer is not allowed in this document. @ :0
+[    4946ms] [WARNING] The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features @ :0
+[    4946ms] [ERROR] Permissions policy violation: accelerometer is not allowed in this document. @ :0
+[    4946ms] [WARNING] The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features @ :0
+[    4946ms] [ERROR] Permissions policy violation: accelerometer is not allowed in this document. @ :0
+[    4946ms] [WARNING] The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features @ :0
+[    5649ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://062538ed31fafeb85bdf32a7f8d09428.safeframe.googlesyndication.com/safeframe/1-0-45/html/mraid.js:0
+[    4913ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cs.lkqd.net/cs?partnerId=59&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dlkqd_dbm%26google_hm%3D%24%24rawlkqduserid%7Cbase64%24%24:0
+[    5712ms] [ERROR] Refused to execute script from 'https://062538ed31fafeb85bdf32a7f8d09428.safeframe.googlesyndication.com/safeframe/1-0-45/html/mraid.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ https://062538ed31fafeb85bdf32a7f8d09428.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html:0
+[    4572ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4842ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4847ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    5747ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    6673ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    6959ms] [TIMEEND] a: 0.001953125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    7023ms] [TIMEEND] a: 0.001220703125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    4913ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cs.lkqd.net/cs?partnerId=59&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dlkqd_dbm%26google_hm%3D%24%24rawlkqduserid%7Cbase64%24%24:0
+[    8083ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://b1sync.zemanta.com/usersync/ogury/?gdpr=0&gdpr_consent=&cb=https%3A%2F%2Fms-cookie-sync.presage.io%2Fuser-sync%3Foutbrain_id%3D__ZUID__:0
+[    8242ms] [ERROR] Access to XMLHttpRequest at 'https://scripts.opti-digital.com/js/presync.html?endpoint=optidigital&us_privacy=1---&gpp=DBABL~BVQqAAAAAg&gpp_sid=7' from origin 'https://www.teamblind.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.teamblind.com/:0
+[    8243ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://scripts.opti-digital.com/js/presync.html?endpoint=optidigital&us_privacy=1---&gpp=DBABL~BVQqAAAAAg&gpp_sid=7:0

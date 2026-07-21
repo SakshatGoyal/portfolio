@@ -1,0 +1,220 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - banner [ref=f6e4]:
+      - generic [ref=f6e8]:
+        - generic [ref=f6e9]:
+          - link [ref=f6e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=f6e12]
+          - generic [ref=f6e17]:
+            - link "Community" [ref=f6e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f6e19]: Community
+            - link "Salaries" [ref=f6e20] [cursor=pointer]:
+              - /url: /salary
+              - generic [ref=f6e21]: Salaries
+            - link "Reviews" [ref=f6e22] [cursor=pointer]:
+              - /url: /company
+              - generic [ref=f6e23]: Reviews
+            - link "Layoffs" [ref=f6e24] [cursor=pointer]:
+              - /url: /layoffs
+              - generic [ref=f6e25]: Layoffs
+            - link "Jobs" [ref=f6e26] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=f6e27]: Jobs
+            - generic [ref=f6e29] [cursor=pointer]:
+              - generic [ref=f6e30]: For Business
+              - img [ref=f6e31]
+          - generic [ref=f6e34]:
+            - img [ref=f6e35]
+            - textbox "Search" [ref=f6e37]
+        - generic [ref=f6e39]:
+          - button "Sign in" [ref=f6e40] [cursor=pointer]
+          - link "Sign up" [ref=f6e41] [cursor=pointer]:
+            - /url: /sign-up?next=/&from=sign-up-top-menu
+    - generic [ref=f6e44]:
+      - generic [ref=f6e47]:
+        - generic [ref=f6e48]:
+          - link "Feed" [ref=f6e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f6e50]:
+              - img [ref=f6e51]
+              - text: Feed
+          - link "My Company" [ref=f6e55] [cursor=pointer]:
+            - /url: /my-company
+            - generic [ref=f6e56]:
+              - img [ref=f6e57]
+              - text: My Company
+          - link "Blind Alters" [ref=f6e59] [cursor=pointer]:
+            - /url: /alter
+            - generic [ref=f6e60]:
+              - img [ref=f6e61]
+              - text: Blind Alters
+          - link "Resources" [ref=f6e64] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=f6e65]:
+              - img [ref=f6e66]
+              - text: Resources
+          - link "Best of Blind NEW" [ref=f6e69] [cursor=pointer]:
+            - /url: /best/2026
+            - generic [ref=f6e70]:
+              - img [ref=f6e71]
+              - text: Best of Blind
+              - generic [ref=f6e74]: NEW
+          - link "Trending" [ref=f6e75] [cursor=pointer]:
+            - /url: /trending
+            - generic [ref=f6e76]:
+              - img [ref=f6e77]
+              - text: Trending
+        - generic [ref=f6e81]:
+          - link "All Channels" [ref=f6e82] [cursor=pointer]:
+            - /url: /channels
+            - generic [ref=f6e83]:
+              - img [ref=f6e84]
+              - text: All Channels
+          - generic [ref=f6e86]:
+            - generic [ref=f6e87]:
+              - heading "Location" [level=2] [ref=f6e88] [cursor=pointer]:
+                - generic [ref=f6e89]: Location
+                - img [ref=f6e90]
+              - generic [ref=f6e92]:
+                - generic [ref=f6e93]:
+                  - link "Channel logo Dallas" [ref=f6e95] [cursor=pointer]:
+                    - /url: /channels/dallas
+                    - generic [ref=f6e96]:
+                      - img "Channel logo" [ref=f6e97]
+                      - generic [ref=f6e98]: Dallas
+                  - link "Channel logo Miami" [ref=f6e100] [cursor=pointer]:
+                    - /url: /channels/miami
+                    - generic [ref=f6e101]:
+                      - img "Channel logo" [ref=f6e102]
+                      - generic [ref=f6e103]: Miami
+                  - link "Channel logo Chicago" [ref=f6e105] [cursor=pointer]:
+                    - /url: /channels/chicago
+                    - generic [ref=f6e106]:
+                      - img "Channel logo" [ref=f6e107]
+                      - generic [ref=f6e108]: Chicago
+                  - link "Channel logo New York" [ref=f6e110] [cursor=pointer]:
+                    - /url: /channels/new-york
+                    - generic [ref=f6e111]:
+                      - img "Channel logo" [ref=f6e112]
+                      - generic [ref=f6e113]: New York
+                  - link "Channel logo Austin" [ref=f6e115] [cursor=pointer]:
+                    - /url: /channels/austin
+                    - generic [ref=f6e116]:
+                      - img "Channel logo" [ref=f6e117]
+                      - generic [ref=f6e118]: Austin
+                - button "Show More" [ref=f6e119] [cursor=pointer]
+            - heading "Industry" [level=2] [ref=f6e122] [cursor=pointer]:
+              - generic [ref=f6e123]: Industry
+              - img [ref=f6e124]
+            - heading "Job Function" [level=2] [ref=f6e127] [cursor=pointer]:
+              - generic [ref=f6e128]: Job Function
+              - img [ref=f6e129]
+            - heading "Learning & Advising" [level=2] [ref=f6e132] [cursor=pointer]:
+              - generic [ref=f6e133]: Learning & Advising
+              - img [ref=f6e134]
+            - heading "Money" [level=2] [ref=f6e137] [cursor=pointer]:
+              - generic [ref=f6e138]: Money
+              - img [ref=f6e139]
+            - button "Show More Channels" [ref=f6e141] [cursor=pointer]
+        - generic [ref=f6e143]:
+          - generic [ref=f6e144]:
+            - generic [ref=f6e145]: Blind
+            - link "Why Blind" [ref=f6e146] [cursor=pointer]:
+              - /url: /why-blind
+              - generic [ref=f6e147]: Why Blind
+            - link "Polls" [ref=f6e148] [cursor=pointer]:
+              - /url: /polls
+              - generic [ref=f6e149]: Polls
+            - link "Blog" [ref=f6e150] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f6e151]: Blog
+            - link "Careers" [ref=f6e152] [cursor=pointer]:
+              - /url: https://careers.teamblind.com/
+              - generic [ref=f6e153]: Careers
+            - link "Privacy" [ref=f6e154] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/privacy
+              - generic [ref=f6e155]: Privacy
+            - link "Terms" [ref=f6e156] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/term
+              - generic [ref=f6e157]: Terms
+          - generic [ref=f6e158]:
+            - generic [ref=f6e159]: Support
+            - link "Community Guidelines" [ref=f6e160] [cursor=pointer]:
+              - /url: /community-guidelines
+              - generic [ref=f6e161]: Community Guidelines
+            - link "FAQs" [ref=f6e162] [cursor=pointer]:
+              - /url: https://help.teamblind.com/
+              - generic [ref=f6e163]: FAQs
+            - link "Newsroom" [ref=f6e164] [cursor=pointer]:
+              - /url: https://press.teamblind.com/
+              - generic [ref=f6e165]: Newsroom
+            - link "Updates" [ref=f6e166] [cursor=pointer]:
+              - /url: /updates
+              - generic [ref=f6e167]: Updates
+            - generic [ref=f6e168]:
+              - button "Do Not Sell or Share My Personal Information" [ref=f6e169] [cursor=pointer]
+              - generic [ref=f6e170]: 2026 Teamblind Inc.
+      - generic [ref=f6e173]:
+        - paragraph [ref=f6e174]: This page has moved.
+        - paragraph [ref=f6e175]:
+          - text: Click
+          - link "here" [ref=f6e176] [cursor=pointer]:
+            - /url: /post/product-design-portfolio-presentation-interview-spfevadg
+          - text: if the automatic redirect does not start.
+    - region "Notifications alt+T"
+  - generic [ref=f6e177]: .
+  - alert [ref=f6e178]
+  - generic [ref=f6e179]:
+    - iframe [ref=f6e182]:
+      - generic [ref=f17e3]:
+        - generic [ref=f17e4]:
+          - iframe [ref=f17e5]:
+            - generic [active] [ref=f18e1]:
+              - generic [ref=f18e5]:
+                - generic [ref=f18e8]:
+                  - link [ref=f18e9] [cursor=pointer]:
+                    - /url: https://exch.quantserve.com/r?us_privacy=&a=p-1RYxePXT9bCS2&labels=_qc.clk,_click.adserver.rtb,_click.rand.1517583830&rtbip=192.184.70.250&rtbdata2=EAQ6GWh0dHBzOi8vd3d3LnRlYW1ibGluZC5jb21aJGtGT3RpOGhXdDdXbGJaRzN0VzZUenNWWHNwT2ZXOUJRTV8wPYAB1vvR0wW6ASg4OGRjNDkzYWY4Yzg2MDQxYjhmODljY2M1Mzk0ZGRmNDRlMzFlMGJlwAGohxXIAb_VkMPzM9oBKDZkNjEwM2M5ZGZhNWUzMjVmNmE4MjQ2ODE3Yjc1MjEzMzYwODRjZTiwAg7IAgDQAs7hhvv4n_fMqQHoAhjyAg4I2ZgfEO2ihsnAg5bFMvICDAgYEK2mtoOUkYuGUPgCAIoDBTIwMzM2mAMAqAMAsgMEawOJ9LoDEgk2Rnshn6PEyhH1Jw4ewpvCs8IDEgl1RstY6ZeWDhHMPF4MOmPIv8gD-IqAENgD1vvR0wXiAw9wLTFSWXhlUFhUOWJDUzLqAwYIrAIQ2ATyAwU5NDEwOfgDAIAEsAKKBAI3N5IEDU1HTkktQVAtMTYyOTmaBBIJAUbeX4yKkGARzaClCv8lHbuiBBIJNkZ7IZ-jxMoR9ScOHsKbwrOqBBIJNkZ7IZ-jxMoR9ScOHsKbwrO4BNAF0AQN8gQCVVOABQGKBSoyMDhhNjc5ZDI0ZWY4ZTNjYmE4ZGZjZmZkNDIzZmZjZDUwNjU4ZWUxYWGQBQGaBRUgimedJO-OPLqN_P_UI__NUGWO4aqiBSRrRk90aThoV3Q3V2xiWkczdFc2VHpzVlhzcE9mVzlCUU1fMD2wBQK4BQDABdb70dMFyAWW06oE0gUGCAMQARgE6AUGmgYUChIJAUbeX4yKkGARzaClCv8lHbugBgC1Bqh7zDe6BmMKAlVTEgJDQRinBiIPc2FuJTIwZnJhbmNpc2NvKgU5NDEwOTonY29tY2FzdCUyMGNhYmxlJTIwY29tbXVuaWNhdGlvbnMlMjBpbmMuWhVjb21jYXN0JTIwY29ycG9yYXRpb27JBp8YML_CfmgT8QYCMDC_wn5oE_gGAYAHAIoHEgl1RstY6ZeWDhHMPF4MOmPIv7AH0fWzBLgHotz6BNgHBA&rtb_id=CZ8YML_CfmgTEQIwML_CfmgTGDy3izua6zSq5I1CR7w&redirecturl3=https://servedby.flashtalking.com/click/8/225291;7892522;5554467;211;0/?gdpr=0&ft_impID=E51A894F-0D8E-6C35-9C35-08D6861522DB&ft_custom=dr-NsHDo2Lgkvdq0JeiJtCbt2rly7425cezZtnXpirJz7Yu5dLjeuXWxd2U=&g=676174D553E5BD&random=933148.6356993741&ft_width=300&ft_height=600&url=https://www.adobe.com/acrobat/free-trial-download.html?sdid=3SH19YWX&mv=display&mv2=display
+                  - iframe [ref=f18e10]:
+                    - generic [ref=f78e2] [cursor=pointer]:
+                      - img [ref=f78e4]:
+                        - generic [ref=f78e5]:
+                          - generic "Specialist" [ref=f78e19]
+                          - generic "Edit a PDF" [ref=f78e115]
+                      - button [ref=f78e120]
+                  - link "Privacy Notification" [ref=f18e12] [cursor=pointer]:
+                    - /url: https://www.flashtalking.com/consumer-privacy
+                    - img [ref=f18e13]
+                - link [ref=f18e14] [cursor=pointer]:
+                  - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=1517583830;labels=_click.creative.iab,_qc.iab.clk.p-1RYxePXT9bCS2.0.10399266;redirecturl2=http://www.quantcast.com/adchoices
+                  - img [ref=f18e16]
+              - iframe
+              - generic:
+                - iframe
+              - iframe
+              - iframe [ref=f18e17]:
+                
+              - iframe [ref=f18e18]:
+                
+              - iframe [ref=f18e19]:
+                
+              - iframe [ref=f18e20]:
+                
+              - iframe [ref=f18e21]:
+                
+          - iframe [ref=f17e6]:
+            - generic [active] [ref=f195e1]:
+              - generic [ref=f195e2]:
+                - generic [ref=f195e5]:
+                  - link [ref=f195e7] [cursor=pointer]:
+                    - /url: https://exch.quantserve.com/r?us_privacy=&a=p-0-HVYn3eZrKrN&labels=_qc.clk,_click.adserver.rtb,_click.rand.273708865&rtbip=192.184.70.54&rtbdata2=EAM6GWh0dHBzOi8vd3d3LnRlYW1ibGluZC5jb21aJDdxN3QwcmFyOS16YmtOSHV5NVBUbDd1cThzcmhwbWxNWlNVPYABv5G-_Q66AQDAAZS-A8gBxNWQw_Mz2gElQkI5MzNCRjgtMDU2Qy00NzRELThDRDctMEFDOUI3OERCRTdGTbACDsgCANACzuGG-_if98ypAegCGPICDwis0x4QiLDGrdegn5HpAfICDQgYEOe-1KiT-ozo-wH4AgCKAwYxNTg5MzmYAwCoAwCyAwRrA4n0ugMSCfFFk9_Jw8SVEUGpJMdMkDShwgMSCS9BsQ1CsIKoERFXiX-37muiyAP8i4AQ2APB7sGCAeIDD3AtMC1IVlluM2VacktyTuoDBgisAhDYBPIDBTk0MTA5-AMAgASJHYoEAjc3mgQSCb9J20Eq8dJ2ET2AL5TwJg6JogQSCfFFk9_Jw8SVEUGpJMdMkDShqgQSCfFFk9_Jw8SVEUGpJMdMkDShuATQBdAEB_IEAlVTgAUBigUqMjA4YTY3OWQyNGVmOGUzY2JhOGRmY2ZmZDQyM2ZmY2Q1MDY1OGVlMWFhkAUBmgUVIIpnnSTvjjy6jfz_1CP_zVBljuGqogUkN3E3dDByYXI5LXpia05IdXk1UFRsN3VxOHNyaHBtbE1aU1U9sAUCuAUAwAW_kb79DsgFqruqBNIFBggDEAIYBugFBpoGFAoSCb9J20Eq8dJ2ET2AL5TwJg6JoAYAtQaAKsw3ugZjCgJVUxICQ0EYpwYiD3NhbiUyMGZyYW5jaXNjbyoFOTQxMDk6J2NvbWNhc3QlMjBjYWJsZSUyMGNvbW11bmljYXRpb25zJTIwaW5jLloVY29tY2FzdCUyMGNvcnBvcmF0aW9uyQaFKDLEwn5oE_EGBggyxMJ-aBOABwCKBxIJL0GxDUKwgqgREVeJf7fua6KwB9G6swS4B6OTjwXYBwQ&rtb_id=CYUoMsTCfmgTEQYIMsTCfmgTGDycXc_dmsPc8Moy-QU&qcclkid=4ff64ec1-5c79-4270-84dd-47303a5a2198&redirecturl3=https://www.montereybayaquarium.org/change-impact/connects?utm_source=quantcast&utm_medium=banner_html5&utm_campaign=brand_awareness_visitation_2026&utm_term=300x600&utm_content=connects&qcclkid=4ff64ec1-5c79-4270-84dd-47303a5a2198
+                    - img [ref=f195e8]
+                  - link [ref=f195e9] [cursor=pointer]:
+                    - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=273708865;labels=_click.creative.iab,_qc.iab.clk.p-0-HVYn3eZrKrN.0.10733987;redirecturl2=http://www.quantcast.com/adchoices
+                    - img [ref=f195e11]
+                - iframe
+                - iframe
+              - iframe
+        - navigation
+    - button [ref=f6e183] [cursor=pointer]

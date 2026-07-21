@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "value": "ur7uOGGjbSAP0kjDrLCg1qI3K3tC97siEeLgYBhtVOs-1784098036.3995836-1.0.1.1-R4NSgXmzWPrR8JJKpHcmay8UpsbJWgkWKmaU2.MoQnhwWLzLZBZn7MJILfw.HHWiZM04TRrEEHBuTAT8WTnLDd.iDp1ai5bjM_gecs6sEcKCHYN7GuwIuaGDsn8rVqNW",
+      "domain": ".vimeo.com",
+      "path": "/",
+      "expires": 1784099836.546071,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://challenges.cloudflare.com",
+      "localStorage": [
+        {
+          "name": "cf.turnstile.u",
+          "value": "LnlUkYIuLitzJsFZRqNk7USSoXgSyrJmTawTl_RHLSk-1784098036-1.3.1.1-VqTr5976byCzZ5HPFwY_G4P0pXbgVBtWyeFljm.JMuqXhLbSisWpUIRRkvZH498HGfvQdM9iIXC7ky4eOAn21A"
+        }
+      ]
+    }
+  ]
+}

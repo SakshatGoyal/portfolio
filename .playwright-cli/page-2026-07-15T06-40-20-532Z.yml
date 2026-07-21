@@ -1,0 +1,125 @@
+- generic [ref=e3]:
+  - navigation [ref=e6]:
+    - generic [ref=e8]:
+      - paragraph [ref=e10]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: ./
+      - paragraph [ref=e13]:
+        - link "About" [ref=e14] [cursor=pointer]:
+          - /url: ./about
+      - paragraph [ref=e16]:
+        - link "Work" [ref=e17] [cursor=pointer]:
+          - /url: ./work
+  - main [ref=e18]:
+    - navigation [ref=e21]:
+      - link "Home" [ref=e23] [cursor=pointer]:
+        - /url: ./
+      - link [ref=e29] [cursor=pointer]:
+        - /url: ./contact
+        - heading "Contact" [level=5] [ref=e32]
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - heading "Principal Product Designer" [level=1] [ref=e36]:
+          - generic [ref=e37]: Principal
+          - generic [ref=e38]: Product
+          - generic [ref=e39]: Designer
+        - heading "Craft over process. Making things that ship." [level=3] [ref=e41]:
+          - generic [ref=e42]: Craft
+          - generic [ref=e43]: over
+          - generic [ref=e44]: process.
+          - generic [ref=e45]: Making
+          - generic [ref=e46]: things
+          - generic [ref=e47]: that
+          - generic [ref=e48]: ship.
+        - paragraph [ref=e50]: Hi, I’m George. I’ve spent the last decade leading design at LinkedIn, Pinterest, and my startup Flite. Now I’m back in the work itself — closer to the craft, closer to the problem.
+      - generic [ref=e53]:
+        - link "Pinterest Link" [ref=e54] [cursor=pointer]:
+          - /url: https://www.threads.com/@gpenstonhttps://www.threads.com/@gpenston
+          - generic "Threads" [ref=e56]
+        - link "LinkedIn Link" [ref=e61] [cursor=pointer]:
+          - /url: https://linkedin.com/in/gpenston
+          - generic "LinkedIn" [ref=e63]
+        - link "Bluesky Link" [ref=e68] [cursor=pointer]:
+          - /url: https://github.com/gpenston
+          - generic "Threads" [ref=e70]
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - heading "Selected work" [level=2] [ref=e78]
+        - link [ref=e81] [cursor=pointer]:
+          - /url: ./work
+          - heading "See all" [level=4] [ref=e83]
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - link [ref=e93] [cursor=pointer]:
+            - /url: ./work/games-on-linkedin
+            - generic [ref=e94]:
+              - img "Sample image from Games on LinkedIn project" [ref=e98]
+              - generic "Threads" [ref=e101]
+            - generic [ref=e106]:
+              - heading "Games on LinkedIn" [level=4] [ref=e108]
+              - paragraph [ref=e110]: Bringing play to the world of work
+          - link [ref=e113] [cursor=pointer]:
+            - /url: ./work/velocity-video-builder
+            - generic [ref=e114]:
+              - img "Sample image from Velocity Video Ad Builder project" [ref=e118]
+              - generic "Threads" [ref=e121]
+            - generic [ref=e126]:
+              - heading "Velocity Video Ad Builder" [level=4] [ref=e128]
+              - paragraph [ref=e130]: Evolving video for a vertical world
+        - generic [ref=e131]:
+          - link [ref=e134] [cursor=pointer]:
+            - /url: ./work/pinterest-worlds-fair
+            - generic [ref=e135]:
+              - img "Sample image from Pinterest World's Fair project" [ref=e139]
+              - generic "Threads" [ref=e142]
+            - generic [ref=e147]:
+              - heading "Pinterest World’s Fair" [level=4] [ref=e149]
+              - paragraph [ref=e151]: A blueprint for ad innovation
+          - link [ref=e154] [cursor=pointer]:
+            - /url: ./work/linkedin-dark-mode
+            - generic [ref=e155]:
+              - img "Sample image from LinkedIn Dark Mode project" [ref=e159]
+              - generic "Threads" [ref=e162]
+            - generic [ref=e167]:
+              - heading "LinkedIn Dark Mode" [level=4] [ref=e169]
+              - paragraph [ref=e171]: Seeing things in a different light
+    - generic [ref=e172]:
+      - generic [ref=e173]:
+        - heading "Writing" [level=2] [ref=e175]
+        - link [ref=e178] [cursor=pointer]:
+          - /url: ./posts
+          - heading "See all" [level=4] [ref=e180]
+      - generic [ref=e186]:
+        - link [ref=e189] [cursor=pointer]:
+          - /url: ./posts/my-readme
+          - img "Post thumbnail" [ref=e193]
+          - generic [ref=e202]:
+            - paragraph [ref=e204]: My Readme
+            - paragraph [ref=e206]: Inspired by design and engineering leaders, I drafted my own readme.
+        - link [ref=e209] [cursor=pointer]:
+          - /url: ./posts/introducing-dark-mode-to-linkedin
+          - img "blog thumbnail" [ref=e213]
+          - generic [ref=e222]:
+            - paragraph [ref=e224]: Introducing Dark Mode to LinkedIn
+            - paragraph [ref=e226]: Learn how we brought Dark Mode to light for our members.
+        - link [ref=e229] [cursor=pointer]:
+          - /url: ./posts/slaying-feature-creep
+          - img "post thumbnail" [ref=e233]
+          - generic [ref=e242]:
+            - paragraph [ref=e244]: Slaying Feature Creep
+            - paragraph [ref=e246]: Avoid overcomplicating products with unnecessary features.
+    - generic [ref=e249]:
+      - paragraph [ref=e252]:
+        - text: © 2026 George Penston ·
+        - link "Also at penston.studio" [ref=e253] [cursor=pointer]:
+          - /url: https://penston.studio
+      - generic [ref=e255]:
+        - link "Pinterest Link" [ref=e256] [cursor=pointer]:
+          - /url: https://www.threads.com/@gpenstonhttps://www.threads.com/@gpenston
+          - generic "Threads" [ref=e258]
+        - link "LinkedIn Link" [ref=e263] [cursor=pointer]:
+          - /url: https://linkedin.com/in/gpenston
+          - generic "LinkedIn" [ref=e265]
+        - link "Bluesky Link" [ref=e270] [cursor=pointer]:
+          - /url: https://github.com/gpenston
+          - generic "Threads" [ref=e272]

@@ -1,0 +1,295 @@
+- generic [active] [ref=f1832e1]:
+  - generic [ref=f1832e2]:
+    - banner [ref=f1832e4]:
+      - generic [ref=f1832e8]:
+        - generic [ref=f1832e9]:
+          - link [ref=f1832e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=f1832e12]
+          - generic [ref=f1832e17]:
+            - link "Community" [ref=f1832e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f1832e19]: Community
+            - link "Salaries" [ref=f1832e20] [cursor=pointer]:
+              - /url: /salary
+              - generic [ref=f1832e21]: Salaries
+            - link "Reviews" [ref=f1832e22] [cursor=pointer]:
+              - /url: /company
+              - generic [ref=f1832e23]: Reviews
+            - link "Layoffs" [ref=f1832e24] [cursor=pointer]:
+              - /url: /layoffs
+              - generic [ref=f1832e25]: Layoffs
+            - link "Jobs" [ref=f1832e26] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=f1832e27]: Jobs
+            - generic [ref=f1832e29] [cursor=pointer]:
+              - generic [ref=f1832e30]: For Business
+              - img [ref=f1832e31]
+          - generic [ref=f1832e34]:
+            - img [ref=f1832e35]
+            - textbox "Search" [ref=f1832e37]
+        - generic [ref=f1832e39]:
+          - button "Sign in" [ref=f1832e40] [cursor=pointer]
+          - link "Sign up" [ref=f1832e41] [cursor=pointer]:
+            - /url: /sign-up?next=/&from=sign-up-top-menu
+    - generic [ref=f1832e44]:
+      - generic [ref=f1832e47]:
+        - generic [ref=f1832e48]:
+          - link "Feed" [ref=f1832e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f1832e50]:
+              - img [ref=f1832e51]
+              - text: Feed
+          - link "My Company" [ref=f1832e55] [cursor=pointer]:
+            - /url: /my-company
+            - generic [ref=f1832e56]:
+              - img [ref=f1832e57]
+              - text: My Company
+          - link "Blind Alters" [ref=f1832e59] [cursor=pointer]:
+            - /url: /alter
+            - generic [ref=f1832e60]:
+              - img [ref=f1832e61]
+              - text: Blind Alters
+          - link "Resources" [ref=f1832e64] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=f1832e65]:
+              - img [ref=f1832e66]
+              - text: Resources
+          - link "Best of Blind NEW" [ref=f1832e69] [cursor=pointer]:
+            - /url: /best/2026
+            - generic [ref=f1832e70]:
+              - img [ref=f1832e71]
+              - text: Best of Blind
+              - generic [ref=f1832e74]: NEW
+          - link "Trending" [ref=f1832e75] [cursor=pointer]:
+            - /url: /trending
+            - generic [ref=f1832e76]:
+              - img [ref=f1832e77]
+              - text: Trending
+        - generic [ref=f1832e81]:
+          - link "All Channels" [ref=f1832e82] [cursor=pointer]:
+            - /url: /channels
+            - generic [ref=f1832e83]:
+              - img [ref=f1832e84]
+              - text: All Channels
+          - generic [ref=f1832e86]:
+            - heading "Recent" [level=2] [ref=f1832e87] [cursor=pointer]:
+              - generic [ref=f1832e88]: Recent
+              - img [ref=f1832e89]
+            - generic [ref=f1832e92]:
+              - link "Channel logo Design" [ref=f1832e94] [cursor=pointer]:
+                - /url: /channels/design
+                - generic [ref=f1832e95]:
+                  - img "Channel logo" [ref=f1832e96]
+                  - generic [ref=f1832e97]: Design
+              - link "Channel logo Tech" [ref=f1832e99] [cursor=pointer]:
+                - /url: /channels/tech
+                - generic [ref=f1832e100]:
+                  - img "Channel logo" [ref=f1832e101]
+                  - generic [ref=f1832e102]: Tech
+          - generic [ref=f1832e104]:
+            - generic [ref=f1832e105]:
+              - heading "Location" [level=2] [ref=f1832e106] [cursor=pointer]:
+                - generic [ref=f1832e107]: Location
+                - img [ref=f1832e108]
+              - generic [ref=f1832e110]:
+                - generic [ref=f1832e111]:
+                  - link "Channel logo Dallas" [ref=f1832e113] [cursor=pointer]:
+                    - /url: /channels/dallas
+                    - generic [ref=f1832e114]:
+                      - img "Channel logo" [ref=f1832e115]
+                      - generic [ref=f1832e116]: Dallas
+                  - link "Channel logo Miami" [ref=f1832e118] [cursor=pointer]:
+                    - /url: /channels/miami
+                    - generic [ref=f1832e119]:
+                      - img "Channel logo" [ref=f1832e120]
+                      - generic [ref=f1832e121]: Miami
+                  - link "Channel logo Chicago" [ref=f1832e123] [cursor=pointer]:
+                    - /url: /channels/chicago
+                    - generic [ref=f1832e124]:
+                      - img "Channel logo" [ref=f1832e125]
+                      - generic [ref=f1832e126]: Chicago
+                  - link "Channel logo New York" [ref=f1832e128] [cursor=pointer]:
+                    - /url: /channels/new-york
+                    - generic [ref=f1832e129]:
+                      - img "Channel logo" [ref=f1832e130]
+                      - generic [ref=f1832e131]: New York
+                  - link "Channel logo Austin" [ref=f1832e133] [cursor=pointer]:
+                    - /url: /channels/austin
+                    - generic [ref=f1832e134]:
+                      - img "Channel logo" [ref=f1832e135]
+                      - generic [ref=f1832e136]: Austin
+                - button "Show More" [ref=f1832e137] [cursor=pointer]
+            - heading "Industry" [level=2] [ref=f1832e140] [cursor=pointer]:
+              - generic [ref=f1832e141]: Industry
+              - img [ref=f1832e142]
+            - heading "Job Function" [level=2] [ref=f1832e145] [cursor=pointer]:
+              - generic [ref=f1832e146]: Job Function
+              - img [ref=f1832e147]
+            - heading "Learning & Advising" [level=2] [ref=f1832e150] [cursor=pointer]:
+              - generic [ref=f1832e151]: Learning & Advising
+              - img [ref=f1832e152]
+            - heading "Money" [level=2] [ref=f1832e155] [cursor=pointer]:
+              - generic [ref=f1832e156]: Money
+              - img [ref=f1832e157]
+            - button "Show More Channels" [ref=f1832e159] [cursor=pointer]
+        - generic [ref=f1832e161]:
+          - generic [ref=f1832e162]:
+            - generic [ref=f1832e163]: Blind
+            - link "Why Blind" [ref=f1832e164] [cursor=pointer]:
+              - /url: /why-blind
+              - generic [ref=f1832e165]: Why Blind
+            - link "Polls" [ref=f1832e166] [cursor=pointer]:
+              - /url: /polls
+              - generic [ref=f1832e167]: Polls
+            - link "Blog" [ref=f1832e168] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f1832e169]: Blog
+            - link "Careers" [ref=f1832e170] [cursor=pointer]:
+              - /url: https://careers.teamblind.com/
+              - generic [ref=f1832e171]: Careers
+            - link "Privacy" [ref=f1832e172] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/privacy
+              - generic [ref=f1832e173]: Privacy
+            - link "Terms" [ref=f1832e174] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/term
+              - generic [ref=f1832e175]: Terms
+          - generic [ref=f1832e176]:
+            - generic [ref=f1832e177]: Support
+            - link "Community Guidelines" [ref=f1832e178] [cursor=pointer]:
+              - /url: /community-guidelines
+              - generic [ref=f1832e179]: Community Guidelines
+            - link "FAQs" [ref=f1832e180] [cursor=pointer]:
+              - /url: https://help.teamblind.com/
+              - generic [ref=f1832e181]: FAQs
+            - link "Newsroom" [ref=f1832e182] [cursor=pointer]:
+              - /url: https://press.teamblind.com/
+              - generic [ref=f1832e183]: Newsroom
+            - link "Updates" [ref=f1832e184] [cursor=pointer]:
+              - /url: /updates
+              - generic [ref=f1832e185]: Updates
+            - generic [ref=f1832e186]:
+              - button "Do Not Sell or Share My Personal Information" [ref=f1832e187] [cursor=pointer]
+              - generic [ref=f1832e188]: 2026 Teamblind Inc.
+      - generic [ref=f1832e191]:
+        - generic [ref=f1832e192]:
+          - generic:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /channels/design
+              - generic:
+                - generic:
+                  - link "Design Career" [ref=f1832e193] [cursor=pointer]:
+                    - /url: /channels/design
+                    - generic [ref=f1832e194]: Design Career
+                  - img
+                  - generic: May 21, 2022
+                - generic:
+                  - link "New" [ref=f1832e195] [cursor=pointer]:
+                    - /url: /company/Snapdocs
+                  - img
+                  - text: HPml86
+              - button "Bookmark this post" [ref=f1832e197] [cursor=pointer]:
+                - img [ref=f1832e198]
+          - generic [ref=f1832e200]:
+            - heading "Online portfolio necessary for lead/staff/principal product designer roles?" [level=1] [ref=f1832e201]
+            - paragraph [ref=f1832e202]: "YOE: 8y Base: 178k Currently work for a series c startup as a Lead Product Designer and am looking to move on soon. I’m planning to apply to some FANG companies as senior or lead/staff roles and non-FANG as lead/staff, principal, or director roles. Do you feel it’s worth it to create another online portfolio at this point in my career? Or can I do just as fine with a Figma slide deck or pdf presentation style with a few case studies I’m proud of? For those who got into FANG or other companies at the lead/staff/principal level what did you have for your initial contact? Did an online portfolio help?"
+            - generic [ref=f1832e203]:
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 73 Participants
+              - generic [ref=f1832e204]: Select only one answer
+              - radiogroup [ref=f1832e205]:
+                - generic [ref=f1832e206]:
+                  - generic:
+                    - radio "Online portfolio is still the way to go"
+                  - generic [ref=f1832e207] [cursor=pointer]: Online portfolio is still the way to go
+                - generic [ref=f1832e208]:
+                  - generic:
+                    - radio "PDF with case studies is fine"
+                  - generic [ref=f1832e209] [cursor=pointer]: PDF with case studies is fine
+                - generic [ref=f1832e210]:
+                  - generic:
+                    - radio "I only do a PDF if requested in the interview"
+                  - generic [ref=f1832e211] [cursor=pointer]: I only do a PDF if requested in the interview
+              - generic [ref=f1832e212]:
+                - button "Vote" [ref=f1832e213] [cursor=pointer]
+                - button "View Result" [ref=f1832e214] [cursor=pointer]
+            - generic [ref=f1832e215]:
+              - link "@Google" [ref=f1832e216] [cursor=pointer]:
+                - /url: /company/Google
+              - link "@Meta" [ref=f1832e217] [cursor=pointer]:
+                - /url: /company/Meta
+              - link "@Netflix" [ref=f1832e218] [cursor=pointer]:
+                - /url: /company/Netflix
+            - list [ref=f1832e219]:
+              - listitem [ref=f1832e220]:
+                - link "Shark FlexStyle 39%OFF $329 > $199" [ref=f1832e221] [cursor=pointer]:
+                  - /url: https://amzn.to/3RbJCjz
+                  - generic [ref=f1832e223]: Shark FlexStyle 39%OFF $329 > $199
+              - listitem [ref=f1832e224]:
+                - link "Dyson Hair Dryer 22%OFF $450>$349" [ref=f1832e225] [cursor=pointer]:
+                  - /url: https://www.amazon.com/dp/B0D6TN119H?tag=teamblind_actiontag-20
+                  - generic [ref=f1832e227]: Dyson Hair Dryer 22%OFF $450>$349
+          - generic:
+            - generic:
+              - button "Like this post" [ref=f1832e228] [cursor=pointer]:
+                - img [ref=f1832e229]
+                - text: "1"
+              - button "Comment on this post" [ref=f1832e231] [cursor=pointer]:
+                - img [ref=f1832e232]
+                - text: "18"
+              - button "Views":
+                - img
+                - text: "455"
+            - generic:
+              - button [ref=f1832e234] [cursor=pointer]:
+                - img [ref=f1832e235]
+              - button "More options" [ref=f1832e238] [cursor=pointer]:
+                - img [ref=f1832e239]
+        - generic [ref=f1832e242]:
+          - generic [ref=f1832e243]: Related Companies
+          - link "Meta Meta 3.7" [ref=f1832e245] [cursor=pointer]:
+            - /url: /company/Meta
+            - img "Meta" [ref=f1832e246]
+            - generic [ref=f1832e247]:
+              - heading "Meta" [level=4] [ref=f1832e248]
+              - generic [ref=f1832e249]:
+                - img [ref=f1832e250]
+                - generic [ref=f1832e252]: "3.7"
+          - link "Google Google 4.2" [ref=f1832e254] [cursor=pointer]:
+            - /url: /company/Google
+            - img "Google" [ref=f1832e255]
+            - generic [ref=f1832e256]:
+              - heading "Google" [level=4] [ref=f1832e257]
+              - generic [ref=f1832e258]:
+                - img [ref=f1832e259]
+                - generic [ref=f1832e261]: "4.2"
+          - link "Netflix Netflix 4.2" [ref=f1832e263] [cursor=pointer]:
+            - /url: /company/Netflix
+            - img "Netflix" [ref=f1832e264]
+            - generic [ref=f1832e265]:
+              - heading "Netflix" [level=4] [ref=f1832e266]
+              - generic [ref=f1832e267]:
+                - img [ref=f1832e268]
+                - generic [ref=f1832e270]: "4.2"
+        - generic [ref=f1832e357]:
+          - textbox "Add a comment" [ref=f1832e358]
+          - generic [ref=f1832e359]:
+            - generic [ref=f1832e360]:
+              - button [ref=f1832e361] [cursor=pointer]:
+                - img [ref=f1832e362]
+              - generic [ref=f1832e366]:
+                - checkbox "Hide company name 0 credits left" [ref=f1832e367] [cursor=pointer]
+                - generic [ref=f1832e368] [cursor=pointer]:
+                  - generic [ref=f1832e369]: Hide company name
+                  - generic [ref=f1832e370]: 0 credits left
+            - button "Post" [ref=f1832e372] [cursor=pointer]
+    - region "Notifications alt+T"
+  - generic [ref=f1832e373]: .
+  - button "Do Not Sell or Share My Personal Information" [ref=f1832e377] [cursor=pointer]:
+    - paragraph [ref=f1832e379]: Do Not Sell or Share My Personal Information
+  - alert [ref=f1832e380]

@@ -1,0 +1,260 @@
+- generic [active] [ref=f324e1]:
+  - generic [ref=f324e2]:
+    - banner [ref=f324e4]:
+      - generic [ref=f324e8]:
+        - generic [ref=f324e9]:
+          - link [ref=f324e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=f324e12]
+          - generic [ref=f324e17]:
+            - link "Community" [ref=f324e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f324e19]: Community
+            - link "Salaries" [ref=f324e20] [cursor=pointer]:
+              - /url: /salary
+              - generic [ref=f324e21]: Salaries
+            - link "Reviews" [ref=f324e22] [cursor=pointer]:
+              - /url: /company
+              - generic [ref=f324e23]: Reviews
+            - link "Layoffs" [ref=f324e24] [cursor=pointer]:
+              - /url: /layoffs
+              - generic [ref=f324e25]: Layoffs
+            - link "Jobs" [ref=f324e26] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=f324e27]: Jobs
+            - generic [ref=f324e29] [cursor=pointer]:
+              - generic [ref=f324e30]: For Business
+              - img [ref=f324e31]
+          - generic [ref=f324e34]:
+            - img [ref=f324e35]
+            - textbox "Search" [ref=f324e37]
+        - generic [ref=f324e39]:
+          - button "Sign in" [ref=f324e40] [cursor=pointer]
+          - link "Sign up" [ref=f324e41] [cursor=pointer]:
+            - /url: /sign-up?next=/&from=sign-up-top-menu
+    - generic [ref=f324e44]:
+      - generic [ref=f324e47]:
+        - generic [ref=f324e48]:
+          - link "Feed" [ref=f324e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f324e50]:
+              - img [ref=f324e51]
+              - text: Feed
+          - link "My Company" [ref=f324e55] [cursor=pointer]:
+            - /url: /my-company
+            - generic [ref=f324e56]:
+              - img [ref=f324e57]
+              - text: My Company
+          - link "Blind Alters" [ref=f324e59] [cursor=pointer]:
+            - /url: /alter
+            - generic [ref=f324e60]:
+              - img [ref=f324e61]
+              - text: Blind Alters
+          - link "Resources" [ref=f324e64] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=f324e65]:
+              - img [ref=f324e66]
+              - text: Resources
+          - link "Best of Blind NEW" [ref=f324e69] [cursor=pointer]:
+            - /url: /best/2026
+            - generic [ref=f324e70]:
+              - img [ref=f324e71]
+              - text: Best of Blind
+              - generic [ref=f324e74]: NEW
+          - link "Trending" [ref=f324e75] [cursor=pointer]:
+            - /url: /trending
+            - generic [ref=f324e76]:
+              - img [ref=f324e77]
+              - text: Trending
+        - generic [ref=f324e81]:
+          - link "All Channels" [ref=f324e82] [cursor=pointer]:
+            - /url: /channels
+            - generic [ref=f324e83]:
+              - img [ref=f324e84]
+              - text: All Channels
+          - generic [ref=f324e86]:
+            - heading "Recent" [level=2] [ref=f324e87] [cursor=pointer]:
+              - generic [ref=f324e88]: Recent
+              - img [ref=f324e89]
+            - link "Channel logo Design" [ref=f324e94] [cursor=pointer]:
+              - /url: /channels/design
+              - generic [ref=f324e95]:
+                - img "Channel logo" [ref=f324e96]
+                - generic [ref=f324e97]: Design
+          - generic [ref=f324e99]:
+            - generic [ref=f324e100]:
+              - heading "Location" [level=2] [ref=f324e101] [cursor=pointer]:
+                - generic [ref=f324e102]: Location
+                - img [ref=f324e103]
+              - generic [ref=f324e105]:
+                - generic [ref=f324e106]:
+                  - link "Channel logo Dallas" [ref=f324e108] [cursor=pointer]:
+                    - /url: /channels/dallas
+                    - generic [ref=f324e109]:
+                      - img "Channel logo" [ref=f324e110]
+                      - generic [ref=f324e111]: Dallas
+                  - link "Channel logo Miami" [ref=f324e113] [cursor=pointer]:
+                    - /url: /channels/miami
+                    - generic [ref=f324e114]:
+                      - img "Channel logo" [ref=f324e115]
+                      - generic [ref=f324e116]: Miami
+                  - link "Channel logo Chicago" [ref=f324e118] [cursor=pointer]:
+                    - /url: /channels/chicago
+                    - generic [ref=f324e119]:
+                      - img "Channel logo" [ref=f324e120]
+                      - generic [ref=f324e121]: Chicago
+                  - link "Channel logo New York" [ref=f324e123] [cursor=pointer]:
+                    - /url: /channels/new-york
+                    - generic [ref=f324e124]:
+                      - img "Channel logo" [ref=f324e125]
+                      - generic [ref=f324e126]: New York
+                  - link "Channel logo Austin" [ref=f324e128] [cursor=pointer]:
+                    - /url: /channels/austin
+                    - generic [ref=f324e129]:
+                      - img "Channel logo" [ref=f324e130]
+                      - generic [ref=f324e131]: Austin
+                - button "Show More" [ref=f324e132] [cursor=pointer]
+            - heading "Industry" [level=2] [ref=f324e135] [cursor=pointer]:
+              - generic [ref=f324e136]: Industry
+              - img [ref=f324e137]
+            - heading "Job Function" [level=2] [ref=f324e140] [cursor=pointer]:
+              - generic [ref=f324e141]: Job Function
+              - img [ref=f324e142]
+            - heading "Learning & Advising" [level=2] [ref=f324e145] [cursor=pointer]:
+              - generic [ref=f324e146]: Learning & Advising
+              - img [ref=f324e147]
+            - heading "Money" [level=2] [ref=f324e150] [cursor=pointer]:
+              - generic [ref=f324e151]: Money
+              - img [ref=f324e152]
+            - button "Show More Channels" [ref=f324e154] [cursor=pointer]
+        - generic [ref=f324e156]:
+          - generic [ref=f324e157]:
+            - generic [ref=f324e158]: Blind
+            - link "Why Blind" [ref=f324e159] [cursor=pointer]:
+              - /url: /why-blind
+              - generic [ref=f324e160]: Why Blind
+            - link "Polls" [ref=f324e161] [cursor=pointer]:
+              - /url: /polls
+              - generic [ref=f324e162]: Polls
+            - link "Blog" [ref=f324e163] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f324e164]: Blog
+            - link "Careers" [ref=f324e165] [cursor=pointer]:
+              - /url: https://careers.teamblind.com/
+              - generic [ref=f324e166]: Careers
+            - link "Privacy" [ref=f324e167] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/privacy
+              - generic [ref=f324e168]: Privacy
+            - link "Terms" [ref=f324e169] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/term
+              - generic [ref=f324e170]: Terms
+          - generic [ref=f324e171]:
+            - generic [ref=f324e172]: Support
+            - link "Community Guidelines" [ref=f324e173] [cursor=pointer]:
+              - /url: /community-guidelines
+              - generic [ref=f324e174]: Community Guidelines
+            - link "FAQs" [ref=f324e175] [cursor=pointer]:
+              - /url: https://help.teamblind.com/
+              - generic [ref=f324e176]: FAQs
+            - link "Newsroom" [ref=f324e177] [cursor=pointer]:
+              - /url: https://press.teamblind.com/
+              - generic [ref=f324e178]: Newsroom
+            - link "Updates" [ref=f324e179] [cursor=pointer]:
+              - /url: /updates
+              - generic [ref=f324e180]: Updates
+            - generic [ref=f324e181]:
+              - button "Do Not Sell or Share My Personal Information" [ref=f324e182] [cursor=pointer]
+              - generic [ref=f324e183]: 2026 Teamblind Inc.
+      - generic [ref=f324e186]:
+        - generic [ref=f324e187]:
+          - generic:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /channels/design
+              - generic:
+                - generic:
+                  - link "Design Career" [ref=f324e188] [cursor=pointer]:
+                    - /url: /channels/design
+                    - generic [ref=f324e189]: Design Career
+                  - img
+                  - generic: May 16, 2022
+                - generic:
+                  - text: New
+                  - img
+                  - text: dtgugddsyg
+              - button "Bookmark this post" [ref=f324e191] [cursor=pointer]:
+                - img [ref=f324e192]
+          - generic [ref=f324e194]:
+            - heading "Product design portfolio presentation interview" [level=1] [ref=f324e195]
+            - paragraph [ref=f324e196]:
+              - text: "Hi Blind family! I recently got feedback for a portfolio presentation interview and was wondering if any senior product designers here can give me more insight so that I can improve :) This interview was 1 hr with the hiring manager and a senior product designer. The hiring manager said that my work is good but I need to work on storytelling. She said that I need to think about what to keep and take out for the presentation depending on the audience, in this case, 2 designers. I'm struggling with this because I feel like I need to talk about a lot of things so that my design process is clear and that the rationale behind my decisions are also clear. Here's an overview of how I presented: - overview of myself, what I'm passionate about as a designer, a brief on my journey to ux design, one of my top skills, what I do outside of work, my design philosophy, my design process, mentioned the 2 projects that I will talk about (5 min) - first project (30 min) -overview of what it is, my role, the team -problem space and what the user, product, business problems where, problem statement, constraints -overview of ux research efforts, what methods, user persona, user journey -design principles and how the problems and research insights derived each design principle -framed the design exploration before jumping into it by mentioning the constraints again -brief about logo design, style guide, design system since I had to develop these for the project too -dived deeper into the designs, briefly talked about iterations and the final design of a screen and how that addressed the problems and design principles I defined -talked about iterations of another screen and how I worked with an engineer on the tech constraint to reach the final design, also tied it back to the problems and design principles -then talked about a key user flow that addressed the problems and design principles, a brief on the iterations, showed a quick demo of this flow -then I showed a quick demo of an animation that also helped addressed one of the problems and design principles -after talking about the designs, I showed a glimpse of how I prepare them for handoff to engineers -overview of usability testing and qa testing, methods used, and also showed how I give qa feedback to engineers -impact and results, success metrics that we achieved -next steps, what user pain points we still need to address based on the feedback from testing, new design principles that I defined based on this for the next iteration -other next steps like what other data to track and what other use cases to explore -2nd project (10 min) -had the same structure as the first but not all of the steps so it was shorter -i didn't have much time left so I had to keep it short as well -then I wrapped up with key takeaways about me as a designer from these projects, showed a testimonial from a colleague supporting these as well, thanked the interviewers We then had 10 min for them to ask questions TC: 110K YOE: 2+ Thanks in advance! 🙏"
+              - link "#design" [ref=f324e197] [cursor=pointer]:
+                - /url: /search/design
+              - link "#interviews" [ref=f324e198] [cursor=pointer]:
+                - /url: /search/interviews
+              - link "#ui" [ref=f324e199] [cursor=pointer]:
+                - /url: /search/ui
+              - text: /ux
+              - link "#portfolio" [ref=f324e200] [cursor=pointer]:
+                - /url: /search/portfolio
+              - link "#productdesign" [ref=f324e201] [cursor=pointer]:
+                - /url: /search/productdesign
+              - link "#uxdesign" [ref=f324e202] [cursor=pointer]:
+                - /url: /search/uxdesign
+              - link "#uidesign" [ref=f324e203] [cursor=pointer]:
+                - /url: /search/uidesign
+              - link "#uxdesigner" [ref=f324e204] [cursor=pointer]:
+                - /url: /search/uxdesigner
+              - link "#feedback" [ref=f324e205] [cursor=pointer]:
+                - /url: /search/feedback
+              - link "#help" [ref=f324e206] [cursor=pointer]:
+                - /url: /search/help
+            - list [ref=f324e207]:
+              - listitem [ref=f324e208]:
+                - link "Lexol Leather Care 7%OFF $32 < $35" [ref=f324e209] [cursor=pointer]:
+                  - /url: https://www.amazon.com/dp/B0GH6B71Q3?tag=teamblind_actiontag-20
+                  - generic [ref=f324e211]: Lexol Leather Care 7%OFF $32 < $35
+              - listitem [ref=f324e212]:
+                - link "Fresh Odor Remover 37%OFF $10<$17" [ref=f324e213] [cursor=pointer]:
+                  - /url: https://www.amazon.com/dp/B09NW9G177?tag=teamblind_actiontag-20
+                  - generic [ref=f324e215]: Fresh Odor Remover 37%OFF $10<$17
+          - generic:
+            - generic:
+              - button "Like this post" [ref=f324e216] [cursor=pointer]:
+                - img [ref=f324e217]
+                - text: "3"
+              - button "Comment on this post" [ref=f324e219] [cursor=pointer]:
+                - img [ref=f324e220]
+                - text: "22"
+              - button "Views":
+                - img
+                - text: "568"
+            - generic:
+              - button [ref=f324e222] [cursor=pointer]:
+                - img [ref=f324e223]
+              - button "More options" [ref=f324e226] [cursor=pointer]:
+                - img [ref=f324e227]
+        - generic [ref=f324e334]:
+          - textbox "Add a comment" [ref=f324e335]
+          - generic [ref=f324e336]:
+            - generic [ref=f324e337]:
+              - button [ref=f324e338] [cursor=pointer]:
+                - img [ref=f324e339]
+              - generic [ref=f324e343]:
+                - checkbox "Hide company name 0 credits left" [ref=f324e344] [cursor=pointer]
+                - generic [ref=f324e345] [cursor=pointer]:
+                  - generic [ref=f324e346]: Hide company name
+                  - generic [ref=f324e347]: 0 credits left
+            - button "Post" [ref=f324e349] [cursor=pointer]
+    - region "Notifications alt+T"
+  - generic [ref=f324e350]: .
+  - alert [ref=f324e351]
+  - generic [ref=f324e352]:
+    - iframe [ref=f324e355]:
+      
+    - button [ref=f324e356] [cursor=pointer]
+  - link "Privacy Icon Do not sell my Personal Information" [ref=f324e358] [cursor=pointer]:
+    - /url: "#"
+    - img "Privacy Icon" [ref=f324e359]
+    - text: Do not sell my Personal Information

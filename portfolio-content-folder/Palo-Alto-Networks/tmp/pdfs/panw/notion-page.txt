@@ -1,0 +1,97 @@
+             PANW - Defining AI interaction
+             patterns for spreadsheet-native
+             users.
+
+
+
+
+             I led the end-to-end design of an AI supported sales-operations workbench by
+             rethinking:
+                   How we design data-dense interactive tables.
+                   How AI converses with spreadsheet-native users.
+                   What “source” means for internal teams.
+             Problem #1
+             Teams had a scattered landscape of multiple single-purpose tools built by distinct
+             teams. The typical approach to consolidation involved a 15+ column table.
+
+
+
+
+PANW - Defining AI interaction patterns for spreadsheet-native users.                             1
+             Decisions
+             I redesigned the table experience by using interactive tags as the atomic unit of
+             data instead of cells, and thematically grouping them.
+             To prevent monotony or excessive cognitive load, I kept the tags plain but added
+             colorful iconography to signal distinct meanings.
+             Outcome
+             Post-launch feedback led to the cluster table becoming the default pattern for
+             future table designs with multiple columns.
+
+
+
+
+PANW - Defining AI interaction patterns for spreadsheet-native users.                            2
+             Problem #2
+             The project began with a push to bring AI into the sales workflow and specifically
+             as a chatbot. The real disconnect was between the narrative form that AI takes
+             and the fluency users had formed over decades of industry practice.
+
+
+
+
+PANW - Defining AI interaction patterns for spreadsheet-native users.                             3
+             Decisions
+             By experimenting with CopilotKit, I designed tabular responses with interactive
+             rows and columns to enable follow-up interactions. This allowed the users to
+             engage in exploratory analysis rather than single-prompt interactions.
+
+
+
+
+PANW - Defining AI interaction patterns for spreadsheet-native users.                          4
+             Outcome
+             Through observation, we found users using this combination as a means to
+             triangulate root causes, which led me to the placeholder tagline:
+             “Ask what usually takes four tools to answer.”
+             In later phases, we also expanded the interaction pattern to allow context from UI
+             tables to trigger new chats.
+             Problem #3
+             Due to conventional CUI experiences, “thinking” and “sources” were treated as an
+             afterthought. However 2 observations led me to rethink these critical features.
+              1. While the typical “thinking” shows a meandered path models take to reach a
+                 conclusion, users needed a structured “derivation” of a response, leading with
+                 the conclusion.
+              2. A platform’s name does not pass as a “source” for internal teams. What’s more
+                 important:
+                          Which dataset within the platform?
+                          When was the data last updated?
+
+
+
+
+PANW - Defining AI interaction patterns for spreadsheet-native users.                             5
+             Decision
+             These observations led me to design Trace (renamed from ‘Derivation’)
+             Trace breaks down a model’s thinking into 4–7 concrete steps, with pathways and
+             timestamps for last refresh.
+             Outcome
+             In practice, we found that team members would snap a response and its trace
+             together, and drop it in Slack threads to defend a number. The pattern became
+             frequent enough that snapshotting was promoted to an enhancement.
+
+
+
+
+             Lessons
+             Progress lies somewhere between blind acceptance and complete dismissal.
+             It was certainly uncomfortable being yet another team trying to add a chatbot with
+             tiny chips that simulate “thinking” and treat citations as checkboxes. But
+             acknowledging discomfort while taking action led to some of the more unique
+             experiences in the application, with a lasting impact.
+             The question was never “how do we add a chatbot?” but rather “what
+             assumptions about the chatbot experience do we carry that will fail our users?”
+
+
+PANW - Defining AI interaction patterns for spreadsheet-native users.                             6
+PANW - Defining AI interaction patterns for spreadsheet-native users.   7
+

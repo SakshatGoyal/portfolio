@@ -1,0 +1,437 @@
+- generic [ref=f4e2]:
+  - banner:
+    - generic [ref=f4e6]:
+      - link "Join us for a three-hour crash course called Aligning with Strategy on July 15th → Learn More" [ref=f4e7] [cursor=pointer]:
+        - /url: /events/aligning-with-strategy
+      - generic [ref=f4e8]:
+        - button "Close Announcement" [ref=f4e9] [cursor=pointer]: ×
+        - paragraph [ref=f4e11]:
+          - text: Join us for a three-hour crash course called
+          - strong [ref=f4e12]: Aligning with Strategy
+          - text: on July 15th →
+          - strong [ref=f4e13]: Learn More
+    - generic [ref=f4e14]:
+      - link "Skip to Content" [ref=f4e15] [cursor=pointer]:
+        - /url: "#page"
+      - generic [ref=f4e18]:
+        - generic [ref=f4e19]:
+          - link "The Fountain Institute" [ref=f4e22] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=f4e25]:
+            - button "Live Courses" [ref=f4e27] [cursor=pointer]:
+              - generic [ref=f4e28]: Live Courses
+            - link "Events" [ref=f4e30] [cursor=pointer]:
+              - /url: /events
+            - link "Resources" [ref=f4e32] [cursor=pointer]:
+              - /url: /resources
+            - link "Blog" [ref=f4e34] [cursor=pointer]:
+              - /url: /blog
+            - link "Log In" [ref=f4e36] [cursor=pointer]:
+              - /url: https://thefountaininstitute.disco.co/login
+        - link "Join the Newsletter" [ref=f4e39] [cursor=pointer]:
+          - /url: /beyond-aesthetics-newsletter
+  - main [ref=f4e40]:
+    - article [ref=f4e41]:
+      - article [ref=f4e47]:
+        - generic [ref=f4e48]:
+          - generic [ref=f4e49]:
+            - heading "What Actually Gets Senior Product Designers Hired in 2026" [level=1] [ref=f4e51]
+            - generic [ref=f4e52]:
+              - link "CAREER" [ref=f4e55] [cursor=pointer]:
+                - /url: /blog/category/CAREER
+              - generic [ref=f4e56]:
+                - time [ref=f4e57]: Jun 10 •
+                - generic [ref=f4e58]:
+                  - text: Written By
+                  - link "Jeff Humble" [ref=f4e59] [cursor=pointer]:
+                    - /url: /blog?author=54a0cc94e4b038053fed4325
+          - generic [ref=f4e60]:
+            - generic [ref=f4e64]:
+              - generic [ref=f4e68]:
+                - paragraph [ref=f4e69]: 7 ways hiring is evolving for senior designers
+                - paragraph [ref=f4e70]:
+                  - emphasis [ref=f4e71]: "Reading time: 15 minutes"
+              - figure [ref=f4e75]:
+                - img "senior product design portfolio tips" [ref=f4e78]
+              - generic [ref=f4e82]:
+                - paragraph [ref=f4e83]: There has never been a better time to think outside the box with your product design portfolio.
+                - paragraph [ref=f4e84]: That’s because the old playbook for portfolios is broken and not in the sense that it needs updating. Its reason for existence has shifted, and hiring managers are no longer looking for the same things they were two years ago. If your portfolio is still built around polished case studies, process diagrams, and a clean "about me" page, you may be presenting evidence of competencies that AI now handles faster and cheaper than humans.
+                - paragraph [ref=f4e85]:
+                  - text: Here is what is actually happening, backed by data from 2026. Around 78% of recruiters now use AI-assisted screening before a human ever opens your portfolio. The review lasts 2 to 3 minutes, but your homepage only gets 10 to 15 seconds (
+                  - link "Muz.li" [ref=f4e86] [cursor=pointer]:
+                    - /url: https://muz.li/blog/how-to-build-a-ux-portfolio-that-actually-gets-you-hired-2026/
+                  - text: ", 2026). Hiring managers at high-growth companies are twice as likely to be adding senior design headcount as junior roles. And a growing number of first-round interviews skip the portfolio walkthrough entirely and open Figma instead."
+                - paragraph [ref=f4e87]: This is not a panic piece. It is an observation of what the design community is reporting, from multiple independent directions, right now. What follows is a map of what is actually changing, with data to support it.
+                - heading "What hiring managers are looking for in 2026" [level=3] [ref=f4e88]
+                - paragraph [ref=f4e89]: 1. Get comfortable with live problem-solving.
+                - paragraph [ref=f4e90]: 2. Shipped, traceable work beats case studies.
+                - paragraph [ref=f4e91]: 3. Show your trade-offs, not your process.
+                - paragraph [ref=f4e92]: 4. Thinking out loud is the format.
+                - paragraph [ref=f4e93]: 5. AI signals are now load-bearing.
+                - paragraph [ref=f4e94]: 6. The case for specialists over generalists
+                - paragraph [ref=f4e95]: 7. Cut anything that isn’t real.
+                - paragraph [ref=f4e96]: Let’s dive into each one with stats and opinions to help you master these seven approaches behind design hiring in 2026.
+              - separator [ref=f4e99]
+              - heading "1.) Get comfortable with live problem-solving." [level=2] [ref=f4e104]
+              - figure "via The Joy of Painting with Bob Ross" [ref=f4e108]:
+                - paragraph [ref=f4e113]:
+                  - emphasis [ref=f4e114]: via The Joy of Painting with Bob Ross
+              - generic [ref=f4e118]:
+                - paragraph [ref=f4e119]: Hiring managers have stopped reading your case studies, and the reason is not that they do not care about your work. It is that they can’t trust that it’s your work anymore. The real interview is a design challenge where they give you a problem and watch you think in real time. That tells them more than a written walkthrough ever could.
+                - paragraph [ref=f4e120]: "Nurkhon, writing on Medium in May 2026, described what is becoming the standard first-round interview format. The first interviewer skipped the walkthrough entirely and said: \"We've already looked at it. Open Figma. Here's a problem. You have twenty-five minutes.\" The candidate froze."
+                - paragraph [ref=f4e121]:
+                  - text: According to Figma's February 2026 survey, 46% of hiring managers at fast-growth companies plan to increase headcount in the next six months (
+                  - link "Figma" [ref=f4e122] [cursor=pointer]:
+                    - /url: https://www.figma.com/blog/why-demand-for-designers-is-on-the-rise/
+                  - text: ", 2026). But the people being hired are not being hired for the same reasons as before. The criteria have changed."
+                - paragraph [ref=f4e123]: Tom Scott, a designer who has spent over a decade hiring, described the change on LinkedIn in January 2026. He said that 2018 to 2023 felt like the peak of the "process process process" era, and that 2024 to 2026 is the era of show, do not tell, where output matters more than anything else.
+                - paragraph [ref=f4e124]: Karen Woodin, a designer who has helped over 500 designers secure offers, describes what she sees in interviews that actually work. Companies do not care about your story as much as they care about what you can do for them, and you happen to narrate that through your story.
+                - paragraph [ref=f4e125]: If the primary evidence of your seniority is a written case study, you have built your professional identity around a format that is no longer the test. The test is now live, and your portfolio is only the trailer. The interview is the movie.
+              - separator [ref=f4e128]
+              - heading "2.) Shipped, traceable work beats case studies." [level=2] [ref=f4e133]
+              - figure "via U.S. National Archives" [ref=f4e137]:
+                - paragraph [ref=f4e142]:
+                  - emphasis [ref=f4e143]: via U.S. National Archives
+              - generic [ref=f4e147]:
+                - paragraph [ref=f4e148]: "Harry Enaholo, who reviewed over 150 portfolios for a Design Lead role in March 2026, described his screening process in a way that reveals a lot about what hiring managers are actually checking. He asked himself: are these products live and traceable, and if they are live, are they scaling?"
+                - paragraph [ref=f4e149]: When he analyzed the applicant pool for that role, the numbers were stark. Out of over 250 designers who applied, only 20% were design generalists who actually matched the job criteria. The rest were either overqualified in the wrong direction, underqualified, or simply applying with the wrong type of evidence for what the role required.
+                - paragraph [ref=f4e150]: The Muz.li guide to portfolios in 2026 makes the argument clearly. A beautiful redesign that shipped and moved no metrics is, from a hiring perspective, equivalent to a concept project. It might show craft, but it does not show judgment, and judgment is what hiring managers are trying to verify.
+                - paragraph [ref=f4e151]: "Aneta Kmiecik, a design hiring partner and portfolio course creator, put it even more bluntly in a LinkedIn post from June 2026. She said that designers tried to include everything: every step of the process, every project, but just real and shipped. All. The unfinished sentence is the point. The instinct to include everything is exactly the wrong impulse."
+                - paragraph [ref=f4e152]: What is emerging as the working format is a project page with a live link, a brief explanation of what you built and why, and the outcome…rather than a five-slide case study. A demonstration of something that actually exists and can be verified.
+                - paragraph [ref=f4e153]:
+                  - text: The UX Design Institute, citing a MeasuringU study in March 2026, reported that around 70% of respondents with hiring responsibility planned to recruit at least one UX professional (
+                  - link "UX Design Institute" [ref=f4e154] [cursor=pointer]:
+                    - /url: https://www.uxdesigninstitute.com/blog/the-ux-job-market-in-2026-2/
+                  - text: ", 2026). The competition for those roles is fierce, and the differentiating factor is not the quantity of work but the trustworthiness of the evidence."
+              - separator [ref=f4e157]
+              - heading "3.) Show your trade-offs, not your process." [level=2] [ref=f4e162]
+              - figure "via KTLA crying boy" [ref=f4e166]:
+                - paragraph [ref=f4e171]:
+                  - emphasis [ref=f4e172]: via KTLA crying boy
+              - generic [ref=f4e176]:
+                - paragraph [ref=f4e177]: The problem with process diagrams is that nobody believes they happened in that order, and more importantly, they do not show where judgment was actually exercised. The places where you chose between two competing goods, traded scope against time, decided this user need was more important than that one, those are the moments where seniority actually lives.
+                - paragraph [ref=f4e178]: Tom Scott's eight portfolio red flags, published in May 2026, includes a specific one for seeing a double diamond. His point is not that the Double Diamond is bad process. His point is that showing it as your case study structure signals that you have confused a framework diagram with evidence of thinking, and hiring managers can tell the difference.
+                - paragraph [ref=f4e179]: The Verified Insider FAQ on design hiring in 2026, published in February 2026, goes further on this point. For every decision and step shown, hiring managers expect to see conscious competence. They want to see that you knew what you were doing and why, not just that you followed a methodology.
+                - paragraph [ref=f4e180]: The format that is getting attention is a short written narrative, somewhere between 500 and 800 words, that traces a specific decision from ambiguous starting point to outcome. What were the constraints? What did you try first? What did not work? Where did you change direction and why? What did you trade away, and what did you keep? The answers to those questions are what seniority looks like on a page.
+                - paragraph [ref=f4e181]: Budi Tanrim wrote that he would consider a portfolio weak if it does not help him determine whether a designer can make a good decision or at least has a good line of reasoning. That is the bar. Can you show the line of reasoning, or just the outcome?
+                - paragraph [ref=f4e182]: Verified Insider also noted that hiring managers are looking for behaviors, not just background. The qualities companies want to see are natural curiosity, agency, rigour, ability to build relationships with cross-functional peers, and comfort with ambiguity. All of these behaviors can surface through almost any body of work if you present it in the right way.
+                - paragraph [ref=f4e183]: "They also made this point: live, in-progress work can outperform a polished portfolio. There is something about an unfiltered process that reveals capability more honestly than a curated deck that has been prepared for presentation."
+              - separator [ref=f4e186]
+              - heading "4.) Show work that’s in progress." [level=2] [ref=f4e191]: 4.) Show work that’s in progress.
+              - figure "via “Take On Me” by a-ha" [ref=f4e195]:
+                - paragraph [ref=f4e200]: via “Take On Me” by a-ha
+              - generic [ref=f4e204]:
+                - paragraph [ref=f4e205]: Aneta Kmiecik describes her own portfolio as "always a WIP," a work in progress, and argues that this is the point, not a shortcoming. She shipped it because perfection killed too many of her projects.
+                - paragraph [ref=f4e206]: What is emerging is a portfolio format that is openly unfinished. A place where a designer shows their current thinking, admits what they do not know, and documents how they are working through problems in public. This is the opposite of the polished case study. It is more like a research notebook that happens to be public.
+                - paragraph [ref=f4e207]:
+                  - text: The ADPList newsletter "30 Design Ideas for 2026" frames this as a specific, practical move (
+                  - link "ADPList" [ref=f4e208] [cursor=pointer]:
+                    - /url: https://adplist.substack.com/p/steal-these-30-design-ideas-for-2026
+                  - text: ", 2026). Record a 5-minute Loom of you working with AI, prompting, editing, making judgment calls. This is now more impressive than a polished Behance case study. It demonstrates the meta-skill of directing AI with intention. Hiring managers want to see you think, not just deliver."
+                - paragraph [ref=f4e209]: The same newsletter recommends building a personal "design brain" document. A master file with your three to five best case studies, your design principles, tone-of-voice samples, and visual references, fed into Claude or ChatGPT as context. The output from that becomes evidence of taste working with AI, not AI replacing taste.
+                - paragraph [ref=f4e210]: Verified Insider makes the case for this format directly. Pulling up Figma files that are days or weeks old, walking through concepts that are not finished, and showing the thinking behind decisions that have not been validated yet can be more compelling than a polished case study. The unpolished version shows more about how you actually work when you do not have a script.
+              - separator [ref=f4e213]
+              - heading "5.) AI signals are not optional." [level=2] [ref=f4e218]: 5.) AI signals are not optional.
+              - figure "AI-generated video of Will Smith" [ref=f4e222]:
+                - paragraph [ref=f4e227]:
+                  - emphasis [ref=f4e228]: AI-generated video of Will Smith
+              - generic [ref=f4e232]:
+                - paragraph [ref=f4e233]:
+                  - text: This is where the data gets specific. According to Figma's February 2026 survey of design managers worldwide, 73% say there is an increasing need for candidates to be proficient in AI tools, and 79% say the same about designing AI products (
+                  - link "Figma" [ref=f4e234] [cursor=pointer]:
+                    - /url: https://www.figma.com/blog/why-demand-for-designers-is-on-the-rise/
+                  - text: ", 2026). The demand is not abstract. It is showing up in job requirements and screening criteria."
+                - paragraph [ref=f4e235]: One hiring manager from the UK told Figma that they started to factor AI into positions and hiring about a year ago, and in the last six months it has completely changed the way they hire. They fully prioritize positions that combine technical capacity, strategy, and out-of-the-box thinking, which includes the use of AI, human-in-the-loop, and human-augmented AI.
+                - paragraph [ref=f4e236]: Aneta Kmiecik describes what she is seeing in portfolios that use AI incorrectly. Stories sound like an ideal double diamond process, and layouts are repetitive. Everything is produced, generated, and based on average data. That’s the real tell. When every portfolio looks the same after using AI, the AI becomes a sign of sameness rather than capability.
+                - paragraph [ref=f4e237]: Tom Scott's eight red flags include "No AI signals" explicitly. If you are not showing how you work with AI in 2026, it reads as avoidance rather than competence, and hiring managers are reading it that way consistently.
+                - paragraph [ref=f4e238]:
+                  - text: The deeper point comes from Humbl Design's April 2026 report on AI and design careers. "Design skills" is now the number one most in-demand skill in AI job postings, ahead of coding and ahead of cloud (
+                  - link "Humbl Design" [ref=f4e239] [cursor=pointer]:
+                    - /url: https://humbldesign.io/blog-posts/will-ai-replace-designers-2026
+                  - text: ", 2026). Companies building AI products need humans who can turn technical capability into something people actually want to use."
+                - paragraph [ref=f4e240]: The same report found that designers with AI skills earn 56% more than peers without them, and design managers and leads working inside AI-augmented systems are commanding $160,000 to $190,000.
+              - separator [ref=f4e243]
+              - heading "6.) The case for specialists over generalists" [level=2] [ref=f4e248]
+              - figure "via Star Trek" [ref=f4e252]:
+                - paragraph [ref=f4e257]:
+                  - emphasis [ref=f4e258]: via Star Trek
+              - generic [ref=f4e262]:
+                - paragraph [ref=f4e263]: The data from Harry Enaholo's hiring process in early 2026 is the clearest evidence here. Out of over 250 applicants, exactly 20% matched what the role actually needed, and those 20% were not the most experienced. They were the most specific.
+                - paragraph [ref=f4e264]: The rest were either too specialized in the wrong direction, too general without depth, or simply applying with a portfolio structure that did not match what the hiring manager was looking for. The generalist portfolio, the one that showed range across industries and tools, was not the differentiator. Depth in a specific problem space was.
+                - paragraph [ref=f4e265]: The UX Design Institute, in March 2026, noted that rather than hiring large teams of generalist designers, many organisations are now shifting toward smaller, more specialised teams with stronger strategic and technical capabilities.
+                - paragraph [ref=f4e266]: Tom Scott, in January 2026, described what he is seeing in hiring conversations. Companies do not want to hire average generalists. They want to hire world-class product and interface design skill sets, and they are not interested in seeing past work that most people can put together now. The bar has moved.
+                - paragraph [ref=f4e267]: If your case studies describe general competencies, "led end-to-end design," "worked cross-functionally," you are competing in the wrong category. The market is not rewarding range. It is rewarding depth in a specific problem space, and your portfolio should make that depth visible.
+              - separator [ref=f4e270]
+              - heading "7.) Cut anything that isn’t real." [level=2] [ref=f4e275]: 7.) Cut anything that isn’t real.
+              - figure "via The Jetsons" [ref=f4e279]:
+                - paragraph [ref=f4e284]:
+                  - emphasis [ref=f4e285]: via The Jetsons
+              - generic [ref=f4e289]:
+                - paragraph [ref=f4e290]: The community is unusually aligned on this, and it is worth talking about what to remove from your portfolio.
+                - paragraph [ref=f4e291]: Student projects older than two years signal inexperience rather than range, unless they are genuinely exceptional. Concept projects without constraints, fantasy redesigns of Spotify or Airbnb with no real users, no business constraints, and no accountability, show craft but not judgment. Projects where your contribution was minimal, where you made the icons while someone else designed the system, those are contributions, not case studies. List them on your resume, not your portfolio. Anything you cannot explain under pressure should not be there either, because if a recruiter asks you to walk them through a project and you hesitate, you will be asked, and the hesitation will cost you. Duplicates in disguise, such as three e-commerce checkout redesigns that show repetition rather than range, need to be reduced to the strongest one.
+                - paragraph [ref=f4e292]: Your portfolio should feel curated, not comprehensive. Three strong case studies beat seven mediocre ones every time, and the way you choose which three is itself evidence of judgment.
+                - paragraph [ref=f4e293]: "Verified Insider's portfolio advice for 2026 is direct: three to five focused case studies, no more. Each should reflect the type of work you want to do next, not just the work you have done. Show your decision-making process, your niche expertise, and the results you delivered."
+              - separator [ref=f4e296]
+              - generic [ref=f4e300]:
+                - heading "How is the design job market looking in 2026?" [level=2] [ref=f4e301]
+                - paragraph [ref=f4e302]: The data tells a more nuanced story than the panic narrative suggests.
+                - paragraph [ref=f4e303]:
+                  - text: "According to Figma's February 2026 survey, 82% of design leaders say their organisation's need for designers has either increased or stayed the same. The numbers vary by growth stage: 46% at fast-growth companies plan to increase hiring in the next six months, compared to 40% at average-growth companies and 33% at slower-growth companies ("
+                  - link "Figma" [ref=f4e304] [cursor=pointer]:
+                    - /url: https://www.figma.com/blog/why-demand-for-designers-is-on-the-rise/
+                  - text: ", 2026)."
+                - paragraph [ref=f4e305]: Design job postings across Designer Fund's portfolio were up roughly 60% in 2025 compared to the same period in 2024. The UX Design Institute cites the US Bureau of Labor Statistics projecting 7% growth in digital design roles between 2024 and 2034, faster than average across all occupations.
+                - paragraph [ref=f4e306]: UX, UI, and product design roles are projected to grow 16% through 2034. Traditional graphic design roles grow 2 to 3%. While strategy and problem-solving scale, execution doesn’t. It seems that roles that require judgment are growing while roles that require only craft are not.
+              - separator [ref=f4e309]
+              - generic [ref=f4e313]:
+                - 'heading "The underlying pattern: decisions" [level=2] [ref=f4e314]'
+                - paragraph [ref=f4e315]: What the community is describing is not a set of portfolio tips. It is a description of what senior design judgment looks like when execution is no longer the scarce resource.
+                - paragraph [ref=f4e316]: AI has made execution cheap, but what it has not made cheap (and cannot make cheap) is the ability to make a decision under uncertainty, absorb the consequence, learn from it, and make a better one next time. That loop is the whole job, and the portfolio that demonstrates it is the portfolio that will get hired.
+                - paragraph [ref=f4e317]:
+                  - text: "The humbling reality from Humbl Design's April 2026 report: only 31% of designers currently use AI for core design work, compared to 59% of developers ("
+                  - link "Humbl Design" [ref=f4e318] [cursor=pointer]:
+                    - /url: https://humbldesign.io/blog-posts/will-ai-replace-designers-2026
+                  - text: ", 2026). The tools built for design have not solved the problems that actually slow designers down. But 54% of designers say AI improves their work quality, compared to 68% of developers. The designers who are treating AI as a material to work with, rather than a tool, will be the ones who win in 2026."
+                - paragraph [ref=f4e319]: "The old portfolio format was a proxy for \"this person can make something good.\" Now that something good can be generated, the proxy no longer works. What is left is the thing underneath: the taste, the judgment, the ability to know which problem is worth solving, and why."
+                - paragraph [ref=f4e320]: Decisions need to be visible in a 2026 portfolio…not what you made. You need to show how you decided, what you gave up, what you learned, and what you are working on next.
+                - heading "Dive deeper into the 2026 product design portfolio situation" [level=2] [ref=f4e321]
+                - list [ref=f4e322]:
+                  - listitem [ref=f4e323]:
+                    - paragraph [ref=f4e324]:
+                      - text: •
+                      - link "\"The portfolio review died in 2026\"" [ref=f4e325] [cursor=pointer]:
+                        - /url: https://nurxmedov.medium.com/the-portfolio-review-died-in-2026-b45a6e63384e
+                      - text: by Nurkhon (Medium, May 2026)
+                  - listitem [ref=f4e326]:
+                    - paragraph [ref=f4e327]:
+                      - text: •
+                      - link "\"8 Red Flags in Design Portfolios\"" [ref=f4e328] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/posts/tomscottt_8-red-flags-in-design-portfolios-activity-7460948781556178944-GDbW
+                      - text: by Tom Scott (LinkedIn, May 2026)
+                  - listitem [ref=f4e329]:
+                    - paragraph [ref=f4e330]:
+                      - text: •
+                      - link "\"Design Hiring Observations\"" [ref=f4e331] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/posts/tomscottt_design-hiring-observations-its-been-a-activity-7422928795449524224-VTjT
+                      - text: by Tom Scott (LinkedIn, Jan 2026)
+                  - listitem [ref=f4e332]:
+                    - paragraph [ref=f4e333]:
+                      - text: •
+                      - link "\"What gets designers hired in 2026\"" [ref=f4e334] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/posts/anetakmiecik_what-gets-designers-hired-in-2026-activity-7464672589832073216-xF2V
+                      - text: by Aneta Kmiecik (LinkedIn, May 2026)
+                  - listitem [ref=f4e335]:
+                    - paragraph [ref=f4e336]:
+                      - text: •
+                      - link "\"Stats from design roles I'm currently hiring for in 2026\"" [ref=f4e337] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/posts/harryenaholo_stats-from-applications-for-the-design-roles-activity-7437075208504713217-9qcZ
+                      - text: by Harry Enaholo (LinkedIn, Mar 2026)
+                  - listitem [ref=f4e338]:
+                    - paragraph [ref=f4e339]:
+                      - text: •
+                      - link "\"3 Simple Portfolio Fixes for Senior Designers to Land $200K+ Jobs\"" [ref=f4e340] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/posts/karenwoodin_senior-product-designer-strong-portfolio-activity-7447674819250188288-uZW_
+                      - text: by Karen Woodin (LinkedIn, Apr 2026)
+                  - listitem [ref=f4e341]:
+                    - paragraph [ref=f4e342]:
+                      - text: •
+                      - 'link "\"FAQ: Design Hiring in 2026\"" [ref=f4e343] [cursor=pointer]':
+                        - /url: https://verifiedinsider.substack.com/p/faq-design-hiring-in-2026
+                      - text: by Verified Insider (Substack, Feb 2026)
+                  - listitem [ref=f4e344]:
+                    - paragraph [ref=f4e345]:
+                      - text: •
+                      - link "\"Why Demand for Designers Is on the Rise\"" [ref=f4e346] [cursor=pointer]:
+                        - /url: https://www.figma.com/blog/why-demand-for-designers-is-on-the-rise/
+                      - text: by Figma (Feb 2026)
+                  - listitem [ref=f4e347]:
+                    - paragraph [ref=f4e348]:
+                      - text: •
+                      - 'link "\"The UX Job Market in 2026: The Most In-Demand Skills and Roles\"" [ref=f4e349] [cursor=pointer]':
+                        - /url: https://www.uxdesigninstitute.com/blog/the-ux-job-market-in-2026-2/
+                      - text: by UX Design Institute (Mar 2026)
+                  - listitem [ref=f4e350]:
+                    - paragraph [ref=f4e351]:
+                      - text: •
+                      - link "\"Will AI Replace Designers in 2026? The Data Says No\"" [ref=f4e352] [cursor=pointer]:
+                        - /url: https://humbldesign.io/blog-posts/will-ai-replace-designers-2026
+                      - text: by Humbl Design (Apr 2026)
+                  - listitem [ref=f4e353]:
+                    - paragraph [ref=f4e354]:
+                      - text: •
+                      - link "\"30 Design Ideas for 2026\"" [ref=f4e355] [cursor=pointer]:
+                        - /url: https://adplist.substack.com/p/steal-these-30-design-ideas-for-2026
+                      - text: by Avani / ADPList (2026)
+                  - listitem [ref=f4e356]:
+                    - paragraph [ref=f4e357]:
+                      - text: •
+                      - link "\"How to Build a UX Portfolio That Actually Gets You Hired (2026)\"" [ref=f4e358] [cursor=pointer]:
+                        - /url: https://muz.li/blog/how-to-build-a-ux-portfolio-that-actually-gets-you-hired-2026/
+                      - text: by Muz.li (2026)
+              - separator [ref=f4e361]
+              - paragraph [ref=f4e366]: What is working for you and your portfolio? The best source of data is your lived experience, so share it in the comments!
+            - generic [ref=f4e367]:
+              - link "Jeff Humble" [ref=f4e368] [cursor=pointer]:
+                - /url: /blog?author=54a0cc94e4b038053fed4325
+                - generic [ref=f4e370]: Jeff Humble
+              - paragraph [ref=f4e372]:
+                - text: Jeff Humble is a designer, strategist, and educator from the U.S. who lives in Berlin. He teaches strategic design and innovation at the
+                - link "Fountain Institute" [ref=f4e373] [cursor=pointer]:
+                  - /url: https://www.thefountaininstitute.com
+                  - strong [ref=f4e374]: Fountain Institute
+                - text: . Visit
+                - link "jeffreyhumble.com" [ref=f4e375] [cursor=pointer]:
+                  - /url: https://www.jeffreyhumble.com
+                  - strong [ref=f4e376]: jeffreyhumble.com
+                - text: to learn more about Jeff.
+    - link "Next 11 Signals That AI Interaction Design Is Changing" [ref=f4e378] [cursor=pointer]:
+      - /url: /blog/signals-ai-interaction-design-changing
+      - generic [ref=f4e379]:
+        - generic [ref=f4e380]: Next
+        - heading "11 Signals That AI Interaction Design Is Changing" [level=2] [ref=f4e381]
+      - img [ref=f4e383]
+  - contentinfo [ref=f4e385]:
+    - generic [ref=f4e391]:
+      - generic [ref=f4e392]:
+        - paragraph [ref=f4e397]:
+          - strong [ref=f4e398]: The Fountain Institute
+          - text: is an independent online school that teaches advanced UX & product skills.
+        - generic [ref=f4e399]:
+          - generic [ref=f4e404]:
+            - paragraph [ref=f4e405]:
+              - strong [ref=f4e406]: Live Courses
+              - generic:
+                - strong
+              - link "Defining UX Strategy" [ref=f4e407] [cursor=pointer]:
+                - /url: /defining-ux-strategy
+                - strong [ref=f4e409]: Defining UX Strategy
+              - generic:
+                - strong
+              - link "Facilitating Workshops" [ref=f4e410] [cursor=pointer]:
+                - /url: /facilitating-workshops
+                - strong [ref=f4e412]: Facilitating Workshops
+              - generic:
+                - strong
+              - link "Designing Product Experiments" [ref=f4e413] [cursor=pointer]:
+                - /url: /designing-product-experiments
+                - strong [ref=f4e415]: Designing Product Experiments
+            - paragraph [ref=f4e416]:
+              - strong [ref=f4e417]: Live Events
+              - link "Online Events" [ref=f4e418] [cursor=pointer]:
+                - /url: /events
+                - strong [ref=f4e420]: Online Events
+              - generic:
+                - strong
+              - link "Corporate Workshops" [ref=f4e421] [cursor=pointer]:
+                - /url: /corporate-workshops
+                - strong [ref=f4e423]: Corporate Workshops
+            - paragraph [ref=f4e424]:
+              - strong [ref=f4e425]: Community
+              - link:
+                - /url: /alumni
+                - generic:
+                  - strong
+              - generic:
+                - strong
+              - link "Fountain Institute Alumni" [ref=f4e426] [cursor=pointer]:
+                - /url: /alumni
+                - strong [ref=f4e428]: Fountain Institute Alumni
+          - generic [ref=f4e433]:
+            - paragraph [ref=f4e434]:
+              - strong [ref=f4e435]: Free Resources
+              - link "Design Tools" [ref=f4e436] [cursor=pointer]:
+                - /url: https://www.thefountaininstitute.com/resources#free-design-tools
+                - strong [ref=f4e438]: Design Tools
+              - generic:
+                - strong
+              - link "Masterclasses" [ref=f4e439] [cursor=pointer]:
+                - /url: https://www.thefountaininstitute.com/resources#free-masterclasses
+                - strong [ref=f4e441]: Masterclasses
+              - generic:
+                - strong
+              - link "Meetup Talks" [ref=f4e442] [cursor=pointer]:
+                - /url: /meetup-talks
+                - strong [ref=f4e444]: Meetup Talks
+              - generic:
+                - strong
+              - link "Newsletter" [ref=f4e445] [cursor=pointer]:
+                - /url: /beyond-aesthetics-newsletter
+                - strong [ref=f4e447]: Newsletter
+              - generic:
+                - strong
+              - link "Blog" [ref=f4e448] [cursor=pointer]:
+                - /url: /blog
+                - strong [ref=f4e450]: Blog
+            - paragraph [ref=f4e451]:
+              - strong [ref=f4e452]: Free Short Courses
+              - link "UX Research" [ref=f4e453] [cursor=pointer]:
+                - /url: /free-ux-research-short-course
+                - strong [ref=f4e455]: UX Research
+              - generic:
+                - strong
+              - link "Product Experiments" [ref=f4e456] [cursor=pointer]:
+                - /url: /free-short-course-on-designing-product-experiments
+                - strong [ref=f4e458]: Product Experiments
+              - generic:
+                - strong
+              - link "UX Strategy" [ref=f4e459] [cursor=pointer]:
+                - /url: /subscribe-to-uxs-short-course
+                - strong [ref=f4e461]: UX Strategy
+              - generic:
+                - strong
+              - link "Facilitating Workshops" [ref=f4e462] [cursor=pointer]:
+                - /url: /free-course-facilitating-workshops
+                - strong [ref=f4e464]: Facilitating Workshops
+        - navigation [ref=f4e469]:
+          - link "LinkedIn" [ref=f4e470] [cursor=pointer]:
+            - /url: https://www.linkedin.com/school/the-fountain-institute/
+            - img [ref=f4e472]
+          - link "YouTube" [ref=f4e475] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/thefountaininstitute
+            - img [ref=f4e477]
+          - link "Instagram" [ref=f4e480] [cursor=pointer]:
+            - /url: https://www.instagram.com/thefountaininstitute/
+            - img [ref=f4e482]
+        - paragraph [ref=f4e489]:
+          - link "Testimonials" [ref=f4e490] [cursor=pointer]:
+            - /url: https://www.thefountaininstitute.com/alumni#testimonials
+            - strong [ref=f4e492]: Testimonials
+          - link:
+            - /url: /imprint
+            - strong
+          - strong [ref=f4e493]
+          - text: ●
+          - link "Request an Invoice" [ref=f4e494] [cursor=pointer]:
+            - /url: /invoices
+            - strong [ref=f4e496]: Request an Invoice
+          - strong [ref=f4e497]
+          - text: ●
+          - link "Terms & Conditions" [ref=f4e498] [cursor=pointer]:
+            - /url: /terms-conditions
+            - strong [ref=f4e500]: Terms & Conditions
+          - strong [ref=f4e502]
+          - strong [ref=f4e503]
+          - text: ●
+          - strong [ref=f4e505]
+          - link "Imprint" [ref=f4e506] [cursor=pointer]:
+            - /url: /imprint
+            - strong [ref=f4e508]: Imprint
+          - strong [ref=f4e509]
+          - text: ●
+          - strong [ref=f4e510]
+          - link "Privacy Policy" [ref=f4e511] [cursor=pointer]:
+            - /url: /privacy-policy
+            - strong [ref=f4e513]: Privacy Policy
+          - strong [ref=f4e514]
+          - text: ●
+          - link "Code of Conduct" [ref=f4e515] [cursor=pointer]:
+            - /url: /code-of-conduct
+            - strong [ref=f4e517]: Code of Conduct
+        - figure "Supported in part by the European Union, the European Social Fund, the State of Berlin, and CODE University of Applied Sciences © The Fountain Institute 2026" [ref=f4e523]:
+          - img "Fountain Institute Partners" [ref=f4e526]
+          - generic [ref=f4e528]:
+            - paragraph [ref=f4e529]: Supported in part by the European Union, the European Social Fund, the State of Berlin, and CODE University of Applied Sciences
+            - paragraph [ref=f4e530]: © The Fountain Institute 2026
+      - generic [ref=f4e533]:
+        - paragraph [ref=f4e539]: Got feedback or an idea for the Fountain Institute? We would love to hear it.
+        - button "Send Us a Message" [ref=f4e544] [cursor=pointer]

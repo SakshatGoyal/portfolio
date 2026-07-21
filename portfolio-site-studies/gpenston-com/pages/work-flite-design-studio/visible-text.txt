@@ -1,0 +1,45 @@
+Home
+
+About
+
+Work
+
+Contact
+Flite Design Studio
+A smarter way to build digital ads
+
+Design leadership and direction
+
+Flite  2012 – 2016
+
+Empowering brands to create ads in real time
+
+At Flite, we set out to solve a major challenge for brands and advertisers—how to create, edit, and optimize digital ads in real time without relying on developers or external design teams. Traditional ad production was slow and rigid, making quick creative iteration nearly impossible. We built Flite Design Studio as a web-based, cloud-powered design tool that gave brands and publishers full creative control while ensuring their ads remained dynamic, interactive, and scalable.
+
+Driving product vision and execution
+
+As the product design lead, I defined the vision, strategy, and execution for Flite Design Studio. I worked closely with engineering and product teams to craft an intuitive interface that let marketers build, edit, and optimize ad creatives in real time—without coding or complex workflows. The platform featured a drag-and-drop editor, dynamic content integration, and animation tools, making it easy to create high-impact, data-driven ads at scale.
+
+
+
+
+Beyond the core product experience, I collaborated with sales and customer success teams to ensure our design system supported a broad range of use cases, from simple banner ads to highly interactive, media-rich campaigns. My role extended beyond UI/UX—I helped position the platform in the competitive ad tech space, shaping its identity as a powerful yet accessible creative tool.
+
+Impact & industry adoption
+
+Flite Design Studio transformed digital advertising by eliminating production bottlenecks and enabling real-time iteration. Creative teams could launch and optimize campaigns faster than ever. This innovation caught the attention of major advertisers and publishers, leading to partnerships with companies like The New York Times, VICE Media, and Condé Nast.
+
+
+
+
+Flite’s success ultimately led to its acquisition by Snapchat, where its core technology and principles influenced the development of Snapchat’s own advertising tools.
+
+Key takeaways
+
+This project reinforced the power of removing friction from creative workflows—by making ad creation simple and flexible, we helped brands move faster. Collaboration between design, engineering, and sales is essential—alignment across teams led to a stronger product. And great design extends beyond the interface—positioning and messaging were key to making Flite Design Studio stand out in a competitive industry.
+
+Next
+
+© 2026 George Penston · Also at penston.studio 
+
+     

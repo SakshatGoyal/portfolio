@@ -1,0 +1,43 @@
+[     597ms] [WARNING] [GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[     611ms] [WARNING] 3 is not a valid value for publisherSpecialPurposesIds @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     639ms] [LOG] uspData default usp value based on gpc signal @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     639ms] [WARNING] globalPrivacyControl is not available in the browser. Setting usp string as  1NN @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     640ms] [LOG] setting mspa footer with opt out defaults in mspa-api @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     640ms] [ERROR] MspaFooterHTMLId not found, inserting text into footer @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     640ms] [WARNING] Google basic consent is not applicable. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     640ms] [LOG] Less than 30 minute have passed since the stored timestamp. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1066ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:40123)
+    at io (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:90844)
+    at sc (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:131315)
+    at https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126205
+    at u9 (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126306)
+    at s$ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:152688)
+    at MessagePort._ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:1647)
+[    1067ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:40123)
+    at io (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:90844)
+    at sc (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:131315)
+    at https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126205
+    at u9 (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126306)
+    at s$ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:152688)
+    at MessagePort._ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:1647)
+[    1185ms] [LOG] Push notifications powered by Aimtell. Learn more at https://aimtell.com/developers @ https://cdn.aimtell.com/trackpush/trackpush.min.js:0
+[    1393ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[    1594ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    5269ms] [TIMEEND] a: 0.001220703125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    8921ms] [TIMEEND] a: 0.001953125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    9071ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[    9783ms] Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://onetag-sys.com" from accessing a frame with origin "https://serv-us-1.onetag-sys.com". Protocols, domains, and ports must match.
+[    9908ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   10229ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   15260ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    9908ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   19879ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   20226ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   25245ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   30262ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   32996ms] [LOG] No new positions to boot @ https://scripts.opti-digital.com/lib/?site=teamblind_com&lib=launcher&v=5.4.11:2
+[   33311ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[   33605ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31

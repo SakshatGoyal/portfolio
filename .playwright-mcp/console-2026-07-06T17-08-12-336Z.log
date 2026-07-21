@@ -1,0 +1,17 @@
+[     754ms] [WARNING] [GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[     769ms] [WARNING] 3 is not a valid value for publisherSpecialPurposesIds @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     828ms] [LOG] uspData default usp value based on gpc signal @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     828ms] [WARNING] globalPrivacyControl is not available in the browser. Setting usp string as  1NN @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     828ms] [LOG] setting mspa footer with opt out defaults in mspa-api @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     828ms] [ERROR] MspaFooterHTMLId not found, inserting text into footer @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     828ms] [WARNING] Google basic consent is not applicable. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[     829ms] [LOG] Less than 30 minute have passed since the stored timestamp. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1542ms] [LOG] Push notifications powered by Aimtell. Learn more at https://aimtell.com/developers @ https://cdn.aimtell.com/trackpush/trackpush.min.js:0
+[    1761ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[    2053ms] [TIMEEND] a: 0 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    5601ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   10333ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   10624ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   15586ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   21669ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31

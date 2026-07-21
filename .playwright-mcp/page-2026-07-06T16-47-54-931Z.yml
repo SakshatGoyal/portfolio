@@ -1,0 +1,418 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: /
+      - img [ref=e7]
+    - generic [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Books" [ref=e12] [cursor=pointer]:
+            - /url: /books/
+        - listitem [ref=e13]:
+          - link "Professional Development" [ref=e15] [cursor=pointer]:
+            - /url: https://rosenfeldmedia.com/professional-development/
+        - listitem [ref=e16]:
+          - link "Events" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e19]:
+          - link "Rosenverse" [ref=e21] [cursor=pointer]:
+            - /url: https://rosenverse.rosenfeldmedia.com/
+        - listitem [ref=e22]:
+          - link "Cart 0 items" [ref=e24] [cursor=pointer]:
+            - /url: https://rosenfeldmedia.com/books/
+            - img "Cart" [ref=e25]: 
+            - generic [ref=e26]: 0 items
+      - link "Log In" [ref=e28] [cursor=pointer]:
+        - /url: https://rosenfeldmedia.com/my-account
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]: Register today for our expert-led virtual AI workshops!
+      - link "Workshops" [ref=e33] [cursor=pointer]:
+        - /url: https://rosenfeldmedia.com/rosenfeld-workshops/
+    - generic [ref=e35]:
+      - 'heading "Sample Chapter: The Staff Designer" [level=1] [ref=e36]'
+      - paragraph [ref=e37]:
+        - text: This is a sample chapter from
+        - link "Catt Small" [ref=e38] [cursor=pointer]:
+          - /url: https://rosenfeldmedia.com/people/catt-small/
+        - text: ‘s book
+        - 'link "The Staff Designer: Grow, Influence, and Lead as an Individual Contributor" [ref=e39] [cursor=pointer]':
+          - /url: https://rosenfeldmedia.com/books/the-staff-designer/
+        - text: . 2025, Rosenfeld Media.
+      - heading "Chapter One" [level=2] [ref=e40]
+      - heading "What the Heck is a Staff Designer?" [level=3] [ref=e41]
+      - paragraph [ref=e42]: Staff designers can be incredible assets to a business. They have the power and experience to tackle exceptionally complicated user experience problems that unlock major revenue opportunities. And employers are noticing! In August of 2025, I searched for “staff product designer” roles on LinkedIn in the United States. More than 100 relevant roles were posted within seven days alone. Organizations are hungry to hire talent at this level, offering immense sums of money and incredible perks to the right individuals with relevant experience.
+      - paragraph [ref=e43]: Despite its ubiquitousness in today’s job market, the staff designer role is still relatively new. The World Wide Web may be over 30 years old, but the career track for super-senior designers of internet-connected devices is a much more recent creation. Until recently, most designers were expected to shift into management at a later stage in their career. Design management has a stable foundation and decades of history built on various pre-existing forms of leadership theory.
+      - paragraph [ref=e44]:
+        - text: Once a designer becomes senior, the management track is made available to them. They can become a middle manager, eventually reach the director level, and potentially become a VP of design or chief design officer with enough effort. The progression is straightforward and predictable. Many designers do not want to manage people, though, and
+        - text: "we should not force them to. Unhappy managers come with cascading negative effects: they create harm at scale by passing their pain along to every individual in their management chain."
+      - paragraph [ref=e45]: The software engineering career track has a model for success that the design industry must follow. A considerable number of engineers have refrained from transitioning into people management, which led to the definition of the staff engineering career path. Engineers can stay close to code while tackling more and more ambiguous architecture problems as they advance in level. There are dozens of visible super-senior engineers who regularly share their experiences. The design field has to catch up.
+      - paragraph [ref=e46]: "In the first year of teaching my staff designer course, I heard over 150 variations of the same predicament: the staff designer career path is opaque, and employers are unsure how to create ideal conditions for people who take on this role. The role of a staff designer is currently defined on a company-by-company basis. Some organizations don’t even have this path available at all, leaving individuals to advocate for themselves when they hit a career ceiling. Staff designers are set up to fail when the expectations of the role are unclear to everyone, including the companies who hired them."
+      - paragraph [ref=e47]: "When career ladders across companies vary to this degree, designers lack the clarity to excel because they are cannot calibrate appropriately. And this difficulty is amplified when a designer attempts to transition their skill sets between companies—the standards at one employer may be completely different from another. In the open- source world, companies share technologies with each other because it pays off in faster advancements for all. The same applies to the staff designer role: universal expectations and standards can be shared between organizations for the benefit of the entire industry. These standards will help companies of all sizes establish better design practices, resulting in so many great things: more efficient internal operations, faster onboarding and seamless career growth for designers, and ultimately better outcomes for users."
+      - paragraph [ref=e48]: This career path is still relatively nascent. We are progressing, and that progress comes with growing pains. Growing pains are frustrating and uncomfortable. On the bright side, it also means you’re part of the conversation. The decisions you make as you chart your own path will help create clarity for future designers.
+      - paragraph [ref=e49]:
+        - text: This book is a stake in the ground to set expectations for the role of a staff designer, and we’re starting with this chapter. You’ll find that most staff designers have strengths in some of the expected skills more than others. The reality is that there isn’t enough time in the day for designers to excel at everything all the time, and it’s unreasonable to be equally brilliant at every facet of the role. You’ll learn enough detail to decide where to invest your energy. You’ll also learn what a staff designer is
+        - emphasis [ref=e50]: not
+        - text: so you can set appropriate boundaries with collaborators and stakeholders. Let’s battle career ambiguity together!
+      - heading "What a Staff Designer Is" [level=3] [ref=e51]
+      - paragraph [ref=e52]:
+        - text: A staff designer
+        - emphasis [ref=e53]: is
+        - text: a super-senior designer who does
+        - emphasis [ref=e54]: not
+        - text: manage individuals. Nonmanagers are colloquially referred to as
+        - emphasis [ref=e55]: individual contributors
+        - text: (ICs). Staff designers are individual contributors, but they are likely to be responsible for the design strategy and user experience quality of a major product area. Despite having no direct reports, staff designers are often extremely influential and valuable members of senior leadership.
+      - paragraph [ref=e56]
+      - paragraph [ref=e57]:
+        - strong [ref=e58]: Figure 1
+        - text: A common design career ladder based on insights from 75 organizations such as Netflix, Pinterest, and Shopify.
+      - heading "Level-Setting" [level=4] [ref=e59]
+      - paragraph [ref=e60]: I’ve reviewed career ladders from 75 tech companies, including major organizations such as Airbnb, Datadog, Instacart, Lattice, Microsoft, and Shopify. I merged these insights with my own personal observations from past employers and synthesized them into the most common career ladder you’ll find (Figure 1.1). I will mostly be concentrating on the role of a product designer, because this is currently the most common title that companies assign to digital experience designers. Product design, as defined here, is the combination of information architecture, visual design, and strategic product thinking. Much of this information is applicable to other related practices such as UX design, content design, and service design.
+      - 'heading "Tip: Level-Matching Across Super-Senior Titles" [level=4] [ref=e61]':
+        - strong [ref=e62]: "Tip: Level-Matching Across Super-Senior Titles"
+      - paragraph [ref=e63]:
+        - text: Please note that a designer may be evaluated distinctly at different organizations, depending on the context of each company. If the level right above senior is
+        - emphasis [ref=e64]: principal
+        - text: in one organization’s career ladder, that may be considered the same as
+        - emphasis [ref=e65]: staff
+        - text: at another organization. Scale also affects this translation; for example, a principal designer at a 100-person company might be a senior designer at a 1,500-person company due to the scope and complexity of working at a larger organization. However, if a designer makes a lateral move to a company of a similar size but each company uses unique titles for the level above senior, the designer would likely be assigned the same level.
+      - paragraph [ref=e66]:
+        - text: Typically, the design career ladder starts at entry-level (
+        - emphasis [ref=e67]: design intern
+        - text: or
+        - emphasis [ref=e68]: apprentice
+        - text: ). It then moves to
+        - emphasis [ref=e69]: junior designer
+        - text: ", then mid-level (just"
+        - emphasis [ref=e70]: designer
+        - text: ),
+        - emphasis [ref=e71]: senior designer
+        - text: ", followed by"
+        - emphasis [ref=e72]: staff designer
+        - text: .
+        - emphasis [ref=e73]: Staff
+        - text: is the most common title at the level above
+        - emphasis [ref=e74]: senior
+        - text: —two thirds of the companies I reviewed used it as a title. The remaining few either used the term
+        - emphasis [ref=e75]: lead
+        - text: (Figure 1.2) or
+        - emphasis [ref=e76]: principal
+        - text: (Figure 1.3). Nomenclature is often determined by the preferences of leaders at a particular organization.
+      - paragraph [ref=e77]
+      - paragraph [ref=e78]:
+        - strong [ref=e79]: Figure 1.2
+        - text: The career path for a company with lead designers.
+      - paragraph [ref=e80]
+      - paragraph [ref=e81]:
+        - strong [ref=e82]: Figure 1.3
+        - text: If the level above senior is called
+        - emphasis [ref=e83]: principal
+        - text: ", it is equal to the staff level."
+      - paragraph [ref=e84]:
+        - emphasis [ref=e85]: Lead designers
+        - text: function similarly to
+        - emphasis [ref=e86]: staff designers
+        - text: in many ways. Lead designers are usually hands-on designers. Similar to staff designers, they usually own a major product area. However, they often do what is called
+        - emphasis [ref=e87]: player-coach
+        - text: work, which means they do both tactical design activities (player) and manage at least one other designer (coach). They are expected to deliver high-quality, hands-on product design work
+        - emphasis [ref=e88]: and
+        - text: function as a low-level people manager. In comparison to lead designers, most staff designers work at a similar altitude without the challenges of managing others.
+      - paragraph [ref=e89]:
+        - text: The
+        - emphasis [ref=e90]: principal
+        - text: title is often used above the staff level, but it may be interchangeable with staff at smaller companies with less hierarchy. Beyond the staff level, a designer can grow to become either senior staff or principal (Figure 1.4). Different companies use these terms interchangeably. And if a company is mature with 1,000 or more employees, they may have senior principal, architect, and distinguished designer titles (Figure 1.5).
+      - paragraph [ref=e91]
+      - paragraph [ref=e92]:
+        - strong [ref=e93]: Figure 1.4
+        - text: The career ladder at a company where the principal is the role above staff.
+      - paragraph [ref=e94]
+      - paragraph [ref=e95]:
+        - strong [ref=e96]: Figure 1.5
+        - text: While rare, some organizations do offer at least one level above principal.
+      - paragraph [ref=e97]: Very few designers reach levels above staff. However, the skills required are an extension of those needed to jump from senior to staff. The shift from senior to staff is the largest hurdle a designer faces in their career, due to the increase in ambiguity and political maneuvering. Therefore, I will be concentrating on the staff designer level for most of this book. If you’re curious to learn about the level above staff in more detail, we’ll cover that in Chapter 9, “Keep Your Career Fresh.”
+      - heading "Expectations of a Staff Designer" [level=4] [ref=e98]
+      - paragraph [ref=e99]: A staff designer is an individual contributor who has moved beyond the senior title and level. They are essentially super-seasoned designers who can wrangle complex, ambiguous projects without much hands-on support. The expectations of designers at this level are very high, and they are often brought in to put out major fires. One might even call them modern-day unicorns!
+      - paragraph [ref=e100]: "Similar to lower-level designers, staff designers are usually responsible for the end-to-end outcome of at least one large project. This is still a hands-on role, so staff designers are expected to create design artifacts just like other designers. A staff designer will create whatever is necessary to drive the most impact: wireframes, diagrams, mock-ups, and other forms of design documentation are all fair game. Because staff designers are so experienced, stakeholders expect them to create higher-quality artifacts than lower-level individuals on the team—in less time. In fact, staff designers are expected to have such excellent skills that they can help other designers level up, too!"
+      - paragraph [ref=e101]: What makes a staff designer unique is that they also provide direction for others in many forms. At the beginning of a project, a staff designer might create a visionary prototype that gets broken down into chunks. Depending on an organization’s size, the staff designer will either shift to executing on a chunk of work or hand parts of the work to other teams so they can scope and build the work. If other teams take on the work, the staff designer is usually expected to review and provide feedback on the progress to ensure that it is executed as intended.
+      - paragraph [ref=e102]: Staff designers are excellent verbal and written communicators who are deeply connected to the hands-on design practice. They use design to predict potential futures, support strategic decision-making, and create great outcomes for their company’s customers. Key focus areas for designers at this level are systems, craft, and business strategy (Figure 1.6).
+      - paragraph [ref=e103]: Each of these focus areas must be balanced with the other. Lots of designers fall into using visual design as a crutch by making showy mock-ups without considering how things connect. Other designers miss major opportunities for long-term revenue wins by overly concentrating on short-term gains. Context is important, so make sure to invest equally in these focus areas as you grow.
+      - paragraph [ref=e104]
+      - paragraph [ref=e105]:
+        - strong [ref=e106]: Figure 1.6
+        - text: Staff designers must excel at systems design, visual design, and business strategy.
+      - paragraph [ref=e107]: Staff designers are clearly expected to do a lot! That’s because they have a long track record of high-impact work and many years of real-world experience. Don’t feel rushed to get to the title if you’re not there yet.
+      - paragraph [ref=e108]: On the other hand, if you are leveled at senior but feel like this whole chapter describes you already, you might be ready for the next level. You’ll likely need to make a case for a promotion. You can figure out ways to advocate for yourself in Chapters 6, “Build Influence Without Authority,” and 8, “Show Your Value.”
+      - paragraph [ref=e109]:
+        - emphasis [ref=e110]:
+          - strong [ref=e111]: Systems
+        - text: Systems thinking is the ability to create connections between ideas and concepts in a system using artifacts such as user flow diagrams, affinity maps, and wireframes. It helps designers cut through ambiguity to show teams how everything connects. Staff designers own elaborate projects that tie to key business initiatives. Systems thinking is key to understanding customers at scale—and finding new business opportunities. Customers will give you a lot of feedback. How do you and your team decide what to work on? As a staff designer, you must influence these decisions, and you will be a better influence when you can see how everything connects.
+      - paragraph [ref=e112]:
+        - emphasis [ref=e113]:
+          - strong [ref=e114]: Craft
+        - emphasis [ref=e115]: Craft
+        - text: ", also known as"
+        - emphasis [ref=e116]: visual and interaction design skills
+        - text: ", is crucial for all product designers. Staff product designers are expected to both deliver and model fantastic craft. Therefore, staff product designers must be better at visual design than senior designers. These super-senior individuals push the bar upward, and they raise the floor for design quality across the team. A solid foundation in color theory, typography, and other graphic design principles is required to succeed at this level. The best staff designers know how and when to use visual design as a tool; they see when to follow the grid and when to break it. They use the right fidelity designs to motivate leaders, supercharge teams, and inspire customers."
+      - 'heading "Tip: Craft is Subjective" [level=4] [ref=e117]'
+      - paragraph [ref=e118]: Different companies have varying opinions regarding what excellent craft looks like. One organization’s bar for visual design might be higher than another’s. Each company prioritizes particular qualities of visual design over others. Your visual design skills will be evaluated uniquely at every place you work. If you want to work at a place with products that are considered to have top-tier visual designs, expect the bar for craft to be much higher.
+      - paragraph [ref=e119]:
+        - emphasis [ref=e120]:
+          - strong [ref=e121]: Business Strategy
+        - text: "Staff designers also have a magnificent sense for business strategy, or the ability to define and execute on a plan to achieve certain outcomes on behalf of the organization. This is what makes a designer at this level a worthwhile expense—they prioritize their energy to ensure that they are always working toward an outcome that benefits the business by satisfying its customers. It’s the opposite of designing for design’s sake: every decision you make is optimized for impact. You’ll learn more about prioritization in Chapter 3, “Wrangle Your Time and Capacity,” and influencing business strategy in Chapters 5, “Drive Product Vision” and 6."
+      - heading "What a Staff Designer is Not" [level=3] [ref=e122]:
+        - text: What a Staff Designer is
+        - emphasis [ref=e123]: Not
+      - paragraph [ref=e124]:
+        - text: Companies think a staff designer is many things. There are some very real overlaps with other roles. But a staff designer is definitely
+        - emphasis [ref=e125]: not
+        - text: a manager, nor are they a senior designer. These super-senior individual contributors own (rather than contribute to) major initiatives, and they are not responsible for any direct reports!
+      - heading "A Day in the Life of a Staff Designer" [level=4] [ref=e126]
+      - paragraph [ref=e127]: Staff designers have a lot on their plate. Each day, week, month, and quarter looks very different. I’ll attempt to flatten my years of work in the role into one discrete example—a pretty standard Tuesday. Since this is an example, it’s possible (and likely!) that your lived experience will be different and unique.
+      - paragraph [ref=e128]:
+        - strong [ref=e129]: "10 a.m.: Reconnaissance"
+        - text: "I open my computer and look at my calendar to assess what the day will look like. Then I check my task manager and see a reminder to spend time developing a pitch for a new project idea later in the day. Finally, I open my company’s chat platform and see a group message sent by the VP of product: They have an idea for"
+        - text: an urgent new project that impacts the area I own.
+      - paragraph [ref=e130]: I put on my architect hat and look at my capacity. It’s possible that I’ll have availability for this project, but the goals are unclear. I invite the VP, my PM, and my engineering lead to a quick, impromptu kickoff.
+      - paragraph [ref=e131]:
+        - strong [ref=e132]: "10:30 a.m.: Kickoff"
+        - text: During the meeting, I duplicate a handy template for a kickoff document. I use it to define expectations of the work, facilitating the conversation between my teammates and the VP of product. By the end of the half-hour discussion, it’s clear that much more thought is required before the project can begin.
+      - paragraph [ref=e133]:
+        - strong [ref=e134]: "11 a.m.: Planning"
+        - text: I write up a proposal for a several-day brainstorm that concludes with a research session. I believe this will answer the questions that came up during the kickoff and give the team enough information to move forward with confidence. After an hour of preparation, the proposal is in splendid shape. I send the proposal to the meeting’s participants for review.
+      - paragraph [ref=e135]:
+        - strong [ref=e136]: "12 p.m.: Lunch"
+        - text: Since staff designers are senior leaders and have influence over the behavior of others, I am strict about modeling healthy calendar hygiene. I take an hour-long lunch every day. Half the time is spent devouring a proper meal. Then I go for a walk to clear my mind. All that thinking is a lot of work!
+      - paragraph [ref=e137]:
+        - strong [ref=e138]: "1 p.m.: Critique"
+        - text: The team has design critique twice per week, and the first one is on Tuesday. This area has several projects influx at the moment. Every designer’s contribution must add up to a first-class, end-to-end experience. I give clear and thoughtful directional feedback, celebrating wins while also offering opportunities for improvement.
+      - paragraph [ref=e139]:
+        - strong [ref=e140]: "2 p.m.: Pair design"
+        - text: Right after critique, I have weekly 30-minute 1:1s with individual designers on the team. While they aren’t my direct reports, I am accountable for the quality of their design work. These are deep dives into work discussed during critique. We explore options together, and I leave each collaborator with just enough feedback to get them unstuck. At the end of each session, I provide a little time to answer general questions. One designer needs more time at the end of their session, so we schedule additional time for tomorrow afternoon.
+      - paragraph [ref=e141]:
+        - strong [ref=e142]: "3 p.m.: Inbox zero"
+        - text: I open the company’s chat program for the second time today—I check it three times per day in total. I see that people tagged me in several of their area’s channels. After 30 minutes of answering questions, everyone is unblocked. I close the chat program and open my music player.
+      - paragraph [ref=e143]:
+        - strong [ref=e144]: "3:30 p.m.: Focus time"
+        - text: Now that the major meetings are out of the way, I spend time exploring potential concepts for a pitch using the company’s preferred design tool. I’m considering some ideas that might be worth investing in, as I noticed a few issues that need a more holistic solution. Right now, the team is resolving these issues in a piecemeal fashion. A better solution would require my area to collaborate with another one.
+      - paragraph [ref=e145]:
+        - strong [ref=e146]: "5 p.m.: Influence"
+        - text: The new ideas are quite interesting! Now I need to craft a pitch that will get others on board. During the final 30 minutes of my available focus time, I record a video walkthrough of the proposed concepts and share it with my PM for feedback.
+      - paragraph [ref=e147]:
+        - strong [ref=e148]: "5:30 p.m.: Ramp down"
+        - text: With the day nearly over, I check to see if there are any comments on the brainstorm proposal I wrote earlier. There are. After resolving the comments, I schedule the brainstorm for next week. Next, I reopen my task manager and update my to-do list. Finally, I open the chat program for the last time and write an update for my teammates.
+      - paragraph [ref=e149]:
+        - strong [ref=e150]: "6 p.m.: Log off"
+        - text: Once again modeling healthy calendar hygiene, I say good night to the team and log off.
+      - heading "A Staff Designer is Not a Senior Designer" [level=4] [ref=e151]
+      - paragraph [ref=e152]: Senior designers have less responsibility than staff designers. The scales of their projects are very dissimilar. Table 1.1 outlines the key differences between senior and staff designers. See the Catt’s Corner sidebar for specific examples based on real-life projects.
+      - paragraph [ref=e153]
+      - paragraph [ref=e154]: While both senior and staff designers can be trusted to be relatively autonomous, they are disparate. Staff designers are expected to influence long-term strategy (12+ months), whereas senior designers usually focus on immediate priorities. Staff designers often collaborate with executive leaders, directors, and senior ICs. Senior designers, on the other hand, usually work with other junior and senior peers.
+      - paragraph [ref=e155]: A staff designer might be responsible for a project that has a critical impact on the organization, meaning they work at a higher altitude. Meanwhile, a senior designer might contribute to a slice of the staff designer’s project—driving a manageable portion of the impact considering their level of experience.
+      - paragraph [ref=e156]:
+        - text: Staff designers are also expected to have a deeper knowledge of design foundations at an industry-wide level. They have a splendid track record of delivering high-quality work and a broad toolkit of exercises and usability insights from past experience that they can pull from to move projects forward. Senior designers have a terrific grasp of these foundations, but they are expected to
+        - emphasis [ref=e157]: meet
+        - text: ", not"
+        - emphasis [ref=e158]: uplevel
+        - text: ", the design quality bar."
+      - paragraph [ref=e159]: Both senior and staff designers are expected to mentor others. But senior designers mentor junior and mid-level designers. Staff designers have enough experience to mentor senior designers on the team. They might even mentor design managers, directors, and people in other positions, such as content design. You’ll learn more details about mentorship and facilitating exceptional design in Chapter 7, “Scale Your Impact.”
+      - paragraph [ref=e160]: Besides scale and scope of work, the staff designer title also comes with much higher expectations in comparison to a senior one. Much of this comes down to experience that comes with time. Don’t rush to fit into this role! Concentrate on expanding and stabilizing your aptitude with each project you take on. The change in scope and responsibilities will come as your confidence increases.
+      - heading "Nor a Manager" [level=4] [ref=e161]
+      - paragraph [ref=e162]:
+        - text: Staff designers are leaders. Design managers are leaders. Although they are both leaders,
+        - emphasis [ref=e163]: staff designers are not design managers.
+      - paragraph [ref=e164]: A manager’s job is to build a talented team and ensure that its members output great work. A staff designer’s job is to create positive business outcomes through design with a combination of hands-on work and direction. The major overlaps that exist between the two roles are mentorship, craft, and strategy (Figure 1.7).
+      - paragraph [ref=e165]
+      - paragraph [ref=e166]:
+        - strong [ref=e167]: Figure 1.7
+        - text: Managers and staff designers partner to mentor designers, ensure the design quality bar is met, and define strategy.
+      - paragraph [ref=e168]: Staff designers do not have direct reports. They should, however, mentor designers to guarantee that the quality of design work is as high as possible. With a staff designer on the team, design managers can focus on professional development and team output. The staff designer can do pair work with less senior designers on the team— akin to old-school apprenticeships. This process elevates the quality of the team’s output.
+      - paragraph [ref=e169]: A staff designer and design manager are both held accountable for the quality of the team’s work. They both must be present during craft-centric team rituals, such as design critiques. Managers often have a high-level view across multiple projects and focus on sharing key strategic details that help to unblock their direct reports. They ensure that the right work is shown at the right time, and all teammates have opportunities to give feedback. Meanwhile, a staff designer usually owns the details for a specific major project and delivers the kind of nitty-gritty feedback that might otherwise be categorized as micromanagement.
+      - paragraph [ref=e170]:
+        - text: Design leaders often reflect on the differences in these roles as they refine their career ladders. In March 2025, a design leader named Ben Martin wrote about this process in a post on his blog,
+        - emphasis [ref=e171]: Designing the Gap
+        - text: . He noted that “Staff designers focus on mentorship and high-level execution, while design managers drive quality through team development and career growth.” In 2020, Peter Merholz, writer of
+        - emphasis [ref=e172]: Org Design for Design Orgs
+        - text: ", also observed that more companies are hiring people into “super-senior individual contributor” roles to support leadership with “strategic thinking and creative direction that can make sense of the effort of a design team that is working across many products, or distinct parts of a customer journey.” This reflects my lived experience: Staff designers are partners to design managers and directors, and they provide a more hands-on type of leadership that is rooted in the craft."
+      - paragraph [ref=e173]: As Peter alluded to, business strategy is the final area of overlap between staff designers and design managers. Some design managers care deeply about strategy and want to be more involved. Others want to be less involved and focus on supporting their people. The latter is rarer in 2025, so staff designers are expected to share ownership of the strategy and partner appropriately.
+      - paragraph [ref=e174]: The industry has ebbed and flowed in terms of its preference for people-focused management. Most companies currently prefer managers who can balance their focus on people with a heavy investment in strategic and creative direction. Cap Watkins, VP of Product Design at Lattice, reflected on his own experience with this shift in a blog post called “The Rebalancing of Design Management:” “If managers aren’t actively driving business outcomes using all their knowledge and expertise, … then all the people-focused work we all care about doing isn’t going to matter because the product won’t exist for long.”
+      - paragraph [ref=e175]: Managers are commonly held accountable for strategic influence and impact. If you’re on a team with a manager who has lots of strategic opinions, both parties equally own the strategy. It’s important to hash out roles and responsibilities with your team’s design manager so the boundaries are clear. For example, perhaps the manager owns the project’s execution plan and timeline while you drive the actual definition of the project’s strategy.
+      - paragraph [ref=e176]: Other than these overlaps, these roles are complementary. Managers concentrate on org design and team cohesion. Staff designers execute design and make sure the end-to-end experiences they own are cohesive. Whenever you find yourself in a situation where the lines are blurred, get out a pen and draw some boundaries with your design manager.
+      - heading "Staff Designer Archetypes" [level=3] [ref=e177]
+      - paragraph [ref=e178]: Every staff designer is unique and brings distinct value to an organization. However, there are four archetypes that most designers fall into. These archetypes are architect, tastemaker, visionary, and platformer (Figure 1.8). The first two archetypes may be familiar to you, as they are core competencies of a designer. The latter two are unique to designers at the staff level and above, as they help individuals scale their impact.
+      - paragraph [ref=e179]
+      - paragraph [ref=e180]:
+        - strong [ref=e181]: Figure 1.8
+        - text: Each archetype combines the core competencies of a staff designer in varying ways.
+      - paragraph [ref=e182]: Most designers have a dominant archetype that they fit into most of the time. It’s natural to have an affinity for certain archetypes over others. For example, I am an architect by default! I love to learn how users work. Cracking a meaty problem gives me joy, and I love the feeling of meeting or even exceeding customer needs.
+      - paragraph [ref=e183]: Throughout my career, my architect instincts have helped me resolve bigger and bigger challenges. However, I can still put on the tastemaker hat when necessary. And I’ve vastly improved at the skills required to meet expectations of both the visionary and platformer archetypes.
+      - paragraph [ref=e184]: Great staff designers can flex into the other archetypes as necessary, wearing them like hats. While some designers are innately adept at certain skills, most skills are learned and polished over time. If you find yourself naturally gravitating toward one or more of the archetypes after reading the descriptions that follow, consider investing energy into strengthening skills that fit the ones you are least comfortable with.
+      - heading "Architect" [level=4] [ref=e185]
+      - paragraph [ref=e186]: Do you know those folks who can take any mess and turn it into order? The ones who can look at a user flow, list out all the objects it contains, and categorize them by type? That’s an architect! Architects are excellent systems thinkers who solve complicated experience issues. Like those who design buildings, architects create the structure and scaffolding for well-constructed user experiences.
+      - paragraph [ref=e187]:
+        - emphasis [ref=e188]:
+          - strong [ref=e189]: Strengths
+        - text: Companies value architects because they ensure that teams are solving the right problems and identifying the right solutions. Architects combine systems thinking with business strategy to ensure that an experience is cohesive. They use information architecture to help customers perform critical tasks, ultimately helping the team reach business goals.
+      - paragraph [ref=e190]: An architect might create user flow diagrams that align teammates on the number of screens to include in an end-to-end experience. Or they may put together a wireframe that shows how content will be grouped in an experience. They use the arrangement of ideas, objects, and concepts to reflect business and user priorities.
+      - paragraph [ref=e191]:
+        - emphasis [ref=e192]:
+          - strong [ref=e193]: Shadows
+        - text: While architects are great for making sense when everything is in disarray, people who default to this archetype are in danger of becoming overly logical. There is an inherent nonsensical quality to the aesthetic part of our role as designers, and architect-dominant designers are the first to get frustrated by visual craft conversations. If you’re an architect, you should continue investing in your inner tastemaker, so you stay connected to user interface design as a skill.
+      - paragraph [ref=e194]:
+        - emphasis [ref=e195]:
+          - strong [ref=e196]: Build This Skill
+        - text: Architects have a solid foundation in user experience (UX) design and human-computer interaction (HCI). Designers who want to improve their architect skill set can invest in fundamentals such as information architecture, systems diagramming, and user research. Designers can build these skills by attending workshops and events through organizations such as UXPA, IxDA, Interaction Design Foundation, and Nielsen Norman Group.
+      - heading "Tastemaker" [level=4] [ref=e197]:
+        - strong [ref=e198]: Tastemaker
+      - paragraph [ref=e199]: "There’s always one designer on the team who has unreal and exceptional visual design skills. That person is your quintessential tastemaker: a designer with an eye for interface, style, layout, and typography. They experiment and play with interfaces, sending messages through the visual treatment of certain objects on the screen."
+      - paragraph [ref=e200]:
+        - emphasis [ref=e201]:
+          - strong [ref=e202]: Strengths
+        - text: Tastemakers combine visual design with business strategy to influence user behavior and guide customers through an experience with the intention of meeting certain outcomes. They help translate a company’s brand into experiences that customers want to use. Other designers who witness the work done by a tastemaker may feel inspired to improve their own craft, leading to a collective increase in the quality of experiences the company produces.
+      - paragraph [ref=e203]: Similar to the way that first impressions matter, the visual layer of a product is immediately apparent. Companies often prioritize tastemakers because their work draws people in. Design savants and novices alike can easily appreciate the outcome of a tastemaker’s meticulous nature, who needs every pixel to be in the right place.
+      - paragraph [ref=e204]:
+        - emphasis [ref=e205]:
+          - strong [ref=e206]: Shadows
+        - text: Organizations love a masterful tastemaker. But designers must expand their focus, so they don’t get pigeonholed. People who “make it pretty” are not as valuable if they can’t ensure that their solutions solve the right problems. If you are a natural tastemaker, consider deepening your practice as an architect and visionary.
+      - paragraph [ref=e207]:
+        - emphasis [ref=e208]:
+          - strong [ref=e209]: Build This Skill
+        - text: Contrary to popular belief at companies, not all designers are natural tastemakers. While some will have an affinity for visual design, many individuals will need to invest extra time and energy to excel at it. I personally have a professional background in graphic design, but this archetype requires the most significant effort for me to maintain. Visual design is a continuous puzzle for me to complete.
+      - paragraph [ref=e210]: Despite anything folks have told you in the past, it’s possible to keep building the muscle for craft. Tastemakers have a good foundation in visual design and interaction design. Designers who want to improve their tastemaker skill set can invest in typography, color theory, grid layouts, and user experience prototyping. Many traditional universities offer continuing education for tastemakers. Designers such as Elizabeth Lin and Matt D. Smith (MDS) also offer their own courses on this subject.
+      - 'heading "Tip: Craft for Other Roles" [level=4] [ref=e211]':
+        - strong [ref=e212]: "Tip: Craft for Other Roles"
+      - paragraph [ref=e213]: In one cohort of my staff designer course, a researcher asked me how to translate craft to other roles. I believe most subsets of the user experience practice have their own definition of craft. For example, a UX researcher’s craft might be defined as the way they design and conduct their research. A content designer’s craft might be measured by how well they construct information within an experience. If you’re not sure how “craft” translates to your role, consider aligning on the definition of the term with your design team.
+      - heading "Visionary" [level=4] [ref=e214]
+      - paragraph [ref=e215]: Think of a designer you know who gets immediate support for their solutions. They tell such a compelling story that the whole team— even senior leaders—rally behind the idea. That designer fits into the visionary archetype.
+      - paragraph [ref=e216]:
+        - emphasis [ref=e217]:
+          - strong [ref=e218]: Strengths
+        - text: Visionaries are designers who use storytelling for influence. They are especially powerful for cases where executives need to buy into an idea. They combine systems thinking, craft, and business strategy to show how a solution will impact customers (Figure 1.9). Visionaries create artifacts that build the kind of confidence necessary to enact major product changes.
+      - paragraph [ref=e219]: Less senior designers often struggle to illustrate how their work ladders up to plans for the future. This work is not about creating an artifact. It’s about using a deep understanding of the customer and business problems to expand on potential futures.
+      - paragraph [ref=e220]: Without a doubt, the visionary archetype is one that most differentiates a staff designer from a senior one. By delving into alternate worlds, staff designers help leaders build confidence in major investments. When managers speak of influence, the visionary skillset is the one they’re most often referring to. We’ll cover this more in Chapters 5 and 6.
+      - paragraph [ref=e221]
+      - paragraph [ref=e222]:
+        - strong [ref=e223]: Figure 1.9
+        - text: Visionaries illustrate potential futures for the team to help them make and communicate strategic decisions.
+      - paragraph [ref=e224]:
+        - emphasis [ref=e225]:
+          - strong [ref=e226]: Shadows
+        - text: Natural visionaries must watch out for excessive vision work. Every project doesn’t deserve an elaborate presentation; sometimes, the work just needs to get shipped. If you have a proclivity for creating grand scenarios of possible futures every time you begin a new project, consider the context. I reserve vision work for times when the team lacks direction.
+      - paragraph [ref=e227]:
+        - emphasis [ref=e228]:
+          - strong [ref=e229]: Build This Skill
+        - text: Visionaries have a foundation in the same skills as tastemakers and architects. However, they have also invested lots of time into their storytelling, presentation design, and public speaking abilities. While some institutions do offer training in public speaking and storytelling, many designers can build these skills through observation of others and consistent practice.
+      - heading "Platformer" [level=4] [ref=e230]
+      - paragraph [ref=e231]: The platformer creates repeatable documentation and components that other designers can use. They combine systems thinking with craft to generate user experience frameworks and guidelines (Figure 1.10). This is key to being able to scale yourself as a staff designer (see Chapter 7). I also gravitate toward this archetype because documentation helps me ideate and iterate faster.
+      - paragraph [ref=e232]
+      - paragraph [ref=e233]:
+        - strong [ref=e234]: Figure 1.10
+        - text: Platformers create artifacts that help others contribute to large-scale projects in a cohesive manner.
+      - paragraph [ref=e235]:
+        - emphasis [ref=e236]:
+          - strong [ref=e237]: Strengths
+        - text: If you have an affinity for design systems but want to continue working on a traditional product development team, you might be a natural platformer. Platformers are fierce advocates and partners to design systems. They often connect easily with design systems designers and continuously contribute to the system, making them laterally influential.
+      - paragraph [ref=e238]:
+        - emphasis [ref=e239]:
+          - strong [ref=e240]: Shadows
+        - text: Platformers enjoy creating structure, just like architects. However, too much documentation and process can be distracting—and can ultimately lead to being pigeonholed as a design systems designer. Get other members of the team involved in contributing to and maintaining the documentation you create. Co-creation builds a sense of shared ownership.
+      - paragraph [ref=e241]:
+        - emphasis [ref=e242]:
+          - strong [ref=e243]: Build This Skill
+        - text: Designers who fit the platformer archetype have a foundation in the same skills as platformers and architects. Those who want to improve their platformer skillset can also invest in learning to create design systems documentation. Designers can build these skills by directly contributing to their company’s design system, taking classes by design systems thought leaders like Dan Mall, and attending events such as Clarity, a design systems conference.
+      - heading "Debrief" [level=3] [ref=e244]:
+        - strong [ref=e245]: Debrief
+      - paragraph [ref=e246]: Staff designers are hands-on senior leaders who influence the future of the company in a way that is distinct from both senior designers and design managers. They use a combination of systems thinking, visual design, and business strategy to inspire and mobilize teams at scale. Each staff designer has unique strengths, but most fit into a dominant archetype as their default operating style. Staff designers must regularly invest in skills that enable them to change archetypes based on context. By changing archetypes as necessary, staff designers adapt to meet the needs of ambiguous projects and make a major impact.
+      - paragraph [ref=e247]:
+        - emphasis [ref=e248]:
+          - link "« Get the book" [ref=e249] [cursor=pointer]:
+            - /url: https://rosenfeldmedia.com/books/the-staff-designer/
+  - generic [ref=e252]:
+    - generic [ref=e253]:
+      - generic [ref=e255]: Sign up for the mailing list
+      - textbox "First name" [ref=e257]
+      - textbox "Last name" [ref=e259]
+      - textbox "Sign up for the mailing list" [ref=e261]:
+        - /placeholder: Email address
+      - button "Subscribe" [ref=e263] [cursor=pointer]
+    - textbox [ref=e265]
+  - generic [ref=e267]:
+    - link [ref=e269] [cursor=pointer]:
+      - /url: https://rosenfeldmedia.com/
+      - img [ref=e270]
+    - generic [ref=e271]:
+      - generic [ref=e272]:
+        - heading "About Us" [level=3] [ref=e274]
+        - list [ref=e276]:
+          - listitem [ref=e277]:
+            - link "Our Company" [ref=e278] [cursor=pointer]:
+              - /url: /about/our-company/
+          - listitem [ref=e279]:
+            - link "Our Team" [ref=e280] [cursor=pointer]:
+              - /url: https://rosenverse.rosenfeldmedia.com/people/staff
+          - listitem [ref=e281]:
+            - link "Our Authors" [ref=e282] [cursor=pointer]:
+              - /url: https://rosenverse.rosenfeldmedia.com/people/authors
+          - listitem [ref=e283]:
+            - link "Privacy Policy" [ref=e284] [cursor=pointer]:
+              - /url: https://rosenfeldmedia.com/privacy-policy/
+      - generic [ref=e285]:
+        - heading "Products" [level=3] [ref=e287]
+        - list [ref=e289]:
+          - listitem [ref=e290]:
+            - link "Rosenverse" [ref=e291] [cursor=pointer]:
+              - /url: https://rosenverse.rosenfeldmedia.com/
+          - listitem [ref=e292]:
+            - link "Books" [ref=e293] [cursor=pointer]:
+              - /url: /books/
+          - listitem [ref=e294]:
+            - link "Events" [ref=e295] [cursor=pointer]:
+              - /url: https://rosenverse.rosenfeldmedia.com/upcoming/
+          - listitem [ref=e296]:
+            - link "Conferences" [ref=e297] [cursor=pointer]:
+              - /url: https://rosenfeldmedia.com/conferences
+          - listitem [ref=e298]:
+            - link "Workshops" [ref=e299] [cursor=pointer]:
+              - /url: https://rosenfeldmedia.com/rosenfeld-workshops/
+          - listitem [ref=e300]:
+            - link "Corporate Training" [ref=e301] [cursor=pointer]:
+              - /url: /training/
+          - listitem [ref=e302]:
+            - link "Podcasts" [ref=e303] [cursor=pointer]:
+              - /url: https://rosenfeldreview.podbean.com/
+    - generic [ref=e304]:
+      - heading "Store FAQ" [level=3] [ref=e306]:
+        - link "Store FAQ" [ref=e307] [cursor=pointer]:
+          - /url: /ordering-and-format-info
+      - heading "Contact us" [level=3] [ref=e309]:
+        - link "Contact us" [ref=e310] [cursor=pointer]:
+          - /url: /contact-us
+      - list [ref=e312]:
+        - listitem [ref=e313]:
+          - link [ref=e314] [cursor=pointer]:
+            - /url: https://www.facebook.com/RosenfeldMediaUX
+            - img [ref=e315]
+        - listitem [ref=e316]:
+          - link [ref=e317] [cursor=pointer]:
+            - /url: https://twitter.com/rosenfeldmedia
+            - img [ref=e318]
+        - listitem [ref=e319]:
+          - link [ref=e320] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/rosenfeld-media/
+            - img [ref=e321]
+        - listitem [ref=e322]:
+          - link [ref=e323] [cursor=pointer]:
+            - /url: https://www.instagram.com/rosenfeldmedia
+            - img [ref=e324]
+        - listitem [ref=e325]:
+          - link [ref=e326] [cursor=pointer]:
+            - /url: https://www.youtube.com/@RosenfeldMedia
+            - img [ref=e327]
+        - listitem [ref=e328]:
+          - link [ref=e329] [cursor=pointer]:
+            - /url: mailto:info@rosenfeldmedia.com
+            - img [ref=e330]
+        - listitem [ref=e331]:
+          - link [ref=e332] [cursor=pointer]:
+            - /url: https://www.flickr.com/photos/rosenfeldmedia/albums/with/72157703595364444
+            - img [ref=e333]

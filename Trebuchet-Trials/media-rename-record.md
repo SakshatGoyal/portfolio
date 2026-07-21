@@ -1,0 +1,41 @@
+# Media rename record - Trebuchet-Trials
+
+| Original | Final |
+| --- | --- |
+| `assets/Behavioral-Prototype-video.webm` | `assets/trebuchet-behavioral-prototype-video.webm` |
+| `assets/BehavioralPrototypeReport_Galapagos.jpeg` | `assets/trebuchet-behavioral-prototype-report-galapagos.jpeg` |
+| `assets/Downselection framework - STEM.png` | `assets/trebuchet-concept-downselection-framework.png` |
+| `assets/Downselection-framework-STEM-1.png` | `assets/trebuchet-concept-downselection-framework-alt-1.png` |
+| `assets/Downselection-framework-STEM-2.png` | `assets/trebuchet-concept-downselection-framework-alt-2.png` |
+| `assets/Downselection-framework-STEM-3.png` | `assets/trebuchet-concept-downselection-framework-alt-3.png` |
+| `assets/IMG_0004.jpeg` | `assets/trebuchet-wooden-prototype-01.jpeg` |
+| `assets/IMG_0018.jpeg` | `assets/trebuchet-wooden-prototype-02.jpeg` |
+| `assets/IMG_20190307_161330-1.jpeg` | `assets/trebuchet-student-testing-session.jpeg` |
+| `assets/Interface.webm` | `assets/trebuchet-gaming-interface.webm` |
+| `assets/Oliver-VideoPrototype.mp4` | `assets/trebuchet-video-prototype-oliver.mp4` |
+| `assets/Oliver-VideoPrototype.webm` | `assets/trebuchet-video-prototype-oliver.webm` |
+| `assets/Playing-with-cardboard.webm` | `assets/trebuchet-cardboard-build-test.webm` |
+| `assets/STEM-cover-video-1.webm` | `assets/trebuchet-stem-cover-video-alt.webm` |
+| `assets/STEM-cover-video.m4v` | `assets/trebuchet-stem-cover-video.m4v` |
+| `assets/STEM-cover-video.mp4` | `assets/trebuchet-stem-cover-video.mp4` |
+| `assets/Screen-Recording-2021-08-08-at-15.40.07.webm` | `assets/trebuchet-prototype-screen-recording.webm` |
+| `assets/Timeline-Arduino.png` | `assets/trebuchet-arduino-timeline.png` |
+| `assets/Trebuchet-fc-768x1137.png` | `assets/trebuchet-final-concept-poster.png` |
+| `assets/Trebuchet-trials-cover.mp4` | `assets/trebuchet-cover-video.mp4` |
+| `assets/Trebuchet-trials.png` | `assets/trebuchet-final-prototype-overview.png` |
+| `assets/VID_20190311_123840.webm` | `assets/trebuchet-student-playtest-recording.webm` |
+| `assets/Video-Prototype-Javan.webm` | `assets/trebuchet-video-prototype-javan.webm` |
+| `assets/Video-Prototype-Sakshat.webm` | `assets/trebuchet-video-prototype-sakshat.webm` |
+| `assets/Wizard-of-Oz-Testing.png` | `assets/trebuchet-wizard-of-oz-testing.png` |
+| `assets/cad-behavioral.jpeg` | `assets/trebuchet-behavioral-cad-sketch.jpeg` |
+| `assets/computing-setup.webm` | `assets/trebuchet-computing-setup.webm` |
+| `assets/experiential-prototype.jpeg` | `assets/trebuchet-experiential-prototype.jpeg` |
+| `assets/idea-grid-1.jpeg` | `assets/trebuchet-idea-grid.jpeg` |
+| `assets/interface-woz.jpeg` | `assets/trebuchet-wizard-of-oz-interface.jpeg` |
+| `assets/iteration-1.webm` | `assets/trebuchet-paper-prototype-iteration-1.webm` |
+| `assets/iteration-2.webm` | `assets/trebuchet-paper-prototype-iteration-2.webm` |
+| `assets/paper-assembly-2.webm` | `assets/trebuchet-paper-assembly.webm` |
+| `assets/stem-downselection.png` | `assets/trebuchet-stem-downselection-notes.png` |
+| `assets/stem-kt1.png` | `assets/trebuchet-stem-classroom-test.png` |
+| `assets/treb-hero.jpeg` | `assets/trebuchet-hero-prototype.jpeg` |
+| `assets/winners.png` | `assets/trebuchet-award-team-photo.jpeg` |

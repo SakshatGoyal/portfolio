@@ -1,0 +1,2732 @@
+- generic [active] [ref=f1038e1]:
+  - generic [ref=f1038e2]:
+    - banner [ref=f1038e4]:
+      - generic [ref=f1038e8]:
+        - generic [ref=f1038e9]:
+          - link [ref=f1038e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=f1038e12]
+          - generic [ref=f1038e17]:
+            - link "Community" [ref=f1038e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f1038e19]: Community
+            - link "Salaries" [ref=f1038e20] [cursor=pointer]:
+              - /url: /salary
+              - generic [ref=f1038e21]: Salaries
+            - link "Reviews" [ref=f1038e22] [cursor=pointer]:
+              - /url: /company
+              - generic [ref=f1038e23]: Reviews
+            - link "Layoffs" [ref=f1038e24] [cursor=pointer]:
+              - /url: /layoffs
+              - generic [ref=f1038e25]: Layoffs
+            - link "Jobs" [ref=f1038e26] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=f1038e27]: Jobs
+            - generic [ref=f1038e29] [cursor=pointer]:
+              - generic [ref=f1038e30]: For Business
+              - img [ref=f1038e31]
+          - generic [ref=f1038e34]:
+            - img [ref=f1038e35]
+            - textbox "Search" [ref=f1038e37]
+        - generic [ref=f1038e39]:
+          - button "Sign in" [ref=f1038e40] [cursor=pointer]
+          - link "Sign up" [ref=f1038e41] [cursor=pointer]:
+            - /url: /sign-up?next=/&from=sign-up-top-menu
+    - generic [ref=f1038e44]:
+      - generic [ref=f1038e47]:
+        - generic [ref=f1038e48]:
+          - link "Feed" [ref=f1038e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f1038e50]:
+              - img [ref=f1038e51]
+              - text: Feed
+          - link "My Company" [ref=f1038e56] [cursor=pointer]:
+            - /url: /my-company
+            - generic [ref=f1038e57]:
+              - img [ref=f1038e58]
+              - text: My Company
+          - link "Blind Alters" [ref=f1038e60] [cursor=pointer]:
+            - /url: /alter
+            - generic [ref=f1038e61]:
+              - img [ref=f1038e62]
+              - text: Blind Alters
+          - link "Resources" [ref=f1038e65] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=f1038e66]:
+              - img [ref=f1038e67]
+              - text: Resources
+          - link "Best of Blind NEW" [ref=f1038e70] [cursor=pointer]:
+            - /url: /best/2026
+            - generic [ref=f1038e71]:
+              - img [ref=f1038e72]
+              - text: Best of Blind
+              - generic [ref=f1038e75]: NEW
+          - link "Trending" [ref=f1038e76] [cursor=pointer]:
+            - /url: /trending
+            - generic [ref=f1038e77]:
+              - img [ref=f1038e78]
+              - text: Trending
+        - generic [ref=f1038e82]:
+          - link "All Channels" [ref=f1038e83] [cursor=pointer]:
+            - /url: /channels
+            - generic [ref=f1038e84]:
+              - img [ref=f1038e85]
+              - text: All Channels
+          - generic [ref=f1038e87]:
+            - heading "Recent" [level=2] [ref=f1038e88] [cursor=pointer]:
+              - generic [ref=f1038e89]: Recent
+              - img [ref=f1038e90]
+            - generic [ref=f1038e93]:
+              - link "Channel logo Tech" [ref=f1038e95] [cursor=pointer]:
+                - /url: /channels/tech
+                - generic [ref=f1038e96]:
+                  - img "Channel logo" [ref=f1038e97]
+                  - generic [ref=f1038e98]: Tech
+              - link "Channel logo Design" [ref=f1038e100] [cursor=pointer]:
+                - /url: /channels/design
+                - generic [ref=f1038e101]:
+                  - img "Channel logo" [ref=f1038e102]
+                  - generic [ref=f1038e103]: Design
+          - generic [ref=f1038e105]:
+            - generic [ref=f1038e106]:
+              - heading "Location" [level=2] [ref=f1038e107] [cursor=pointer]:
+                - generic [ref=f1038e108]: Location
+                - img [ref=f1038e109]
+              - generic [ref=f1038e111]:
+                - generic [ref=f1038e112]:
+                  - link "Channel logo Dallas" [ref=f1038e114] [cursor=pointer]:
+                    - /url: /channels/dallas
+                    - generic [ref=f1038e115]:
+                      - img "Channel logo" [ref=f1038e116]
+                      - generic [ref=f1038e117]: Dallas
+                  - link "Channel logo Miami" [ref=f1038e119] [cursor=pointer]:
+                    - /url: /channels/miami
+                    - generic [ref=f1038e120]:
+                      - img "Channel logo" [ref=f1038e121]
+                      - generic [ref=f1038e122]: Miami
+                  - link "Channel logo Chicago" [ref=f1038e124] [cursor=pointer]:
+                    - /url: /channels/chicago
+                    - generic [ref=f1038e125]:
+                      - img "Channel logo" [ref=f1038e126]
+                      - generic [ref=f1038e127]: Chicago
+                  - link "Channel logo New York" [ref=f1038e129] [cursor=pointer]:
+                    - /url: /channels/new-york
+                    - generic [ref=f1038e130]:
+                      - img "Channel logo" [ref=f1038e131]
+                      - generic [ref=f1038e132]: New York
+                  - link "Channel logo Austin" [ref=f1038e134] [cursor=pointer]:
+                    - /url: /channels/austin
+                    - generic [ref=f1038e135]:
+                      - img "Channel logo" [ref=f1038e136]
+                      - generic [ref=f1038e137]: Austin
+                - button "Show More" [ref=f1038e138] [cursor=pointer]
+            - heading "Industry" [level=2] [ref=f1038e141] [cursor=pointer]:
+              - generic [ref=f1038e142]: Industry
+              - img [ref=f1038e143]
+            - heading "Job Function" [level=2] [ref=f1038e146] [cursor=pointer]:
+              - generic [ref=f1038e147]: Job Function
+              - img [ref=f1038e148]
+            - heading "Learning & Advising" [level=2] [ref=f1038e151] [cursor=pointer]:
+              - generic [ref=f1038e152]: Learning & Advising
+              - img [ref=f1038e153]
+            - heading "Money" [level=2] [ref=f1038e156] [cursor=pointer]:
+              - generic [ref=f1038e157]: Money
+              - img [ref=f1038e158]
+            - button "Show More Channels" [ref=f1038e160] [cursor=pointer]
+        - generic [ref=f1038e162]:
+          - generic [ref=f1038e163]:
+            - generic [ref=f1038e164]: Blind
+            - link "Why Blind" [ref=f1038e165] [cursor=pointer]:
+              - /url: /why-blind
+              - generic [ref=f1038e166]: Why Blind
+            - link "Polls" [ref=f1038e167] [cursor=pointer]:
+              - /url: /polls
+              - generic [ref=f1038e168]: Polls
+            - link "Blog" [ref=f1038e169] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f1038e170]: Blog
+            - link "Careers" [ref=f1038e171] [cursor=pointer]:
+              - /url: https://careers.teamblind.com/
+              - generic [ref=f1038e172]: Careers
+            - link "Privacy" [ref=f1038e173] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/privacy
+              - generic [ref=f1038e174]: Privacy
+            - link "Terms" [ref=f1038e175] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/term
+              - generic [ref=f1038e176]: Terms
+          - generic [ref=f1038e177]:
+            - generic [ref=f1038e178]: Support
+            - link "Community Guidelines" [ref=f1038e179] [cursor=pointer]:
+              - /url: /community-guidelines
+              - generic [ref=f1038e180]: Community Guidelines
+            - link "FAQs" [ref=f1038e181] [cursor=pointer]:
+              - /url: https://help.teamblind.com/
+              - generic [ref=f1038e182]: FAQs
+            - link "Newsroom" [ref=f1038e183] [cursor=pointer]:
+              - /url: https://press.teamblind.com/
+              - generic [ref=f1038e184]: Newsroom
+            - link "Updates" [ref=f1038e185] [cursor=pointer]:
+              - /url: /updates
+              - generic [ref=f1038e186]: Updates
+            - generic [ref=f1038e187]:
+              - button "Do Not Sell or Share My Personal Information" [ref=f1038e188] [cursor=pointer]
+              - generic [ref=f1038e189]: 2026 Teamblind Inc.
+      - generic [ref=f1038e191]:
+        - generic [ref=f1038e192]:
+          - generic [ref=f1038e195]:
+            - generic [ref=f1038e196]: "Sort by :"
+            - combobox "Sort by :" [ref=f1038e197] [cursor=pointer]:
+              - generic: Popular
+              - img [ref=f1038e198]
+          - link "Channels" [ref=f1038e201] [cursor=pointer]:
+            - /url: /channels
+            - img [ref=f1038e202]
+            - text: Channels
+        - generic [ref=f1038e207]:
+          - generic [ref=f1038e208]:
+            - article [ref=f1038e209] [cursor=pointer]:
+              - link [ref=f1038e211]:
+                - /url: /post/meta-to-apple-28e6skxw
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/health-wellness
+                  - generic:
+                    - generic:
+                      - link "Health & Wellness" [ref=f1038e212]:
+                        - /url: /channels/health-wellness
+                        - generic [ref=f1038e213]: Health & Wellness
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Meta" [ref=f1038e214]:
+                        - /url: /company/Meta
+                      - img
+                      - text: UkIU31
+              - generic:
+                - generic:
+                  - heading "Meta to apple" [level=2]
+                  - paragraph: Hello, Considering an offer from Apple. Currently at Meta with the Aetna Choice POS II plan, which works well for my spouse's active, ongoing treatment. Can anyone at Apple confirm if Apple offers good PPO insurance? How good is Apple's coverage for specialized, high-cost active care? My top prior...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e215]:
+                    - img [ref=f1038e216]
+                    - text: "5"
+                  - button "Comment on this post":
+                    - img
+                    - text: "6"
+                  - button "Views":
+                    - img
+                    - text: "525"
+                - generic:
+                  - button [ref=f1038e218]:
+                    - img [ref=f1038e219]
+                  - button "More options" [ref=f1038e222]:
+                    - img [ref=f1038e223]
+            - article [ref=f1038e229] [cursor=pointer]:
+              - link [ref=f1038e231]:
+                - /url: /post/linkedin-is-trash-k575vmyq
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e232]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e233]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Meta" [ref=f1038e234]:
+                        - /url: /company/Meta
+                      - img
+                      - text: metaTerse
+              - generic:
+                - generic:
+                  - heading "LinkedIn is trash" [level=2]
+                  - paragraph: Can I permanently turn off the dumb fuck short form videos it puts in my feed? Fucking trash
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e235]:
+                    - img [ref=f1038e236]
+                    - text: "13"
+                  - button "Comment on this post":
+                    - img
+                    - text: "3"
+                  - button "Views":
+                    - img
+                    - text: "199"
+                - generic:
+                  - button [ref=f1038e238]:
+                    - img [ref=f1038e239]
+                  - button "More options" [ref=f1038e242]:
+                    - img [ref=f1038e243]
+            - article [ref=f1038e245] [cursor=pointer]:
+              - link [ref=f1038e247]:
+                - /url: /post/upcoming-google-l5-onsite-coding-rounds-8j6nlj11
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e248]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e249]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Amazon" [ref=f1038e250]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: He92bepxzA
+              - generic:
+                - generic:
+                  - heading "Upcoming Google L5 onsite coding rounds" [level=2]
+                  - paragraph: I have 2 coding and 1 system design onsite round for L5 level - in two weeks. I haven’t done leetcode in ages but my day to day work has algorithmic/data structure heavy work. How to prepare? - Do they ask leetcode hard - How many questions can i expect for 45 min rounds - Do they ask complex DP pr...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e251]:
+                    - img [ref=f1038e252]
+                    - text: "5"
+                  - button "Comment on this post":
+                    - img
+                    - text: "7"
+                  - button "Views":
+                    - img
+                    - text: "311"
+                - generic:
+                  - button [ref=f1038e254]:
+                    - img [ref=f1038e255]
+                  - button "More options" [ref=f1038e258]:
+                    - img [ref=f1038e259]
+            - article [ref=f1038e261] [cursor=pointer]:
+              - link [ref=f1038e263]:
+                - /url: /post/anyone-else-get-rejected-by-anthropic-at-100b-30lalgqc
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e264]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e265]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Google" [ref=f1038e266]:
+                        - /url: /company/Google
+                      - img
+                      - text: Sundarrrrr
+              - generic:
+                - generic:
+                  - heading "Anyone else get rejected by Anthropic at < 100B?" [level=2]
+                  - paragraph: Solved the tech screen Q with time to spare too. Not sure what I did wrong. 😭 TC 450k on the Google bull run 🥜 compared to the milli I missed out on Google job is great wlb and interesting tho no complaints but missed the lottery ticket run.
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 68 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e267]:
+                    - img [ref=f1038e268]
+                    - text: "3"
+                  - button "Comment on this post":
+                    - img
+                    - text: "14"
+                  - button "Views":
+                    - img
+                    - text: 1,274
+                - generic:
+                  - button [ref=f1038e270]:
+                    - img [ref=f1038e271]
+                  - button "More options" [ref=f1038e274]:
+                    - img [ref=f1038e275]
+            - article [ref=f1038e277] [cursor=pointer]:
+              - link [ref=f1038e279]:
+                - /url: /post/remind-myself-everyday-r4zhqbyg
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e280]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e281]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Meta" [ref=f1038e282]:
+                        - /url: /company/Meta
+                      - img
+                      - text: pBdn73
+              - generic:
+                - generic:
+                  - heading "remind myself everyday" [level=2]
+                  - paragraph: pasted this in my personal office at home and remind myself everyday.
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e283]:
+                    - img [ref=f1038e284]
+                    - text: "28"
+                  - button "Comment on this post":
+                    - img
+                    - text: "7"
+                  - button "Views":
+                    - img
+                    - text: "664"
+                - generic:
+                  - button [ref=f1038e286]:
+                    - img [ref=f1038e287]
+                  - button "More options" [ref=f1038e290]:
+                    - img [ref=f1038e291]
+            - article [ref=f1038e297] [cursor=pointer]:
+              - link [ref=f1038e299]:
+                - /url: /post/microsoft-vs-oracle-vs-coinbase-1o1yc7yr
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/offer-evaluation
+                  - generic:
+                    - generic:
+                      - link "Offer Evaluation" [ref=f1038e300]:
+                        - /url: /channels/offer-evaluation
+                        - generic [ref=f1038e301]: Offer Evaluation
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Microsoft" [ref=f1038e302]:
+                        - /url: /company/Microsoft
+                      - img
+                      - text: KiRaMon
+              - generic:
+                - generic:
+                  - heading "Microsoft vs Oracle vs Coinbase" [level=2]
+                  - paragraph: "Currently at Microsoft as Senior Software Engineer making 270k. Currently have two offers : Oracle OCI Principal Engineer : 200k base, 400k USD stock vested over 4 years (40/30/20/10) ; under the same manager as a previous team in Microsoft Coinbase Senior Software Engineer : 210k base, 175k yearl...Read more"
+              - generic:
+                - generic:
+                  - img
+                  - generic: Offer
+                - generic: 82 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e303]:
+                    - img [ref=f1038e304]
+                    - text: "0"
+                  - button "Comment on this post":
+                    - img
+                    - text: "13"
+                  - button "Views":
+                    - img
+                    - text: "958"
+                - generic:
+                  - button [ref=f1038e306]:
+                    - img [ref=f1038e307]
+                  - button "More options" [ref=f1038e310]:
+                    - img [ref=f1038e311]
+            - article [ref=f1038e313] [cursor=pointer]:
+              - link [ref=f1038e315]:
+                - /url: /post/do-you-regret-your-divorce-hc6jki43
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e316]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e317]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Google" [ref=f1038e318]:
+                        - /url: /company/Google
+                      - img
+                      - text: Kalākau
+              - generic:
+                - generic:
+                  - heading "Do you regret your divorce?" [level=2]
+                  - paragraph: Considering one.
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 192 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e319]:
+                    - img [ref=f1038e320]
+                    - text: "7"
+                  - button "Comment on this post":
+                    - img
+                    - text: "35"
+                  - button "Views":
+                    - img
+                    - text: 3,542
+                - generic:
+                  - button [ref=f1038e322]:
+                    - img [ref=f1038e323]
+                  - button "More options" [ref=f1038e326]:
+                    - img [ref=f1038e327]
+            - article [ref=f1038e329] [cursor=pointer]:
+              - link [ref=f1038e331]:
+                - /url: /post/mexico-play-in-last-15-mins-of-game-was-insane-ywxxrwrk
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/fifa-world-cup-2026
+                  - generic:
+                    - generic:
+                      - link "FIFA World Cup 2026" [ref=f1038e332]:
+                        - /url: /channels/fifa-world-cup-2026
+                        - generic [ref=f1038e333]: FIFA World Cup 2026
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "PayPal" [ref=f1038e334]:
+                        - /url: /company/PayPal
+                      - img
+                      - text: dhfhfkahf
+              - generic:
+                - generic:
+                  - heading "Mexico play in last 15 mins of game was insane!" [level=2]
+                  - paragraph: They kept playing the ball the same way expecting different results lol? USA the only hosting nation left now, sad
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e335]:
+                    - img [ref=f1038e336]
+                    - text: "5"
+                  - button "Comment on this post":
+                    - img
+                    - text: "6"
+                  - button "Views":
+                    - img
+                    - text: "402"
+                - generic:
+                  - button [ref=f1038e338]:
+                    - img [ref=f1038e339]
+                  - button "More options" [ref=f1038e342]:
+                    - img [ref=f1038e343]
+            - article [ref=f1038e345] [cursor=pointer]:
+              - link [ref=f1038e347]:
+                - /url: /post/meta-ray-ban-ai-glasses-dumbest-thing-ever-iebel58y
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e348]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e349]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Spotify" [ref=f1038e350]:
+                        - /url: /company/Spotify
+                      - img
+                      - text: blbcftvb
+              - generic:
+                - generic:
+                  - heading "Meta Ray-Ban AI glasses - Dumbest thing ever" [level=2]
+                  - paragraph: How can anybody pay money for this weird toy. It's the stupidest thing I've seen in my life.
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e351]:
+                    - img [ref=f1038e352]
+                    - text: "6"
+                  - button "Comment on this post":
+                    - img
+                    - text: "12"
+                  - button "Views":
+                    - img
+                    - text: "357"
+                - generic:
+                  - button [ref=f1038e354]:
+                    - img [ref=f1038e355]
+                  - button "More options" [ref=f1038e358]:
+                    - img [ref=f1038e359]
+            - article [ref=f1038e361] [cursor=pointer]:
+              - link [ref=f1038e363]:
+                - /url: /post/on-call-on-july-4th-lmao-tynrmds1
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e364]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e365]: Tech Industry
+                      - img
+                      - generic: 4d
+                    - generic:
+                      - text: New
+                      - img
+                      - text: Rid9oQ4v
+              - generic:
+                - generic:
+                  - heading "On Call on July 4th lmao" [level=2]
+                  - paragraph: What a wonderful day to be an engineer! I am oncall for July 4th. I work at a smaller company and I think it's quite hard to find people to swap or alternate times for on calls lol looking forward to carrying my laptop around me all over the place. Anyhow -- what's your worst on call story? I pa...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e366]:
+                    - img [ref=f1038e367]
+                    - text: "142"
+                  - button "Comment on this post":
+                    - img
+                    - text: "226"
+                  - button "Views":
+                    - img
+                    - text: 25K
+                - generic:
+                  - button [ref=f1038e369]:
+                    - img [ref=f1038e370]
+                  - button "More options" [ref=f1038e373]:
+                    - img [ref=f1038e374]
+            - article [ref=f1038e380] [cursor=pointer]:
+              - link [ref=f1038e382]:
+                - /url: /post/india-eb2-and-eb3-xq1mwh60
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/work-visa
+                  - generic:
+                    - generic:
+                      - link "Work Visa" [ref=f1038e383]:
+                        - /url: /channels/work-visa
+                        - generic [ref=f1038e384]: Work Visa
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Amazon" [ref=f1038e385]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: utopyan
+              - generic:
+                - generic:
+                  - heading "India EB2 and EB3" [level=2]
+                  - paragraph: The number of EB petitions filed each year since 2014 is humongously large. There was a brief drop in 2020 before picking up again in 2021. There has been some movement recently due to spillovers recently but it will not push the needle beyond end of 2015 in the next 2 years. After that the spillov...Read more
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 29 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e386]:
+                    - img [ref=f1038e387]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "9"
+                  - button "Views":
+                    - img
+                    - text: "663"
+                - generic:
+                  - button [ref=f1038e389]:
+                    - img [ref=f1038e390]
+                  - button "More options" [ref=f1038e393]:
+                    - img [ref=f1038e394]
+            - article [ref=f1038e396] [cursor=pointer]:
+              - link [ref=f1038e398]:
+                - /url: /post/fad-fitness-ekijxeps
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/health-wellness
+                  - generic:
+                    - generic:
+                      - link "Health & Wellness" [ref=f1038e399]:
+                        - /url: /channels/health-wellness
+                        - generic [ref=f1038e400]: Health & Wellness
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - text: New
+                      - img
+                      - text: yoshinoya1
+              - generic:
+                - generic:
+                  - heading "Fad fitness" [level=2]
+                  - paragraph: Ice baths. Sauna. Red light therapy. Unlimited organic eggs and beef. Keto. Raw honey and vegetables. Temperature controlled mattresses and constant self monitoring tools. Badically the bryan johnson lifestyle. Should we adopt these or is it simply a fad with little benefit. I work out. I ...Read more
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 25 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e401]:
+                    - img [ref=f1038e402]
+                    - text: "0"
+                  - button "Comment on this post":
+                    - img
+                    - text: "18"
+                  - button "Views":
+                    - img
+                    - text: "271"
+                - generic:
+                  - button [ref=f1038e404]:
+                    - img [ref=f1038e405]
+                  - button "More options" [ref=f1038e408]:
+                    - img [ref=f1038e409]
+            - article [ref=f1038e411] [cursor=pointer]:
+              - link [ref=f1038e413]:
+                - /url: /post/workday-offer-evaluation-5nirkcvi
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/offer-evaluation
+                  - generic:
+                    - generic:
+                      - link "Offer Evaluation" [ref=f1038e414]:
+                        - /url: /channels/offer-evaluation
+                        - generic [ref=f1038e415]: Offer Evaluation
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Amazon" [ref=f1038e416]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: wMVT28
+              - generic:
+                - generic:
+                  - heading "Workday offer evaluation" [level=2]
+                  - paragraph: Hi folks, Been in Amazon for 5.5 years. Interviewed for a p4 senior SDE role, but fu**ed up the interview and I’m being offered a P3 role with 9 month path to promo if delivered. Checked with recruiter, no rules(like stay on the same company for 2 yrs etc. ) Currently in consideration for L6 at A...Read more
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 68 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e417]:
+                    - img [ref=f1038e418]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "21"
+                  - button "Views":
+                    - img
+                    - text: 1,136
+                - generic:
+                  - button [ref=f1038e420]:
+                    - img [ref=f1038e421]
+                  - button "More options" [ref=f1038e424]:
+                    - img [ref=f1038e425]
+            - article [ref=f1038e427] [cursor=pointer]:
+              - link [ref=f1038e429]:
+                - /url: /post/when-to-stop-contributing-to-traditional-401k-5eezcjio
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/stocks-investments
+                  - generic:
+                    - generic:
+                      - link "Stocks & Investments" [ref=f1038e430]:
+                        - /url: /channels/stocks-investments
+                        - generic [ref=f1038e431]: Stocks & Investments
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Meta" [ref=f1038e432]:
+                        - /url: /company/Meta
+                      - img
+                      - button "Altrata" [ref=f1038e434]:
+                        - img [ref=f1038e435]
+                        - text: Altrata
+              - generic:
+                - generic:
+                  - heading "When to stop contributing to traditional 401k?" [level=2]
+                  - paragraph: Considering RMD’s - required minimum distributions in traditional 401k’s whether its rollover, ira or anything else, we have to take out money at 73 paying heavy taxes. At what amount we should totally stop contributing to traditional 401k and contribute to only Roth 100% Suppose I am 33, I alread...Read more
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 29 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e437]:
+                    - img [ref=f1038e438]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "22"
+                  - button "Views":
+                    - img
+                    - text: "836"
+                - generic:
+                  - button [ref=f1038e440]:
+                    - img [ref=f1038e441]
+                  - button "More options" [ref=f1038e444]:
+                    - img [ref=f1038e445]
+            - article [ref=f1038e447] [cursor=pointer]:
+              - link [ref=f1038e449]:
+                - /url: /post/got-a-475-7-arm-jumbo-loan-8kzwg6dl
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e450]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e451]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Meta" [ref=f1038e452]:
+                        - /url: /company/Meta
+                      - img
+                      - text: iclaude
+              - generic:
+                - generic:
+                  - heading "Got a 4.75% 7 arm jumbo loan" [level=2]
+                  - paragraph: Bay Area. Is it good? Wells Fargo is my bank.
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e453]:
+                    - img [ref=f1038e454]
+                    - text: "4"
+                  - button "Comment on this post":
+                    - img
+                    - text: "18"
+                  - button "Views":
+                    - img
+                    - text: 1,098
+                - generic:
+                  - button [ref=f1038e456]:
+                    - img [ref=f1038e457]
+                  - button "More options" [ref=f1038e460]:
+                    - img [ref=f1038e461]
+            - article [ref=f1038e467] [cursor=pointer]:
+              - link [ref=f1038e469]:
+                - /url: /post/anyone-else-think-seeing-the-high-net-worths-on-here-is-a-little-depressing-7sbvshop
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e470]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e471]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Amazon" [ref=f1038e472]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: firncada6
+              - generic:
+                - generic:
+                  - heading "Anyone else think seeing the high net worths on here is a little depressing?" [level=2]
+                  - paragraph: I thought I was doing well at 29 single guy, US citizen, with 1.5M net worth even with my less than stellar 270k TC, but there are a lot of folks here with 350k+ TC, making way more than me at my age with 3M+ net worths in their early 30s. It’s both humbling and pretty depressing. Most of my friends...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e473]:
+                    - img [ref=f1038e474]
+                    - text: "13"
+                  - button "Comment on this post":
+                    - img
+                    - text: "46"
+                  - button "Views":
+                    - img
+                    - text: 2,750
+                - generic:
+                  - button [ref=f1038e476]:
+                    - img [ref=f1038e477]
+                  - button "More options" [ref=f1038e480]:
+                    - img [ref=f1038e481]
+            - article [ref=f1038e483] [cursor=pointer]:
+              - link [ref=f1038e485]:
+                - /url: /post/made-it-to-the-final-round-at-openai-and-got-rejected-by-someone-who-had-been-at-the-company-less-than-a-week-6vbskix8
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e486]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e487]: Tech Industry
+                      - img
+                      - generic: 2d
+                    - generic:
+                      - text: New
+                      - img
+                      - text: EbkW64
+              - generic:
+                - generic:
+                  - heading "Made it to the final round at OpenAI and got rejected by someone who had been at the company less than a week" [level=2]
+                  - paragraph: "Quick note: I’m not posting this for advice or to revisit the outcome. The decision is made and the process is over. I’m sharing it because I think the experience is worth sharing I made it to the final round at OpenAI and got rejected after a last-minute interview with someone who had been at the ...Read more"
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e488]:
+                    - img [ref=f1038e489]
+                    - text: "43"
+                  - button "Comment on this post":
+                    - img
+                    - text: "45"
+                  - button "Views":
+                    - img
+                    - text: 4,787
+                - generic:
+                  - button [ref=f1038e491]:
+                    - img [ref=f1038e492]
+                  - button "More options" [ref=f1038e495]:
+                    - img [ref=f1038e496]
+            - article [ref=f1038e498] [cursor=pointer]:
+              - link [ref=f1038e500]:
+                - /url: /post/why-does-hrt-use-python-dzynsw2l
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e501]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e502]: Tech Industry
+                      - img
+                      - generic: 2d
+                    - generic:
+                      - link "Amazon" [ref=f1038e503]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: jassya
+              - generic:
+                - generic:
+                  - heading "Why does HRT use Python" [level=2]
+                  - paragraph: HRT using Python seems very stupid. Why are they doing that
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 129 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e504]:
+                    - img [ref=f1038e505]
+                    - text: "5"
+                  - button "Comment on this post":
+                    - img
+                    - text: "40"
+                  - button "Views":
+                    - img
+                    - text: 2,293
+                - generic:
+                  - button [ref=f1038e507]:
+                    - img [ref=f1038e508]
+                  - button "More options" [ref=f1038e511]:
+                    - img [ref=f1038e512]
+            - article [ref=f1038e514] [cursor=pointer]:
+              - link [ref=f1038e516]:
+                - /url: /post/have-you-risen-from-the-ashes-to-be-successful-i7vcw4fq
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e517]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e518]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "IBM" [ref=f1038e519]:
+                        - /url: /company/IBM
+                      - img
+                      - text: nyc-rocks!
+              - generic:
+                - generic:
+                  - heading "Have you risen from the ashes to be successful?" [level=2]
+                  - paragraph: May it be with your career, health, relationships or anything important in your life, have you come back from a low point and really made it big (happiness, health, overall success )- what is your story? What was it that really helped you rise back up? What did you avoid? Any recommendations?
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e520]:
+                    - img [ref=f1038e521]
+                    - text: "7"
+                  - button "Comment on this post":
+                    - img
+                    - text: "16"
+                  - button "Views":
+                    - img
+                    - text: "327"
+                - generic:
+                  - button [ref=f1038e523]:
+                    - img [ref=f1038e524]
+                  - button "More options" [ref=f1038e527]:
+                    - img [ref=f1038e528]
+            - article [ref=f1038e530] [cursor=pointer]:
+              - link [ref=f1038e532]:
+                - /url: /post/in-the-near-future-only-one-spouse-will-have-to-work-jmltio8m
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e533]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e534]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "GoFundMe" [ref=f1038e535]:
+                        - /url: /company/GoFundMe
+                      - img
+                      - text: ThePMDude
+              - generic:
+                - generic:
+                  - heading "In the near future, only one spouse will have to work" [level=2]
+                  - paragraph: Jeff Bezos (who is literally a genius) predicts that products and services will get so cheap because of AI that only one person will have to work to financially sustain a relationship. I think it makes sense. If AI drastically lowers the costs of production, we won't have to make as much money to af...Read more
+              - generic:
+                - generic:
+                  - generic:
+                    - 'img "Jeff Bezos: AI productivity gains could lead to labor shortages and deflation"'
+                  - generic:
+                    - generic: "Jeff Bezos: AI productivity gains could lead to labor shortages and deflation"
+                    - generic: Jeff Bezos, Blue Origin founder and Amazon executive chair, joins ’...
+                    - generic:
+                      - generic: YouTube
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e536]:
+                    - img [ref=f1038e537]
+                    - text: "9"
+                  - button "Comment on this post":
+                    - img
+                    - text: "43"
+                  - button "Views":
+                    - img
+                    - text: 2,333
+                - generic:
+                  - button [ref=f1038e539]:
+                    - img [ref=f1038e540]
+                  - button "More options" [ref=f1038e543]:
+                    - img [ref=f1038e544]
+            - article [ref=f1038e550] [cursor=pointer]:
+              - link [ref=f1038e552]:
+                - /url: /post/desperate-request-airbnb-system-design-questions-please-73wxfwd1
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e553]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e554]: Tech Industry
+                      - img
+                      - generic: 6h
+                    - generic:
+                      - link "Quince" [ref=f1038e555]:
+                        - /url: /company/Quince
+                      - img
+                      - text: firkin
+              - generic:
+                - generic:
+                  - heading "[Desperate request] Airbnb system design questions please" [level=2]
+                  - paragraph: I have two system design rounds at Airbnb coming up this week. I have no job and I've exhausted almost all the options / other companies. So this is very important for me to crack. Can you all please crowd-source the system design questions that you were asked in Airbnb interview? It will immensely...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e556]:
+                    - img [ref=f1038e557]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "9"
+                  - button "Views":
+                    - img
+                    - text: "390"
+                - generic:
+                  - button [ref=f1038e559]:
+                    - img [ref=f1038e560]
+                  - button "More options" [ref=f1038e563]:
+                    - img [ref=f1038e564]
+            - article [ref=f1038e566] [cursor=pointer]:
+              - link [ref=f1038e568]:
+                - /url: /post/does-it-make-sense-to-pursue-agoda-being-a-sse-at-uber-m130fa2k
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/software-engineering
+                  - generic:
+                    - generic:
+                      - link "Software Engineering Career" [ref=f1038e569]:
+                        - /url: /channels/software-engineering
+                        - generic [ref=f1038e570]: Software Engineering Career
+                      - img
+                      - generic: 9h
+                    - generic:
+                      - link "Uber" [ref=f1038e571]:
+                        - /url: /company/Uber
+                      - img
+                      - text: yIcp41
+              - generic:
+                - generic:
+                  - heading "Does it make sense to pursue Agoda being a SSE at Uber" [level=2]
+                  - paragraph: Hi Blinders, I am currently a SSE at Uber with a total comp of ~1.2 Cr in India. Its a 3 days work from office and tiring workplace. On the other hand, I just love thailand - Been there twice and in absolutely love with the country and the vibe. Does it make sense to pursue Agoda Bangkok in terms o...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e572]:
+                    - img [ref=f1038e573]
+                    - text: "5"
+                  - button "Comment on this post":
+                    - img
+                    - text: "5"
+                  - button "Views":
+                    - img
+                    - text: "325"
+                - generic:
+                  - button [ref=f1038e575]:
+                    - img [ref=f1038e576]
+                  - button "More options" [ref=f1038e579]:
+                    - img [ref=f1038e580]
+            - article [ref=f1038e582] [cursor=pointer]:
+              - link [ref=f1038e584]:
+                - /url: /post/45year-old-54m-liquid-net-worth-25-real-estate-hkicdjv8
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/financial-independence
+                  - generic:
+                    - generic:
+                      - link "Financial independence" [ref=f1038e585]:
+                        - /url: /channels/financial-independence
+                        - generic [ref=f1038e586]: Financial independence
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Apple" [ref=f1038e587]:
+                        - /url: /company/Apple
+                      - img
+                      - text: AustinAapl
+              - generic:
+                - generic:
+                  - heading "45year old 5.4M liquid net worth 2.5 real estate" [level=2]
+                  - paragraph: How much more should I stay in this rat race for, 2-3 years and call it? What do you guys think?
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e588]:
+                    - img [ref=f1038e589]
+                    - text: "3"
+                  - button "Comment on this post":
+                    - img
+                    - text: "7"
+                  - button "Views":
+                    - img
+                    - text: "475"
+                - generic:
+                  - button [ref=f1038e591]:
+                    - img [ref=f1038e592]
+                  - button "More options" [ref=f1038e595]:
+                    - img [ref=f1038e596]
+            - article [ref=f1038e598] [cursor=pointer]:
+              - link [ref=f1038e600]:
+                - /url: /post/recruiters-does-contacting-folks-with-800k-tc-for-a-200k-tc-at-a-startup-ever-work-for-you-qpmivu4w
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/ask-blinders
+                  - generic:
+                    - generic:
+                      - link "Ask Blinders" [ref=f1038e601]:
+                        - /url: /channels/ask-blinders
+                        - generic [ref=f1038e602]: Ask Blinders
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Google" [ref=f1038e603]:
+                        - /url: /company/Google
+                      - img
+                      - text: RedXIV
+              - generic:
+                - generic:
+                  - 'heading "Recruiters: does contacting folks with $800k TC for a $200k TC at a startup ever work for you?" [level=2]'
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e604]:
+                    - img [ref=f1038e605]
+                    - text: "22"
+                  - button "Comment on this post":
+                    - img
+                    - text: "19"
+                  - button "Views":
+                    - img
+                    - text: 1,663
+                - generic:
+                  - button [ref=f1038e607]:
+                    - img [ref=f1038e608]
+                  - button "More options" [ref=f1038e611]:
+                    - img [ref=f1038e612]
+            - article [ref=f1038e614] [cursor=pointer]:
+              - link [ref=f1038e616]:
+                - /url: /post/cresta-ai-h2kxj24u
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/offer-evaluation
+                  - generic:
+                    - generic:
+                      - link "Offer Evaluation" [ref=f1038e617]:
+                        - /url: /channels/offer-evaluation
+                        - generic [ref=f1038e618]: Offer Evaluation
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - text: Undisclosed
+                      - img
+                      - text: hustled
+              - generic:
+                - generic:
+                  - heading "Cresta AI" [level=2]
+                  - paragraph: "Hi I have an offer from Cresta Ai for Eng Manager. How is this? Any room for negotiation? How is the company doing? Should I join? #cresta #sierra #decagon"
+              - generic:
+                - generic:
+                  - img
+                  - generic: Offer
+                - generic: 7 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e619]:
+                    - img [ref=f1038e620]
+                    - text: "0"
+                  - button "Comment on this post":
+                    - img
+                    - text: "9"
+                  - button "Views":
+                    - img
+                    - text: "350"
+                - generic:
+                  - button [ref=f1038e622]:
+                    - img [ref=f1038e623]
+                  - button "More options" [ref=f1038e626]:
+                    - img [ref=f1038e627]
+            - article [ref=f1038e633] [cursor=pointer]:
+              - link [ref=f1038e635]:
+                - /url: /post/who-is-erling-haarlandd-nba-equivalent-id636kw4
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/sports
+                  - generic:
+                    - generic:
+                      - link "Sports" [ref=f1038e636]:
+                        - /url: /channels/sports
+                        - generic [ref=f1038e637]: Sports
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - text: New
+                      - img
+                      - text: yoshinoya1
+              - generic:
+                - generic:
+                  - heading "Who is Erling haarlandd nba equivalent" [level=2]
+                  - paragraph: I dont watch soccer but this guy fills my X feed. From footage it seems like the guy is taller and more athletic than other players. The guy is apparently a one man soccer team. Fill in the blank. This guy is the X of soccer.
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 20 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e638]:
+                    - img [ref=f1038e639]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "8"
+                  - button "Views":
+                    - img
+                    - text: "282"
+                - generic:
+                  - button [ref=f1038e641]:
+                    - img [ref=f1038e642]
+                  - button "More options" [ref=f1038e645]:
+                    - img [ref=f1038e646]
+            - article [ref=f1038e648] [cursor=pointer]:
+              - link [ref=f1038e650]:
+                - /url: /post/why-hasnt-spark-received-the-same-level-of-praise-as-claude-huarmrf0
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e651]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e652]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Databricks" [ref=f1038e653]:
+                        - /url: /company/Databricks
+                      - img
+                      - text: vmWfvl
+              - generic:
+                - generic:
+                  - heading "Why hasn't Spark received the same level of praise as Claude?" [level=2]
+                  - paragraph: One could argue that the impact of Spark has been just as great if not greater than Claude's. How did people run distributed workloads across 1K, 10K, or even 100K machines before Spark? Without it, you were probably looking at 18 months of engineering effort just to implement an efficient distribu...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e654]:
+                    - img [ref=f1038e655]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "8"
+                  - button "Views":
+                    - img
+                    - text: "617"
+                - generic:
+                  - button [ref=f1038e657]:
+                    - img [ref=f1038e658]
+                  - button "More options" [ref=f1038e661]:
+                    - img [ref=f1038e662]
+            - article [ref=f1038e664] [cursor=pointer]:
+              - link [ref=f1038e666]:
+                - /url: /post/does-anyone-know-if-anthropic-uses-excalidraw-or-a-google-doc-in-the-system-design-round-d7n1t1fd
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/software-engineering
+                  - generic:
+                    - generic:
+                      - link "Software Engineering Career" [ref=f1038e667]:
+                        - /url: /channels/software-engineering
+                        - generic [ref=f1038e668]: Software Engineering Career
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Meta" [ref=f1038e669]:
+                        - /url: /company/Meta
+                      - img
+                      - text: builderfor
+              - generic:
+                - generic:
+                  - heading "Does anyone know if Anthropic uses excalidraw or a google doc in the system design round?" [level=2]
+                  - paragraph: I have my onsite soon, was skipped to it. :) I know its either a Google Doc or Excalidraw? E6, 700k, 5 YOE.
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e670]:
+                    - img [ref=f1038e671]
+                    - text: "4"
+                  - button "Comment on this post":
+                    - img
+                    - text: "5"
+                  - button "Views":
+                    - img
+                    - text: "326"
+                - generic:
+                  - button [ref=f1038e673]:
+                    - img [ref=f1038e674]
+                  - button "More options" [ref=f1038e677]:
+                    - img [ref=f1038e678]
+            - article [ref=f1038e680] [cursor=pointer]:
+              - link [ref=f1038e682]:
+                - /url: /post/how-are-technical-interviews-looking-these-days-pud7mapy
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e683]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e684]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Amazon" [ref=f1038e685]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: uByk70
+              - generic:
+                - generic:
+                  - heading "How are technical interviews looking these days?" [level=2]
+                  - paragraph: I have not interviewed in a while, I use AI all day at work, so if you put me in front of a Leetcode question I would likely struggle. How are interviews looking these days? Still leet code or are they now using AI?
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e686]:
+                    - img [ref=f1038e687]
+                    - text: "4"
+                  - button "Comment on this post":
+                    - img
+                    - text: "5"
+                  - button "Views":
+                    - img
+                    - text: "427"
+                - generic:
+                  - button [ref=f1038e689]:
+                    - img [ref=f1038e690]
+                  - button "More options" [ref=f1038e693]:
+                    - img [ref=f1038e694]
+            - article [ref=f1038e696] [cursor=pointer]:
+              - link [ref=f1038e698]:
+                - /url: /post/has-china-obtained-the-worlds-most-important-machine-b3z4bkpd
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e699]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e700]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Amazon" [ref=f1038e701]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: Abstractus
+              - generic:
+                - generic:
+                  - heading "Has China obtained the world’s most important machine?" [level=2]
+                  - paragraph: “The extreme ultraviolet lithography machine, which makes the most advanced semiconductors, is arguably the world’s most important device. It is made only by ASML, a Dutch company. Now the Trump administration has thrown the firm into crisis by warning that one of its machines may have reached China...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e702]:
+                    - img [ref=f1038e703]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "8"
+                  - button "Views":
+                    - img
+                    - text: "328"
+                - generic:
+                  - button [ref=f1038e705]:
+                    - img [ref=f1038e706]
+                  - button "More options" [ref=f1038e709]:
+                    - img [ref=f1038e710]
+            - article [ref=f1038e716] [cursor=pointer]:
+              - link [ref=f1038e718]:
+                - /url: /post/nvidia-lowball-skcuvvm0
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/offer-evaluation
+                  - generic:
+                    - generic:
+                      - link "Offer Evaluation" [ref=f1038e719]:
+                        - /url: /channels/offer-evaluation
+                        - generic [ref=f1038e720]: Offer Evaluation
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Apple" [ref=f1038e721]:
+                        - /url: /company/Apple
+                      - img
+                      - text: jFWS87
+              - generic:
+                - generic:
+                  - heading "NVIDIA lowball?" [level=2]
+                  - paragraph: Currently at Apple with ~3.5 YOE + MS + ML/CV research background. Doing well in current role, strong performance feedback, and likely on track for promotion in the next 1–2 years. Recently cleared interviews for an NVIDIA IC3 role that I’m genuinely excited about. The role is interesting enough th...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e722]:
+                    - img [ref=f1038e723]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "7"
+                  - button "Views":
+                    - img
+                    - text: "885"
+                - generic:
+                  - button [ref=f1038e725]:
+                    - img [ref=f1038e726]
+                  - button "More options" [ref=f1038e729]:
+                    - img [ref=f1038e730]
+            - article [ref=f1038e732] [cursor=pointer]:
+              - link [ref=f1038e734]:
+                - /url: /post/nvidia-lowball-offer-ty3polaf
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e735]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e736]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Apple" [ref=f1038e737]:
+                        - /url: /company/Apple
+                      - img
+                      - text: jFWS87
+              - generic:
+                - generic:
+                  - heading "NVIDIA lowball offer?" [level=2]
+                  - paragraph: Currently at Apple with ~3.5 YOE + MS + ML/CV research background. Doing well in current role, strong performance feedback, and likely on track for promotion in the next 1–2 years. Recently cleared interviews for an NVIDIA IC3 role that I’m genuinely excited about. The role is interesting enough th...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e738]:
+                    - img [ref=f1038e739]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "7"
+                  - button "Views":
+                    - img
+                    - text: "245"
+                - generic:
+                  - button [ref=f1038e741]:
+                    - img [ref=f1038e742]
+                  - button "More options" [ref=f1038e745]:
+                    - img [ref=f1038e746]
+            - article [ref=f1038e748] [cursor=pointer]:
+              - link [ref=f1038e750]:
+                - /url: /post/rant-fuck-stripe-yj13qrqh
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/software-engineering
+                  - generic:
+                    - generic:
+                      - link "Software Engineering Career" [ref=f1038e751]:
+                        - /url: /channels/software-engineering
+                        - generic [ref=f1038e752]: Software Engineering Career
+                      - img
+                      - generic: 3d
+                    - generic:
+                      - link "Amazon" [ref=f1038e753]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: Managetard
+              - generic:
+                - generic:
+                  - 'heading "Rant: Fuck Stripe" [level=2]'
+                  - paragraph: I was done with Amazon, its internal politics, and incompetent L7s and L8s. After months of interview prep, I finally got a "yes" from stripe. I thought I was finally out. Except I could not find a team. It has been 1.5 months since my recruiter shared my interview results, and I have not had a sing...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e754]:
+                    - img [ref=f1038e755]
+                    - text: "102"
+                  - button "Comment on this post":
+                    - img
+                    - text: "81"
+                  - button "Views":
+                    - img
+                    - text: 10K
+                - generic:
+                  - button [ref=f1038e757]:
+                    - img [ref=f1038e758]
+                  - button "More options" [ref=f1038e761]:
+                    - img [ref=f1038e762]
+            - article [ref=f1038e764] [cursor=pointer]:
+              - link [ref=f1038e766]:
+                - /url: /post/does-anyone-use-gemini-for-coding-inside-google-402kpwp7
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e767]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e768]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Microsoft" [ref=f1038e769]:
+                        - /url: /company/Microsoft
+                      - img
+                      - text: six6seven7
+              - generic:
+                - generic:
+                  - heading "Does anyone use Gemini for coding inside Google?" [level=2]
+                  - paragraph: Title
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e770]:
+                    - img [ref=f1038e771]
+                    - text: "7"
+                  - button "Comment on this post":
+                    - img
+                    - text: "20"
+                  - button "Views":
+                    - img
+                    - text: 1,271
+                - generic:
+                  - button [ref=f1038e773]:
+                    - img [ref=f1038e774]
+                  - button "More options" [ref=f1038e777]:
+                    - img [ref=f1038e778]
+            - article [ref=f1038e780] [cursor=pointer]:
+              - link [ref=f1038e782]:
+                - /url: /post/americans-are-u-4-real-y36w3vu1
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e783]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e784]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Microsoft" [ref=f1038e785]:
+                        - /url: /company/Microsoft
+                      - img
+                      - text: chutknee
+              - generic:
+                - generic:
+                  - heading "AMERICANS ARE U 4 REAL" [level=2]
+                  - paragraph: "----....----"
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 46 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e786]:
+                    - img [ref=f1038e787]
+                    - text: "2"
+                  - button "Comment on this post":
+                    - img
+                    - text: "4"
+                  - button "Views":
+                    - img
+                    - text: "663"
+                - generic:
+                  - button [ref=f1038e789]:
+                    - img [ref=f1038e790]
+                  - button "More options" [ref=f1038e793]:
+                    - img [ref=f1038e794]
+            - article [ref=f1038e800] [cursor=pointer]:
+              - link [ref=f1038e802]:
+                - /url: /post/are-google-layoffs-rumors-true-m6hiy2uw
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/layoffs
+                  - generic:
+                    - generic:
+                      - link "Layoffs" [ref=f1038e803]:
+                        - /url: /channels/layoffs
+                        - generic [ref=f1038e804]: Layoffs
+                      - img
+                      - generic: 2d
+                    - generic:
+                      - text: New
+                      - img
+                      - text: x18ac
+              - generic:
+                - generic:
+                  - heading "Are Google layoffs rumors true?" [level=2]
+                  - paragraph: Heard abt it
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e805]:
+                    - img [ref=f1038e806]
+                    - text: "12"
+                  - button "Comment on this post":
+                    - img
+                    - text: "14"
+                  - button "Views":
+                    - img
+                    - text: 2,918
+                - generic:
+                  - button [ref=f1038e808]:
+                    - img [ref=f1038e809]
+                  - button "More options" [ref=f1038e812]:
+                    - img [ref=f1038e813]
+            - article [ref=f1038e815] [cursor=pointer]:
+              - link [ref=f1038e817]:
+                - /url: /post/what-is-your-age-networth-u6ucg2yl
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/personal-finance
+                  - generic:
+                    - generic:
+                      - link "Personal Finance" [ref=f1038e818]:
+                        - /url: /channels/personal-finance
+                        - generic [ref=f1038e819]: Personal Finance
+                      - img
+                      - generic: 2h
+                    - generic:
+                      - link "Amazon" [ref=f1038e820]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: LMzm00
+              - generic:
+                - generic:
+                  - heading "What is your age-networth?" [level=2]
+                  - paragraph: How old are you and what is your current networth?
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e821]:
+                    - img [ref=f1038e822]
+                    - text: "0"
+                  - button "Comment on this post":
+                    - img
+                    - text: "6"
+                  - button "Views":
+                    - img
+                    - text: "200"
+                - generic:
+                  - button [ref=f1038e824]:
+                    - img [ref=f1038e825]
+                  - button "More options" [ref=f1038e828]:
+                    - img [ref=f1038e829]
+            - article [ref=f1038e831] [cursor=pointer]:
+              - link [ref=f1038e833]:
+                - /url: /post/whats-the-situation-gitlab-uq3vlfjj
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e834]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e835]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "DigitalOcean" [ref=f1038e836]:
+                        - /url: /company/DigitalOcean
+                      - img
+                      - text: veepo
+              - generic:
+                - generic:
+                  - heading "What’s the situation @ GitLab?" [level=2]
+                  - paragraph: "I have an SDE offer @ Gitlab (~160k TC), but I’ve been hearing some colourful stuff online, can someone who’s currently there tell me what the vibe is there? Is it as bad as people say? What’s the WLB like? Thanks! #gitlab #tech"
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e837]:
+                    - img [ref=f1038e838]
+                    - text: "2"
+                  - button "Comment on this post":
+                    - img
+                    - text: "4"
+                  - button "Views":
+                    - img
+                    - text: "194"
+                - generic:
+                  - button [ref=f1038e840]:
+                    - img [ref=f1038e841]
+                  - button "More options" [ref=f1038e844]:
+                    - img [ref=f1038e845]
+            - article [ref=f1038e847] [cursor=pointer]:
+              - link [ref=f1038e849]:
+                - /url: /post/over-5m-does-anything-change-wczukb4b
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/financial-independence
+                  - generic:
+                    - generic:
+                      - link "Financial independence" [ref=f1038e850]:
+                        - /url: /channels/financial-independence
+                        - generic [ref=f1038e851]: Financial independence
+                      - img
+                      - generic: 5d
+                    - generic:
+                      - link "Microsoft" [ref=f1038e852]:
+                        - /url: /company/Microsoft
+                      - img
+                      - text: NUyn51
+              - generic:
+                - generic:
+                  - heading "Over $5M does anything change?" [level=2]
+                  - paragraph: Folks with NW over $5M , how does it feel ? You feel you can no longer work for money?
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e853]:
+                    - img [ref=f1038e854]
+                    - text: "14"
+                  - button "Comment on this post":
+                    - img
+                    - text: "266"
+                  - button "Views":
+                    - img
+                    - text: 12K
+                - generic:
+                  - button [ref=f1038e856]:
+                    - img [ref=f1038e857]
+                  - button "More options" [ref=f1038e860]:
+                    - img [ref=f1038e861]
+            - article [ref=f1038e863] [cursor=pointer]:
+              - link [ref=f1038e865]:
+                - /url: /post/nvidia-cant-even-afford-free-coffee-for-its-employees-why-n11s0ulc
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e866]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e867]: Tech Industry
+                      - img
+                      - generic: 3d
+                    - generic:
+                      - link "Meta" [ref=f1038e868]:
+                        - /url: /company/Meta
+                      - img
+                      - text: _llama
+              - generic:
+                - generic:
+                  - heading "Nvidia can’t even afford free coffee for its employees. Why?" [level=2]
+                  - paragraph: https://x.com/GergelyOrosz/status/2070210683182981206
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e869]:
+                    - img [ref=f1038e870]
+                    - text: "18"
+                  - button "Comment on this post":
+                    - img
+                    - text: "48"
+                  - button "Views":
+                    - img
+                    - text: 4,160
+                - generic:
+                  - button [ref=f1038e872]:
+                    - img [ref=f1038e873]
+                  - button "More options" [ref=f1038e876]:
+                    - img [ref=f1038e877]
+            - article [ref=f1038e883] [cursor=pointer]:
+              - link [ref=f1038e885]:
+                - /url: /post/nothing-humbles-you-like-learning-company-news-from-yahoo-finance-lol-xsahfybv
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e886]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e887]: Tech Industry
+                      - img
+                      - generic: 4d
+                    - generic:
+                      - link "Uber" [ref=f1038e888]:
+                        - /url: /company/Uber
+                      - img
+                      - text: FYTW6wkp
+              - generic:
+                - generic:
+                  - heading "Nothing humbles you like learning company news from Yahoo Finance lol" [level=2]
+                  - paragraph: Opened Yahoo Finance and apparently I'm seeing internal changes at my company on the news now. Two long-time leaders from Uber AI Solutions are gone, and somehow our internal org changes are newsworthy. From the article I gather that the official line is leadership transition. What's sad is that our...Read more
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Uber Reportedly Sees Broader Leadership Transition – Company Dismisses Two Senior Staff In Data-Labeling Division"
+                    - generic:
+                      - generic:
+                        - img
+                  - generic:
+                    - generic:
+                      - generic: Yahoo! Finance
+                    - generic: Uber Reportedly Sees Broader Leadership Transition – Company Dismisses Two Senior Staff In Data-Labeling Division
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e889]:
+                    - img [ref=f1038e890]
+                    - text: "67"
+                  - button "Comment on this post":
+                    - img
+                    - text: "77"
+                  - button "Views":
+                    - img
+                    - text: 19K
+                - generic:
+                  - button [ref=f1038e892]:
+                    - img [ref=f1038e893]
+                  - button "More options" [ref=f1038e896]:
+                    - img [ref=f1038e897]
+            - article [ref=f1038e899] [cursor=pointer]:
+              - link [ref=f1038e901]:
+                - /url: /post/new-harvard-study-proves-ai-isnt-a-bubble-6qkhu7yh
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e902]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e903]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "GoFundMe" [ref=f1038e904]:
+                        - /url: /company/GoFundMe
+                      - img
+                      - text: ThePMDude
+              - generic:
+                - generic:
+                  - heading "New Harvard study proves AI isn’t a bubble?" [level=2]
+                  - paragraph: The revolution continues! “Relative to non-AI startups in the same industry-cohort, AI-native firms are 25% smaller. Their share of engineers is 13% greater, and the shares of entry-level workers and managers are each roughly 15% lower. Their hierarchies are half a seniority level flatter-yet valua...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e905]:
+                    - img [ref=f1038e906]
+                    - text: "2"
+                  - button "Comment on this post":
+                    - img
+                    - text: "21"
+                  - button "Views":
+                    - img
+                    - text: 1,064
+                - generic:
+                  - button [ref=f1038e908]:
+                    - img [ref=f1038e909]
+                  - button "More options" [ref=f1038e912]:
+                    - img [ref=f1038e913]
+            - article [ref=f1038e915] [cursor=pointer]:
+              - link [ref=f1038e917]:
+                - /url: /post/lost-hope-after-layoffs-and-failed-interviews-l0o6zg65
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/layoffs
+                  - generic:
+                    - generic:
+                      - link "Layoffs" [ref=f1038e918]:
+                        - /url: /channels/layoffs
+                        - generic [ref=f1038e919]: Layoffs
+                      - img
+                      - generic: 4d
+                    - generic:
+                      - link "Coinbase" [ref=f1038e920]:
+                        - /url: /company/Coinbase
+                      - img
+                      - text: fjahagw
+              - generic:
+                - generic:
+                  - heading "Lost hope after layoffs and failed interviews" [level=2]
+                  - paragraph: "YOE: 13( as of yesterday) I’ve been laid off since February (not at Coinbase anymore). It came as a shock, since I had gotten good ratings a week before in perf reviews at my company. I got into action after 7-8 days of taking a break after the layoffs. I panick applied everywhere and started gett...Read more"
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e921]:
+                    - img [ref=f1038e922]
+                    - text: "38"
+                  - button "Comment on this post":
+                    - img
+                    - text: "96"
+                  - button "Views":
+                    - img
+                    - text: 5,209
+                - generic:
+                  - button [ref=f1038e924]:
+                    - img [ref=f1038e925]
+                  - button "More options" [ref=f1038e928]:
+                    - img [ref=f1038e929]
+            - article [ref=f1038e931] [cursor=pointer]:
+              - link [ref=f1038e933]:
+                - /url: /post/unlimited-pto-vs-accrued-pto-fgdqf0z1
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e934]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e935]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Motorola Solutions" [ref=f1038e936]:
+                        - /url: /company/Motorola-Mobility
+                      - img
+                      - text: ⠀ ⠀ ⠀
+              - generic:
+                - generic:
+                  - heading "Unlimited PTO vs accrued PTO" [level=2]
+                  - paragraph: "Seems like unlimited PTO is a full-on scam to save the company money while making it sound good for employees on paper. This is especially true for California. Unlimited PTO: 1. You always need manager approval in advance, manager can make you feel bad for even requesting it, can technically deny ...Read more"
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 49 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e937]:
+                    - img [ref=f1038e938]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "4"
+                  - button "Views":
+                    - img
+                    - text: "291"
+                - generic:
+                  - button [ref=f1038e940]:
+                    - img [ref=f1038e941]
+                  - button "More options" [ref=f1038e944]:
+                    - img [ref=f1038e945]
+            - article [ref=f1038e947] [cursor=pointer]:
+              - link [ref=f1038e949]:
+                - /url: /post/our-watermelon-is-better-than-avocado-4y6fb82u
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e950]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e951]: Tech Industry
+                      - img
+                      - generic: 2d
+                    - generic:
+                      - link "Apple" [ref=f1038e952]:
+                        - /url: /company/Apple
+                      - img
+                      - text: juttguj
+              - generic:
+                - generic:
+                  - heading "“Our watermelon is better than avocado”" [level=2]
+                  - paragraph: Really who came up with these names?
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e953]:
+                    - img [ref=f1038e954]
+                    - text: "7"
+                  - button "Comment on this post":
+                    - img
+                    - text: "15"
+                  - button "Views":
+                    - img
+                    - text: "553"
+                - generic:
+                  - button [ref=f1038e956]:
+                    - img [ref=f1038e957]
+                  - button "More options" [ref=f1038e960]:
+                    - img [ref=f1038e961]
+            - article [ref=f1038e967] [cursor=pointer]:
+              - link [ref=f1038e969]:
+                - /url: /post/is-unlimited-pto-a-trap-xbxqpu7j
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e970]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e971]: Tech Industry
+                      - img
+                      - generic: 3d
+                    - generic:
+                      - link "Google" [ref=f1038e972]:
+                        - /url: /company/Google
+                      - img
+                      - text: ncekj3120
+              - generic:
+                - generic:
+                  - heading "Is unlimited PTO a trap?" [level=2]
+                  - paragraph: Mainly curious at NVIDIA employees, what has been your experience with unlimited PTO? I feel like at Google, I’m entitled to 20 days PTO and it makes it easy for me to take time off because I’m entitled to it. I wouldn’t really know how much is appropriate time to take off if it’s just unlimited an...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e973]:
+                    - img [ref=f1038e974]
+                    - text: "9"
+                  - button "Comment on this post":
+                    - img
+                    - text: "49"
+                  - button "Views":
+                    - img
+                    - text: 2,207
+                - generic:
+                  - button [ref=f1038e976]:
+                    - img [ref=f1038e977]
+                  - button "More options" [ref=f1038e980]:
+                    - img [ref=f1038e981]
+            - article [ref=f1038e983] [cursor=pointer]:
+              - link [ref=f1038e985]:
+                - /url: /post/if-you-are-afraid-of-layoffs-you-are-living-your-life-wrong-guvaocko
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/layoffs
+                  - generic:
+                    - generic:
+                      - link "Layoffs" [ref=f1038e986]:
+                        - /url: /channels/layoffs
+                        - generic [ref=f1038e987]: Layoffs
+                      - img
+                      - generic: 1h
+                    - generic:
+                      - link "Amazon" [ref=f1038e988]:
+                        - /url: /company/Amazon
+                      - img
+                      - text: Tech
+              - generic:
+                - generic:
+                  - heading "If you are afraid of layoffs you are living your life wrong" [level=2]
+                  - paragraph: Choose something you truly are a master of. Not necessarily in tech. A craft that will make you insulated from layoffs OR ready to be snatched by another company in no time. Your children smell you are a prey and will get shaped in their character and personality as a result. Do right by them, chan...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e989]:
+                    - img [ref=f1038e990]
+                    - text: "3"
+                  - button "Comment on this post":
+                    - img
+                    - text: "2"
+                  - button "Views":
+                    - img
+                    - text: "185"
+                - generic:
+                  - button [ref=f1038e992]:
+                    - img [ref=f1038e993]
+                  - button "More options" [ref=f1038e996]:
+                    - img [ref=f1038e997]
+            - article [ref=f1038e999] [cursor=pointer]:
+              - link [ref=f1038e1001]:
+                - /url: /post/wanted-to-fire-vzpezf23
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/personal-finance
+                  - generic:
+                    - generic:
+                      - link "Personal Finance" [ref=f1038e1002]:
+                        - /url: /channels/personal-finance
+                        - generic [ref=f1038e1003]: Personal Finance
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Apple" [ref=f1038e1004]:
+                        - /url: /company/Apple
+                      - img
+                      - text: aaffmm
+              - generic:
+                - generic:
+                  - heading "Wanted to Fire" [level=2]
+                  - paragraph: With my savings in T bonds and real estate rentals, I expect 250K net-income per year. 2 kids. My expenses are 150k per year. Assume 50k tax. That will leave me 50k per year for college expenses (for 2 kids. Kids if they go to college will be one after another). After working for 25+ years, I dont ...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1005]:
+                    - img [ref=f1038e1006]
+                    - text: "2"
+                  - button "Comment on this post":
+                    - img
+                    - text: "3"
+                  - button "Views":
+                    - img
+                    - text: "394"
+                - generic:
+                  - button [ref=f1038e1008]:
+                    - img [ref=f1038e1009]
+                  - button "More options" [ref=f1038e1012]:
+                    - img [ref=f1038e1013]
+            - article [ref=f1038e1015] [cursor=pointer]:
+              - link [ref=f1038e1017]:
+                - /url: /post/fable-in-the-enterprise-tceafmll
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/artificial-intelligence
+                  - generic:
+                    - generic:
+                      - link "Artificial Intelligence" [ref=f1038e1018]:
+                        - /url: /channels/artificial-intelligence
+                        - generic [ref=f1038e1019]: Artificial Intelligence
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Salesforce" [ref=f1038e1020]:
+                        - /url: /company/Salesforce
+                      - img
+                      - text: hhhyfd
+              - generic:
+                - generic:
+                  - heading "Fable in the enterprise" [level=2]
+                  - paragraph: How has there been almost no discussion about Anthropic’s data retention policy for Fable? This is a non-starter for all serious enterprise companies. Seems like a huge miss on all the API billing that would be rolling in for Anthropic. The only reasonable explanation I can think of is that they’re...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1021]:
+                    - img [ref=f1038e1022]
+                    - text: "3"
+                  - button "Comment on this post":
+                    - img
+                    - text: "2"
+                  - button "Views":
+                    - img
+                    - text: "283"
+                - generic:
+                  - button [ref=f1038e1024]:
+                    - img [ref=f1038e1025]
+                  - button "More options" [ref=f1038e1028]:
+                    - img [ref=f1038e1029]
+            - article [ref=f1038e1031] [cursor=pointer]:
+              - link [ref=f1038e1033]:
+                - /url: /post/how-to-reduce-your-tax-burden-h5vk0egz
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/2026-tax
+                  - generic:
+                    - generic:
+                      - link "2026 Tax" [ref=f1038e1034]:
+                        - /url: /channels/2026-tax
+                        - generic [ref=f1038e1035]: 2026 Tax
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Tesla" [ref=f1038e1036]:
+                        - /url: /company/Tesla
+                      - img
+                      - text: cbeP14
+              - generic:
+                - generic:
+                  - heading "How to reduce your Tax Burden" [level=2]
+                  - paragraph: Hi All, We're a couple with a TC of 500K - 600K and living in California. Life style is good but we both know this is not the work pace we can sustain as we start a family. A high tax rate in the state doesn't help with saving up to allow an eventual pivot either into our own ventures or a more sta...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1037]:
+                    - img [ref=f1038e1038]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "4"
+                  - button "Views":
+                    - img
+                    - text: "360"
+                - generic:
+                  - button [ref=f1038e1040]:
+                    - img [ref=f1038e1041]
+                  - button "More options" [ref=f1038e1044]:
+                    - img [ref=f1038e1045]
+            - article [ref=f1038e1051] [cursor=pointer]:
+              - link [ref=f1038e1053]:
+                - /url: /post/looking-for-one-more-technical-cofounder-q1odm7qx
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e1054]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e1055]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Netflix" [ref=f1038e1056]:
+                        - /url: /company/Netflix
+                      - img
+                      - text: CGcW46
+              - generic:
+                - generic:
+                  - heading "Looking for one more Technical CoFounder" [level=2]
+                  - paragraph: Three of us are building a high-margin B2B product on the side that directly drives incremental revenue. It's very profitable for our customers and for us. We're building something that pays out as dividends, not as a 10-year lottery ticket and would also be very open to a buyout down the line as we...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1057]:
+                    - img [ref=f1038e1058]
+                    - text: "2"
+                  - button "Comment on this post":
+                    - img
+                    - text: "3"
+                  - button "Views":
+                    - img
+                    - text: "85"
+                - generic:
+                  - button [ref=f1038e1060]:
+                    - img [ref=f1038e1061]
+                  - button "More options" [ref=f1038e1064]:
+                    - img [ref=f1038e1065]
+            - article [ref=f1038e1067] [cursor=pointer]:
+              - link [ref=f1038e1069]:
+                - /url: /post/should-i-retire-gz3bt6c2
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/financial-independence
+                  - generic:
+                    - generic:
+                      - link "Financial independence" [ref=f1038e1070]:
+                        - /url: /channels/financial-independence
+                        - generic [ref=f1038e1071]: Financial independence
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "ByteDance" [ref=f1038e1072]:
+                        - /url: /company/ByteDance
+                      - img
+                      - text: sgweg24
+              - generic:
+                - generic:
+                  - heading "Should I retire?" [level=2]
+                  - paragraph: 53M, single no dependents, live in the bay area, $8k/month spend. $2.6M NW. Renter for life Should get SS at 67 about 45k I only started in tech about 10 years ago, prior to that my tc was lower. Just got pipped, and deciding whether to keep looking, working, or do i have enough to call it quits...Read more
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 84 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1073]:
+                    - img [ref=f1038e1074]
+                    - text: "2"
+                  - button "Comment on this post":
+                    - img
+                    - text: "15"
+                  - button "Views":
+                    - img
+                    - text: 1,041
+                - generic:
+                  - button [ref=f1038e1076]:
+                    - img [ref=f1038e1077]
+                  - button "More options" [ref=f1038e1080]:
+                    - img [ref=f1038e1081]
+            - article [ref=f1038e1083] [cursor=pointer]:
+              - link [ref=f1038e1085]:
+                - /url: /post/is-neymar-jr-overrated-jtga4f7l
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/fifa-world-cup-2026
+                  - generic:
+                    - generic:
+                      - link "FIFA World Cup 2026" [ref=f1038e1086]:
+                        - /url: /channels/fifa-world-cup-2026
+                        - generic [ref=f1038e1087]: FIFA World Cup 2026
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "PayPal" [ref=f1038e1088]:
+                        - /url: /company/PayPal
+                      - img
+                      - text: lkzj
+              - generic:
+                - generic:
+                  - heading "Is Neymar Jr overrated?" [level=2]
+                  - paragraph: His performances were not always consistent over the course of his career. In his generation, players like Robert Lewandowski, Luis Suarez, Harry Kane, and Mohamed Salah were arguably better and more consistent. Neymar has an extremely large fan base and remains one of the most popular footballers...Read more
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 51 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1089]:
+                    - img [ref=f1038e1090]
+                    - text: "0"
+                  - button "Comment on this post":
+                    - img
+                    - text: "4"
+                  - button "Views":
+                    - img
+                    - text: "342"
+                - generic:
+                  - button [ref=f1038e1092]:
+                    - img [ref=f1038e1093]
+                  - button "More options" [ref=f1038e1096]:
+                    - img [ref=f1038e1097]
+            - article [ref=f1038e1099] [cursor=pointer]:
+              - link [ref=f1038e1101]:
+                - /url: /post/ai-is-why-tech-needs-unions-roybgg2v
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e1102]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e1103]: Tech Industry
+                      - img
+                      - generic: 2d
+                    - generic:
+                      - link "Microsoft" [ref=f1038e1104]:
+                        - /url: /company/Microsoft
+                      - img
+                      - text: Patriot11
+              - generic:
+                - generic:
+                  - heading "AI Is Why Tech Needs Unions" [level=2]
+                  - paragraph: AI isn't the reason tech workers will become obsolete. It's the reason we need collective bargaining. If AI doubles productivity, who gets the benefit? Shareholders, or the people building the future? Without a collective voice, AI could mean layoffs, surveillance, and higher expectations for the ...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1105]:
+                    - img [ref=f1038e1106]
+                    - text: "12"
+                  - button "Comment on this post":
+                    - img
+                    - text: "6"
+                  - button "Views":
+                    - img
+                    - text: "153"
+                - generic:
+                  - button [ref=f1038e1108]:
+                    - img [ref=f1038e1109]
+                  - button "More options" [ref=f1038e1112]:
+                    - img [ref=f1038e1113]
+            - article [ref=f1038e1115] [cursor=pointer]:
+              - link [ref=f1038e1117]:
+                - /url: /post/apple-contract-or-stay-at-low-tc-fte-qb37ntez
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e1118]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e1119]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Genentech" [ref=f1038e1120]:
+                        - /url: /company/Genentech
+                      - img
+                      - text: eulers_fn
+              - generic:
+                - generic:
+                  - heading "Apple Contract or stay at Low TC FTE?" [level=2]
+                  - paragraph: Have 3 YOE + almost wrapped up with masters in CS at Georgia Tech. I'm making ~130k-140k currently, as a full time ML Engineer at a BioTech company in the bay area. I now have a contract offer from Apple for $70 an hour for a DE position (fully remote), plus possibility of contract extension after ...Read more
+              - generic:
+                - generic:
+                  - img
+                  - generic: Poll
+                - generic: 21 Participants
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1121]:
+                    - img [ref=f1038e1122]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "3"
+                  - button "Views":
+                    - img
+                    - text: "216"
+                - generic:
+                  - button [ref=f1038e1124]:
+                    - img [ref=f1038e1125]
+                  - button "More options" [ref=f1038e1128]:
+                    - img [ref=f1038e1129]
+            - article [ref=f1038e1135] [cursor=pointer]:
+              - link [ref=f1038e1137]:
+                - /url: /post/i-dont-understand-why-people-care-so-much-about-work-ok4vqzvg
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e1138]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e1139]: Tech Industry
+                      - img
+                      - generic: 5d
+                    - generic:
+                      - link "Meta" [ref=f1038e1140]:
+                        - /url: /company/Meta
+                      - img
+                      - text: e3viber
+              - generic:
+                - generic:
+                  - heading "I don’t understand why people care so much about work" [level=2]
+                  - paragraph: One thing that annoys me about this industry is that it’s often frowned upon to have a life outside of work. Like people only think wlb is important if you have kids which is such a narrow viewpoint. I also have hobbies that I like to do outside of work that brings me much more enjoyment than the w...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1141]:
+                    - img [ref=f1038e1142]
+                    - text: "117"
+                  - button "Comment on this post":
+                    - img
+                    - text: "76"
+                  - button "Views":
+                    - img
+                    - text: 4,253
+                - generic:
+                  - button [ref=f1038e1144]:
+                    - img [ref=f1038e1145]
+                  - button "More options" [ref=f1038e1148]:
+                    - img [ref=f1038e1149]
+            - article [ref=f1038e1151] [cursor=pointer]:
+              - link [ref=f1038e1153]:
+                - /url: /post/offering-referrals-for-salesforce-ey7ffbwt
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e1154]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e1155]: Tech Industry
+                      - img
+                      - generic: 9h
+                    - generic:
+                      - link "Salesforce" [ref=f1038e1156]:
+                        - /url: /company/Salesforce
+                      - img
+                      - text: w8UVUv
+              - generic:
+                - generic:
+                  - heading "Offering Referrals for Salesforce" [level=2]
+                  - paragraph: "I'm offering job referrals across various levels at Salesforce. Feel free to reach out if interested. #salesforce #referral #AMTS #MTS #SMTS #LMTS #PMTS #architect #technical #managerial"
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1157]:
+                    - img [ref=f1038e1158]
+                    - text: "3"
+                  - button "Comment on this post":
+                    - img
+                    - text: "1"
+                  - button "Views":
+                    - img
+                    - text: "119"
+                - generic:
+                  - button [ref=f1038e1160]:
+                    - img [ref=f1038e1161]
+                  - button "More options" [ref=f1038e1164]:
+                    - img [ref=f1038e1165]
+            - article [ref=f1038e1167] [cursor=pointer]:
+              - link [ref=f1038e1169]:
+                - /url: /post/insurance-industry-gift-card-in-exchange-for-a-45m-interview-clfzkptm
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech
+                  - generic:
+                    - generic:
+                      - link "Tech Industry" [ref=f1038e1170]:
+                        - /url: /channels/tech
+                        - generic [ref=f1038e1171]: Tech Industry
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "VMware" [ref=f1038e1172]:
+                        - /url: /company/VMware
+                      - img
+                      - text: TCmt38
+              - generic:
+                - generic:
+                  - 'heading "Insurance industry: Gift card in exchange for a 45m interview" [level=2]'
+                  - paragraph: "Hi! Our company is working on a compliance tool for the insurance industry. We’re looking for 4-5 people for a 45 minute interview. In exchange, we will send you a $50 visa or Amazon gift card. Qualifications: -Software engineer (even better if you’re a lead or high level role) -Works at an insura...Read more"
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1173]:
+                    - img [ref=f1038e1174]
+                    - text: "2"
+                  - button "Comment on this post":
+                    - img
+                    - text: "2"
+                  - button "Views":
+                    - img
+                    - text: "90"
+                - generic:
+                  - button [ref=f1038e1176]:
+                    - img [ref=f1038e1177]
+                  - button "More options" [ref=f1038e1180]:
+                    - img [ref=f1038e1181]
+            - article [ref=f1038e1183] [cursor=pointer]:
+              - link [ref=f1038e1185]:
+                - /url: /post/looking-for-walmart-referral-no-sponsorship-needed-s6i5ik34
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/tech-referrals
+                  - generic:
+                    - generic:
+                      - link "Tech Referrals" [ref=f1038e1186]:
+                        - /url: /channels/tech-referrals
+                        - generic [ref=f1038e1187]: Tech Referrals
+                      - img
+                      - generic: Yesterday
+                    - generic:
+                      - link "Microsoft" [ref=f1038e1188]:
+                        - /url: /company/Microsoft
+                      - img
+                      - text: dmci
+              - generic:
+                - generic:
+                  - heading "Looking for Walmart Referral (no sponsorship needed)" [level=2]
+                  - paragraph: Title. Saw a role I feel I would be a great fit for!
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1189]:
+                    - img [ref=f1038e1190]
+                    - text: "1"
+                  - button "Comment on this post":
+                    - img
+                    - text: "3"
+                  - button "Views":
+                    - img
+                    - text: "41"
+                - generic:
+                  - button [ref=f1038e1192]:
+                    - img [ref=f1038e1193]
+                  - button "More options" [ref=f1038e1196]:
+                    - img [ref=f1038e1197]
+            - article [ref=f1038e1199] [cursor=pointer]:
+              - link [ref=f1038e1201]:
+                - /url: /post/transitioning-from-tech-to-trading-firms-rc7dtjvv
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /channels/interview-experiences
+                  - generic:
+                    - generic:
+                      - link "Interview Experiences" [ref=f1038e1202]:
+                        - /url: /channels/interview-experiences
+                        - generic [ref=f1038e1203]: Interview Experiences
+                      - img
+                      - generic: 2d
+                    - generic:
+                      - link "Uber" [ref=f1038e1204]:
+                        - /url: /company/Uber
+                      - img
+                      - text: YmDz65
+              - generic:
+                - generic:
+                  - heading "Transitioning from tech to trading firms" [level=2]
+                  - paragraph: Has anyone here transitioned from a Big Tech company (e.g. Google, Meta, Microsoft, Uber) to a quantitative trading or hedge fund firm like Jane Street, Citadel, HRT, or Two Sigma as a software engineer? I’d love to hear about your experience. How different was the interview process compared to Big ...Read more
+              - generic:
+                - generic:
+                  - button "Like this post" [ref=f1038e1205]:
+                    - img [ref=f1038e1206]
+                    - text: "10"
+                  - button "Comment on this post":
+                    - img
+                    - text: "6"
+                  - button "Views":
+                    - img
+                    - text: "697"
+                - generic:
+                  - button [ref=f1038e1208]:
+                    - img [ref=f1038e1209]
+                  - button "More options" [ref=f1038e1212]:
+                    - img [ref=f1038e1213]
+          - generic [ref=f1038e1220]:
+            - article [ref=f1038e1221]:
+              - generic [ref=f1038e1233]:
+                - generic [ref=f1038e1234]:
+                  - button "Like this post" [disabled] [ref=f1038e1235]:
+                    - img [ref=f1038e1236]
+                  - button "Comment on this post" [disabled] [ref=f1038e1238]:
+                    - img [ref=f1038e1239]
+                  - button "Views" [disabled] [ref=f1038e1241]:
+                    - img [ref=f1038e1242]
+                - generic [ref=f1038e1244]:
+                  - button [disabled] [ref=f1038e1245]:
+                    - img [ref=f1038e1246]
+                  - button "More options" [ref=f1038e1248] [cursor=pointer]:
+                    - img [ref=f1038e1249]
+            - article [ref=f1038e1251]:
+              - generic [ref=f1038e1263]:
+                - generic [ref=f1038e1264]:
+                  - button "Like this post" [disabled] [ref=f1038e1265]:
+                    - img [ref=f1038e1266]
+                  - button "Comment on this post" [disabled] [ref=f1038e1268]:
+                    - img [ref=f1038e1269]
+                  - button "Views" [disabled] [ref=f1038e1271]:
+                    - img [ref=f1038e1272]
+                - generic [ref=f1038e1274]:
+                  - button [disabled] [ref=f1038e1275]:
+                    - img [ref=f1038e1276]
+                  - button "More options" [ref=f1038e1278] [cursor=pointer]:
+                    - img [ref=f1038e1279]
+    - region "Notifications alt+T":
+      - list:
+        - listitem [ref=f1038e1281]:
+          - button "Close toast" [ref=f1038e1282] [cursor=pointer]:
+            - img [ref=f1038e1283]
+          - img [ref=f1038e1287]
+          - generic [ref=f1038e1290]: The content you're looking for isn't available anymore. Here's a related section you might find useful.
+  - generic [ref=f1038e1291]: .
+  - alert [ref=f1038e1292]
+  - generic [ref=f1038e1293]:
+    - iframe [ref=f1038e1296]:
+      - generic [ref=f1049e3]:
+        - iframe [ref=f1049e5]:
+          - generic [ref=f1050e5]:
+            - generic [ref=f1050e7]:
+              - iframe [ref=f1050e8]:
+                
+              - link [ref=f1050e9] [cursor=pointer]:
+                - /url: https://exch.quantserve.com/r?us_privacy=&a=p-M804JSnL_002D&labels=_qc.clk,_click.adserver.rtb,_click.rand.1701188714&rtbip=192.184.70.47&rtbdata2=EAQ6GWh0dHBzOi8vd3d3LnRlYW1ibGluZC5jb21aKG1wT1NMTW5Da2lxQnhNSXNtSmVMZkp2RnczYUJrSlF0eU1mUXR1dGyAAeqomKsGugEoYzFhYTVjOTgzN2YyMzJhM2UzMGMzNTI5MzIzZjczYWFmYmI1Y2I2McAByMoJyAGiupbD8zPaAShhNzBjMTFiYmZlNWYzMzc2NDY0MzdiMDc4NDJiMTVhNjg2MzBhODM1sAIIyAIA0ALO4Yb7-J_3zKkB6ALFAfICDwjgrgkQyKfT5reJsbjIAfICDwic-h8Q5vuzq7-buPDQAfICDgjeFxDP_vacteLu-awB8gIOCMyeHxCLjJfXkbmj5g7yAg0IxQEQpJPb8uGH3eFm8gIMCAAQwY6zz_6T2v4B-AIAigMFMjAzMzaYAwCoAwCyAwRrA4n0ugMSCTlFstChlTKfEfg-1pU8uGGUwgMSCYdD41BDG5khESJltNvBCYamyAOAkoAQ2APqqJirBuIDD3AtTTgwNEpTbkxfMDAyROoDBgisAhDYBPIDBTk0MTA5-AMAgATSxAyKBAU4NzYyOJIEDU1HTkktQVAtMTAzMTiaBBIJWEID3fuXIWERorrj0UmEiKiiBBIJOUWy0KGVMp8R-D7WlTy4YZSqBBIJOUWy0KGVMp8R-D7WlTy4YZS4BNAF0AQW8gQCVVOABQGKBSoyMDhhNjc5ZDI0ZWY4ZTNjYmE4ZGZjZmZkNDIzZmZjZDUwNjU4ZWUxYWGQBQGaBRUgimedJO-OPLqN_P_UI__NUGWO4aqiBSRrRk90aThoV3Q3V2xiWkczdFc2VHpzVlhzcE9mVzlCUU1fMD2wBQK4BQDABeqomKsGyAXp26oE0gUGCAMQARgO6AUGmgYUChIJWEID3fuXIWERorrj0UmEiKigBgC1BofgTjm6BmMKAlVTEgJDQRinBiIPc2FuJTIwZnJhbmNpc2NvKgU5NDEwOTonY29tY2FzdCUyMGNhYmxlJTIwY29tbXVuaWNhdGlvbnMlMjBpbmMuWhVjb21jYXN0JTIwY29ycG9yYXRpb27JBjVoMCI1gGgT8QYCUDAiNYBoE_gGAYAHAIoHEgmHQ-NQQxuZIREiZbTbwQmGprAHjou0BLgHqN2fBdgHBA&rtb_id=CTVoMCI1gGgTEQJQMCI1gGgTGDwzRQYoFusv6gKLY8Y&qcclkid=f013c862-a6bf-4674-8690-e95f3f5103f0&redirecturl3=https://icangotocollege.com/financial-aid?utm_source=Misfit_Digital&utm_medium=Banners&utm_campaign=ICAN_FY_25_26&utm_content=CalGrant_HISP-ENG_Y&qcclkid=f013c862-a6bf-4674-8690-e95f3f5103f0
+            - link [ref=f1050e10] [cursor=pointer]:
+              - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=1701188714;labels=_click.creative.iab,_qc.iab.clk.p-M804JSnL_002D.0.11005608;redirecturl2=http://www.quantcast.com/adchoices
+              - img [ref=f1050e12]
+        - navigation
+    - button [ref=f1038e1297] [cursor=pointer]
+  - generic [ref=f1038e1298]: advertisement
+  - generic [ref=f1038e1299]: advertisement
+  - generic [ref=f1038e1300]: advertisement

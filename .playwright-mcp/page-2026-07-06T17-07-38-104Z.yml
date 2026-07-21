@@ -1,0 +1,465 @@
+- generic [active] [ref=f1559e1]:
+  - generic [ref=f1559e2]:
+    - banner [ref=f1559e4]:
+      - generic [ref=f1559e8]:
+        - generic [ref=f1559e9]:
+          - link [ref=f1559e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=f1559e12]
+          - generic [ref=f1559e17]:
+            - link "Community" [ref=f1559e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f1559e19]: Community
+            - link "Salaries" [ref=f1559e20] [cursor=pointer]:
+              - /url: /salary
+              - generic [ref=f1559e21]: Salaries
+            - link "Reviews" [ref=f1559e22] [cursor=pointer]:
+              - /url: /company
+              - generic [ref=f1559e23]: Reviews
+            - link "Layoffs" [ref=f1559e24] [cursor=pointer]:
+              - /url: /layoffs
+              - generic [ref=f1559e25]: Layoffs
+            - link "Jobs" [ref=f1559e26] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=f1559e27]: Jobs
+            - generic [ref=f1559e29] [cursor=pointer]:
+              - generic [ref=f1559e30]: For Business
+              - img [ref=f1559e31]
+          - generic [ref=f1559e34]:
+            - img [ref=f1559e35]
+            - textbox "Search" [ref=f1559e37]
+        - generic [ref=f1559e39]:
+          - button "Sign in" [ref=f1559e40] [cursor=pointer]
+          - link "Sign up" [ref=f1559e41] [cursor=pointer]:
+            - /url: /sign-up?next=/&from=sign-up-top-menu
+    - generic [ref=f1559e44]:
+      - generic [ref=f1559e47]:
+        - generic [ref=f1559e48]:
+          - link "Feed" [ref=f1559e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f1559e50]:
+              - img [ref=f1559e51]
+              - text: Feed
+          - link "My Company" [ref=f1559e55] [cursor=pointer]:
+            - /url: /my-company
+            - generic [ref=f1559e56]:
+              - img [ref=f1559e57]
+              - text: My Company
+          - link "Blind Alters" [ref=f1559e59] [cursor=pointer]:
+            - /url: /alter
+            - generic [ref=f1559e60]:
+              - img [ref=f1559e61]
+              - text: Blind Alters
+          - link "Resources" [ref=f1559e64] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=f1559e65]:
+              - img [ref=f1559e66]
+              - text: Resources
+          - link "Best of Blind NEW" [ref=f1559e69] [cursor=pointer]:
+            - /url: /best/2026
+            - generic [ref=f1559e70]:
+              - img [ref=f1559e71]
+              - text: Best of Blind
+              - generic [ref=f1559e74]: NEW
+          - link "Trending" [ref=f1559e75] [cursor=pointer]:
+            - /url: /trending
+            - generic [ref=f1559e76]:
+              - img [ref=f1559e77]
+              - text: Trending
+        - generic [ref=f1559e81]:
+          - link "All Channels" [ref=f1559e82] [cursor=pointer]:
+            - /url: /channels
+            - generic [ref=f1559e83]:
+              - img [ref=f1559e84]
+              - text: All Channels
+          - generic [ref=f1559e86]:
+            - heading "Recent" [level=2] [ref=f1559e87] [cursor=pointer]:
+              - generic [ref=f1559e88]: Recent
+              - img [ref=f1559e89]
+            - generic [ref=f1559e92]:
+              - link "Channel logo Design" [ref=f1559e94] [cursor=pointer]:
+                - /url: /channels/design
+                - generic [ref=f1559e95]:
+                  - img "Channel logo" [ref=f1559e96]
+                  - generic [ref=f1559e97]: Design
+              - link "Channel logo Tech" [ref=f1559e99] [cursor=pointer]:
+                - /url: /channels/tech
+                - generic [ref=f1559e100]:
+                  - img "Channel logo" [ref=f1559e101]
+                  - generic [ref=f1559e102]: Tech
+          - generic [ref=f1559e104]:
+            - generic [ref=f1559e105]:
+              - heading "Location" [level=2] [ref=f1559e106] [cursor=pointer]:
+                - generic [ref=f1559e107]: Location
+                - img [ref=f1559e108]
+              - generic [ref=f1559e110]:
+                - generic [ref=f1559e111]:
+                  - link "Channel logo Dallas" [ref=f1559e113] [cursor=pointer]:
+                    - /url: /channels/dallas
+                    - generic [ref=f1559e114]:
+                      - img "Channel logo" [ref=f1559e115]
+                      - generic [ref=f1559e116]: Dallas
+                  - link "Channel logo Miami" [ref=f1559e118] [cursor=pointer]:
+                    - /url: /channels/miami
+                    - generic [ref=f1559e119]:
+                      - img "Channel logo" [ref=f1559e120]
+                      - generic [ref=f1559e121]: Miami
+                  - link "Channel logo Chicago" [ref=f1559e123] [cursor=pointer]:
+                    - /url: /channels/chicago
+                    - generic [ref=f1559e124]:
+                      - img "Channel logo" [ref=f1559e125]
+                      - generic [ref=f1559e126]: Chicago
+                  - link "Channel logo New York" [ref=f1559e128] [cursor=pointer]:
+                    - /url: /channels/new-york
+                    - generic [ref=f1559e129]:
+                      - img "Channel logo" [ref=f1559e130]
+                      - generic [ref=f1559e131]: New York
+                  - link "Channel logo Austin" [ref=f1559e133] [cursor=pointer]:
+                    - /url: /channels/austin
+                    - generic [ref=f1559e134]:
+                      - img "Channel logo" [ref=f1559e135]
+                      - generic [ref=f1559e136]: Austin
+                - button "Show More" [ref=f1559e137] [cursor=pointer]
+            - heading "Industry" [level=2] [ref=f1559e140] [cursor=pointer]:
+              - generic [ref=f1559e141]: Industry
+              - img [ref=f1559e142]
+            - heading "Job Function" [level=2] [ref=f1559e145] [cursor=pointer]:
+              - generic [ref=f1559e146]: Job Function
+              - img [ref=f1559e147]
+            - heading "Learning & Advising" [level=2] [ref=f1559e150] [cursor=pointer]:
+              - generic [ref=f1559e151]: Learning & Advising
+              - img [ref=f1559e152]
+            - heading "Money" [level=2] [ref=f1559e155] [cursor=pointer]:
+              - generic [ref=f1559e156]: Money
+              - img [ref=f1559e157]
+            - button "Show More Channels" [ref=f1559e159] [cursor=pointer]
+        - generic [ref=f1559e161]:
+          - generic [ref=f1559e162]:
+            - generic [ref=f1559e163]: Blind
+            - link "Why Blind" [ref=f1559e164] [cursor=pointer]:
+              - /url: /why-blind
+              - generic [ref=f1559e165]: Why Blind
+            - link "Polls" [ref=f1559e166] [cursor=pointer]:
+              - /url: /polls
+              - generic [ref=f1559e167]: Polls
+            - link "Blog" [ref=f1559e168] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f1559e169]: Blog
+            - link "Careers" [ref=f1559e170] [cursor=pointer]:
+              - /url: https://careers.teamblind.com/
+              - generic [ref=f1559e171]: Careers
+            - link "Privacy" [ref=f1559e172] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/privacy
+              - generic [ref=f1559e173]: Privacy
+            - link "Terms" [ref=f1559e174] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/term
+              - generic [ref=f1559e175]: Terms
+          - generic [ref=f1559e176]:
+            - generic [ref=f1559e177]: Support
+            - link "Community Guidelines" [ref=f1559e178] [cursor=pointer]:
+              - /url: /community-guidelines
+              - generic [ref=f1559e179]: Community Guidelines
+            - link "FAQs" [ref=f1559e180] [cursor=pointer]:
+              - /url: https://help.teamblind.com/
+              - generic [ref=f1559e181]: FAQs
+            - link "Newsroom" [ref=f1559e182] [cursor=pointer]:
+              - /url: https://press.teamblind.com/
+              - generic [ref=f1559e183]: Newsroom
+            - link "Updates" [ref=f1559e184] [cursor=pointer]:
+              - /url: /updates
+              - generic [ref=f1559e185]: Updates
+            - generic [ref=f1559e186]:
+              - button "Do Not Sell or Share My Personal Information" [ref=f1559e187] [cursor=pointer]
+              - generic [ref=f1559e188]: 2026 Teamblind Inc.
+      - generic [ref=f1559e191]:
+        - generic [ref=f1559e192]:
+          - generic:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /channels/design
+              - generic:
+                - generic:
+                  - link "Design Career" [ref=f1559e193] [cursor=pointer]:
+                    - /url: /channels/design
+                    - generic [ref=f1559e194]: Design Career
+                  - img
+                  - generic: Feb 8, 2022
+                - generic:
+                  - link "Datadog" [ref=f1559e195] [cursor=pointer]:
+                    - /url: /company/Datadog
+                  - img
+                  - text: datadoggie
+              - button "Bookmark this post" [ref=f1559e197] [cursor=pointer]:
+                - img [ref=f1559e198]
+          - generic [ref=f1559e200]:
+            - heading "Meta Facebook IC6 product design portfolio examples" [level=1] [ref=f1559e201]
+            - paragraph [ref=f1559e202]:
+              - text: Are there any IC6 or higher designers at Facebook Meta who could share there portfolio with me? That is the level I’m targeting and would love to compare my work. Thank you. Current Sr product design TC 313k Base 175k YEO 8
+              - link "#design" [ref=f1559e203] [cursor=pointer]:
+                - /url: /search/design
+              - link "#interviews" [ref=f1559e204] [cursor=pointer]:
+                - /url: /search/interviews
+            - generic [ref=f1559e205]:
+              - link "@Meta" [ref=f1559e206] [cursor=pointer]:
+                - /url: /company/Meta
+              - link "@Meta" [ref=f1559e207] [cursor=pointer]:
+                - /url: /company/Meta
+            - list [ref=f1559e208]:
+              - listitem [ref=f1559e209]:
+                - link "Amazon deals -Lowest price in 365D" [ref=f1559e210] [cursor=pointer]:
+                  - /url: https://amzn.to/4eIRWR3
+                  - generic [ref=f1559e212]: Amazon deals -Lowest price in 365D
+              - listitem [ref=f1559e213]:
+                - link "Logitech Mouse G305 -40% $50>$30" [ref=f1559e214] [cursor=pointer]:
+                  - /url: https://www.amazon.com/dp/B07CMS5Q6P?tag=teamblind_actiontag-20
+                  - generic [ref=f1559e216]: Logitech Mouse G305 -40% $50>$30
+          - generic:
+            - generic:
+              - button "Like this post" [ref=f1559e217] [cursor=pointer]:
+                - img [ref=f1559e218]
+                - text: "7"
+              - button "Comment on this post" [ref=f1559e220] [cursor=pointer]:
+                - img [ref=f1559e221]
+                - text: "28"
+              - button "Views":
+                - img
+                - text: "752"
+            - generic:
+              - button [ref=f1559e223] [cursor=pointer]:
+                - img [ref=f1559e224]
+              - button "More options" [ref=f1559e227] [cursor=pointer]:
+                - img [ref=f1559e228]
+        - generic [ref=f1559e231]:
+          - generic [ref=f1559e232]: Related Companies
+          - link "Meta Meta 3.7" [ref=f1559e234] [cursor=pointer]:
+            - /url: /company/Meta
+            - img "Meta" [ref=f1559e235]
+            - generic [ref=f1559e236]:
+              - heading "Meta" [level=4] [ref=f1559e237]
+              - generic [ref=f1559e238]:
+                - img [ref=f1559e239]
+                - generic [ref=f1559e241]: "3.7"
+        - generic [ref=f1559e249]:
+          - generic [ref=f1559e250]:
+            - generic [ref=f1559e251]: "Sort by :"
+            - combobox "Sort by :" [ref=f1559e252] [cursor=pointer]:
+              - generic: Top
+              - img [ref=f1559e253]
+          - generic [ref=f1559e255]:
+            - generic [ref=f1559e256]:
+              - generic [ref=f1559e258]:
+                - link [ref=f1559e260] [cursor=pointer]:
+                  - /url: /company/Meta
+                - generic [ref=f1559e261]:
+                  - generic [ref=f1559e262]:
+                    - generic [ref=f1559e263]:
+                      - generic [ref=f1559e264]:
+                        - link "Meta" [ref=f1559e265] [cursor=pointer]:
+                          - /url: /company/Meta
+                        - img [ref=f1559e266]
+                        - generic [ref=f1559e268]: "6153"
+                        - img [ref=f1559e269]
+                        - generic "Feb 8, 2022" [ref=f1559e271]
+                      - button "More options" [ref=f1559e273] [cursor=pointer]:
+                        - img [ref=f1559e274]
+                    - paragraph [ref=f1559e276]: What I observe is that IC6+ designers don’t really have a public portfolio of work that they share. All the work, process, and storytelling is put in a private deck or presentation. You’re not going to see the same level of detail and thinking as a new grad portfolio on their website.
+                  - generic [ref=f1559e277]:
+                    - button "Like comment" [ref=f1559e278] [cursor=pointer]:
+                      - img [ref=f1559e279]
+                      - text: "4"
+                    - button "Reply" [ref=f1559e282] [cursor=pointer]
+              - generic [ref=f1559e285]:
+                - generic [ref=f1559e286]:
+                  - link [ref=f1559e288] [cursor=pointer]:
+                    - /url: /company/Bill.com
+                  - generic [ref=f1559e289]:
+                    - generic [ref=f1559e290]:
+                      - generic [ref=f1559e291]:
+                        - generic [ref=f1559e292]:
+                          - link "Bill.com" [ref=f1559e293] [cursor=pointer]:
+                            - /url: /company/Bill.com
+                          - img [ref=f1559e294]
+                          - generic [ref=f1559e296]: lime_soda
+                          - img [ref=f1559e297]
+                          - generic "Feb 9, 2022" [ref=f1559e299]
+                        - button "More options" [ref=f1559e301] [cursor=pointer]:
+                          - img [ref=f1559e302]
+                      - paragraph [ref=f1559e304]: How are these decks organized or written? Do you know? Is it image heavy or content + image like we have case studies online? Or is it ver high level limited content deck?
+                    - button "Like" [ref=f1559e306] [cursor=pointer]
+                - generic [ref=f1559e307]:
+                  - link [ref=f1559e309] [cursor=pointer]:
+                    - /url: /company/Meta
+                  - generic [ref=f1559e310]:
+                    - generic [ref=f1559e311]:
+                      - generic [ref=f1559e312]:
+                        - generic [ref=f1559e313]:
+                          - link "Meta" [ref=f1559e314] [cursor=pointer]:
+                            - /url: /company/Meta
+                          - img [ref=f1559e315]
+                          - generic [ref=f1559e317]: "6153"
+                          - img [ref=f1559e318]
+                          - generic "Feb 10, 2022" [ref=f1559e320]: Feb 9, 2022
+                        - button "More options" [ref=f1559e322] [cursor=pointer]:
+                          - img [ref=f1559e323]
+                      - paragraph [ref=f1559e325]: Generally a lot more storytelling in the presentations, mostly shows design work with limited text. Designs are shown with prototypes or animations, message and narrative is really clear as to what problems they’re solving for. The presentations I’ve seen are usually meant to be presented with a voiceover, and can’t really be shared as a stand-alone deck. If you’re targeting IC6 and above, you should be solving abstract problems and be able to navigate a lot of ambiguity. Some example problems could be how you increased authenticity of users among the app, or defined what it means to have an identity on the platform, as opposed to designing a UI to edit your profile (which is a problem much more defined in scope and complexity).
+                    - button "Like comment" [ref=f1559e327] [cursor=pointer]:
+                      - img [ref=f1559e328]
+                      - text: "8"
+            - generic [ref=f1559e330]:
+              - generic [ref=f1559e332]:
+                - img [ref=f1559e334]
+                - generic [ref=f1559e340]:
+                  - generic [ref=f1559e341]:
+                    - generic [ref=f1559e342]:
+                      - generic [ref=f1559e343]:
+                        - generic [ref=f1559e344]: New
+                        - img [ref=f1559e345]
+                        - generic [ref=f1559e347]: J0ABJ0AB
+                        - img [ref=f1559e348]
+                        - generic "Aug 7, 2022" [ref=f1559e350]
+                      - button "More options" [ref=f1559e352] [cursor=pointer]:
+                        - img [ref=f1559e353]
+                    - paragraph [ref=f1559e355]: Recent candidate here, got leveled at PD IC6. I'm open to share my past work presentation to give a sense of what got me the offer. DM me.
+                  - generic [ref=f1559e356]:
+                    - button "Like comment" [ref=f1559e357] [cursor=pointer]:
+                      - img [ref=f1559e358]
+                      - text: "1"
+                    - button "Reply" [ref=f1559e361] [cursor=pointer]
+              - generic [ref=f1559e364]:
+                - generic [ref=f1559e365]:
+                  - link [ref=f1559e367] [cursor=pointer]:
+                    - /url: /company/VMware
+                  - generic [ref=f1559e368]:
+                    - generic [ref=f1559e369]:
+                      - generic [ref=f1559e370]:
+                        - generic [ref=f1559e371]:
+                          - link "VMware" [ref=f1559e372] [cursor=pointer]:
+                            - /url: /company/VMware
+                          - img [ref=f1559e373]
+                          - generic [ref=f1559e375]: enJl80
+                          - img [ref=f1559e376]
+                          - generic "Aug 7, 2022" [ref=f1559e378]
+                        - button "More options" [ref=f1559e380] [cursor=pointer]:
+                          - img [ref=f1559e381]
+                      - paragraph [ref=f1559e383]: Hey. Would you mind if i dm'd you
+                    - button "Like comment" [ref=f1559e385] [cursor=pointer]:
+                      - img [ref=f1559e386]
+                      - text: "1"
+                - generic [ref=f1559e388]:
+                  - img [ref=f1559e390]
+                  - generic [ref=f1559e396]:
+                    - generic [ref=f1559e397]:
+                      - generic [ref=f1559e398]:
+                        - generic [ref=f1559e399]:
+                          - generic [ref=f1559e400]: New
+                          - img [ref=f1559e401]
+                          - generic [ref=f1559e403]: J0ABJ0AB
+                          - img [ref=f1559e404]
+                          - generic "Aug 7, 2022" [ref=f1559e406]
+                        - button "More options" [ref=f1559e408] [cursor=pointer]:
+                          - img [ref=f1559e409]
+                      - paragraph [ref=f1559e411]: Go for it
+                    - button "Like" [ref=f1559e413] [cursor=pointer]
+                - generic [ref=f1559e414]:
+                  - link [ref=f1559e416] [cursor=pointer]:
+                    - /url: /company/VMware
+                  - generic [ref=f1559e417]:
+                    - generic [ref=f1559e418]:
+                      - generic [ref=f1559e419]:
+                        - generic [ref=f1559e420]:
+                          - link "VMware" [ref=f1559e421] [cursor=pointer]:
+                            - /url: /company/VMware
+                          - img [ref=f1559e422]
+                          - generic [ref=f1559e424]: VtgU38
+                          - img [ref=f1559e425]
+                          - generic "Aug 7, 2022" [ref=f1559e427]
+                        - button "More options" [ref=f1559e429] [cursor=pointer]:
+                          - img [ref=f1559e430]
+                      - paragraph [ref=f1559e432]: Too late. Already interviewed didn't pass
+                    - button "Like" [ref=f1559e434] [cursor=pointer]
+                - button "View 7 more replies..." [ref=f1559e436] [cursor=pointer]
+            - generic [ref=f1559e441]:
+              - generic [ref=f1559e443]:
+                - link [ref=f1559e445] [cursor=pointer]:
+                  - /url: /company/VMware
+                - generic [ref=f1559e446]:
+                  - generic [ref=f1559e447]:
+                    - generic [ref=f1559e448]:
+                      - generic [ref=f1559e449]:
+                        - link "VMware" [ref=f1559e450] [cursor=pointer]:
+                          - /url: /company/VMware
+                        - img [ref=f1559e451]
+                        - generic [ref=f1559e453]: enJl80
+                        - img [ref=f1559e454]
+                        - generic "Feb 16, 2022" [ref=f1559e456]
+                      - button "More options" [ref=f1559e458] [cursor=pointer]:
+                        - img [ref=f1559e459]
+                    - paragraph [ref=f1559e461]: (Deleted)
+                  - generic [ref=f1559e462]:
+                    - button "Like comment" [ref=f1559e463] [cursor=pointer]:
+                      - img [ref=f1559e464]
+                      - text: "2"
+                    - button "Reply" [ref=f1559e467] [cursor=pointer]
+              - generic [ref=f1559e470]:
+                - img [ref=f1559e471]
+                - generic [ref=f1559e476]: Join the conversation on Blind
+                - paragraph [ref=f1559e477]: Sign up for free to see all comments and engage with insights from 12M verified professionals across top companies.
+                - generic [ref=f1559e478]:
+                  - link "Sign up" [ref=f1559e479] [cursor=pointer]:
+                    - /url: /sign-up?next=/post/meta-facebook-ic6-product-design-portfolio-examples-wbddo41r&from=article-block-screen
+                  - link "Sign in" [ref=f1559e480] [cursor=pointer]:
+                    - /url: /sign-in?next=/post/meta-facebook-ic6-product-design-portfolio-examples-wbddo41r
+            - generic [ref=f1559e483]:
+              - link [ref=f1559e485] [cursor=pointer]:
+                - /url: /company/Google
+              - generic [ref=f1559e486]:
+                - generic [ref=f1559e487]:
+                  - generic [ref=f1559e488]:
+                    - generic [ref=f1559e489]:
+                      - link "Google" [ref=f1559e490] [cursor=pointer]:
+                        - /url: /company/Google
+                      - img [ref=f1559e491]
+                      - generic [ref=f1559e493]: 7nsh6
+                      - img [ref=f1559e494]
+                      - generic "Feb 9, 2022" [ref=f1559e496]
+                    - button "More options" [ref=f1559e498] [cursor=pointer]:
+                      - img [ref=f1559e499]
+                  - paragraph [ref=f1559e501]: Also interested in sharing and practicing
+                - generic [ref=f1559e502]:
+                  - button "Like comment" [ref=f1559e503] [cursor=pointer]:
+                    - img [ref=f1559e504]
+                    - text: "2"
+                  - button "Reply" [ref=f1559e507] [cursor=pointer]
+        - generic [ref=f1559e515]:
+          - textbox "Add a comment" [ref=f1559e516]
+          - generic [ref=f1559e517]:
+            - generic [ref=f1559e518]:
+              - button [ref=f1559e519] [cursor=pointer]:
+                - img [ref=f1559e520]
+              - generic [ref=f1559e524]:
+                - checkbox "Hide company name 0 credits left" [ref=f1559e525] [cursor=pointer]
+                - generic [ref=f1559e526] [cursor=pointer]:
+                  - generic [ref=f1559e527]: Hide company name
+                  - generic [ref=f1559e528]: 0 credits left
+            - button "Post" [ref=f1559e530] [cursor=pointer]
+    - region "Notifications alt+T"
+  - generic [ref=f1559e531]: .
+  - alert [ref=f1559e532]
+  - generic [ref=f1559e533]:
+    - iframe [ref=f1559e536]:
+      - generic [ref=f1570e3]:
+        - iframe [ref=f1570e5]:
+          - generic [ref=f1571e5]:
+            - insertion [ref=f1571e7]:
+              - iframe [ref=f1571e8]:
+                - iframe [ref=f1572e5]:
+                  
+            - link [ref=f1571e9] [cursor=pointer]:
+              - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=245467205;labels=_click.creative.iab,_qc.iab.clk.p-4sAYSyPhv9dqC.0.10994656;redirecturl2=http://www.quantcast.com/adchoices
+              - img [ref=f1571e11]
+        - navigation
+    - button [ref=f1559e537] [cursor=pointer]
+  - generic [ref=f1559e539]: advertisement
+  - generic [ref=f1559e540]: advertisement
+  - generic [ref=f1559e541]: advertisement

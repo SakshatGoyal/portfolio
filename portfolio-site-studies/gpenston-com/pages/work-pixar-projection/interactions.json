@@ -1,0 +1,460 @@
+{
+  "capturedAt": "2026-07-15T06:43:48.687Z",
+  "targets": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://gpenston.com/",
+      "role": null,
+      "rect": {
+        "x": 626,
+        "y": 52,
+        "width": 47,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-001.png"
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "About",
+      "href": "https://gpenston.com/about",
+      "role": null,
+      "rect": {
+        "x": 697,
+        "y": 52,
+        "width": 51,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-002.png"
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "Work",
+      "href": "https://gpenston.com/work",
+      "role": null,
+      "rect": {
+        "x": 772,
+        "y": 52,
+        "width": 41,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(235, 90, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(235, 90, 0)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(235, 90, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(235, 90, 0)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://gpenston.com/",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 40,
+        "width": 48,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "0.758997",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-004.png"
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "Contact",
+      "href": "https://gpenston.com/contact",
+      "role": null,
+      "rect": {
+        "x": 1121,
+        "y": 42,
+        "width": 111,
+        "height": 43
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "Pixar",
+      "href": "https://www.pixar.com/",
+      "role": null,
+      "rect": {
+        "x": 742,
+        "y": 309,
+        "width": 34,
+        "height": 17
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-006.png"
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "Visit the site",
+      "href": "https://projection.pixar.com/",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 4198,
+        "width": 124,
+        "height": 27
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "",
+      "href": "https://gpenston.com/work/flite-design-studio",
+      "role": null,
+      "rect": {
+        "x": 637,
+        "y": 4281,
+        "width": 48,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "Next",
+      "href": "https://gpenston.com/work/adobe-cs2-howtos",
+      "role": null,
+      "rect": {
+        "x": 699,
+        "y": 4281,
+        "width": 105,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "Also at penston.studio",
+      "href": "https://penston.studio/",
+      "role": null,
+      "rect": {
+        "x": 378,
+        "y": 4453,
+        "width": 144,
+        "height": 17
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-010.png"
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Pinterest Link",
+      "href": "https://www.threads.com/@gpenstonhttps://www.threads.com/@gpenston",
+      "role": null,
+      "rect": {
+        "x": 1128,
+        "y": 4449,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "LinkedIn Link",
+      "href": "https://linkedin.com/in/gpenston",
+      "role": null,
+      "rect": {
+        "x": 1168,
+        "y": 4449,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "Bluesky Link",
+      "href": "https://github.com/gpenston",
+      "role": null,
+      "rect": {
+        "x": 1208,
+        "y": 4449,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    }
+  ]
+}

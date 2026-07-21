@@ -1,0 +1,600 @@
+{
+  "capturedAt": "2026-07-15T06:43:48.687Z",
+  "targets": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://gpenston.com/",
+      "role": null,
+      "rect": {
+        "x": 626,
+        "y": 52,
+        "width": 47,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-001.png"
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "About",
+      "href": "https://gpenston.com/about",
+      "role": null,
+      "rect": {
+        "x": 697,
+        "y": 52,
+        "width": 51,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(235, 90, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(235, 90, 0)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(235, 90, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(235, 90, 0)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "Work",
+      "href": "https://gpenston.com/work",
+      "role": null,
+      "rect": {
+        "x": 772,
+        "y": 52,
+        "width": 41,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-003.png"
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://gpenston.com/",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 40,
+        "width": 48,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "0.743968",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-004.png"
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "Contact",
+      "href": "https://gpenston.com/contact",
+      "role": null,
+      "rect": {
+        "x": 1121,
+        "y": 42,
+        "width": 111,
+        "height": 43
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "Download",
+      "href": "https://framerusercontent.com/assets/FbVSwtkmImznrsDE8YmBhHHNLAQ.pdf",
+      "role": null,
+      "rect": {
+        "x": 1107,
+        "y": 744,
+        "width": 126,
+        "height": 43
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgb(243, 243, 243)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-006.png"
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/",
+      "role": null,
+      "rect": {
+        "x": 488,
+        "y": 847,
+        "width": 71,
+        "height": 21
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-007.png"
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "Pinterest",
+      "href": "https://www.pinterest.com/",
+      "role": null,
+      "rect": {
+        "x": 488,
+        "y": 1298,
+        "width": 74,
+        "height": 21
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-008.png"
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "Snap",
+      "href": "https://www.snapchat.com/",
+      "role": null,
+      "rect": {
+        "x": 637,
+        "y": 1558,
+        "width": 43,
+        "height": 21
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-009.png"
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "The Creative Director Role (As We Know It) Will Not Exist in 10 Years",
+      "href": "http://adage.com/article/digitalnext/creative-director-role-exist-10-years/305623/",
+      "role": null,
+      "rect": {
+        "x": 272,
+        "y": 2731,
+        "width": 432,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-010.png"
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Adobe Creative Suite 2 How-Tos: 100 Essential Techniques",
+      "href": "http://www.adobepress.com/store/adobe-creative-suite-2-how-tos-100-essential-techniques-9780321446688",
+      "role": null,
+      "rect": {
+        "x": 800,
+        "y": 2731,
+        "width": 395,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-011.png"
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "The Creative Toolbox / CreativePro Staff",
+      "href": "https://creativepro.com/?s=george+penston",
+      "role": null,
+      "rect": {
+        "x": 272,
+        "y": 2874,
+        "width": 194,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-012.png"
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "Photoshop 6.0 Vectors in on One-Stop Solution",
+      "href": "https://www.macworld.com/article/158606/31photoshop.html",
+      "role": null,
+      "rect": {
+        "x": 800,
+        "y": 2874,
+        "width": 394,
+        "height": 21
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-013.png"
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "Mateusz Nieckarz",
+      "href": "https://www.matnie.com/",
+      "role": null,
+      "rect": {
+        "x": 469,
+        "y": 3186,
+        "width": 117,
+        "height": 17
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-014.png"
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "Pinterest Link",
+      "href": "https://www.threads.com/@gpenstonhttps://www.threads.com/@gpenston",
+      "role": null,
+      "rect": {
+        "x": 1128,
+        "y": 3182,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 15,
+      "tag": "a",
+      "text": "LinkedIn Link",
+      "href": "https://linkedin.com/in/gpenston",
+      "role": null,
+      "rect": {
+        "x": 1168,
+        "y": 3182,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "text": "Bluesky Link",
+      "href": "https://github.com/gpenston",
+      "role": null,
+      "rect": {
+        "x": 1208,
+        "y": 3182,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    }
+  ]
+}

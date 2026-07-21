@@ -1,0 +1,845 @@
+{
+  "capturedAt": "2026-07-15T06:43:48.687Z",
+  "targets": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://gpenston.com/",
+      "role": null,
+      "rect": {
+        "x": 626,
+        "y": 52,
+        "width": 47,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(235, 90, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(235, 90, 0)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(235, 90, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(235, 90, 0)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "About",
+      "href": "https://gpenston.com/about",
+      "role": null,
+      "rect": {
+        "x": 697,
+        "y": 52,
+        "width": 51,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-002.png"
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "Work",
+      "href": "https://gpenston.com/work",
+      "role": null,
+      "rect": {
+        "x": 772,
+        "y": 52,
+        "width": 41,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-003.png"
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://gpenston.com/",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 40,
+        "width": 48,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "0.840122",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-004.png"
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "Contact",
+      "href": "https://gpenston.com/contact",
+      "role": null,
+      "rect": {
+        "x": 1121,
+        "y": 42,
+        "width": 111,
+        "height": 43
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "Pinterest Link",
+      "href": "https://www.threads.com/@gpenstonhttps://www.threads.com/@gpenston",
+      "role": null,
+      "rect": {
+        "x": 668,
+        "y": 464,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "LinkedIn Link",
+      "href": "https://linkedin.com/in/gpenston",
+      "role": null,
+      "rect": {
+        "x": 708,
+        "y": 464,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "Bluesky Link",
+      "href": "https://github.com/gpenston",
+      "role": null,
+      "rect": {
+        "x": 748,
+        "y": 464,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "See all",
+      "href": "https://gpenston.com/work",
+      "role": null,
+      "rect": {
+        "x": 1155,
+        "y": 633,
+        "width": 77,
+        "height": 27
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "Games on LinkedIn Bringing play to the world of work",
+      "href": "https://gpenston.com/work/games-on-linkedin",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 704,
+        "width": 496,
+        "height": 339
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Velocity Video Ad Builder Evolving video for a vertical world",
+      "href": "https://gpenston.com/work/velocity-video-builder",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 1075,
+        "width": 496,
+        "height": 843
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "Pinterest World’s Fair A blueprint for ad innovation",
+      "href": "https://gpenston.com/work/pinterest-worlds-fair",
+      "role": null,
+      "rect": {
+        "x": 736,
+        "y": 704,
+        "width": 496,
+        "height": 761
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "LinkedIn Dark Mode Seeing things in a different light",
+      "href": "https://gpenston.com/work/linkedin-dark-mode",
+      "role": null,
+      "rect": {
+        "x": 736,
+        "y": 1497,
+        "width": 496,
+        "height": 338
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "See all",
+      "href": "https://gpenston.com/posts",
+      "role": null,
+      "rect": {
+        "x": 1155,
+        "y": 2022,
+        "width": 77,
+        "height": 27
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "My Readme Inspired by design and engineering leaders, I drafted my own readme.",
+      "href": "https://gpenston.com/posts/my-readme",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 2094,
+        "width": 320,
+        "height": 320
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 15,
+      "tag": "div",
+      "text": "",
+      "href": null,
+      "role": null,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "text": "Introducing Dark Mode to LinkedIn Learn how we brought Dark Mode to light for our members.",
+      "href": "https://gpenston.com/posts/introducing-dark-mode-to-linkedin",
+      "role": null,
+      "rect": {
+        "x": 560,
+        "y": 2094,
+        "width": 320,
+        "height": 320
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 17,
+      "tag": "div",
+      "text": "",
+      "href": null,
+      "role": null,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 18,
+      "tag": "a",
+      "text": "Slaying Feature Creep Avoid overcomplicating products with unnecessary features.",
+      "href": "https://gpenston.com/posts/slaying-feature-creep",
+      "role": null,
+      "rect": {
+        "x": 912,
+        "y": 2094,
+        "width": 320,
+        "height": 320
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 19,
+      "tag": "div",
+      "text": "",
+      "href": null,
+      "role": null,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 20,
+      "tag": "a",
+      "text": "Also at penston.studio",
+      "href": "https://penston.studio/",
+      "role": null,
+      "rect": {
+        "x": 378,
+        "y": 2517,
+        "width": 144,
+        "height": 17
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(201, 80, 4)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(201, 80, 4)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-021.png"
+    },
+    {
+      "index": 21,
+      "tag": "a",
+      "text": "Pinterest Link",
+      "href": "https://www.threads.com/@gpenstonhttps://www.threads.com/@gpenston",
+      "role": null,
+      "rect": {
+        "x": 1128,
+        "y": 2514,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 22,
+      "tag": "a",
+      "text": "LinkedIn Link",
+      "href": "https://linkedin.com/in/gpenston",
+      "role": null,
+      "rect": {
+        "x": 1168,
+        "y": 2514,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 23,
+      "tag": "a",
+      "text": "Bluesky Link",
+      "href": "https://github.com/gpenston",
+      "role": null,
+      "rect": {
+        "x": 1208,
+        "y": 2514,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    }
+  ]
+}

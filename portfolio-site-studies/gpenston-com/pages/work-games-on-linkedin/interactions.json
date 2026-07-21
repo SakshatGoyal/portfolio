@@ -1,0 +1,565 @@
+{
+  "capturedAt": "2026-07-15T06:43:48.687Z",
+  "targets": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://gpenston.com/",
+      "role": null,
+      "rect": {
+        "x": 626,
+        "y": 52,
+        "width": 47,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-001.png"
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "About",
+      "href": "https://gpenston.com/about",
+      "role": null,
+      "rect": {
+        "x": 697,
+        "y": 52,
+        "width": 51,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-002.png"
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "Work",
+      "href": "https://gpenston.com/work",
+      "role": null,
+      "rect": {
+        "x": 772,
+        "y": 52,
+        "width": 41,
+        "height": 23
+      },
+      "before": {
+        "color": "rgb(235, 90, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(235, 90, 0)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(235, 90, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(235, 90, 0)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "tag": "a",
+      "text": "Home",
+      "href": "https://gpenston.com/",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 40,
+        "width": 48,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "0.863811",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-004.png"
+    },
+    {
+      "index": 4,
+      "tag": "a",
+      "text": "Contact",
+      "href": "https://gpenston.com/contact",
+      "role": null,
+      "rect": {
+        "x": 1121,
+        "y": 42,
+        "width": 111,
+        "height": 43
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/",
+      "role": null,
+      "rect": {
+        "x": 783,
+        "y": 309,
+        "width": 57,
+        "height": 17
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(196, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(196, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-006.png"
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "albeit begrudgingly at times",
+      "href": "https://www.theverge.com/24152045/linkedin-games-crossclimb-queens-pinpoint",
+      "role": null,
+      "rect": {
+        "x": 785,
+        "y": 3494,
+        "width": 206,
+        "height": 20
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-007.png"
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.theverge.com/24152045/linkedin-games-crossclimb-queens-pinpoint",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 3692,
+        "width": 1024,
+        "height": 576
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "underline",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "underline",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "Play the games",
+      "href": "https://www.linkedin.com/games/",
+      "role": null,
+      "rect": {
+        "x": 208,
+        "y": 4600,
+        "width": 150,
+        "height": 27
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 9,
+      "tag": "button",
+      "text": "Play",
+      "href": null,
+      "role": null,
+      "rect": {
+        "x": 686,
+        "y": 4853,
+        "width": 68,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, -34, -24)",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, -34, -24)",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "",
+      "href": "https://gpenston.com/work/flite-com",
+      "role": null,
+      "rect": {
+        "x": 637,
+        "y": 5126,
+        "width": 48,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "Next",
+      "href": "https://gpenston.com/work/linkedin-dark-mode",
+      "role": null,
+      "rect": {
+        "x": 699,
+        "y": 5126,
+        "width": 105,
+        "height": 48
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "Also at penston.studio",
+      "href": "https://penston.studio/",
+      "role": null,
+      "rect": {
+        "x": 378,
+        "y": 5298,
+        "width": 144,
+        "height": 17
+      },
+      "before": {
+        "color": "rgb(26, 26, 26)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(26, 26, 26)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(195, 78, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(195, 78, 5)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": true,
+      "screenshot": "screenshots/hover/hover-013.png"
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "Pinterest Link",
+      "href": "https://www.threads.com/@gpenstonhttps://www.threads.com/@gpenston",
+      "role": null,
+      "rect": {
+        "x": 1128,
+        "y": 5294,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "LinkedIn Link",
+      "href": "https://linkedin.com/in/gpenston",
+      "role": null,
+      "rect": {
+        "x": 1168,
+        "y": 5294,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    },
+    {
+      "index": 15,
+      "tag": "a",
+      "text": "Bluesky Link",
+      "href": "https://github.com/gpenston",
+      "role": null,
+      "rect": {
+        "x": 1208,
+        "y": 5294,
+        "width": 24,
+        "height": 24
+      },
+      "before": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "after": {
+        "color": "rgb(0, 0, 238)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 238)",
+        "opacity": "1",
+        "transform": "none",
+        "textDecoration": "none",
+        "boxShadow": "none",
+        "cursor": "pointer"
+      },
+      "changed": false,
+      "screenshot": null
+    }
+  ]
+}

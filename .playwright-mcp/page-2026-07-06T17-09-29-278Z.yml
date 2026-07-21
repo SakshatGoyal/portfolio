@@ -1,0 +1,248 @@
+- generic [active] [ref=f2117e1]:
+  - generic [ref=f2117e2]:
+    - banner [ref=f2117e4]:
+      - generic [ref=f2117e8]:
+        - generic [ref=f2117e9]:
+          - link [ref=f2117e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=f2117e12]
+          - generic [ref=f2117e17]:
+            - link "Community" [ref=f2117e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f2117e19]: Community
+            - link "Salaries" [ref=f2117e20] [cursor=pointer]:
+              - /url: /salary
+              - generic [ref=f2117e21]: Salaries
+            - link "Reviews" [ref=f2117e22] [cursor=pointer]:
+              - /url: /company
+              - generic [ref=f2117e23]: Reviews
+            - link "Layoffs" [ref=f2117e24] [cursor=pointer]:
+              - /url: /layoffs
+              - generic [ref=f2117e25]: Layoffs
+            - link "Jobs" [ref=f2117e26] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=f2117e27]: Jobs
+            - generic [ref=f2117e29] [cursor=pointer]:
+              - generic [ref=f2117e30]: For Business
+              - img [ref=f2117e31]
+          - generic [ref=f2117e34]:
+            - img [ref=f2117e35]
+            - textbox "Search" [ref=f2117e37]
+        - generic [ref=f2117e39]:
+          - button "Sign in" [ref=f2117e40] [cursor=pointer]
+          - link "Sign up" [ref=f2117e41] [cursor=pointer]:
+            - /url: /sign-up?next=/&from=sign-up-top-menu
+    - generic [ref=f2117e44]:
+      - generic [ref=f2117e47]:
+        - generic [ref=f2117e48]:
+          - link "Feed" [ref=f2117e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f2117e50]:
+              - img [ref=f2117e51]
+              - text: Feed
+          - link "My Company" [ref=f2117e55] [cursor=pointer]:
+            - /url: /my-company
+            - generic [ref=f2117e56]:
+              - img [ref=f2117e57]
+              - text: My Company
+          - link "Blind Alters" [ref=f2117e59] [cursor=pointer]:
+            - /url: /alter
+            - generic [ref=f2117e60]:
+              - img [ref=f2117e61]
+              - text: Blind Alters
+          - link "Resources" [ref=f2117e64] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=f2117e65]:
+              - img [ref=f2117e66]
+              - text: Resources
+          - link "Best of Blind NEW" [ref=f2117e69] [cursor=pointer]:
+            - /url: /best/2026
+            - generic [ref=f2117e70]:
+              - img [ref=f2117e71]
+              - text: Best of Blind
+              - generic [ref=f2117e74]: NEW
+          - link "Trending" [ref=f2117e75] [cursor=pointer]:
+            - /url: /trending
+            - generic [ref=f2117e76]:
+              - img [ref=f2117e77]
+              - text: Trending
+        - generic [ref=f2117e81]:
+          - link "All Channels" [ref=f2117e82] [cursor=pointer]:
+            - /url: /channels
+            - generic [ref=f2117e83]:
+              - img [ref=f2117e84]
+              - text: All Channels
+          - generic [ref=f2117e86]:
+            - heading "Recent" [level=2] [ref=f2117e87] [cursor=pointer]:
+              - generic [ref=f2117e88]: Recent
+              - img [ref=f2117e89]
+            - generic [ref=f2117e92]:
+              - link "Channel logo Design" [ref=f2117e94] [cursor=pointer]:
+                - /url: /channels/design
+                - generic [ref=f2117e95]:
+                  - img "Channel logo" [ref=f2117e96]
+                  - generic [ref=f2117e97]: Design
+              - link "Channel logo Tech" [ref=f2117e99] [cursor=pointer]:
+                - /url: /channels/tech
+                - generic [ref=f2117e100]:
+                  - img "Channel logo" [ref=f2117e101]
+                  - generic [ref=f2117e102]: Tech
+          - generic [ref=f2117e104]:
+            - generic [ref=f2117e105]:
+              - heading "Location" [level=2] [ref=f2117e106] [cursor=pointer]:
+                - generic [ref=f2117e107]: Location
+                - img [ref=f2117e108]
+              - generic [ref=f2117e110]:
+                - generic [ref=f2117e111]:
+                  - link "Channel logo Dallas" [ref=f2117e113] [cursor=pointer]:
+                    - /url: /channels/dallas
+                    - generic [ref=f2117e114]:
+                      - img "Channel logo" [ref=f2117e115]
+                      - generic [ref=f2117e116]: Dallas
+                  - link "Channel logo Miami" [ref=f2117e118] [cursor=pointer]:
+                    - /url: /channels/miami
+                    - generic [ref=f2117e119]:
+                      - img "Channel logo" [ref=f2117e120]
+                      - generic [ref=f2117e121]: Miami
+                  - link "Channel logo Chicago" [ref=f2117e123] [cursor=pointer]:
+                    - /url: /channels/chicago
+                    - generic [ref=f2117e124]:
+                      - img "Channel logo" [ref=f2117e125]
+                      - generic [ref=f2117e126]: Chicago
+                  - link "Channel logo New York" [ref=f2117e128] [cursor=pointer]:
+                    - /url: /channels/new-york
+                    - generic [ref=f2117e129]:
+                      - img "Channel logo" [ref=f2117e130]
+                      - generic [ref=f2117e131]: New York
+                  - link "Channel logo Austin" [ref=f2117e133] [cursor=pointer]:
+                    - /url: /channels/austin
+                    - generic [ref=f2117e134]:
+                      - img "Channel logo" [ref=f2117e135]
+                      - generic [ref=f2117e136]: Austin
+                - button "Show More" [ref=f2117e137] [cursor=pointer]
+            - heading "Industry" [level=2] [ref=f2117e140] [cursor=pointer]:
+              - generic [ref=f2117e141]: Industry
+              - img [ref=f2117e142]
+            - heading "Job Function" [level=2] [ref=f2117e145] [cursor=pointer]:
+              - generic [ref=f2117e146]: Job Function
+              - img [ref=f2117e147]
+            - heading "Learning & Advising" [level=2] [ref=f2117e150] [cursor=pointer]:
+              - generic [ref=f2117e151]: Learning & Advising
+              - img [ref=f2117e152]
+            - heading "Money" [level=2] [ref=f2117e155] [cursor=pointer]:
+              - generic [ref=f2117e156]: Money
+              - img [ref=f2117e157]
+            - button "Show More Channels" [ref=f2117e159] [cursor=pointer]
+        - generic [ref=f2117e161]:
+          - generic [ref=f2117e162]:
+            - generic [ref=f2117e163]: Blind
+            - link "Why Blind" [ref=f2117e164] [cursor=pointer]:
+              - /url: /why-blind
+              - generic [ref=f2117e165]: Why Blind
+            - link "Polls" [ref=f2117e166] [cursor=pointer]:
+              - /url: /polls
+              - generic [ref=f2117e167]: Polls
+            - link "Blog" [ref=f2117e168] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f2117e169]: Blog
+            - link "Careers" [ref=f2117e170] [cursor=pointer]:
+              - /url: https://careers.teamblind.com/
+              - generic [ref=f2117e171]: Careers
+            - link "Privacy" [ref=f2117e172] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/privacy
+              - generic [ref=f2117e173]: Privacy
+            - link "Terms" [ref=f2117e174] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/term
+              - generic [ref=f2117e175]: Terms
+          - generic [ref=f2117e176]:
+            - generic [ref=f2117e177]: Support
+            - link "Community Guidelines" [ref=f2117e178] [cursor=pointer]:
+              - /url: /community-guidelines
+              - generic [ref=f2117e179]: Community Guidelines
+            - link "FAQs" [ref=f2117e180] [cursor=pointer]:
+              - /url: https://help.teamblind.com/
+              - generic [ref=f2117e181]: FAQs
+            - link "Newsroom" [ref=f2117e182] [cursor=pointer]:
+              - /url: https://press.teamblind.com/
+              - generic [ref=f2117e183]: Newsroom
+            - link "Updates" [ref=f2117e184] [cursor=pointer]:
+              - /url: /updates
+              - generic [ref=f2117e185]: Updates
+            - generic [ref=f2117e186]:
+              - button "Do Not Sell or Share My Personal Information" [ref=f2117e187] [cursor=pointer]
+              - generic [ref=f2117e188]: 2026 Teamblind Inc.
+      - generic [ref=f2117e191]:
+        - generic [ref=f2117e192]:
+          - generic:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /channels/design
+              - generic:
+                - generic:
+                  - link "Design Career" [ref=f2117e193] [cursor=pointer]:
+                    - /url: /channels/design
+                    - generic [ref=f2117e194]: Design Career
+                  - img
+                  - generic: Sep 30, 2020
+                - generic:
+                  - text: New
+                  - img
+                  - text: dlJs13
+              - button "Bookmark this post" [ref=f2117e196] [cursor=pointer]:
+                - img [ref=f2117e197]
+          - generic [ref=f2117e199]:
+            - heading "Question to hiring managers and HR, what do you look for in a UX portfolio? Prefer pdf or online portfolio?" [level=1] [ref=f2117e200]
+            - paragraph [ref=f2117e201]:
+              - link "#ui" [ref=f2117e202] [cursor=pointer]:
+                - /url: /search/ui
+              - text: /ux
+            - list [ref=f2117e203]:
+              - listitem [ref=f2117e204]:
+                - link "Amazon deals -Lowest price in 365D" [ref=f2117e205] [cursor=pointer]:
+                  - /url: https://amzn.to/4eIRWR3
+                  - generic [ref=f2117e207]: Amazon deals -Lowest price in 365D
+              - listitem [ref=f2117e208]:
+                - link "Career Upgrade Essentials" [ref=f2117e209] [cursor=pointer]:
+                  - /url: https://amzn.to/44Ei1KX
+                  - generic [ref=f2117e211]: Career Upgrade Essentials
+          - generic:
+            - generic:
+              - button "Like this post" [ref=f2117e212] [cursor=pointer]:
+                - img [ref=f2117e213]
+                - text: "1"
+              - button "Comment on this post" [ref=f2117e215] [cursor=pointer]:
+                - img [ref=f2117e216]
+                - text: "3"
+              - button "Views":
+                - img
+                - text: "323"
+            - generic:
+              - button [ref=f2117e218] [cursor=pointer]:
+                - img [ref=f2117e219]
+              - button "More options" [ref=f2117e222] [cursor=pointer]:
+                - img [ref=f2117e223]
+        - generic [ref=f2117e233]:
+          - textbox "Add a comment" [ref=f2117e234]
+          - generic [ref=f2117e235]:
+            - generic [ref=f2117e236]:
+              - button [ref=f2117e237] [cursor=pointer]:
+                - img [ref=f2117e238]
+              - generic [ref=f2117e242]:
+                - checkbox "Hide company name 0 credits left" [ref=f2117e243] [cursor=pointer]
+                - generic [ref=f2117e244] [cursor=pointer]:
+                  - generic [ref=f2117e245]: Hide company name
+                  - generic [ref=f2117e246]: 0 credits left
+            - button "Post" [ref=f2117e248] [cursor=pointer]
+    - region "Notifications alt+T"
+  - generic [ref=f2117e249]: .
+  - alert [ref=f2117e250]
+  - generic [ref=f2117e251]:
+    - iframe [ref=f2117e254]:
+      - generic [ref=f2128e3]:
+        - iframe [ref=f2128e5]:
+          
+        - navigation
+    - button [ref=f2117e255] [cursor=pointer]
+  - button "Do Not Sell or Share My Personal Information" [ref=f2117e259] [cursor=pointer]:
+    - paragraph [ref=f2117e261]: Do Not Sell or Share My Personal Information

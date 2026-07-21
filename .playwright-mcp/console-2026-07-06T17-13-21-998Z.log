@@ -1,0 +1,82 @@
+[     650ms] [WARNING] [GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[     918ms] [LOG] %craven%c Raven v1.20.0-69wxiu background-color:#000;margin-left:1px;padding:1px 3px;font-size:0.75em;color:#ffffff; font-size:0.9em; @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    1010ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[    1062ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:40123)
+    at io (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:90844)
+    at sc (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:131315)
+    at https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126205
+    at u9 (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126306)
+    at s$ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:152688)
+    at MessagePort._ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:1647)
+[    1143ms] [WARNING] 3 is not a valid value for publisherSpecialPurposesIds @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1180ms] [LOG] uspData default usp value based on gpc signal @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    1180ms] [WARNING] globalPrivacyControl is not available in the browser. Setting usp string as  1NN @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1181ms] [LOG] setting mspa footer with opt out defaults in mspa-api @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    1181ms] [ERROR] MspaFooterHTMLId not found, inserting text into footer @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1188ms] [WARNING] Google basic consent is not applicable. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1190ms] [LOG] Less than 30 minute have passed since the stored timestamp. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    1593ms] [LOG] click url value: https://clk.srv.stackadapt.com/clk?aid=1-1641-178335800302582809205307-2&cid=3276558&adid=14754607&sid=1&uid=MdxawQ1k0o5G5pvBeS-byg&did=teamblind.com%3A%3A85&adurl=https%3A%2F%2Fuw.srv.stackadapt.com&t=1783358003&brandname=SME&adheading=&iidx=0&nid=85&bip=MTA3LjMuMTM3LjI0NA&conv=true&curl=aHR0cHM6Ly93d3cuc21lLm9yZy9icmlkZ2UyNj91dG1fc291cmNlPXN0YWNrYWRhcHQmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj0yNkJyaWRnZQ%3D%3D&r= @ https://creative.stackadapt.com/js/param.js:210
+[    1678ms] [LOG] Push notifications powered by Aimtell. Learn more at https://aimtell.com/developers @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    1944ms] Failed to read a named property 'href' from 'Location': Blocked a frame with origin "https://scripts.opti-digital.com" from accessing a frame with origin "https://www.teamblind.com". Protocols, domains, and ports must match.
+[    2888ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    3098ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3139ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    3098ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3291ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3659ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    3098ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3291ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3776ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    6969ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.sharethrough.com/universal/v1?supply_id=av4BPcZO&gdpr=0&gdpr_consent=:0
+[    7151ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://sync-tb.yrxtam.com/ffb9b365d87c2b3126298b7483e4ddd1.gif?puid=[UID]&redir=https%3A%2F%2Fs.ad.smaato.net%2Fc%2F%3FdspId%3D1519%26dspCookie%3D%24UID%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent=&coppa=[COPPA]&gpp=[GPP]&gpp_sid=[GPP_SID]:0
+[    7166ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    7170ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://csync.copper6.com/fbd260923f6815f04a34938c00400dd6.gif?gdpr=0&gdpr_consent=&redir=https%3A%2F%2Fs.ad.smaato.net%2Fc%2F%3FdspId%3D1248%26dspCookie%3D%5BUID%5D%26gdpr%3D0%26gdpr_consent%3D:0
+[    7196ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cm-x.mgid.com/5f771db5775920b3ea597ee1392355e9.gif?puid=[UID]&redir=https%3A%2F%2Fs.ad.smaato.net%2Fc%2F%3FdspId%3D1466%26dspCookie%3D%5BUID%5D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent=&coppa=[COPPA]&gpp=[GPP]&gpp_sid=[GPP_SID]:0
+[    7203ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://us.shb-sync.com/bf2debb3-8b3f-11ed-9a3c-0cc47a787f5e.gif?redir=https%3A%2F%2Fs.ad.smaato.net%2Fc%2F%3FdspId%3D1170%26dspCookie%3D%24UID%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent=:0
+[    7211ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://us.shb-sync.com/bf2ecb77-8b3f-11ed-9a3c-0cc47a787f5e.gif?puid=[UID]&redir=https%3A%2F%2Fs.ad.smaato.net%2Fc%2F%3FdspId%3D1074%26dspCookie%3D%5BUID%5D%26gdpr%3D0%26gdpr_consent%3D&gdpr=0&gdpr_consent=:0
+[    7244ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://b1sync.zemanta.com/usersync/ogury/?gdpr=0&gdpr_consent=&cb=https%3A%2F%2Fms-cookie-sync.presage.io%2Fuser-sync%3Foutbrain_id%3D__ZUID__:0
+[    7372ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://csync.copper6.com/fbd260923f6815f04a34938c00400dd6.gif?gdpr=0&gdpr_consent=[GDPR_CONSENT]&redir=https%3A%2F%2Fs.ad.smaato.net%2Fc%2F%3FdspId%3D1248%26dspCookie%3D%5BUID%5D%26gdpr%3D0%26gdpr_consent%3D[GDPR_CONSENT]:0
+[    7375ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://secure.adnxs.com/[RED]:0
+[    7422ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cs-server-s2s.yellowblue.io/[RED]:0
+[    7434ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://pxl.iqm.com/i/ck/smaato?&redir=https%3A%2F%2Fs.ad.smaato.net%2Fc%2F%3FdspId%3D1126%26dspCookie%3D%7BIQM_COOKIE%7D%26gdpr%3D0%26gdpr_consent%3D:0
+[    7450ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://visitor-pgammedia.omnitagjs.com/visitor/%5BRED%5D?visitor=4431a17e-bd89-4cb2-af5d-09b87ae17334:0
+[    7917ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://secure.adnxs.com/[RED]:0
+[    7985ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cs.admanmedia.com/c899400112bd5b9243b3993d9a074653.gif?puid=[UID]&redir=https%3A%2F%2Fcsync.smilewanted.com%2Fset_partner_userid_get%2Fillumin%2F%5BUID%5D&gdpr=0&gdpr_consent=:0
+[    8497ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://match.sharethrough.com/universal/v1?supply_id=Tbdft1Ow:0
+[    8543ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    8575ms] [WARNING] [GPT] Slot inpost-bottom rendered inside of the viewport.
+https://goo.gle/gpt-message#169 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[    3098ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3291ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3776ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    8672ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    8879ms] [ERROR] Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM @ https://cs.admanmedia.com/32ec4e8622ba179ed7b022acd29be9f1.gif?puid=4431a17e-bd89-4cb2-af5d-09b87ae17334&redir=[RED]&gdpr=[GDPR]d&gdpr_consent=[GDPR_CONSENT]&ccpa=[CCPA]&coppa=0:0
+[    8880ms] [ERROR] Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM @ https://cs.admanmedia.com/0535b9acf7ce6904b890e8d258c45009.gif?gdpr=[GDPR]&gdpr_consent=[GDPR_CONSENT]&ccpa=[CCPA]&coppa=0&redir=https%3A%2F%2Fcs.pgammedia.com%2F41c1a65ad089ea94db1baec942f4daf6.gif%3Fpuid%3D%5BUID%5D%26redir%3D%5BRED%5D%26gdpr%3D%5BGDPR%5D%26gdpr_consent%3D%5BGDPR_CONSENT%5D%26coppa%3D%5BCOPPA%5D%26gpp%3D%5BGPP%5D%26gpp_sid%3D%5BGPP_SID%5D:0
+[    9236ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://cs.pgammedia.com/bf4103da5f0fb6ae0166419ea1a784aa.gif?gdpr=$$[GDPR]&gdpr_consent=$$[GDPR_CONSENT]&us_privacy=$[CCPA]&uid=$4431a17e-bd89-4cb2-af5d-09b87ae17334&cookie_age=$[COOKIE_AGE]:0
+[    9466ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://tracker.pgamrtb.com/sync?id=4&uid=19258db4-e228-41b8-bde9-d0d78cfaaf52-6a4be04e-5553&gdpr=0&gdpr_consent=:0
+[   10582ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[   10888ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   11440ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://tracker-shr.ortb.net/sync?id=1&uid=ID5-5-00b1aa1b-983f-4cd9-a95e-dd2fe1b23c80:0
+[   15836ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   21863ms] [LOG] Text effects cannot be played for page SA_textgroup_2 because it was not initialized. @ https://html.stackadapt.com/SME/SME_025_052026_EmergingProfessionalsCampaign_Published/Animated+001/Responsive/index.html?&click=https%3A%2F%2Fclk.srv.stackadapt.com%2Fclk%3Faid%3D1-1641-178335800302582809205307-2%26cid%3D3276558%26adid%3D14754607%26sid%3D1%26uid%3DMdxawQ1k0o5G5pvBeS-byg%26did%3Dteamblind.com%253A%253A85%26adurl%3Dhttps%253A%252F%252Fuw.srv.stackadapt.com%26t%3D1783358003%26brandname%3DSME%26adheading%3D%26iidx%3D0%26nid%3D85%26bip%3DMTA3LjMuMTM3LjI0NA%26conv%3Dtrue%26curl%3DaHR0cHM6Ly93d3cuc21lLm9yZy9icmlkZ2UyNj91dG1fc291cmNlPXN0YWNrYWRhcHQmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj0yNkJyaWRnZQ%253D%253D%26r%3D:222
+[   33211ms] [LOG] No new positions to boot @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[   33684ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[   33987ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   35420ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d14pdm1b7fi5kh/script.js:0
+[    3098ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3291ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3776ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    8672ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   35560ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   37037ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://ittpx.eskimi.com/sync?sp_id=64&gdpr=0&gdpr_consent=&us_privacy=1YNN:0
+[    3098ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3291ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3776ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    8672ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   35560ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   37569ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   37871ms] [TIMEEND] a: 0.001953125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   42980ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://pxl.iqm.com/i/ck/equativ?cid=4871772273629217107&gdpr=0&gdpr_consent=:0

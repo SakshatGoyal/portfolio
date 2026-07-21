@@ -1,0 +1,278 @@
+- generic [active] [ref=f2352e1]:
+  - generic [ref=f2352e2]:
+    - banner [ref=f2352e4]:
+      - generic [ref=f2352e8]:
+        - generic [ref=f2352e9]:
+          - link [ref=f2352e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=f2352e12]
+          - generic [ref=f2352e17]:
+            - link "Community" [ref=f2352e18] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f2352e19]: Community
+            - link "Salaries" [ref=f2352e20] [cursor=pointer]:
+              - /url: /salary
+              - generic [ref=f2352e21]: Salaries
+            - link "Reviews" [ref=f2352e22] [cursor=pointer]:
+              - /url: /company
+              - generic [ref=f2352e23]: Reviews
+            - link "Layoffs" [ref=f2352e24] [cursor=pointer]:
+              - /url: /layoffs
+              - generic [ref=f2352e25]: Layoffs
+            - link "Jobs" [ref=f2352e26] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=f2352e27]: Jobs
+            - generic [ref=f2352e29] [cursor=pointer]:
+              - generic [ref=f2352e30]: For Business
+              - img [ref=f2352e31]
+          - generic [ref=f2352e34]:
+            - img [ref=f2352e35]
+            - textbox "Search" [ref=f2352e37]
+        - generic [ref=f2352e39]:
+          - button "Sign in" [ref=f2352e40] [cursor=pointer]
+          - link "Sign up" [ref=f2352e41] [cursor=pointer]:
+            - /url: /sign-up?next=/&from=sign-up-top-menu
+    - generic [ref=f2352e44]:
+      - generic [ref=f2352e47]:
+        - generic [ref=f2352e48]:
+          - link "Feed" [ref=f2352e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f2352e50]:
+              - img [ref=f2352e51]
+              - text: Feed
+          - link "My Company" [ref=f2352e55] [cursor=pointer]:
+            - /url: /my-company
+            - generic [ref=f2352e56]:
+              - img [ref=f2352e57]
+              - text: My Company
+          - link "Blind Alters" [ref=f2352e59] [cursor=pointer]:
+            - /url: /alter
+            - generic [ref=f2352e60]:
+              - img [ref=f2352e61]
+              - text: Blind Alters
+          - link "Resources" [ref=f2352e64] [cursor=pointer]:
+            - /url: /resources
+            - generic [ref=f2352e65]:
+              - img [ref=f2352e66]
+              - text: Resources
+          - link "Best of Blind NEW" [ref=f2352e69] [cursor=pointer]:
+            - /url: /best/2026
+            - generic [ref=f2352e70]:
+              - img [ref=f2352e71]
+              - text: Best of Blind
+              - generic [ref=f2352e74]: NEW
+          - link "Trending" [ref=f2352e75] [cursor=pointer]:
+            - /url: /trending
+            - generic [ref=f2352e76]:
+              - img [ref=f2352e77]
+              - text: Trending
+        - generic [ref=f2352e81]:
+          - link "All Channels" [ref=f2352e82] [cursor=pointer]:
+            - /url: /channels
+            - generic [ref=f2352e83]:
+              - img [ref=f2352e84]
+              - text: All Channels
+          - generic [ref=f2352e86]:
+            - heading "Recent" [level=2] [ref=f2352e87] [cursor=pointer]:
+              - generic [ref=f2352e88]: Recent
+              - img [ref=f2352e89]
+            - generic [ref=f2352e92]:
+              - link "Channel logo Design" [ref=f2352e94] [cursor=pointer]:
+                - /url: /channels/design
+                - generic [ref=f2352e95]:
+                  - img "Channel logo" [ref=f2352e96]
+                  - generic [ref=f2352e97]: Design
+              - link "Channel logo Tech" [ref=f2352e99] [cursor=pointer]:
+                - /url: /channels/tech
+                - generic [ref=f2352e100]:
+                  - img "Channel logo" [ref=f2352e101]
+                  - generic [ref=f2352e102]: Tech
+          - generic [ref=f2352e104]:
+            - generic [ref=f2352e105]:
+              - heading "Location" [level=2] [ref=f2352e106] [cursor=pointer]:
+                - generic [ref=f2352e107]: Location
+                - img [ref=f2352e108]
+              - generic [ref=f2352e110]:
+                - generic [ref=f2352e111]:
+                  - link "Channel logo Dallas" [ref=f2352e113] [cursor=pointer]:
+                    - /url: /channels/dallas
+                    - generic [ref=f2352e114]:
+                      - img "Channel logo" [ref=f2352e115]
+                      - generic [ref=f2352e116]: Dallas
+                  - link "Channel logo Miami" [ref=f2352e118] [cursor=pointer]:
+                    - /url: /channels/miami
+                    - generic [ref=f2352e119]:
+                      - img "Channel logo" [ref=f2352e120]
+                      - generic [ref=f2352e121]: Miami
+                  - link "Channel logo Chicago" [ref=f2352e123] [cursor=pointer]:
+                    - /url: /channels/chicago
+                    - generic [ref=f2352e124]:
+                      - img "Channel logo" [ref=f2352e125]
+                      - generic [ref=f2352e126]: Chicago
+                  - link "Channel logo New York" [ref=f2352e128] [cursor=pointer]:
+                    - /url: /channels/new-york
+                    - generic [ref=f2352e129]:
+                      - img "Channel logo" [ref=f2352e130]
+                      - generic [ref=f2352e131]: New York
+                  - link "Channel logo Austin" [ref=f2352e133] [cursor=pointer]:
+                    - /url: /channels/austin
+                    - generic [ref=f2352e134]:
+                      - img "Channel logo" [ref=f2352e135]
+                      - generic [ref=f2352e136]: Austin
+                - button "Show More" [ref=f2352e137] [cursor=pointer]
+            - heading "Industry" [level=2] [ref=f2352e140] [cursor=pointer]:
+              - generic [ref=f2352e141]: Industry
+              - img [ref=f2352e142]
+            - heading "Job Function" [level=2] [ref=f2352e145] [cursor=pointer]:
+              - generic [ref=f2352e146]: Job Function
+              - img [ref=f2352e147]
+            - heading "Learning & Advising" [level=2] [ref=f2352e150] [cursor=pointer]:
+              - generic [ref=f2352e151]: Learning & Advising
+              - img [ref=f2352e152]
+            - heading "Money" [level=2] [ref=f2352e155] [cursor=pointer]:
+              - generic [ref=f2352e156]: Money
+              - img [ref=f2352e157]
+            - button "Show More Channels" [ref=f2352e159] [cursor=pointer]
+        - generic [ref=f2352e161]:
+          - generic [ref=f2352e162]:
+            - generic [ref=f2352e163]: Blind
+            - link "Why Blind" [ref=f2352e164] [cursor=pointer]:
+              - /url: /why-blind
+              - generic [ref=f2352e165]: Why Blind
+            - link "Polls" [ref=f2352e166] [cursor=pointer]:
+              - /url: /polls
+              - generic [ref=f2352e167]: Polls
+            - link "Blog" [ref=f2352e168] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f2352e169]: Blog
+            - link "Careers" [ref=f2352e170] [cursor=pointer]:
+              - /url: https://careers.teamblind.com/
+              - generic [ref=f2352e171]: Careers
+            - link "Privacy" [ref=f2352e172] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/privacy
+              - generic [ref=f2352e173]: Privacy
+            - link "Terms" [ref=f2352e174] [cursor=pointer]:
+              - /url: https://us.teamblind.com/setting/term
+              - generic [ref=f2352e175]: Terms
+          - generic [ref=f2352e176]:
+            - generic [ref=f2352e177]: Support
+            - link "Community Guidelines" [ref=f2352e178] [cursor=pointer]:
+              - /url: /community-guidelines
+              - generic [ref=f2352e179]: Community Guidelines
+            - link "FAQs" [ref=f2352e180] [cursor=pointer]:
+              - /url: https://help.teamblind.com/
+              - generic [ref=f2352e181]: FAQs
+            - link "Newsroom" [ref=f2352e182] [cursor=pointer]:
+              - /url: https://press.teamblind.com/
+              - generic [ref=f2352e183]: Newsroom
+            - link "Updates" [ref=f2352e184] [cursor=pointer]:
+              - /url: /updates
+              - generic [ref=f2352e185]: Updates
+            - generic [ref=f2352e186]:
+              - button "Do Not Sell or Share My Personal Information" [ref=f2352e187] [cursor=pointer]
+              - generic [ref=f2352e188]: 2026 Teamblind Inc.
+      - generic [ref=f2352e191]:
+        - generic [ref=f2352e192]:
+          - generic:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /channels/design
+              - generic:
+                - generic:
+                  - link "Design Career" [ref=f2352e193] [cursor=pointer]:
+                    - /url: /channels/design
+                    - generic [ref=f2352e194]: Design Career
+                  - img
+                  - generic: Aug 16, 2022
+                - generic:
+                  - link "ADP" [ref=f2352e195] [cursor=pointer]:
+                    - /url: /company/ADP
+                  - img
+                  - text: Cwae13
+              - button "Bookmark this post" [ref=f2352e197] [cursor=pointer]:
+                - img [ref=f2352e198]
+          - generic [ref=f2352e200]:
+            - heading "Design file walkthrough interview step" [level=1] [ref=f2352e201]
+            - paragraph [ref=f2352e202]:
+              - text: I'm in the early stages of interviewing with
+              - link "#Square" [ref=f2352e203] [cursor=pointer]:
+                - /url: /search/Square
+              - text: for a product design role. I've chatted with the hiring manager briefly to learn more about the role and the recruiter for 30 minutes. The next step is to "walkthrough a Figma file with the hiring manager." I'm not supposed to share a presentation; apparently that will come later. I'm trying to get clarification, but what would you optimize for? I've spent a lot of time crafting a portfolio story and I fear sharing my design file will be confusing and reveal lots of inconsistencies.
+              - link "#design" [ref=f2352e204] [cursor=pointer]:
+                - /url: /search/design
+              - link "#interviews" [ref=f2352e205] [cursor=pointer]:
+                - /url: /search/interviews
+              - link "#ui" [ref=f2352e206] [cursor=pointer]:
+                - /url: /search/ui
+              - text: /ux
+              - link "#portfolio" [ref=f2352e207] [cursor=pointer]:
+                - /url: /search/portfolio
+              - link "#productdesign" [ref=f2352e208] [cursor=pointer]:
+                - /url: /search/productdesign
+            - list [ref=f2352e209]:
+              - listitem [ref=f2352e210]:
+                - link "Amazon deals -Lowest price in 365D" [ref=f2352e211] [cursor=pointer]:
+                  - /url: https://amzn.to/4eIRWR3
+                  - generic [ref=f2352e213]: Amazon deals -Lowest price in 365D
+              - listitem [ref=f2352e214]:
+                - link "Fresh Odor Remover 37%OFF $10<$17" [ref=f2352e215] [cursor=pointer]:
+                  - /url: https://www.amazon.com/dp/B09NW9G177?tag=teamblind_actiontag-20
+                  - generic [ref=f2352e217]: Fresh Odor Remover 37%OFF $10<$17
+          - generic:
+            - generic:
+              - button "Like this post" [ref=f2352e218] [cursor=pointer]:
+                - img [ref=f2352e219]
+                - text: "1"
+              - button "Comment on this post" [ref=f2352e221] [cursor=pointer]:
+                - img [ref=f2352e222]
+                - text: "12"
+              - button "Views":
+                - img
+                - text: "379"
+            - generic:
+              - button [ref=f2352e224] [cursor=pointer]:
+                - img [ref=f2352e225]
+              - button "More options" [ref=f2352e228] [cursor=pointer]:
+                - img [ref=f2352e229]
+        - generic [ref=f2352e298]:
+          - textbox "Add a comment" [ref=f2352e299]
+          - generic [ref=f2352e300]:
+            - generic [ref=f2352e301]:
+              - button [ref=f2352e302] [cursor=pointer]:
+                - img [ref=f2352e303]
+              - generic [ref=f2352e307]:
+                - checkbox "Hide company name 0 credits left" [ref=f2352e308] [cursor=pointer]
+                - generic [ref=f2352e309] [cursor=pointer]:
+                  - generic [ref=f2352e310]: Hide company name
+                  - generic [ref=f2352e311]: 0 credits left
+            - button "Post" [ref=f2352e313] [cursor=pointer]
+    - region "Notifications alt+T"
+  - generic [ref=f2352e314]: .
+  - alert [ref=f2352e315]
+  - generic [ref=f2352e316]:
+    - iframe [ref=f2352e319]:
+      - generic [ref=f2360e3]:
+        - iframe [ref=f2360e5]:
+          - generic [active] [ref=f2361e1]:
+            - generic [ref=f2361e2]:
+              - generic [ref=f2361e5]:
+                - generic [ref=f2361e8]:
+                  - link "Click Here" [ref=f2361e9] [cursor=pointer]:
+                    - /url: https://exch.quantserve.com/r?us_privacy=&a=p-1RYxePXT9bCS2&labels=_qc.clk,_click.adserver.rtb,_click.rand.1646077883&rtbip=192.184.70.179&rtbdata2=EAM6GWh0dHBzOi8vd3d3LnRlYW1ibGluZC5jb21aKHdoSXBqWkZES1l2WlJYbU53Qll3M2NORWVOZlpFUy1Na0VaamdNd0GAAcWwi-8JugEkQjE0QzhCOTItRENGMS00NDc5LTlEMkYtMDc5ODU5RUNCQjM3wAGA_QbIAeqso8PzM9oBJTFCM0ZBMUUxLUM0QTQtNEEzMS1BQkE4LTJFNzYwMjhDQjAxRE2wAgjIAgDQAs7hhvv4n_fMqQHoAn7yAg0IABDj5emEuqyi9P4B8gIMCH4Qq-ny__eOzv4Q8gIPCNv1HhCt1dfwksLC3acB-AIAigMGMTU4OTM5mAMAqAMAsgMEawOJ9LoDEgmSTrLBfN-q9BHhQYxGM5CUscIDEgloQk4rui056hHGhqH9ZWolhsgDgJKAENgDu8_0kAbiAw9wLTFSWXhlUFhUOWJDUzLqAwYIrAIQ2ATyAwU5NDEwOfgDAIAEsAKKBAI3N5oEEgnaQQmcPDJZHRHjIGQUrchNjKIEEgmSTrLBfN-q9BHhQYxGM5CUsaoEEgmSTrLBfN-q9BHhQYxGM5CUsbgE0AXQBAvyBAJVU4AFAYoFKjIwOGE2NzlkMjRlZjhlM2NiYThkZmNmZmQ0MjNmZmNkNTA2NThlZTFhYZAFAZoFFSCKZ50k7448uo38_9Qj_81QZY7hqqIFJDdxN3QwcmFyOS16YmtOSHV5NVBUbDd1cThzcmhwbWxNWlNVPbAFArgFAMAFxbCL7wnIBeXSqgTSBQYIAxACGAToBQaaBhQKEgnaQQmcPDJZHRHjIGQUrchNjKAGALUGZSkFOboGYwoCVVMSAkNBGKcGIg9zYW4lMjBmcmFuY2lzY28qBTk0MTA5Oidjb21jYXN0JTIwY2FibGUlMjBjb21tdW5pY2F0aW9ucyUyMGluYy5aFWNvbWNhc3QlMjBjb3Jwb3JhdGlvbskGoRgyam6DaBPxBhAYMmpug2gTgAcAigcSCWhCTiu6LTnqEcaGof1laiWGsAfmhLQEuAe90J0F2AcE&rtb_id=CaEYMmpug2gTERAYMmpug2gTGDw092hUxP_lqTdgCFo&redirecturl3=https://servedby.flashtalking.com/click/8/225725;10870618;6128104;210;0/?gdpr=0&ft_impID=1E531B99-7101-E2EF-6938-34A8A31032AB&ft_custom=SyU74DtWTZdXJDznTko850lWJec4JjCLSCI_kEpVMOU4VzniN6C6SAg=&g=676174D553E5BD&random=568379.0526125025&ft_width=300&ft_height=600&url=https://www.adobe.com/creativecloud/plans.html?plan=individual&sdid=HCS3XFTQ&mv=display&mv2=display
+                    - img "Click Here" [ref=f2361e10]
+                  - link "AdChoices arrow" [ref=f2361e12] [cursor=pointer]:
+                    - /url: http://www.youronlinechoices.com
+                    - img "AdChoices arrow" [ref=f2361e13]
+                - link [ref=f2361e14] [cursor=pointer]:
+                  - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=1646077883;labels=_click.creative.iab,_qc.iab.clk.p-1RYxePXT9bCS2.0.10971197;redirecturl2=http://www.quantcast.com/adchoices
+                  - img [ref=f2361e16]
+              - iframe
+              - iframe
+            - iframe
+            - iframe
+        - navigation
+    - button [ref=f2352e320] [cursor=pointer]
+  - generic [ref=f2352e322]: advertisement
+  - generic [ref=f2352e323]: advertisement
+  - generic [ref=f2352e324]: advertisement

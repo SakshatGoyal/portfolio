@@ -1,0 +1,32 @@
+[     717ms] [WARNING] [GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606290101/pubads_impl.js?cb=31099461:18
+[    1145ms] [WARNING] 3 is not a valid value for publisherSpecialPurposesIds @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1444ms] [LOG] uspData default usp value based on gpc signal @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1445ms] [WARNING] globalPrivacyControl is not available in the browser. Setting usp string as  1NN @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1445ms] [LOG] setting mspa footer with opt out defaults in mspa-api @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1445ms] [ERROR] MspaFooterHTMLId not found, inserting text into footer @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1445ms] [WARNING] Google basic consent is not applicable. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1446ms] [LOG] Less than 30 minute have passed since the stored timestamp. @ https://cmp.inmobi.com/tcfv2/61/cmp2.js?referer=www.teamblind.com:1
+[    1650ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:40123)
+    at io (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:90844)
+    at sc (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:131315)
+    at https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126205
+    at u9 (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:126306)
+    at s$ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:152688)
+    at MessagePort._ (https://www.teamblind.com/_next/static/chunks/2d249cb9bc10604b.js:2:1647)
+[    1889ms] [LOG] Push notifications powered by Aimtell. Learn more at https://aimtell.com/developers @ https://cdn.aimtell.com/trackpush/trackpush.min.js:0
+[    2133ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[    2425ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    5867ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   10835ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   15862ms] [TIMEEND] a: 0.001953125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   20845ms] [TIMEEND] a: 0.001953125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   25889ms] [TIMEEND] a: 0.002197265625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   32981ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   33537ms] [LOG] No new positions to boot @ https://scripts.opti-digital.com/lib/?site=teamblind_com&lib=launcher&v=5.4.11:2
+[   34345ms] Failed to read a named property 'href' from 'Location': Blocked a frame with origin "https://scripts.opti-digital.com" from accessing a frame with origin "https://www.teamblind.com". Protocols, domains, and ports must match.
+[   37520ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[   37702ms] [TIMEEND] a: 0.001953125 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[   42932ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[   43169ms] [TIMEEND] a: 0.002197265625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
