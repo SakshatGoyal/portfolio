@@ -1,0 +1,226 @@
+---
+import CaseLayout from '../../layouts/CaseLayout.astro';
+import Figure from '../../components/Figure.astro';
+---
+
+<CaseLayout
+  headline="Turning a customer insights dashboard into a platform other teams could build on."
+  intro={[
+    'Customer Insights began as an underperforming Cisco dashboard. I led the research and redesign around the questions account teams already asked when preparing for customer meetings. Within four months, the new experience increased its user base by 40%.',
+    'As adoption grew, program teams asked to bring their upgrade logic into Customer Insights. I defined where contributions could appear, what evidence they required, and how the core team retained control as those offers changed.',
+  ]}
+  stakeholder="Cisco Ready"
+  skills={['Product Discovery', 'Information Architecture', 'Platform Design']}
+  year="2020–21 (two phases)"
+  role="Lead Product Designer"
+  teamLabel="Product, engineering + program teams"
+  hero="/assets/cisco/video/opportunity-extension-flow.webm"
+  heroVideo
+  heroPoster="/assets/cisco/posters/opportunity-extension-flow.jpg"
+  heroCaption="Lead Product Designer · Two phases — I redesigned the core insights product, then defined how other teams could add opportunity intelligence without fragmenting it."
+  theme="cisco"
+  previousHref="/work/hitachi-energy/"
+  nextHref="/work/panw-ai/"
+>
+  <section class="case-section reading-column" data-reveal>
+    <h2>The dashboard users rebuilt in Excel</h2>
+    <p>The existing page offered a broad account overview, but it did not match how account managers prepared a customer strategy. To answer basic questions, people moved across internal tools and assembled their own pivot tables.</p>
+    <p>That workaround was slow, but it was also evidence: the spreadsheets showed which questions mattered, how people grouped the data, and what the platform was failing to connect.</p>
+  </section>
+
+  <div class="asymmetric-grid cisco-evidence-grid" data-reveal>
+    <Figure
+      src="/assets/cisco/previous-dashboard.png"
+      width={3000}
+      height={1605}
+      alt="Previous Customer Insights dashboard"
+      caption="The previous dashboard provided an overview but left the analytical work to the user."
+    />
+    <Figure
+      src="/assets/cisco/participant-pivot-analysis.png"
+      width={1709}
+      height={3000}
+      alt="Participant-created customer analysis pivot tables"
+      caption="Account teams’ pivot tables revealed the recurring comparisons hidden behind the request for “everything.”"
+    />
+  </div>
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Starting with recent decisions</h2>
+    <p>I interviewed 12 participants across three countries. Rather than asking them to describe an ideal dashboard, I asked them to reconstruct their two most recent customer meetings.</p>
+    <p>Meeting preparation was one of the few moments when account teams pulled inventory, coverage, contracts, renewals, partners, and pipeline into one view. Across roles, the details varied, but the questions repeated.</p>
+  </section>
+
+  <Figure
+    src="/assets/cisco/strategy-sensemaking.png"
+    width={3000}
+    height={1687}
+    alt="Framework connecting customer strategy questions to accessible data"
+    caption="I traced each strategy question through its source, platform accessibility, and relationship to other data, turning “everything” into a finite product model."
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Building the core from repeatable modules</h2>
+    <p>I explored visualizations for each recurring question, then looked for patterns the product and engineering teams could reuse. A consistent module joined a headline measure, supporting context, and a deeper table or chart.</p>
+    <p>The library gave users a recognizable way to move from overview to evidence, while giving engineering a smaller set of structures to maintain.</p>
+  </section>
+
+  <Figure
+    src="/assets/cisco/visualization-ideation.png"
+    width={3000}
+    height={1129}
+    alt="Board of data visualization concepts"
+    caption="Visualization studies tested how the same customer question could move from a quick signal to a detailed analysis."
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Testing two ways to begin</h2>
+    <p>I turned an early disagreement into two opposing concepts. One opened with a catalog of charts and left interpretation to the user. The other used benchmarks to highlight where attention might be needed.</p>
+    <p>Participants preferred the guided starting point. Benchmark color could not be applied reliably across Cisco’s unusually different customers, but the test revealed something more durable: a clear tile hierarchy reduced the effort of deciding where to look first.</p>
+  </section>
+
+  <div class="media-grid cisco-concept-grid" data-reveal>
+    <Figure
+      src="/assets/cisco/exploratory-concept.png"
+      width={3000}
+      height={2009}
+      alt="Exploratory chart-led dashboard concept"
+      caption="Concept 01 gave users a catalog of visualizations and left the next step open."
+    />
+    <Figure
+      src="/assets/cisco/guided-concept.png"
+      width={3000}
+      height={2009}
+      alt="Benchmark-guided metric tile dashboard concept"
+      caption="Concept 02 used benchmarked tiles to suggest where attention might be useful."
+    />
+  </div>
+
+  <Figure
+    src="/assets/cisco/video/customer-insights-flow.webm"
+    poster="/assets/cisco/posters/customer-insights-flow.jpg"
+    width={1920}
+    height={1080}
+    alt="Customer Insights dashboard workflow"
+    caption="The redesigned core organized the account around six repeatable questions, then let each module unfold from a headline measure into charts and tables."
+    video
+    controls
+  />
+
+  <section class="case-section reading-column case-transition" data-reveal>
+    <h2>Success changed the product’s role</h2>
+    <p>As account managers shared Customer Insights with their wider teams, the user base grew 40% in four months. The format was later reused for Global Insights, which applied the same questions across regions rather than one customer at a time.</p>
+    <p>Program teams then asked to bring upgrade and buying-program logic into the product. In working sessions with those teams and our engineering partners, I set three operating rules for accepting contributions: phased releases, replaceable offers, and a required connection to an existing customer measure.</p>
+  </section>
+
+  <figure class="platform-evolution" data-reveal>
+    <div class="platform-host">
+      <div class="platform-core">
+        <span>CORE PRODUCT</span>
+        <strong>Customer Insights</strong>
+        <p>One stable interaction model for customer context, comparison, and detail.</p>
+        <div class="platform-ports" aria-label="Platform rules">
+          <span>Placement</span><span>Language</span><span>Release quality</span>
+        </div>
+      </div>
+      <div class="platform-contributions" aria-label="Replaceable contributed capabilities">
+        <div><span>PROGRAM TEAM 01</span><strong>Upgrade logic</strong><p>Replaceable</p></div>
+        <div><span>PROGRAM TEAM 02</span><strong>Buying program</strong><p>Replaceable</p></div>
+        <div><span>PROGRAM TEAM 03</span><strong>Renewal logic</strong><p>Replaceable</p></div>
+      </div>
+    </div>
+    <figcaption>A stable host with clear connection points: the core team governed the experience, while program teams could improve or replace their contributed logic independently.</figcaption>
+  </figure>
+
+  <section class="case-section reading-column case-transition" data-reveal>
+    <h2>Designing a boundary for contributed value</h2>
+    <p>Contributing teams owned the eligibility logic and supporting data; the Customer Insights team owned placement, interaction, language, and release quality. That split let another team improve or replace its offer without gaining control of the surrounding experience.</p>
+  </section>
+
+  <Figure
+    src="/assets/cisco/extension-constraints.png"
+    width={3000}
+    height={1144}
+    alt="Framework for scaling contributed opportunity recommendations"
+    caption="The extension contract accounted for phased releases, changing offers, and a required connection to an existing customer measure."
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Prominence did not create relevance</h2>
+    <p>I tested the opportunity layer as a panel, list, overlay, and inline module with account-team participants. Across the panel and list concepts, people scanned the customer data first and often passed over labels built from internal program names—even when the panel occupied a quarter of the screen.</p>
+    <p>Reframing the question—from “Why aren’t people clicking?” to “What would make this useful now?”—brought the user’s motivation back into the design.</p>
+  </section>
+
+  <div class="media-grid cisco-extension-tests" data-reveal>
+    <Figure
+      src="/assets/cisco/video/opportunity-panel-test.webm"
+      poster="/assets/cisco/posters/opportunity-panel-test.jpg"
+      width={1790}
+      height={1280}
+      alt="Opportunity panel usability concept"
+      caption="Panel test: visually prominent, but the program-led labels gave account teams little reason to engage."
+      video
+      controls
+    />
+    <Figure
+      src="/assets/cisco/video/opportunity-list-test.webm"
+      poster="/assets/cisco/posters/opportunity-list-test.jpg"
+      width={1790}
+      height={1280}
+      alt="Opportunity list usability concept"
+      caption="List test: the extension remained separate from the analysis, making it easy to scan but difficult to connect with the customer story."
+      video
+      controls
+    />
+  </div>
+
+  <section class="case-section reading-column case-transition" data-reveal>
+    <h2>Lead with the value, then reveal the program</h2>
+    <p>Account managers were working toward quarterly and annual goals. Replacing internal shorthand with a clear action and its potential value made the contribution legible in their terms.</p>
+  </section>
+
+  <Figure
+    src="/assets/cisco/opportunity-card-copy.png"
+    width={3000}
+    height={1687}
+    alt="Opportunity card before and after copy refinement"
+    caption="“Upsell to NCD” became “Upgrade to Next Calendar Day,” paired with the potential value for that customer."
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Use the extension as a lens on the core</h2>
+    <p>Reviewing incoming datasets revealed that each opportunity reused a subset of information already present in Customer Insights. That meant we did not need to add another collection of disconnected tiles.</p>
+    <p>Instead, selecting an opportunity changed the lens on familiar charts and tables. The contribution supplied logic; the core product supplied context, comparison, and detail.</p>
+  </section>
+
+  <Figure
+    src="/assets/cisco/data-lens-model.png"
+    width={3000}
+    height={853}
+    alt="Several opportunities reusing subsets of Customer Insights data"
+    caption="Each contributed opportunity reused a different subset of the core data model, allowing specialized views without duplicating the platform."
+  />
+
+  <Figure
+    src="/assets/cisco/video/opportunity-extension-flow.webm"
+    poster="/assets/cisco/posters/opportunity-extension-flow.jpg"
+    width={1920}
+    height={1080}
+    alt="Final contributed opportunity workflow"
+    caption="Final flow: choose an opportunity, see its potential value, and inspect the relevant customer data without leaving Customer Insights."
+    video
+    controls
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Outcome</h2>
+    <p>The extension shipped with four opportunity types using the same interaction model. Account teams could move from current customer data into the relevant upgrade logic without leaving Customer Insights, while contributing teams could update their underlying offers without redesigning the host product.</p>
+    <p>We did not have enough time after launch to measure adoption by opportunity type. What we could confirm was that four independently owned programs shipped through one interaction model, without turning Customer Insights into four separate dashboard sections.</p>
+  </section>
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>What I learned</h2>
+    <p><strong>A product starts acting like a platform when it sets clear rules for how other teams can add value.</strong></p>
+    <p>The hard part was not finding space for another panel. It was deciding what could enter the product, how it should relate to existing data, and how a contribution could change without destabilizing the experience users already trusted.</p>
+  </section>
+</CaseLayout>

@@ -30,6 +30,20 @@ const projects = [
     image: '/assets/global-data/imgPanwImage011.png',
     className: 'home-project-global',
   },
+  {
+    href: '/work/hitachi-energy/',
+    title: 'Designing a B2B buying experience where sales partners and account teams could finish the deal together.',
+    company: 'Hitachi Energy',
+    image: '/assets/hitachi/partner-account-team.png',
+    className: 'home-project-hitachi',
+  },
+  {
+    href: '/work/cisco-customer-insights/',
+    title: 'Turning a customer insights dashboard into a platform other teams could build on.',
+    company: 'Cisco',
+    image: '/assets/cisco/posters/opportunity-extension-flow.jpg',
+    className: 'home-project-cisco',
+  },
 ];
 ---
 
@@ -47,7 +61,7 @@ const projects = [
     </div>
     <div class="home-project-columns">
       <div class="home-project-column">
-        {projects.filter((_, index) => index === 0 || index === 2).map((project, index) => (
+        {projects.filter((_, index) => index % 2 === 0).map((project, index) => (
           <a class:list={['home-project-card', project.className]} href={project.href} data-reveal>
             <div class="home-project-media">
               <img src={project.image} alt={project.title} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
@@ -61,7 +75,7 @@ const projects = [
         ))}
       </div>
       <div class="home-project-column">
-        {projects.filter((_, index) => index === 1 || index === 3).map((project) => (
+        {projects.filter((_, index) => index % 2 === 1).map((project) => (
           <a class:list={['home-project-card', project.className]} href={project.href} data-reveal>
           <div class="home-project-media">
             <img src={project.image} alt={project.title} loading="lazy" decoding="async" />

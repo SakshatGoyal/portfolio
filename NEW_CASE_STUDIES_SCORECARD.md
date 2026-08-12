@@ -37,3 +37,20 @@ Scoring method: each criterion is scored from 0–5. A dimension score is the su
 | Version | Writing | Visual | Craft | Status |
 | --- | ---: | ---: | ---: | --- |
 | Baseline | — | — | — | Pending implementation |
+| Version 1 | 88.6% | 80.0% | 82.9% | Revised |
+| Version 2 | 97.1% | 97.1% | 100% | Pass — all dimensions ≥95% |
+
+## Independent review detail
+
+Each version was reviewed by three separate agents, with one agent assigned to each dimension. Scores below follow the criterion order defined above.
+
+| Version | Dimension | Criterion scores | Total | Reviewer decision |
+| --- | --- | --- | ---: | --- |
+| 1 | Writing | 5, 5, 4, 4, 5, 4, 4 | 31/35 | Strengthen ownership, evidence boundaries, and editorial economy |
+| 1 | Visual | 5, 4, 4, 4, 5, 3, 3 | 28/35 | Fix motion, layout shift, Cisco identity, and asset repetition |
+| 1 | Craft | 4, 5, 4, 4, 4, 4, 4 | 29/35 | Improve strategic signal, media behavior, provenance, and cross-site coherence |
+| 2 | Writing | 5, 5, 5, 5, 4, 5, 5 | 34/35 | Pass; only optional tone polish in evidence qualifications |
+| 2 | Visual | 5, 5, 5, 4, 5, 5, 5 | 34/35 | Pass; only optional replacement of Cisco’s preview/payoff media reuse |
+| 2 | Craft | 5, 5, 5, 5, 5, 5, 5 | 35/35 | Pass; no release blockers |
+
+Version 2 revisions included user-controlled, poster-backed video; intrinsic media dimensions; a cohesive Cisco seafoam/blue identity; a host-and-replaceable-contributions platform visual; a tighter Cisco asset edit; clearer senior ownership; explicit claim provenance; and more varied narrative cadence.
