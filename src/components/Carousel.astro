@@ -86,7 +86,7 @@ const {
   .carousel-pagination button::after { content: ''; position: absolute; top: 50%; left: 0; width: 100%; height: 3px; background: #c9cdd0; transform: translateY(-50%); transition: background .2s ease; }
   .carousel-pagination button[aria-current='step']::after { background: #1f2933; }
   .carousel-pagination button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-  .carousel-caption { align-self: stretch; padding-block: var(--caption-pad, 8px); color: var(--ink); font: 400 var(--caption-size, 14px)/var(--caption-leading, 1.35) 'Basically A Mono', 'Fragment Mono', monospace; }
+  .carousel-caption { align-self: stretch; padding: var(--caption-pad-top, 8px) 0 var(--caption-pad-bottom, 24px); color: var(--ink); font: 400 var(--caption-size, 14px)/var(--caption-leading, 1.35) 'Basically A Mono', 'Fragment Mono', monospace; }
   .carousel-caption :global(p + p) { margin-top: 24px; }
 
   @media (max-width: 767px) {
