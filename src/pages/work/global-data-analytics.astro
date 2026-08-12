@@ -1,0 +1,119 @@
+---
+import CaseLayout from '../../layouts/CaseLayout.astro';
+import Figure from '../../components/Figure.astro';
+---
+
+<CaseLayout
+  headline="Two dashboard projects that helped DocuSign sellers turn customer data into a next step."
+  intro={[
+    'After 6 months of delivering reporting tools, I initiated an exploratory research track with the Director of Product Management to understand how our existing data in tableau and salesforce are used. The research led to the design and build of two internal tools:',
+  ]}
+  stakeholder="DocuSign"
+  skills={['Product Discovery', 'Hypothesis-Driven Design', 'User Experience']}
+  year="2023-24"
+  role="Senior Product Designer"
+  teamLabel="Team"
+  hero="/assets/global-data/imgPanwImage011.png"
+  theme="global-data"
+  previousHref="/work/one-report/"
+  nextHref="/work/panw-ai/"
+>
+  <Fragment slot="intro-extra">
+    <p><strong>Feature Usage Baseline</strong> that helped teams prepare a feature recommendation using peer adoption and associated outcomes.</p>
+    <p><strong>Book of Business Analysis</strong> helped Account Executives narrows hundreds of customers to the few worth investigating.</p>
+    <p>I led the research, synthesis, design, testing, and refinement of the two tools.</p>
+  </Fragment>
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Initiating Research</h2>
+    <p>I shortlisted a candidate pool of 65 account executives based on their company achievements, geographic location, and years of experience. out of which 6 agreed for a 1:1 with 4 agreeing for an exploratory workshop.</p>
+    <p>I was also involved in a parallel research interviewing product teams which helped add context to the frictions between product data and sales data.</p>
+  </section>
+
+  <div class="global-research-media" data-reveal>
+    <Figure src="/assets/global-data/imgScreenshot20260810At1619451.png" alt="Video interview with an account executive" caption="1:1 interviews with Account Executives" />
+    <Figure src="/assets/global-data/imgImage36.png" alt="Discovery workshop session" caption="Discovery Workshop with Account Executives." />
+  </div>
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Designing Feature Usage Baseline</h2>
+    <p>I explored one idea in two ways: compare a customer’s performance with similar customers, or compare which features those peers used and adopted.</p>
+    <p>Each interpretation was turned into a design and tested with a focus group of account executives.</p>
+  </section>
+
+  <Figure
+    src="/assets/global-data/imgOnePeerComparisonHypothesisSplitIntoTwoConcepts.png"
+    alt="Two peer-comparison concepts"
+    caption="One hypothesis, explored through two concepts. Undated project artifact."
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Discovering the extremes in user interpretation.</h2>
+    <p>Although the data was intended for internal use, the performance comparison fell flat because sellers imagined sharing it with customers and worried that poor results would make DocuSign appear to be a poor partner.</p>
+    <p>The feature comparison resonated because sellers could use it to show customers what their peers had purchased, how those peers were performing, and which features might help them.</p>
+    <p><strong>The deeper insight was that users valued comparison data when it could support a conversation, strengthen a recommendation, or help make a sale, rather than when it remained private analysis.</strong></p>
+  </section>
+
+  <Figure
+    src="/assets/global-data/imgImage38.png"
+    alt="Illustration of user frustration"
+    caption="Illustration depicting the user frustration they shared after seeing designs from the different hypothesis."
+    class="global-frustration"
+    contain
+  />
+
+  <section class="case-section reading-column compact" data-reveal>
+    <p>I combined which features similar customers used with the outcomes associated with those features. The result was evidence for preparing a recommendation.</p>
+  </section>
+
+  <div class="media-stack" data-reveal>
+    <div class="asymmetric-grid global-asymmetric-grid">
+      <Figure src="/assets/global-data/imgImage39.png" alt="Controls for defining similar customers" caption="Controls for defining ‘similar’ customers." />
+      <Figure src="/assets/global-data/imgImage37.png" alt="Customer-value feature groups with redacted notes" caption="Features grouped by customer value. All note text is permanently redacted in the public asset." />
+    </div>
+    <Figure src="/assets/global-data/imgPanwImage012.png" alt="Feature adoption and associated outcomes" caption="Feature adoption beside associated completion-time and send-velocity outcomes." />
+    <Figure src="/assets/global-data/imgPanwImage13.png" alt="Account feature comparison workflow" caption="Choose an account → inspect its features → compare one result → decide what is worth discussing. Historical interface example; names and values are demonstration content." />
+  </div>
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Designing Book of Business Analysis</h2>
+    <p>Despite many metrics were available for internal teams, Account Owners had to update internal documents with their BDRs twice a week to organize the data, prioritize customers, and spot anomalies.</p>
+    <p>This process was especially time-consuming for Mid-Market to Virtual Account Execs, who managed between 200 and 3,000 customers.</p>
+  </section>
+
+  <Figure src="/assets/global-data/imgImage41.png" alt="Needle-in-a-haystack prioritization illustration" caption="Illustration: a needle-in-a-haystack prioritization problem." class="global-needle" />
+
+  <section class="case-section reading-column" data-reveal>
+    <p>While each Account Executive had a unique approach to sorting data, an iterative synthesis helped me create a 6-bucket model (with every customer in an AE’s book uniquely fitting in only one bucket).</p>
+    <p>I started by designing workflows to identify these six customer types. This was later simplified into a set of filters that acted as a custom control center, helping to spot patterns among customers.</p>
+  </section>
+
+  <div class="media-stack" data-reveal>
+    <Figure src="/assets/global-data/imgImage40.png" alt="Six proposed account groups and controls" caption="Six proposed groups and the controls used to explore them." />
+    <Figure src="/assets/global-data/imgPanwImage14.png" alt="Account patterns interface" caption="Examples of the account patterns the tool helped sellers investigate." />
+    <Figure src="/assets/global-data/imgPanwImage15.png" alt="Book of business investigation flow" caption="Begin with the full book → change one condition → inspect the smaller group → choose an account worth investigating. Historical interface example; names and values are demonstration content." />
+  </div>
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Impact:</h2>
+    <p><strong>#01 - Feature Usage Baselines became a standard reference tool while building customer presentations and QBRs.</strong></p>
+    <p>A quarterly survey showed ~7 in 10 Account Executives consistently used screenshots from the Feature Usage Baselines in their slides while evaluating upsell and renewal plans with customers</p>
+    <p><strong>#02 - Book of Business Analysis transformed customer strategy for Account and GTM teams.</strong></p>
+    <p>The simple ability to split an entire book of business based on a MRR threshold, while also inspecting along multiple dimensions allowed Account Executives to iterate faster on their personal threshold of MRR.</p>
+    <p>Those thresholds also showed DocuSign how sellers across regions, markets, and quarters judged account value; which turned individual instinct into information the company could compare and learn from.</p>
+    <p>Multiple teams also reported a noticeable reduction in weekly account sorting activities.</p>
+  </section>
+
+  <Figure
+    src="/assets/global-data/imgImage83.png"
+    alt="Research synthesis shared with product leadership"
+    caption="The wider research synthesis shared with the Director of PM using artifacts and insights from discovery workshop. The synthesis included insights from a wider research including sales, marketing, product, and customer success; later compiled and presented to the Chief Information Officer, Shanti Iyer."
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>What I learned:</h2>
+    <p><strong>Reliable delivery created permission to challenge the roadmap.</strong></p>
+    <p>Despite wanting to innovate, my first few months involved building designs that worked within set constraints, enabled development, remove blockers and reducing ambiguities.</p>
+    <p>Once trust was built, it was easier to make a case for exploratory research, which led to deeper and more ambitious problem setting.</p>
+  </section>
+</CaseLayout>

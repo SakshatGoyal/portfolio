@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const projects = [
+  {
+    href: '/work/panw-ai/',
+    title: 'Designing AI experiences for deep analysis and traceability.',
+    company: 'Palo Alto Networks',
+    image: '/assets/panw-ai/imgScenario032160X21601.png',
+    className: 'home-project-panw',
+  },
+  {
+    href: '/work/hbs-ai-institute/',
+    title: 'HBS AI Institute is a global research center that provides research-driven insights on using AI to advance business and society.',
+    company: 'HBS AI Institute',
+    image: '/assets/hbs/imgPanwImage011.png',
+    className: 'home-project-hbs',
+  },
+  {
+    href: '/work/one-report/',
+    title: 'Designing a data product around an executive’s inquisitive moments.',
+    company: 'DocuSign',
+    image: '/assets/one-report/imgPanwImage011.png',
+    className: 'home-project-one-report',
+  },
+  {
+    href: '/work/global-data-analytics/',
+    title: 'Two dashboard projects that helped DocuSign sellers turn customer data into a next step.',
+    company: 'DocuSign',
+    image: '/assets/global-data/imgPanwImage011.png',
+    className: 'home-project-global',
+  },
+];
+---
+
+<BaseLayout title="Portfolio" description="Portfolio">
+  <section class="home-hero" id="about">
+    <p class="home-role">Sākshāt Goyal</p>
+    <h1>Product Designer</h1>
+    <p class="home-statement">I’m a 0 to 1 Product Designer living in the San Francisco Bay Area.</p>
+    <p class="home-summary">Over the past 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, Cisco, and a number of startups.</p>
+  </section>
+
+  <section class="home-work" id="work">
+    <div class="home-section-heading" data-reveal>
+      <h2>Selected work</h2>
+    </div>
+    <div class="home-project-columns">
+      <div class="home-project-column">
+        {projects.filter((_, index) => index === 0 || index === 2).map((project, index) => (
+          <a class:list={['home-project-card', project.className]} href={project.href} data-reveal>
+            <div class="home-project-media">
+              <img src={project.image} alt={project.title} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+              <span class="home-project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="home-project-copy">
+              <h3>{project.title}</h3>
+              <p>{project.company}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+      <div class="home-project-column">
+        {projects.filter((_, index) => index === 1 || index === 3).map((project) => (
+          <a class:list={['home-project-card', project.className]} href={project.href} data-reveal>
+          <div class="home-project-media">
+            <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
+            <span class="home-project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="home-project-copy">
+            <h3>{project.title}</h3>
+            <p>{project.company}</p>
+          </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,61 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Figure from '../components/Figure.astro';
+
+interface Props {
+  headline: string;
+  intro: string[];
+  stakeholder: string;
+  skills: string[];
+  year: string;
+  role: string;
+  teamLabel: string;
+  hero: string;
+  heroVideo?: boolean;
+  theme?: string;
+  previousHref: string;
+  nextHref: string;
+  introSpacing?: 'standard' | 'tight';
+}
+
+const {
+  headline, intro, stakeholder, skills, year, role, teamLabel, hero, heroVideo = false,
+  theme = 'neutral', previousHref, nextHref, introSpacing = 'standard',
+} = Astro.props;
+---
+
+<BaseLayout title={headline} description={headline} theme={theme}>
+  <article class="case-study">
+    <header class="case-hero" data-reveal>
+      <h1>{headline}</h1>
+    </header>
+
+    <Figure src={hero} alt={headline} class="hero-figure" eager contain={theme === 'panw'} video={heroVideo} controls={heroVideo} />
+
+    <section class:list={['case-intro', 'reading-column', { tight: introSpacing === 'tight' }]} data-reveal>
+      {intro.map((paragraph) => <p>{paragraph}</p>)}
+      <slot name="intro-extra" />
+    </section>
+
+    <dl class="case-meta reading-column" data-reveal>
+      <div><dt>Stakeholder</dt><dd>{stakeholder}</dd></div>
+      <div><dt>Skills</dt><dd>{skills.map((skill) => <span>{skill}</span>)}</dd></div>
+      <div><dt>Year</dt><dd>{year}</dd></div>
+      <div><dt>Role</dt><dd class="role-meta"><span>{role}</span><span aria-hidden="true">・</span><span class="team-label">{teamLabel}</span></dd></div>
+    </dl>
+
+    <div class="case-body">
+      <slot />
+    </div>
+
+    <nav class="case-navigation" aria-label="Case study navigation" data-reveal>
+      <a class="previous-case" href={previousHref} aria-label="Previous case study">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 12H5M10 17L5 12L10 7" /></svg>
+      </a>
+      <a class="next-case" href={nextHref}>
+        <span>Next</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12H19M14 17L19 12L14 7" /></svg>
+      </a>
+    </nav>
+  </article>
+</BaseLayout>

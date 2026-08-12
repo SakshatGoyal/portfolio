@@ -12,3 +12,8 @@ portfolio-site-studies/davidbstudio-fr/session.har
 portfolio-site-studies/yuyangluo-com/session.har
 portfolio-site-studies/stephaneissartel-com/01-cover-page/network/files/0056-3300de299644630c.png
 portfolio-site-studies/stephaneissartel-com/01-cover-page/network/files/0055-3300de299644630c.png
+.tmp/
+node_modules/
+.astro/
+dist/
+.DS_Store

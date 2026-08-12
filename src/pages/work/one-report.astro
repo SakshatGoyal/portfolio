@@ -1,0 +1,103 @@
+---
+import CaseLayout from '../../layouts/CaseLayout.astro';
+import Figure from '../../components/Figure.astro';
+---
+
+<CaseLayout
+  headline="Designing a data product around an executive’s inquisitive moments."
+  intro={[
+    "After a large-scale migration of the internal dashboards I'd designed for the product, finance, marketing, sales, and executive teams, the Director of Data & Analytics asked me to explore how the same data could be made available to VP and C-level leaders on mobile devices.",
+    'I set the brief, product requirements, interaction model, and mobile designs. The concept was presented to the C-suite and used to evaluate cost and feasibility.',
+  ]}
+  stakeholder="DocuSign"
+  skills={['Speculative Design', 'Information Architecture', 'Interaction Design']}
+  year="2023"
+  role="Senior Product Designer"
+  teamLabel="Team"
+  hero="/assets/one-report/onereport-analysis-04.png"
+  theme="one-report"
+  previousHref="/work/hbs-ai-institute/"
+  nextHref="/work/global-data-analytics/"
+>
+  <section class="case-section reading-column" data-reveal>
+    <h2>Deciding what to build.</h2>
+    <p>Rather than approaching it as a mobile version of our existing dashboards, I approached it as an exploration to understand when, and for what reason, might an executive need to access data.</p>
+    <p><strong>Three exploratory scenarios shifted the focus from mobile dashboards to three purpose-built surfaces --</strong></p>
+    <ol>
+      <li>5-10 minute whitespaces during the day → Reports</li>
+      <li>Quick checks during meetings → Numbers</li>
+      <li>Exploratory deep dives when time allows → Analysis</li>
+    </ol>
+  </section>
+
+  <div class="media-grid three" data-reveal>
+    <div class="scenario-column">
+      <img src="/assets/one-report/sc-01.gif" alt="" loading="lazy" data-lightbox-image tabindex="0" role="button" />
+      <img src="/assets/one-report/sc-01.png" alt="" loading="lazy" data-lightbox-image tabindex="0" role="button" />
+    </div>
+    <div class="scenario-column">
+      <img src="/assets/one-report/sc-02.gif" alt="" loading="lazy" data-lightbox-image tabindex="0" role="button" />
+      <img src="/assets/one-report/sc-02.png" alt="" loading="lazy" data-lightbox-image tabindex="0" role="button" />
+    </div>
+    <div class="scenario-column">
+      <img src="/assets/one-report/sc-03.gif" alt="" loading="lazy" data-lightbox-image tabindex="0" role="button" />
+      <img src="/assets/one-report/sc-03.png" alt="" loading="lazy" data-lightbox-image tabindex="0" role="button" />
+    </div>
+  </div>
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Designing ‘Analysis’</h2>
+    <p>Reviewing dashboards across departments showed that the same business unit could be a metric, dimension, or filter depending on the team. I needed one analytical layer that supported all three roles.</p>
+    <p>To create a single analytical layer that supported all three roles, I designed Analysis as a Sankey flow, letting users trace a metric through Partners, Region, Product, Channel, and Customers.</p>
+    <p>Focus and Filters drew from the same dataset and its subsets.</p>
+  </section>
+
+  <div class="media-stack one-report-scenarios" data-reveal>
+    <Figure
+      src="/assets/one-report/onereport-analysis-01.png"
+      alt="Churn Flow with swappable columns"
+      caption="Swapping a column redraws the same report through a different dimension. Here, Churn Flow shifts from Channel to Product, keeping the same surface usable to understand product/revenue and sales/distribution."
+    />
+    <Figure
+      src="/assets/one-report/onereport-analysis-02.png"
+      alt="Analysis flow connected to reports and numbers"
+      caption="Tracing a single metric across the Analysis layer, showing how it connects to Reports and Numbers views."
+    />
+    <Figure
+      src="/assets/one-report/onereport-analysis-03.png"
+      alt="Focus and Filters on the same dataset"
+      caption="Focus and Filters operating on the same dataset — Focus narrows the scope, Filters refine within it."
+    />
+  </div>
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Designing ‘Reports’</h2>
+    <p>Internal reports were already dense on desktop, so moving them to mobile required a clearer hierarchy.</p>
+    <p>I designed Reports as a fixed, card-based layout inspired by elements of a digital news report, using sheets to reveal detail progressively and visuals to clarify dense datasets. This preserved access to every metric without overwhelming executives.</p>
+  </section>
+
+  <Figure
+    src="/assets/one-report/onereport-report.png"
+    alt="Report layout with progressively revealed chart detail"
+    caption="Report layout inspired by elements of a digital news report, with sheets revealing chart detail."
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Designing ‘Numbers’</h2>
+    <p>This surface centered on a user finding a metric during a call, making time-to-value critical.</p>
+    <p>I used a search bar rather than a chat box to signal that short phrases were enough—a behavior validated in prototype testing with directors. Although the interface suggested sophisticated AI, the result could be delivered without LLMs using lower-cost NLP frameworks. That path enabled the project to move into cost estimation.</p>
+  </section>
+
+  <Figure
+    src="/assets/one-report/onereport-insights.png"
+    alt="Search-based data visualization interface"
+    caption="The interface infering the right visualization from the phrasing alone, escalating from a number to a comparison to a trend."
+  />
+
+  <section class="case-section reading-column" data-reveal>
+    <h2>Outcome and Takeaway:</h2>
+    <p>The application was tested with five chiefs of staff who acted as proxies for the C-suite and was later demoed to DocuSign's C-suite directly.</p>
+    <p>It then went through a cost estimation cycle and was subsequently shelved alongside several other company-wide initiatives as part of budget cuts following DocuSign's decision to acquire of Lexicon.</p>
+    <p>Despite being a speculative initiative, <strong>the application resonated with executives because it was designed around moments in the life cycle of an executive</strong> rather than as a mobile version of existing reporting infrastructure.</p>
+  </section>
+</CaseLayout>

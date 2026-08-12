@@ -1,0 +1,359 @@
+
+
+/* 2759_10842 */
+const imgPanwImage011 = "https://www.figma.com/api/mcp/asset/65e78a4b-8468-4c34-9993-ec7fce13239c.png";
+
+export default function PanwImage011() {
+  return (
+    <div className="overflow-clip relative rounded-[6px] size-full" data-node-id="2759:10842" data-name="panw-image-01 1">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[6px] size-full" src={imgPanwImage011} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+/* 2759_10865 */
+const imgConsistencyVsInterpretiveDepthTable1 = "https://www.figma.com/api/mcp/asset/13302b32-3120-4686-886a-4ef243410afd.png";
+
+export default function Frame1000012079() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="2759:10865">
+      <div className="aspect-[680/481] relative shrink-0 w-full" data-node-id="2759:10866" data-name="consistency-vs-interpretive-depth-table 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[106.03%] left-0 max-w-none top-[-0.03%] w-full" src={imgConsistencyVsInterpretiveDepthTable1} />
+        </div>
+      </div>
+      <div className="content-stretch flex items-center justify-center py-[8px] relative shrink-0 w-full" data-node-id="2759:10867">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Basically_A_Mono:Regular'] leading-[1.35] min-w-px not-italic relative text-[12px] text-[color:var(--primary-text,#0b1117)] whitespace-pre-wrap" data-node-id="2759:10868">
+          {`Feeling untethered without a well-defined audience, industry, or problem space. `}
+          <br aria-hidden />
+          [AI generated]
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+/* 2759_10872 */
+const imgImage2 = "https://www.figma.com/api/mcp/asset/dcdc060e-ef03-496f-9fb4-620767edc036.png";
+const imgImage3 = "https://www.figma.com/api/mcp/asset/12a4b696-52e0-4d74-8416-124c993ad201.png";
+const imgImage4 = "https://www.figma.com/api/mcp/asset/3d19506d-9c62-410b-b1cf-4aa6b00ca432.png";
+const imgImage5 = "https://www.figma.com/api/mcp/asset/93e0c5f9-2dd2-4316-9641-f7148c9eacd6.png";
+
+export default function Frame1000012085() {
+  return (
+    <div className="content-stretch flex items-start justify-center relative size-full" data-node-id="2759:10872">
+      <div className="content-stretch flex flex-col h-[1765px] items-start relative shrink-0 w-[768px]" data-node-id="2759:10873">
+        <div className="aspect-[2627/765] relative shrink-0 w-full" data-node-id="2759:10874" data-name="image 2">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage2} />
+        </div>
+        <div className="aspect-[2627/1585] relative shrink-0 w-full" data-node-id="2759:10875" data-name="image 3">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage3} />
+        </div>
+        <div className="aspect-[2627/1477] relative shrink-0 w-full" data-node-id="2759:10876" data-name="image 4">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage4} />
+        </div>
+        <div className="aspect-[2627/2213] relative shrink-0 w-full" data-node-id="2759:10877" data-name="image 5">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+/* 2759_10880 */
+const imgImage69 = "https://www.figma.com/api/mcp/asset/c2df2f4e-fce9-4c0d-8c47-a392642f1ac2.png";
+const imgImage71 = "https://www.figma.com/api/mcp/asset/b33b7b19-78bc-475e-87d6-c2bcdfa50a2d.png";
+
+export default function Frame1000012081() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="2759:10880">
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-center justify-center py-[102px] relative shrink-0 text-[color:var(--primary-text,#0b1117)] w-full" data-node-id="2759:10881">
+        <p className="font-['Clash_Display:Semibold'] leading-[1.35] not-italic relative shrink-0 text-[16px] w-[680px]" data-node-id="2759:10882">
+          Maintaining Standards for AI Outputs
+        </p>
+        <div className="font-['Fustat:Medium'] font-medium leading-[0] relative shrink-0 text-[20px] w-[680px] whitespace-pre-wrap" data-node-id="2759:10883">
+          <p className="leading-[1.35] mb-0">Reasoning models gave reliable answers but missed hidden meanings. Creativity models could go beyond basic understanding, but they weren’t consistent in applying logic across different sets.</p>
+          <p className="leading-[1.35] mb-0">​</p>
+          <p className="leading-[1.35]">Prompt engineering brought everything together. It let us combine the creative and analytical strengths of GPT 4.5 with the steady reliability of o3. I kept the same goal but tried several versions of the AI pipeline.</p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2759:10884">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2759:10885">
+          <div className="aspect-[1032/627] border border-[var(--secondary-text,rgba(0,0,0,0.5))] border-solid relative shrink-0 w-full" data-node-id="2759:10886" data-name="image 69">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[108.9%] left-0 max-w-none top-[-6.42%] w-full" src={imgImage69} />
+            </div>
+          </div>
+          <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="2759:10887">
+            <div className="content-stretch flex flex-[1_0_0] items-center justify-center min-w-px py-[8px] relative" data-node-id="2759:10888">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Basically_A_Mono:Regular'] leading-[1.35] min-w-px not-italic relative text-[12px] text-[color:var(--primary-text,#0b1117)]" data-node-id="2759:10889">
+                Mapping current models’ strengths and weaknesses against our target performance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2759:10890">
+          <div className="aspect-[4096/2305] relative shrink-0 w-full" data-node-id="2759:10891" data-name="image 71">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage71} />
+          </div>
+          <div className="content-stretch flex items-center justify-center py-[8px] relative shrink-0 w-full" data-node-id="2759:10892">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Basically_A_Mono:Regular'] leading-[1.35] min-w-px not-italic relative text-[12px] text-[color:var(--primary-text,#0b1117)]" data-node-id="2759:10893">
+              Models were compared by consistency and interpretive depth to identify the strongest balance between reliable output and meaningful interpretation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+/* 2759_10897 */
+const imgPanwImage012 = "https://www.figma.com/api/mcp/asset/2da10170-58e9-47b6-be47-d4709b98d15b.png";
+
+export default function Frame25() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="2759:10897">
+      <div className="aspect-[1228/690] relative rounded-[6px] shrink-0 w-full" data-node-id="2759:10898" data-name="panw-image-01 2">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[6px] size-full" src={imgPanwImage012} />
+      </div>
+      <div className="content-stretch flex items-center justify-center py-[8px] relative shrink-0 w-full" data-node-id="2759:10899">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Basically_A_Mono:Regular'] leading-[1.35] min-w-px not-italic relative text-[12px] text-[color:var(--primary-text,#0b1117)]" data-node-id="2759:10900">
+          Tagging each module based on the situations influencing the activity.
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+/* 2759_10903 */
+const imgImage32 = "https://www.figma.com/api/mcp/asset/69b095f7-5ff7-4d13-8fd9-44257810f63f.png";
+
+export default function Frame1000005423() {
+  return (
+    <div className="content-stretch flex flex-col items-start pb-[24px] relative size-full" data-node-id="2759:10903">
+      <div className="aspect-[2048/1516] relative shrink-0 w-full" data-node-id="2759:10904" data-name="image 32">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage32} />
+      </div>
+      <div className="content-stretch flex items-center justify-center py-[8px] relative shrink-0 w-full" data-node-id="2759:10905">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Basically_A_Mono:Regular'] leading-[1.35] min-w-px not-italic relative text-[12px] text-[color:var(--primary-text,#0b1117)]" data-node-id="2759:10906">
+          Four situational axes created a common language for comparing otherwise unrelated forms of strategic work.
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+/* 2771_11356 */
+const imgImage79 = "https://www.figma.com/api/mcp/asset/5d45c604-5b93-4d08-9031-f8879f5121d3.png";
+const imgImage80 = "https://www.figma.com/api/mcp/asset/a3b237cd-c8c1-432f-89b9-8c3dd1947aac.png";
+const imgImage81 = "https://www.figma.com/api/mcp/asset/d8d891e6-b110-464f-9b16-7ca767ff77b1.png";
+const imgImage82 = "https://www.figma.com/api/mcp/asset/c534ae01-552f-4947-ba73-e2a08c472fc4.png";
+const imgUnion = "https://www.figma.com/api/mcp/asset/130e5261-b007-4d89-b418-6a7e82e931df.svg";
+const imgUnion1 = "https://www.figma.com/api/mcp/asset/ca738a6b-82ee-4106-aa92-7a533ee008e9.svg";
+
+export default function Frame1321319868() {
+  return (
+    <div className="content-stretch flex flex-col gap-[24px] items-end relative size-full" data-node-id="2771:11356">
+      <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="2771:11357">
+        <div className="border border-[#404a52] border-solid content-stretch flex items-center p-[5px] relative rounded-[16px] shrink-0" data-node-id="2771:11358">
+          <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="2771:11359" data-name="arrow--left">
+            <div aria-hidden className="absolute bg-white inset-0 mix-blend-multiply pointer-events-none" />
+            <div className="absolute inset-[18.75%_12.5%]" data-node-id="I2771:11359;9449:5739" data-name="Union">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+            </div>
+          </div>
+        </div>
+        <div className="border border-[#404a52] border-solid content-stretch flex items-center p-[5px] relative rounded-[16px] shrink-0" data-node-id="2771:11360">
+          <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="2771:11361" data-name="arrow--right">
+            <div aria-hidden className="absolute bg-white inset-0 mix-blend-multiply pointer-events-none" />
+            <div className="absolute inset-[18.75%_12.5%]" data-node-id="I2771:11361;9449:5741" data-name="Union">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-[388px] relative shrink-0 w-full" data-node-id="2771:11362">
+        <div className="absolute h-[388px] left-[-704px] opacity-50 top-0 w-[680px]" data-node-id="2771:11363" data-name="image 79">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage79} />
+        </div>
+        <div className="absolute h-[388px] left-0 top-0 w-[680px]" data-node-id="2771:11364" data-name="image 80">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage80} />
+        </div>
+        <div className="absolute h-[388px] left-[704px] opacity-50 top-0 w-[680px]" data-node-id="2771:11365" data-name="image 81">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage81} />
+        </div>
+        <div className="absolute h-[388px] left-[1408px] opacity-50 top-0 w-[680px]" data-node-id="2771:11366" data-name="image 82">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage82} />
+        </div>
+      </div>
+      <div className="content-stretch flex items-center justify-center py-[8px] relative shrink-0 w-full" data-node-id="2771:11367">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Basically_A_Mono:Regular'] leading-[1.35] min-w-px not-italic relative text-[12px] text-[color:var(--primary-text,#0b1117)]" data-node-id="2771:11368">
+          I used the matrix to show HBS four ways to narrow the opportunity for further discovery—by recurring problem, operating context, a combination of both, or one focused starting point.
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+/* 2771_11372 */
+const imgImage78 = "https://www.figma.com/api/mcp/asset/874de899-6ddf-48e1-9b6a-181aa3467949.png";
+const imgImage72 = "https://www.figma.com/api/mcp/asset/f83fcdc4-c9d3-48fb-9322-b1979c2b5400.png";
+const imgImage73 = "https://www.figma.com/api/mcp/asset/66a23cf0-e6f7-4681-9814-cd2f0fd50753.png";
+const imgImage74 = "https://www.figma.com/api/mcp/asset/3dfd9b0e-1454-41d7-908d-164f0217ac33.png";
+const imgImage75 = "https://www.figma.com/api/mcp/asset/0ce5bbde-f868-48aa-9555-615aaf79b57f.png";
+const imgImage76 = "https://www.figma.com/api/mcp/asset/f1288c0a-09d2-4e81-8e1f-16ab61c3f7f0.png";
+const imgImage77 = "https://www.figma.com/api/mcp/asset/b32b72f8-9c0a-4ed2-9467-51524483173b.png";
+const imgUnion = "https://www.figma.com/api/mcp/asset/e2fad9dc-c3d7-46a3-b7ea-53fab841a2dc.svg";
+const imgUnion1 = "https://www.figma.com/api/mcp/asset/11dc7bac-4813-4cde-a26a-5c56a233468e.svg";
+
+export default function Frame1321319869() {
+  return (
+    <div className="content-stretch flex flex-col gap-[24px] items-end relative size-full" data-node-id="2771:11372">
+      <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="2771:11373">
+        <div className="border border-[#404a52] border-solid content-stretch flex items-center p-[5px] relative rounded-[16px] shrink-0" data-node-id="2771:11374">
+          <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="2771:11375" data-name="arrow--left">
+            <div aria-hidden className="absolute bg-white inset-0 mix-blend-multiply pointer-events-none" />
+            <div className="absolute inset-[18.75%_12.5%]" data-node-id="I2771:11375;9449:5739" data-name="Union">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+            </div>
+          </div>
+        </div>
+        <div className="border border-[#404a52] border-solid content-stretch flex items-center p-[5px] relative rounded-[16px] shrink-0" data-node-id="2771:11376">
+          <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="2771:11377" data-name="arrow--right">
+            <div aria-hidden className="absolute bg-white inset-0 mix-blend-multiply pointer-events-none" />
+            <div className="absolute inset-[18.75%_12.5%]" data-node-id="I2771:11377;9449:5741" data-name="Union">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-[385px] relative shrink-0 w-full" data-node-id="2771:11378">
+        <div className="absolute h-[385px] opacity-25 right-[704px] top-0 w-[680px]" data-node-id="2771:11379" data-name="image 78">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage78} />
+        </div>
+        <div className="absolute h-[385px] right-0 top-0 w-[680px]" data-node-id="2771:11380" data-name="image 72">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage72} />
+        </div>
+        <div className="absolute h-[385px] opacity-25 right-[-704px] top-0 w-[680px]" data-node-id="2771:11381" data-name="image 73">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage73} />
+        </div>
+        <div className="absolute h-[385px] opacity-25 right-[-1408px] top-0 w-[680px]" data-node-id="2771:11382" data-name="image 74">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage74} />
+        </div>
+        <div className="absolute h-[385px] opacity-25 right-[-2112px] top-0 w-[680px]" data-node-id="2771:11383" data-name="image 75">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage75} />
+        </div>
+        <div className="absolute h-[385px] opacity-25 right-[-2816px] top-0 w-[680px]" data-node-id="2771:11384" data-name="image 76">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage76} />
+        </div>
+        <div className="absolute h-[385px] opacity-25 right-[-3520px] top-0 w-[680px]" data-node-id="2771:11385" data-name="image 77">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage77} />
+        </div>
+      </div>
+      <div className="content-stretch flex items-center justify-center py-[8px] relative shrink-0 w-full" data-node-id="2771:11386">
+        <div className="[word-break:break-word] flex-[1_0_0] font-['Basically_A_Mono:Regular'] leading-[0] min-w-px not-italic relative text-[12px] text-[color:var(--primary-text,#0b1117)]" data-node-id="2771:11387">
+          <p className="leading-[1.35] mb-[24px]">Design principles often sound good but aren’t actually useful. When they become truisms like “AI should be trustworthy,” “prioritize the user,” or “support human judgment,” they’re easy to agree with but hard to use in real design work.</p>
+          <p className="leading-[1.35] mb-[24px]">Having many modules in Research Question 3 let us dig deeper and find hidden meanings. This helped me develop a way to frame principles as thoughtful trade-offs, grounded in context rather than as absolute truths.</p>
+          <p className="leading-[1.35]">I wrote each principle so its opposite could also make sense; something a smart team might choose in another situation or with different goals.</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+/* 2759_10923 */
+const imgImage68 = "https://www.figma.com/api/mcp/asset/99d53b15-bad9-468c-b835-525155c3a9b2.png";
+
+export default function Frame1000012091() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="2759:10923">
+      <div className="aspect-[3840/2160] relative shrink-0 w-full" data-node-id="2759:10924" data-name="image 68">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage68} />
+      </div>
+      <div className="content-stretch flex items-center justify-center py-[8px] relative shrink-0 w-full" data-node-id="2759:10925">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Basically_A_Mono:Regular'] leading-[1.35] min-w-px not-italic relative text-[12px] text-[color:var(--primary-text,#0b1117)]" data-node-id="2759:10926">{`Research architecture repurposed for additional qualitative analysis across the org. `}</p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
