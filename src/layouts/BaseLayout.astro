@@ -32,16 +32,22 @@ const { title, description, theme = 'neutral' } = Astro.props;
       </main>
       <SiteFooter />
     </div>
-    <div class="portfolio-lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Image lightbox">
-      <div class="lightbox-header">
-        <p data-lightbox-label></p>
-        <button type="button" data-lightbox-close aria-label="Close image">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5L19 19M19 5L5 19" /></svg>
+    <div class="behance-viewer" data-behance-viewer hidden role="dialog" aria-modal="true" aria-labelledby="behance-viewer-title">
+      <div class="behance-viewer__topbar">
+        <h2 id="behance-viewer-title" data-behance-viewer-title></h2>
+        <button class="behance-viewer__close" type="button" data-behance-viewer-close aria-label="Close image viewer">
+          <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 1L11 11M11 1L1 11" /></svg>
         </button>
       </div>
-      <button class="lightbox-previous" type="button" data-lightbox-previous aria-label="Previous image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5L7 12L14 19" /></svg></button>
-      <div class="lightbox-media"><img data-lightbox-image-display alt="" /></div>
-      <button class="lightbox-next" type="button" data-lightbox-next aria-label="Next image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 5L17 12L10 19" /></svg></button>
+      <button class="behance-viewer__previous" type="button" data-behance-viewer-previous aria-label="Previous image">
+        <svg viewBox="0 0 12 20" aria-hidden="true"><path d="M10 2L2 10L10 18" /></svg>
+      </button>
+      <div class="behance-viewer__stage" data-behance-viewer-stage>
+        <img data-behance-viewer-image alt="" tabindex="0" />
+      </div>
+      <button class="behance-viewer__next" type="button" data-behance-viewer-next aria-label="Next image">
+        <svg viewBox="0 0 12 20" aria-hidden="true"><path d="M2 2L10 10L2 18" /></svg>
+      </button>
     </div>
     <script is:inline>
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -58,76 +64,111 @@ const { title, description, theme = 'neutral' } = Astro.props;
       } else {
         document.querySelectorAll('[data-reveal]').forEach((element) => element.classList.add('is-visible'));
       }
+
+      const playbackObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const video = entry.target;
+          if (!(video instanceof HTMLVideoElement)) return;
+          if (entry.isIntersecting) video.play().catch(() => {});
+          else video.pause();
+        });
+      }, { threshold: 0.35 });
+      document.querySelectorAll('video[data-autoplay-on-view]').forEach((video) => playbackObserver.observe(video));
     </script>
     <script is:inline>
-      const lightbox = document.querySelector('[data-lightbox]');
-      const lightboxDisplay = lightbox?.querySelector('[data-lightbox-image-display]');
-      const lightboxLabel = lightbox?.querySelector('[data-lightbox-label]');
-      const lightboxClose = lightbox?.querySelector('[data-lightbox-close]');
-      const lightboxPrevious = lightbox?.querySelector('[data-lightbox-previous]');
-      const lightboxNext = lightbox?.querySelector('[data-lightbox-next]');
-      let activeLightboxItem = null;
-      let lastLightboxFocus = null;
+      const viewer = document.querySelector('[data-behance-viewer]');
+      const viewerImage = viewer?.querySelector('[data-behance-viewer-image]');
+      const viewerStage = viewer?.querySelector('[data-behance-viewer-stage]');
+      const viewerTitle = viewer?.querySelector('[data-behance-viewer-title]');
+      const viewerClose = viewer?.querySelector('[data-behance-viewer-close]');
+      const viewerPrevious = viewer?.querySelector('[data-behance-viewer-previous]');
+      const viewerNext = viewer?.querySelector('[data-behance-viewer-next]');
+      let activeViewerItem = null;
+      let viewerReturnFocus = null;
+      let viewerExpanded = false;
 
-      const lightboxItems = () => Array.from(document.querySelectorAll('[data-lightbox-image]'));
-      const sourceFor = (item) => item instanceof HTMLImageElement ? item.currentSrc || item.src : item.querySelector('img')?.currentSrc || item.querySelector('img')?.src;
-      const labelFor = (item) => {
-        const figureCaption = item.closest('figure')?.querySelector('figcaption')?.textContent?.trim();
-        if (figureCaption) return figureCaption;
-        const image = item instanceof HTMLImageElement ? item : item.querySelector('img');
-        return image?.alt?.trim() || '';
+      const viewerItems = () => Array.from(document.querySelectorAll('[data-behance-image]'))
+        .filter((item) => item.getAttribute('aria-hidden') !== 'true');
+      const imageFor = (item) => item instanceof HTMLImageElement ? item : item.querySelector('img');
+      const titleFor = (item) => {
+        const explicit = item.dataset.behanceTitle?.trim();
+        const caption = item.closest('figure')?.querySelector('figcaption')?.textContent?.trim();
+        const image = imageFor(item);
+        const caseTitle = item.closest('.case-study')?.querySelector('.case-headline')?.textContent?.trim();
+        return explicit || caption || image?.alt?.trim() || caseTitle || 'Portfolio image';
       };
-      const renderLightbox = () => {
-        if (!activeLightboxItem || !lightboxDisplay || !lightboxLabel) return;
-        const source = sourceFor(activeLightboxItem);
-        if (!source) return;
-        lightboxDisplay.src = source;
-        const label = labelFor(activeLightboxItem);
-        lightboxDisplay.alt = label;
-        lightboxLabel.textContent = label;
-        lightboxLabel.hidden = !label;
+      const setViewerExpanded = (expanded) => {
+        if (!viewer || !viewerImage || !viewerStage) return;
+        viewerExpanded = expanded;
+        viewer.classList.toggle('is-expanded', expanded);
+        viewerImage.style.width = expanded ? `${window.innerWidth}px` : '';
+        viewerStage.scrollTo({ top: 0, left: 0, behavior: 'instant' });
       };
-      const closeLightbox = () => {
-        if (!lightbox || lightbox.hidden) return;
-        lightbox.hidden = true;
-        document.body.classList.remove('lightbox-open');
-        lastLightboxFocus?.focus();
+      const renderViewer = () => {
+        if (!activeViewerItem || !viewerImage || !viewerTitle) return;
+        const sourceImage = imageFor(activeViewerItem);
+        if (!sourceImage) return;
+        const title = titleFor(activeViewerItem);
+        viewerImage.src = sourceImage.currentSrc || sourceImage.src;
+        viewerImage.alt = title;
+        viewerTitle.textContent = title;
+        setViewerExpanded(false);
       };
-      const openLightbox = (item) => {
-        if (!lightbox) return;
-        activeLightboxItem = item;
-        lastLightboxFocus = item;
-        renderLightbox();
-        lightbox.hidden = false;
-        document.body.classList.add('lightbox-open');
-        lightboxClose?.focus();
+      const openViewer = (item) => {
+        if (!viewer) return;
+        activeViewerItem = item;
+        viewerReturnFocus = item;
+        renderViewer();
+        viewer.hidden = false;
+        document.body.classList.add('behance-viewer-open');
+        viewerClose?.focus();
       };
-      const moveLightbox = (offset) => {
-        const items = lightboxItems();
-        const current = items.indexOf(activeLightboxItem);
-        activeLightboxItem = items[(current + offset + items.length) % items.length];
-        renderLightbox();
+      const closeViewer = () => {
+        if (!viewer || viewer.hidden) return;
+        viewer.hidden = true;
+        document.body.classList.remove('behance-viewer-open');
+        setViewerExpanded(false);
+        viewerReturnFocus?.focus();
       };
+      const moveViewer = (offset) => {
+        const items = viewerItems();
+        const current = items.indexOf(activeViewerItem);
+        if (current < 0 || items.length < 2) return;
+        activeViewerItem = items[(current + offset + items.length) % items.length];
+        renderViewer();
+      };
+
       document.addEventListener('click', (event) => {
-        const item = event.target.closest?.('[data-lightbox-image]');
-        if (item) {
-          event.preventDefault();
-          event.stopPropagation();
-          openLightbox(item);
-        }
+        const item = event.target.closest?.('[data-behance-image]');
+        if (!item) return;
+        event.preventDefault();
+        event.stopPropagation();
+        openViewer(item);
       });
       document.addEventListener('keydown', (event) => {
-        const item = event.target.closest?.('[data-lightbox-image]');
-        if (item && (event.key === 'Enter' || event.key === ' ')) { event.preventDefault(); openLightbox(item); }
-        if (!lightbox || lightbox.hidden) return;
-        if (event.key === 'Escape') closeLightbox();
-        if (event.key === 'ArrowLeft') moveLightbox(-1);
-        if (event.key === 'ArrowRight') moveLightbox(1);
+        const item = event.target.closest?.('[data-behance-image]');
+        if (item && (event.key === 'Enter' || event.key === ' ')) {
+          event.preventDefault();
+          openViewer(item);
+          return;
+        }
+        if (!viewer || viewer.hidden) return;
+        if (event.key === 'Escape') closeViewer();
+        if (event.key === 'ArrowLeft' && !viewerExpanded) moveViewer(-1);
+        if (event.key === 'ArrowRight' && !viewerExpanded) moveViewer(1);
+        if (event.key === 'Enter' && event.target === viewerImage) setViewerExpanded(!viewerExpanded);
       });
-      lightboxClose?.addEventListener('click', closeLightbox);
-      lightboxPrevious?.addEventListener('click', () => moveLightbox(-1));
-      lightboxNext?.addEventListener('click', () => moveLightbox(1));
-      lightbox?.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); });
+      viewerImage?.addEventListener('click', () => setViewerExpanded(!viewerExpanded));
+      viewerImage?.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          setViewerExpanded(!viewerExpanded);
+        }
+      });
+      viewerClose?.addEventListener('click', closeViewer);
+      viewerPrevious?.addEventListener('click', () => moveViewer(-1));
+      viewerNext?.addEventListener('click', () => moveViewer(1));
+      viewer?.addEventListener('click', (event) => { if (event.target === viewer) closeViewer(); });
     </script>
   </body>
 </html>

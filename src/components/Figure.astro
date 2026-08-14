@@ -9,6 +9,8 @@ interface Props {
   eager?: boolean;
   video?: boolean;
   controls?: boolean;
+  autoplayOnView?: boolean;
+  loop?: boolean;
   poster?: string;
   width?: number;
   height?: number;
@@ -16,7 +18,7 @@ interface Props {
 
 const {
   src, alt, caption, captionLines, class: className, contain = false, eager = false,
-  video = false, controls = false, poster, width, height,
+  video = false, controls = false, autoplayOnView = false, loop = false, poster, width, height,
 } = Astro.props;
 const sourceAlt = alt ?? caption ?? captionLines?.join(' ') ?? '';
 const hasDesignedPlayback = video && Boolean(poster);
@@ -25,10 +27,23 @@ const hasDesignedPlayback = video && Boolean(poster);
 <figure class:list={['case-figure', className, { contain }]}> 
   {video ? (
     <div class="media-frame video-frame">
-      <video src={src} poster={poster} width={width} height={height} controls={controls} autoplay={!hasDesignedPlayback} muted loop={!hasDesignedPlayback} playsinline preload={hasDesignedPlayback ? 'none' : 'metadata'} aria-label={sourceAlt || 'Case study video'} />
+      <video
+        src={src}
+        poster={poster}
+        width={width}
+        height={height}
+        controls={controls && !autoplayOnView}
+        autoplay={!autoplayOnView && !hasDesignedPlayback}
+        muted
+        loop={autoplayOnView ? loop : !hasDesignedPlayback}
+        playsinline
+        preload={hasDesignedPlayback ? 'none' : 'metadata'}
+        data-autoplay-on-view={autoplayOnView ? '' : undefined}
+        aria-label={sourceAlt || 'Case study video'}
+      />
     </div>
   ) : (
-    <button class="media-frame" type="button" data-lightbox-image>
+    <button class="media-frame" type="button" data-behance-image>
       <img src={src} alt={sourceAlt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} decoding="async" />
     </button>
   )}

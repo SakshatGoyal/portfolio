@@ -4,20 +4,19 @@ import Figure from '../../components/Figure.astro';
 ---
 
 <CaseLayout
-  headline="Designing a B2B buying experience where sales partners and account teams could finish the deal together."
+  headline="Designing a B2B buying experience for Hitachi's Sales Partners"
   intro={[
-    'Hitachi Energy’s sales partners buy industrial equipment on behalf of end customers. They could already find products online, but configuration and quotation still spilled into email, spreadsheets, and calls.',
-    'I led the service and interaction design with two other designers over six months. We connected the partner storefront to the account teams behind each quote, giving both sides one place to work from discovery through agreement.',
+    'Sales partners purchase industrial equipment from Hitachi Energy in bulk to later sell to customers on demand and fulfill orders.',
+    'I led the design of the improved storefront partner portal, including identifying and digitizing parts of the quotation process that remained offline.',
   ]}
   stakeholder="Hitachi Energy"
   skills={['Discovery', 'User Experience Design', 'Journey Mapping']}
   year="2021-22 (6 months)"
   role="Senior Designer"
-  teamLabel="Team of 3 designers"
+  teamLabel="Team"
   hero="/assets/hitachi/video/partner-commerce-overview.webm"
   heroVideo
   heroPoster="/assets/hitachi/posters/partner-commerce-overview.jpg"
-  heroCaption="Senior Designer · Six months. I connected product discovery and item-level quotation to the account-team conversation."
   theme="hitachi"
   previousHref="/work/global-data-analytics/"
   nextHref="/work/cisco-customer-insights/"
@@ -25,7 +24,7 @@ import Figure from '../../components/Figure.astro';
   <section class="case-section reading-column" data-reveal>
     <h2>Context</h2>
     <p>A partner might buy dozens of configurable products for a customer tender. Price depended on the order, delivery terms, compatible components, and what a factory could fulfill.</p>
-    <p>That made the transaction a collaboration between two people: a sales partner assembling the order and a Hitachi account manager coordinating factories, engineers, and commercial terms.</p>
+    <p>That made the transaction a collaboration between two stakeholders: a sales partner assembling the order and a Hitachi account manager coordinating factories, engineers, and commercial terms.</p>
   </section>
 
   <Figure
@@ -38,8 +37,8 @@ import Figure from '../../components/Figure.astro';
 
   <section class="case-section reading-column" data-reveal>
     <h2>Mapping the Partner Journey</h2>
-    <p>I led working sessions with business partners in Germany, India, Thailand, and Australia while learning the configuration, pricing, and quotation process.</p>
-    <p>The journey map compared what partners were trying to accomplish with the touchpoints, constraints, and account-team activity behind each step. It exposed a sharp break: the storefront covered browsing and configuration, then disappeared as soon as the relationship work began.</p>
+    <p>I collaborated with business partners in Germany, India, Thailand, and Australia while learning the configuration, pricing, and quotation process.</p>
+    <p>The journey map compared what partners were trying to accomplish with the touchpoints, constraints, and account-team activity behind each step. <strong>The storefront covered browsing and configuration, then disappeared as soon as the relationship work began.</strong></p>
   </section>
 
   <Figure
@@ -60,7 +59,7 @@ import Figure from '../../components/Figure.astro';
 
   <section class="case-section reading-column" data-reveal>
     <h2>Defining the Quotation Experience</h2>
-    <p>The roadmap proposed a quote button and an open text field. A partner could begin a request online, but every meaningful exchange after that would still happen elsewhere.</p>
+    <p>The roadmap proposed a quote button and an open text field. A partner could begin a request online, but every meaningful exchange after that would still happen offline.</p>
     <p>A partial solution risked making the process harder to follow: the platform would show that a quote had started without showing what had changed, who was waiting, or whether the order was ready to place.</p>
   </section>
 
@@ -72,10 +71,18 @@ import Figure from '../../components/Figure.astro';
     caption="The original plan digitized the trigger, then handed quotation and negotiation back to offline channels."
   />
 
-  <section class="case-section reading-column" data-reveal>
+  <Figure
+    src="/assets/hitachi/updated-quotation-flow.png"
+    width={3000}
+    height={1685}
+    alt="Updated end-to-end quotation flow"
+    caption="The revised flow kept quote creation, account-team review, partner negotiation, approval, and order placement connected inside the product."
+  />
+
+  <section class="case-section reading-column case-transition" data-reveal>
     <h2>Designing the Quotation Conversation</h2>
-    <p>I broke real quotation exchanges into two kinds of input. Partners usually opened with a structured request such as a discount, delivery date, commerce term, or product-specific change. The response was less predictable. It might include a counteroffer, explanation, attachment, or exception.</p>
-    <p><strong>Comparable requests needed structure. Negotiation needed room for a conversation.</strong></p>
+    <p>I separated quotation exchanges into structured requests, such as discounts or delivery changes, and the less predictable negotiation that followed. Comparable information needed structure, while counteroffers, explanations, attachments, and exceptions needed room for conversation.</p>
+    <p>The prototypes showed that a request form alone would preserve the email handoff, so I used them to make the case for delaying release and bringing the full quotation exchange into the portal. Product, engineering, and business leadership agreed; I kept item-level quotation in scope and cut batch actions and product recommendations to avoid another delay.</p>
   </section>
 
   <Figure
@@ -95,7 +102,8 @@ import Figure from '../../components/Figure.astro';
       alt="Inline item-level quote adjustment prototype"
       caption="Concept 01: item-level adjustment requests stayed close to the product rows they changed."
       video
-      controls
+      autoplayOnView
+      loop
     />
     <Figure
       src="/assets/hitachi/video/quotation-concept-panel.webm"
@@ -105,23 +113,10 @@ import Figure from '../../components/Figure.astro';
       alt="Quote adjustment side-panel prototype"
       caption="Concept 02: a persistent panel made it easier to move between several adjusted items in a large order."
       video
-      controls
+      autoplayOnView
+      loop
     />
   </div>
-
-  <section class="case-section reading-column case-transition" data-reveal>
-    <h2>Prototyping and Roadmap Planning</h2>
-    <p>The prototypes showed that shipping only the request form would preserve the email handoff. I used them in roadmap reviews to argue for delaying release and bringing quotation into the platform.</p>
-    <p>Product, engineering, and business leadership agreed to change the scope. I then cut batch actions and product recommendations from the first release. That kept item-level quotation intact without adding another round of delay.</p>
-  </section>
-
-  <Figure
-    src="/assets/hitachi/updated-quotation-flow.png"
-    width={3000}
-    height={1685}
-    alt="Updated end-to-end quotation flow"
-    caption="The revised flow kept quote creation, account-team review, partner negotiation, approval, and order placement connected inside the product."
-  />
 
   <section class="case-section reading-column" data-reveal>
     <h2>Designing Item-Level Negotiation</h2>
@@ -145,7 +140,7 @@ import Figure from '../../components/Figure.astro';
     alt="Itemized quotation workflow"
     caption="The itemized flow let partners apply requests to individual products while retaining a readable view of the full order."
     video
-    controls
+    autoplayOnView
   />
 
   <section class="case-section reading-column case-transition" data-reveal>
@@ -167,13 +162,13 @@ import Figure from '../../components/Figure.astro';
 
   <section class="case-section reading-column" data-reveal>
     <h2>Impact</h2>
-    <p>Nine to twelve months after launch, the business team shared follow-up feedback from partners and account teams: deals were reaching completion about three weeks sooner than on the previous platform.</p>
-    <p>They also reported fewer periods when active opportunities went quiet. Our engagement had ended, so I could not check the estimate against transaction data and treat it as directional. The explanation was consistent: both sides now had a current record of the decisions holding up the deal.</p>
+    <p><strong>Nine to twelve months after launch, the business team reported two outcomes: deals were closing about three weeks sooner, and active opportunities went quiet less often.</strong></p>
+    <p>Keeping each request, response, and pending decision in one place helped partners and account teams see what was holding up a deal and keep it moving.</p>
   </section>
 
-  <section class="case-section reading-column" data-reveal>
-    <h2>What I learned</h2>
-    <p><strong>The useful boundary was between comparable information and open-ended negotiation.</strong></p>
-    <p>We could structure requests that followed known patterns. We still needed to give partners and account managers room to work through the exceptions together.</p>
+  <section class="case-section reading-column lesson-section" data-reveal>
+    <h2>What I Learned</h2>
+    <p><strong>The problem was widely recognized, but it did not reach the roadmap until the prototype made a solution tangible.</strong></p>
+    <p>When I raised the gaps in the quotation process with business partners, I met very little resistance because they already recognized the problem, but the people responsible for the process had not raised it without a solution to propose. Once the prototype showed how quotation could work inside the platform, the team could evaluate something concrete and acknowledge the problem as work that belonged on the roadmap.</p>
   </section>
 </CaseLayout>

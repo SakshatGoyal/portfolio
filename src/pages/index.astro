@@ -6,12 +6,12 @@ const projects = [
     href: '/work/panw-ai/',
     title: 'Designing AI experiences for deep analysis and traceability.',
     company: 'Palo Alto Networks',
-    image: '/assets/panw-ai/imgScenario032160X21601.png',
+    video: '/assets/panw-ai/video/02-renewal-exception-row-anchor.webm',
     className: 'home-project-panw',
   },
   {
     href: '/work/hbs-ai-institute/',
-    title: 'HBS AI Institute is a global research center that provides research-driven insights on using AI to advance business and society.',
+    title: 'Designing an AI architecture for large scale, qualitative research and product strategy.',
     company: 'HBS AI Institute',
     image: '/assets/hbs/imgPanwImage011.png',
     className: 'home-project-hbs',
@@ -25,14 +25,14 @@ const projects = [
   },
   {
     href: '/work/global-data-analytics/',
-    title: 'Two dashboard projects that helped DocuSign sellers turn customer data into a next step.',
+    title: 'Deriving novice use-cases from existing basic data [title to be changed later]',
     company: 'DocuSign',
     image: '/assets/global-data/imgPanwImage011.png',
     className: 'home-project-global',
   },
   {
     href: '/work/hitachi-energy/',
-    title: 'Designing a B2B buying experience where sales partners and account teams could finish the deal together.',
+    title: "Designing a B2B buying experience for Hitachi's Sales Partners",
     company: 'Hitachi Energy',
     image: '/assets/hitachi/partner-account-team.png',
     className: 'home-project-hitachi',
@@ -64,7 +64,11 @@ const projects = [
         {projects.filter((_, index) => index % 2 === 0).map((project, index) => (
           <a class:list={['home-project-card', project.className]} href={project.href} data-reveal>
             <div class="home-project-media">
-              <img src={project.image} alt={project.title} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+              {project.video ? (
+                <video src={project.video} aria-label={project.title} autoplay muted loop playsinline preload="auto" data-autoplay-on-view></video>
+              ) : (
+                <img src={project.image} alt={project.title} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+              )}
               <span class="home-project-arrow" aria-hidden="true">↗</span>
             </div>
             <div class="home-project-copy">
@@ -78,7 +82,11 @@ const projects = [
         {projects.filter((_, index) => index % 2 === 1).map((project) => (
           <a class:list={['home-project-card', project.className]} href={project.href} data-reveal>
           <div class="home-project-media">
-            <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
+            {project.video ? (
+              <video src={project.video} aria-label={project.title} autoplay muted loop playsinline preload="auto" data-autoplay-on-view></video>
+            ) : (
+              <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
+            )}
             <span class="home-project-arrow" aria-hidden="true">↗</span>
           </div>
           <div class="home-project-copy">

@@ -27,7 +27,7 @@ const {
           alt=""
           loading="lazy"
           data-carousel-slide
-          data-lightbox-image
+          data-behance-image
           aria-hidden={index === startIndex ? 'false' : 'true'}
           style={`opacity: ${index === startIndex ? 1 : 0};`}
         />
@@ -45,6 +45,7 @@ const {
     const slides = Array.from(carousel.querySelectorAll<HTMLElement>('[data-carousel-slide]'));
     const dots = Array.from(carousel.querySelectorAll<HTMLButtonElement>('[data-carousel-dot]'));
     let index = Number(carousel.dataset.index ?? '0');
+    let autoAdvance: number | undefined;
 
     const render = () => {
       slides.forEach((slide, slideIndex) => {
@@ -58,9 +59,19 @@ const {
       });
     };
 
+    const startAutoAdvance = () => {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      if (autoAdvance) window.clearInterval(autoAdvance);
+      autoAdvance = window.setInterval(() => {
+        index = (index + 1) % slides.length;
+        render();
+      }, 300);
+    };
+
     dots.forEach((dot, dotIndex) => dot.addEventListener('click', () => {
       index = dotIndex;
       render();
+      startAutoAdvance();
     }));
     carousel.addEventListener('keydown', (event) => {
       if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
@@ -72,6 +83,7 @@ const {
       dots[index]?.focus();
     });
     render();
+    startAutoAdvance();
   });
 </script>
 
@@ -79,7 +91,7 @@ const {
   .figma-carousel { display: flex; flex-direction: column; gap: 0; width: 100%; margin-inline: auto; }
   .carousel-viewport { position: relative; width: 100%; overflow: hidden; }
   .carousel-stage { position: absolute; inset: 0; width: 100%; }
-  .carousel-stage > img { position: absolute; inset: 0 auto auto 0; display: block; width: 100%; max-width: 100%; height: auto; cursor: zoom-in; transition: opacity .28s ease; }
+  .carousel-stage > img { position: absolute; inset: 0 auto auto 0; display: block; width: 100%; max-width: 100%; height: auto; cursor: zoom-in; transition: opacity 50ms ease-in-out; }
   .carousel-stage > img[aria-hidden='true'] { pointer-events: none; }
   .carousel-pagination { position: relative; z-index: 2; display: flex; align-self: flex-start; gap: 5px; width: auto; height: 24px; margin: 8px 0 12px; align-items: center; }
   .carousel-pagination button { position: relative; flex: 0 0 50px; width: 50px; height: 24px; padding: 0; border: 0; background: transparent; cursor: pointer; }
