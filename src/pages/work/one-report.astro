@@ -22,12 +22,17 @@ import Figure from '../../components/Figure.astro';
   <section class="case-section reading-column" data-reveal>
     <h2>Deciding what to build.</h2>
     <p>Rather than approaching it as a mobile version of our existing dashboards, I approached it as an exploration to understand when, and for what reason, might an executive need to access data.</p>
-    <p><strong>Three exploratory scenarios shifted the focus from mobile dashboards to three purpose-built surfaces --</strong></p>
-    <ol>
-      <li>5-10 minute whitespaces during the day → Reports</li>
-      <li>Quick checks during meetings → Numbers</li>
-      <li>Exploratory deep dives when time allows → Analysis</li>
-    </ol>
+    <div class="branched-layout">
+      <p data-branch-lead><strong>Three exploratory scenarios shifted the focus from mobile dashboards to three purpose-built surfaces --</strong></p>
+      <svg class="problem-connector" aria-hidden="true" focusable="false">
+        <path></path>
+      </svg>
+      <ol class="problem-list">
+        <li><span class="problem-marker" aria-hidden="true"></span><span>5-10 minute whitespaces during the day → Reports</span></li>
+        <li><span class="problem-marker" aria-hidden="true"></span><span>Quick checks during meetings → Numbers</span></li>
+        <li><span class="problem-marker" aria-hidden="true"></span><span>Exploratory deep dives when time allows → Analysis</span></li>
+      </ol>
+    </div>
   </section>
 
   <div class="media-grid three" data-reveal>

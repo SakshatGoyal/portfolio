@@ -1,6 +1,12 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Figure from '../components/Figure.astro';
+import TeamPanel from '../components/TeamPanel.astro';
+
+interface TeamMember {
+  name: string;
+  role: string;
+}
 
 interface Props {
   headline: string;
@@ -10,10 +16,16 @@ interface Props {
   year: string;
   role: string;
   teamLabel: string;
+  teamRoleSummary?: string;
+  teamMembers?: TeamMember[];
   hero: string;
   heroVideo?: boolean;
+  heroWidth?: number;
+  heroHeight?: number;
   heroCaption?: string;
   heroPoster?: string;
+  heroAutoplayOnView?: boolean;
+  heroLoop?: boolean;
   theme?: string;
   previousHref: string;
   nextHref: string;
@@ -21,18 +33,24 @@ interface Props {
 }
 
 const {
-  headline, intro, stakeholder, skills, year, role, teamLabel, hero, heroVideo = false, heroCaption, heroPoster,
+  headline, intro, stakeholder, skills, year, role, teamLabel, hero, heroVideo = false,
+  heroWidth = 1920, heroHeight = 1080, heroCaption, heroPoster,
+  heroAutoplayOnView = heroVideo, heroLoop = heroVideo,
   theme = 'neutral', previousHref, nextHref, introSpacing = 'standard',
+  teamRoleSummary = '', teamMembers = [],
 } = Astro.props;
+const hasTeamPanel = Boolean(teamLabel);
+const resolvedTeamRoleSummary = teamRoleSummary || role;
+const teamPanelId = `team-panel-${theme}`;
 ---
 
 <BaseLayout title={headline} description={headline} theme={theme}>
-  <article class="case-study">
+  <article class="case-study case-study-system">
     <header class="case-hero" data-reveal>
-      <h1>{headline}</h1>
+      <h1 data-line-mask aria-label={headline} style="visibility: hidden;">{headline}</h1>
     </header>
 
-    <Figure src={hero} alt={headline} caption={heroCaption} class="hero-figure" eager contain={theme === 'panw'} video={heroVideo} controls={heroVideo} poster={heroPoster} width={1920} height={1080} />
+    <Figure src={hero} alt={headline} caption={heroCaption} class="hero-figure" eager contain={theme === 'panw'} video={heroVideo} controls={heroVideo} autoplayOnView={heroAutoplayOnView} loop={heroLoop} poster={heroPoster} width={heroWidth} height={heroHeight} />
 
     <section class:list={['case-intro', 'reading-column', { tight: introSpacing === 'tight' }]} data-reveal>
       {intro.map((paragraph) => <p>{paragraph}</p>)}
@@ -43,8 +61,32 @@ const {
       <div><dt>Stakeholder</dt><dd>{stakeholder}</dd></div>
       <div><dt>Skills</dt><dd>{skills.map((skill) => <span>{skill}</span>)}</dd></div>
       <div><dt>Year</dt><dd>{year}</dd></div>
-      <div><dt>Role</dt><dd class="role-meta"><span>{role}</span><span aria-hidden="true">・</span><span class="team-label">{teamLabel}</span></dd></div>
+      <div>
+        <dt>Role</dt>
+        <dd class="role-meta">
+          <span>{role}</span>
+          <span aria-hidden="true">・</span>
+          {hasTeamPanel ? (
+            <button
+              class="team-label"
+              type="button"
+              data-team-panel-trigger
+              aria-haspopup="dialog"
+              aria-controls={teamPanelId}
+              aria-expanded="false"
+            >
+              {teamLabel}
+            </button>
+          ) : (
+            <span class="team-label">{teamLabel}</span>
+          )}
+        </dd>
+      </div>
     </dl>
+
+    {hasTeamPanel && (
+      <TeamPanel id={teamPanelId} roleSummary={resolvedTeamRoleSummary} members={teamMembers} />
+    )}
 
     <div class="case-body">
       <slot />

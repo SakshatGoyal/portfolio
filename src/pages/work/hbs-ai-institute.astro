@@ -15,7 +15,9 @@ import Carousel from '../../components/Carousel.astro';
   year="2025 (4 weeks)"
   role="Designer + Researcher"
   teamLabel="Team"
-  hero="/assets/hbs/imgPanwImage011.png"
+  hero="/assets/hbs/hbs-cover.png"
+  heroWidth={5586}
+  heroHeight={3142}
   theme="hbs"
   previousHref="/work/panw-ai/"
   nextHref="/work/one-report/"
@@ -41,17 +43,18 @@ import Carousel from '../../components/Carousel.astro';
     class="hbs-untethered"
   />
 
-  <section class="case-section reading-column" data-reveal>
+  <section class="case-section reading-column branched-layout" data-reveal>
     <h2>Approach</h2>
-    <p class="approach-lead">To avoid narrowing the opportunity around our initial assumptions, I organized the work around three questions:<br /><br /></p>
-    <ol class="figma-list approach-list">
-      <li>How executives formulate strategy,</li>
-      <li>What problems they encounter while doing so, and</li>
-      <li>What role AI currently plays in their decisions.</li>
+    <p data-branch-lead>To avoid narrowing the opportunity around our initial assumptions, I organized the work around three questions:</p>
+    <svg class="problem-connector" aria-hidden="true" focusable="false">
+      <path></path>
+    </svg>
+    <ol class="problem-list">
+      <li><span class="problem-marker" aria-hidden="true"></span><span>How executives formulate strategy,</span></li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span>What problems they encounter while doing so, and</span></li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span>What role AI currently plays in their decisions.</span></li>
     </ol>
-    <p class="figma-blank" aria-hidden="true">​</p>
-    <p>I gathered credible resources and papers to examined these questions broadly across roles, industries, and types of strategy.</p>
-    <p class="figma-blank" aria-hidden="true">​</p>
+    <p class="branch-followup">I gathered credible resources and papers to examined these questions broadly across roles, industries, and types of strategy.</p>
     <p>To handle research at scale, I built an AI-assisted research architecture that broke 237 papers into 992 traceable modules, translated qualitative observations into comparable measures, and preserved the evidence behind each synthesis.</p>
   </section>
 
@@ -116,13 +119,16 @@ import Carousel from '../../components/Carousel.astro';
     <p>I wrote each principle so its opposite could also make sense; something a smart team might choose in another situation or with different goals.</p>
   </Carousel>
 
-  <section class="case-section reading-column" data-reveal>
+  <section class="case-section reading-column branched-layout" data-reveal>
     <h2>Impact:</h2>
-    <p class="body-regular">The work continued in three ways.</p>
-    <ol class="figma-numbered-list">
-      <li><strong>The seven human-AI interaction principles were used to fine-tune model responses across exploratory HBS projects for business executives.</strong> They gave teams specific behaviors to compare. For example, whether a model should present its conclusion or reasoning first, accept the user’s framing or introduce another perspective, and state uncertainty directly or leave it implicit.</li>
-      <li><strong>The research architecture was repurposed for other qualitative work.</strong><br />We used it whenever it was necessary to converted unstructured text into comparable measures and reviewable patterns. Two immediate examples included scoring participant-written prompts at scale for HBS’  Sana.ai prompt engineering course, and analyze open-ended surveys from Leading with AI events.</li>
-      <li><strong>The sixteen people problems initiated follow-on research and exploration across HBS teams.</strong> Instead of beginning with “executive strategy” as one enormous subject, teams could investigate specific tensions such as deployment versus governance, short-term gains versus long-term capability, or intuitive judgment versus structured analysis.</li>
+    <p class="body-regular" data-branch-lead>The work continued in three ways.</p>
+    <svg class="problem-connector" aria-hidden="true" focusable="false">
+      <path></path>
+    </svg>
+    <ol class="problem-list">
+      <li><span class="problem-marker" aria-hidden="true"></span><span><strong>The seven human-AI interaction principles were used to fine-tune model responses across exploratory HBS projects for business executives.</strong> They gave teams specific behaviors to compare. For example, whether a model should present its conclusion or reasoning first, accept the user’s framing or introduce another perspective, and state uncertainty directly or leave it implicit.</span></li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span><strong>The research architecture was repurposed for other qualitative work.</strong><br />We used it whenever it was necessary to converted unstructured text into comparable measures and reviewable patterns. Two immediate examples included scoring participant-written prompts at scale for HBS’ Sana.ai prompt engineering course, and analyze open-ended surveys from Leading with AI events.</span></li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span><strong>The sixteen people problems initiated follow-on research and exploration across HBS teams.</strong> Instead of beginning with “executive strategy” as one enormous subject, teams could investigate specific tensions such as deployment versus governance, short-term gains versus long-term capability, or intuitive judgment versus structured analysis.</span></li>
     </ol>
   </section>
 

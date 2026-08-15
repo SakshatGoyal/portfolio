@@ -10,10 +10,12 @@ interface Props {
 }
 
 const { title, description, theme = 'neutral' } = Astro.props;
+const isCaseSystem = theme !== 'neutral';
+const isHomeSystem = Astro.url.pathname === '/';
 ---
 
 <!doctype html>
-<html lang="en" data-theme={theme}>
+<html lang="en" data-theme={theme} data-case-system={isCaseSystem ? 'true' : undefined} data-home-system={isHomeSystem ? 'true' : undefined}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -23,10 +25,11 @@ const { title, description, theme = 'neutral' } = Astro.props;
     <script is:inline>
       document.documentElement.classList.add('js');
     </script>
+    <noscript><style>[data-line-mask] { visibility: visible !important; }</style></noscript>
   </head>
   <body id="top">
     <div class="page-shell">
-      <SiteHeader />
+      <SiteHeader theme={theme} />
       <main>
         <slot />
       </main>
@@ -51,6 +54,107 @@ const { title, description, theme = 'neutral' } = Astro.props;
     </div>
     <script is:inline>
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      const lineMaskHeadings = [...document.querySelectorAll('[data-line-mask]')];
+      lineMaskHeadings.forEach((heading) => {
+        heading.dataset.lineMaskText = heading.textContent?.trim() || '';
+      });
+
+      const renderLineMaskHeading = (heading, animate = true) => {
+        const text = heading.dataset.lineMaskText || '';
+        const words = text.split(/\s+/).filter(Boolean);
+        if (!words.length) {
+          heading.classList.add('line-mask-ready');
+          heading.style.removeProperty('visibility');
+          return;
+        }
+
+        heading.classList.remove('line-mask-ready', 'line-mask-active', 'line-mask-played');
+        const probe = document.createElement('span');
+        probe.className = 'line-mask-probe';
+        words.forEach((word, index) => {
+          if (index) probe.append(document.createTextNode(' '));
+          const wordElement = document.createElement('span');
+          wordElement.className = 'line-mask-word';
+          wordElement.textContent = word;
+          probe.append(wordElement);
+        });
+        heading.replaceChildren(probe);
+
+        const lines = [];
+        probe.querySelectorAll('.line-mask-word').forEach((wordElement) => {
+          const top = Math.round(wordElement.getBoundingClientRect().top * 10) / 10;
+          const currentLine = lines.at(-1);
+          if (!currentLine || Math.abs(currentLine.top - top) > 1) {
+            lines.push({ top, words: [wordElement.textContent] });
+          } else {
+            currentLine.words.push(wordElement.textContent);
+          }
+        });
+
+        const fragment = document.createDocumentFragment();
+        lines.forEach((line, index) => {
+          const lineMask = document.createElement('span');
+          lineMask.className = 'line-mask-line';
+          lineMask.setAttribute('aria-hidden', 'true');
+          const lineInner = document.createElement('span');
+          lineInner.className = 'line-mask-line-inner';
+          lineInner.style.setProperty('--line-mask-delay', `${index * 80}ms`);
+          lineInner.textContent = line.words.join(' ');
+          lineMask.append(lineInner);
+          fragment.append(lineMask);
+        });
+        heading.replaceChildren(fragment);
+        heading.classList.add('line-mask-ready');
+        heading.style.removeProperty('visibility');
+
+        if (!animate) {
+          heading.classList.add('line-mask-active', 'line-mask-played');
+          return;
+        }
+
+        const playHeading = () => {
+          window.setTimeout(() => {
+            requestAnimationFrame(() => {
+              requestAnimationFrame(() => {
+                heading.classList.add('line-mask-active');
+                window.setTimeout(
+                  () => heading.classList.add('line-mask-played'),
+                  600 + (lines.length - 1) * 80,
+                );
+              });
+            });
+          }, 120);
+        };
+
+        const headingObserver = new IntersectionObserver((entries) => {
+          if (!entries.some((entry) => entry.isIntersecting)) return;
+          headingObserver.disconnect();
+          playHeading();
+        }, { threshold: 0.2 });
+        headingObserver.observe(heading);
+      };
+
+      if (reduceMotion) {
+        lineMaskHeadings.forEach((heading) => {
+          heading.classList.add('line-mask-ready');
+          heading.style.removeProperty('visibility');
+        });
+      } else {
+        document.fonts.ready.then(() => {
+          lineMaskHeadings.forEach((heading) => renderLineMaskHeading(heading));
+        });
+
+        let lineMaskResizeTimer;
+        window.addEventListener('resize', () => {
+          window.clearTimeout(lineMaskResizeTimer);
+          lineMaskResizeTimer = window.setTimeout(() => {
+            if (!lineMaskHeadings.every((heading) => heading.classList.contains('line-mask-played'))) return;
+            lineMaskHeadings.forEach((heading) => renderLineMaskHeading(heading, false));
+          }, 120);
+        }, { passive: true });
+      }
+
       if (!reduceMotion) {
         const observer = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
@@ -65,15 +169,85 @@ const { title, description, theme = 'neutral' } = Astro.props;
         document.querySelectorAll('[data-reveal]').forEach((element) => element.classList.add('is-visible'));
       }
 
+      const inViewVideos = [...document.querySelectorAll('video[data-autoplay-on-view]')]
+        .filter((video) => video instanceof HTMLVideoElement);
+      const videoVisibility = new Map(inViewVideos.map((video) => [video, 0]));
+
+      const updateVideoPlayback = (video, shouldPlay) => {
+        if (!(video instanceof HTMLVideoElement)) return;
+        if (!shouldPlay || document.hidden) {
+          video.pause();
+          return;
+        }
+
+        video.play().catch(() => {
+          // The poster remains visible if playback is blocked or decoding is delayed.
+        });
+      };
+
+      const selectActiveVideo = () => {
+        const viewportCenter = window.innerHeight / 2;
+        const eligibleVideos = inViewVideos.filter((video) => (videoVisibility.get(video) ?? 0) >= 0.35);
+        const activeVideo = eligibleVideos.reduce((closest, video) => {
+          if (!closest) return video;
+          const videoRect = video.getBoundingClientRect();
+          const closestRect = closest.getBoundingClientRect();
+          const videoDistance = Math.abs(videoRect.top + videoRect.height / 2 - viewportCenter);
+          const closestDistance = Math.abs(closestRect.top + closestRect.height / 2 - viewportCenter);
+          return videoDistance < closestDistance ? video : closest;
+        }, null);
+
+        inViewVideos.forEach((video) => {
+          const inRange = (videoVisibility.get(video) ?? 0) >= 0.35;
+          const isActive = video === activeVideo;
+          video.toggleAttribute('data-in-playback-range', inRange);
+          video.toggleAttribute('data-active-playback', isActive);
+          updateVideoPlayback(video, isActive);
+        });
+      };
+
       const playbackObserver = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           const video = entry.target;
           if (!(video instanceof HTMLVideoElement)) return;
-          if (entry.isIntersecting) video.play().catch(() => {});
-          else video.pause();
+          videoVisibility.set(video, entry.intersectionRatio);
         });
-      }, { threshold: 0.35 });
-      document.querySelectorAll('video[data-autoplay-on-view]').forEach((video) => playbackObserver.observe(video));
+        selectActiveVideo();
+      }, { threshold: [0, 0.15, 0.35, 0.5, 0.75, 1] });
+      inViewVideos.forEach((video) => playbackObserver.observe(video));
+
+      document.addEventListener('visibilitychange', () => {
+        selectActiveVideo();
+      });
+
+      const alignBranchedConnectors = () => {
+        document.querySelectorAll('.problem-layout, .branched-layout').forEach((layout) => {
+          const lead = layout.querySelector(':scope > [data-branch-lead]');
+          const svg = layout.querySelector(':scope > .problem-connector');
+          const path = svg?.querySelector('path');
+          const markers = [...layout.querySelectorAll(':scope > .problem-list .problem-marker')];
+
+          if (!lead || !svg || !path || markers.length === 0) return;
+
+          const svgRect = svg.getBoundingClientRect();
+          const leadRect = lead.getBoundingClientRect();
+          const markerRects = markers.map((marker) => marker.getBoundingClientRect());
+          const spineX = Math.round(leadRect.left - svgRect.left + 10) + 0.5;
+          const startY = leadRect.bottom - svgRect.top;
+          const markerCenters = markerRects.map((rect) => rect.top - svgRect.top + rect.height / 2);
+          const markerEdges = markerRects.map((rect) => rect.left - svgRect.left);
+          const endY = markerCenters.at(-1);
+          const branches = markerCenters.map((centerY, index) => `M ${spineX} ${centerY} H ${markerEdges[index]}`).join(' ');
+
+          svg.setAttribute('viewBox', `0 0 ${svgRect.width} ${svgRect.height}`);
+          path.setAttribute('d', `M ${spineX} ${startY} V ${endY} ${branches}`);
+        });
+      };
+
+      const branchedConnectorObserver = new ResizeObserver(alignBranchedConnectors);
+      document.querySelectorAll('.problem-layout, .branched-layout').forEach((layout) => branchedConnectorObserver.observe(layout));
+      document.fonts.ready.then(alignBranchedConnectors);
+      window.addEventListener('resize', alignBranchedConnectors, { passive: true });
     </script>
     <script is:inline>
       const viewer = document.querySelector('[data-behance-viewer]');
@@ -169,6 +343,44 @@ const { title, description, theme = 'neutral' } = Astro.props;
       viewerPrevious?.addEventListener('click', () => moveViewer(-1));
       viewerNext?.addEventListener('click', () => moveViewer(1));
       viewer?.addEventListener('click', (event) => { if (event.target === viewer) closeViewer(); });
+    </script>
+    <script is:inline>
+      document.querySelectorAll('[data-team-panel]').forEach((panel) => {
+        if (!(panel instanceof HTMLDialogElement)) return;
+
+        const trigger = document.querySelector(`[data-team-panel-trigger][aria-controls="${panel.id}"]`);
+        const closeButton = panel.querySelector('[data-team-panel-close]');
+        let returnFocus = null;
+
+        const openPanel = () => {
+          returnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : trigger;
+          panel.showModal();
+          document.body.classList.add('team-panel-open');
+          trigger?.setAttribute('aria-expanded', 'true');
+          closeButton?.focus();
+        };
+
+        const closePanel = () => {
+          if (panel.open) panel.close();
+        };
+
+        trigger?.addEventListener('click', openPanel);
+        closeButton?.addEventListener('click', closePanel);
+        panel.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape') {
+            event.preventDefault();
+            closePanel();
+          }
+        });
+        panel.addEventListener('click', (event) => {
+          if (event.target === panel) closePanel();
+        });
+        panel.addEventListener('close', () => {
+          document.body.classList.remove('team-panel-open');
+          trigger?.setAttribute('aria-expanded', 'false');
+          if (returnFocus instanceof HTMLElement && returnFocus.isConnected) returnFocus.focus();
+        });
+      });
     </script>
   </body>
 </html>

@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "check:dividers": "node scripts/check-divider-ownership.mjs",
+    "build": "npm run check:dividers && astro check && astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "npm run check:dividers && astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

@@ -61,11 +61,12 @@ const {
 
     const startAutoAdvance = () => {
       if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-      if (autoAdvance) window.clearInterval(autoAdvance);
-      autoAdvance = window.setInterval(() => {
+      if (autoAdvance) window.clearTimeout(autoAdvance);
+      autoAdvance = window.setTimeout(() => {
         index = (index + 1) % slides.length;
         render();
-      }, 300);
+        startAutoAdvance();
+      }, 3000);
     };
 
     dots.forEach((dot, dotIndex) => dot.addEventListener('click', () => {
@@ -81,6 +82,7 @@ const {
         : (index + 1) % slides.length;
       render();
       dots[index]?.focus();
+      startAutoAdvance();
     });
     render();
     startAutoAdvance();

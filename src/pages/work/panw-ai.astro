@@ -13,8 +13,29 @@ import Figure from '../../components/Figure.astro';
   year="2025-26"
   role="Product Design Lead"
   teamLabel="Team"
+  teamRoleSummary="Placeholder — add a concise summary of my role, scope, and contribution to this project."
+  teamMembers={[
+    { name: 'Jaswanth Singh', role: 'Full Stack Engineer' },
+    { name: 'Vineetha Shettigar', role: 'Engineering Manager' },
+    { name: 'Prasanna Rathinasami', role: 'VP GTM Applications' },
+    { name: 'Lavina Pinto', role: 'SVP Business Applications' },
+    { name: 'Zhibo Zhao', role: 'Strategy and Transformation' },
+    { name: 'Spandan Mishra', role: 'Head of AI and Data Science' },
+    { name: 'Sandeep Kadoor', role: 'Principle Engineer' },
+    { name: 'Aaditya Ganapathy', role: 'Staff AI Engineer' },
+    { name: 'Senthilkumar Subramanian', role: 'Software Engineer' },
+    { name: 'Archana Nehru', role: 'Head of CX and GTM' },
+    { name: 'Parthipan Krishnasamy', role: 'Salesforce Architect' },
+    { name: 'Aarti Gupta', role: 'Product Engineer' },
+    { name: 'Renuka Janagarajan', role: 'Staff QA Engineer' },
+  ]}
   hero="/assets/panw-ai/video/panw-traceability-scenario.webm"
   heroVideo
+  heroAutoplayOnView
+  heroLoop
+  heroPoster="/assets/panw-ai/posters/panw-traceability-scenario.png"
+  heroWidth={2160}
+  heroHeight={2160}
   theme="panw"
   introSpacing="tight"
   previousHref="/work/cisco-customer-insights/"
@@ -28,60 +49,63 @@ import Figure from '../../components/Figure.astro';
   <section class="case-section reading-column" data-reveal>
     <h2>Context</h2>
     <p class="muted">Sales Workbench was designed as a tool to consolidate a wide range of tools into a single platform for account teams to manage their Opportunities, Accounts, Telemetry, and other sales activities.</p>
-    <p><strong>Along with consolidation, the leadership wanted to incorporate an AI chatbot as a step towards AI transition.</strong></p>
+    <p><strong>As part of the consolidation effort, leadership also wanted to introduce an AI chatbot as a step toward AI-assisted workflows.</strong></p>
   </section>
 
-  <Figure src="/assets/panw-ai/imgPanwImage011.png" alt="Sales Workbench interface" caption="Sales Workbench (part of Salesforce Account Executive Experience)" />
+  <Figure src="/assets/panw-ai/sales-workbench-context-cropped.png" alt="Sales Workbench interface" caption="Sales Workbench (part of Salesforce Account Executive Experience)" width={6242} height={4692} />
 
   <section class="case-section reading-column problem-layout" data-reveal>
     <h2>Problem</h2>
-    <p>With the push to add AI experiences to platforms, there was a disconnect between AI’s narrative exchanges and the structured, tactile interaction our users knew.</p>
+    <p data-branch-lead>With the push to add AI experiences to platforms, there was a disconnect between AI’s narrative exchanges and the structured, tactile interaction our users knew.</p>
+    <svg class="problem-connector" aria-hidden="true" focusable="false">
+      <path></path>
+    </svg>
     <ol class="problem-list">
-      <li>Leadership wanted to introduce an AI chatbot, but users were indifferent; they saw (and still see) structured UIs best for analysis and deep dives — their bread and butter.</li>
-      <li>The effort to verify a false response continued to outweigh the benefits of AI.</li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span>Leadership wanted to introduce an AI chatbot, but users were largely indifferent. They still considered structured interfaces better suited to the detailed analysis at the center of their work.</span></li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span>The effort to verify a false response continued to outweigh the benefits of AI.</span></li>
     </ol>
   </section>
 
-  <Figure src="/assets/panw-ai/imgPanwImage013.png" alt="Structured interface and conversational AI comparison" />
+  <Figure src="/assets/panw-ai/imgPanwImage013.png" alt="Structured interface and conversational AI comparison" caption="A sketch to recognize the tension between established interaction patterns and an AI-first future among the team without taking sides." />
 
   <section class="case-section reading-column" data-reveal>
     <h2>Approach:</h2>
-    <p>Amid the push, it became critical to identify and classify tasks that could be accomplished by AI, and ones that should not be AI-fied.</p>
+    <p>Rather than applying AI across the workflow, we identified which tasks could benefit from it and which still required human judgment.</p>
   </section>
 
   <div class="panw-approach-media" data-reveal>
     <Figure src="/assets/panw-ai/imgScreenshot20260629At1208521.png" alt="PANW discovery session" caption="Discovery session with PANW’s EMEA Sales Leaders." />
-    <Figure src="/assets/panw-ai/imgImage64.png" alt="Manual AI interaction explorations" caption="Manual explorations of AI interactions and use-cases." />
-    <Figure src="/assets/panw-ai/imgPanwImage016.png" alt="Opinion sketch" caption="Opinion Sketch, typically for inspiration/re-aligning the team." />
+  <Figure src="/assets/panw-ai/panw-artifacts-discovery.png" alt="Manual AI interaction explorations" caption="Manual explorations of AI interactions and use cases." width={3963} height={3963} />
+    <Figure src="/assets/panw-ai/imgPanwImage016.png" alt="Opinion sketch" caption="An opinion sketch used to challenge assumptions and realign the team." />
   </div>
 
   <section class="case-section reading-column compact" data-reveal>
-    <p>Speaking with Account teams across Americas, EMEA, and APJC, we found  mixed opinions on the introduction of AI into their workflow.</p>
+    <p>In conversations with account teams across the Americas, EMEA, and APJC, we heard mixed reactions to introducing AI into their workflows.</p>
   </section>
 
   <div class="takeaway-grid" data-reveal>
-    <div class="takeaway-card"><p class="takeaway-label">Takeaway 01</p><p>AI gets pitched for ‘insights’, but information workers need depth.</p></div>
-    <div class="takeaway-card"><p class="takeaway-label">Takeaway 02</p><p>Cognitive load makes it hard to maintain focus along long chat threads, leading to topical drifts.</p></div>
-    <div class="takeaway-card wide"><p class="takeaway-label">Takeaway 03</p><p>Product teams keep trying to automate parts of the work that require  human judgement at every step, but don’t focus on giving information tools needed to uncover hidden challenges.</p></div>
+    <div class="takeaway-card"><p class="takeaway-label">Takeaway 01</p><p>AI gets pitched for ‘insights’, but information workers require tools that help them examine in depth.</p></div>
+    <div class="takeaway-card"><p class="takeaway-label">Takeaway 02</p><p>Long chat threads increased cognitive load, making it difficult for users to maintain focus and avoid topic drift.</p></div>
+    <div class="takeaway-card wide"><p class="takeaway-label">Takeaway 03</p><p>Teams often tried to automate work that still required human judgment, rather than giving users better tools to uncover hidden challenges.</p></div>
   </div>
 
   <section class="case-section reading-column" data-reveal>
-    <p>Working through abstract unknowns became a bigger focus than one-off insights and reporting tasks. That said, while AI was good at synthesizing information from multiple sources, identifying patterns and converging towards a finding required structured, tactile UI elements.</p>
+    <p>The focus shifted from generating isolated insights or reports to helping users work through ambiguous questions. AI could synthesize information from multiple sources, but users still needed structured, tactile controls to identify patterns and converge on a finding.</p>
   </section>
 
-  <Figure src="/assets/panw-ai/video/codex-shim-03.webm" alt="Initial generative UI prototype" caption="Initial Prototype built using Copilot Kit and Codex Shim." video controls />
+  <Figure src="/assets/panw-ai/video/codex-shim-03.webm" poster="/assets/panw-ai/posters/codex-shim-03.png" alt="Initial generative UI prototype" caption="Initial prototype built with CopilotKit and a Codex shim." video controls autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
     <h2>Prototyping and Technical Hurdles:</h2>
-    <p>With limited engineering capacity, generative UI appeared too costly for V1, so I built a prototype to reduce the uncertainty. Using CopilotKit, it passed the user’s UI context and chat prompt to a Codex shim, which selected an approved React component and returned its structured data.</p>
+    <p>With limited engineering capacity, generative UI appeared too costly for V1, so I built a prototype to reduce the uncertainty. Using <a href="https://github.com/CopilotKit/CopilotKit" target="_blank" rel="noreferrer">CopilotKit</a>, it passed the user’s UI context and chat prompt to a Codex shim, which selected an approved React component and returned its structured data.</p>
     <p>The prototype gave engineering enough confidence to build a scalable solution on a forked CopilotKit repository.</p>
   </section>
 
-  <Figure src="/assets/panw-ai/video/anchored-responses-snippet-01.webm" alt="A selected row becoming an anchored prompt chip" caption="A selected row becomes a removable prompt chip backed by a stable Salesforce object ID." contain video controls />
+  <Figure src="/assets/panw-ai/video/anchored-responses-snippet-01.webm" poster="/assets/panw-ai/posters/anchored-responses-snippet-01.png" alt="A selected row becoming an anchored prompt chip" caption="A selected row becomes a removable prompt chip backed by a stable Salesforce object ID." class="panw-square-animation" contain video controls autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
     <h2>The Verification Issue:</h2>
-    <p class="body-regular">As data sources are continually updated, it became essential for users to understand how each response was derived. Exposing a model’s thinking did not help; even smarter models tend to ‘meander’ towards a finding.</p>
+    <p class="body-regular">The data changed constantly, so users needed to verify responses quickly. More model reasoning added noise. I led with the conclusion, followed by a short evidence trail.</p>
     <p class="body-regular">Transparency was relatively easy, <strong>the real challenge was user effort spent on verification.</strong></p>
     <p class="body-regular">Rather than refining a model’s thought process visibility, I explored a conclusion-derivation response approach. The system responds with an answer and produces a concise scannable evidence/decision trail.</p>
   </section>
@@ -89,8 +113,8 @@ import Figure from '../../components/Figure.astro';
   <Figure src="/assets/panw-ai/imgImage66.png" alt="Comparison of verification approaches" caption="Illustration comparing the user experience for verifying a response." />
 
   <div class="media-grid verification-comparison" data-reveal>
-    <Figure src="/assets/panw-ai/imgScreenshot20260619At1708112.png" alt="Detailed trace explanation" caption="Initial iteration: a detailed explanation that was difficult to scan." />
-    <Figure src="/assets/panw-ai/imgImage67.png" alt="Numbered evidence trace" caption="Final Iteration: the conclusion first, followed by numbered evidence steps." />
+    <Figure src="/assets/panw-ai/panw-thinking.png" alt="Detailed trace explanation" caption="Initial iteration: a detailed explanation that was difficult to scan." width={2016} height={2016} />
+    <Figure src="/assets/panw-ai/panw-trace.png" alt="Numbered evidence trace" caption="Final iteration: conclusion first, followed by numbered evidence steps." width={2016} height={2016} />
   </div>
 
   <section class="case-section reading-column trace-taxonomy" data-reveal>
@@ -98,26 +122,70 @@ import Figure from '../../components/Figure.astro';
     <p>Sources were coupled with the last update time since opportunities and account details can change multiple times in a single day.</p>
   </section>
 
-  <Figure src="/assets/panw-ai/video/trace-snippet.webm" alt="Trace interaction" caption="Interaction showcasing Trace." contain video controls />
+  <Figure src="/assets/panw-ai/video/trace-snippet.webm" poster="/assets/panw-ai/posters/trace-snippet.png" alt="Trace interaction" caption="Interaction showcasing Trace." class="panw-square-animation" contain video controls autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
     <h2>Impact</h2>
     <p>Within the first 90 days, one in three participants averaged more than two consecutive Anchored Follow-Ups per session, while one in five averaged more than four. Since each follow-up remained linked to a row or column, they formed connected chains indicating sustained investigation across several steps.</p>
     <p>Within the first week, Trace prompted a new feature request: users wanted to capture a response with its trace and share it in Slack, Salesforce notes, or email.</p>
-    <p>We introduced Snapshot, which reached 40% usage overall, while 22% of anchored follow-up arcs ended with one. <strong>These metrics with user feedback, this gave us our strongest observable signal that roughly one in five investigations reached a useful stopping point, producing a finding worth sharing (or preserving) and carrying into collaboration.</strong></p>
-    <div class="metric-grid">
-      <div class="metric"><div class="metric-label"><span>Arc Rate</span><img src="/assets/panw-ai/information-filled.svg" alt="" /></div><strong>12.34%</strong></div>
-      <div class="metric"><div class="metric-label"><span>Arc Depth</span><img src="/assets/panw-ai/information-filled.svg" alt="" /></div><strong>12.34%</strong></div>
-      <div class="metric"><div class="metric-label"><span>Snapshot Rate</span><img src="/assets/panw-ai/information-filled.svg" alt="" /></div><strong>12.34%</strong></div>
-    </div>
+    <p>We introduced Snapshot, which reached 27% usage overall, while 22% of anchored follow-up arcs ended with one.</p>
+    <p><strong>These metrics with user feedback, this gave us our strongest observable signal that roughly one in five investigations reached a useful stopping point, producing a finding worth sharing (or preserving) and carrying into collaboration.</strong></p>
   </section>
+
+  <div class="metric-grid" data-reveal>
+    <div class="metric">
+      <div class="metric-tooltip-anchor">
+        <div class="metric-label">
+          <span>Arc Rate</span><img src="/assets/panw-ai/information-filled.svg" alt="" />
+        </div>
+        <div class="metric-tooltip-positioner">
+          <div class="metric-tooltip" id="arc-rate-tooltip" role="tooltip">
+            <div class="metric-tooltip-content">
+              <p>How often users continued their investigation through at least two connected Anchored Follow-Ups.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <strong>29%</strong>
+    </div>
+    <div class="metric">
+      <div class="metric-tooltip-anchor">
+        <div class="metric-label">
+          <span>Arc Depth</span><img src="/assets/panw-ai/information-filled.svg" alt="" />
+        </div>
+        <div class="metric-tooltip-positioner">
+          <div class="metric-tooltip" id="arc-depth-tooltip" role="tooltip">
+            <div class="metric-tooltip-content">
+              <p>The average number of Anchored Follow-Ups within each connected investigation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <strong>3.2</strong>
+    </div>
+    <div class="metric">
+      <div class="metric-tooltip-anchor">
+        <div class="metric-label">
+          <span>Snapshot Rate</span><img src="/assets/panw-ai/information-filled.svg" alt="" />
+        </div>
+        <div class="metric-tooltip-positioner">
+          <div class="metric-tooltip" id="snapshot-rate-tooltip" role="tooltip">
+            <div class="metric-tooltip-content">
+              <p>How often users captured a response and its Trace as an image to preserve or share.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <strong>27%</strong>
+    </div>
+  </div>
 
   <Figure src="/assets/panw-ai/imgScreenshot20260810At1940311.png" alt="Merged production code contribution" caption="Merged production contribution: anchor-chip motion and related tests." class="merged-contribution" />
 
   <section class="case-section reading-column" data-reveal>
     <h2>What I learned:</h2>
     <p><strong>Progress begins somewhere between blind acceptance and complete dismissal.</strong></p>
-    <p class="body-regular">It was certainly uncomfortable being yet another team trying to add a chatbot with tiny chips that simulate “thinking” and treat citations as checkboxes. But acknowledging discomfort while taking action led to some of the more unique experiences in the application, with a lasting impact.</p>
+    <p class="body-regular">I was uneasy about adding another chatbot that mimicked thinking and treated citations as decoration. But acknowledging discomfort while taking action led to some of the more unique experiences in the application, with a lasting impact.</p>
     <p><strong>I had to shift from asking myself “how do we add a chatbot?” to “what assumptions do we carry about the chatbot experience that might fail our users?”</strong></p>
   </section>
 </CaseLayout>

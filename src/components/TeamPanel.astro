@@ -1,0 +1,54 @@
+---
+interface TeamMember {
+  name: string;
+  role: string;
+}
+
+interface Props {
+  id: string;
+  roleSummary: string;
+  members: TeamMember[];
+}
+
+const { id, roleSummary, members } = Astro.props;
+const roleHeadingId = `${id}-role-heading`;
+const teamHeadingId = `${id}-team-heading`;
+---
+
+<dialog
+  class="team-panel"
+  id={id}
+  data-team-panel
+  aria-modal="true"
+  aria-labelledby={roleHeadingId}
+>
+  <button
+    class="behance-viewer__close team-panel__close"
+    type="button"
+    data-team-panel-close
+    aria-label="Close team details"
+  >
+    <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 1L11 11M11 1L1 11" /></svg>
+  </button>
+
+  <section class="team-panel__role" aria-labelledby={roleHeadingId}>
+    <h2 id={roleHeadingId}>My role</h2>
+    <p>{roleSummary}</p>
+  </section>
+
+  <section class="team-panel__team" aria-labelledby={teamHeadingId}>
+    <h3 id={teamHeadingId}>The team</h3>
+    {members.length > 0 ? (
+      <ul>
+        {members.map((member) => (
+          <li>
+            <span class="team-panel__name">{member.name}</span>
+            <span class="team-panel__position">{member.role}</span>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="team-panel__empty">Team details to be added.</p>
+    )}
+  </section>
+</dialog>
