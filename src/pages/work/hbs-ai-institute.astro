@@ -7,14 +7,19 @@ import Carousel from '../../components/Carousel.astro';
 <CaseLayout
   headline="Designing an AI architecture for large scale, qualitative research and product strategy."
   intro={[
-    'As AI products multiplied around automation and content generation, HBS wanted to explore a more meaningful opportunity for AI in strategy among executives.',
-    'The goal was to identify potential users and problems worth pursuing. The work resulted in:',
+    'As AI products multiplied around automation and content generation, HBS wanted to explore a more meaningful opportunity for AI in strategy among executives. The goal was to identify potential users and problems worth pursuing. The work resulted in:',
   ]}
   stakeholder="HBS AI Institute (Previously D^3 Institute)"
   skills={['Research Strategy', 'Product Discovery', 'Qualitative Data Analysis']}
   year="2025 (4 weeks)"
   role="Designer + Researcher"
   teamLabel="Team"
+  teamMembers={[
+    { name: 'Tanya Flint', role: 'Head of AI' },
+    { name: 'Yogesh Kumar', role: 'Sr. Data Engineer | Advisor for project' },
+    { name: 'Jean-Luc Jackson', role: 'Sr. Data Scientist | Advisor for project' },
+    { name: 'Rem Koning', role: 'Assistant Professor | Advisor for project' },
+  ]}
   hero="/assets/hbs/hbs-cover.png"
   heroWidth={5586}
   heroHeight={3142}
@@ -58,11 +63,11 @@ import Carousel from '../../components/Carousel.astro';
     <p>To handle research at scale, I built an AI-assisted research architecture that broke 237 papers into 992 traceable modules, translated qualitative observations into comparable measures, and preserved the evidence behind each synthesis.</p>
   </section>
 
-  <div class="research-architecture" data-reveal>
-    <img src="/assets/hbs/imgImage2.png" alt="Data collection" loading="lazy" data-behance-image tabindex="0" role="button" />
-    <img src="/assets/hbs/imgImage3.png" alt="Extraction" loading="lazy" data-behance-image tabindex="0" role="button" />
-    <img src="/assets/hbs/imgImage4.png" alt="Classification" loading="lazy" data-behance-image tabindex="0" role="button" />
-    <img src="/assets/hbs/imgImage5.png" alt="Inquiry routing" loading="lazy" data-behance-image tabindex="0" role="button" />
+  <div class="research-architecture" data-synchronized-media-group data-reveal>
+    <img src="/assets/hbs/imgImage2.png" alt="Data collection" width="2627" height="765" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media />
+    <img src="/assets/hbs/imgImage3.png" alt="Extraction" width="2627" height="1585" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media />
+    <img src="/assets/hbs/imgImage4.png" alt="Classification" width="2627" height="1477" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media />
+    <img src="/assets/hbs/imgImage5.png" alt="Inquiry routing" width="2627" height="2213" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media data-media-width-anchor />
   </div>
 
   <section class="case-section reading-column" data-reveal>

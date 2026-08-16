@@ -14,9 +14,15 @@ import Figure from '../../components/Figure.astro';
   year="2021-22 (6 months)"
   role="Senior Designer"
   teamLabel="Team"
+  teamMembers={[
+    { name: 'Vinodh Kumar', role: 'Product Manager' },
+    { name: 'Joseph Xavier', role: 'Sr. Engineering Manager' },
+    { name: 'Baljinder Kaur', role: 'Lead Frontend Engineer' },
+  ]}
   hero="/assets/hitachi/video/partner-commerce-overview.webm"
   heroVideo
   heroPoster="/assets/hitachi/posters/partner-commerce-overview.jpg"
+  heroViewportFit={false}
   theme="hitachi"
   previousHref="/work/global-data-analytics/"
   nextHref="/work/cisco-customer-insights/"
@@ -47,6 +53,7 @@ import Figure from '../../components/Figure.astro';
     height={1687}
     alt="Synthesized journey from product browsing through order completion"
     caption="The partner journey put browsing, configuration, quotation, and negotiation in one view, including the constraints and off-platform work in each phase."
+    viewportFit={false}
   />
 
   <Figure
@@ -55,6 +62,7 @@ import Figure from '../../components/Figure.astro';
     height={1687}
     alt="Map of platform spaces and activities"
     caption="I translated the journey into digital spaces and flows so product and engineering could see where each activity belonged and where the quotation loop needed to reconnect."
+    viewportFit={false}
   />
 
   <section class="case-section reading-column" data-reveal>
@@ -142,6 +150,7 @@ import Figure from '../../components/Figure.astro';
     video
     autoplayOnView
     contain
+    captionAlignment="frame"
   />
 
   <section class="case-section reading-column case-transition" data-reveal>
@@ -157,8 +166,8 @@ import Figure from '../../components/Figure.astro';
     alt="Product configuration dependency and error handling"
     caption="Configuration feedback showed the required add-on beside the affected selection, keeping recovery inside the product-building flow."
     video
-    controls
     contain
+    captionAlignment="frame"
   />
 
   <section class="case-section reading-column" data-reveal>

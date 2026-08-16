@@ -8,43 +8,47 @@ interface Props {
   contain?: boolean;
   eager?: boolean;
   video?: boolean;
-  controls?: boolean;
   autoplayOnView?: boolean;
   loop?: boolean;
   poster?: string;
   width?: number;
   height?: number;
+  fluidFrame?: boolean;
+  squareMedia?: boolean;
+  captionAlignment?: 'media' | 'frame';
+  viewportFit?: boolean;
 }
 
 const {
   src, alt, caption, captionLines, class: className, contain = false, eager = false,
-  video = false, controls = false, autoplayOnView = video, loop = video, poster, width, height,
+  video = false, autoplayOnView = video, loop = video, poster, width, height,
+  fluidFrame = false, squareMedia = false, captionAlignment = 'media', viewportFit = true,
 } = Astro.props;
 const sourceAlt = alt ?? caption ?? captionLines?.join(' ') ?? '';
 ---
 
-<figure class:list={['case-figure', className, { contain }]}>
+<figure class:list={['case-figure', className, { contain }]} data-media-unit data-media-ready={!viewportFit ? '' : undefined} data-caption-alignment={captionAlignment}>
   {video ? (
-    <div class="media-frame video-frame">
+    <button class="media-frame video-frame playable-media-surface" type="button" data-playable-media data-playback-mode="exclusive" aria-label={`Pause ${sourceAlt || 'animation'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
       <video
         src={src}
         poster={poster}
         width={width}
         height={height}
-        controls={controls}
         muted
         loop={loop}
         playsinline
         preload="metadata"
         style={poster ? `--video-poster-image: url('${poster}')` : undefined}
         data-autoplay-on-view={autoplayOnView ? '' : undefined}
+        data-media-visual
         aria-label={sourceAlt || 'Case study video'}
       />
-    </div>
+    </button>
   ) : (
-    <button class="media-frame" type="button" data-behance-image>
-      <img src={src} alt={sourceAlt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+    <button class="media-frame" type="button" data-behance-image data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
+      <img src={src} alt={sourceAlt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} decoding="async" data-media-visual />
     </button>
   )}
-  {(caption || captionLines) && <figcaption>{captionLines ? captionLines.map((line, index) => <Fragment>{line}{index < captionLines.length - 1 && <br />}</Fragment>) : caption}</figcaption>}
+  {(caption || captionLines) && <figcaption data-media-caption>{captionLines ? captionLines.map((line, index) => <Fragment>{line}{index < captionLines.length - 1 && <br />}</Fragment>) : caption}</figcaption>}
 </figure>

@@ -30,7 +30,12 @@ const isCaseSystem = !isHome && theme !== 'neutral';
     </>
   ) : (
     <>
-      <a class="monogram" href="/" aria-label="Home"><span aria-hidden="true"></span></a>
+      <a class="monogram" href="/" aria-label="Home">
+        <svg viewBox="0 0 14 14" aria-hidden="true">
+          <path d="M1 1L13 13" pathLength="1" data-line-direction="top-left-to-bottom-right" />
+          <path d="M13 1L1 13" pathLength="1" data-line-direction="top-right-to-bottom-left" />
+        </svg>
+      </a>
       <nav aria-label="Primary navigation">
         <a href="/">Home</a>
         <a class:list={[{ active: path.startsWith('/work') }]} href="/#work">Work</a>

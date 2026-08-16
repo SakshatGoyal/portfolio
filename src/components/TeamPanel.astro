@@ -6,12 +6,10 @@ interface TeamMember {
 
 interface Props {
   id: string;
-  roleSummary: string;
   members: TeamMember[];
 }
 
-const { id, roleSummary, members } = Astro.props;
-const roleHeadingId = `${id}-role-heading`;
+const { id, members } = Astro.props;
 const teamHeadingId = `${id}-team-heading`;
 ---
 
@@ -20,7 +18,7 @@ const teamHeadingId = `${id}-team-heading`;
   id={id}
   data-team-panel
   aria-modal="true"
-  aria-labelledby={roleHeadingId}
+  aria-labelledby={teamHeadingId}
 >
   <button
     class="behance-viewer__close team-panel__close"
@@ -31,13 +29,8 @@ const teamHeadingId = `${id}-team-heading`;
     <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 1L11 11M11 1L1 11" /></svg>
   </button>
 
-  <section class="team-panel__role" aria-labelledby={roleHeadingId}>
-    <h2 id={roleHeadingId}>My role</h2>
-    <p>{roleSummary}</p>
-  </section>
-
   <section class="team-panel__team" aria-labelledby={teamHeadingId}>
-    <h3 id={teamHeadingId}>The team</h3>
+    <h2 id={teamHeadingId}>The team</h2>
     {members.length > 0 ? (
       <ul>
         {members.map((member) => (

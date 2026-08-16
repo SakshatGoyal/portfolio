@@ -13,8 +13,8 @@ import Figure from '../../components/Figure.astro';
   year="2025-26"
   role="Product Design Lead"
   teamLabel="Team"
-  teamRoleSummary="Placeholder — add a concise summary of my role, scope, and contribution to this project."
   teamMembers={[
+    { name: 'Chris Faraon', role: 'Product Manager' },
     { name: 'Jaswanth Singh', role: 'Full Stack Engineer' },
     { name: 'Vineetha Shettigar', role: 'Engineering Manager' },
     { name: 'Prasanna Rathinasami', role: 'VP GTM Applications' },
@@ -52,7 +52,7 @@ import Figure from '../../components/Figure.astro';
     <p><strong>As part of the consolidation effort, leadership also wanted to introduce an AI chatbot as a step toward AI-assisted workflows.</strong></p>
   </section>
 
-  <Figure src="/assets/panw-ai/sales-workbench-context-cropped.png" alt="Sales Workbench interface" caption="Sales Workbench (part of Salesforce Account Executive Experience)" width={6242} height={4692} />
+  <Figure src="/assets/panw-ai/panw-image-05-02.png" alt="Sales Workbench interface" caption="Sales Workbench (part of Salesforce Account Executive Experience)" class="panw-context-cover" width={3128} height={2346} fluidFrame captionAlignment="frame" />
 
   <section class="case-section reading-column problem-layout" data-reveal>
     <h2>Problem</h2>
@@ -93,7 +93,7 @@ import Figure from '../../components/Figure.astro';
     <p>The focus shifted from generating isolated insights or reports to helping users work through ambiguous questions. AI could synthesize information from multiple sources, but users still needed structured, tactile controls to identify patterns and converge on a finding.</p>
   </section>
 
-  <Figure src="/assets/panw-ai/video/codex-shim-03.webm" poster="/assets/panw-ai/posters/codex-shim-03.png" alt="Initial generative UI prototype" caption="Initial prototype built with CopilotKit and a Codex shim." video controls autoplayOnView loop />
+  <Figure src="/assets/panw-ai/video/codex-shim-03.webm" poster="/assets/panw-ai/posters/codex-shim-03.png" alt="Initial generative UI prototype" caption="Initial prototype built with CopilotKit and a Codex shim." video autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
     <h2>Prototyping and Technical Hurdles:</h2>
@@ -101,7 +101,7 @@ import Figure from '../../components/Figure.astro';
     <p>The prototype gave engineering enough confidence to build a scalable solution on a forked CopilotKit repository.</p>
   </section>
 
-  <Figure src="/assets/panw-ai/video/anchored-responses-snippet-01.webm" poster="/assets/panw-ai/posters/anchored-responses-snippet-01.png" alt="A selected row becoming an anchored prompt chip" caption="A selected row becomes a removable prompt chip backed by a stable Salesforce object ID." class="panw-square-animation" contain video controls autoplayOnView loop />
+  <Figure src="/assets/panw-ai/video/anchored-responses-snippet-01.webm" poster="/assets/panw-ai/posters/anchored-responses-snippet-01.png" alt="A selected row becoming an anchored prompt chip" caption="A selected row becomes a removable prompt chip backed by a stable Salesforce object ID." class="panw-square-animation" contain fluidFrame squareMedia captionAlignment="frame" video autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
     <h2>The Verification Issue:</h2>
@@ -122,7 +122,7 @@ import Figure from '../../components/Figure.astro';
     <p>Sources were coupled with the last update time since opportunities and account details can change multiple times in a single day.</p>
   </section>
 
-  <Figure src="/assets/panw-ai/video/trace-snippet.webm" poster="/assets/panw-ai/posters/trace-snippet.png" alt="Trace interaction" caption="Interaction showcasing Trace." class="panw-square-animation" contain video controls autoplayOnView loop />
+  <Figure src="/assets/panw-ai/video/trace-snippet.webm" poster="/assets/panw-ai/posters/trace-snippet.png" alt="Trace interaction" caption="Interaction showcasing Trace." class="panw-square-animation" contain fluidFrame squareMedia captionAlignment="frame" video autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
     <h2>Impact</h2>

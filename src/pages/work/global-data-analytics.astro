@@ -4,7 +4,7 @@ import Figure from '../../components/Figure.astro';
 ---
 
 <CaseLayout
-  headline="Deriving novice use-cases from existing basic data [title to be changed later]"
+  headline="Turning exploratory research to internal tools"
   intro={[
     'After 6 months of delivering reporting tools, I initiated an exploratory research track with the Director of Product Management to understand how our existing data in tableau and salesforce are used. The research led to the design and build of two internal tools:',
   ]}
@@ -13,7 +13,15 @@ import Figure from '../../components/Figure.astro';
   year="2023-24"
   role="Senior Product Designer"
   teamLabel="Team"
+  teamMembers={[
+    { name: 'CD Venkatesh', role: 'Director, Product Management' },
+    { name: 'Rucha Joshi', role: 'Sr. Manager, Data' },
+    { name: 'Derek Riffe', role: 'Product Manager' },
+    { name: 'Neha Potdar', role: 'Lead Data Analyst' },
+    { name: 'Nitin Kathpalia', role: 'Lead Data Engineer' },
+  ]}
   hero="/assets/global-data/bob-image-01.png"
+  heroViewportFit={false}
   theme="global-data"
   previousHref="/work/one-report/"
   nextHref="/work/hitachi-energy/"
@@ -45,6 +53,7 @@ import Figure from '../../components/Figure.astro';
     src="/assets/global-data/imgOnePeerComparisonHypothesisSplitIntoTwoConcepts.png"
     alt="Two peer-comparison concepts"
     caption="One hypothesis, explored through two concepts. Undated project artifact."
+    viewportFit={false}
   />
 
   <section class="case-section reading-column" data-reveal>
@@ -71,8 +80,8 @@ import Figure from '../../components/Figure.astro';
       <Figure src="/assets/global-data/bob-image-03.png" alt="Controls for defining similar customers" caption="Controls for defining ‘similar’ customers." />
       <Figure src="/assets/global-data/imgImage37.png" alt="Customer-value feature groups with redacted notes" caption="Features grouped by customer value. All note text is permanently redacted in the public asset." />
     </div>
-    <Figure src="/assets/global-data/bob-image-02.png" alt="Feature adoption and associated outcomes" caption="Feature adoption beside associated completion-time and send-velocity outcomes." />
-    <Figure src="/assets/global-data/bob-image-feature.png" alt="Feature Usage Baseline dashboard" caption="The complete Feature Usage Baseline dashboard brought account criteria, feature adoption, and associated outcomes into one view." />
+    <Figure src="/assets/global-data/bob-image-02.png" alt="Feature adoption and associated outcomes" caption="Feature adoption beside associated completion-time and send-velocity outcomes." viewportFit={false} />
+    <Figure src="/assets/global-data/bob-image-feature.png" alt="Feature Usage Baseline dashboard" caption="The complete Feature Usage Baseline dashboard brought account criteria, feature adoption, and associated outcomes into one view." viewportFit={false} />
   </div>
 
   <section class="case-section reading-column" data-reveal>
@@ -89,9 +98,9 @@ import Figure from '../../components/Figure.astro';
   </section>
 
   <div class="media-stack book-analysis-stack" data-reveal>
-    <Figure src="/assets/global-data/bob-image-04.png" alt="Six proposed account groups and controls" caption="Six proposed groups and the controls used to explore them." />
-    <Figure src="/assets/global-data/bob-image-05.png" alt="Account patterns interface" caption="Examples of the account patterns the tool helped sellers investigate." />
-    <Figure src="/assets/global-data/bob-image-bob.png" alt="Book of Business Analysis dashboard" caption="The complete Book of Business Analysis dashboard combined account patterns, thresholds, and filters in one view." />
+    <Figure src="/assets/global-data/bob-image-04.png" alt="Six proposed account groups and controls" caption="Six proposed groups and the controls used to explore them." viewportFit={false} />
+    <Figure src="/assets/global-data/bob-image-05.png" alt="Account patterns interface" caption="Examples of the account patterns the tool helped sellers investigate." viewportFit={false} />
+    <Figure src="/assets/global-data/bob-image-bob.png" alt="Book of Business Analysis dashboard" caption="The complete Book of Business Analysis dashboard combined account patterns, thresholds, and filters in one view." viewportFit={false} />
   </div>
 
   <section class="case-section reading-column" data-reveal>

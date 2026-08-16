@@ -25,7 +25,7 @@ const isHomeSystem = Astro.url.pathname === '/';
     <script is:inline>
       document.documentElement.classList.add('js');
     </script>
-    <noscript><style>[data-line-mask] { visibility: visible !important; }</style></noscript>
+    <noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>
   </head>
   <body id="top">
     <div class="page-shell">
@@ -34,6 +34,10 @@ const isHomeSystem = Astro.url.pathname === '/';
         <slot />
       </main>
       <SiteFooter />
+    </div>
+    <div class="custom-site-cursor" data-custom-cursor aria-hidden="true">
+      <svg class="cursor-pause" viewBox="0 0 100 100"><rect x="20" width="20" height="100" rx="6"></rect><rect x="60" width="20" height="100" rx="6"></rect></svg>
+      <svg class="cursor-play" viewBox="0 0 100 100"><path d="M17 90.4251V9.57428C17 2.11666 25.1593-2.46895 31.5295 1.4088L95.6527 40.44C101.66 44.0969 101.795 52.7704 95.9041 56.6123L31.7809 98.4319C25.4226 102.579 17 98.0161 17 90.4251Z"></path></svg>
     </div>
     <div class="behance-viewer" data-behance-viewer hidden role="dialog" aria-modal="true" aria-labelledby="behance-viewer-title">
       <div class="behance-viewer__topbar">
@@ -169,13 +173,30 @@ const isHomeSystem = Astro.url.pathname === '/';
         document.querySelectorAll('[data-reveal]').forEach((element) => element.classList.add('is-visible'));
       }
 
-      const inViewVideos = [...document.querySelectorAll('video[data-autoplay-on-view]')]
+      const playableSurfaces = [...document.querySelectorAll('[data-playable-media]')];
+      const inViewVideos = playableSurfaces
+        .map((surface) => surface.querySelector('video[data-autoplay-on-view]'))
         .filter((video) => video instanceof HTMLVideoElement);
       const videoVisibility = new Map(inViewVideos.map((video) => [video, 0]));
+      const independentHomepagePlayback = document.documentElement.dataset.homeSystem === 'true';
+      let manuallyActiveVideo = null;
+
+      const surfaceForVideo = (video) => video.closest('[data-playable-media]');
+      const isIndependentVideo = (video) => independentHomepagePlayback
+        || surfaceForVideo(video)?.dataset.playbackMode === 'independent';
+      const mediaLabel = (video) => video.getAttribute('aria-label') || 'animation';
+      const syncPlayableState = (video) => {
+        const surface = surfaceForVideo(video);
+        if (!surface) return;
+        const paused = video.paused;
+        surface.dataset.playbackState = paused ? 'paused' : 'playing';
+        surface.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} ${mediaLabel(video)}`);
+      };
 
       const updateVideoPlayback = (video, shouldPlay) => {
         if (!(video instanceof HTMLVideoElement)) return;
-        if (!shouldPlay || document.hidden) {
+        const manuallyPaused = video.dataset.manualPlayback === 'paused';
+        if (!shouldPlay || manuallyPaused || document.hidden) {
           video.pause();
           return;
         }
@@ -186,9 +207,24 @@ const isHomeSystem = Astro.url.pathname === '/';
       };
 
       const selectActiveVideo = () => {
+        const independentVideos = inViewVideos.filter(isIndependentVideo);
+        const exclusiveVideos = inViewVideos.filter((video) => !isIndependentVideo(video));
+
+        independentVideos.forEach((video) => {
+            const inRange = (videoVisibility.get(video) ?? 0) >= 0.35;
+            video.toggleAttribute('data-in-playback-range', inRange);
+            video.toggleAttribute('data-active-playback', inRange);
+            updateVideoPlayback(video, inRange);
+        });
+
         const viewportCenter = window.innerHeight / 2;
-        const eligibleVideos = inViewVideos.filter((video) => (videoVisibility.get(video) ?? 0) >= 0.35);
-        const activeVideo = eligibleVideos.reduce((closest, video) => {
+        const eligibleVideos = exclusiveVideos.filter((video) => (
+          (videoVisibility.get(video) ?? 0) >= 0.35
+          && video.dataset.manualPlayback !== 'paused'
+        ));
+        const manualIsEligible = manuallyActiveVideo
+          && eligibleVideos.includes(manuallyActiveVideo);
+        const activeVideo = manualIsEligible ? manuallyActiveVideo : eligibleVideos.reduce((closest, video) => {
           if (!closest) return video;
           const videoRect = video.getBoundingClientRect();
           const closestRect = closest.getBoundingClientRect();
@@ -197,7 +233,7 @@ const isHomeSystem = Astro.url.pathname === '/';
           return videoDistance < closestDistance ? video : closest;
         }, null);
 
-        inViewVideos.forEach((video) => {
+        exclusiveVideos.forEach((video) => {
           const inRange = (videoVisibility.get(video) ?? 0) >= 0.35;
           const isActive = video === activeVideo;
           video.toggleAttribute('data-in-playback-range', inRange);
@@ -214,11 +250,67 @@ const isHomeSystem = Astro.url.pathname === '/';
         });
         selectActiveVideo();
       }, { threshold: [0, 0.15, 0.35, 0.5, 0.75, 1] });
-      inViewVideos.forEach((video) => playbackObserver.observe(video));
+      inViewVideos.forEach((video) => {
+        playbackObserver.observe(video);
+        video.addEventListener('loadedmetadata', selectActiveVideo);
+        video.addEventListener('canplay', selectActiveVideo);
+        video.addEventListener('play', () => syncPlayableState(video));
+        video.addEventListener('pause', () => syncPlayableState(video));
+        video.addEventListener('ended', () => syncPlayableState(video));
+        syncPlayableState(video);
+      });
+
+      playableSurfaces.forEach((surface) => {
+        const video = surface.querySelector('video');
+        if (!(video instanceof HTMLVideoElement)) return;
+        surface.addEventListener('click', () => {
+          if (video.paused) {
+            video.dataset.manualPlayback = 'playing';
+            if (!isIndependentVideo(video)) {
+              manuallyActiveVideo = video;
+              inViewVideos.filter((candidate) => candidate !== video && !isIndependentVideo(candidate))
+                .forEach((candidate) => candidate.pause());
+            }
+            video.play().catch(() => {});
+          } else {
+            video.dataset.manualPlayback = 'paused';
+            if (manuallyActiveVideo === video) manuallyActiveVideo = null;
+            video.pause();
+          }
+          syncPlayableState(video);
+          selectActiveVideo();
+        });
+      });
 
       document.addEventListener('visibilitychange', () => {
         selectActiveVideo();
       });
+
+      const customCursor = document.querySelector('[data-custom-cursor]');
+      const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
+      let cursorSurface = null;
+      const syncCursorMediaState = () => {
+        const video = cursorSurface?.querySelector('video');
+        customCursor?.classList.toggle('is-media', Boolean(video));
+        customCursor?.classList.toggle('is-paused', Boolean(video?.paused));
+      };
+      if (customCursor && finePointer.matches) {
+        document.documentElement.classList.add('custom-cursor-active');
+        document.addEventListener('pointermove', (event) => {
+          if (event.pointerType && event.pointerType !== 'mouse') return;
+          customCursor.style.left = `${event.clientX}px`;
+          customCursor.style.top = `${event.clientY}px`;
+          customCursor.classList.add('is-visible');
+          cursorSurface = event.target.closest?.('[data-playable-media]') || null;
+          syncCursorMediaState();
+        }, { passive: true });
+        document.documentElement.addEventListener('pointerleave', () => customCursor.classList.remove('is-visible'));
+        window.addEventListener('blur', () => customCursor.classList.remove('is-visible'));
+        inViewVideos.forEach((video) => {
+          video.addEventListener('play', syncCursorMediaState);
+          video.addEventListener('pause', syncCursorMediaState);
+        });
+      }
 
       const alignBranchedConnectors = () => {
         document.querySelectorAll('.problem-layout, .branched-layout').forEach((layout) => {
@@ -233,7 +325,7 @@ const isHomeSystem = Astro.url.pathname === '/';
           const leadRect = lead.getBoundingClientRect();
           const markerRects = markers.map((marker) => marker.getBoundingClientRect());
           const spineX = Math.round(leadRect.left - svgRect.left + 10) + 0.5;
-          const startY = leadRect.bottom - svgRect.top;
+          const startY = leadRect.bottom - svgRect.top + 6;
           const markerCenters = markerRects.map((rect) => rect.top - svgRect.top + rect.height / 2);
           const markerEdges = markerRects.map((rect) => rect.left - svgRect.left);
           const endY = markerCenters.at(-1);
@@ -248,6 +340,352 @@ const isHomeSystem = Astro.url.pathname === '/';
       document.querySelectorAll('.problem-layout, .branched-layout').forEach((layout) => branchedConnectorObserver.observe(layout));
       document.fonts.ready.then(alignBranchedConnectors);
       window.addEventListener('resize', alignBranchedConnectors, { passive: true });
+    </script>
+    <script is:inline>
+      const viewportMediaInset = 64;
+      const mediaFrames = [...document.querySelectorAll('[data-viewport-media-frame]')];
+      const standaloneMedia = [...document.querySelectorAll('[data-standalone-media]')];
+      const synchronizedMediaGroups = [...document.querySelectorAll('[data-synchronized-media-group]')];
+
+      const elementContentWidth = (element) => {
+        const styles = getComputedStyle(element);
+        return Math.max(0, element.clientWidth
+          - parseFloat(styles.paddingLeft || '0')
+          - parseFloat(styles.paddingRight || '0'));
+      };
+
+      const parseAspectRatio = (value) => {
+        if (!value) return 0;
+        const [width, height] = value.split('/').map((part) => Number(part.trim()));
+        return width > 0 && height > 0 ? width / height : 0;
+      };
+
+      const intrinsicRatio = (media, frame) => {
+        const declaredRatio = parseAspectRatio(frame?.dataset.mediaAspect);
+        if (declaredRatio) return declaredRatio;
+        if (media instanceof HTMLImageElement) {
+          const width = media.naturalWidth || Number(media.getAttribute('width'));
+          const height = media.naturalHeight || Number(media.getAttribute('height'));
+          return width > 0 && height > 0 ? width / height : 0;
+        }
+        if (media instanceof HTMLVideoElement) {
+          const width = media.videoWidth || Number(media.getAttribute('width'));
+          const height = media.videoHeight || Number(media.getAttribute('height'));
+          return width > 0 && height > 0 ? width / height : 0;
+        }
+        return 0;
+      };
+
+      const selectedVisual = (frame) => [...frame.querySelectorAll('[data-media-visual]')]
+        .find((media) => media.getAttribute('aria-hidden') !== 'true')
+        || frame.querySelector('[data-media-visual]');
+
+      const alignCaption = (media) => {
+        const unit = media.closest('[data-media-unit]');
+        const caption = unit?.querySelector('[data-media-caption]');
+        if (!unit || !caption) return;
+
+        const unitStyles = getComputedStyle(unit);
+        const unitRect = unit.getBoundingClientRect();
+        const frame = media.closest('[data-viewport-media-frame]');
+        const captionAnchor = unit.dataset.captionAlignment === 'frame' && frame ? frame : media;
+        const mediaRect = captionAnchor.getBoundingClientRect();
+        const contentLeft = unitRect.left
+          + parseFloat(unitStyles.borderLeftWidth || '0')
+          + parseFloat(unitStyles.paddingLeft || '0');
+
+        caption.style.width = `${mediaRect.width}px`;
+        caption.style.maxWidth = 'none';
+        caption.style.marginLeft = `${Math.max(0, mediaRect.left - contentLeft)}px`;
+        unit.toggleAttribute('data-media-ready', mediaRect.width > 0);
+        if (mediaRect.width > 0) {
+          caption.dispatchEvent(new CustomEvent('captionlayout', { bubbles: true }));
+        }
+      };
+
+      const settleFrame = (frame, media, ratio, availableWidth, attempt = 0) => {
+        requestAnimationFrame(() => {
+          const frameStyles = getComputedStyle(frame);
+          const paddingX = parseFloat(frameStyles.paddingLeft || '0') + parseFloat(frameStyles.paddingRight || '0');
+          const paddingY = parseFloat(frameStyles.paddingTop || '0') + parseFloat(frameStyles.paddingBottom || '0');
+          const maxOuterHeight = Math.max(1, window.innerHeight - viewportMediaInset);
+          const maxInnerHeight = Math.max(1, maxOuterHeight - paddingY);
+          const targetWidth = frame.hasAttribute('data-fluid-media-frame')
+            ? availableWidth
+            : Math.min(availableWidth, (maxInnerHeight * ratio) + paddingX);
+          const currentWidth = frame.getBoundingClientRect().width;
+          const isSquareMedia = frame.hasAttribute('data-square-media-frame');
+          const squareMediaSize = Math.min(Math.max(1, targetWidth - paddingX), maxInnerHeight);
+
+          frame.style.width = `${targetWidth}px`;
+          frame.style.maxHeight = `${maxOuterHeight}px`;
+          media.style.width = isSquareMedia ? `${squareMediaSize}px` : '100%';
+          media.style.height = isSquareMedia ? `${squareMediaSize}px` : 'auto';
+          media.style.maxHeight = `${maxInnerHeight}px`;
+          if (isSquareMedia) media.style.aspectRatio = '1 / 1';
+
+          if (attempt < 3 && Math.abs(currentWidth - targetWidth) > 0.5) {
+            settleFrame(frame, media, ratio, availableWidth, attempt + 1);
+            return;
+          }
+          alignCaption(media);
+        });
+      };
+
+      const syncFrame = (frame) => {
+        const media = selectedVisual(frame);
+        const parent = frame.parentElement;
+        if (!media || !parent) return;
+        const ratio = intrinsicRatio(media, frame);
+        if (!ratio) return;
+
+        const availableWidth = elementContentWidth(parent);
+        if (!availableWidth) return;
+        settleFrame(frame, media, ratio, availableWidth);
+      };
+
+      const syncStandaloneMedia = (media) => {
+        const parent = media.parentElement;
+        if (!parent) return;
+        const ratio = intrinsicRatio(media);
+        if (!ratio) return;
+
+        const availableWidth = elementContentWidth(parent);
+        const maxHeight = Math.max(1, window.innerHeight - viewportMediaInset);
+        media.style.width = `${Math.min(availableWidth, maxHeight * ratio)}px`;
+        media.style.height = 'auto';
+        media.style.maxHeight = `${maxHeight}px`;
+        if (media.hasAttribute('data-caption-anchor')) alignCaption(media);
+      };
+
+      const syncSynchronizedMediaGroup = (group) => {
+        const mediaItems = [...group.querySelectorAll('[data-synchronized-media]')];
+        const anchor = group.querySelector('[data-media-width-anchor]');
+        if (!mediaItems.length || !anchor) return;
+
+        const ratio = intrinsicRatio(anchor);
+        const availableWidth = elementContentWidth(group);
+        if (!ratio || !availableWidth) return;
+
+        const maxHeight = Math.max(1, window.innerHeight - viewportMediaInset);
+        const synchronizedWidth = Math.min(availableWidth, maxHeight * ratio);
+        mediaItems.forEach((media) => {
+          media.style.width = `${synchronizedWidth}px`;
+          media.style.height = 'auto';
+          media.style.maxHeight = `${maxHeight}px`;
+        });
+      };
+
+      const whenMediaReady = (media, callback) => {
+        if (media instanceof HTMLImageElement) {
+          if (media.complete && media.naturalWidth) callback();
+          else media.addEventListener('load', callback, { once: true });
+        } else if (media instanceof HTMLVideoElement) {
+          if (media.readyState >= 1 && media.videoWidth) callback();
+          else media.addEventListener('loadedmetadata', callback, { once: true });
+        }
+      };
+
+      mediaFrames.forEach((frame) => {
+        frame.querySelectorAll('[data-media-visual]').forEach((media) => {
+          whenMediaReady(media, () => syncFrame(frame));
+        });
+        if (frame.dataset.mediaAspect) syncFrame(frame);
+      });
+      standaloneMedia.forEach((media) => whenMediaReady(media, () => syncStandaloneMedia(media)));
+      synchronizedMediaGroups.forEach((group) => {
+        syncSynchronizedMediaGroup(group);
+        group.querySelectorAll('[data-synchronized-media]').forEach((media) => {
+          whenMediaReady(media, () => syncSynchronizedMediaGroup(group));
+        });
+      });
+
+      const syncViewportMedia = () => {
+        mediaFrames.forEach(syncFrame);
+        standaloneMedia.forEach(syncStandaloneMedia);
+        synchronizedMediaGroups.forEach(syncSynchronizedMediaGroup);
+      };
+      const viewportMediaObserver = new ResizeObserver(syncViewportMedia);
+      [...new Set([
+        ...mediaFrames.map((frame) => frame.parentElement),
+        ...standaloneMedia.map((media) => media.parentElement),
+        ...synchronizedMediaGroups,
+      ].filter(Boolean))].forEach((element) => viewportMediaObserver.observe(element));
+
+      document.addEventListener('mediachange', (event) => {
+        const frame = event.target.querySelector?.('[data-viewport-media-frame]');
+        if (frame) syncFrame(frame);
+      });
+      window.addEventListener('resize', syncViewportMedia, { passive: true });
+
+      const mediaCaptions = [...document.querySelectorAll('[data-case-system="true"] [data-media-caption]')];
+      const captionSources = new WeakMap();
+      const captionRenderTimers = new WeakMap();
+      const captionResizeDelay = 140;
+
+      mediaCaptions.forEach((caption, index) => {
+        const directParagraphs = [...caption.children].filter((child) => child.matches('p'));
+        const sourceSegments = directParagraphs.length
+          ? directParagraphs.map((paragraph) => paragraph.textContent?.trim() || '').filter(Boolean)
+          : (caption.innerText || caption.textContent || '').split(/\n+/).map((line) => line.trim()).filter(Boolean);
+        const number = String(index + 1).padStart(2, '0');
+        const numberedSegments = sourceSegments.map((segment, segmentIndex) => (
+          segmentIndex === 0 ? `[${number}] - ${segment}` : segment
+        ));
+        const label = numberedSegments.join(' ');
+
+        captionSources.set(caption, {
+          numberedSegments,
+          separatedParagraphs: directParagraphs.length > 1,
+          label,
+        });
+        caption.dataset.captionLabel = label;
+      });
+
+      const captionLayoutReady = (caption) => {
+        const unit = caption.closest('[data-media-unit]');
+        return !unit || unit.hasAttribute('data-media-ready');
+      };
+
+      const playCaption = (caption) => {
+        if (
+          reduceMotion
+          || !caption.classList.contains('caption-motion-ready')
+          || caption.classList.contains('caption-motion-active')
+          || !captionLayoutReady(caption)
+        ) return;
+
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            caption.classList.add('caption-motion-active');
+            const duration = Number(caption.dataset.captionMotionDuration || 600);
+            window.setTimeout(() => caption.classList.add('caption-motion-played'), duration);
+          });
+        });
+      };
+
+      const captionObserver = reduceMotion ? null : new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.dataset.captionInView = 'true';
+          if (!captionLayoutReady(entry.target)) return;
+          captionObserver.unobserve(entry.target);
+          playCaption(entry.target);
+        });
+      }, { rootMargin: '0px 0px -12% 0px', threshold: 0.1 });
+
+      const renderCaptionMotion = (caption, animate = true) => {
+        const source = captionSources.get(caption);
+        if (!source?.numberedSegments.length) {
+          caption.classList.add('caption-motion-ready', 'caption-motion-active', 'caption-motion-played');
+          return;
+        }
+
+        const wasSettled = reduceMotion
+          || !animate
+          || caption.classList.contains('caption-motion-active')
+          || caption.classList.contains('caption-motion-played');
+        caption.classList.remove('caption-motion-ready', 'caption-motion-active', 'caption-motion-played');
+
+        const accessibleText = document.createElement('span');
+        accessibleText.className = 'caption-motion-accessible';
+        accessibleText.textContent = source.label;
+
+        const probe = document.createElement('span');
+        probe.className = 'caption-motion-probe';
+        probe.setAttribute('aria-hidden', 'true');
+        source.numberedSegments.forEach((segment, segmentIndex) => {
+          const paragraph = document.createElement('span');
+          paragraph.className = 'caption-motion-probe-paragraph';
+          if (source.separatedParagraphs && segmentIndex > 0) paragraph.classList.add('is-separated');
+          segment.split(/\s+/).filter(Boolean).forEach((word, wordIndex) => {
+            if (wordIndex) paragraph.append(document.createTextNode(' '));
+            const wordElement = document.createElement('span');
+            wordElement.className = 'caption-motion-word';
+            wordElement.textContent = word;
+            paragraph.append(wordElement);
+          });
+          probe.append(paragraph);
+        });
+        caption.replaceChildren(accessibleText, probe);
+
+        const paragraphLines = [...probe.querySelectorAll('.caption-motion-probe-paragraph')].map((paragraph) => {
+          const lines = [];
+          paragraph.querySelectorAll('.caption-motion-word').forEach((wordElement) => {
+            const top = Math.round(wordElement.getBoundingClientRect().top * 10) / 10;
+            const currentLine = lines.at(-1);
+            if (!currentLine || Math.abs(currentLine.top - top) > 1) {
+              lines.push({ top, words: [wordElement.textContent] });
+            } else {
+              currentLine.words.push(wordElement.textContent);
+            }
+          });
+          return lines;
+        });
+        const totalLines = paragraphLines.reduce((total, lines) => total + lines.length, 0);
+        let lineIndex = 0;
+
+        const visual = document.createElement('span');
+        visual.className = 'caption-motion-visual';
+        visual.setAttribute('aria-hidden', 'true');
+        paragraphLines.forEach((lines, paragraphIndex) => {
+          const paragraph = document.createElement('span');
+          paragraph.className = 'caption-motion-paragraph';
+          if (source.separatedParagraphs && paragraphIndex > 0) paragraph.classList.add('is-separated');
+          lines.forEach((line) => {
+            const lineMask = document.createElement('span');
+            lineMask.className = 'caption-motion-line';
+            const lineInner = document.createElement('span');
+            lineInner.className = 'caption-motion-line-inner';
+            lineInner.style.setProperty('--caption-motion-delay', `${(totalLines - lineIndex - 1) * 50}ms`);
+            lineInner.textContent = line.words.join(' ');
+            lineMask.append(lineInner);
+            paragraph.append(lineMask);
+            lineIndex += 1;
+          });
+          visual.append(paragraph);
+        });
+        caption.replaceChildren(accessibleText, visual);
+        caption.dataset.captionMotionDuration = String(600 + Math.max(0, totalLines - 1) * 50);
+        caption.classList.add('caption-motion-ready');
+
+        if (wasSettled) {
+          caption.classList.add('caption-motion-active', 'caption-motion-played');
+        } else if (caption.dataset.captionInView === 'true' && captionLayoutReady(caption)) {
+          captionObserver?.unobserve(caption);
+          playCaption(caption);
+        }
+      };
+
+      const scheduleCaptionRender = (caption) => {
+        window.clearTimeout(captionRenderTimers.get(caption));
+        const timer = window.setTimeout(() => renderCaptionMotion(caption), captionResizeDelay);
+        captionRenderTimers.set(caption, timer);
+      };
+
+      document.addEventListener('captionlayout', (event) => {
+        if (event.target?.matches?.('[data-media-caption]')) scheduleCaptionRender(event.target);
+      });
+
+      document.fonts.ready.then(() => {
+        mediaCaptions.forEach((caption) => {
+          renderCaptionMotion(caption);
+          if (reduceMotion) {
+            caption.classList.add('caption-motion-active', 'caption-motion-played');
+          } else {
+            captionObserver.observe(caption);
+          }
+        });
+      });
+
+      let captionWindowResizeTimer;
+      window.addEventListener('resize', () => {
+        window.clearTimeout(captionWindowResizeTimer);
+        captionWindowResizeTimer = window.setTimeout(
+          () => mediaCaptions.forEach((caption) => renderCaptionMotion(caption)),
+          captionResizeDelay,
+        );
+      }, { passive: true });
     </script>
     <script is:inline>
       const viewer = document.querySelector('[data-behance-viewer]');
@@ -266,7 +704,8 @@ const isHomeSystem = Astro.url.pathname === '/';
       const imageFor = (item) => item instanceof HTMLImageElement ? item : item.querySelector('img');
       const titleFor = (item) => {
         const explicit = item.dataset.behanceTitle?.trim();
-        const caption = item.closest('figure')?.querySelector('figcaption')?.textContent?.trim();
+        const captionElement = item.closest('figure')?.querySelector('figcaption');
+        const caption = captionElement?.dataset.captionLabel || captionElement?.textContent?.trim();
         const image = imageFor(item);
         const caseTitle = item.closest('.case-study')?.querySelector('.case-headline')?.textContent?.trim();
         return explicit || caption || image?.alt?.trim() || caseTitle || 'Portfolio image';
@@ -381,6 +820,10 @@ const isHomeSystem = Astro.url.pathname === '/';
           if (returnFocus instanceof HTMLElement && returnFocus.isConnected) returnFocus.focus();
         });
       });
+    </script>
+    <script>
+      import { initLineSystem } from '../scripts/line-system.js';
+      initLineSystem();
     </script>
   </body>
 </html>

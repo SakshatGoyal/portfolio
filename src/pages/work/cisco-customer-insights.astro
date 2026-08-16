@@ -14,10 +14,16 @@ import Figure from '../../components/Figure.astro';
   year="2020-21 (two phases)"
   role="Sole Product Designer"
   teamLabel="Team"
+  teamMembers={[
+    { name: 'Monika Zochowska', role: 'Product Manager' },
+    { name: 'Romualda Dziadosz', role: 'Lead Data Analyst' },
+    { name: 'Fitim Sallahu', role: 'Sr. Manager, Data Analytics' },
+    { name: 'Shravan Choutti', role: 'Lead Backend Engineer' },
+    { name: 'Baljinder Kaur', role: 'Lead Frontend Engineer' },
+  ]}
   hero="/assets/cisco/video/opportunity-extension-flow.webm"
   heroVideo
   heroPoster="/assets/cisco/posters/opportunity-extension-flow.jpg"
-  heroCaption="Sole Product Designer · Two phases. I redesigned Customer Insights, then designed a framework for adding offers from other Cisco teams."
   theme="cisco"
   previousHref="/work/hitachi-energy/"
   nextHref="/work/panw-ai/"
@@ -38,7 +44,7 @@ import Figure from '../../components/Figure.astro';
       caption="The previous dashboard summarized the account. Users gathered the information needed for further analysis from other tools."
     />
     <Figure
-      src="/assets/cisco/participant-pivot-analysis.png"
+      src="/assets/cisco/participant-pivot-analysis-redacted.png"
       width={1709}
       height={3000}
       alt="Participant-created customer analysis pivot tables"
@@ -52,6 +58,7 @@ import Figure from '../../components/Figure.astro';
     height={1687}
     alt="Framework connecting customer strategy questions to accessible data"
     caption="I mapped the questions from the interviews to their data sources and checked which information Customer Insights could access."
+    viewportFit={false}
   />
 
   <section class="case-section reading-column" data-reveal>
@@ -67,6 +74,7 @@ import Figure from '../../components/Figure.astro';
     alt="Board of data visualization concepts"
     caption="Visualization studies tested how the same customer question could move from a quick signal to a detailed analysis."
     class="cisco-visualization-board"
+    viewportFit={false}
   />
 
   <Figure
@@ -78,7 +86,6 @@ import Figure from '../../components/Figure.astro';
     caption="The reusable table module moved between collapsed summaries and expanded rows without leaving the page."
     class="cisco-data-table-module"
     video
-    controls
   />
 
   <section class="case-section reading-column" data-reveal>
@@ -112,7 +119,6 @@ import Figure from '../../components/Figure.astro';
     alt="Customer Insights dashboard workflow"
     caption="The final dashboard organized the account around six questions. Each module opened with a headline measure, followed by charts and tables."
     video
-    controls
   />
 
   <section class="case-section reading-column case-transition" data-reveal>
@@ -137,7 +143,7 @@ import Figure from '../../components/Figure.astro';
         <div><span>PROGRAM TEAM 03</span><strong>Service offer</strong><p>Replaceable</p></div>
       </div>
     </div>
-    <figcaption>Customer Insights could add or update offers from different program teams through the same framework.</figcaption>
+    <figcaption data-media-caption>Customer Insights could add or update offers from different program teams through the same framework.</figcaption>
   </figure>
 
   <Figure
@@ -163,7 +169,6 @@ import Figure from '../../components/Figure.astro';
       alt="Opportunity panel usability concept"
       caption="Panel test: the large panel was easy to see, but participants still overlooked offers labeled with internal program names."
       video
-      controls
     />
     <Figure
       src="/assets/cisco/video/opportunity-list-test.webm"
@@ -173,7 +178,6 @@ import Figure from '../../components/Figure.astro';
       alt="Opportunity list usability concept"
       caption="List test: offers remained independent from the existing tiles, leaving room for more offers later."
       video
-      controls
     />
   </div>
 
@@ -183,6 +187,7 @@ import Figure from '../../components/Figure.astro';
     height={1687}
     alt="Opportunity card before and after copy refinement"
     caption="“Upsell to NCD” became “Upgrade to Next Calendar Day,” paired with the potential value for that customer."
+    viewportFit={false}
   />
 
   <section class="case-section reading-column" data-reveal>
@@ -197,6 +202,7 @@ import Figure from '../../components/Figure.astro';
     height={853}
     alt="Several opportunities reusing subsets of Customer Insights data"
     caption="Each offer filtered a different subset of data already available in Customer Insights."
+    viewportFit={false}
   />
 
   <section class="case-section reading-column" data-reveal>
@@ -210,6 +216,7 @@ import Figure from '../../components/Figure.astro';
     height={1687}
     alt="Four Upsell Opportunity views available in Customer Insights"
     caption="Customer Insights supported four Upsell Opportunities at this stage."
+    viewportFit={false}
   />
 
   <section class="case-section reading-column" data-reveal>

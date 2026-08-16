@@ -16,7 +16,6 @@ interface Props {
   year: string;
   role: string;
   teamLabel: string;
-  teamRoleSummary?: string;
   teamMembers?: TeamMember[];
   hero: string;
   heroVideo?: boolean;
@@ -26,6 +25,7 @@ interface Props {
   heroPoster?: string;
   heroAutoplayOnView?: boolean;
   heroLoop?: boolean;
+  heroViewportFit?: boolean;
   theme?: string;
   previousHref: string;
   nextHref: string;
@@ -35,12 +35,11 @@ interface Props {
 const {
   headline, intro, stakeholder, skills, year, role, teamLabel, hero, heroVideo = false,
   heroWidth = 1920, heroHeight = 1080, heroCaption, heroPoster,
-  heroAutoplayOnView = heroVideo, heroLoop = heroVideo,
+  heroAutoplayOnView = heroVideo, heroLoop = heroVideo, heroViewportFit = true,
   theme = 'neutral', previousHref, nextHref, introSpacing = 'standard',
-  teamRoleSummary = '', teamMembers = [],
+  teamMembers = [],
 } = Astro.props;
 const hasTeamPanel = Boolean(teamLabel);
-const resolvedTeamRoleSummary = teamRoleSummary || role;
 const teamPanelId = `team-panel-${theme}`;
 ---
 
@@ -50,7 +49,7 @@ const teamPanelId = `team-panel-${theme}`;
       <h1 data-line-mask aria-label={headline} style="visibility: hidden;">{headline}</h1>
     </header>
 
-    <Figure src={hero} alt={headline} caption={heroCaption} class="hero-figure" eager contain={theme === 'panw'} video={heroVideo} controls={heroVideo} autoplayOnView={heroAutoplayOnView} loop={heroLoop} poster={heroPoster} width={heroWidth} height={heroHeight} />
+    <Figure src={hero} alt={headline} caption={heroCaption} class="hero-figure" eager contain={theme === 'panw'} fluidFrame={theme === 'panw'} squareMedia={theme === 'panw'} viewportFit={heroViewportFit} video={heroVideo} autoplayOnView={heroAutoplayOnView} loop={heroLoop} poster={heroPoster} width={heroWidth} height={heroHeight} />
 
     <section class:list={['case-intro', 'reading-column', { tight: introSpacing === 'tight' }]} data-reveal>
       {intro.map((paragraph) => <p>{paragraph}</p>)}
@@ -85,7 +84,7 @@ const teamPanelId = `team-panel-${theme}`;
     </dl>
 
     {hasTeamPanel && (
-      <TeamPanel id={teamPanelId} roleSummary={resolvedTeamRoleSummary} members={teamMembers} />
+      <TeamPanel id={teamPanelId} members={teamMembers} />
     )}
 
     <div class="case-body">
