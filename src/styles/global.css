@@ -102,7 +102,8 @@
   --ink: #0b1117;
   --muted: #62625f;
   --faint: #92928d;
-  --line: #e4e4df;
+  --site-line: #a8b0c2;
+  --line: var(--site-line);
   --accent: #e45a2d;
   --wash: #f3f2ee;
   --case-tint: #edf3ef;
@@ -260,7 +261,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 [data-home-system='true'] {
   --home-rail: var(--site-rail);
   --home-pad: 16px;
-  --home-line: #dbdee2;
+  --home-line: var(--site-line);
   --home-ink: #000;
   --home-secondary: rgb(0 0 0 / 50%);
   --home-divider: 1px solid var(--home-line);
@@ -355,12 +356,16 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 
 .home-project-meta {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
 }
-.home-project-meta span { font: 700 14px/1.35 'Manrope', Arial, sans-serif; }
-.home-project-meta time { color: var(--home-secondary); font: 400 14px/1.35 'Public Sans', 'Inter', Arial, sans-serif; }
+.home-project-meta > .home-project-client { font: 700 14px/1.35 'Manrope', Arial, sans-serif; }
+.home-project-meta > .home-project-meta-separator {
+  color: var(--home-secondary);
+  font: 400 14px/1.35 'Public Sans', 'Inter', Arial, sans-serif;
+}
+.home-project-meta > .home-project-year { color: var(--home-secondary); font: 400 14px/1.35 'Public Sans', 'Inter', Arial, sans-serif; }
 
 .home-tape-label { position: relative; display: block; }
 .home-tape-probe { display: inline; }
@@ -412,8 +417,9 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   place-items: center;
   width: 100%;
   overflow: hidden;
-  border-radius: 0;
+  border-radius: 8px;
   background: #eef1f5;
+  transition: border-radius 500ms cubic-bezier(.5, 0, 0, 1);
 }
 .home-project-media.playable-media-surface {
   padding: 0;
@@ -421,31 +427,98 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   color: inherit;
   font: inherit;
 }
-.home-project-panw .home-project-media {
+.home-project-media-visual {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  filter: grayscale(0);
+  opacity: 1;
+  transition: border-radius 500ms cubic-bezier(.5, 0, 0, 1), filter 500ms cubic-bezier(.5, 0, 0, 1), opacity 500ms cubic-bezier(.5, 0, 0, 1);
+}
+.home-project-hover-affordance {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  z-index: 3;
+  display: none;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border: 0;
+  border-radius: 24px;
+  background: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: top 500ms cubic-bezier(.5, 0, 0, 1), opacity 500ms cubic-bezier(.5, 0, 0, 1);
+}
+.home-project-hover-affordance::after {
+  position: absolute;
+  inset: 0;
+  border: 1px solid #e6e6e6;
+  border-radius: inherit;
+  content: '';
+  pointer-events: none;
+}
+.home-project-hover-affordance svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #1a1a1a;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .home-project-hover-affordance { display: flex; }
+  .home-project-card:hover .home-project-media,
+  .home-project-card:focus-within .home-project-media,
+  .home-project-card:hover .home-project-media-visual,
+  .home-project-card:focus-within .home-project-media-visual { border-radius: 0; }
+  .home-project-card:hover .home-project-media-visual,
+  .home-project-card:focus-within .home-project-media-visual {
+    filter: grayscale(1);
+    opacity: .75;
+  }
+  .home-project-card:hover .home-project-hover-affordance,
+  .home-project-card:focus-within .home-project-hover-affordance {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+.home-project-panw .home-project-media-visual {
   --panw-media-offset: 48px;
-  aspect-ratio: 1 / 1;
   background-image: url('/assets/home-covers/panw-background-orange.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.home-project-panw .home-project-media { aspect-ratio: 1 / 1; }
 .home-project-hbs .home-project-media { aspect-ratio: 16 / 9; }
 .home-project-global .home-project-media { aspect-ratio: 4 / 3; }
 .home-project-one-report .home-project-media { aspect-ratio: 9 / 16; }
 
-.home-project-media img,
-.home-project-media video {
+.home-project-media-visual img,
+.home-project-media-visual video {
   display: block;
   width: 100%;
   height: auto;
   object-fit: contain;
 }
-.home-project-hbs .home-project-media img,
-.home-project-global .home-project-media video,
-.home-project-one-report .home-project-media video {
+.home-project-hbs .home-project-media-visual img,
+.home-project-global .home-project-media-visual video,
+.home-project-one-report .home-project-media-visual video {
   height: 100%;
 }
-.home-project-panw .home-project-media video {
+.home-project-panw .home-project-media-visual video {
   position: absolute;
   top: var(--panw-media-offset);
   left: 50%;
@@ -830,8 +903,8 @@ body.team-panel-open { overflow: hidden; }
   --canvas: #fff;
   --cs-canvas: #fff;
   --cs-surface: #ffffff;
-  --cs-divider: #dbdee2;
-  --cs-divider-intense: #9aa1a8;
+  --cs-divider: var(--site-line);
+  --cs-divider-intense: var(--site-line);
   --cs-heading: #04101c;
   --cs-text-primary: #0b1117;
   --cs-text-secondary: #4f5963;
@@ -1241,7 +1314,7 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 }
 [data-case-system='true'] .problem-connector path {
   fill: none;
-  stroke: var(--cs-divider-intense);
+  stroke: var(--site-line);
   stroke-width: 2;
   stroke-linecap: butt;
   stroke-linejoin: miter;
@@ -1764,6 +1837,7 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 .line-token-monogram { stroke: var(--ink, #111); }
 .line-token-platform-core { stroke: color-mix(in srgb, var(--accent) 38%, var(--line)); }
 .line-token-platform-contribution { stroke: color-mix(in srgb, var(--accent) 26%, var(--line)); }
+.line-system-path { stroke: var(--site-line); }
 
 [data-line-system='svg'] :focus-visible,
 [data-line-system='svg'] .case-meta button.team-label:focus-visible,

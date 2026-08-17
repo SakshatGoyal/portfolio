@@ -89,7 +89,7 @@ const linePath = ({ id, x1, y1, x2, y2, token = 'divider', width, direction, sta
   path.dataset.lineStart = start || coordinateKey(sx, sy);
   path.dataset.lineEnd = end || coordinateKey(ex, ey);
   path.classList.add('line-system-path', `line-token-${token}`);
-  if (layoutRule) {
+  if (layoutRule && path.dataset.lineDirection === 'left-to-right') {
     path.dataset.lineLayoutRule = 'true';
     path.classList.add('line-system-layout-rule');
   }

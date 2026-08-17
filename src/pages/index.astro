@@ -90,16 +90,33 @@ const projects = [
               <h3 class="home-tape-label" data-home-tape-label data-tape-delay="0">{project.title}</h3>
             </div>
             <div class="home-project-meta">
-              <span class="home-tape-label" data-home-tape-label data-tape-delay="75">{project.company}</span>
-              <time class="home-tape-label" data-home-tape-label data-tape-delay="150">{project.year}</time>
+              <span class="home-project-client home-tape-label" data-home-tape-label data-tape-delay="75">{project.company}</span>
+              <span class="home-project-meta-separator" aria-hidden="true">・</span>
+              <time class="home-project-year home-tape-label" data-home-tape-label data-tape-delay="150">{project.year}</time>
             </div>
             {project.video ? (
               <button class="home-project-media playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label={`Pause ${project.title}`}>
-                <video src={project.video} poster={project.poster} style={`--video-poster-image: url('${project.poster}')`} aria-label={project.title} muted loop playsinline preload="metadata" data-autoplay-on-view></video>
+                <span class="home-project-media-visual">
+                  <video src={project.video} poster={project.poster} style={`--video-poster-image: url('${project.poster}')`} aria-label={project.title} muted loop playsinline preload="metadata" data-autoplay-on-view></video>
+                </span>
+                <span class="home-project-hover-affordance" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M5 12h14"></path>
+                    <path d="m14 7 5 5-5 5"></path>
+                  </svg>
+                </span>
               </button>
             ) : (
               <div class="home-project-media">
-                <img src={project.image} alt={project.title} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+                <span class="home-project-media-visual">
+                  <img src={project.image} alt={project.title} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+                </span>
+                <span class="home-project-hover-affordance" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M5 12h14"></path>
+                    <path d="m14 7 5 5-5 5"></path>
+                  </svg>
+                </span>
               </div>
             )}
           </article>
