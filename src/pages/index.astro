@@ -140,6 +140,7 @@ const projects = [
         <div class="gallery-artifacts">
           {project.media.map((artifact) => <GalleryArtifact {...artifact} label={project.title} />)}
         </div>
+        <span class="gallery-project-end" data-gallery-project-end aria-hidden="true"></span>
       </article>
     ))}
   </section>
@@ -270,30 +271,14 @@ const projects = [
     document.fonts?.ready.then(queueHomeSectionState);
     syncHomeSectionState();
 
-    const galleryProjects = [...document.querySelectorAll('[data-gallery-project]')];
-    let galleryReleaseFrame = 0;
-    const syncGalleryProjectRelease = () => {
-      galleryReleaseFrame = 0;
-      const desktop = window.matchMedia('(min-width: 1056px)').matches;
-      galleryProjects.forEach((project) => {
-        const info = project.querySelector('[data-gallery-info]');
-        if (!(info instanceof HTMLElement)) return;
-        const infoHeight = info.offsetHeight;
-        project.style.setProperty('--gallery-info-height', `${infoHeight}px`);
-        const releaseAt = window.innerHeight + infoHeight + 24;
-        project.classList.toggle(
-          'gallery-project-ending',
-          desktop && project.getBoundingClientRect().bottom <= releaseAt,
-        );
+    const galleryEndObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        entry.target.closest('[data-gallery-project]')
+          ?.classList.toggle('gallery-project-ending', entry.isIntersecting);
       });
-    };
-    const queueGalleryProjectRelease = () => {
-      if (galleryReleaseFrame) return;
-      galleryReleaseFrame = requestAnimationFrame(syncGalleryProjectRelease);
-    };
-    window.addEventListener('scroll', queueGalleryProjectRelease, { passive: true });
-    window.addEventListener('resize', queueGalleryProjectRelease, { passive: true });
-    document.fonts?.ready.then(queueGalleryProjectRelease);
-    queueGalleryProjectRelease();
+    }, { threshold: 0 });
+    document.querySelectorAll('[data-gallery-project-end]').forEach((sentinel) => {
+      galleryEndObserver.observe(sentinel);
+    });
   </script>
 </BaseLayout>

@@ -187,7 +187,7 @@ const initBodyReveals = (reduceMotion) => {
 
   document.querySelectorAll('.home-bio').forEach((container) => registerContainer(container, 'intro'));
   document.querySelectorAll('.gallery-project-info').forEach((container) => {
-    register(container.querySelector('.gallery-project-heading'), 'standard');
+    register(container.querySelector('.gallery-project-heading'), 'gallery-heading');
     registerContainer(container, 'standard');
   });
   document.querySelectorAll('.case-intro').forEach((container) => register(container, 'intro'));

@@ -591,6 +591,14 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   object-fit: contain;
 }
 .gallery-artifact-surface { --line-focus-offset: 3px; }
+.gallery-project-end {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
 
 .home-site-footer {
   --footer-divider-color: var(--home-line);
@@ -896,6 +904,10 @@ html[data-body-motion-ready='true'] [data-body-reveal] {
 html[data-body-motion-ready='true'] [data-body-reveal][data-body-reveal-kind='intro'] {
   transform: translateY(18px);
   transition-duration: 276ms, 276ms;
+}
+html[data-body-motion-ready='true'] [data-body-reveal][data-body-reveal-kind='gallery-heading'] {
+  transform: none;
+  transition-property: opacity;
 }
 html[data-body-motion-ready='true'] [data-body-reveal].body-reveal-active {
   opacity: 1;
@@ -1735,7 +1747,7 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
   .gallery-project-ending .gallery-project-info {
     position: absolute;
     inset-inline: 0;
-    top: max(0px, calc(100% - 100dvh - var(--gallery-info-height, 0px)));
+    top: max(0px, calc(100% - 100dvh + 24px));
   }
   .gallery-artifacts {
     grid-column: 1 / 12;
