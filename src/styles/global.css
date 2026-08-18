@@ -280,6 +280,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 
 /* Home system: Figma frame 3162:1022, on the shared responsive case-study rail. */
 [data-home-system='true'] {
+  --home-background: #fff;
   --home-rail: var(--site-rail);
   --home-pad: 16px;
   --home-line: var(--site-line);
@@ -287,7 +288,11 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   --home-secondary: rgb(0 0 0 / 50%);
   --home-divider: 1px solid var(--home-line);
   --home-video-max-height: var(--media-viewport-max-height);
-  background: #f7f7f7;
+  background: var(--home-background);
+}
+
+[data-home-system='true'] body {
+  background: var(--home-background);
 }
 
 [data-home-system='true'] .page-shell {
@@ -303,7 +308,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .home-site-footer {
   width: var(--home-rail);
   margin-inline: auto;
-  background: #fff;
+  background: transparent;
 }
 
 .home-site-header {
@@ -343,7 +348,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .home-project-grid {
   position: relative;
   min-width: 420px;
-  background: #fff;
+  background: transparent;
 }
 .home-work { overflow-x: auto; }
 
@@ -358,7 +363,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   height: auto;
   padding: 30px 24px 24px;
   border: 0;
-  background: #fff;
+  background: transparent;
   color: var(--home-ink);
   text-decoration: none;
 }
@@ -446,7 +451,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   margin-top: 16px;
   overflow: hidden;
   border-radius: 0;
-  background: #fff;
+  background: transparent;
 }
 .home-project-panw .home-project-media > .media-reveal-clip,
 .home-project-hbs .home-project-media > .media-reveal-clip,
@@ -559,7 +564,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   position: relative;
   display: block;
   padding-block: 0 48px;
-  background: #fff;
+  background: transparent;
 }
 .gallery-project-list { display: grid; gap: 100px; }
 
@@ -570,7 +575,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   gap: 48px;
   min-width: 0;
   padding-inline: var(--home-pad);
-  background: #fff;
+  background: transparent;
 }
 
 .gallery-project-info {
