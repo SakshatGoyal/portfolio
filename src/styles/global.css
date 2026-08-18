@@ -342,8 +342,10 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 
 .home-project-grid {
   position: relative;
+  min-width: 420px;
   background: #fff;
 }
+.home-work { overflow-x: auto; }
 
 /* Card geometry is content-driven; the shared SVG topology owns every seam. */
 .home-project-slot { min-width: 0; }
