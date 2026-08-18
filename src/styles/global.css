@@ -1885,7 +1885,9 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 }
 .custom-site-cursor.is-visible { opacity: 1; }
 .custom-site-cursor.is-media {
-  transform: translate(-50%, -50%) scale(.428571);
+  background: #000;
+  mix-blend-mode: normal;
+  transform: translate(-50%, -50%) scale(1);
 }
 .custom-site-cursor.is-project {
   background: #000;
@@ -1906,10 +1908,11 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 }
 .custom-site-cursor.is-media:not(.is-paused) .cursor-pause,
 .custom-site-cursor.is-media.is-paused .cursor-play {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
   opacity: 1;
-  /* The 56px cursor shell is scaled to 24px in media mode. Counter-scale the
-   * glyph so its rendered size remains the established 10px. */
-  transform: translate(-50%, -50%) scale(2.333333);
+  transform: translate(-50%, -50%) scale(1);
 }
 .custom-site-cursor.is-project .cursor-project-arrow {
   width: 24px;
