@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import GalleryArtifact from '../components/GalleryArtifact.astro';
+import GalleryProject from '../components/GalleryProject.astro';
 import { GLOBAL_DATA_ANALYTICS_TITLE } from '../data/project-titles.js';
 import { parseGalleryNotes } from '../data/gallery.js';
 import galleryNotes from '../content/gallery-notes.md?raw';
@@ -126,22 +126,7 @@ const projects = [
 
   <section class="home-gallery" id="gallery" data-home-gallery aria-label="Gallery">
     {galleryProjects.map((project) => (
-      <article class="gallery-project" data-gallery-project>
-        <div class="gallery-project-info-track">
-          <div class="gallery-project-info" data-gallery-info>
-            <div class="gallery-project-heading">
-              <h2>{project.title}</h2>
-              <span aria-hidden="true">・</span>
-              <time>{project.year}</time>
-            </div>
-            {project.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
-          </div>
-        </div>
-        <div class="gallery-artifacts">
-          {project.media.map((artifact) => <GalleryArtifact {...artifact} label={project.title} />)}
-        </div>
-        <span class="gallery-project-end" data-gallery-project-end aria-hidden="true"></span>
-      </article>
+      <GalleryProject project={project} />
     ))}
   </section>
 
@@ -271,14 +256,5 @@ const projects = [
     document.fonts?.ready.then(queueHomeSectionState);
     syncHomeSectionState();
 
-    const galleryEndObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        entry.target.closest('[data-gallery-project]')
-          ?.classList.toggle('gallery-project-ending', entry.isIntersecting);
-      });
-    }, { threshold: 0 });
-    document.querySelectorAll('[data-gallery-project-end]').forEach((sentinel) => {
-      galleryEndObserver.observe(sentinel);
-    });
   </script>
 </BaseLayout>

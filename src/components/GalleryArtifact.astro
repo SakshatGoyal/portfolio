@@ -1,17 +1,33 @@
 ---
 interface Props {
+  id: string;
   type: 'image' | 'video';
   src: string;
   poster?: string;
   width: number;
   height: number;
   label: string;
+  placement: {
+    column: number;
+    span: number;
+    row: number;
+    rowSpan?: number;
+  };
 }
 
-const { type, src, poster, width, height, label } = Astro.props;
+const { id, type, src, poster, width, height, label, placement } = Astro.props;
+const { column, span, row, rowSpan = 1 } = placement;
+const insetStart = column === 1 ? '0px' : '12px';
+const insetEnd = column + span > 20 ? '0px' : '12px';
 ---
 
-<div class="gallery-artifact" data-media-unit data-media-reveal>
+<div
+  class="gallery-artifact"
+  data-gallery-artifact={id}
+  data-media-unit
+  data-media-reveal
+  style={`--gallery-column: ${column}; --gallery-span: ${span}; --gallery-row: ${row}; --gallery-row-span: ${rowSpan}; --gallery-inset-start: ${insetStart}; --gallery-inset-end: ${insetEnd};`}
+>
   <div class="media-reveal-clip" data-media-reveal-clip>
     <div class="media-reveal-rise" data-media-reveal-rise>
       {type === 'video' ? (

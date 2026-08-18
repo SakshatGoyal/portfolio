@@ -528,6 +528,9 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 
 .home-gallery {
   position: relative;
+  display: grid;
+  gap: 48px;
+  padding-block: 48px;
   background: #fff;
 }
 
@@ -535,17 +538,14 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
   min-width: 0;
+  padding-inline: var(--home-pad);
   background: #fff;
-}
-
-.gallery-project-info-track {
-  min-width: 0;
 }
 
 .gallery-project-info {
   min-width: 0;
-  padding: 24px var(--home-pad) 40px;
   color: var(--home-ink);
   font: 400 16px/var(--body-leading) 'Manrope', Arial, sans-serif;
 }
@@ -564,12 +564,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 }
 .gallery-project-info p + p { margin-top: 20px; }
 
-.gallery-artifacts {
-  min-width: 0;
-  padding: 24px var(--home-pad);
-}
 .gallery-artifact { width: 100%; min-width: 0; }
-.gallery-artifact + .gallery-artifact { margin-top: 48px; }
 .gallery-artifact-surface {
   display: block;
   width: 100%;
@@ -591,14 +586,6 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   object-fit: contain;
 }
 .gallery-artifact-surface { --line-focus-offset: 3px; }
-.gallery-project-end {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 1px;
-  height: 1px;
-  pointer-events: none;
-}
 
 .home-site-footer {
   --footer-divider-color: var(--home-line);
@@ -1677,28 +1664,19 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 }
 
 @media (min-width: 1056px) {
-  .gallery-project { grid-template-columns: repeat(16, minmax(0, 1fr)); }
-  .gallery-project-info-track {
-    position: relative;
-    grid-column: 12 / 17;
-    grid-row: 1;
-    align-self: stretch;
+  .gallery-project {
+    grid-template-columns: repeat(20, minmax(0, 1fr));
+    column-gap: 0;
+    row-gap: 24px;
+    align-items: start;
   }
-  .gallery-project-info {
-    position: sticky;
-    top: 24px;
-    padding-inline: 24px;
+  .gallery-project-info,
+  .gallery-artifact {
+    grid-column: var(--gallery-column) / span var(--gallery-span);
+    grid-row: var(--gallery-row) / span var(--gallery-row-span);
+    margin-inline: var(--gallery-inset-start) var(--gallery-inset-end);
   }
-  .gallery-project-ending .gallery-project-info {
-    position: absolute;
-    inset-inline: 0;
-    top: max(0px, calc(100% - 100dvh + 24px));
-  }
-  .gallery-artifacts {
-    grid-column: 1 / 12;
-    grid-row: 1;
-    padding-inline: 24px;
-  }
+  .gallery-artifact { width: auto; }
   [data-case-system='true'] .case-body > .case-section.reading-column {
     padding-top: 160px !important;
   }
