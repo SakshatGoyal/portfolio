@@ -10,17 +10,17 @@ const normalizedNotes = notes.replace(/\r\n?/g, '\n')
   .filter(Boolean)
   .join('\n');
 const notesHash = createHash('sha256').update(normalizedNotes).digest('hex');
-const expectedNotesHash = '04e2b451a73a699a537b0e18db4a37593f33d459544f48107440a8da9149b515';
+const expectedNotesHash = '5359add6ccd130930e9510824508fcf892429e4a85bb95c9a4a3cb91d8352709';
 const expectedProjects = [
-  ['PANW-WORKBENCH', '2025'],
-  ['LUMINOSO', '2024'],
-  ['HBS - LEADING WITH AI', '2024'],
-  ['HBS-FACULTY-PLATFORM', '2024'],
-  ['PANOPTICA', '2024'],
-  ['CISCO READY', '2020'],
-  ['CISCO READY AI', '2019'],
-  ['TREBUCHET TRIALS', '2019'],
-  ['WEXEL', '2018'],
+  ['Sales Workbench, Palo Alto Networks.', '2025'],
+  ['Platform Redesign, Luminoso', '2024'],
+  ['Event Experiences, HBS AI Institute', '2024'],
+  ['Researcher Outreach Service, HBS AI Institute', '2024'],
+  ['Onboarding Redesign, Cisco Panoptica', '2024'],
+  ['Platform Redesign, Cisco Ready', '2020'],
+  ['NLP Experiences, Cisco Ready', '2019'],
+  ['Trebuchet Trials, Microsoft Hacking STEM', '2019'],
+  ['Wexel, Premera Blue Cross', '2018'],
 ];
 const projects = parseGalleryNotes(notes);
 const errors = [];

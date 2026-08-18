@@ -1,12 +1,16 @@
 # Gallery Notes
 
-PANOPTICA - 2024
+Onboarding Redesign, Cisco Panoptica - 2024
 
-I redesigned Panoptica’s onboarding experience, contributing to a 50% reduction in onboarding abandonment and helping more new users complete the full setup flow. I evolved the experience from guiding users toward the next action to teaching them, through visuals, animations, concrete examples, and walkthroughs, what Panoptica could do and what they would gain from completing setup.
+I redesigned Panoptica’s onboarding experience, contributing to a 50% reduction in onboarding abandonment and helping more new users complete the full setup flow.
 
-As a non-engineer designing for DevOps, SecOps, and technical managers, I had to understand unfamiliar technical concepts well enough to explain them clearly without diluting their meaning. I defined the principles for an outcome-driven educational onboarding model that introduced Panoptica’s different capabilities as users moved through setup. I also used AI as a learning and translation aid to test analogies, build empathy for technical users, and refine copy that could work for engineers and non-engineers alike.
+I evolved the experience from guiding users toward the next action to teaching them, through visuals, animations, concrete examples, and walkthroughs, what Panoptica could do and what they would gain from completing setup.
 
-TREBUCHET TRIALS - 2019
+As a non-engineer designing for DevOps, SecOps, and technical managers, I had to understand unfamiliar technical concepts well enough to explain them clearly without diluting their meaning.
+
+I defined the principles for an outcome-driven educational onboarding model that introduced Panoptica’s different capabilities as users moved through setup. I also used AI as a learning and translation aid to test analogies, build empathy for technical users, and refine copy that could work for engineers and non-engineers alike.
+
+Trebuchet Trials, Microsoft Hacking STEM - 2019
 
 Trebuchet trials were part of an MHCI+D and Microsoft Hacking STEM collaboration, for which my team and I received the ‘Best Design Implementation’ award.
 
@@ -14,7 +18,7 @@ It was designed as an interactive learning kit priced under $15. Given the high 
 
 Sounds simple when seen from a distance, but it's practically impossible when you get into the details, so this one still holds a special place in my memory.
 
-WEXEL - 2018
+Wexel, Premera Blue Cross - 2018
 
 Wexel was an app designed to offer flexible booking options for caretakers.
 
@@ -22,29 +26,29 @@ To resolve a design problem, I went through 20 iterations, tested each one with 
 
 It’s easy to take this as standard practice, but to a former architect, the ability to validate an idea with real users without actually building anything was like finding the ultimate cheat code in the most exciting game ever built.
 
-CISCO READY - 2020
+Platform Redesign, Cisco Ready - 2020
 
 In addition to designing dashboard experiences, I designed a complete visual rehaul for the Cisco Ready team. This included redesinging interaction patterns, complete flows, and visual artifacts like icons and illustrations.
 
-HBS-FACULTY-PLATFORM - 2024
+Researcher Outreach Service, HBS AI Institute - 2024
 
 Intelligaia was commissioned by the HBS AI Institute to create experiences enabling researchers to share their work with industry professionals. My work involved exploring and assessing various tools, technologies, user experiences, and the entire service process.
 
-HBS - LEADING WITH AI - 2024
+Event Experiences, HBS AI Institute - 2024
 
 I led the research to operationalize the human experience of attending HBS AI Institute events, and designing ways to make those experiences feel more constructive for attendees.
 
-LUMINOSO - 2024
+Platform Redesign, Luminoso - 2024
 
 I designed a new experience for Luminoso, an AI text analytics platform that synthesizes large volumes of unstructured data. The project also involved exploring what synthesis means and what it means to make sense of abstract customer data.
 
 The project ultimately came to a halt due to a lack of funding.
 
-PANW-WORKBENCH - 2025
+Sales Workbench, Palo Alto Networks. - 2025
 
 Referenced in one of the case studies, I led the design of the Sales Workbench. The Sales Workbench was designed to consolidate multiple single-purpose internal tools.
 
-CISCO READY AI - 2019
+NLP Experiences, Cisco Ready - 2019
 
 As part of exploring the next phase of Cisco Ready, I designed speculative interaction models for combining natural-language input with conventional graphical interfaces built around pointing, clicking, and direct manipulation.
 

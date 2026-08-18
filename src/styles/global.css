@@ -591,8 +591,8 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   font: 400 14px/1.35 'Public Sans', 'Inter', Arial, sans-serif;
 }
 .gallery-project-info p {
-  font-weight: 500;
-  opacity: .6;
+  font: 400 20px/var(--body-leading) 'Cabinet Grotesk', Arial, sans-serif;
+  opacity: .75;
 }
 .gallery-project-info p + p { margin-top: 20px; }
 
