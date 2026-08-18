@@ -10,16 +10,16 @@ const normalizedNotes = notes.replace(/\r\n?/g, '\n')
   .filter(Boolean)
   .join('\n');
 const notesHash = createHash('sha256').update(normalizedNotes).digest('hex');
-const expectedNotesHash = 'bef196237253f14a40eddf14f9e915532e094da7b7f9076fd0bfe078eb22f7a4';
+const expectedNotesHash = '20673b54e1b7b0870dc19b95eefdc17ab59059f91ee3ecb14fb3a16318aa4663';
 const expectedProjects = [
   ['PANW-WORKBENCH', '2025'],
-  ['PANOPTICA', '2024'],
-  ['HBS-FACULTY-PLATFORM', '2024'],
-  ['HBS - LEADING WITH AI', '2024'],
   ['LUMINOSO', '2024'],
+  ['HBS - LEADING WITH AI', '2024'],
+  ['HBS-FACULTY-PLATFORM', '2024'],
+  ['PANOPTICA', '2024'],
   ['CISCO READY', '2020'],
-  ['TREBUCHET TRIALS', '2019'],
   ['CISCO READY AI', '2019'],
+  ['TREBUCHET TRIALS', '2019'],
   ['WEXEL', '2018'],
 ];
 const projects = parseGalleryNotes(notes);

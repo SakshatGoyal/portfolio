@@ -2,7 +2,7 @@
 
 PANOPTICA - 2024
 
-Panoptica is a cloud security platform that helps engineering and security teams find and fix risks across cloud applications. I redesigned its onboarding experience and helped reduce new-user drop-off by 50%. I evolved the experience from guiding users toward the next action to teaching them, through visuals, animations, concrete examples, and walkthroughs, what Panoptica could do and what they would gain from completing setup.
+I redesigned Panoptica's onboarding experience and helped reduce new-user drop-off by 50%. I evolved the experience from guiding users toward the next action to teaching them, through visuals, animations, concrete examples, and walkthroughs, what Panoptica could do and what they would gain from completing setup.
 
 As a non-engineer designing for DevOps, SecOps, and technical managers, I had to understand unfamiliar technical concepts well enough to explain them clearly without diluting their meaning. I defined the principles for an outcome-driven educational onboarding model that introduced Panoptica’s different capabilities as users moved through setup. I also used AI as a learning and translation aid to test analogies, build empathy for technical users, and refine copy that could work for engineers and non-engineers alike.
 

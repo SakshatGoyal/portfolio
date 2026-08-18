@@ -19,7 +19,7 @@ if (!homePage.includes('title: GLOBAL_DATA_ANALYTICS_TITLE')) {
 if (!caseStudy.includes('headline={GLOBAL_DATA_ANALYTICS_TITLE}')) {
   errors.push('The Global Data Analytics case study must use the canonical title.');
 }
-if (!motionSystem.includes("['tools.', 128]")) {
+if (!motionSystem.includes("['Turning exploratory research to internal tools.', 176]")) {
   errors.push('The tape timing map must retain the punctuated final title line.');
 }
 

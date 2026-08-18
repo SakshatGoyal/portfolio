@@ -54,6 +54,18 @@ export const galleryMedia = Object.freeze({
   'CISCO READY AI': [video('cisco-ready-ai-00', 1920, 1040)],
 });
 
+export const galleryProjectOrder = Object.freeze([
+  'PANW-WORKBENCH',
+  'LUMINOSO',
+  'HBS - LEADING WITH AI',
+  'HBS-FACULTY-PLATFORM',
+  'PANOPTICA',
+  'CISCO READY',
+  'CISCO READY AI',
+  'TREBUCHET TRIALS',
+  'WEXEL',
+]);
+
 /**
  * @param {string} source
  * @returns {GalleryProject[]}
@@ -81,5 +93,7 @@ export const parseGalleryNotes = (source) => {
     const media = galleryMedia[project.title];
     if (!media) throw new Error(`Gallery media is missing for ${project.title}.`);
     return { ...project, media };
-  }).sort((left, right) => Number(right.year) - Number(left.year));
+  }).sort((left, right) => (
+    galleryProjectOrder.indexOf(left.title) - galleryProjectOrder.indexOf(right.title)
+  ));
 };

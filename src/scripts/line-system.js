@@ -396,11 +396,28 @@ export const initLineSystem = () => {
     const footerRect = relativeRect(footer, rootRect);
     const galleryProjects = [...gallery.querySelectorAll('[data-gallery-project]')];
     const galleryProjectRects = galleryProjects.map((project) => relativeRect(project, rootRect));
+    const galleryArtifactDividers = galleryProjects.flatMap((project, projectIndex) => {
+      const artifacts = [...project.querySelectorAll('.gallery-artifact')];
+      return artifacts.slice(1).map((artifact, artifactIndex) => {
+        const previousRect = relativeRect(artifacts[artifactIndex], rootRect);
+        const currentRect = relativeRect(artifact, rootRect);
+        return {
+          id: `home.gallery.artifact.${projectIndex + 1}.${artifactIndex + 1}`,
+          y: previousRect.bottom + ((currentRect.top - previousRect.bottom) / 2),
+        };
+      });
+    });
+    const firstGalleryInfo = galleryProjects[0]?.querySelector('[data-gallery-info]');
+    const gallerySplit = firstGalleryInfo && window.matchMedia('(min-width: 1056px)').matches
+      ? relativeRect(firstGalleryInfo, rootRect).left
+      : null;
+    const galleryMediaRight = gallerySplit ?? galleryRect.right;
     const horizontalLevels = uniqueSorted([
       headerRect.top,
       headerRect.bottom,
       heroRect.bottom,
       ...galleryProjectRects.map((rect) => rect.top),
+      ...galleryArtifactDividers.map((divider) => divider.y),
       galleryRect.bottom,
       footerRect.top,
       footerRect.bottom,
@@ -419,6 +436,9 @@ export const initLineSystem = () => {
       });
       galleryProjectRects.forEach((rect, index) => {
         drawHorizontal(documentRenderGroup, `home.gallery.row.${index + 1}`, galleryRect.left, galleryRect.right, rect.top, 'home');
+      });
+      galleryArtifactDividers.forEach((divider) => {
+        drawHorizontal(documentRenderGroup, divider.id, galleryRect.left, galleryRect.right, divider.y, 'home');
       });
       return;
     }
@@ -448,15 +468,17 @@ export const initLineSystem = () => {
     galleryProjectRects.forEach((rect, index) => {
       drawHorizontal(documentRenderGroup, `home.gallery.row.${index + 1}`, galleryRect.left, galleryRect.right, rect.top, 'home');
     });
-    const firstGalleryInfo = galleryProjects[0]?.querySelector('[data-gallery-info]');
-    if (firstGalleryInfo && window.matchMedia('(min-width: 1056px)').matches) {
-      const split = relativeRect(firstGalleryInfo, rootRect).left;
+    galleryArtifactDividers.forEach((divider) => {
+      drawHorizontal(documentRenderGroup, divider.id, galleryRect.left, galleryMediaRight, divider.y, 'home');
+    });
+    if (gallerySplit !== null) {
       const galleryLevels = uniqueSorted([
         galleryRect.top,
         ...galleryProjectRects.map((rect) => rect.top),
+        ...galleryArtifactDividers.map((divider) => divider.y),
         galleryRect.bottom,
       ]);
-      drawVerticalNetwork(documentRenderGroup, 'home.gallery.split', split, galleryLevels, 'home');
+      drawVerticalNetwork(documentRenderGroup, 'home.gallery.split', gallerySplit, galleryLevels, 'home');
     }
   };
 
