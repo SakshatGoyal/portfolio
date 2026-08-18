@@ -46,7 +46,14 @@ const createSvg = (className) => {
   svg.style.pointerEvents = 'none';
   const group = document.createElementNS(SVG_NS, 'g');
   svg.append(group);
-  return { svg, group };
+  return { svg, group, signature: '' };
+};
+
+const replaceLayerChildren = (layer, signature, ...children) => {
+  if (layer.signature === signature) return false;
+  layer.group.replaceChildren(...children);
+  layer.signature = signature;
+  return true;
 };
 
 const tokenWidth = (token) => LINE_TOPOLOGY.tokens[token]?.width ?? 1;
@@ -65,6 +72,35 @@ const relativeRect = (element, rootRect) => {
     right: rect.right - rootRect.left,
     top: rect.top - rootRect.top,
     bottom: rect.bottom - rootRect.top,
+    width: rect.width,
+    height: rect.height,
+  };
+};
+
+const relativeStructuralRect = (element, rootRect) => {
+  const rect = element.getBoundingClientRect();
+  const transform = getComputedStyle(element).transform;
+  let translateX = 0;
+  let translateY = 0;
+
+  if (transform && transform !== 'none') {
+    const matrix = new DOMMatrixReadOnly(transform);
+    const translationOnly = matrix.is2D
+      && Math.abs(matrix.a - 1) < 0.0001
+      && Math.abs(matrix.b) < 0.0001
+      && Math.abs(matrix.c) < 0.0001
+      && Math.abs(matrix.d - 1) < 0.0001;
+    if (translationOnly) {
+      translateX = matrix.e;
+      translateY = matrix.f;
+    }
+  }
+
+  return {
+    left: rect.left - translateX - rootRect.left,
+    right: rect.right - translateX - rootRect.left,
+    top: rect.top - translateY - rootRect.top,
+    bottom: rect.bottom - translateY - rootRect.top,
     width: rect.width,
     height: rect.height,
   };
@@ -90,8 +126,11 @@ const linePath = ({ id, x1, y1, x2, y2, token = 'divider', width, direction, sta
   path.dataset.lineEnd = end || coordinateKey(ex, ey);
   path.classList.add('line-system-path', `line-token-${token}`);
   if (layoutRule && path.dataset.lineDirection === 'left-to-right') {
+    const revealLength = Math.hypot(ex - sx, ey - sy);
     path.dataset.lineLayoutRule = 'true';
     path.classList.add('line-system-layout-rule');
+    path.style.setProperty('--line-reveal-length', String(revealLength));
+    path.style.setProperty('--line-reveal-offset', String(revealLength));
   }
   path.style.strokeWidth = String(strokeWidth);
   return { path, x1: sx, y1: sy, x2: ex, y2: ey };
@@ -131,6 +170,7 @@ export const initLineSystem = () => {
 
   const documentLayer = createSvg('line-system-document');
   shell.prepend(documentLayer.svg);
+  let documentRenderGroup = documentLayer.group;
 
   const viewportLayer = createSvg('line-system-viewport');
   document.body.append(viewportLayer.svg);
@@ -142,7 +182,7 @@ export const initLineSystem = () => {
   let renderFrame = 0;
   let focusedElement = null;
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const lineRevealDuration = 500;
+  const lineRevealDuration = 485;
   const lineRevealStates = new Map();
   const lineRevealAnchors = new Map();
 
@@ -151,14 +191,17 @@ export const initLineSystem = () => {
 
   const applyLineRevealState = (path) => {
     const state = lineRevealStates.get(path.dataset.lineId);
+    const revealLength = Number.parseFloat(path.style.getPropertyValue('--line-reveal-length')) || 0;
     if (reduceMotion || state?.completed) {
       path.style.transition = 'none';
-      path.style.setProperty('--line-reveal-progress', '1');
+      path.style.setProperty('--line-reveal-offset', '0');
+      path.style.willChange = 'auto';
       return;
     }
     if (!state?.startedAt) {
       path.style.transition = 'none';
-      path.style.setProperty('--line-reveal-progress', '0');
+      path.style.setProperty('--line-reveal-offset', String(revealLength));
+      path.style.willChange = 'auto';
       return;
     }
 
@@ -166,11 +209,12 @@ export const initLineSystem = () => {
     const progress = Math.min(1, elapsed / lineRevealDuration);
     const remaining = Math.max(0, lineRevealDuration - elapsed);
     path.style.transition = 'none';
-    path.style.setProperty('--line-reveal-progress', String(progress));
+    path.style.setProperty('--line-reveal-offset', String(revealLength * (1 - progress)));
+    path.style.willChange = 'stroke-dashoffset';
     path.getBoundingClientRect();
     requestAnimationFrame(() => {
-      path.style.transition = `transform ${remaining}ms ease`;
-      path.style.setProperty('--line-reveal-progress', '1');
+      path.style.transition = `stroke-dashoffset ${remaining}ms cubic-bezier(0, 0, 0.3, 1)`;
+      path.style.setProperty('--line-reveal-offset', '0');
     });
   };
 
@@ -302,12 +346,12 @@ export const initLineSystem = () => {
 
     columns.slice(1).forEach((x, columnIndex) => {
       const rowBreaks = rows.filter((y) => y > groupRect.top + 0.5 && y < groupRect.bottom - 0.5);
-      drawVerticalNetwork(documentLayer.group, `group.${groupIndex}.column.${columnIndex + 1}`, x, [groupRect.top, ...rowBreaks, groupRect.bottom], token);
+      drawVerticalNetwork(documentRenderGroup, `group.${groupIndex}.column.${columnIndex + 1}`, x, [groupRect.top, ...rowBreaks, groupRect.bottom], token);
     });
 
     childRects.forEach((rect, childIndex) => {
       if (rect.top <= groupRect.top + 0.5) return;
-      drawHorizontal(documentLayer.group, `group.${groupIndex}.row.${childIndex + 1}`, rect.left, rect.right, rect.top, token, true, true);
+      drawHorizontal(documentRenderGroup, `group.${groupIndex}.row.${childIndex + 1}`, rect.left, rect.right, rect.top, token, true, true);
     });
   };
 
@@ -321,11 +365,11 @@ export const initLineSystem = () => {
         const rect = relativeRect(contribution, rootRect);
         const id = `platform.${hostIndex + 1}.connector.${index + 1}`;
         if (rect.left >= coreRect.right - 1) {
-          drawHorizontal(documentLayer.group, id, coreRect.right, rect.left, rect.top + rect.height / 2, 'platform-core', true, true, false);
+          drawHorizontal(documentRenderGroup, id, coreRect.right, rect.left, rect.top + rect.height / 2, 'platform-core', true, true, false);
           return;
         }
         const x = rect.left + rect.width / 2;
-        registerSegment(documentLayer.group, {
+        registerSegment(documentRenderGroup, {
           id,
           x1: x,
           y1: Math.max(coreRect.bottom, rect.top - 12),
@@ -354,13 +398,13 @@ export const initLineSystem = () => {
     if (grid.dataset.homeLayout === 'small') {
       const rowRects = slots.slice(1).map((slot) => relativeRect(slot, rootRect));
       const railLevels = uniqueSorted([...horizontalLevels, ...rowRects.map((rect) => rect.top)]);
-      drawVerticalNetwork(documentLayer.group, 'home.rail.left', headerRect.left, railLevels, 'home');
-      drawVerticalNetwork(documentLayer.group, 'home.rail.right', headerRect.right, railLevels, 'home');
-      drawHorizontal(documentLayer.group, 'home.header.bottom', headerRect.left, headerRect.right, headerRect.bottom, 'home');
-      drawHorizontal(documentLayer.group, 'home.hero.bottom', heroRect.left, heroRect.right, heroRect.bottom, 'home');
-      drawHorizontal(documentLayer.group, 'home.footer.top', footerRect.left, footerRect.right, footerRect.top, 'home');
+      drawVerticalNetwork(documentRenderGroup, 'home.rail.left', headerRect.left, railLevels, 'home');
+      drawVerticalNetwork(documentRenderGroup, 'home.rail.right', headerRect.right, railLevels, 'home');
+      drawHorizontal(documentRenderGroup, 'home.header.bottom', headerRect.left, headerRect.right, headerRect.bottom, 'home');
+      drawHorizontal(documentRenderGroup, 'home.hero.bottom', heroRect.left, heroRect.right, heroRect.bottom, 'home');
+      drawHorizontal(documentRenderGroup, 'home.footer.top', footerRect.left, footerRect.right, footerRect.top, 'home');
       rowRects.forEach((rect, index) => {
-        drawHorizontal(documentLayer.group, `home.grid.row.${index + 2}`, gridRect.left, gridRect.right, rect.top, 'home');
+        drawHorizontal(documentRenderGroup, `home.grid.row.${index + 2}`, gridRect.left, gridRect.right, rect.top, 'home');
       });
       return;
     }
@@ -373,18 +417,18 @@ export const initLineSystem = () => {
       .map((slot) => ({ order: Number(slot.dataset.homeOrder), rect: relativeRect(slot, rootRect) }));
     const railLevels = uniqueSorted([...horizontalLevels, ...seamRects.map(({ rect }) => rect.top)]);
     const centerBreaks = uniqueSorted([gridRect.top, ...seamRects.map(({ rect }) => rect.top), gridRect.bottom]);
-    drawVerticalNetwork(documentLayer.group, 'home.rail.left', headerRect.left, railLevels, 'home');
-    drawVerticalNetwork(documentLayer.group, 'home.rail.right', headerRect.right, railLevels, 'home');
-    drawHorizontal(documentLayer.group, 'home.header.bottom', headerRect.left, headerRect.right, headerRect.bottom, 'home');
-    drawHorizontal(documentLayer.group, 'home.hero.bottom.left', heroRect.left, center, heroRect.bottom, 'home');
-    drawHorizontal(documentLayer.group, 'home.hero.bottom.right', center, heroRect.right, heroRect.bottom, 'home');
-    drawHorizontal(documentLayer.group, 'home.footer.top.left', footerRect.left, center, footerRect.top, 'home');
-    drawHorizontal(documentLayer.group, 'home.footer.top.right', center, footerRect.right, footerRect.top, 'home');
-    drawVerticalNetwork(documentLayer.group, 'home.grid.center', center, centerBreaks, 'home');
+    drawVerticalNetwork(documentRenderGroup, 'home.rail.left', headerRect.left, railLevels, 'home');
+    drawVerticalNetwork(documentRenderGroup, 'home.rail.right', headerRect.right, railLevels, 'home');
+    drawHorizontal(documentRenderGroup, 'home.header.bottom', headerRect.left, headerRect.right, headerRect.bottom, 'home');
+    drawHorizontal(documentRenderGroup, 'home.hero.bottom.left', heroRect.left, center, heroRect.bottom, 'home');
+    drawHorizontal(documentRenderGroup, 'home.hero.bottom.right', center, heroRect.right, heroRect.bottom, 'home');
+    drawHorizontal(documentRenderGroup, 'home.footer.top.left', footerRect.left, center, footerRect.top, 'home');
+    drawHorizontal(documentRenderGroup, 'home.footer.top.right', center, footerRect.right, footerRect.top, 'home');
+    drawVerticalNetwork(documentRenderGroup, 'home.grid.center', center, centerBreaks, 'home');
     seamRects.forEach(({ order, rect }) => {
       const left = order === 4 ? gridRect.left : center;
       const right = order === 4 ? center : gridRect.right;
-      drawHorizontal(documentLayer.group, `home.grid.row.${order}`, left, right, rect.top, 'home');
+      drawHorizontal(documentRenderGroup, `home.grid.row.${order}`, left, right, rect.top, 'home');
     });
   };
 
@@ -405,26 +449,30 @@ export const initLineSystem = () => {
       caseStudy.querySelector(':scope > .case-navigation'),
     ].filter(Boolean);
     boundaryElements.forEach((element) => {
-      const rect = relativeRect(element, rootRect);
+      const rect = relativeStructuralRect(element, rootRect);
       const isBodyBoundary = element.parentElement?.classList.contains('case-body');
       horizontal.push(isBodyBoundary ? rect.top : rect.bottom);
     });
     const levels = uniqueSorted([caseRect.top, ...horizontal, footerRect.bottom]);
-    drawVerticalNetwork(documentLayer.group, 'case.rail.left', caseRect.left, levels, 'divider');
-    drawVerticalNetwork(documentLayer.group, 'case.rail.right', caseRect.right, levels, 'divider');
+    drawVerticalNetwork(documentRenderGroup, 'case.rail.left', caseRect.left, levels, 'divider');
+    drawVerticalNetwork(documentRenderGroup, 'case.rail.right', caseRect.right, levels, 'divider');
     uniqueSorted(horizontal).forEach((y, index) => {
-      drawHorizontal(documentLayer.group, `case.boundary.${index + 1}`, caseRect.left, caseRect.right, y, 'divider');
+      drawHorizontal(documentRenderGroup, `case.boundary.${index + 1}`, caseRect.left, caseRect.right, y, 'divider');
     });
 
     const headerLayer = ensureLocalLayer(header, 'header');
-    headerLayer.group.replaceChildren();
     const width = header.clientWidth;
     const height = header.clientHeight;
-    headerLayer.group.append(
-      linePath({ id: 'case.header.left', x1: 0, y1: 0, x2: 0, y2: height, token: 'divider', direction: 'top-to-bottom', layoutRule: true }).path,
-      linePath({ id: 'case.header.right', x1: width, y1: 0, x2: width, y2: height, token: 'divider', direction: 'top-to-bottom', layoutRule: true }).path,
-      linePath({ id: 'case.header.bottom', x1: 0, y1: height, x2: width, y2: height, token: 'divider', direction: 'left-to-right', layoutRule: true }).path,
-    );
+    const headerSignature = `${width}:${height}`;
+    if (headerLayer.signature !== headerSignature) {
+      replaceLayerChildren(
+        headerLayer,
+        headerSignature,
+        linePath({ id: 'case.header.left', x1: 0, y1: 0, x2: 0, y2: height, token: 'divider', direction: 'top-to-bottom', layoutRule: true }).path,
+        linePath({ id: 'case.header.right', x1: width, y1: 0, x2: width, y2: height, token: 'divider', direction: 'top-to-bottom', layoutRule: true }).path,
+        linePath({ id: 'case.header.bottom', x1: 0, y1: height, x2: width, y2: height, token: 'divider', direction: 'left-to-right', layoutRule: true }).path,
+      );
+    }
     headerLayer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
 
     const seamNodes = [...new Set(LINE_TOPOLOGY.seamGroups.flatMap((selector) => (
@@ -443,14 +491,17 @@ export const initLineSystem = () => {
         const height = element.clientHeight;
         const radius = parseFloat(styles.borderRadius || '0');
         layer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-        layer.group.replaceChildren(rectPath({
-          id: `${spec.id}.${index + 1}`,
-          width,
-          height,
-          radius,
-          token: spec.token,
-          direction: spec.direction,
-        }));
+        const signature = `${spec.id}:${index + 1}:${width}:${height}:${radius}:${spec.token}:${spec.direction}`;
+        if (layer.signature !== signature) {
+          replaceLayerChildren(layer, signature, rectPath({
+            id: `${spec.id}.${index + 1}`,
+            width,
+            height,
+            radius,
+            token: spec.token,
+            direction: spec.direction,
+          }));
+        }
       });
     });
 
@@ -460,18 +511,20 @@ export const initLineSystem = () => {
         const width = element.clientWidth;
         const height = element.clientHeight;
         layer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-        layer.group.replaceChildren();
-        const rendered = linePath({
-          id: `${spec.id}.${index + 1}`,
-          x1: 0,
-          y1: height,
-          x2: width,
-          y2: height,
-          token: spec.token,
-          direction: spec.direction,
-        });
-        rendered.path.classList.add('line-system-underline-path');
-        layer.group.append(rendered.path);
+        const signature = `${spec.id}:${index + 1}:${width}:${height}:${spec.token}:${spec.direction}`;
+        if (layer.signature !== signature) {
+          const rendered = linePath({
+            id: `${spec.id}.${index + 1}`,
+            x1: 0,
+            y1: height,
+            x2: width,
+            y2: height,
+            token: spec.token,
+            direction: spec.direction,
+          });
+          rendered.path.classList.add('line-system-underline-path');
+          replaceLayerChildren(layer, signature, rendered.path);
+        }
       });
     });
 
@@ -504,7 +557,8 @@ export const initLineSystem = () => {
       numeral.classList.add('problem-marker-number');
       numeral.textContent = String(number);
       layer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-      layer.group.replaceChildren(circle, numeral);
+      const signature = `${width}:${height}:${number}`;
+      if (!replaceLayerChildren(layer, signature, circle, numeral)) return;
       requestAnimationFrame(() => {
         const bounds = numeral.getBBox();
         const offsetX = centerX - (bounds.x + bounds.width / 2);
@@ -519,10 +573,15 @@ export const initLineSystem = () => {
     const width = window.innerWidth;
     const height = window.innerHeight;
     viewportLayer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-    viewportLayer.group.replaceChildren();
-    if (!(focusedElement instanceof HTMLElement) || !focusedElement.matches(':focus-visible')) return;
+    if (!(focusedElement instanceof HTMLElement) || !focusedElement.matches(':focus-visible')) {
+      replaceLayerChildren(viewportLayer, 'none');
+      return;
+    }
     const rect = focusedElement.getBoundingClientRect();
-    if (rect.bottom < 0 || rect.top > height || rect.right < 0 || rect.left > width) return;
+    if (rect.bottom < 0 || rect.top > height || rect.right < 0 || rect.left > width) {
+      replaceLayerChildren(viewportLayer, 'none');
+      return;
+    }
     const styles = getComputedStyle(focusedElement);
     const offset = parseFloat(styles.getPropertyValue('--line-focus-offset') || '5');
     const radius = parseFloat(styles.borderRadius || '0') + offset;
@@ -539,7 +598,11 @@ export const initLineSystem = () => {
     focusRect.dataset.lineDirection = 'clockwise';
     focusRect.classList.add('line-system-path', 'line-token-accent');
     focusRect.style.strokeWidth = '2';
-    viewportLayer.group.append(focusRect);
+    replaceLayerChildren(
+      viewportLayer,
+      `${rect.left}:${rect.top}:${rect.width}:${rect.height}:${offset}:${radius}`,
+      focusRect,
+    );
   };
 
   const render = () => {
@@ -547,15 +610,13 @@ export const initLineSystem = () => {
     renderedKeys.clear();
     duplicateSegments.length = 0;
     runtimeSegments.length = 0;
-    documentLayer.group.replaceChildren();
+    documentRenderGroup = document.createElementNS(SVG_NS, 'g');
     const rootRect = shell.getBoundingClientRect();
     const width = shell.clientWidth;
     const contentHeight = [...shell.children]
       .filter((element) => !element.classList.contains('line-system-layer'))
       .reduce((maximum, element) => Math.max(maximum, element.getBoundingClientRect().bottom - rootRect.top), 0);
     const height = Math.max(shell.clientHeight, contentHeight);
-    documentLayer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-    documentLayer.svg.style.height = `${height}px`;
     if (document.documentElement.dataset.homeSystem === 'true') renderHomeTopology(rootRect);
     if (document.documentElement.dataset.caseSystem === 'true') renderCaseTopology(rootRect);
     renderLocalLayers();
@@ -598,8 +659,21 @@ export const initLineSystem = () => {
         label.textContent = `${segment.id} · ${segment.direction} · ${status}`;
         debugGroup.append(label);
       });
-      documentLayer.group.append(debugGroup);
+      documentRenderGroup.append(debugGroup);
     }
+    documentLayer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    documentLayer.svg.style.height = `${height}px`;
+    const documentSignature = `${width}:${height}:${runtimeSegments.map((segment) => [
+      segment.id,
+      segment.token,
+      segment.direction,
+      segment.x1,
+      segment.y1,
+      segment.x2,
+      segment.y2,
+    ].join(':')).join('|')}:${debug ? 'debug' : 'standard'}`;
+    replaceLayerChildren(documentLayer, documentSignature, ...documentRenderGroup.children);
+    documentRenderGroup = documentLayer.group;
     window.__lineTopology = {
       version: LINE_TOPOLOGY.version,
       segments: runtimeSegments,
@@ -624,14 +698,16 @@ export const initLineSystem = () => {
 
   document.addEventListener('load', scheduleRender, true);
   document.addEventListener('loadedmetadata', scheduleRender, true);
-  document.addEventListener('mediachange', scheduleRender);
+  document.addEventListener('mediachange', (event) => {
+    if (!(event instanceof CustomEvent) || event.detail?.geometryChanged !== false) scheduleRender();
+  });
   document.addEventListener('focusin', (event) => {
     focusedElement = event.target instanceof HTMLElement ? event.target : null;
-    scheduleRender();
+    renderFocus();
   });
   document.addEventListener('focusout', () => {
     focusedElement = null;
-    scheduleRender();
+    renderFocus();
   });
   document.addEventListener('toggle', scheduleRender, true);
   window.addEventListener('resize', scheduleRender, { passive: true });

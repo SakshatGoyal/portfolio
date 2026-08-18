@@ -18,7 +18,9 @@ import Figure from '../../components/Figure.astro';
     { name: 'Piyush Bhargava', role: 'Director, Product Management.' },
     { name: 'Arvind Toor', role: 'Sr. Director, Strategy and Business Operations.' },
   ]}
-  hero="/assets/one-report/onereport-analysis-04.png"
+  hero="/assets/one-report/onereport-analysis-04.webp"
+  heroWidth={3000}
+  heroHeight={1688}
   heroViewportFit={false}
   theme="one-report"
   previousHref="/work/hbs-ai-institute/"
@@ -41,25 +43,25 @@ import Figure from '../../components/Figure.astro';
   </section>
 
   <div class="media-grid three" data-reveal>
-    <figure class="scenario-column" data-media-unit data-media-ready>
-      <button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause 5-10 minute whitespace animation">
+    <figure class="scenario-column" data-media-unit data-media-ready data-media-reveal-group>
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause 5-10 minute whitespace animation">
         <video src="/assets/one-report/video/sc-01.webm" poster="/assets/one-report/posters/sc-01.png" aria-label="5-10 minute whitespaces during the day" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
-      </button>
-      <img src="/assets/one-report/sc-01.png" alt="Reports" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor />
+      </button></div></div></div>
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-01.png" alt="Reports" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>5-10 minute whitespaces during the day → Reports</figcaption>
     </figure>
-    <figure class="scenario-column" data-media-unit data-media-ready>
-      <button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause quick-check animation">
+    <figure class="scenario-column" data-media-unit data-media-ready data-media-reveal-group>
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause quick-check animation">
         <video src="/assets/one-report/video/sc-02.webm" poster="/assets/one-report/posters/sc-02.png" aria-label="Quick checks during meetings" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
-      </button>
-      <img src="/assets/one-report/sc-02.png" alt="Numbers" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor />
+      </button></div></div></div>
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-02.png" alt="Numbers" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>Quick checks during meetings → Numbers</figcaption>
     </figure>
-    <figure class="scenario-column" data-media-unit data-media-ready>
-      <button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause exploratory deep-dive animation">
+    <figure class="scenario-column" data-media-unit data-media-ready data-media-reveal-group>
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause exploratory deep-dive animation">
         <video src="/assets/one-report/video/sc-03.webm" poster="/assets/one-report/posters/sc-03.png" aria-label="Exploratory deep dives when time allows" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
-      </button>
-      <img src="/assets/one-report/sc-03.png" alt="Analysis" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor />
+      </button></div></div></div>
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-03.png" alt="Analysis" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>Exploratory deep dives when time allows → Analysis</figcaption>
     </figure>
   </div>
@@ -73,21 +75,27 @@ import Figure from '../../components/Figure.astro';
 
   <div class="media-stack one-report-scenarios" data-reveal>
     <Figure
-      src="/assets/one-report/onereport-analysis-01.png"
+      src="/assets/one-report/onereport-analysis-01.webp"
       alt="Churn Flow with swappable columns"
       caption="Swapping a column redraws the same report through a different dimension. Here, Churn Flow shifts from Channel to Product, keeping the same surface usable to understand product/revenue and sales/distribution."
+      width={3000}
+      height={1688}
       viewportFit={false}
     />
     <Figure
-      src="/assets/one-report/onereport-analysis-02.png"
+      src="/assets/one-report/onereport-analysis-02.webp"
       alt="Analysis flow connected to reports and numbers"
       caption="Tracing a single metric across the Analysis layer, showing how it connects to Reports and Numbers views."
+      width={3000}
+      height={1688}
       viewportFit={false}
     />
     <Figure
-      src="/assets/one-report/onereport-analysis-03.png"
+      src="/assets/one-report/onereport-analysis-03.webp"
       alt="Focus and Filters on the same dataset"
       caption="Focus and Filters operating on the same dataset — Focus narrows the scope, Filters refine within it."
+      width={3000}
+      height={1688}
       viewportFit={false}
     />
   </div>
@@ -99,9 +107,11 @@ import Figure from '../../components/Figure.astro';
   </section>
 
   <Figure
-    src="/assets/one-report/onereport-report.png"
+    src="/assets/one-report/onereport-report.webp"
     alt="Report layout with progressively revealed chart detail"
     caption="Report layout inspired by elements of a digital news report, with sheets revealing chart detail."
+    width={3000}
+    height={1688}
     viewportFit={false}
   />
 
@@ -112,9 +122,11 @@ import Figure from '../../components/Figure.astro';
   </section>
 
   <Figure
-    src="/assets/one-report/onereport-insights.png"
+    src="/assets/one-report/onereport-insights.webp"
     alt="Search-based data visualization interface"
     caption="The interface infering the right visualization from the phrasing alone, escalating from a number to a comparison to a trend."
+    width={3000}
+    height={1688}
     viewportFit={false}
   />
 

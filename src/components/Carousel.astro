@@ -3,6 +3,7 @@ interface Props {
   slides: string[];
   startIndex?: number;
   aspectRatio: string;
+  slideFadeDuration?: number;
   class?: string;
 }
 
@@ -10,6 +11,7 @@ const {
   slides,
   startIndex = 0,
   aspectRatio,
+  slideFadeDuration = 438,
   class: className = '',
 } = Astro.props;
 ---
@@ -18,22 +20,30 @@ const {
   class:list={['figma-carousel', className]}
   data-carousel
   data-media-unit
+  data-media-reveal
   data-index={startIndex}
 >
-  <div class="carousel-viewport" style={`aspect-ratio: ${aspectRatio};`} data-viewport-media-frame data-preserve-media-aspect data-media-aspect={aspectRatio}>
-    <div class="carousel-stage">
-      {slides.map((slide, index) => (
-        <img
-          src={slide}
-          alt=""
-          loading="lazy"
-          data-carousel-slide
-          data-media-visual
-          data-behance-image
-          aria-hidden={index === startIndex ? 'false' : 'true'}
-          style={`opacity: ${index === startIndex ? 1 : 0};`}
-        />
-      ))}
+  <div class="media-reveal-clip" data-media-reveal-clip>
+    <div class="media-reveal-rise" data-media-reveal-rise>
+      <div class="carousel-viewport" style={`aspect-ratio: ${aspectRatio};`} data-viewport-media-frame data-preserve-media-aspect data-media-aspect={aspectRatio}>
+        <div class="carousel-stage">
+          {slides.map((slide, index) => (
+            <img
+              src={slide}
+              alt=""
+              loading="lazy"
+              data-carousel-slide
+              data-media-visual
+              data-behance-image
+              role="button"
+              tabindex={index === startIndex ? 0 : -1}
+              aria-label={`View slide ${index + 1}`}
+              aria-hidden={index === startIndex ? 'false' : 'true'}
+              style={`opacity: ${index === startIndex ? 1 : 0}; --carousel-slide-fade-duration: ${slideFadeDuration}ms;`}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   </div>
   <div class="carousel-pagination" aria-label="Carousel pagination">
@@ -61,23 +71,42 @@ const {
     const dots = Array.from(carousel.querySelectorAll<HTMLButtonElement>('[data-carousel-dot]'));
     let index = Number(carousel.dataset.index ?? '0');
     let autoAdvance: number | undefined;
+    let isVisible = false;
+    let isInteracting = false;
 
     const render = () => {
       slides.forEach((slide, slideIndex) => {
         const selected = slideIndex === index;
         slide.style.opacity = selected ? '1' : '0';
         slide.setAttribute('aria-hidden', String(!selected));
+        slide.tabIndex = selected ? 0 : -1;
       });
       dots.forEach((dot, dotIndex) => {
         if (dotIndex === index) dot.setAttribute('aria-current', 'step');
         else dot.removeAttribute('aria-current');
       });
-      carousel.dispatchEvent(new CustomEvent('mediachange', { bubbles: true }));
+      carousel.dataset.index = String(index);
+      carousel.dispatchEvent(new CustomEvent('mediachange', {
+        bubbles: true,
+        detail: { geometryChanged: false },
+      }));
+    };
+
+    const stopAutoAdvance = () => {
+      if (autoAdvance) window.clearTimeout(autoAdvance);
+      autoAdvance = undefined;
     };
 
     const startAutoAdvance = () => {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-      if (autoAdvance) window.clearTimeout(autoAdvance);
+      stopAutoAdvance();
+      if (
+        slides.length < 2
+        || !isVisible
+        || isInteracting
+        || document.hidden
+        || document.body.classList.contains('behance-viewer-open')
+        || window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      ) return;
       autoAdvance = window.setTimeout(() => {
         index = (index + 1) % slides.length;
         render();
@@ -100,23 +129,47 @@ const {
       dots[index]?.focus();
       startAutoAdvance();
     });
+    carousel.addEventListener('pointerenter', () => {
+      isInteracting = true;
+      stopAutoAdvance();
+    });
+    carousel.addEventListener('pointerleave', () => {
+      isInteracting = false;
+      startAutoAdvance();
+    });
+    carousel.addEventListener('focusin', () => {
+      isInteracting = true;
+      stopAutoAdvance();
+    });
+    carousel.addEventListener('focusout', (event) => {
+      if (event.relatedTarget instanceof Node && carousel.contains(event.relatedTarget)) return;
+      isInteracting = false;
+      startAutoAdvance();
+    });
+    const visibilityObserver = new IntersectionObserver(([entry]) => {
+      isVisible = entry.intersectionRatio >= 0.15;
+      startAutoAdvance();
+    }, { threshold: 0.15 });
+    visibilityObserver.observe(carousel);
+    document.addEventListener('visibilitychange', startAutoAdvance);
+    document.addEventListener('viewerchange', startAutoAdvance);
     render();
-    startAutoAdvance();
   });
 </script>
 
 <style>
   .figma-carousel { display: flex; flex-direction: column; gap: 0; width: 100%; margin-inline: auto; }
+  .media-reveal-rise, .media-reveal-clip { width: 100%; }
   .carousel-viewport { position: relative; width: 100%; overflow: hidden; }
   .carousel-stage { position: absolute; inset: 0; width: 100%; }
-  .carousel-stage > img { position: absolute; inset: 0 auto auto 0; display: block; width: 100%; max-width: 100%; height: auto; cursor: zoom-in; transition: opacity 50ms ease-in-out; }
+  .carousel-stage > img { position: absolute; inset: 0 auto auto 0; display: block; width: 100%; max-width: 100%; height: auto; cursor: zoom-in; transition: opacity var(--carousel-slide-fade-duration) cubic-bezier(0, 0, 0.3, 1); }
   .carousel-stage > img[aria-hidden='true'] { pointer-events: none; }
   .carousel-pagination { position: relative; z-index: 2; display: flex; align-self: flex-start; gap: 5px; width: auto; height: 24px; margin: 8px 0 12px; align-items: center; }
   .carousel-pagination button { position: relative; flex: 0 0 50px; width: 50px; height: 24px; padding: 0; border: 0; background: transparent; cursor: pointer; }
   .carousel-pagination button svg { position: absolute; top: 50%; left: 0; width: 100%; height: 3px; overflow: visible; transform: translateY(-50%); }
-  .carousel-pagination button .carousel-line-path { fill: none; stroke: var(--site-line); stroke-width: 3; transition: stroke .2s ease; vector-effect: non-scaling-stroke; }
-  .carousel-pagination button[aria-current='step'] .carousel-line-path { stroke: var(--site-line); }
-  .carousel-caption { align-self: stretch; padding: var(--caption-pad-top, 8px) 0 var(--caption-pad-bottom, 24px); color: var(--ink); font: 400 var(--caption-size, 14px)/var(--caption-leading, 1.35) 'Basically A Mono', 'Fragment Mono', monospace; }
+  .carousel-pagination button .carousel-line-path { fill: none; stroke: var(--site-line); stroke-width: 3; transition: stroke 150ms cubic-bezier(0.4, 0.14, 0.3, 1), stroke-width 150ms cubic-bezier(0.4, 0.14, 0.3, 1); vector-effect: non-scaling-stroke; }
+  .carousel-pagination button[aria-current='step'] .carousel-line-path { stroke: var(--ink); stroke-width: 5; }
+  .carousel-caption { align-self: stretch; padding: var(--caption-pad-top, 8px) 0 var(--caption-pad-bottom, 0px); color: var(--ink); font: 400 var(--caption-size, 14px)/var(--caption-leading, 1.35) 'Basically A Mono', 'Fragment Mono', monospace; }
   .carousel-caption :global(p + p) { margin-top: 24px; }
 
   @media (max-width: 767px) {

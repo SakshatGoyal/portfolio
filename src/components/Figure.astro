@@ -27,28 +27,32 @@ const {
 const sourceAlt = alt ?? caption ?? captionLines?.join(' ') ?? '';
 ---
 
-<figure class:list={['case-figure', className, { contain }]} data-media-unit data-media-ready={!viewportFit ? '' : undefined} data-caption-alignment={captionAlignment}>
-  {video ? (
-    <button class="media-frame video-frame playable-media-surface" type="button" data-playable-media data-playback-mode="exclusive" aria-label={`Pause ${sourceAlt || 'animation'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
-      <video
-        src={src}
-        poster={poster}
-        width={width}
-        height={height}
-        muted
-        loop={loop}
-        playsinline
-        preload="metadata"
-        style={poster ? `--video-poster-image: url('${poster}')` : undefined}
-        data-autoplay-on-view={autoplayOnView ? '' : undefined}
-        data-media-visual
-        aria-label={sourceAlt || 'Case study video'}
-      />
-    </button>
-  ) : (
-    <button class="media-frame" type="button" data-behance-image data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
-      <img src={src} alt={sourceAlt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} decoding="async" data-media-visual />
-    </button>
-  )}
+<figure class:list={['case-figure', className, { contain }]} data-media-unit data-media-reveal data-media-ready={!viewportFit ? '' : undefined} data-caption-alignment={captionAlignment}>
+  <div class="media-reveal-clip" data-media-reveal-clip>
+    <div class="media-reveal-rise" data-media-reveal-rise>
+      {video ? (
+        <button class="media-frame video-frame playable-media-surface" type="button" data-playable-media data-playback-mode="exclusive" aria-label={`Pause ${sourceAlt || 'animation'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
+          <video
+            src={src}
+            poster={poster}
+            width={width}
+            height={height}
+            muted
+            loop={loop}
+            playsinline
+            preload="metadata"
+            style={poster ? `--video-poster-image: url('${poster}')` : undefined}
+            data-autoplay-on-view={autoplayOnView ? '' : undefined}
+            data-media-visual
+            aria-label={sourceAlt || 'Case study video'}
+          />
+        </button>
+      ) : (
+        <button class="media-frame" type="button" data-behance-image aria-label={`View ${sourceAlt || 'portfolio image'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
+          <img src={src} alt={sourceAlt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} decoding="async" data-media-visual />
+        </button>
+      )}
+    </div>
+  </div>
   {(caption || captionLines) && <figcaption data-media-caption>{captionLines ? captionLines.map((line, index) => <Fragment>{line}{index < captionLines.length - 1 && <br />}</Fragment>) : caption}</figcaption>}
 </figure>

@@ -18,9 +18,9 @@ const projects = [
     company: 'HARVARD BUSINESS SCHOOL',
     year: '2025',
     order: 2,
-    image: '/assets/home-covers/hbs-cover.png',
-    width: 5586,
-    height: 3142,
+    image: '/assets/hbs/hbs-cover.webp',
+    width: 3000,
+    height: 1688,
     className: 'home-project-hbs',
   },
   {
@@ -39,8 +39,8 @@ const projects = [
     company: 'DOCUSIGN',
     year: '2023',
     order: 4,
-    video: '/assets/home-covers/one-report.webm',
-    poster: '/assets/home-covers/posters/one-report.png',
+    video: '/assets/home-covers/onereport-cover.webm',
+    poster: '/assets/home-covers/posters/onereport-cover.png',
     className: 'home-project-one-report',
   },
   {
@@ -71,10 +71,13 @@ const projects = [
 
 ---
 
-<BaseLayout title="Portfolio" description="Portfolio">
+<BaseLayout
+  title="Sākshāt Goyal — Product Designer"
+  description="Systems-oriented product designer working on ambiguous, organizationally complicated problems with imperfect data."
+>
   <section class="home-hero" id="about">
     <div class="home-bio">
-      <p>I lead design at Intelligaia.</p>
+      <h1>I lead design at Intelligaia.</h1>
       <p>I’m a systems-oriented product designer whose greatest value emerges when the problem is ambiguous, organizationally complicated, and full of imperfect data.</p>
       <p>Over the last 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.</p>
     </div>
@@ -84,42 +87,33 @@ const projects = [
     <div class="home-project-grid" data-home-project-grid data-home-layout="small">
       {projects.map((project, index) => (
         <div class="home-project-slot" data-home-project-slot data-home-order={project.order}>
-          <article class:list={['home-project-card', project.className]} style={`--home-order: ${project.order}`} data-home-order={project.order} data-reveal>
-            <a class="home-project-card-link" href={project.href} aria-label={`View ${project.title}`}></a>
+          <a class:list={['home-project-card', project.className]} href={project.href} aria-label={`View ${project.title}`} style={`--home-order: ${project.order}`} data-home-order={project.order} data-project-tile data-reveal>
             <div class="home-project-copy">
-              <h3 class="home-tape-label" data-home-tape-label data-tape-delay="0">{project.title}</h3>
+              <h3 class="home-tape-label" data-tape-label data-tape-delay="0">{project.title}</h3>
             </div>
             <div class="home-project-meta">
-              <span class="home-project-client home-tape-label" data-home-tape-label data-tape-delay="75">{project.company}</span>
+              <span class="home-project-client home-tape-label" data-tape-label data-tape-delay="75">{project.company}</span>
               <span class="home-project-meta-separator" aria-hidden="true">・</span>
-              <time class="home-project-year home-tape-label" data-home-tape-label data-tape-delay="150">{project.year}</time>
+              <time class="home-project-year home-tape-label" data-tape-label data-tape-delay="150">{project.year}</time>
             </div>
             {project.video ? (
-              <button class="home-project-media playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label={`Pause ${project.title}`}>
-                <span class="home-project-media-visual">
-                  <video src={project.video} poster={project.poster} style={`--video-poster-image: url('${project.poster}')`} aria-label={project.title} muted loop playsinline preload="metadata" data-autoplay-on-view></video>
+              <div class="home-project-media" data-media-reveal>
+                <span class="media-reveal-clip" data-media-reveal-clip>
+                  <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise>
+                    <video src={project.video} poster={project.poster} style={`--video-poster-image: url('${project.poster}')`} aria-label={project.title} muted loop playsinline preload="metadata" data-home-autoplay-on-view></video>
+                  </span>
                 </span>
-                <span class="home-project-hover-affordance" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" focusable="false">
-                    <path d="M5 12h14"></path>
-                    <path d="m14 7 5 5-5 5"></path>
-                  </svg>
-                </span>
-              </button>
+              </div>
             ) : (
-              <div class="home-project-media">
-                <span class="home-project-media-visual">
-                  <img src={project.image} alt={project.title} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
-                </span>
-                <span class="home-project-hover-affordance" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" focusable="false">
-                    <path d="M5 12h14"></path>
-                    <path d="m14 7 5 5-5 5"></path>
-                  </svg>
+              <div class="home-project-media" data-media-reveal>
+                <span class="media-reveal-clip" data-media-reveal-clip>
+                  <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise>
+                    <img src={project.image} alt={project.title} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+                  </span>
                 </span>
               </div>
             )}
-          </article>
+          </a>
         </div>
       ))}
     </div>
@@ -135,69 +129,6 @@ const projects = [
       );
       let projectLayoutFrame = 0;
       let observedGridWidth = 0;
-      const tapeSources = new WeakMap();
-      const tapeLabels = [...projectGrid.querySelectorAll('[data-home-tape-label]')];
-
-      tapeLabels.forEach((label) => tapeSources.set(label, label.textContent?.trim() || ''));
-
-      const renderTapeLabel = (label) => {
-        const source = tapeSources.get(label) || '';
-        const words = source.split(/\s+/).filter(Boolean);
-        if (!words.length) return;
-        const probe = document.createElement('span');
-        probe.className = 'home-tape-probe';
-        words.forEach((word, index) => {
-          if (index) probe.append(document.createTextNode(' '));
-          const wordElement = document.createElement('span');
-          wordElement.className = 'home-tape-probe-word';
-          wordElement.textContent = word;
-          probe.append(wordElement);
-        });
-        label.replaceChildren(probe);
-
-        const lines = [];
-        probe.querySelectorAll('.home-tape-probe-word').forEach((word) => {
-          const top = Math.round(word.getBoundingClientRect().top * 10) / 10;
-          const current = lines.at(-1);
-          if (!current || Math.abs(current.top - top) > 1) lines.push({ top, words: [word.textContent] });
-          else current.words.push(word.textContent);
-        });
-
-        const accessible = document.createElement('span');
-        accessible.className = 'home-tape-accessible';
-        accessible.textContent = source;
-        const visual = document.createElement('span');
-        visual.className = 'home-tape-visual';
-        visual.setAttribute('aria-hidden', 'true');
-        lines.forEach((line) => {
-          const lineElement = document.createElement('span');
-          lineElement.className = 'home-tape-line';
-          lineElement.style.setProperty('--tape-delay', `${label.dataset.tapeDelay || 0}ms`);
-          const tape = document.createElement('i');
-          tape.setAttribute('aria-hidden', 'true');
-          const text = document.createElement('span');
-          text.textContent = line.words.join(' ');
-          lineElement.append(tape, text);
-          visual.append(lineElement);
-        });
-        label.replaceChildren(accessible, visual);
-
-        visual.querySelectorAll('.home-tape-line').forEach((line) => {
-          const text = line.querySelector('span');
-          const textWidth = text.getBoundingClientRect().width;
-          const computedLineHeight = Number.parseFloat(getComputedStyle(label).lineHeight);
-          const lineHeight = Number.isFinite(computedLineHeight)
-            ? computedLineHeight
-            : line.getBoundingClientRect().height;
-          const overhang = Math.round(lineHeight * .21);
-          line.style.setProperty('--tape-overhang', `${overhang}px`);
-          line.style.setProperty('--tape-line-height', `${lineHeight}px`);
-          line.style.setProperty('--tape-width', `${Math.ceil(textWidth) + overhang * 2}px`);
-        });
-      };
-
-      const renderTapeLabels = () => tapeLabels.forEach(renderTapeLabel);
-
       const cssPixels = (value) => `${Math.round(value * 1000) / 1000}px`;
       const setGeometry = (order, left, top, width) => {
         const slot = projectSlots[order];
@@ -269,20 +200,8 @@ const projects = [
       projectGrid.addEventListener('load', queueProjectLayout, true);
       projectGrid.addEventListener('loadedmetadata', queueProjectLayout, true);
       document.fonts?.ready.then(queueProjectLayout);
-      document.fonts?.ready.then(() => {
-        renderTapeLabels();
-        queueProjectLayout();
-      });
-      let tapeResizeTimer;
-      window.addEventListener('resize', () => {
-        window.clearTimeout(tapeResizeTimer);
-        tapeResizeTimer = window.setTimeout(() => {
-          renderTapeLabels();
-          queueProjectLayout();
-        }, 120);
-      }, { passive: true });
+      projectGrid.addEventListener('tapelayout', queueProjectLayout);
       window.addEventListener('resize', queueProjectLayout, { passive: true });
-      renderTapeLabels();
       layoutProjects();
     }
   </script>

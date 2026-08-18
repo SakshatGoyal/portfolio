@@ -20,9 +20,10 @@ import Carousel from '../../components/Carousel.astro';
     { name: 'Jean-Luc Jackson', role: 'Sr. Data Scientist | Advisor for project' },
     { name: 'Rem Koning', role: 'Assistant Professor | Advisor for project' },
   ]}
-  hero="/assets/hbs/hbs-cover.png"
-  heroWidth={5586}
-  heroHeight={3142}
+  teamNote="The HBS AI Institute engaged us to lead the research and design work, with the four team members below serving as project advisors."
+  hero="/assets/hbs/hbs-cover.webp"
+  heroWidth={3000}
+  heroHeight={1688}
   theme="hbs"
   previousHref="/work/panw-ai/"
   nextHref="/work/one-report/"
@@ -46,6 +47,8 @@ import Carousel from '../../components/Carousel.astro';
     alt="Illustration of feeling untethered"
     caption="Feeling untethered without a well-defined audience, industry, or problem space. [AI-generated]"
     class="hbs-untethered"
+    width={1448}
+    height={1086}
   />
 
   <section class="case-section reading-column branched-layout" data-reveal>
@@ -63,11 +66,11 @@ import Carousel from '../../components/Carousel.astro';
     <p>To handle research at scale, I built an AI-assisted research architecture that broke 237 papers into 992 traceable modules, translated qualitative observations into comparable measures, and preserved the evidence behind each synthesis.</p>
   </section>
 
-  <div class="research-architecture" data-synchronized-media-group data-reveal>
-    <img src="/assets/hbs/imgImage2.png" alt="Data collection" width="2627" height="765" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media />
-    <img src="/assets/hbs/imgImage3.png" alt="Extraction" width="2627" height="1585" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media />
-    <img src="/assets/hbs/imgImage4.png" alt="Classification" width="2627" height="1477" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media />
-    <img src="/assets/hbs/imgImage5.png" alt="Inquiry routing" width="2627" height="2213" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media data-media-width-anchor />
+  <div class="research-architecture" data-synchronized-media-group data-media-reveal-group data-reveal>
+    <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/hbs/imgImage2.png" alt="Data collection" width="2627" height="765" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media /></div></div></div>
+    <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/hbs/imgImage3.png" alt="Extraction" width="2627" height="1585" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media /></div></div></div>
+    <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/hbs/imgImage4.png" alt="Classification" width="2627" height="1477" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media /></div></div></div>
+    <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/hbs/imgImage5.png" alt="Inquiry routing" width="2627" height="2213" loading="lazy" data-behance-image tabindex="0" role="button" data-synchronized-media data-media-width-anchor /></div></div></div>
   </div>
 
   <section class="case-section reading-column" data-reveal>
@@ -77,8 +80,8 @@ import Carousel from '../../components/Carousel.astro';
   </section>
 
   <div class="media-stack" data-reveal>
-    <Figure src="/assets/hbs/imgImage69.png" alt="Model strengths and weaknesses mapping" caption="Mapping current models’ strengths and weaknesses against our target performance." />
-    <Figure src="/assets/hbs/imgImage71.png" alt="Consistency and interpretive depth model comparison" caption="Models were compared by consistency and interpretive depth to identify the strongest balance between reliable output and meaningful interpretation." />
+    <Figure src="/assets/hbs/imgImage69.png" alt="Model strengths and weaknesses mapping" caption="Mapping current models’ strengths and weaknesses against our target performance." width={4096} height={2710} />
+    <Figure src="/assets/hbs/imgImage71.png" alt="Consistency and interpretive depth model comparison" caption="Models were compared by consistency and interpretive depth to identify the strongest balance between reliable output and meaningful interpretation." width={4096} height={2305} />
   </div>
 
   <section class="case-section reading-column" data-reveal>
@@ -89,19 +92,20 @@ import Carousel from '../../components/Carousel.astro';
     <p>This approach ensured that each collection was mutually exclusive and collectively exhaustive, allowing every module to be mapped without exception.</p>
   </section>
 
-  <Figure src="/assets/hbs/imgPanwImage012.png" alt="Situational tags applied to research modules" caption="Tagging each module based on the situations influencing the activity." />
+  <Figure src="/assets/hbs/imgPanwImage012.png" alt="Situational tags applied to research modules" caption="Tagging each module based on the situations influencing the activity." width={2875} height={1768} />
 
   <section class="case-section reading-column" data-reveal>
     <p>With clusters finally manageable, I used contrastive typology: scoring evidence along bipolar situational dimensions and comparing their polar intersections to identify distinct operating contexts.</p>
     <p>Although the dimensions produced several plausible permutations, collaborative working sessions helped us eliminate factors that did not generate meaningful distinctions, felt insufficiently relevant to the team’s objectives, or were unlikely to support useful product decisions.</p>
   </section>
 
-  <Figure src="/assets/hbs/imgImage32.png" alt="Four situational axes" caption="Four situational axes created a common language for comparing otherwise unrelated forms of strategic work." />
+  <Figure src="/assets/hbs/imgImage32.png" alt="Four situational axes" caption="Four situational axes created a common language for comparing otherwise unrelated forms of strategic work." width={2048} height={1516} />
 
   <Carousel
     slides={['/assets/hbs/imgImage79.png', '/assets/hbs/imgImage80.png', '/assets/hbs/imgImage81.png', '/assets/hbs/imgImage82.png']}
     startIndex={1}
     aspectRatio="680 / 388"
+    slideFadeDuration={1206}
     data-reveal
   >
     <p>I used the matrix to show HBS four ways to narrow the opportunity for further discovery—by recurring problem, operating context, a combination of both, or one focused starting point.</p>
@@ -117,6 +121,7 @@ import Carousel from '../../components/Carousel.astro';
     slides={['/assets/hbs/imgImage78.png', '/assets/hbs/imgImage72.png', '/assets/hbs/imgImage73.png', '/assets/hbs/imgImage74.png', '/assets/hbs/imgImage75.png', '/assets/hbs/imgImage76.png', '/assets/hbs/imgImage77.png']}
     startIndex={1}
     aspectRatio="680 / 385"
+    slideFadeDuration={1199}
     data-reveal
   >
     <p>Design principles often sound good but aren’t actually useful. When they become truisms like “AI should be trustworthy,” “prioritize the user,” or “support human judgment,” they’re easy to agree with but hard to use in real design work.</p>
@@ -137,7 +142,7 @@ import Carousel from '../../components/Carousel.astro';
     </ol>
   </section>
 
-  <Figure src="/assets/hbs/imgImage68.png" alt="Research architecture reused across HBS" caption="Research architecture repurposed for additional qualitative analysis across the org." />
+  <Figure src="/assets/hbs/imgImage68.png" alt="Research architecture reused across HBS" caption="Research architecture repurposed for additional qualitative analysis across the org." width={3840} height={2160} />
 
   <section class="case-section reading-column" data-reveal>
     <h2>Lessons</h2>

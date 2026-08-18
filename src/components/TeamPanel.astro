@@ -7,9 +7,10 @@ interface TeamMember {
 interface Props {
   id: string;
   members: TeamMember[];
+  note?: string;
 }
 
-const { id, members } = Astro.props;
+const { id, members, note } = Astro.props;
 const teamHeadingId = `${id}-team-heading`;
 ---
 
@@ -31,6 +32,7 @@ const teamHeadingId = `${id}-team-heading`;
 
   <section class="team-panel__team" aria-labelledby={teamHeadingId}>
     <h2 id={teamHeadingId}>The team</h2>
+    {note && <p class="team-panel__note">{note}</p>}
     {members.length > 0 ? (
       <ul>
         {members.map((member) => (

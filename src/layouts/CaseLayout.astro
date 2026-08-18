@@ -17,6 +17,7 @@ interface Props {
   role: string;
   teamLabel: string;
   teamMembers?: TeamMember[];
+  teamNote?: string;
   hero: string;
   heroVideo?: boolean;
   heroWidth?: number;
@@ -37,7 +38,7 @@ const {
   heroWidth = 1920, heroHeight = 1080, heroCaption, heroPoster,
   heroAutoplayOnView = heroVideo, heroLoop = heroVideo, heroViewportFit = true,
   theme = 'neutral', previousHref, nextHref, introSpacing = 'standard',
-  teamMembers = [],
+  teamMembers = [], teamNote,
 } = Astro.props;
 const hasTeamPanel = Boolean(teamLabel);
 const teamPanelId = `team-panel-${theme}`;
@@ -84,7 +85,7 @@ const teamPanelId = `team-panel-${theme}`;
     </dl>
 
     {hasTeamPanel && (
-      <TeamPanel id={teamPanelId} members={teamMembers} />
+      <TeamPanel id={teamPanelId} members={teamMembers} note={teamNote} />
     )}
 
     <div class="case-body">
