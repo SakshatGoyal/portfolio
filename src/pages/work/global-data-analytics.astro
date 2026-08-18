@@ -1,10 +1,11 @@
 ---
 import CaseLayout from '../../layouts/CaseLayout.astro';
 import Figure from '../../components/Figure.astro';
+import { GLOBAL_DATA_ANALYTICS_TITLE } from '../../data/project-titles.js';
 ---
 
 <CaseLayout
-  headline="Turning exploratory research to internal tools"
+  headline={GLOBAL_DATA_ANALYTICS_TITLE}
   intro={[
     'After 6 months of delivering reporting tools, I initiated an exploratory research track with the Director of Product Management to understand how our existing data in tableau and salesforce are used. The research led to the design and build of two internal tools:',
   ]}

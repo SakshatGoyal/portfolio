@@ -214,7 +214,7 @@ const initTapeLabels = () => {
     ['Selected Work', 137], ['Gallery', 129], ['About', 128], ['Team', 126],
     ['Designing AI experiences for deep analysis', 172], ['and traceability.', 141], ['PALO ALTO NETWORKS', 139], ['2025–26', 129],
     ['Creating an AI driven research architecture', 173], ['for reliability and novel exploration.', 163], ['HARVARD BUSINESS SCHOOL', 144], ['2025', 126],
-    ['Turning exploratory research to internal', 169], ['tools', 128], ['DOCUSIGN', 130], ['2023–24', 129],
+    ['Turning exploratory research to internal', 169], ['tools.', 128], ['DOCUSIGN', 130], ['2023–24', 129],
     ['Designing a data product around an', 164], ['executive’s inquisitive moments.', 159], ['2023', 126],
     ['Designing a B2B buying experience for', 167], ["Hitachi's Sales Partners", 150], ['HITACHI ENERGY', 135], ['2022', 126],
     ['Designing Customer Insights and extending it', 175], ['with Upsell Opportunities.', 152], ['CISCO', 127], ['2020–21', 128],
