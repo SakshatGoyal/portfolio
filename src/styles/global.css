@@ -1907,7 +1907,9 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 .custom-site-cursor.is-media:not(.is-paused) .cursor-pause,
 .custom-site-cursor.is-media.is-paused .cursor-play {
   opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
+  /* The 56px cursor shell is scaled to 24px in media mode. Counter-scale the
+   * glyph so its rendered size remains the established 10px. */
+  transform: translate(-50%, -50%) scale(2.333333);
 }
 .custom-site-cursor.is-project .cursor-project-arrow {
   width: 24px;
