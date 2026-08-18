@@ -209,14 +209,15 @@ const initBodyReveals = (reduceMotion) => {
 };
 
 const initTapeLabels = () => {
+  // Fixed nearest-ms Carbon Expressive Move values from the 1536px layout.
   const tapeMotionDurations = new Map([
-    ['Selected Work', 137], ['Gallery', 129], ['About', 128],
-    ['Designing AI experiences for deep analysis and traceability.', 193], ['PALO ALTO NETWORKS', 139], ['2025–26', 129],
-    ['Creating an AI driven research architecture for reliability', 190], ['and novel exploration.', 148], ['HARVARD BUSINESS SCHOOL', 144], ['2025', 126],
-    ['Turning exploratory research to internal tools', 176], ['DOCUSIGN', 130], ['2023–24', 129],
-    ['Designing a data product around an executive’s inquisitive', 191], ['moments.', 134], ['2023', 126],
-    ["Designing a B2B buying experience for Hitachi's Sales", 186], ['Partners', 132], ['HITACHI ENERGY', 135], ['2022', 126],
-    ['Designing Customer Insights and extending it with Upsell', 189], ['Opportunities.', 139], ['CISCO', 127], ['2020–21', 128],
+    ['Selected Work', 137], ['Gallery', 129], ['About', 128], ['Team', 126],
+    ['Designing AI experiences for deep analysis', 172], ['and traceability.', 141], ['PALO ALTO NETWORKS', 139], ['2025–26', 129],
+    ['Creating an AI driven research architecture', 173], ['for reliability and novel exploration.', 163], ['HARVARD BUSINESS SCHOOL', 144], ['2025', 126],
+    ['Turning exploratory research to internal', 169], ['tools', 128], ['DOCUSIGN', 130], ['2023–24', 129],
+    ['Designing a data product around an', 164], ['executive’s inquisitive moments.', 159], ['2023', 126],
+    ['Designing a B2B buying experience for', 167], ["Hitachi's Sales Partners", 150], ['HITACHI ENERGY', 135], ['2022', 126],
+    ['Designing Customer Insights and extending it', 175], ['with Upsell Opportunities.', 152], ['CISCO', 127], ['2020–21', 128],
   ]);
   const labels = [...document.querySelectorAll('[data-tape-label]')];
   if (!labels.length) return;

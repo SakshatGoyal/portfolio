@@ -19,7 +19,6 @@ export const LINE_TOPOLOGY = Object.freeze({
     { id: 'next-case-outline', selector: '.next-case', token: 'outline', direction: 'clockwise' },
   ]),
   underlines: Object.freeze([
-    { id: 'team-underline', selector: '.team-label', token: 'current', direction: 'left-to-right' },
     { id: 'section-label-rule', selector: '.section-label', token: 'outline', direction: 'left-to-right' },
     { id: 'home-close-underline', selector: '.home-close a', token: 'current', direction: 'left-to-right' },
     { id: 'neutral-nav-underline', selector: '.site-header:not(.home-site-header):not(.system-case-header) nav a', token: 'current', direction: 'left-to-right' },
