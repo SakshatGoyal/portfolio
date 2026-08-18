@@ -47,7 +47,7 @@ const teamPanelId = `team-panel-${theme}`;
 <BaseLayout title={headline} description={headline} theme={theme}>
   <article class="case-study case-study-system">
     <header class="case-hero" data-reveal>
-      <h1 data-line-mask aria-label={headline} style="visibility: hidden;">{headline}</h1>
+      <h1>{headline}</h1>
     </header>
 
     <Figure src={hero} alt={headline} caption={heroCaption} class="hero-figure" eager contain={theme === 'panw'} fluidFrame={theme === 'panw'} squareMedia={theme === 'panw'} viewportFit={heroViewportFit} video={heroVideo} autoplayOnView={heroAutoplayOnView} loop={heroLoop} poster={heroPoster} width={heroWidth} height={heroHeight} />

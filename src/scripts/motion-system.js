@@ -1,18 +1,3 @@
-const cubicBezier = (value, x1, y1, x2, y2) => {
-  const sample = (t, a, b) => ((1 - 3 * b + 3 * a) * t ** 3) + ((3 * b - 6 * a) * t ** 2) + (3 * a * t);
-  let lower = 0;
-  let upper = 1;
-  let t = value;
-  for (let index = 0; index < 12; index += 1) {
-    t = (lower + upper) / 2;
-    if (sample(t, x1, x2) < value) lower = t;
-    else upper = t;
-  }
-  return sample(t, y1, y2);
-};
-const celebratoryEaseOut = (value) => cubicBezier(value, 0, 0, 0.3, 1);
-const celebratoryEaseIn = (value) => cubicBezier(value, 0.39, 0.06, 1, 1);
-
 // These are fixed 1536px-layout measurements, not responsive calculations.
 // Each value is the nearest-ms celebratory Move duration for that reveal's
 // clip/rise box (wipe distance = clip width; size = clip width × clip height).
@@ -162,39 +147,30 @@ const initMediaReveals = (reduceMotion) => {
 
 const initBodyReveals = (reduceMotion) => {
   const entries = [];
-  const nestedDelays = [0, 70, 125, 170];
-  const register = (element, kind, nestedIndex = 0) => {
-    if (!(element instanceof HTMLElement) || element.closest('[data-media-caption]')) return;
+  const register = (element, kind) => {
+    if (!(element instanceof HTMLElement)) return;
     if (entries.some((entry) => entry.element === element)) return;
     element.dataset.bodyReveal = '';
     element.dataset.bodyRevealKind = kind;
-    element.style.setProperty('--body-nested-delay', `${nestedDelays[Math.min(nestedIndex, nestedDelays.length - 1)]}ms`);
     entries.push({ element, kind });
   };
 
-  const registerContainer = (container, kind) => {
-    const prose = [...container.children].flatMap((child) => {
-      if (child.matches('p')) return [child];
-      if (child.matches('ol, ul')) {
-        return [...child.children].map((item) => (
-          item.matches('.problem-list > li') ? item.querySelector(':scope > span:last-child') : item
-        )).filter(Boolean);
-      }
-      return [];
-    });
-    prose.forEach((element, index) => register(element, kind, index));
-  };
-
-  document.querySelectorAll('.home-bio').forEach((container) => registerContainer(container, 'intro'));
-  document.querySelectorAll('.gallery-project-info').forEach((container) => {
-    register(container.querySelector('.gallery-project-heading'), 'gallery-heading');
-    registerContainer(container, 'standard');
-  });
-  document.querySelectorAll('.case-intro').forEach((container) => register(container, 'intro'));
-  document.querySelectorAll('.case-section').forEach((container) => register(container, 'standard'));
-  document.querySelectorAll('.takeaway-card').forEach((container) => register(container, 'standard'));
-  document.querySelectorAll('.metric-tooltip p, .platform-core > p, .platform-contributions > div > p')
-    .forEach((element) => register(element, 'standard'));
+  document.querySelectorAll([
+    '.home-bio',
+    '.home-project-copy',
+    '.home-project-meta',
+    '.gallery-project-info',
+    '.case-hero h1',
+    '.case-intro',
+    '.case-meta',
+    '.case-section',
+    '.takeaway-card',
+    '.metric',
+    '.metric-tooltip',
+    '.platform-core',
+    '.platform-contributions > div',
+    '[data-media-caption]',
+  ].join(',')).forEach((element) => register(element, 'standard'));
 
   document.documentElement.dataset.bodyMotionReady = 'true';
   if (reduceMotion) {
@@ -204,10 +180,7 @@ const initBodyReveals = (reduceMotion) => {
 
   const observer = new IntersectionObserver((observed) => {
     observed.filter((entry) => entry.isIntersecting)
-      .sort((left, right) => left.boundingClientRect.top - right.boundingClientRect.top)
-      .forEach((entry, index) => {
-        const nested = Number.parseFloat(entry.target.style.getPropertyValue('--body-nested-delay')) || 0;
-        entry.target.style.setProperty('--body-reveal-delay', `${nested + (index * 70)}ms`);
+      .forEach((entry) => {
         entry.target.classList.add('body-reveal-active');
         entry.target.dataset.bodyRevealComplete = 'true';
         observer.unobserve(entry.target);
@@ -311,168 +284,12 @@ const initTapeLabels = () => {
   renderAll();
 };
 
-const initCaptionReveals = (reduceMotion) => {
+const initCaptionLabels = () => {
   const captions = [...document.querySelectorAll('[data-case-system="true"] [data-media-caption]')];
-  if (!captions.length) return;
-  const sources = new WeakMap();
-  const states = new WeakMap();
-  const timers = new WeakMap();
-
   captions.forEach((caption, index) => {
-    caption.dataset.captionReveal = '';
-    const paragraphs = [...caption.children].filter((child) => child.matches('p'));
-    const segments = paragraphs.length
-      ? paragraphs.map((paragraph) => paragraph.textContent?.trim() || '').filter(Boolean)
-      : (caption.innerText || caption.textContent || '').split(/\n+/).map((line) => line.trim()).filter(Boolean);
     const number = String(index + 1).padStart(2, '0');
-    const numberedSegments = segments.map((segment, segmentIndex) => (
-      segmentIndex === 0 ? `[${number}] - ${segment}` : segment
-    ));
-    const label = numberedSegments.join(' ');
-    sources.set(caption, { numberedSegments, separatedParagraphs: paragraphs.length > 1, label });
-    states.set(caption, { shown: false, lines: [] });
-    caption.dataset.captionLabel = label;
-  });
-
-  const setLineProgress = (line, progress) => {
-    line._captionProgress = progress;
-    line.style.transform = `translateY(${(1 - progress) * 101}%)`;
-  };
-
-  const cancelLineAnimation = (line) => {
-    window.clearTimeout(line._captionDelayTimer);
-    if (line._captionFrame) cancelAnimationFrame(line._captionFrame);
-    line._captionFrame = 0;
-  };
-
-  const animateLine = (line, target, delay) => {
-    cancelLineAnimation(line);
-    const from = Number.isFinite(line._captionProgress) ? line._captionProgress : (target ? 0 : 1);
-    if (Math.abs(from - target) < 0.001) return;
-    line._captionDelayTimer = window.setTimeout(() => {
-      const startedAt = performance.now();
-      const tick = (now) => {
-        const raw = Math.min(1, Math.max(0, (now - startedAt) / 276));
-        const eased = target === 1 ? celebratoryEaseOut(raw) : celebratoryEaseIn(raw);
-        const progress = target === 1
-          ? from + ((1 - from) * eased)
-          : from * (1 - eased);
-        setLineProgress(line, progress);
-        if (raw < 1) line._captionFrame = requestAnimationFrame(tick);
-        else line._captionFrame = 0;
-      };
-      line._captionFrame = requestAnimationFrame(tick);
-    }, delay);
-  };
-
-  const setCaptionShown = (caption, shown, animate = true) => {
-    const state = states.get(caption);
-    if (!state || state.shown === shown) return;
-    state.shown = shown;
-    caption.classList.toggle('caption-motion-active', shown);
-    const last = Math.max(1, state.lines.length - 1);
-    state.lines.forEach((line, index) => {
-      const distributedDelay = shown
-        ? ((state.lines.length - 1 - index) / last) * 200
-        : (index / last) * 200;
-      if (reduceMotion || !animate) setLineProgress(line, shown ? 1 : 0);
-      else animateLine(line, shown ? 1 : 0, Math.round(distributedDelay));
-    });
-  };
-
-  const shouldShowCaption = (caption) => caption.getBoundingClientRect().top <= window.innerHeight * 1.2;
-
-  const renderCaption = (caption) => {
-    const source = sources.get(caption);
-    const state = states.get(caption);
-    if (!source?.numberedSegments.length || !state) return;
-    state.lines.forEach(cancelLineAnimation);
-    const shown = reduceMotion || shouldShowCaption(caption);
-
-    const accessible = document.createElement('span');
-    accessible.className = 'caption-motion-accessible';
-    accessible.textContent = source.label;
-    const probe = document.createElement('span');
-    probe.className = 'caption-motion-probe';
-    probe.setAttribute('aria-hidden', 'true');
-    source.numberedSegments.forEach((segment, segmentIndex) => {
-      const paragraph = document.createElement('span');
-      paragraph.className = 'caption-motion-probe-paragraph';
-      if (source.separatedParagraphs && segmentIndex > 0) paragraph.classList.add('is-separated');
-      segment.split(/\s+/).filter(Boolean).forEach((word, wordIndex) => {
-        if (wordIndex) paragraph.append(document.createTextNode(' '));
-        const wordElement = document.createElement('span');
-        wordElement.className = 'caption-motion-word';
-        wordElement.textContent = word;
-        paragraph.append(wordElement);
-      });
-      probe.append(paragraph);
-    });
-    caption.replaceChildren(accessible, probe);
-
-    const paragraphLines = [...probe.querySelectorAll('.caption-motion-probe-paragraph')].map((paragraph) => {
-      const lines = [];
-      paragraph.querySelectorAll('.caption-motion-word').forEach((word) => {
-        const top = Math.round(word.getBoundingClientRect().top * 10) / 10;
-        const current = lines.at(-1);
-        if (!current || Math.abs(current.top - top) > 1) lines.push({ top, words: [word.textContent] });
-        else current.words.push(word.textContent);
-      });
-      return lines;
-    });
-
-    const visual = document.createElement('span');
-    visual.className = 'caption-motion-visual';
-    visual.setAttribute('aria-hidden', 'true');
-    const lineElements = [];
-    paragraphLines.forEach((lines, paragraphIndex) => {
-      const paragraph = document.createElement('span');
-      paragraph.className = 'caption-motion-paragraph';
-      if (source.separatedParagraphs && paragraphIndex > 0) paragraph.classList.add('is-separated');
-      lines.forEach((line) => {
-        const mask = document.createElement('span');
-        mask.className = 'caption-motion-line';
-        const inner = document.createElement('span');
-        inner.className = 'caption-motion-line-inner';
-        inner.textContent = line.words.join(' ');
-        setLineProgress(inner, shown ? 1 : 0);
-        mask.append(inner);
-        paragraph.append(mask);
-        lineElements.push(inner);
-      });
-      visual.append(paragraph);
-    });
-    caption.replaceChildren(accessible, visual);
-    caption.classList.add('caption-motion-ready');
-    caption.classList.toggle('caption-motion-active', shown);
-    state.shown = shown;
-    state.lines = lineElements;
-  };
-
-  let scrollFrame = 0;
-  const syncCaptionTriggers = () => {
-    scrollFrame = 0;
-    captions.forEach((caption) => setCaptionShown(caption, reduceMotion || shouldShowCaption(caption)));
-  };
-  const queueCaptionSync = () => {
-    if (!scrollFrame) scrollFrame = requestAnimationFrame(syncCaptionTriggers);
-  };
-  const scheduleCaptionRender = (caption) => {
-    window.clearTimeout(timers.get(caption));
-    timers.set(caption, window.setTimeout(() => {
-      renderCaption(caption);
-      queueCaptionSync();
-    }, 140));
-  };
-
-  document.addEventListener('captionlayout', (event) => {
-    if (event.target?.matches?.('[data-media-caption]')) scheduleCaptionRender(event.target);
-  });
-  window.addEventListener('scroll', queueCaptionSync, { passive: true });
-  window.addEventListener('resize', () => captions.forEach(scheduleCaptionRender), { passive: true });
-  document.fonts?.ready.then(() => {
-    captions.forEach(renderCaption);
-    syncCaptionTriggers();
+    caption.prepend(document.createTextNode(`[${number}] - `));
+    caption.dataset.captionNumbered = 'true';
   });
 };
 
@@ -481,7 +298,7 @@ export const initMotionSystem = () => {
   document.documentElement.dataset.motionSystemMounted = 'true';
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   initTapeLabels();
+  initCaptionLabels();
   initBodyReveals(reduceMotion);
   initMediaReveals(reduceMotion);
-  initCaptionReveals(reduceMotion);
 };
