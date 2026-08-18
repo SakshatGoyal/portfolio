@@ -46,7 +46,7 @@ export const galleryMedia = Object.freeze({
   ],
   'CISCO READY': [
     image('cready-redesign-00', 2400, 1350),
-    image('cready-redesign-01', 2400, 1350),
+    image('cready-redesign-01', 2400, 1079),
     image('cready-redesign-02', 2400, 1350),
   ],
   'HBS-FACULTY-PLATFORM': [
@@ -98,8 +98,8 @@ export const galleryLayouts = Object.freeze({
     },
   },
   'CISCO READY AI': {
-    info: place(16, 5, 1),
-    artifacts: { 'cisco-ready-ai-00': place(1, 15, 1) },
+    info: place(11, 10, 1),
+    artifacts: { 'cisco-ready-ai-00': place(1, 10, 1) },
   },
   'TREBUCHET TRIALS': {
     info: place(9, 12, 1),

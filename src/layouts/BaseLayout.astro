@@ -48,17 +48,18 @@ const isHomeSystem = Astro.url.pathname === '/';
     <div class="behance-viewer" data-behance-viewer hidden role="dialog" aria-modal="true" aria-labelledby="behance-viewer-title">
       <div class="behance-viewer__topbar">
         <h2 id="behance-viewer-title" data-behance-viewer-title></h2>
-        <button class="behance-viewer__close" type="button" data-behance-viewer-close aria-label="Close image viewer">
+        <button class="behance-viewer__close" type="button" data-behance-viewer-close aria-label="Close media viewer">
           <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 1L11 11M11 1L1 11" /></svg>
         </button>
       </div>
-      <button class="behance-viewer__previous" type="button" data-behance-viewer-previous aria-label="Previous image">
+      <button class="behance-viewer__previous" type="button" data-behance-viewer-previous aria-label="Previous media">
         <svg viewBox="0 0 12 20" aria-hidden="true"><path d="M10 2L2 10L10 18" /></svg>
       </button>
       <div class="behance-viewer__stage" data-behance-viewer-stage>
         <img data-behance-viewer-image alt="" tabindex="0" />
+        <video data-behance-viewer-video controls muted loop playsinline tabindex="0" hidden></video>
       </div>
-      <button class="behance-viewer__next" type="button" data-behance-viewer-next aria-label="Next image">
+      <button class="behance-viewer__next" type="button" data-behance-viewer-next aria-label="Next media">
         <svg viewBox="0 0 12 20" aria-hidden="true"><path d="M2 2L10 10L2 18" /></svg>
       </button>
     </div>
@@ -97,7 +98,9 @@ const isHomeSystem = Astro.url.pathname === '/';
         if (!surface) return;
         const paused = video.paused;
         surface.dataset.playbackState = paused ? 'paused' : 'playing';
-        surface.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} ${mediaLabel(video)}`);
+        surface.setAttribute('aria-label', surface.hasAttribute('data-behance-video')
+          ? `View ${mediaLabel(video)} video`
+          : `${paused ? 'Play' : 'Pause'} ${mediaLabel(video)}`);
       };
 
       const updateVideoPlayback = (video, shouldPlay) => {
@@ -106,7 +109,8 @@ const isHomeSystem = Astro.url.pathname === '/';
         const reducedGalleryPlayback = reduceMotion
           && video.hasAttribute('data-gallery-video')
           && video.dataset.manualPlayback !== 'playing';
-        if (!shouldPlay || manuallyPaused || reducedGalleryPlayback || document.hidden) {
+        if (!shouldPlay || manuallyPaused || reducedGalleryPlayback || document.hidden
+          || document.body.classList.contains('behance-viewer-open')) {
           video.pause();
           return;
         }
@@ -179,6 +183,7 @@ const isHomeSystem = Astro.url.pathname === '/';
         const video = surface.querySelector('video');
         if (!(video instanceof HTMLVideoElement)) return;
         surface.addEventListener('click', () => {
+          if (surface.hasAttribute('data-behance-video')) return;
           if (video.paused) {
             video.dataset.manualPlayback = 'playing';
             if (!isIndependentVideo(video)) {
@@ -200,6 +205,7 @@ const isHomeSystem = Astro.url.pathname === '/';
       document.addEventListener('visibilitychange', () => {
         selectActiveVideo();
       });
+      document.addEventListener('viewerchange', selectActiveVideo);
 
       const customCursor = document.querySelector('[data-custom-cursor]');
       const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
@@ -219,8 +225,11 @@ const isHomeSystem = Astro.url.pathname === '/';
           customCursor.style.top = `${event.clientY}px`;
           customCursor.classList.add('is-visible');
           const nextProject = event.target.closest?.('[data-project-tile]') || null;
+          const nextViewerMedia = event.target.closest?.('[data-behance-video]') || null;
           cursorProject = nextProject;
-          cursorSurface = cursorProject ? null : event.target.closest?.('[data-playable-media]') || null;
+          cursorSurface = cursorProject || nextViewerMedia
+            ? null
+            : event.target.closest?.('[data-playable-media]') || null;
           syncCursorMediaState();
         }, { passive: true });
         document.documentElement.addEventListener('pointerleave', () => customCursor.classList.remove('is-visible'));
@@ -441,6 +450,7 @@ const isHomeSystem = Astro.url.pathname === '/';
     <script is:inline>
       const viewer = document.querySelector('[data-behance-viewer]');
       const viewerImage = viewer?.querySelector('[data-behance-viewer-image]');
+      const viewerVideo = viewer?.querySelector('[data-behance-viewer-video]');
       const viewerStage = viewer?.querySelector('[data-behance-viewer-stage]');
       const viewerTitle = viewer?.querySelector('[data-behance-viewer-title]');
       const viewerClose = viewer?.querySelector('[data-behance-viewer-close]');
@@ -450,41 +460,80 @@ const isHomeSystem = Astro.url.pathname === '/';
       let activeViewerItem = null;
       let viewerReturnFocus = null;
       let viewerExpanded = false;
+      let viewerSourceVideo = null;
+      let viewerRenderToken = 0;
 
-      const viewerItems = () => Array.from(document.querySelectorAll('[data-behance-image]'))
+      const viewerItems = () => Array.from(document.querySelectorAll('[data-behance-image], [data-behance-video]'))
         .filter((item) => item.getAttribute('aria-hidden') !== 'true');
       const imageFor = (item) => item instanceof HTMLImageElement ? item : item.querySelector('img');
+      const videoFor = (item) => item instanceof HTMLVideoElement ? item : item.querySelector('video');
       const titleFor = (item) => {
         const explicit = item.dataset.behanceTitle?.trim();
         const captionElement = item.closest('figure')?.querySelector('figcaption');
         const caption = captionElement?.dataset.captionLabel || captionElement?.textContent?.trim();
         const image = imageFor(item);
+        const video = videoFor(item);
         const caseTitle = item.closest('.case-study')?.querySelector('.case-headline')?.textContent?.trim();
-        return explicit || caption || image?.alt?.trim() || caseTitle || 'Portfolio image';
+        return explicit || caption || image?.alt?.trim() || video?.getAttribute('aria-label')?.trim()
+          || caseTitle || 'Portfolio media';
       };
       const setViewerExpanded = (expanded) => {
         if (!viewer || !viewerImage || !viewerStage) return;
-        viewerExpanded = expanded;
-        viewer.classList.toggle('is-expanded', expanded);
-        viewerImage.style.width = expanded ? `${window.innerWidth}px` : '';
+        viewerExpanded = expanded && !viewerImage.hidden;
+        viewer.classList.toggle('is-expanded', viewerExpanded);
+        viewerImage.style.width = viewerExpanded ? `${window.innerWidth}px` : '';
         viewerStage.scrollTo({ top: 0, left: 0, behavior: 'instant' });
       };
+      const releaseViewerVideo = () => {
+        if (!(viewerVideo instanceof HTMLVideoElement)) return;
+        viewerVideo.pause();
+        if (viewerSourceVideo instanceof HTMLVideoElement && Number.isFinite(viewerVideo.currentTime)) {
+          viewerSourceVideo.currentTime = viewerVideo.currentTime;
+        }
+        viewerSourceVideo = null;
+      };
       const renderViewer = () => {
-        if (!activeViewerItem || !viewerImage || !viewerTitle) return;
+        if (!activeViewerItem || !viewerImage || !viewerVideo || !viewerTitle) return;
+        const renderToken = ++viewerRenderToken;
+        releaseViewerVideo();
         const sourceImage = imageFor(activeViewerItem);
-        if (!sourceImage) return;
+        const sourceVideo = videoFor(activeViewerItem);
         const title = titleFor(activeViewerItem);
-        viewerImage.src = sourceImage.currentSrc || sourceImage.src;
-        viewerImage.alt = title;
         viewerTitle.textContent = title;
         setViewerExpanded(false);
+        if (sourceVideo instanceof HTMLVideoElement) {
+          const continuePlayback = !reduceMotion && !sourceVideo.paused;
+          const sourceTime = sourceVideo.currentTime;
+          sourceVideo.pause();
+          viewerSourceVideo = sourceVideo;
+          viewerImage.hidden = true;
+          viewerVideo.hidden = false;
+          viewerVideo.src = sourceVideo.currentSrc || sourceVideo.src;
+          viewerVideo.poster = sourceVideo.poster;
+          viewerVideo.setAttribute('aria-label', title);
+          const continueAtSourceTime = () => {
+            if (renderToken !== viewerRenderToken) return;
+            viewerVideo.currentTime = Math.min(sourceTime, Number.isFinite(viewerVideo.duration) ? viewerVideo.duration : sourceTime);
+            if (continuePlayback) viewerVideo.play().catch(() => {});
+          };
+          if (viewerVideo.readyState >= 1) continueAtSourceTime();
+          else viewerVideo.addEventListener('loadedmetadata', continueAtSourceTime, { once: true });
+          return;
+        }
+        if (!(sourceImage instanceof HTMLImageElement)) return;
+        viewerVideo.hidden = true;
+        viewerVideo.removeAttribute('src');
+        viewerVideo.load();
+        viewerImage.hidden = false;
+        viewerImage.src = sourceImage.currentSrc || sourceImage.src;
+        viewerImage.alt = title;
       };
       const openViewer = (item) => {
         if (!viewer) return;
         activeViewerItem = item;
         viewerReturnFocus = item;
-        renderViewer();
         viewer.hidden = false;
+        renderViewer();
         pageShell?.setAttribute('inert', '');
         document.body.classList.add('behance-viewer-open');
         document.dispatchEvent(new CustomEvent('viewerchange'));
@@ -497,6 +546,7 @@ const isHomeSystem = Astro.url.pathname === '/';
         document.body.classList.remove('behance-viewer-open');
         document.dispatchEvent(new CustomEvent('viewerchange'));
         setViewerExpanded(false);
+        releaseViewerVideo();
         viewerReturnFocus?.focus();
       };
       const moveViewer = (offset) => {
@@ -508,14 +558,14 @@ const isHomeSystem = Astro.url.pathname === '/';
       };
 
       document.addEventListener('click', (event) => {
-        const item = event.target.closest?.('[data-behance-image]');
+        const item = event.target.closest?.('[data-behance-image], [data-behance-video]');
         if (!item) return;
         event.preventDefault();
         event.stopPropagation();
         openViewer(item);
       });
       document.addEventListener('keydown', (event) => {
-        const item = event.target.closest?.('[data-behance-image]');
+        const item = event.target.closest?.('[data-behance-image], [data-behance-video]');
         if (item && (event.key === 'Enter' || event.key === ' ')) {
           event.preventDefault();
           openViewer(item);

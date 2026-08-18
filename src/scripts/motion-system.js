@@ -157,6 +157,7 @@ const initBodyReveals = (reduceMotion) => {
 
   document.querySelectorAll([
     '.home-bio',
+    '.home-section-heading h2',
     '.home-project-copy',
     '.home-project-meta',
     '.gallery-project-info',

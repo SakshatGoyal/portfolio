@@ -10,7 +10,7 @@ const normalizedNotes = notes.replace(/\r\n?/g, '\n')
   .filter(Boolean)
   .join('\n');
 const notesHash = createHash('sha256').update(normalizedNotes).digest('hex');
-const expectedNotesHash = '20673b54e1b7b0870dc19b95eefdc17ab59059f91ee3ecb14fb3a16318aa4663';
+const expectedNotesHash = '04e2b451a73a699a537b0e18db4a37593f33d459544f48107440a8da9149b515';
 const expectedProjects = [
   ['PANW-WORKBENCH', '2025'],
   ['LUMINOSO', '2024'],

@@ -17,8 +17,8 @@ interface Props {
 
 const { id, type, src, poster, width, height, label, placement } = Astro.props;
 const { column, span, row, rowSpan = 1 } = placement;
-const insetStart = column === 1 ? '0px' : '12px';
-const insetEnd = column + span > 20 ? '0px' : '12px';
+const insetStart = column === 1 ? '0px' : '24px';
+const insetEnd = column + span > 20 ? '0px' : '24px';
 ---
 
 <div
@@ -36,7 +36,9 @@ const insetEnd = column + span > 20 ? '0px' : '12px';
           type="button"
           data-playable-media
           data-playback-mode="exclusive"
-          aria-label={`Play ${label}`}
+          data-behance-video
+          data-behance-title={label}
+          aria-label={`View ${label} video`}
         >
           <video
             src={src}
@@ -54,15 +56,23 @@ const insetEnd = column + span > 20 ? '0px' : '12px';
           ></video>
         </button>
       ) : (
-        <img
-          src={src}
-          alt={label}
-          width={width}
-          height={height}
-          loading="lazy"
-          decoding="async"
-          data-media-visual
-        />
+        <button
+          class="gallery-artifact-surface"
+          type="button"
+          data-behance-image
+          data-behance-title={label}
+          aria-label={`View ${label}`}
+        >
+          <img
+            src={src}
+            alt={label}
+            width={width}
+            height={height}
+            loading="lazy"
+            decoding="async"
+            data-media-visual
+          />
+        </button>
       )}
     </div>
   </div>

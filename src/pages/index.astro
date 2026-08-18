@@ -83,12 +83,15 @@ const projects = [
 >
   <section class="home-hero" id="about">
     <div class="home-bio">
-      <p>I’m a systems-oriented product designer whose greatest value emerges when the problem is ambiguous, organizationally complicated, and full of imperfect data.</p>
+      <p>I join teams during major overhauls, bringing structure to ambiguity and reliably carrying the work through delivery.</p>
       <p>Over the last 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.</p>
     </div>
   </section>
 
   <section class="home-work" id="work">
+    <header class="home-section-heading">
+      <h2 data-body-reveal>Selected Work</h2>
+    </header>
     <div class="home-project-grid" data-home-project-grid data-home-layout="small">
       {projects.map((project, index) => (
         <div class="home-project-slot" data-home-project-slot data-home-order={project.order}>
@@ -125,9 +128,14 @@ const projects = [
   </section>
 
   <section class="home-gallery" id="gallery" data-home-gallery aria-label="Gallery">
-    {galleryProjects.map((project) => (
-      <GalleryProject project={project} />
-    ))}
+    <header class="home-section-heading">
+      <h2 data-body-reveal>Gallery</h2>
+    </header>
+    <div class="gallery-project-list">
+      {galleryProjects.map((project) => (
+        <GalleryProject project={project} />
+      ))}
+    </div>
   </section>
 
   <script is:inline>
@@ -140,7 +148,7 @@ const projects = [
       );
       let projectLayoutFrame = 0;
       let observedGridWidth = 0;
-      let galleryHashCorrected = false;
+      let sectionHashCorrected = false;
       const cssPixels = (value) => `${Math.round(value * 1000) / 1000}px`;
       const setGeometry = (order, left, top, width) => {
         const slot = projectSlots[order];
@@ -149,10 +157,10 @@ const projects = [
         slot.style.width = cssPixels(width);
       };
       const slotHeight = (order) => projectSlots[order].getBoundingClientRect().height;
-      const correctGalleryHash = () => {
-        if (galleryHashCorrected || location.hash !== '#gallery') return;
-        galleryHashCorrected = true;
-        requestAnimationFrame(() => document.querySelector('#gallery')?.scrollIntoView({
+      const correctSectionHash = (final = false) => {
+        if (sectionHashCorrected || !['#work', '#gallery'].includes(location.hash)) return;
+        if (final) sectionHashCorrected = true;
+        requestAnimationFrame(() => document.querySelector(location.hash)?.scrollIntoView({
           behavior: 'instant',
           block: 'start',
         }));
@@ -175,7 +183,7 @@ const projects = [
 
         if (viewportWidth < 672) {
           resetToSingleColumn();
-          correctGalleryHash();
+          correctSectionHash();
           return;
         }
 
@@ -199,7 +207,7 @@ const projects = [
           height2 + height3 + height5 + height6,
         ));
 
-        correctGalleryHash();
+        correctSectionHash();
       };
 
       const queueProjectLayout = () => {
@@ -226,6 +234,19 @@ const projects = [
       projectGrid.addEventListener('tapelayout', queueProjectLayout);
       window.addEventListener('resize', queueProjectLayout, { passive: true });
       layoutProjects();
+
+      const homeMediaReady = [...projectGrid.querySelectorAll('video')].map((video) => (
+        video.readyState >= 1
+          ? Promise.resolve()
+          : new Promise((resolve) => {
+            video.addEventListener('loadedmetadata', resolve, { once: true });
+            video.addEventListener('error', resolve, { once: true });
+          })
+      ));
+      Promise.all([document.fonts?.ready || Promise.resolve(), ...homeMediaReady]).then(() => {
+        queueProjectLayout();
+        requestAnimationFrame(() => requestAnimationFrame(() => correctSectionHash(true)));
+      });
     }
 
     const homeSections = ['about', 'work', 'gallery']
