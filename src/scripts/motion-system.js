@@ -257,12 +257,10 @@ const initTapeLabels = () => {
       const lineElement = document.createElement('span');
       lineElement.className = 'home-tape-line';
       lineElement.style.setProperty('--tape-delay', `${label.dataset.tapeDelay || 0}ms`);
-      const lineText = line.words.join(' ');
       const tape = document.createElement('i');
       tape.setAttribute('aria-hidden', 'true');
-      tape.dataset.tapeText = lineText;
       const text = document.createElement('span');
-      text.textContent = lineText;
+      text.textContent = line.words.join(' ');
       lineElement.append(tape, text);
       visual.append(lineElement);
     });

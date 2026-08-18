@@ -391,44 +391,39 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   position: relative;
   isolation: isolate;
   display: block;
-  overflow: hidden;
   width: max-content;
   max-width: 100%;
 }
 .home-tape-line > i {
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: calc(var(--tape-overhang, 4px) * -1);
-  z-index: 1;
+  z-index: -1;
   width: var(--tape-width, calc(100% + 8px));
   height: var(--tape-line-height, 1.35em);
   background: var(--home-ink, var(--cs-heading, #000));
-  color: #fff;
-  font: inherit;
-  font-style: normal;
-  line-height: var(--tape-line-height, 1.35em);
-  white-space: nowrap;
-  transform: translateY(0);
+  transform: translateY(-50%) scaleX(0);
+  transform-origin: left center;
   transition: transform var(--tape-motion-duration, 150ms) var(--expressive-ease-in-out);
   transition-delay: var(--tape-delay, 0ms);
 }
-.home-tape-line > i::after {
-  position: absolute;
-  top: 0;
-  left: var(--tape-overhang, 4px);
-  content: attr(data-tape-text);
-}
 .home-tape-line > span {
   position: relative;
+  transition: color var(--tape-motion-duration, 150ms) var(--expressive-ease-in-out);
+  transition-delay: var(--tape-delay, 0ms);
 }
 .home-project-card:hover .home-tape-line > i,
 .home-project-card:focus-within .home-tape-line > i {
-  transform: translateY(-100%);
+  transform: translateY(-50%) scaleX(1);
 }
+.home-project-card:hover .home-tape-line > span,
+.home-project-card:focus-within .home-tape-line > span { color: #fff; }
 .header-tape-label:hover .home-tape-line > i,
 .header-tape-label:focus-visible .home-tape-line > i {
-  transform: translateY(-100%);
+  transform: translateY(-50%) scaleX(1);
 }
+.header-tape-label:hover .home-tape-line > span,
+.header-tape-label:focus-visible .home-tape-line > span { color: #fff; }
 
 .home-project-media {
   position: relative;
