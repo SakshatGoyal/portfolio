@@ -298,6 +298,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .home-site-header,
 .home-hero,
 .home-work,
+.home-gallery,
 .home-site-footer {
   width: var(--home-rail);
   margin-inline: auto;
@@ -521,6 +522,68 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   font: 400 24px/normal 'Cabinet Grotesk', Arial, sans-serif;
   letter-spacing: .24px;
 }
+
+.home-gallery {
+  position: relative;
+  background: #fff;
+}
+
+.gallery-project {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  background: #fff;
+}
+
+.gallery-project-info {
+  min-width: 0;
+  padding: 30px var(--home-pad) 40px;
+  color: var(--home-ink);
+  font: 400 16px/var(--body-leading) 'Manrope', Arial, sans-serif;
+}
+
+.gallery-project-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.gallery-project-heading h2 { font: 700 14px/1.35 'Manrope', Arial, sans-serif; }
+.gallery-project-heading span,
+.gallery-project-heading time {
+  color: var(--home-secondary);
+  font: 400 14px/1.35 'Public Sans', 'Inter', Arial, sans-serif;
+}
+.gallery-project-info p + p { margin-top: 20px; }
+
+.gallery-artifacts {
+  min-width: 0;
+  padding: 24px var(--home-pad);
+}
+.gallery-artifact { width: 100%; min-width: 0; }
+.gallery-artifact + .gallery-artifact { margin-top: 24px; }
+.gallery-artifact-surface {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+}
+.home-gallery .gallery-artifact [data-media-visual] {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  object-fit: contain;
+}
+.gallery-artifact-surface { --line-focus-offset: 3px; }
 
 .home-site-footer {
   --footer-divider-color: var(--home-line);
@@ -1651,6 +1714,20 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 
 @media (min-width: 1056px) {
   .home-project-copy h3 { max-width: 70%; }
+  .gallery-project { grid-template-columns: repeat(16, minmax(0, 1fr)); }
+  .gallery-project-info {
+    position: sticky;
+    top: 24px;
+    grid-column: 12 / 17;
+    grid-row: 1;
+    align-self: start;
+    padding-inline: 24px;
+  }
+  .gallery-artifacts {
+    grid-column: 1 / 12;
+    grid-row: 1;
+    padding-inline: 24px;
+  }
   [data-case-system='true'] .case-body > .case-section.reading-column {
     padding-top: 160px !important;
   }

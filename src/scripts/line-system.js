@@ -386,13 +386,25 @@ export const initLineSystem = () => {
     const header = document.querySelector('.home-site-header');
     const hero = document.querySelector('.home-hero');
     const grid = document.querySelector('[data-home-project-grid]');
+    const gallery = document.querySelector('[data-home-gallery]');
     const footer = document.querySelector('.home-site-footer');
-    if (!header || !hero || !grid || !footer) return;
+    if (!header || !hero || !grid || !gallery || !footer) return;
     const headerRect = relativeRect(header, rootRect);
     const heroRect = relativeRect(hero, rootRect);
     const gridRect = relativeRect(grid, rootRect);
+    const galleryRect = relativeRect(gallery, rootRect);
     const footerRect = relativeRect(footer, rootRect);
-    const horizontalLevels = uniqueSorted([headerRect.top, headerRect.bottom, heroRect.bottom, footerRect.top, footerRect.bottom]);
+    const galleryProjects = [...gallery.querySelectorAll('[data-gallery-project]')];
+    const galleryProjectRects = galleryProjects.map((project) => relativeRect(project, rootRect));
+    const horizontalLevels = uniqueSorted([
+      headerRect.top,
+      headerRect.bottom,
+      heroRect.bottom,
+      ...galleryProjectRects.map((rect) => rect.top),
+      galleryRect.bottom,
+      footerRect.top,
+      footerRect.bottom,
+    ]);
     const slots = [...grid.querySelectorAll('[data-home-project-slot]')];
     if (grid.dataset.homeLayout === 'small') {
       const rowRects = slots.slice(1).map((slot) => relativeRect(slot, rootRect));
@@ -404,6 +416,9 @@ export const initLineSystem = () => {
       drawHorizontal(documentRenderGroup, 'home.footer.top', footerRect.left, footerRect.right, footerRect.top, 'home');
       rowRects.forEach((rect, index) => {
         drawHorizontal(documentRenderGroup, `home.grid.row.${index + 2}`, gridRect.left, gridRect.right, rect.top, 'home');
+      });
+      galleryProjectRects.forEach((rect, index) => {
+        drawHorizontal(documentRenderGroup, `home.gallery.row.${index + 1}`, galleryRect.left, galleryRect.right, rect.top, 'home');
       });
       return;
     }
@@ -429,6 +444,20 @@ export const initLineSystem = () => {
       const right = order === 4 ? center : gridRect.right;
       drawHorizontal(documentRenderGroup, `home.grid.row.${order}`, left, right, rect.top, 'home');
     });
+
+    galleryProjectRects.forEach((rect, index) => {
+      drawHorizontal(documentRenderGroup, `home.gallery.row.${index + 1}`, galleryRect.left, galleryRect.right, rect.top, 'home');
+    });
+    const firstGalleryInfo = galleryProjects[0]?.querySelector('[data-gallery-info]');
+    if (firstGalleryInfo && window.matchMedia('(min-width: 1056px)').matches) {
+      const split = relativeRect(firstGalleryInfo, rootRect).left;
+      const galleryLevels = uniqueSorted([
+        galleryRect.top,
+        ...galleryProjectRects.map((rect) => rect.top),
+        galleryRect.bottom,
+      ]);
+      drawVerticalNetwork(documentRenderGroup, 'home.gallery.split', split, galleryLevels, 'home');
+    }
   };
 
   const renderCaseTopology = (rootRect) => {
@@ -692,7 +721,7 @@ export const initLineSystem = () => {
 
   const resizeObserver = new ResizeObserver(scheduleRender);
   resizeObserver.observe(shell);
-  document.querySelectorAll('[data-home-project-slot], .case-study, .case-body, .case-meta, .figma-carousel, .team-panel')
+  document.querySelectorAll('[data-home-project-slot], [data-home-gallery], [data-gallery-project], .case-study, .case-body, .case-meta, .figma-carousel, .team-panel')
     .forEach((element) => resizeObserver.observe(element));
 
   document.addEventListener('load', scheduleRender, true);

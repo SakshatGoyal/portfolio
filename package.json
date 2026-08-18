@@ -7,9 +7,10 @@
     "dev": "astro dev",
     "check:content": "node scripts/check-content-invariants.mjs",
     "check:dividers": "node scripts/check-divider-ownership.mjs",
-    "build": "npm run check:content && npm run check:dividers && astro check && astro build && node scripts/prune-public-assets.mjs",
+    "check:gallery": "node scripts/check-gallery-content.mjs",
+    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && astro check && astro build && node scripts/prune-public-assets.mjs",
     "preview": "astro preview",
-    "check": "npm run check:content && npm run check:dividers && astro check"
+    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

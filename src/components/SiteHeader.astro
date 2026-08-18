@@ -14,9 +14,9 @@ const isCaseSystem = !isHome && theme !== 'neutral';
     <>
       <a class="home-name" href="/">Sākshāt Goyal</a>
       <nav class="home-nav" aria-label="Primary navigation">
-        <a class="active header-tape-label" href="/#work" data-tape-label>Selected Work</a>
-        <a class="header-tape-label" href="/#work" data-tape-label>Gallery</a>
-        <a class="header-tape-label" href="/#about" data-tape-label>About</a>
+        <a class="active header-tape-label" href="/#work" data-home-section-link="work" data-tape-label>Selected Work</a>
+        <a class="header-tape-label" href="/#gallery" data-home-section-link="gallery" data-tape-label>Gallery</a>
+        <a class="header-tape-label" href="/#about" data-home-section-link="about" data-tape-label>About</a>
       </nav>
     </>
   ) : isCaseSystem ? (
@@ -24,7 +24,7 @@ const isCaseSystem = !isHome && theme !== 'neutral';
       <a class="system-case-name" href="/">Sākshāt Goyal</a>
       <nav class="system-case-nav" aria-label="Primary navigation">
         <a class="active header-tape-label" href="/#work" data-tape-label>Selected Work</a>
-        <a class="header-tape-label" href="/#work" data-tape-label>Gallery</a>
+        <a class="header-tape-label" href="/#gallery" data-tape-label>Gallery</a>
         <a class="header-tape-label" href="/#about" data-tape-label>About</a>
       </nav>
     </>

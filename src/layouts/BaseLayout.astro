@@ -187,8 +187,10 @@ const isHomeSystem = Astro.url.pathname === '/';
       let manuallyActiveVideo = null;
 
       const surfaceForVideo = (video) => video.closest('[data-playable-media]');
-      const isIndependentVideo = (video) => independentHomepagePlayback
-        || surfaceForVideo(video)?.dataset.playbackMode === 'independent';
+      const isIndependentVideo = (video) => {
+        const playbackMode = surfaceForVideo(video)?.dataset.playbackMode;
+        return playbackMode ? playbackMode === 'independent' : independentHomepagePlayback;
+      };
       const mediaLabel = (video) => video.getAttribute('aria-label') || 'animation';
       const syncPlayableState = (video) => {
         const surface = surfaceForVideo(video);
@@ -201,7 +203,10 @@ const isHomeSystem = Astro.url.pathname === '/';
       const updateVideoPlayback = (video, shouldPlay) => {
         if (!(video instanceof HTMLVideoElement)) return;
         const manuallyPaused = video.dataset.manualPlayback === 'paused';
-        if (!shouldPlay || manuallyPaused || document.hidden) {
+        const reducedGalleryPlayback = reduceMotion
+          && video.hasAttribute('data-gallery-video')
+          && video.dataset.manualPlayback !== 'playing';
+        if (!shouldPlay || manuallyPaused || reducedGalleryPlayback || document.hidden) {
           video.pause();
           return;
         }
@@ -227,8 +232,13 @@ const isHomeSystem = Astro.url.pathname === '/';
           (videoVisibility.get(video) ?? 0) >= 0.35
           && video.dataset.manualPlayback !== 'paused'
         ));
+        const visibleRatio = (video) => {
+          const rect = video.getBoundingClientRect();
+          if (!rect.height) return 0;
+          return Math.max(0, Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0)) / rect.height;
+        };
         const manualIsEligible = manuallyActiveVideo
-          && eligibleVideos.includes(manuallyActiveVideo);
+          && (eligibleVideos.includes(manuallyActiveVideo) || visibleRatio(manuallyActiveVideo) >= 0.35);
         const activeVideo = manualIsEligible ? manuallyActiveVideo : eligibleVideos.reduce((closest, video) => {
           if (!closest) return video;
           const videoRect = video.getBoundingClientRect();

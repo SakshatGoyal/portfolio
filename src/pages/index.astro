@@ -1,6 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import GalleryArtifact from '../components/GalleryArtifact.astro';
 import { GLOBAL_DATA_ANALYTICS_TITLE } from '../data/project-titles.js';
+import { parseGalleryNotes } from '../data/gallery.js';
+import galleryNotes from '../content/gallery-notes.md?raw';
+
+const galleryProjects = parseGalleryNotes(galleryNotes);
 
 const projects = [
   {
@@ -119,6 +124,24 @@ const projects = [
     </div>
   </section>
 
+  <section class="home-gallery" id="gallery" data-home-gallery aria-label="Gallery">
+    {galleryProjects.map((project) => (
+      <article class="gallery-project" data-gallery-project>
+        <div class="gallery-project-info" data-gallery-info>
+          <div class="gallery-project-heading">
+            <h2>{project.title}</h2>
+            <span aria-hidden="true">・</span>
+            <time>{project.year}</time>
+          </div>
+          {project.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+        <div class="gallery-artifacts">
+          {project.media.map((artifact) => <GalleryArtifact {...artifact} label={project.title} />)}
+        </div>
+      </article>
+    ))}
+  </section>
+
   <script is:inline>
     const projectGrid = document.querySelector('[data-home-project-grid]');
 
@@ -129,6 +152,7 @@ const projects = [
       );
       let projectLayoutFrame = 0;
       let observedGridWidth = 0;
+      let galleryHashCorrected = false;
       const cssPixels = (value) => `${Math.round(value * 1000) / 1000}px`;
       const setGeometry = (order, left, top, width) => {
         const slot = projectSlots[order];
@@ -137,6 +161,14 @@ const projects = [
         slot.style.width = cssPixels(width);
       };
       const slotHeight = (order) => projectSlots[order].getBoundingClientRect().height;
+      const correctGalleryHash = () => {
+        if (galleryHashCorrected || location.hash !== '#gallery') return;
+        galleryHashCorrected = true;
+        requestAnimationFrame(() => document.querySelector('#gallery')?.scrollIntoView({
+          behavior: 'instant',
+          block: 'start',
+        }));
+      };
 
       const resetToSingleColumn = () => {
         projectGrid.dataset.homeLayout = 'small';
@@ -155,6 +187,7 @@ const projects = [
 
         if (viewportWidth < 672) {
           resetToSingleColumn();
+          correctGalleryHash();
           return;
         }
 
@@ -177,6 +210,8 @@ const projects = [
           height1 + height4,
           height2 + height3 + height5 + height6,
         ));
+
+        correctGalleryHash();
       };
 
       const queueProjectLayout = () => {
@@ -204,5 +239,33 @@ const projects = [
       window.addEventListener('resize', queueProjectLayout, { passive: true });
       layoutProjects();
     }
+
+    const homeSections = ['about', 'work', 'gallery']
+      .map((id) => document.getElementById(id))
+      .filter(Boolean);
+    const homeSectionLinks = [...document.querySelectorAll('[data-home-section-link]')];
+    let sectionStateFrame = 0;
+    const syncHomeSectionState = () => {
+      sectionStateFrame = 0;
+      const readingLine = window.scrollY + (window.innerHeight * 0.25);
+      const activeSection = homeSections.reduce((active, section) => (
+        section.offsetTop <= readingLine ? section : active
+      ), homeSections[0]);
+      homeSectionLinks.forEach((link) => {
+        const active = link.dataset.homeSectionLink === activeSection?.id;
+        link.classList.toggle('active', active);
+        if (active) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    };
+    const queueHomeSectionState = () => {
+      if (sectionStateFrame) return;
+      sectionStateFrame = requestAnimationFrame(syncHomeSectionState);
+    };
+    window.addEventListener('scroll', queueHomeSectionState, { passive: true });
+    window.addEventListener('resize', queueHomeSectionState, { passive: true });
+    window.addEventListener('hashchange', queueHomeSectionState);
+    document.fonts?.ready.then(queueHomeSectionState);
+    syncHomeSectionState();
   </script>
 </BaseLayout>

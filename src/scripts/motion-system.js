@@ -18,7 +18,11 @@ const celebratoryEaseIn = (value) => cubicBezier(value, 0.39, 0.06, 1, 1);
 // clip/rise box (wipe distance = clip width; size = clip width × clip height).
 // Keeping the lookup here avoids coupling timing to lazy-media layout work.
 const mediaRevealDurations = new Map([
-  ['/', [417, 398, 406, 451, 398, 398]],
+  ['/', [
+    417, 398, 406, 451, 398, 398,
+    486, 468, 496, 509, 451, 468, 478, 468, 468, 459,
+    457, 468, 478, 466, 468, 479, 468, 468, 457, 474,
+  ]],
   ['/work/panw-ai/', [660, 649, 618, 398, 417, 398, 608, 660, 594, 417, 417, 660, 618]],
   ['/work/hbs-ai-institute/', [618, 618, 553, 629, 618, 649, 642, 618, 632, 649, 620, 619, 618]],
   ['/work/one-report/', [618, 354, 367, 354, 367, 354, 367, 618, 618, 618, 618, 618]],
@@ -182,6 +186,10 @@ const initBodyReveals = (reduceMotion) => {
   };
 
   document.querySelectorAll('.home-bio').forEach((container) => registerContainer(container, 'intro'));
+  document.querySelectorAll('.gallery-project-info').forEach((container) => {
+    register(container.querySelector('.gallery-project-heading'), 'standard');
+    registerContainer(container, 'standard');
+  });
   document.querySelectorAll('.case-intro').forEach((container) => register(container, 'intro'));
   document.querySelectorAll('.case-section').forEach((container) => register(container, 'standard'));
   document.querySelectorAll('.takeaway-card').forEach((container) => register(container, 'standard'));

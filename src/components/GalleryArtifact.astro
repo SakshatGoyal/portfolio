@@ -1,0 +1,53 @@
+---
+interface Props {
+  type: 'image' | 'video';
+  src: string;
+  poster?: string;
+  width: number;
+  height: number;
+  label: string;
+}
+
+const { type, src, poster, width, height, label } = Astro.props;
+---
+
+<div class="gallery-artifact" data-media-unit data-media-reveal>
+  <div class="media-reveal-clip" data-media-reveal-clip>
+    <div class="media-reveal-rise" data-media-reveal-rise>
+      {type === 'video' ? (
+        <button
+          class="gallery-artifact-surface playable-media-surface"
+          type="button"
+          data-playable-media
+          data-playback-mode="exclusive"
+          aria-label={`Play ${label}`}
+        >
+          <video
+            src={src}
+            poster={poster}
+            width={width}
+            height={height}
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            data-autoplay-on-view
+            data-gallery-video
+            data-media-visual
+            aria-label={label}
+          ></video>
+        </button>
+      ) : (
+        <img
+          src={src}
+          alt={label}
+          width={width}
+          height={height}
+          loading="lazy"
+          decoding="async"
+          data-media-visual
+        />
+      )}
+    </div>
+  </div>
+</div>
