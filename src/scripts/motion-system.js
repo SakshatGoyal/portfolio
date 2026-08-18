@@ -157,11 +157,10 @@ const initBodyReveals = (reduceMotion) => {
 
   document.querySelectorAll([
     '.home-bio',
-    '.home-section-heading h2',
+    '.page-heading > :is(h1, h2)',
     '.home-project-copy',
     '.home-project-meta',
     '.gallery-project-info',
-    '.case-hero h1',
     '.case-intro',
     '.case-meta',
     '.case-section',

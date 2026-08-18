@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Figure from '../components/Figure.astro';
 import TeamPanel from '../components/TeamPanel.astro';
+import PageHeading from '../components/PageHeading.astro';
 
 interface TeamMember {
   name: string;
@@ -46,9 +47,7 @@ const teamPanelId = `team-panel-${theme}`;
 
 <BaseLayout title={headline} description={headline} theme={theme}>
   <article class="case-study case-study-system">
-    <header class="case-hero" data-reveal>
-      <h1>{headline}</h1>
-    </header>
+    <PageHeading title={headline} caseStudy />
 
     <Figure src={hero} alt={headline} caption={heroCaption} class="hero-figure" eager contain={theme === 'panw'} fluidFrame={theme === 'panw'} squareMedia={theme === 'panw'} viewportFit={heroViewportFit} video={heroVideo} autoplayOnView={heroAutoplayOnView} loop={heroLoop} poster={heroPoster} width={heroWidth} height={heroHeight} />
 

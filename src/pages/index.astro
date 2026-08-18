@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import GalleryProject from '../components/GalleryProject.astro';
+import PageHeading from '../components/PageHeading.astro';
 import { GLOBAL_DATA_ANALYTICS_TITLE } from '../data/project-titles.js';
 import { parseGalleryNotes } from '../data/gallery.js';
 import galleryNotes from '../content/gallery-notes.md?raw';
@@ -89,9 +90,7 @@ const projects = [
   </section>
 
   <section class="home-work" id="work">
-    <header class="home-section-heading">
-      <h2 data-body-reveal>Selected Work</h2>
-    </header>
+    <PageHeading title="Selected Work" level="h2" />
     <div class="home-project-grid" data-home-project-grid data-home-layout="small">
       {projects.map((project, index) => (
         <div class="home-project-slot" data-home-project-slot data-home-order={project.order}>
@@ -128,9 +127,7 @@ const projects = [
   </section>
 
   <section class="home-gallery" id="gallery" data-home-gallery aria-label="Gallery">
-    <header class="home-section-heading">
-      <h2 data-body-reveal>Gallery</h2>
-    </header>
+    <PageHeading title="Gallery" level="h2" />
     <div class="gallery-project-list">
       {galleryProjects.map((project) => (
         <GalleryProject project={project} />

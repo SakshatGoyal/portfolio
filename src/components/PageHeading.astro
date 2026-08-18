@@ -1,0 +1,14 @@
+---
+interface Props {
+  title: string;
+  level?: 'h1' | 'h2';
+  caseStudy?: boolean;
+}
+
+const { title, level = 'h1', caseStudy = false } = Astro.props;
+const Heading = level;
+---
+
+<header class:list={['page-heading', { 'case-hero': caseStudy }]} data-reveal>
+  <Heading>{title}</Heading>
+</header>
