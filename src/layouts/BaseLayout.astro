@@ -225,9 +225,8 @@ const isHomeSystem = Astro.url.pathname === '/';
           customCursor.style.top = `${event.clientY}px`;
           customCursor.classList.add('is-visible');
           const nextProject = event.target.closest?.('[data-project-tile]') || null;
-          const nextViewerMedia = event.target.closest?.('[data-behance-video]') || null;
           cursorProject = nextProject;
-          cursorSurface = cursorProject || nextViewerMedia
+          cursorSurface = cursorProject
             ? null
             : event.target.closest?.('[data-playable-media]') || null;
           syncCursorMediaState();
