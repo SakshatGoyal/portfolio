@@ -8,6 +8,13 @@ interface Placement {
   rowSpan?: number;
 }
 
+interface Seam {
+  axis: 'horizontal' | 'vertical';
+  at: number;
+  from: number;
+  to: number;
+}
+
 interface Artifact {
   id: string;
   type: 'image' | 'video';
@@ -25,6 +32,7 @@ interface Project {
   layout: {
     info: Placement;
     artifacts: Record<string, Placement>;
+    seams: Seam[];
   };
 }
 
@@ -43,10 +51,18 @@ const placementStyle = ({ column, span, row, rowSpan = 1 }: Placement) => [
 ].join('; ');
 ---
 
-<article class="gallery-project" data-gallery-project>
+<article
+  class="gallery-project"
+  data-gallery-project
+  data-gallery-seams={JSON.stringify(project.layout.seams)}
+>
   <div
     class="gallery-project-info"
     data-gallery-info
+    data-gallery-column={project.layout.info.column}
+    data-gallery-span={project.layout.info.span}
+    data-gallery-row={project.layout.info.row}
+    data-gallery-row-span={project.layout.info.rowSpan ?? 1}
     style={placementStyle(project.layout.info)}
   >
     <div class="gallery-project-heading">

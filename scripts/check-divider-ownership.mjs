@@ -1,10 +1,13 @@
 import { readFile } from 'node:fs/promises';
+import { galleryLayouts } from '../src/data/gallery.js';
 import { LINE_TOPOLOGY } from '../src/scripts/line-system.js';
 
-const [css, layout, runtime] = await Promise.all([
+const [css, layout, runtime, galleryProject, galleryArtifact] = await Promise.all([
   readFile(new URL('../src/styles/global.css', import.meta.url), 'utf8'),
   readFile(new URL('../src/layouts/BaseLayout.astro', import.meta.url), 'utf8'),
   readFile(new URL('../src/scripts/line-system.js', import.meta.url), 'utf8'),
+  readFile(new URL('../src/components/GalleryProject.astro', import.meta.url), 'utf8'),
+  readFile(new URL('../src/components/GalleryArtifact.astro', import.meta.url), 'utf8'),
 ]);
 
 const errors = [];
@@ -25,6 +28,34 @@ const register = (kind, spec) => {
 
 LINE_TOPOLOGY.localBoxes.forEach((spec) => register('localBoxes', spec));
 LINE_TOPOLOGY.underlines.forEach((spec) => register('underlines', spec));
+
+if (new Set(LINE_TOPOLOGY.seamGroups).size !== LINE_TOPOLOGY.seamGroups.length) {
+  errors.push('Seam group selectors must be unique.');
+}
+
+for (const [project, galleryLayout] of Object.entries(galleryLayouts)) {
+  if (!Array.isArray(galleryLayout.seams) || galleryLayout.seams.length === 0) {
+    errors.push(`Gallery layout "${project}" requires composition seams.`);
+    continue;
+  }
+  const seamKeys = new Set();
+  galleryLayout.seams.forEach((seam, index) => {
+    const key = `${seam.axis}:${seam.at}:${seam.from}:${seam.to}`;
+    if (seamKeys.has(key)) errors.push(`Gallery layout "${project}" has duplicate seam ${key}.`);
+    seamKeys.add(key);
+    if (!['horizontal', 'vertical'].includes(seam.axis)) {
+      errors.push(`Gallery layout "${project}" seam ${index + 1} has an invalid axis.`);
+    }
+    if (![seam.at, seam.from, seam.to].every(Number.isFinite) || seam.from >= seam.to) {
+      errors.push(`Gallery layout "${project}" seam ${index + 1} has invalid coordinates.`);
+    }
+    const maxAt = seam.axis === 'vertical' ? 21 : 5;
+    const maxRange = seam.axis === 'vertical' ? 5 : 21;
+    if (seam.at < 1 || seam.at > maxAt || seam.from < 1 || seam.to > maxRange) {
+      errors.push(`Gallery layout "${project}" seam ${index + 1} is outside the gallery grid.`);
+    }
+  });
+}
 
 for (const [name, token] of Object.entries(LINE_TOPOLOGY.tokens)) {
   if (!token.css || !Number.isFinite(token.width) || token.width <= 0) {
@@ -75,28 +106,34 @@ if (!runtime.includes('line-system-debug-label') || !runtime.includes('line-syst
   errors.push('The optional debug view must expose anchors, segment labels, directions, and junction status.');
 }
 
-const forbiddenStructuralRuntime = [
+const requiredStructuralRuntime = [
   'renderHomeTopology',
   'renderCaseTopology',
   'drawGroupSeams',
   'home.rail.',
   'home.grid.',
-  'home.gallery.row.',
-  'home.gallery.artifact.',
-  'home.gallery.split',
+  'home.gallery.project.',
+  'home.gallery.composition.',
   'home.header.bottom',
   'home.hero.bottom',
+  'home.work.heading.bottom',
+  'home.gallery.heading.bottom',
   'home.footer.top',
   'case.rail.',
   'case.boundary.',
   'case.header.',
   'group.${',
 ];
-for (const family of forbiddenStructuralRuntime) {
-  if (runtime.includes(family)) errors.push(`Structural scaffold family must remain disabled: ${family}`);
+for (const family of requiredStructuralRuntime) {
+  if (!runtime.includes(family)) errors.push(`Structural scaffold family is missing: ${family}`);
 }
 for (const requiredRuntime of ['renderPlatformConnectors(rootRect)', 'renderLocalLayers()', 'renderFocus()']) {
   if (!runtime.includes(requiredRuntime)) errors.push(`Functional line rendering must remain enabled: ${requiredRuntime}`);
+}
+for (const attribute of ['data-gallery-seams', 'data-gallery-column', 'data-gallery-row-span']) {
+  if (!galleryProject.includes(attribute) && !galleryArtifact.includes(attribute)) {
+    errors.push(`Gallery topology metadata is missing: ${attribute}`);
+  }
 }
 
 if (errors.length) {
@@ -105,4 +142,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`Line topology check passed (${ids.size} preserved component families; structural scaffold disabled).`);
+console.log(`Line topology check passed (${ids.size} component families, ${LINE_TOPOLOGY.seamGroups.length} case seam groups, ${Object.keys(galleryLayouts).length} gallery recipes).`);

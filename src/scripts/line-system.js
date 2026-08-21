@@ -23,6 +23,14 @@ export const LINE_TOPOLOGY = Object.freeze({
     { id: 'home-close-underline', selector: '.home-close a', token: 'current', direction: 'left-to-right' },
     { id: 'neutral-nav-underline', selector: '.site-header:not(.home-site-header):not(.system-case-header) nav a', token: 'current', direction: 'left-to-right' },
   ]),
+  seamGroups: Object.freeze([
+    '.media-stack',
+    '.media-grid',
+    '.asymmetric-grid',
+    '.global-research-media',
+    '.panw-approach-media',
+    '.verification-comparison',
+  ]),
 });
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -67,6 +75,45 @@ const relativeRect = (element, rootRect) => {
     height: rect.height,
   };
 };
+
+const relativeStructuralRect = (element, rootRect) => {
+  const rect = element.getBoundingClientRect();
+  const transform = getComputedStyle(element).transform;
+  let left = rect.left;
+  let top = rect.top;
+  let width = rect.width;
+  let height = rect.height;
+
+  if (transform && transform !== 'none') {
+    const matrix = new DOMMatrixReadOnly(transform);
+    const axisAligned = matrix.is2D
+      && Math.abs(matrix.b) < 0.0001
+      && Math.abs(matrix.c) < 0.0001
+      && Math.abs(matrix.a) > 0.0001
+      && Math.abs(matrix.d) > 0.0001;
+    if (axisAligned) {
+      width = rect.width / Math.abs(matrix.a);
+      height = rect.height / Math.abs(matrix.d);
+      const origin = getComputedStyle(element).transformOrigin.split(' ').map(Number.parseFloat);
+      const originX = Number.isFinite(origin[0]) ? origin[0] : width / 2;
+      const originY = Number.isFinite(origin[1]) ? origin[1] : height / 2;
+      left = rect.left - matrix.e - originX * (1 - matrix.a);
+      top = rect.top - matrix.f - originY * (1 - matrix.d);
+    }
+  }
+
+  return {
+    left: left - rootRect.left,
+    right: left + width - rootRect.left,
+    top: top - rootRect.top,
+    bottom: top + height - rootRect.top,
+    width,
+    height,
+  };
+};
+
+const uniqueSorted = (values) => [...new Set(values.map((value) => Math.round(value * 1000) / 1000))]
+  .sort((a, b) => a - b);
 
 const linePath = ({ id, x1, y1, x2, y2, token = 'divider', width, direction, start, end, layoutRule = false }) => {
   const strokeWidth = width ?? tokenWidth(token);
@@ -113,6 +160,10 @@ const rectPath = ({ id, width, height, radius, token, strokeWidth, direction = '
   rect.style.strokeWidth = String(lineWidth);
   return rect;
 };
+
+const directGroupChildren = (group) => [...group.children].filter((child) => (
+  child.matches('.case-figure, figure, [data-media-unit]')
+));
 
 export const initLineSystem = () => {
   const shell = document.querySelector('.page-shell');
@@ -275,6 +326,55 @@ export const initLineSystem = () => {
     }, terminalStart, terminalEnd);
   };
 
+  const drawVerticalNetwork = (group, id, x, ys, token, terminalTop = true, terminalBottom = true) => {
+    const levels = uniqueSorted(ys);
+    levels.slice(0, -1).forEach((y, index) => registerSegment(group, {
+      id: `${id}.${index + 1}`,
+      x1: x,
+      y1: y,
+      x2: x,
+      y2: levels[index + 1],
+      token,
+      direction: 'top-to-bottom',
+      start: coordinateKey(snapCoordinate(x), snapCoordinate(y)),
+      end: coordinateKey(snapCoordinate(x), snapCoordinate(levels[index + 1])),
+    }, index === 0 && terminalTop, index === levels.length - 2 && terminalBottom));
+  };
+
+  const drawGroupSeams = (group, rootRect, groupIndex) => {
+    const children = directGroupChildren(group);
+    if (children.length < 2) return;
+    const groupRect = relativeRect(group, rootRect);
+    const childRects = children.map((child) => relativeRect(child, rootRect));
+    const columns = uniqueSorted(childRects.map((rect) => rect.left));
+    const rows = uniqueSorted(childRects.map((rect) => rect.top));
+
+    columns.slice(1).forEach((x, columnIndex) => {
+      const rowBreaks = rows.filter((y) => y > groupRect.top + 0.5 && y < groupRect.bottom - 0.5);
+      drawVerticalNetwork(
+        documentRenderGroup,
+        `group.${groupIndex}.column.${columnIndex + 1}`,
+        x,
+        [groupRect.top, ...rowBreaks, groupRect.bottom],
+        'divider',
+      );
+    });
+
+    childRects.forEach((rect, childIndex) => {
+      if (rect.top <= groupRect.top + 0.5) return;
+      drawHorizontal(
+        documentRenderGroup,
+        `group.${groupIndex}.row.${childIndex + 1}`,
+        rect.left,
+        rect.right,
+        rect.top,
+        'divider',
+        true,
+        true,
+      );
+    });
+  };
+
   const renderPlatformConnectors = (rootRect) => {
     document.querySelectorAll('.platform-host').forEach((host, hostIndex) => {
       const core = host.querySelector('.platform-core');
@@ -301,6 +401,259 @@ export const initLineSystem = () => {
         }, true, true);
       });
     });
+  };
+
+  const galleryPlacements = (project, rootRect) => [...project.querySelectorAll('[data-gallery-row]')]
+    .map((element) => ({
+      element,
+      column: Number(element.dataset.galleryColumn),
+      span: Number(element.dataset.gallerySpan),
+      row: Number(element.dataset.galleryRow),
+      rowSpan: Number(element.dataset.galleryRowSpan || 1),
+      rect: relativeStructuralRect(element, rootRect),
+    }));
+
+  const galleryRowBoundary = (projectRect, placements, rowLine) => {
+    const finalRowLine = Math.max(...placements.map(({ row, rowSpan }) => row + rowSpan));
+    if (rowLine <= 1) return projectRect.top;
+    if (rowLine >= finalRowLine) return projectRect.bottom;
+    const above = placements.filter(({ row, rowSpan }) => row + rowSpan === rowLine);
+    const below = placements.filter(({ row }) => row === rowLine);
+    if (!above.length || !below.length) return null;
+    const aboveBottom = Math.max(...above.map(({ rect }) => rect.bottom));
+    const belowTop = Math.min(...below.map(({ rect }) => rect.top));
+    return aboveBottom + ((belowTop - aboveBottom) / 2);
+  };
+
+  const renderGalleryCompositionSeams = (projects, rootRect) => {
+    if (!window.matchMedia('(min-width: 1056px)').matches) return;
+    projects.forEach((project, projectIndex) => {
+      const projectRect = relativeRect(project, rootRect);
+      const placements = galleryPlacements(project, rootRect);
+      let seams = [];
+      try {
+        seams = JSON.parse(project.dataset.gallerySeams || '[]');
+      } catch {
+        seams = [];
+      }
+      const columnCoordinate = (line) => {
+        if (line <= 1) return projectRect.left;
+        if (line >= 21) return projectRect.right;
+        const before = placements.filter(({ column, span }) => column + span === line);
+        const after = placements.filter(({ column }) => column === line);
+        if (before.length && after.length) {
+          const beforeRight = Math.max(...before.map(({ rect }) => rect.right));
+          const afterLeft = Math.min(...after.map(({ rect }) => rect.left));
+          return beforeRight + ((afterLeft - beforeRight) / 2);
+        }
+        return projectRect.left + ((line - 1) / 20) * projectRect.width;
+      };
+      seams.forEach((seam, seamIndex) => {
+        const id = `home.gallery.composition.${projectIndex + 1}.${seamIndex + 1}`;
+        if (seam.axis === 'vertical') {
+          const y1 = galleryRowBoundary(projectRect, placements, seam.from);
+          const y2 = galleryRowBoundary(projectRect, placements, seam.to);
+          if (y1 === null || y2 === null || y2 <= y1) return;
+          registerSegment(documentRenderGroup, {
+            id,
+            x1: columnCoordinate(seam.at),
+            y1,
+            x2: columnCoordinate(seam.at),
+            y2,
+            token: 'home',
+            direction: 'top-to-bottom',
+          }, true, true);
+          return;
+        }
+        if (seam.axis === 'horizontal') {
+          const y = galleryRowBoundary(projectRect, placements, seam.at);
+          if (y === null) return;
+          drawHorizontal(
+            documentRenderGroup,
+            id,
+            columnCoordinate(seam.from),
+            columnCoordinate(seam.to),
+            y,
+            'home',
+            true,
+            true,
+          );
+        }
+      });
+    });
+  };
+
+  const renderHomeTopology = (rootRect) => {
+    const header = document.querySelector('.home-site-header');
+    const hero = document.querySelector('.home-hero');
+    const workHeading = document.querySelector('.home-work > .page-heading');
+    const grid = document.querySelector('[data-home-project-grid]');
+    const gallery = document.querySelector('[data-home-gallery]');
+    const galleryHeading = gallery?.querySelector(':scope > .page-heading');
+    const footer = document.querySelector('.home-site-footer');
+    if (!header || !hero || !workHeading || !grid || !gallery || !galleryHeading || !footer) return;
+
+    const headerRect = relativeRect(header, rootRect);
+    const heroRect = relativeRect(hero, rootRect);
+    const workHeadingRect = relativeRect(workHeading, rootRect);
+    const gridRect = relativeRect(grid, rootRect);
+    const galleryRect = relativeRect(gallery, rootRect);
+    const galleryHeadingRect = relativeRect(galleryHeading, rootRect);
+    const footerRect = relativeRect(footer, rootRect);
+    const projects = [...gallery.querySelectorAll('[data-gallery-project]')];
+    const projectRects = projects.map((project) => relativeRect(project, rootRect));
+    const projectSeparators = projectRects.slice(1).map((rect, index) => (
+      projectRects[index].bottom + ((rect.top - projectRects[index].bottom) / 2)
+    ));
+    const mobileCompositionLevels = window.matchMedia('(max-width: 1055px)').matches
+      ? projects.flatMap((project) => {
+        const children = [...project.querySelectorAll(':scope > [data-gallery-row]')];
+        return children.slice(1).map((child, index) => {
+          const previousRect = relativeRect(children[index], rootRect);
+          const currentRect = relativeRect(child, rootRect);
+          return previousRect.bottom + ((currentRect.top - previousRect.bottom) / 2);
+        });
+      })
+      : [];
+    const slots = [...grid.querySelectorAll('[data-home-project-slot]')];
+    const cardLevels = grid.dataset.homeLayout === 'small'
+      ? slots.slice(1).map((slot) => relativeRect(slot, rootRect).top)
+      : [3, 4, 5, 6]
+        .map((order) => grid.querySelector(`[data-home-order="${order}"]`))
+        .filter(Boolean)
+        .map((slot) => relativeRect(slot, rootRect).top);
+    const fullWidthLevels = uniqueSorted([
+      headerRect.bottom,
+      heroRect.bottom,
+      workHeadingRect.bottom,
+      gridRect.bottom,
+      galleryHeadingRect.bottom,
+      ...projectSeparators,
+      ...mobileCompositionLevels,
+      footerRect.top,
+    ]);
+    const railLevels = uniqueSorted([
+      headerRect.top,
+      ...fullWidthLevels,
+      ...cardLevels,
+      footerRect.bottom,
+    ]);
+
+    drawVerticalNetwork(documentRenderGroup, 'home.rail.left', headerRect.left, railLevels, 'home');
+    drawVerticalNetwork(
+      documentRenderGroup,
+      'home.rail.right.before-work',
+      headerRect.right,
+      uniqueSorted([headerRect.top, headerRect.bottom, heroRect.bottom, workHeadingRect.bottom]),
+      'home',
+    );
+    drawVerticalNetwork(
+      documentRenderGroup,
+      'home.rail.right.work',
+      gridRect.right,
+      uniqueSorted([workHeadingRect.bottom, ...cardLevels, gridRect.bottom]),
+      'home',
+    );
+    drawVerticalNetwork(
+      documentRenderGroup,
+      'home.rail.right.after-work',
+      headerRect.right,
+      uniqueSorted([
+        gridRect.bottom,
+        galleryHeadingRect.bottom,
+        ...projectSeparators,
+        ...mobileCompositionLevels,
+        footerRect.top,
+        footerRect.bottom,
+      ]),
+      'home',
+    );
+    drawHorizontal(documentRenderGroup, 'home.header.bottom', headerRect.left, headerRect.right, headerRect.bottom, 'home');
+    drawHorizontal(documentRenderGroup, 'home.hero.bottom', heroRect.left, heroRect.right, heroRect.bottom, 'home');
+    drawHorizontal(documentRenderGroup, 'home.work.heading.bottom', workHeadingRect.left, gridRect.right, workHeadingRect.bottom, 'home');
+    drawHorizontal(documentRenderGroup, 'home.work.bottom', gridRect.left, gridRect.right, gridRect.bottom, 'home');
+    drawHorizontal(documentRenderGroup, 'home.gallery.heading.bottom', galleryHeadingRect.left, galleryHeadingRect.right, galleryHeadingRect.bottom, 'home');
+    projectSeparators.forEach((y, index) => {
+      drawHorizontal(documentRenderGroup, `home.gallery.project.${index + 1}`, galleryRect.left, galleryRect.right, y, 'home');
+    });
+    mobileCompositionLevels.forEach((y, index) => {
+      drawHorizontal(documentRenderGroup, `home.gallery.mobile.${index + 1}`, galleryRect.left, galleryRect.right, y, 'home');
+    });
+    drawHorizontal(documentRenderGroup, 'home.footer.top', footerRect.left, footerRect.right, footerRect.top, 'home');
+
+    if (grid.dataset.homeLayout === 'small') {
+      slots.slice(1).forEach((slot, index) => {
+        const rect = relativeRect(slot, rootRect);
+        drawHorizontal(documentRenderGroup, `home.grid.row.${index + 2}`, gridRect.left, gridRect.right, rect.top, 'home');
+      });
+    } else {
+      const center = gridRect.left + gridRect.width / 2;
+      const seamRects = [3, 4, 5, 6]
+        .map((order) => grid.querySelector(`[data-home-order="${order}"]`))
+        .filter(Boolean)
+        .map((slot) => ({ order: Number(slot.dataset.homeOrder), rect: relativeRect(slot, rootRect) }));
+      drawVerticalNetwork(
+        documentRenderGroup,
+        'home.grid.center',
+        center,
+        [gridRect.top, ...seamRects.map(({ rect }) => rect.top), gridRect.bottom],
+        'home',
+      );
+      seamRects.forEach(({ order, rect }) => {
+        const left = order === 4 ? gridRect.left : center;
+        const right = order === 4 ? center : gridRect.right;
+        drawHorizontal(documentRenderGroup, `home.grid.row.${order}`, left, right, rect.top, 'home');
+      });
+    }
+
+    renderGalleryCompositionSeams(projects, rootRect);
+  };
+
+  const renderCaseTopology = (rootRect) => {
+    const caseStudy = document.querySelector('.case-study');
+    const footer = document.querySelector('.site-footer');
+    const header = document.querySelector('.system-case-header');
+    if (!caseStudy || !footer || !header) return;
+    const caseRect = relativeRect(caseStudy, rootRect);
+    const footerRect = relativeRect(footer, rootRect);
+    const boundaryElements = [
+      caseStudy.querySelector(':scope > .case-hero'),
+      caseStudy.querySelector(':scope > .hero-figure'),
+      caseStudy.querySelector(':scope > .case-intro'),
+      ...caseStudy.querySelectorAll(':scope > .case-meta > div'),
+      ...caseStudy.querySelectorAll(':scope > .case-body > * + *'),
+      caseStudy.querySelector(':scope > .case-navigation'),
+    ].filter(Boolean);
+    const horizontal = boundaryElements.map((element) => {
+      const rect = relativeStructuralRect(element, rootRect);
+      return element.parentElement?.classList.contains('case-body') ? rect.top : rect.bottom;
+    });
+    const levels = uniqueSorted([caseRect.top, ...horizontal, footerRect.bottom]);
+    drawVerticalNetwork(documentRenderGroup, 'case.rail.left', caseRect.left, levels, 'divider');
+    drawVerticalNetwork(documentRenderGroup, 'case.rail.right', caseRect.right, levels, 'divider');
+    uniqueSorted(horizontal).forEach((y, index) => {
+      drawHorizontal(documentRenderGroup, `case.boundary.${index + 1}`, caseRect.left, caseRect.right, y, 'divider');
+    });
+
+    const headerLayer = ensureLocalLayer(header, 'header');
+    const width = header.clientWidth;
+    const height = header.clientHeight;
+    const headerSignature = `${width}:${height}`;
+    if (headerLayer.signature !== headerSignature) {
+      replaceLayerChildren(
+        headerLayer,
+        headerSignature,
+        linePath({ id: 'case.header.left', x1: 0, y1: 0, x2: 0, y2: height, token: 'divider', direction: 'top-to-bottom', layoutRule: true }).path,
+        linePath({ id: 'case.header.right', x1: width, y1: 0, x2: width, y2: height, token: 'divider', direction: 'top-to-bottom', layoutRule: true }).path,
+        linePath({ id: 'case.header.bottom', x1: 0, y1: height, x2: width, y2: height, token: 'divider', direction: 'left-to-right', layoutRule: true }).path,
+      );
+    }
+    headerLayer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+
+    const seamNodes = [...new Set(LINE_TOPOLOGY.seamGroups.flatMap((selector) => (
+      [...document.querySelectorAll(selector)]
+    )))];
+    seamNodes.forEach((group, index) => drawGroupSeams(group, rootRect, index + 1));
   };
 
   const renderLocalLayers = () => {
@@ -438,6 +791,8 @@ export const initLineSystem = () => {
       .filter((element) => !element.classList.contains('line-system-layer'))
       .reduce((maximum, element) => Math.max(maximum, element.getBoundingClientRect().bottom - rootRect.top), 0);
     const height = Math.max(shell.clientHeight, contentHeight);
+    if (document.documentElement.dataset.homeSystem === 'true') renderHomeTopology(rootRect);
+    if (document.documentElement.dataset.caseSystem === 'true') renderCaseTopology(rootRect);
     renderPlatformConnectors(rootRect);
     renderLocalLayers();
     renderFocus();
