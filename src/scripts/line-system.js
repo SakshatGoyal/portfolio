@@ -76,39 +76,105 @@ const relativeRect = (element, rootRect) => {
   };
 };
 
-const relativeStructuralRect = (element, rootRect) => {
-  const rect = element.getBoundingClientRect();
-  const transform = getComputedStyle(element).transform;
-  let left = rect.left;
-  let top = rect.top;
-  let width = rect.width;
-  let height = rect.height;
+const layoutDocumentOffset = (element) => {
+  let left = 0;
+  let top = 0;
+  let current = element;
+  while (current instanceof HTMLElement) {
+    left += current.offsetLeft;
+    top += current.offsetTop;
+    current = current.offsetParent;
+  }
+  return { left, top };
+};
 
-  if (transform && transform !== 'none') {
-    const matrix = new DOMMatrixReadOnly(transform);
-    const axisAligned = matrix.is2D
-      && Math.abs(matrix.b) < 0.0001
-      && Math.abs(matrix.c) < 0.0001
-      && Math.abs(matrix.a) > 0.0001
-      && Math.abs(matrix.d) > 0.0001;
-    if (axisAligned) {
-      width = rect.width / Math.abs(matrix.a);
-      height = rect.height / Math.abs(matrix.d);
-      const origin = getComputedStyle(element).transformOrigin.split(' ').map(Number.parseFloat);
-      const originX = Number.isFinite(origin[0]) ? origin[0] : width / 2;
-      const originY = Number.isFinite(origin[1]) ? origin[1] : height / 2;
-      left = rect.left - matrix.e - originX * (1 - matrix.a);
-      top = rect.top - matrix.f - originY * (1 - matrix.d);
+const invertAxisAlignedRect = (rect, transform) => {
+  const invertX = (value) => transform.left + transform.originX
+    + ((value - transform.left - transform.originX - transform.matrix.e) / transform.matrix.a);
+  const invertY = (value) => transform.top + transform.originY
+    + ((value - transform.top - transform.originY - transform.matrix.f) / transform.matrix.d);
+  const x1 = invertX(rect.left);
+  const x2 = invertX(rect.right);
+  const y1 = invertY(rect.top);
+  const y2 = invertY(rect.bottom);
+  return {
+    left: Math.min(x1, x2),
+    right: Math.max(x1, x2),
+    top: Math.min(y1, y2),
+    bottom: Math.max(y1, y2),
+    width: Math.abs(x2 - x1),
+    height: Math.abs(y2 - y1),
+  };
+};
+
+const offsetStructuralRect = (element, rootElement) => {
+  const elementOffset = layoutDocumentOffset(element);
+  const rootOffset = layoutDocumentOffset(rootElement);
+  const left = elementOffset.left - rootOffset.left;
+  const top = elementOffset.top - rootOffset.top;
+  const width = element.offsetWidth;
+  const height = element.offsetHeight;
+  return { left, right: left + width, top, bottom: top + height, width, height };
+};
+
+// Structural topology belongs to layout space, not the visual space produced by
+// entrance transforms. Axis-aligned transforms are removed with their exact
+// subpixel geometry; offset-parent coordinates are the safe fallback.
+const relativeStructuralRect = (element, rootElement, fallbackRootRect) => {
+  if (!(element instanceof HTMLElement) || !(rootElement instanceof HTMLElement)) {
+    return relativeRect(element, fallbackRootRect);
+  }
+  const transformed = [];
+  let current = element;
+  while (current instanceof HTMLElement && current !== rootElement) {
+    const transform = getComputedStyle(current).transform;
+    if (transform && transform !== 'none') {
+      const matrix = new DOMMatrixReadOnly(transform);
+      const axisAligned = matrix.is2D
+        && Math.abs(matrix.b) < 0.0001
+        && Math.abs(matrix.c) < 0.0001
+        && Math.abs(matrix.a) > 0.0001
+        && Math.abs(matrix.d) > 0.0001;
+      if (!axisAligned) return offsetStructuralRect(element, rootElement);
+      const identity = Math.abs(matrix.a - 1) < 0.0001
+        && Math.abs(matrix.d - 1) < 0.0001
+        && Math.abs(matrix.e) < 0.0001
+        && Math.abs(matrix.f) < 0.0001;
+      if (!identity) transformed.push({ element: current, matrix });
     }
+    current = current.parentElement;
   }
 
+  let rect = element.getBoundingClientRect();
+  const applied = [];
+  transformed.reverse().forEach(({ element: transformedElement, matrix }) => {
+    let transformedRect = transformedElement.getBoundingClientRect();
+    applied.forEach((outerTransform) => {
+      transformedRect = invertAxisAlignedRect(transformedRect, outerTransform);
+    });
+    const width = transformedRect.width / Math.abs(matrix.a);
+    const height = transformedRect.height / Math.abs(matrix.d);
+    const origin = getComputedStyle(transformedElement).transformOrigin.split(' ').map(Number.parseFloat);
+    const originX = Number.isFinite(origin[0]) ? origin[0] : width / 2;
+    const originY = Number.isFinite(origin[1]) ? origin[1] : height / 2;
+    const transformContext = {
+      matrix,
+      originX,
+      originY,
+      left: transformedRect.left - matrix.e - originX * (1 - matrix.a),
+      top: transformedRect.top - matrix.f - originY * (1 - matrix.d),
+    };
+    rect = invertAxisAlignedRect(rect, transformContext);
+    applied.push(transformContext);
+  });
+
   return {
-    left: left - rootRect.left,
-    right: left + width - rootRect.left,
-    top: top - rootRect.top,
-    bottom: top + height - rootRect.top,
-    width,
-    height,
+    left: rect.left - fallbackRootRect.left,
+    right: rect.right - fallbackRootRect.left,
+    top: rect.top - fallbackRootRect.top,
+    bottom: rect.bottom - fallbackRootRect.top,
+    width: rect.width,
+    height: rect.height,
   };
 };
 
@@ -403,14 +469,14 @@ export const initLineSystem = () => {
     });
   };
 
-  const galleryPlacements = (project, rootRect) => [...project.querySelectorAll('[data-gallery-row]')]
+  const galleryPlacements = (project, rootElement, rootRect) => [...project.querySelectorAll('[data-gallery-row]')]
     .map((element) => ({
       element,
       column: Number(element.dataset.galleryColumn),
       span: Number(element.dataset.gallerySpan),
       row: Number(element.dataset.galleryRow),
       rowSpan: Number(element.dataset.galleryRowSpan || 1),
-      rect: relativeStructuralRect(element, rootRect),
+      rect: relativeStructuralRect(element, rootElement, rootRect),
     }));
 
   const galleryRowBoundary = (projectRect, placements, rowLine) => {
@@ -425,11 +491,13 @@ export const initLineSystem = () => {
     return aboveBottom + ((belowTop - aboveBottom) / 2);
   };
 
-  const renderGalleryCompositionSeams = (projects, rootRect) => {
-    if (!window.matchMedia('(min-width: 1056px)').matches) return;
+  const renderGalleryCompositionSeams = (projects, rootElement, rootRect, projectSeparators) => {
+    const separatorJunctions = projectSeparators.map(() => []);
+    if (!window.matchMedia('(min-width: 1056px)').matches) return separatorJunctions;
     projects.forEach((project, projectIndex) => {
       const projectRect = relativeRect(project, rootRect);
-      const placements = galleryPlacements(project, rootRect);
+      const placements = galleryPlacements(project, rootElement, rootRect);
+      const finalRowLine = Math.max(...placements.map(({ row, rowSpan }) => row + rowSpan));
       let seams = [];
       try {
         seams = JSON.parse(project.dataset.gallerySeams || '[]');
@@ -448,39 +516,90 @@ export const initLineSystem = () => {
         }
         return projectRect.left + ((line - 1) / 20) * projectRect.width;
       };
+      const verticals = [];
+      const horizontals = [];
       seams.forEach((seam, seamIndex) => {
         const id = `home.gallery.composition.${projectIndex + 1}.${seamIndex + 1}`;
         if (seam.axis === 'vertical') {
-          const y1 = galleryRowBoundary(projectRect, placements, seam.from);
-          const y2 = galleryRowBoundary(projectRect, placements, seam.to);
+          const x = columnCoordinate(seam.at);
+          const connectsPrevious = seam.from <= 1 && projectIndex > 0;
+          const connectsNext = seam.to >= finalRowLine && projectIndex < projectSeparators.length;
+          const y1 = connectsPrevious
+            ? projectSeparators[projectIndex - 1]
+            : galleryRowBoundary(projectRect, placements, seam.from);
+          const y2 = connectsNext
+            ? projectSeparators[projectIndex]
+            : galleryRowBoundary(projectRect, placements, seam.to);
           if (y1 === null || y2 === null || y2 <= y1) return;
-          registerSegment(documentRenderGroup, {
-            id,
-            x1: columnCoordinate(seam.at),
-            y1,
-            x2: columnCoordinate(seam.at),
-            y2,
-            token: 'home',
-            direction: 'top-to-bottom',
-          }, true, true);
+          if (connectsPrevious) separatorJunctions[projectIndex - 1].push(x);
+          if (connectsNext) separatorJunctions[projectIndex].push(x);
+          verticals.push({
+            id, x, y1, y2,
+            terminalStart: seam.from <= 1 && projectIndex === 0,
+            terminalEnd: seam.to >= finalRowLine && projectIndex === projects.length - 1,
+          });
           return;
         }
         if (seam.axis === 'horizontal') {
           const y = galleryRowBoundary(projectRect, placements, seam.at);
           if (y === null) return;
-          drawHorizontal(
-            documentRenderGroup,
+          horizontals.push({
             id,
-            columnCoordinate(seam.from),
-            columnCoordinate(seam.to),
+            x1: columnCoordinate(seam.from),
+            x2: columnCoordinate(seam.to),
             y,
-            'home',
-            true,
-            true,
-          );
+            terminalStart: seam.from <= 1,
+            terminalEnd: seam.to >= 21,
+          });
         }
       });
+
+      verticals.forEach((vertical) => {
+        const levels = uniqueSorted([
+          vertical.y1,
+          ...horizontals
+            .filter((horizontal) => horizontal.y > vertical.y1 && horizontal.y < vertical.y2
+              && vertical.x >= horizontal.x1 && vertical.x <= horizontal.x2)
+            .map((horizontal) => horizontal.y),
+          vertical.y2,
+        ]);
+        levels.slice(0, -1).forEach((y, index) => {
+          registerSegment(documentRenderGroup, {
+            id: `${vertical.id}.${index + 1}`,
+            x1: vertical.x,
+            y1: y,
+            x2: vertical.x,
+            y2: levels[index + 1],
+            token: 'home',
+            direction: 'top-to-bottom',
+          }, index === 0 && vertical.terminalStart, index === levels.length - 2 && vertical.terminalEnd);
+        });
+      });
+
+      horizontals.forEach((horizontal) => {
+        const levels = uniqueSorted([
+          horizontal.x1,
+          ...verticals
+            .filter((vertical) => vertical.x > horizontal.x1 && vertical.x < horizontal.x2
+              && horizontal.y >= vertical.y1 && horizontal.y <= vertical.y2)
+            .map((vertical) => vertical.x),
+          horizontal.x2,
+        ]);
+        levels.slice(0, -1).forEach((x, index) => {
+          drawHorizontal(
+            documentRenderGroup,
+            `${horizontal.id}.${index + 1}`,
+            x,
+            levels[index + 1],
+            horizontal.y,
+            'home',
+            index === 0 && horizontal.terminalStart,
+            index === levels.length - 2 && horizontal.terminalEnd,
+          );
+        });
+      });
     });
+    return separatorJunctions;
   };
 
   const renderHomeTopology = (rootRect) => {
@@ -573,9 +692,6 @@ export const initLineSystem = () => {
     drawHorizontal(documentRenderGroup, 'home.work.heading.bottom', workHeadingRect.left, gridRect.right, workHeadingRect.bottom, 'home');
     drawHorizontal(documentRenderGroup, 'home.work.bottom', gridRect.left, gridRect.right, gridRect.bottom, 'home');
     drawHorizontal(documentRenderGroup, 'home.gallery.heading.bottom', galleryHeadingRect.left, galleryHeadingRect.right, galleryHeadingRect.bottom, 'home');
-    projectSeparators.forEach((y, index) => {
-      drawHorizontal(documentRenderGroup, `home.gallery.project.${index + 1}`, galleryRect.left, galleryRect.right, y, 'home');
-    });
     mobileCompositionLevels.forEach((y, index) => {
       drawHorizontal(documentRenderGroup, `home.gallery.mobile.${index + 1}`, galleryRect.left, galleryRect.right, y, 'home');
     });
@@ -606,7 +722,26 @@ export const initLineSystem = () => {
       });
     }
 
-    renderGalleryCompositionSeams(projects, rootRect);
+    const separatorJunctions = renderGalleryCompositionSeams(projects, shell, rootRect, projectSeparators);
+    projectSeparators.forEach((y, index) => {
+      const junctions = uniqueSorted([
+        galleryRect.left,
+        ...separatorJunctions[index],
+        galleryRect.right,
+      ]);
+      junctions.slice(0, -1).forEach((x, segmentIndex) => {
+        drawHorizontal(
+          documentRenderGroup,
+          `home.gallery.project.${index + 1}.${segmentIndex + 1}`,
+          x,
+          junctions[segmentIndex + 1],
+          y,
+          'home',
+          false,
+          false,
+        );
+      });
+    });
   };
 
   const renderCaseTopology = (rootRect) => {
@@ -625,7 +760,7 @@ export const initLineSystem = () => {
       caseStudy.querySelector(':scope > .case-navigation'),
     ].filter(Boolean);
     const horizontal = boundaryElements.map((element) => {
-      const rect = relativeStructuralRect(element, rootRect);
+      const rect = relativeStructuralRect(element, shell, rootRect);
       return element.parentElement?.classList.contains('case-body') ? rect.top : rect.bottom;
     });
     const levels = uniqueSorted([caseRect.top, ...horizontal, footerRect.bottom]);
@@ -875,6 +1010,14 @@ export const initLineSystem = () => {
   document.addEventListener('loadedmetadata', scheduleRender, true);
   document.addEventListener('mediachange', (event) => {
     if (!(event instanceof CustomEvent) || event.detail?.geometryChanged !== false) scheduleRender();
+  });
+  document.addEventListener('linegeometrychange', (event) => {
+    if (!(event instanceof CustomEvent)) return;
+    if (event.detail?.phase !== 'complete') {
+      scheduleRender();
+      return;
+    }
+    requestAnimationFrame(() => requestAnimationFrame(scheduleRender));
   });
   document.addEventListener('focusin', (event) => {
     focusedElement = event.target instanceof HTMLElement ? event.target : null;

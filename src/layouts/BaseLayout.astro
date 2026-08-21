@@ -29,7 +29,7 @@ const isHomeSystem = Astro.url.pathname === '/';
     <script is:inline>
       document.documentElement.classList.add('js');
     </script>
-    <noscript><style>[data-media-caption] { visibility: visible !important; }</style></noscript>
+    <noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>
   </head>
   <body id="top">
     <div class="page-shell">

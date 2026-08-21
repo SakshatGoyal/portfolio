@@ -9,6 +9,6 @@ const { title, level = 'h1', caseStudy = false } = Astro.props;
 const Heading = level;
 ---
 
-<header class:list={['page-heading', { 'case-hero': caseStudy }]} data-reveal>
-  <Heading>{title}</Heading>
+<header class:list={['page-heading', { 'case-hero': caseStudy }]}>
+  <Heading data-line-mask aria-label={title} style="visibility: hidden;">{title}</Heading>
 </header>

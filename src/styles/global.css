@@ -547,6 +547,23 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   letter-spacing: 0;
   text-wrap: wrap;
 }
+.js [data-line-mask]:not(.line-mask-ready) { visibility: hidden; }
+.line-mask-probe { display: inline; }
+.line-mask-word { display: inline-block; }
+.line-mask-line {
+  display: block;
+  overflow: hidden;
+}
+.line-mask-line-inner {
+  display: block;
+  transform: translateY(100%);
+}
+.line-mask-active .line-mask-line-inner {
+  transform: translateY(0);
+  transition: transform 284ms var(--celebratory-ease-out);
+  transition-delay: var(--line-mask-delay, 0ms);
+}
+.line-mask-played .line-mask-line-inner { transition: none; }
 @media (min-width: 672px) {
   .page-heading {
     grid-template-columns: repeat(8, minmax(0, 1fr));

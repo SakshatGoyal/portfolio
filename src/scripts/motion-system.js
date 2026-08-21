@@ -157,7 +157,6 @@ const initBodyReveals = (reduceMotion) => {
 
   document.querySelectorAll([
     '.home-bio',
-    '.page-heading > :is(h1, h2)',
     '.home-project-copy',
     '.home-project-meta',
     '.gallery-project-info',
@@ -174,7 +173,14 @@ const initBodyReveals = (reduceMotion) => {
 
   document.documentElement.dataset.bodyMotionReady = 'true';
   if (reduceMotion) {
-    entries.forEach(({ element }) => element.classList.add('body-reveal-active'));
+    entries.forEach(({ element }) => {
+      element.classList.add('body-reveal-active');
+      element.dataset.bodyRevealComplete = 'true';
+      element.dispatchEvent(new CustomEvent('linegeometrychange', {
+        bubbles: true,
+        detail: { source: 'body-reveal', phase: 'complete' },
+      }));
+    });
     return;
   }
 
@@ -182,11 +188,131 @@ const initBodyReveals = (reduceMotion) => {
     observed.filter((entry) => entry.isIntersecting)
       .forEach((entry) => {
         entry.target.classList.add('body-reveal-active');
-        entry.target.dataset.bodyRevealComplete = 'true';
+        entry.target.dispatchEvent(new CustomEvent('linegeometrychange', {
+          bubbles: true,
+          detail: { source: 'body-reveal', phase: 'start' },
+        }));
+        const completeReveal = (event) => {
+          if (event.target !== entry.target || event.animationName !== 'text-block-in') return;
+          entry.target.removeEventListener('animationend', completeReveal);
+          entry.target.dataset.bodyRevealComplete = 'true';
+          entry.target.dispatchEvent(new CustomEvent('linegeometrychange', {
+            bubbles: true,
+            detail: { source: 'body-reveal', phase: 'complete' },
+          }));
+        };
+        entry.target.addEventListener('animationend', completeReveal);
         observer.unobserve(entry.target);
       });
   }, { rootMargin: '0px 0px -12% 0px', threshold: 0.12 });
   entries.forEach(({ element }) => observer.observe(element));
+};
+
+const initLineMaskHeadings = (reduceMotion) => {
+  const headings = [...document.querySelectorAll('[data-line-mask]')];
+  headings.forEach((heading) => {
+    heading.dataset.lineMaskText = heading.textContent?.trim() || '';
+  });
+
+  const emitGeometryChange = (heading, phase) => {
+    heading.dispatchEvent(new CustomEvent('linegeometrychange', {
+      bubbles: true,
+      detail: { source: 'line-mask', phase },
+    }));
+  };
+
+  if (reduceMotion) {
+    headings.forEach((heading) => {
+      heading.classList.add('line-mask-ready', 'line-mask-active', 'line-mask-played');
+      heading.style.removeProperty('visibility');
+      emitGeometryChange(heading, 'complete');
+    });
+    return;
+  }
+
+  const renderHeading = (heading, animate = true) => {
+    const text = heading.dataset.lineMaskText || '';
+    const words = text.split(/\s+/).filter(Boolean);
+    if (!words.length) {
+      heading.classList.add('line-mask-ready');
+      heading.style.removeProperty('visibility');
+      emitGeometryChange(heading, 'complete');
+      return;
+    }
+
+    heading.classList.remove('line-mask-ready', 'line-mask-active', 'line-mask-played');
+    const probe = document.createElement('span');
+    probe.className = 'line-mask-probe';
+    words.forEach((word, index) => {
+      if (index) probe.append(document.createTextNode(' '));
+      const wordElement = document.createElement('span');
+      wordElement.className = 'line-mask-word';
+      wordElement.textContent = word;
+      probe.append(wordElement);
+    });
+    heading.replaceChildren(probe);
+
+    const lines = [];
+    probe.querySelectorAll('.line-mask-word').forEach((wordElement) => {
+      const top = Math.round(wordElement.getBoundingClientRect().top * 10) / 10;
+      const current = lines.at(-1);
+      if (!current || Math.abs(current.top - top) > 1) lines.push({ top, words: [wordElement.textContent] });
+      else current.words.push(wordElement.textContent);
+    });
+
+    const fragment = document.createDocumentFragment();
+    lines.forEach((line, index) => {
+      const mask = document.createElement('span');
+      mask.className = 'line-mask-line';
+      mask.setAttribute('aria-hidden', 'true');
+      const inner = document.createElement('span');
+      inner.className = 'line-mask-line-inner';
+      inner.style.setProperty('--line-mask-delay', `${index * 80}ms`);
+      inner.textContent = line.words.join(' ');
+      mask.append(inner);
+      fragment.append(mask);
+    });
+    heading.replaceChildren(fragment);
+    heading.classList.add('line-mask-ready');
+    heading.style.removeProperty('visibility');
+    emitGeometryChange(heading, 'ready');
+
+    if (!animate) {
+      heading.classList.add('line-mask-active', 'line-mask-played');
+      emitGeometryChange(heading, 'complete');
+      return;
+    }
+
+    const play = () => {
+      window.setTimeout(() => {
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+          heading.classList.add('line-mask-active');
+          emitGeometryChange(heading, 'start');
+          window.setTimeout(() => {
+            heading.classList.add('line-mask-played');
+            emitGeometryChange(heading, 'complete');
+          }, 284 + Math.max(0, lines.length - 1) * 80);
+        }));
+      }, 120);
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      if (!entries.some((entry) => entry.isIntersecting)) return;
+      observer.disconnect();
+      play();
+    }, { threshold: 0.2 });
+    observer.observe(heading);
+  };
+
+  document.fonts.ready.then(() => headings.forEach((heading) => renderHeading(heading)));
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(() => {
+      if (!headings.every((heading) => heading.classList.contains('line-mask-played'))) return;
+      headings.forEach((heading) => renderHeading(heading, false));
+    }, 120);
+  }, { passive: true });
 };
 
 const initTapeLabels = () => {
@@ -299,6 +425,7 @@ export const initMotionSystem = () => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   initTapeLabels();
   initCaptionLabels();
+  initLineMaskHeadings(reduceMotion);
   initBodyReveals(reduceMotion);
   initMediaReveals(reduceMotion);
 };
