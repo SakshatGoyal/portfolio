@@ -410,8 +410,8 @@ export const initLineSystem = () => {
   const drawGroupSeams = (group, rootRect, groupIndex) => {
     const children = directGroupChildren(group);
     if (children.length < 2) return;
-    const groupRect = relativeRect(group, rootRect);
-    const childRects = children.map((child) => relativeRect(child, rootRect));
+    const groupRect = relativeStructuralRect(group, shell, rootRect);
+    const childRects = children.map((child) => relativeStructuralRect(child, shell, rootRect));
     const columns = uniqueSorted(childRects.map((rect) => rect.left));
     const rows = uniqueSorted(childRects.map((rect) => rect.top));
 
@@ -1031,6 +1031,8 @@ export const initLineSystem = () => {
   window.addEventListener('resize', scheduleRender, { passive: true });
   window.addEventListener('scroll', renderFocus, { passive: true });
   document.fonts?.ready.then(scheduleRender);
+  document.fonts?.addEventListener('loadingdone', scheduleRender);
+  document.fonts?.addEventListener('loadingerror', scheduleRender);
 
   document.querySelectorAll('svg:not(.line-system-layer)').forEach((svg, svgIndex) => {
     svg.querySelectorAll('path, line, circle, rect').forEach((shape, shapeIndex) => {

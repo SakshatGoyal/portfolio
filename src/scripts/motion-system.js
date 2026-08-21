@@ -163,7 +163,7 @@ const initBodyReveals = (reduceMotion) => {
     '.case-intro',
     '.case-meta',
     '.case-section',
-    '.takeaway-card',
+    '.takeaway-card-content',
     '.metric',
     '.metric-tooltip',
     '.platform-core',
