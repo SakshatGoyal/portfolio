@@ -1,8 +1,7 @@
 /**
  * @typedef {{ id: string, type: 'image' | 'video', src: string, poster?: string, width: number, height: number }} GalleryArtifact
  * @typedef {{ column: number, span: number, row: number, rowSpan?: number }} GalleryPlacement
- * @typedef {{ axis: 'horizontal' | 'vertical', at: number, from: number, to: number }} GallerySeam
- * @typedef {{ info: GalleryPlacement, artifacts: Readonly<Record<string, GalleryPlacement>>, seams: GallerySeam[] }} GalleryLayout
+ * @typedef {{ info: GalleryPlacement, artifacts: Readonly<Record<string, GalleryPlacement>> }} GalleryLayout
  * @typedef {{ title: string, year: string, paragraphs: string[], media: GalleryArtifact[], layout: GalleryLayout }} GalleryProject
  */
 
@@ -61,25 +60,20 @@ export const galleryMedia = Object.freeze({
 });
 
 const place = (column, span, row, rowSpan = 1) => ({ column, span, row, rowSpan });
-const verticalSeam = (at, from, to) => ({ axis: 'vertical', at, from, to });
-const horizontalSeam = (at, from, to) => ({ axis: 'horizontal', at, from, to });
 
 /** @type {Readonly<Record<string, GalleryLayout>>} */
 export const galleryLayouts = Object.freeze({
   'Sales Workbench, Palo Alto Networks.': {
     info: place(13, 8, 1),
     artifacts: { 'panw-workbench': place(1, 12, 1) },
-    seams: [verticalSeam(13, 1, 2)],
   },
   'Platform Redesign, Luminoso': {
     info: place(1, 8, 1),
     artifacts: { 'luminoso-00': place(9, 12, 1) },
-    seams: [verticalSeam(9, 1, 2)],
   },
   'Event Experiences, HBS AI Institute': {
     info: place(13, 8, 1),
     artifacts: { 'hbs-leading-with-ai-00': place(1, 12, 1) },
-    seams: [verticalSeam(13, 1, 2)],
   },
   'Researcher Outreach Service, HBS AI Institute': {
     info: place(1, 8, 1),
@@ -87,7 +81,6 @@ export const galleryLayouts = Object.freeze({
       'hbs-faculty-platform-00': place(9, 12, 1),
       'hbs-faculty-platform-01': place(1, 20, 2),
     },
-    seams: [verticalSeam(9, 1, 2), horizontalSeam(2, 1, 21)],
   },
   'Onboarding Redesign, Cisco Panoptica': {
     info: place(11, 10, 1),
@@ -95,7 +88,6 @@ export const galleryLayouts = Object.freeze({
       'panoptica-00': place(1, 10, 1),
       'panoptica-01': place(1, 20, 2),
     },
-    seams: [verticalSeam(11, 1, 2), horizontalSeam(2, 1, 21)],
   },
   'Platform Redesign, Cisco Ready': {
     info: place(1, 10, 1),
@@ -104,16 +96,10 @@ export const galleryLayouts = Object.freeze({
       'cready-redesign-01': place(11, 10, 1),
       'cready-redesign-02': place(1, 15, 2),
     },
-    seams: [
-      verticalSeam(11, 1, 2),
-      horizontalSeam(2, 1, 21),
-      verticalSeam(16, 2, 3),
-    ],
   },
   'NLP Experiences, Cisco Ready': {
     info: place(11, 10, 1),
     artifacts: { 'cisco-ready-ai-00': place(1, 10, 1) },
-    seams: [verticalSeam(11, 1, 2)],
   },
   'Trebuchet Trials, Microsoft Hacking STEM': {
     info: place(9, 12, 1),
@@ -123,12 +109,6 @@ export const galleryLayouts = Object.freeze({
       'trebuchet-trials-02': place(16, 5, 2),
       'trebuchet-trials-03': place(16, 5, 3),
     },
-    seams: [
-      verticalSeam(9, 1, 2),
-      horizontalSeam(2, 1, 21),
-      verticalSeam(16, 2, 4),
-      horizontalSeam(3, 16, 21),
-    ],
   },
   'Wexel, Premera Blue Cross': {
     info: place(1, 8, 1),
@@ -140,13 +120,6 @@ export const galleryLayouts = Object.freeze({
       'wexel-04': place(13, 8, 3),
       'wexel-05': place(13, 8, 4),
     },
-    seams: [
-      verticalSeam(9, 1, 3),
-      horizontalSeam(2, 1, 21),
-      horizontalSeam(3, 1, 21),
-      verticalSeam(13, 3, 5),
-      horizontalSeam(4, 13, 21),
-    ],
   },
 });
 

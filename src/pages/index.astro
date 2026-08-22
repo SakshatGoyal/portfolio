@@ -91,38 +91,40 @@ const projects = [
 
   <section class="home-work" id="work">
     <PageHeading title="Selected Work" level="h2" />
-    <div class="home-project-grid" data-home-project-grid data-home-layout="small">
-      {projects.map((project, index) => (
-        <div class="home-project-slot" data-home-project-slot data-home-order={project.order}>
-          <a class:list={['home-project-card', project.className]} href={project.href} aria-label={`View ${project.title}`} style={`--home-order: ${project.order}`} data-home-order={project.order} data-project-tile data-reveal>
-            <div class="home-project-copy">
-              <h3 class="home-tape-label" data-tape-label data-tape-delay="0">{project.title}</h3>
-            </div>
-            <div class="home-project-meta">
-              <span class="home-project-client home-tape-label" data-tape-label data-tape-delay="75">{project.company}</span>
-              <span class="home-project-meta-separator" aria-hidden="true">・</span>
-              <time class="home-project-year home-tape-label" data-tape-label data-tape-delay="150">{project.year}</time>
-            </div>
-            {project.video ? (
-              <div class="home-project-media" data-media-reveal>
-                <span class="media-reveal-clip" data-media-reveal-clip>
-                  <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise>
-                    <video src={project.video} poster={project.poster} style={`--video-poster-image: url('${project.poster}')`} aria-label={project.title} muted loop playsinline preload="metadata" data-home-autoplay-on-view></video>
-                  </span>
-                </span>
+    <div class="home-project-scroller">
+      <div class="home-project-grid" data-home-project-grid data-home-layout="small">
+        {projects.map((project, index) => (
+          <div class="home-project-slot" data-home-project-slot data-home-order={project.order}>
+            <a class:list={['home-project-card', project.className]} href={project.href} aria-label={`View ${project.title}`} style={`--home-order: ${project.order}`} data-home-order={project.order} data-project-tile data-reveal>
+              <div class="home-project-copy">
+                <h3 class="home-tape-label" data-tape-label data-tape-delay="0">{project.title}</h3>
               </div>
-            ) : (
-              <div class="home-project-media" data-media-reveal>
-                <span class="media-reveal-clip" data-media-reveal-clip>
-                  <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise>
-                    <img src={project.image} alt={project.title} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
-                  </span>
-                </span>
+              <div class="home-project-meta">
+                <span class="home-project-client home-tape-label" data-tape-label data-tape-delay="75">{project.company}</span>
+                <span class="home-project-meta-separator" aria-hidden="true">・</span>
+                <time class="home-project-year home-tape-label" data-tape-label data-tape-delay="150">{project.year}</time>
               </div>
-            )}
-          </a>
-        </div>
-      ))}
+              {project.video ? (
+                <div class="home-project-media" data-media-reveal>
+                  <span class="media-reveal-clip" data-media-reveal-clip>
+                    <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise data-asset-surface>
+                      <video src={project.video} poster={project.poster} style={`--video-poster-image: url('${project.poster}')`} aria-label={project.title} muted loop playsinline preload="metadata" data-home-autoplay-on-view></video>
+                    </span>
+                  </span>
+                </div>
+              ) : (
+                <div class="home-project-media" data-media-reveal>
+                  <span class="media-reveal-clip" data-media-reveal-clip>
+                    <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise data-asset-surface>
+                      <img src={project.image} alt={project.title} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+                    </span>
+                  </span>
+                </div>
+              )}
+            </a>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -246,31 +248,70 @@ const projects = [
       });
     }
 
-    const homeSections = ['about', 'work', 'gallery']
+    const homeSections = ['about', 'work', 'gallery', 'contact']
       .map((id) => document.getElementById(id))
       .filter(Boolean);
     const homeSectionLinks = [...document.querySelectorAll('[data-home-section-link]')];
     let sectionStateFrame = 0;
-    const syncHomeSectionState = () => {
-      sectionStateFrame = 0;
-      const readingLine = window.scrollY + (window.innerHeight * 0.25);
-      const activeSection = homeSections.reduce((active, section) => (
-        section.offsetTop <= readingLine ? section : active
-      ), homeSections[0]);
+    let sectionStateTimer = 0;
+    let lockedSectionId = homeSections.some((section) => `#${section.id}` === location.hash)
+      ? location.hash.slice(1)
+      : '';
+    const setHomeSectionState = (sectionId) => {
       homeSectionLinks.forEach((link) => {
-        const active = link.dataset.homeSectionLink === activeSection?.id;
+        const active = link.dataset.homeSectionLink === sectionId;
         link.classList.toggle('active', active);
         if (active) link.setAttribute('aria-current', 'location');
         else link.removeAttribute('aria-current');
       });
     };
-    const queueHomeSectionState = () => {
-      if (sectionStateFrame) return;
-      sectionStateFrame = requestAnimationFrame(syncHomeSectionState);
+    const syncHomeSectionState = () => {
+      sectionStateFrame = 0;
+      const readingLine = window.scrollY + (window.innerHeight * 0.25);
+      const atDocumentEnd = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2;
+      const contactSection = homeSections.at(-1);
+      const contactRect = contactSection?.getBoundingClientRect();
+      const contactIsVisible = Boolean(contactRect && contactRect.top < window.innerHeight && contactRect.bottom > 0);
+      const activeSection = homeSections.find((section) => section.id === lockedSectionId)
+        || (atDocumentEnd || contactIsVisible
+          ? homeSections.at(-1)
+          : homeSections.reduce((active, section) => (
+            section.offsetTop <= readingLine ? section : active
+          ), homeSections[0]));
+      setHomeSectionState(activeSection?.id);
     };
+    const queueHomeSectionState = () => {
+      if (!sectionStateFrame) sectionStateFrame = requestAnimationFrame(syncHomeSectionState);
+      window.clearTimeout(sectionStateTimer);
+      sectionStateTimer = window.setTimeout(syncHomeSectionState, 160);
+    };
+    homeSectionLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        lockedSectionId = link.dataset.homeSectionLink || '';
+        setHomeSectionState(lockedSectionId);
+      });
+    });
     window.addEventListener('scroll', queueHomeSectionState, { passive: true });
+    window.addEventListener('scrollend', syncHomeSectionState, { passive: true });
     window.addEventListener('resize', queueHomeSectionState, { passive: true });
-    window.addEventListener('hashchange', queueHomeSectionState);
+    window.addEventListener('hashchange', () => {
+      lockedSectionId = homeSections.some((section) => `#${section.id}` === location.hash)
+        ? location.hash.slice(1)
+        : '';
+      queueHomeSectionState();
+    });
+    const releaseSectionLock = () => {
+      if (!lockedSectionId) return;
+      lockedSectionId = '';
+      queueHomeSectionState();
+    };
+    window.addEventListener('wheel', releaseSectionLock, { passive: true });
+    window.addEventListener('touchstart', releaseSectionLock, { passive: true });
+    window.addEventListener('keydown', (event) => {
+      if (['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Home', 'End', ' '].includes(event.key)) {
+        releaseSectionLock();
+      }
+    });
     document.fonts?.ready.then(queueHomeSectionState);
     syncHomeSectionState();
 

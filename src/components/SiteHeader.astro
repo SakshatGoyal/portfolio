@@ -1,45 +1,74 @@
 ---
-interface Props {
-  theme?: string;
-}
-
-const { theme = 'neutral' } = Astro.props;
 const path = Astro.url.pathname;
 const isHome = path === '/';
-const isCaseSystem = !isHome && theme !== 'neutral';
+const isWork = path.startsWith('/work/');
+
+const links = [
+  { label: 'Selected Work', href: '/#work', section: 'work', active: isWork },
+  { label: 'Gallery', href: '/#gallery', section: 'gallery', active: false },
+  { label: 'About', href: '/#about', section: 'about', active: isHome },
+  { label: 'Contact', href: '/#contact', section: 'contact', active: false },
+];
 ---
 
-<header class:list={['site-header', { 'home-site-header': isHome, 'system-case-header': isCaseSystem }]}>
-  {isHome ? (
-    <>
-      <a class="home-name" href="/">Sākshāt Goyal</a>
-      <nav class="home-nav" aria-label="Primary navigation">
-        <a class="active header-tape-label" href="/#work" data-home-section-link="work" data-tape-label>Selected Work</a>
-        <a class="header-tape-label" href="/#gallery" data-home-section-link="gallery" data-tape-label>Gallery</a>
-        <a class="header-tape-label" href="/#about" data-home-section-link="about" data-tape-label>About</a>
-      </nav>
-    </>
-  ) : isCaseSystem ? (
-    <>
-      <a class="system-case-name" href="/">Sākshāt Goyal</a>
-      <nav class="system-case-nav" aria-label="Primary navigation">
-        <a class="active header-tape-label" href="/#work" data-tape-label>Selected Work</a>
-        <a class="header-tape-label" href="/#gallery" data-tape-label>Gallery</a>
-        <a class="header-tape-label" href="/#about" data-tape-label>About</a>
-      </nav>
-    </>
-  ) : (
-    <>
-      <a class="monogram" href="/" aria-label="Home">
-        <svg viewBox="0 0 14 14" aria-hidden="true">
-          <path d="M1 1L13 13" pathLength="1" data-line-direction="top-left-to-bottom-right" />
-          <path d="M13 1L1 13" pathLength="1" data-line-direction="top-right-to-bottom-left" />
-        </svg>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="/">Home</a>
-        <a class:list={[{ active: path.startsWith('/work') }]} href="/#work">Work</a>
-      </nav>
-    </>
-  )}
+<header class="site-header" data-site-header>
+  <div class="site-header-capsule" data-site-header-capsule>
+    <div class="site-header-area">
+      <div class="site-header-row">
+        <div class="site-header-brand">
+          <a class="site-header-name" href="/" aria-label="Sākshāt Goyal — Home">Sākshāt Goyal</a>
+        </div>
+        <nav aria-label="Primary navigation">
+          <ul class="site-header-nav-list">
+            {links.map((link, index) => (
+              <li>
+                <a
+                  class:list={['site-header-link', { active: link.active }]}
+                  href={link.href}
+                  data-home-section-link={isHome ? link.section : undefined}
+                  aria-current={link.active ? (isWork ? 'page' : 'location') : undefined}
+                >{link.label}</a>
+                {index < links.length - 1 && <span class="site-header-separator" aria-hidden="true">・</span>}
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
 </header>
+
+<script is:inline>
+  (() => {
+    window.__siteHeaderCleanup?.();
+
+    const header = document.querySelector('[data-site-header]');
+    if (!(header instanceof HTMLElement)) return;
+
+    const controller = new AbortController();
+    let frame = 0;
+    let disposed = false;
+
+    const syncHeader = () => {
+      frame = 0;
+      if (disposed) return;
+      header.classList.toggle('site-header-minimized', window.scrollY > window.innerHeight * 0.5);
+    };
+    const queueHeaderSync = () => {
+      if (frame || disposed) return;
+      frame = requestAnimationFrame(syncHeader);
+    };
+    const dispose = () => {
+      if (disposed) return;
+      disposed = true;
+      controller.abort();
+      if (frame) cancelAnimationFrame(frame);
+      if (window.__siteHeaderCleanup === dispose) delete window.__siteHeaderCleanup;
+    };
+
+    window.__siteHeaderCleanup = dispose;
+    window.addEventListener('scroll', queueHeaderSync, { passive: true, signal: controller.signal });
+    window.addEventListener('resize', queueHeaderSync, { passive: true, signal: controller.signal });
+    syncHeader();
+  })();
+</script>

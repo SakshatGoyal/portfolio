@@ -1,18 +1,15 @@
 export const LINE_TOPOLOGY = Object.freeze({
   version: 1,
   tokens: Object.freeze({
-    home: { css: '--home-line', width: 1 },
     divider: { css: '--cs-divider', width: 1 },
     intense: { css: '--cs-divider-intense', width: 1 },
     outline: { css: '--line', width: 1 },
     accent: { css: '--accent', width: 2 },
     current: { css: 'currentColor', width: 1 },
-    monogram: { css: '--ink', width: 1 },
     'platform-core': { css: '--line', width: 1 },
     'platform-contribution': { css: '--line', width: 1 },
   }),
   localBoxes: Object.freeze([
-    { id: 'monogram-outline', selector: '.monogram', token: 'monogram', direction: 'clockwise' },
     { id: 'platform-core-outline', selector: '.platform-core', token: 'platform-core', direction: 'clockwise' },
     { id: 'platform-contribution-outline', selector: '.platform-contributions > div', token: 'platform-contribution', direction: 'clockwise' },
     { id: 'previous-case-outline', selector: '.previous-case', token: 'outline', direction: 'clockwise' },
@@ -21,20 +18,27 @@ export const LINE_TOPOLOGY = Object.freeze({
   underlines: Object.freeze([
     { id: 'section-label-rule', selector: '.section-label', token: 'outline', direction: 'left-to-right' },
     { id: 'home-close-underline', selector: '.home-close a', token: 'current', direction: 'left-to-right' },
-    { id: 'neutral-nav-underline', selector: '.site-header:not(.home-site-header):not(.system-case-header) nav a', token: 'current', direction: 'left-to-right' },
-  ]),
-  seamGroups: Object.freeze([
-    '.media-stack',
-    '.media-grid',
-    '.asymmetric-grid',
-    '.global-research-media',
-    '.panw-approach-media',
-    '.verification-comparison',
   ]),
 });
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 const coordinateKey = (x, y) => `${x.toFixed(3)}:${y.toFixed(3)}`;
+
+const removeLineSystemArtifacts = () => {
+  if (typeof document === 'undefined') return;
+  document.querySelectorAll('.line-system-layer').forEach((layer) => layer.remove());
+  document.querySelectorAll('.line-system-host').forEach((host) => host.classList.remove('line-system-host'));
+  const shell = document.querySelector('.page-shell');
+  if (shell instanceof HTMLElement) delete shell.dataset.lineSystemMounted;
+  for (const key of [
+    'lineSystem',
+    'lineSystemReady',
+    'lineSegmentCount',
+    'lineDuplicateCount',
+    'lineDanglingCount',
+    'lineDebug',
+  ]) delete document.documentElement.dataset[key];
+};
 
 const createSvg = (className) => {
   const svg = document.createElementNS(SVG_NS, 'svg');
@@ -76,112 +80,7 @@ const relativeRect = (element, rootRect) => {
   };
 };
 
-const layoutDocumentOffset = (element) => {
-  let left = 0;
-  let top = 0;
-  let current = element;
-  while (current instanceof HTMLElement) {
-    left += current.offsetLeft;
-    top += current.offsetTop;
-    current = current.offsetParent;
-  }
-  return { left, top };
-};
-
-const invertAxisAlignedRect = (rect, transform) => {
-  const invertX = (value) => transform.left + transform.originX
-    + ((value - transform.left - transform.originX - transform.matrix.e) / transform.matrix.a);
-  const invertY = (value) => transform.top + transform.originY
-    + ((value - transform.top - transform.originY - transform.matrix.f) / transform.matrix.d);
-  const x1 = invertX(rect.left);
-  const x2 = invertX(rect.right);
-  const y1 = invertY(rect.top);
-  const y2 = invertY(rect.bottom);
-  return {
-    left: Math.min(x1, x2),
-    right: Math.max(x1, x2),
-    top: Math.min(y1, y2),
-    bottom: Math.max(y1, y2),
-    width: Math.abs(x2 - x1),
-    height: Math.abs(y2 - y1),
-  };
-};
-
-const offsetStructuralRect = (element, rootElement) => {
-  const elementOffset = layoutDocumentOffset(element);
-  const rootOffset = layoutDocumentOffset(rootElement);
-  const left = elementOffset.left - rootOffset.left;
-  const top = elementOffset.top - rootOffset.top;
-  const width = element.offsetWidth;
-  const height = element.offsetHeight;
-  return { left, right: left + width, top, bottom: top + height, width, height };
-};
-
-// Structural topology belongs to layout space, not the visual space produced by
-// entrance transforms. Axis-aligned transforms are removed with their exact
-// subpixel geometry; offset-parent coordinates are the safe fallback.
-const relativeStructuralRect = (element, rootElement, fallbackRootRect) => {
-  if (!(element instanceof HTMLElement) || !(rootElement instanceof HTMLElement)) {
-    return relativeRect(element, fallbackRootRect);
-  }
-  const transformed = [];
-  let current = element;
-  while (current instanceof HTMLElement && current !== rootElement) {
-    const transform = getComputedStyle(current).transform;
-    if (transform && transform !== 'none') {
-      const matrix = new DOMMatrixReadOnly(transform);
-      const axisAligned = matrix.is2D
-        && Math.abs(matrix.b) < 0.0001
-        && Math.abs(matrix.c) < 0.0001
-        && Math.abs(matrix.a) > 0.0001
-        && Math.abs(matrix.d) > 0.0001;
-      if (!axisAligned) return offsetStructuralRect(element, rootElement);
-      const identity = Math.abs(matrix.a - 1) < 0.0001
-        && Math.abs(matrix.d - 1) < 0.0001
-        && Math.abs(matrix.e) < 0.0001
-        && Math.abs(matrix.f) < 0.0001;
-      if (!identity) transformed.push({ element: current, matrix });
-    }
-    current = current.parentElement;
-  }
-
-  let rect = element.getBoundingClientRect();
-  const applied = [];
-  transformed.reverse().forEach(({ element: transformedElement, matrix }) => {
-    let transformedRect = transformedElement.getBoundingClientRect();
-    applied.forEach((outerTransform) => {
-      transformedRect = invertAxisAlignedRect(transformedRect, outerTransform);
-    });
-    const width = transformedRect.width / Math.abs(matrix.a);
-    const height = transformedRect.height / Math.abs(matrix.d);
-    const origin = getComputedStyle(transformedElement).transformOrigin.split(' ').map(Number.parseFloat);
-    const originX = Number.isFinite(origin[0]) ? origin[0] : width / 2;
-    const originY = Number.isFinite(origin[1]) ? origin[1] : height / 2;
-    const transformContext = {
-      matrix,
-      originX,
-      originY,
-      left: transformedRect.left - matrix.e - originX * (1 - matrix.a),
-      top: transformedRect.top - matrix.f - originY * (1 - matrix.d),
-    };
-    rect = invertAxisAlignedRect(rect, transformContext);
-    applied.push(transformContext);
-  });
-
-  return {
-    left: rect.left - fallbackRootRect.left,
-    right: rect.right - fallbackRootRect.left,
-    top: rect.top - fallbackRootRect.top,
-    bottom: rect.bottom - fallbackRootRect.top,
-    width: rect.width,
-    height: rect.height,
-  };
-};
-
-const uniqueSorted = (values) => [...new Set(values.map((value) => Math.round(value * 1000) / 1000))]
-  .sort((a, b) => a - b);
-
-const linePath = ({ id, x1, y1, x2, y2, token = 'divider', width, direction, start, end, layoutRule = false }) => {
+const linePath = ({ id, x1, y1, x2, y2, token = 'divider', width, direction, start, end }) => {
   const strokeWidth = width ?? tokenWidth(token);
   const path = document.createElementNS(SVG_NS, 'path');
   const sx = snapCoordinate(x1, strokeWidth);
@@ -197,13 +96,6 @@ const linePath = ({ id, x1, y1, x2, y2, token = 'divider', width, direction, sta
   path.dataset.lineStart = start || coordinateKey(sx, sy);
   path.dataset.lineEnd = end || coordinateKey(ex, ey);
   path.classList.add('line-system-path', `line-token-${token}`);
-  if (layoutRule && path.dataset.lineDirection === 'left-to-right') {
-    const revealLength = Math.hypot(ex - sx, ey - sy);
-    path.dataset.lineLayoutRule = 'true';
-    path.classList.add('line-system-layout-rule');
-    path.style.setProperty('--line-reveal-length', String(revealLength));
-    path.style.setProperty('--line-reveal-offset', String(revealLength));
-  }
   path.style.strokeWidth = String(strokeWidth);
   return { path, x1: sx, y1: sy, x2: ex, y2: ey };
 };
@@ -227,13 +119,12 @@ const rectPath = ({ id, width, height, radius, token, strokeWidth, direction = '
   return rect;
 };
 
-const directGroupChildren = (group) => [...group.children].filter((child) => (
-  child.matches('.case-figure, figure, [data-media-unit]')
-));
-
 export const initLineSystem = () => {
+  window.__lineSystemDispose?.();
+  removeLineSystemArtifacts();
+
   const shell = document.querySelector('.page-shell');
-  if (!shell || shell.dataset.lineSystemMounted === 'true') return;
+  if (!(shell instanceof HTMLElement)) return;
   shell.dataset.lineSystemMounted = 'true';
   document.documentElement.dataset.lineSystem = 'svg';
 
@@ -251,100 +142,11 @@ export const initLineSystem = () => {
   const runtimeSegments = [];
   const duplicateSegments = [];
   const renderedKeys = new Set();
+  const controller = new AbortController();
   let renderFrame = 0;
+  let settledRenderFrame = 0;
   let focusedElement = null;
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const lineRevealDuration = 485;
-  const lineRevealStates = new Map();
-  const lineRevealAnchors = new Map();
-
-  const pathsForRevealId = (id) => [...document.querySelectorAll('[data-line-layout-rule="true"][data-line-direction="left-to-right"]')]
-    .filter((path) => path.dataset.lineId === id);
-
-  const applyLineRevealState = (path) => {
-    const state = lineRevealStates.get(path.dataset.lineId);
-    const revealLength = Number.parseFloat(path.style.getPropertyValue('--line-reveal-length')) || 0;
-    if (reduceMotion || state?.completed) {
-      path.style.transition = 'none';
-      path.style.setProperty('--line-reveal-offset', '0');
-      path.style.willChange = 'auto';
-      return;
-    }
-    if (!state?.startedAt) {
-      path.style.transition = 'none';
-      path.style.setProperty('--line-reveal-offset', String(revealLength));
-      path.style.willChange = 'auto';
-      return;
-    }
-
-    const elapsed = Math.max(0, performance.now() - state.startedAt);
-    const progress = Math.min(1, elapsed / lineRevealDuration);
-    const remaining = Math.max(0, lineRevealDuration - elapsed);
-    path.style.transition = 'none';
-    path.style.setProperty('--line-reveal-offset', String(revealLength * (1 - progress)));
-    path.style.willChange = 'stroke-dashoffset';
-    path.getBoundingClientRect();
-    requestAnimationFrame(() => {
-      path.style.transition = `stroke-dashoffset ${remaining}ms cubic-bezier(0, 0, 0.3, 1)`;
-      path.style.setProperty('--line-reveal-offset', '0');
-    });
-  };
-
-  const revealLine = (id) => {
-    if (lineRevealStates.has(id)) return;
-    const state = { startedAt: performance.now(), completed: false };
-    lineRevealStates.set(id, state);
-    pathsForRevealId(id).forEach(applyLineRevealState);
-    window.setTimeout(() => {
-      state.completed = true;
-      pathsForRevealId(id).forEach(applyLineRevealState);
-    }, lineRevealDuration);
-  };
-
-  const lineRevealObserver = reduceMotion ? null : new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      const id = entry.target.dataset.lineRevealId;
-      if (id) revealLine(id);
-      lineRevealObserver.unobserve(entry.target);
-      entry.target.remove();
-      lineRevealAnchors.delete(id);
-    });
-  }, { threshold: 0 });
-
-  const syncLineReveals = () => {
-    const paths = [...document.querySelectorAll('[data-line-layout-rule="true"][data-line-direction="left-to-right"]')];
-    const activeIds = new Set(paths.map((path) => path.dataset.lineId));
-    lineRevealAnchors.forEach((anchor, id) => {
-      if (activeIds.has(id) && !lineRevealStates.has(id)) return;
-      lineRevealObserver?.unobserve(anchor);
-      anchor.remove();
-      lineRevealAnchors.delete(id);
-    });
-
-    paths.forEach((path) => {
-      applyLineRevealState(path);
-      const id = path.dataset.lineId;
-      if (reduceMotion || lineRevealStates.has(id)) return;
-      let anchor = lineRevealAnchors.get(id);
-      if (!anchor) {
-        anchor = document.createElement('span');
-        anchor.className = 'line-reveal-anchor';
-        anchor.dataset.lineRevealId = id;
-        document.body.append(anchor);
-        lineRevealAnchors.set(id, anchor);
-        lineRevealObserver.observe(anchor);
-      }
-      const svg = path.ownerSVGElement;
-      const viewBox = svg?.viewBox?.baseVal;
-      const svgRect = svg?.getBoundingClientRect();
-      const pathBox = path.getBBox();
-      const scaleX = viewBox?.width ? svgRect.width / viewBox.width : 1;
-      const scaleY = viewBox?.height ? svgRect.height / viewBox.height : 1;
-      anchor.style.left = `${window.scrollX + svgRect.left + ((pathBox.x - (viewBox?.x || 0)) * scaleX)}px`;
-      anchor.style.top = `${window.scrollY + svgRect.top + ((pathBox.y - (viewBox?.y || 0)) * scaleY)}px`;
-    });
-  };
+  let disposed = false;
 
   const ensureLocalLayer = (element, kind) => {
     const existing = localLayers.get(element);
@@ -359,7 +161,7 @@ export const initLineSystem = () => {
   };
 
   const registerSegment = (group, segment, terminalStart = false, terminalEnd = false) => {
-    const rendered = linePath({ ...segment, layoutRule: segment.layoutRule !== false });
+    const rendered = linePath(segment);
     const ordered = [coordinateKey(rendered.x1, rendered.y1), coordinateKey(rendered.x2, rendered.y2)].sort();
     const key = `${ordered[0]}|${ordered[1]}|${segment.token || 'divider'}|${segment.width || tokenWidth(segment.token || 'divider')}`;
     if (renderedKeys.has(key)) {
@@ -383,62 +185,12 @@ export const initLineSystem = () => {
     });
   };
 
-  const drawHorizontal = (group, id, x1, x2, y, token, terminalStart = false, terminalEnd = false, layoutRule = true) => {
+  const drawHorizontal = (group, id, x1, x2, y, token, terminalStart = false, terminalEnd = false) => {
     registerSegment(group, {
       id, x1, y1: y, x2, y2: y, token, direction: 'left-to-right',
-      layoutRule,
       start: coordinateKey(snapCoordinate(x1), snapCoordinate(y)),
       end: coordinateKey(snapCoordinate(x2), snapCoordinate(y)),
     }, terminalStart, terminalEnd);
-  };
-
-  const drawVerticalNetwork = (group, id, x, ys, token, terminalTop = true, terminalBottom = true) => {
-    const levels = uniqueSorted(ys);
-    levels.slice(0, -1).forEach((y, index) => registerSegment(group, {
-      id: `${id}.${index + 1}`,
-      x1: x,
-      y1: y,
-      x2: x,
-      y2: levels[index + 1],
-      token,
-      direction: 'top-to-bottom',
-      start: coordinateKey(snapCoordinate(x), snapCoordinate(y)),
-      end: coordinateKey(snapCoordinate(x), snapCoordinate(levels[index + 1])),
-    }, index === 0 && terminalTop, index === levels.length - 2 && terminalBottom));
-  };
-
-  const drawGroupSeams = (group, rootRect, groupIndex) => {
-    const children = directGroupChildren(group);
-    if (children.length < 2) return;
-    const groupRect = relativeStructuralRect(group, shell, rootRect);
-    const childRects = children.map((child) => relativeStructuralRect(child, shell, rootRect));
-    const columns = uniqueSorted(childRects.map((rect) => rect.left));
-    const rows = uniqueSorted(childRects.map((rect) => rect.top));
-
-    columns.slice(1).forEach((x, columnIndex) => {
-      const rowBreaks = rows.filter((y) => y > groupRect.top + 0.5 && y < groupRect.bottom - 0.5);
-      drawVerticalNetwork(
-        documentRenderGroup,
-        `group.${groupIndex}.column.${columnIndex + 1}`,
-        x,
-        [groupRect.top, ...rowBreaks, groupRect.bottom],
-        'divider',
-      );
-    });
-
-    childRects.forEach((rect, childIndex) => {
-      if (rect.top <= groupRect.top + 0.5) return;
-      drawHorizontal(
-        documentRenderGroup,
-        `group.${groupIndex}.row.${childIndex + 1}`,
-        rect.left,
-        rect.right,
-        rect.top,
-        'divider',
-        true,
-        true,
-      );
-    });
   };
 
   const renderPlatformConnectors = (rootRect) => {
@@ -463,332 +215,9 @@ export const initLineSystem = () => {
           y2: rect.top,
           token: 'platform-core',
           direction: 'top-to-bottom',
-          layoutRule: false,
         }, true, true);
       });
     });
-  };
-
-  const galleryPlacements = (project, rootElement, rootRect) => [...project.querySelectorAll('[data-gallery-row]')]
-    .map((element) => ({
-      element,
-      column: Number(element.dataset.galleryColumn),
-      span: Number(element.dataset.gallerySpan),
-      row: Number(element.dataset.galleryRow),
-      rowSpan: Number(element.dataset.galleryRowSpan || 1),
-      rect: relativeStructuralRect(element, rootElement, rootRect),
-    }));
-
-  const galleryRowBoundary = (projectRect, placements, rowLine) => {
-    const finalRowLine = Math.max(...placements.map(({ row, rowSpan }) => row + rowSpan));
-    if (rowLine <= 1) return projectRect.top;
-    if (rowLine >= finalRowLine) return projectRect.bottom;
-    const above = placements.filter(({ row, rowSpan }) => row + rowSpan === rowLine);
-    const below = placements.filter(({ row }) => row === rowLine);
-    if (!above.length || !below.length) return null;
-    const aboveBottom = Math.max(...above.map(({ rect }) => rect.bottom));
-    const belowTop = Math.min(...below.map(({ rect }) => rect.top));
-    return aboveBottom + ((belowTop - aboveBottom) / 2);
-  };
-
-  const renderGalleryCompositionSeams = (projects, rootElement, rootRect, projectSeparators) => {
-    const separatorJunctions = projectSeparators.map(() => []);
-    if (!window.matchMedia('(min-width: 1056px)').matches) return separatorJunctions;
-    projects.forEach((project, projectIndex) => {
-      const projectRect = relativeRect(project, rootRect);
-      const placements = galleryPlacements(project, rootElement, rootRect);
-      const finalRowLine = Math.max(...placements.map(({ row, rowSpan }) => row + rowSpan));
-      let seams = [];
-      try {
-        seams = JSON.parse(project.dataset.gallerySeams || '[]');
-      } catch {
-        seams = [];
-      }
-      const columnCoordinate = (line) => {
-        if (line <= 1) return projectRect.left;
-        if (line >= 21) return projectRect.right;
-        const before = placements.filter(({ column, span }) => column + span === line);
-        const after = placements.filter(({ column }) => column === line);
-        if (before.length && after.length) {
-          const beforeRight = Math.max(...before.map(({ rect }) => rect.right));
-          const afterLeft = Math.min(...after.map(({ rect }) => rect.left));
-          return beforeRight + ((afterLeft - beforeRight) / 2);
-        }
-        return projectRect.left + ((line - 1) / 20) * projectRect.width;
-      };
-      const verticals = [];
-      const horizontals = [];
-      seams.forEach((seam, seamIndex) => {
-        const id = `home.gallery.composition.${projectIndex + 1}.${seamIndex + 1}`;
-        if (seam.axis === 'vertical') {
-          const x = columnCoordinate(seam.at);
-          const connectsPrevious = seam.from <= 1 && projectIndex > 0;
-          const connectsNext = seam.to >= finalRowLine && projectIndex < projectSeparators.length;
-          const y1 = connectsPrevious
-            ? projectSeparators[projectIndex - 1]
-            : galleryRowBoundary(projectRect, placements, seam.from);
-          const y2 = connectsNext
-            ? projectSeparators[projectIndex]
-            : galleryRowBoundary(projectRect, placements, seam.to);
-          if (y1 === null || y2 === null || y2 <= y1) return;
-          if (connectsPrevious) separatorJunctions[projectIndex - 1].push(x);
-          if (connectsNext) separatorJunctions[projectIndex].push(x);
-          verticals.push({
-            id, x, y1, y2,
-            terminalStart: seam.from <= 1 && projectIndex === 0,
-            terminalEnd: seam.to >= finalRowLine && projectIndex === projects.length - 1,
-          });
-          return;
-        }
-        if (seam.axis === 'horizontal') {
-          const y = galleryRowBoundary(projectRect, placements, seam.at);
-          if (y === null) return;
-          horizontals.push({
-            id,
-            x1: columnCoordinate(seam.from),
-            x2: columnCoordinate(seam.to),
-            y,
-            terminalStart: seam.from <= 1,
-            terminalEnd: seam.to >= 21,
-          });
-        }
-      });
-
-      verticals.forEach((vertical) => {
-        const levels = uniqueSorted([
-          vertical.y1,
-          ...horizontals
-            .filter((horizontal) => horizontal.y > vertical.y1 && horizontal.y < vertical.y2
-              && vertical.x >= horizontal.x1 && vertical.x <= horizontal.x2)
-            .map((horizontal) => horizontal.y),
-          vertical.y2,
-        ]);
-        levels.slice(0, -1).forEach((y, index) => {
-          registerSegment(documentRenderGroup, {
-            id: `${vertical.id}.${index + 1}`,
-            x1: vertical.x,
-            y1: y,
-            x2: vertical.x,
-            y2: levels[index + 1],
-            token: 'home',
-            direction: 'top-to-bottom',
-          }, index === 0 && vertical.terminalStart, index === levels.length - 2 && vertical.terminalEnd);
-        });
-      });
-
-      horizontals.forEach((horizontal) => {
-        const levels = uniqueSorted([
-          horizontal.x1,
-          ...verticals
-            .filter((vertical) => vertical.x > horizontal.x1 && vertical.x < horizontal.x2
-              && horizontal.y >= vertical.y1 && horizontal.y <= vertical.y2)
-            .map((vertical) => vertical.x),
-          horizontal.x2,
-        ]);
-        levels.slice(0, -1).forEach((x, index) => {
-          drawHorizontal(
-            documentRenderGroup,
-            `${horizontal.id}.${index + 1}`,
-            x,
-            levels[index + 1],
-            horizontal.y,
-            'home',
-            index === 0 && horizontal.terminalStart,
-            index === levels.length - 2 && horizontal.terminalEnd,
-          );
-        });
-      });
-    });
-    return separatorJunctions;
-  };
-
-  const renderHomeTopology = (rootRect) => {
-    const header = document.querySelector('.home-site-header');
-    const hero = document.querySelector('.home-hero');
-    const workHeading = document.querySelector('.home-work > .page-heading');
-    const grid = document.querySelector('[data-home-project-grid]');
-    const gallery = document.querySelector('[data-home-gallery]');
-    const galleryHeading = gallery?.querySelector(':scope > .page-heading');
-    const footer = document.querySelector('.home-site-footer');
-    if (!header || !hero || !workHeading || !grid || !gallery || !galleryHeading || !footer) return;
-
-    const headerRect = relativeRect(header, rootRect);
-    const heroRect = relativeRect(hero, rootRect);
-    const workHeadingRect = relativeRect(workHeading, rootRect);
-    const gridRect = relativeRect(grid, rootRect);
-    const galleryRect = relativeRect(gallery, rootRect);
-    const galleryHeadingRect = relativeRect(galleryHeading, rootRect);
-    const footerRect = relativeRect(footer, rootRect);
-    const projects = [...gallery.querySelectorAll('[data-gallery-project]')];
-    const projectRects = projects.map((project) => relativeRect(project, rootRect));
-    const projectSeparators = projectRects.slice(1).map((rect, index) => (
-      projectRects[index].bottom + ((rect.top - projectRects[index].bottom) / 2)
-    ));
-    const mobileCompositionLevels = window.matchMedia('(max-width: 1055px)').matches
-      ? projects.flatMap((project) => {
-        const children = [...project.querySelectorAll(':scope > [data-gallery-row]')];
-        return children.slice(1).map((child, index) => {
-          const previousRect = relativeRect(children[index], rootRect);
-          const currentRect = relativeRect(child, rootRect);
-          return previousRect.bottom + ((currentRect.top - previousRect.bottom) / 2);
-        });
-      })
-      : [];
-    const slots = [...grid.querySelectorAll('[data-home-project-slot]')];
-    const cardLevels = grid.dataset.homeLayout === 'small'
-      ? slots.slice(1).map((slot) => relativeRect(slot, rootRect).top)
-      : [3, 4, 5, 6]
-        .map((order) => grid.querySelector(`[data-home-order="${order}"]`))
-        .filter(Boolean)
-        .map((slot) => relativeRect(slot, rootRect).top);
-    const fullWidthLevels = uniqueSorted([
-      headerRect.bottom,
-      heroRect.bottom,
-      workHeadingRect.bottom,
-      gridRect.bottom,
-      galleryHeadingRect.bottom,
-      ...projectSeparators,
-      ...mobileCompositionLevels,
-      footerRect.top,
-    ]);
-    const railLevels = uniqueSorted([
-      headerRect.top,
-      ...fullWidthLevels,
-      ...cardLevels,
-      footerRect.bottom,
-    ]);
-
-    drawVerticalNetwork(documentRenderGroup, 'home.rail.left', headerRect.left, railLevels, 'home');
-    drawVerticalNetwork(
-      documentRenderGroup,
-      'home.rail.right.before-work',
-      headerRect.right,
-      uniqueSorted([headerRect.top, headerRect.bottom, heroRect.bottom, workHeadingRect.bottom]),
-      'home',
-    );
-    drawVerticalNetwork(
-      documentRenderGroup,
-      'home.rail.right.work',
-      gridRect.right,
-      uniqueSorted([workHeadingRect.bottom, ...cardLevels, gridRect.bottom]),
-      'home',
-    );
-    drawVerticalNetwork(
-      documentRenderGroup,
-      'home.rail.right.after-work',
-      headerRect.right,
-      uniqueSorted([
-        gridRect.bottom,
-        galleryHeadingRect.bottom,
-        ...projectSeparators,
-        ...mobileCompositionLevels,
-        footerRect.top,
-        footerRect.bottom,
-      ]),
-      'home',
-    );
-    drawHorizontal(documentRenderGroup, 'home.header.bottom', headerRect.left, headerRect.right, headerRect.bottom, 'home');
-    drawHorizontal(documentRenderGroup, 'home.hero.bottom', heroRect.left, heroRect.right, heroRect.bottom, 'home');
-    drawHorizontal(documentRenderGroup, 'home.work.heading.bottom', workHeadingRect.left, gridRect.right, workHeadingRect.bottom, 'home');
-    drawHorizontal(documentRenderGroup, 'home.work.bottom', gridRect.left, gridRect.right, gridRect.bottom, 'home');
-    drawHorizontal(documentRenderGroup, 'home.gallery.heading.bottom', galleryHeadingRect.left, galleryHeadingRect.right, galleryHeadingRect.bottom, 'home');
-    mobileCompositionLevels.forEach((y, index) => {
-      drawHorizontal(documentRenderGroup, `home.gallery.mobile.${index + 1}`, galleryRect.left, galleryRect.right, y, 'home');
-    });
-    drawHorizontal(documentRenderGroup, 'home.footer.top', footerRect.left, footerRect.right, footerRect.top, 'home');
-
-    if (grid.dataset.homeLayout === 'small') {
-      slots.slice(1).forEach((slot, index) => {
-        const rect = relativeRect(slot, rootRect);
-        drawHorizontal(documentRenderGroup, `home.grid.row.${index + 2}`, gridRect.left, gridRect.right, rect.top, 'home');
-      });
-    } else {
-      const center = gridRect.left + gridRect.width / 2;
-      const seamRects = [3, 4, 5, 6]
-        .map((order) => grid.querySelector(`[data-home-order="${order}"]`))
-        .filter(Boolean)
-        .map((slot) => ({ order: Number(slot.dataset.homeOrder), rect: relativeRect(slot, rootRect) }));
-      drawVerticalNetwork(
-        documentRenderGroup,
-        'home.grid.center',
-        center,
-        [gridRect.top, ...seamRects.map(({ rect }) => rect.top), gridRect.bottom],
-        'home',
-      );
-      seamRects.forEach(({ order, rect }) => {
-        const left = order === 4 ? gridRect.left : center;
-        const right = order === 4 ? center : gridRect.right;
-        drawHorizontal(documentRenderGroup, `home.grid.row.${order}`, left, right, rect.top, 'home');
-      });
-    }
-
-    const separatorJunctions = renderGalleryCompositionSeams(projects, shell, rootRect, projectSeparators);
-    projectSeparators.forEach((y, index) => {
-      const junctions = uniqueSorted([
-        galleryRect.left,
-        ...separatorJunctions[index],
-        galleryRect.right,
-      ]);
-      junctions.slice(0, -1).forEach((x, segmentIndex) => {
-        drawHorizontal(
-          documentRenderGroup,
-          `home.gallery.project.${index + 1}.${segmentIndex + 1}`,
-          x,
-          junctions[segmentIndex + 1],
-          y,
-          'home',
-          false,
-          false,
-        );
-      });
-    });
-  };
-
-  const renderCaseTopology = (rootRect) => {
-    const caseStudy = document.querySelector('.case-study');
-    const footer = document.querySelector('.site-footer');
-    const header = document.querySelector('.system-case-header');
-    if (!caseStudy || !footer || !header) return;
-    const caseRect = relativeRect(caseStudy, rootRect);
-    const footerRect = relativeRect(footer, rootRect);
-    const boundaryElements = [
-      caseStudy.querySelector(':scope > .case-hero'),
-      caseStudy.querySelector(':scope > .hero-figure'),
-      caseStudy.querySelector(':scope > .case-intro'),
-      ...caseStudy.querySelectorAll(':scope > .case-meta > div'),
-      ...caseStudy.querySelectorAll(':scope > .case-body > * + *'),
-      caseStudy.querySelector(':scope > .case-navigation'),
-    ].filter(Boolean);
-    const horizontal = boundaryElements.map((element) => {
-      const rect = relativeStructuralRect(element, shell, rootRect);
-      return element.parentElement?.classList.contains('case-body') ? rect.top : rect.bottom;
-    });
-    const levels = uniqueSorted([caseRect.top, ...horizontal, footerRect.bottom]);
-    drawVerticalNetwork(documentRenderGroup, 'case.rail.left', caseRect.left, levels, 'divider');
-    drawVerticalNetwork(documentRenderGroup, 'case.rail.right', caseRect.right, levels, 'divider');
-    uniqueSorted(horizontal).forEach((y, index) => {
-      drawHorizontal(documentRenderGroup, `case.boundary.${index + 1}`, caseRect.left, caseRect.right, y, 'divider');
-    });
-
-    const headerLayer = ensureLocalLayer(header, 'header');
-    const width = header.clientWidth;
-    const height = header.clientHeight;
-    const headerSignature = `${width}:${height}`;
-    if (headerLayer.signature !== headerSignature) {
-      replaceLayerChildren(
-        headerLayer,
-        headerSignature,
-        linePath({ id: 'case.header.left', x1: 0, y1: 0, x2: 0, y2: height, token: 'divider', direction: 'top-to-bottom', layoutRule: true }).path,
-        linePath({ id: 'case.header.right', x1: width, y1: 0, x2: width, y2: height, token: 'divider', direction: 'top-to-bottom', layoutRule: true }).path,
-        linePath({ id: 'case.header.bottom', x1: 0, y1: height, x2: width, y2: height, token: 'divider', direction: 'left-to-right', layoutRule: true }).path,
-      );
-    }
-    headerLayer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-
-    const seamNodes = [...new Set(LINE_TOPOLOGY.seamGroups.flatMap((selector) => (
-      [...document.querySelectorAll(selector)]
-    )))];
-    seamNodes.forEach((group, index) => drawGroupSeams(group, rootRect, index + 1));
   };
 
   const renderLocalLayers = () => {
@@ -869,6 +298,7 @@ export const initLineSystem = () => {
       const signature = `${width}:${height}:${number}`;
       if (!replaceLayerChildren(layer, signature, circle, numeral)) return;
       requestAnimationFrame(() => {
+        if (disposed || !numeral.isConnected) return;
         const bounds = numeral.getBBox();
         const offsetX = centerX - (bounds.x + bounds.width / 2);
         const offsetY = centerY - (bounds.y + bounds.height / 2);
@@ -916,6 +346,7 @@ export const initLineSystem = () => {
 
   const render = () => {
     renderFrame = 0;
+    if (disposed) return;
     renderedKeys.clear();
     duplicateSegments.length = 0;
     runtimeSegments.length = 0;
@@ -926,8 +357,6 @@ export const initLineSystem = () => {
       .filter((element) => !element.classList.contains('line-system-layer'))
       .reduce((maximum, element) => Math.max(maximum, element.getBoundingClientRect().bottom - rootRect.top), 0);
     const height = Math.max(shell.clientHeight, contentHeight);
-    if (document.documentElement.dataset.homeSystem === 'true') renderHomeTopology(rootRect);
-    if (document.documentElement.dataset.caseSystem === 'true') renderCaseTopology(rootRect);
     renderPlatformConnectors(rootRect);
     renderLocalLayers();
     renderFocus();
@@ -993,46 +422,70 @@ export const initLineSystem = () => {
     document.documentElement.dataset.lineDuplicateCount = String(diagnostics.duplicateSegments.length);
     document.documentElement.dataset.lineDanglingCount = String(diagnostics.danglingEndpoints.length);
     document.documentElement.dataset.lineSystemReady = 'true';
-    requestAnimationFrame(syncLineReveals);
   };
 
   const scheduleRender = () => {
+    if (disposed) return;
     if (renderFrame) cancelAnimationFrame(renderFrame);
     renderFrame = requestAnimationFrame(render);
   };
 
+  const scheduleSettledRender = () => {
+    if (disposed) return;
+    if (settledRenderFrame) cancelAnimationFrame(settledRenderFrame);
+    settledRenderFrame = requestAnimationFrame(() => {
+      settledRenderFrame = requestAnimationFrame(() => {
+        settledRenderFrame = 0;
+        scheduleRender();
+      });
+    });
+  };
+
   const resizeObserver = new ResizeObserver(scheduleRender);
   resizeObserver.observe(shell);
-  document.querySelectorAll('[data-home-project-slot], [data-home-gallery], [data-gallery-project], .case-study, .case-body, .case-meta, .figma-carousel, .team-panel')
+  document.querySelectorAll('.platform-host, .team-panel')
     .forEach((element) => resizeObserver.observe(element));
 
-  document.addEventListener('load', scheduleRender, true);
-  document.addEventListener('loadedmetadata', scheduleRender, true);
+  const dispose = () => {
+    if (disposed) return;
+    disposed = true;
+    controller.abort();
+    resizeObserver.disconnect();
+    if (renderFrame) cancelAnimationFrame(renderFrame);
+    if (settledRenderFrame) cancelAnimationFrame(settledRenderFrame);
+    removeLineSystemArtifacts();
+    if (window.__lineSystemDispose === dispose) delete window.__lineSystemDispose;
+    delete window.__lineTopology;
+  };
+  window.__lineSystemDispose = dispose;
+
+  document.addEventListener('load', scheduleRender, { capture: true, signal: controller.signal });
+  document.addEventListener('loadedmetadata', scheduleRender, { capture: true, signal: controller.signal });
   document.addEventListener('mediachange', (event) => {
     if (!(event instanceof CustomEvent) || event.detail?.geometryChanged !== false) scheduleRender();
-  });
+  }, { signal: controller.signal });
   document.addEventListener('linegeometrychange', (event) => {
     if (!(event instanceof CustomEvent)) return;
     if (event.detail?.phase !== 'complete') {
       scheduleRender();
       return;
     }
-    requestAnimationFrame(() => requestAnimationFrame(scheduleRender));
-  });
+    scheduleSettledRender();
+  }, { signal: controller.signal });
   document.addEventListener('focusin', (event) => {
     focusedElement = event.target instanceof HTMLElement ? event.target : null;
     renderFocus();
-  });
+  }, { signal: controller.signal });
   document.addEventListener('focusout', () => {
     focusedElement = null;
     renderFocus();
-  });
-  document.addEventListener('toggle', scheduleRender, true);
-  window.addEventListener('resize', scheduleRender, { passive: true });
-  window.addEventListener('scroll', renderFocus, { passive: true });
-  document.fonts?.ready.then(scheduleRender);
-  document.fonts?.addEventListener('loadingdone', scheduleRender);
-  document.fonts?.addEventListener('loadingerror', scheduleRender);
+  }, { signal: controller.signal });
+  document.addEventListener('toggle', scheduleRender, { capture: true, signal: controller.signal });
+  window.addEventListener('resize', scheduleRender, { passive: true, signal: controller.signal });
+  window.addEventListener('scroll', renderFocus, { passive: true, signal: controller.signal });
+  document.fonts?.ready.then(() => { if (!disposed) scheduleRender(); });
+  document.fonts?.addEventListener('loadingdone', scheduleRender, { signal: controller.signal });
+  document.fonts?.addEventListener('loadingerror', scheduleRender, { signal: controller.signal });
 
   document.querySelectorAll('svg:not(.line-system-layer)').forEach((svg, svgIndex) => {
     svg.querySelectorAll('path, line, circle, rect').forEach((shape, shapeIndex) => {

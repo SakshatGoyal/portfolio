@@ -74,10 +74,10 @@ Typography families, sizes, line heights, and colors are system-level. Weight ch
 | --- | --- | --- | ---: | --- |
 | Page title | Cabinet Grotesk | 36px / 1.1 | 500 | heading |
 | Section heading | Cabinet Grotesk | 20px / 1.35 | 700 | heading |
-| Narrative body | Manrope | 20px / 1.35 | 500 | primary |
-| Supporting body | Manrope | 20px / 1.35 | 500 | secondary |
-| Navigation label | Manrope | 20px / 1.35 | 500 | nav label |
-| Context label/value | Manrope | 16px / 1.35 | 500 | context label/value |
+| Narrative body | General Sans | 20px / 1.35 | 500 | primary |
+| Supporting body | General Sans | 20px / 1.35 | 500 | secondary |
+| Navigation label | General Sans | 20px / 1.35 | 500 | nav label |
+| Context label/value | General Sans | 16px / 1.35 | 500 | context label/value |
 | Caption | Cabinet Grotesk | 14px / 1.35 | 400 | caption |
 
 Use explicit `strong`, `emphasis`, or component modifiers for approved weight changes. Do not override typography ad hoc by page or selector position.

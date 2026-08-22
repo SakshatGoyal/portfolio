@@ -8,9 +8,10 @@
     "check:content": "node scripts/check-content-invariants.mjs",
     "check:dividers": "node scripts/check-divider-ownership.mjs",
     "check:gallery": "node scripts/check-gallery-content.mjs",
-    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && astro check && astro build && node scripts/prune-public-assets.mjs",
+    "check:visual-contracts": "node scripts/check-visual-contracts.mjs",
+    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && astro check && astro build && node scripts/prune-public-assets.mjs",
     "preview": "astro preview",
-    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && astro check"
+    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

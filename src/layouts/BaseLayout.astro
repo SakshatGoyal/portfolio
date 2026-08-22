@@ -650,6 +650,8 @@ const isHomeSystem = Astro.url.pathname === '/';
     <script>
       import { initLineSystem } from '../scripts/line-system.js';
       import { initMotionSystem } from '../scripts/motion-system.js';
+      import { initTypographySystem } from '../scripts/typography-system.js';
+      initTypographySystem();
       initMotionSystem();
       initLineSystem();
     </script>

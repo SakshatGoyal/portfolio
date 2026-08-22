@@ -539,7 +539,7 @@ body.nav-open .nav-scrim {
   width: 100%;
   margin: 0;
   border: 0;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 0;
   background: transparent;
   cursor: zoom-in;
@@ -732,11 +732,11 @@ body.nav-open .nav-scrim {
 
 .case-reveal-image.is-visible {
   clip-path: inset(0 0 0 0 round 0);
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .case-media-stack .case-media.case-reveal-image.is-visible {
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .case-reveal-image.is-visible:hover,
@@ -980,7 +980,7 @@ body.nav-open .nav-scrim {
   gap: 0;
   min-width: 0;
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .case-media-stack .case-media:not(.case-reveal-image) {
@@ -1081,7 +1081,7 @@ body.nav-open .nav-scrim {
   aspect-ratio: var(--placeholder-ratio, 16 / 9);
   min-height: 180px;
   border: 0;
-  border-radius: 6px;
+  border-radius: 8px;
   background: var(--panw-fill);
   color: rgba(11, 17, 23, 0.45);
   font-size: 12px;
@@ -2279,7 +2279,7 @@ body.nav-open .nav-scrim {
   .case-reveal-image,
   .case-reveal-image.is-visible,
   .case-media-stack .case-media.case-reveal-image.is-visible {
-    border-radius: 6px;
+    border-radius: 8px;
     clip-path: inset(0 0 0 0 round 0);
   }
 }
@@ -2363,7 +2363,7 @@ body.nav-open .nav-scrim {
 
 @media (hover: hover) and (pointer: fine) {
   .lightbox-close:hover {
-    border-radius: 6px;
+    border-radius: 8px;
     background: rgb(242, 245, 245);
   }
 }
@@ -2436,7 +2436,7 @@ body.nav-open .nav-scrim {
 .project-thumb-link {
   display: block;
   width: 100%;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
   transition: border-radius var(--case-block-hover-radius-duration) var(--motion-curve);
 }
@@ -2488,7 +2488,7 @@ body.nav-open .nav-scrim {
 }
 
 .project-thumb-link:active {
-  border-radius: 6px;
+  border-radius: 8px;
   transition: border-radius 120ms var(--case-entry-curve);
 }
 
@@ -2618,12 +2618,12 @@ body.nav-open .nav-scrim {
 }
 
 .nav-item.is-pending:not(.is-active) {
-  border-radius: 6px;
+  border-radius: 8px;
   color: var(--ink);
 }
 
 .nav-item.is-pending:not(.is-active) .nav-bg {
-  border-radius: 6px;
+  border-radius: 8px;
   opacity: 0.55;
 }
 
@@ -2633,12 +2633,12 @@ body.nav-open .nav-scrim {
   }
 
   .project-thumb-link:active {
-    border-radius: 6px;
+    border-radius: 8px;
     transition: border-radius 120ms var(--case-entry-curve);
   }
 
   .menu-toggle:hover {
-    border-radius: 6px;
+    border-radius: 8px;
     background: rgb(242, 245, 245);
   }
 
@@ -2648,12 +2648,12 @@ body.nav-open .nav-scrim {
   }
 
   .nav-item:not(.is-active):not(.is-disabled):hover {
-    border-radius: 6px;
+    border-radius: 8px;
     color: var(--ink);
   }
 
   .nav-item:not(.is-active):not(.is-disabled):hover .nav-bg {
-    border-radius: 6px;
+    border-radius: 8px;
     opacity: 1;
   }
 }

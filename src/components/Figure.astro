@@ -31,7 +31,7 @@ const sourceAlt = alt ?? caption ?? captionLines?.join(' ') ?? '';
   <div class="media-reveal-clip" data-media-reveal-clip>
     <div class="media-reveal-rise" data-media-reveal-rise>
       {video ? (
-        <button class="media-frame video-frame playable-media-surface" type="button" data-playable-media data-playback-mode="exclusive" aria-label={`Pause ${sourceAlt || 'animation'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
+        <button class="media-frame video-frame playable-media-surface" type="button" data-playable-media data-playback-mode="exclusive" data-asset-surface aria-label={`Pause ${sourceAlt || 'animation'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
           <video
             src={src}
             poster={poster}
@@ -48,7 +48,7 @@ const sourceAlt = alt ?? caption ?? captionLines?.join(' ') ?? '';
           />
         </button>
       ) : (
-        <button class="media-frame" type="button" data-behance-image aria-label={`View ${sourceAlt || 'portfolio image'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
+        <button class="media-frame" type="button" data-asset-surface data-behance-image aria-label={`View ${sourceAlt || 'portfolio image'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
           <img src={src} alt={sourceAlt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} decoding="async" data-media-visual />
         </button>
       )}

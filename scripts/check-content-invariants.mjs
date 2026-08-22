@@ -23,6 +23,21 @@ if (!motionSystem.includes("['Turning exploratory research to internal tools.', 
   errors.push('The tape timing map must retain the punctuated final title line.');
 }
 
+const expectedProjectOrder = [
+  ['/work/panw-ai/', '2025–26', 1],
+  ['/work/hbs-ai-institute/', '2025', 2],
+  ['/work/global-data-analytics/', '2023–24', 3],
+  ['/work/one-report/', '2023', 4],
+  ['/work/hitachi-energy/', '2022', 5],
+  ['/work/cisco-customer-insights/', '2020–21', 6],
+];
+const projectOrder = [...homePage.matchAll(/\{\s*href: '([^']+)',[\s\S]*?year: '([^']+)',\s*order: (\d+),/g)]
+  .slice(0, expectedProjectOrder.length)
+  .map(([, href, year, order]) => [href, year, Number(order)]);
+if (JSON.stringify(projectOrder) !== JSON.stringify(expectedProjectOrder)) {
+  errors.push(`Homepage projects must remain in descending chronology. Found: ${JSON.stringify(projectOrder)}`);
+}
+
 if (errors.length) {
   console.error('Content invariant check failed:\n');
   errors.forEach((error) => console.error(`- ${error}`));
