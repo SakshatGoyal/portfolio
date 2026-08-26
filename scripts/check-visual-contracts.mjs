@@ -17,6 +17,7 @@ const [
   lineSystem,
   motionSystem,
   designSystem,
+  typographyInventory,
   responsiveVideo,
   playbackController,
 ] = await Promise.all([
@@ -35,6 +36,7 @@ const [
   read('../src/scripts/line-system.js'),
   read('../src/scripts/motion-system.js'),
   read('../CASE_STUDY_DESIGN_SYSTEM.md'),
+  read('../docs/typography-inventory.md'),
   read('../src/components/ResponsiveVideo.astro'),
   read('../src/scripts/media-playback-controller.js'),
 ]);
@@ -47,6 +49,17 @@ const requireCount = (source, expected, count, message) => {
   const actual = source.split(expected).length - 1;
   if (actual !== count) errors.push(`${message} Expected ${count}, found ${actual}.`);
 };
+const relativeLuminance = (hex) => {
+  const channels = hex.match(/[\da-f]{2}/gi).map((channel) => Number.parseInt(channel, 16) / 255);
+  const linear = channels.map((channel) => channel <= 0.04045
+    ? channel / 12.92
+    : ((channel + 0.055) / 1.055) ** 2.4);
+  return (0.2126 * linear[0]) + (0.7152 * linear[1]) + (0.0722 * linear[2]);
+};
+const contrastRatio = (foreground, background) => {
+  const values = [relativeLuminance(foreground), relativeLuminance(background)].sort((a, b) => b - a);
+  return (values[0] + 0.05) / (values[1] + 0.05);
+};
 
 requireText(styles, '--asset-radius: 8px;', 'The shared editorial asset radius must remain 8px.');
 requireText(styles, "[data-home-system='true'] {\n  --home-background: #fafafa;\n  --asset-radius: 4px;", 'Homepage media must override the shared radius to 4px without changing case-study media.');
@@ -56,6 +69,13 @@ if (styles.includes('--cs-surface') || styles.includes('background: var(--cs-sur
   errors.push('Case-study structural blocks must not restore the removed white surface architecture.');
 }
 requireText(styles, '--prose-measure: 70%;', 'The shared desktop prose measure must remain 70%.');
+requireText(styles, '--text-primary: #000;', 'Editorial primary text must remain pure black.');
+requireText(styles, '--text-secondary: #416870;', 'Editorial secondary text must remain #416870.');
+requireText(styles, '--text-tertiary: #5f787d;', 'Editorial tertiary text must remain the accessible #5F787D.');
+requireText(styles, '--ink: var(--text-primary);', 'The legacy ink token must alias the canonical primary token.');
+requireText(styles, '--muted: var(--text-secondary);', 'The legacy muted token must alias the canonical secondary token.');
+requireText(styles, '--faint: var(--text-tertiary);', 'The legacy faint token must alias the canonical tertiary token.');
+if (contrastRatio('5f787d', 'fafafa') < 4.5) errors.push('Editorial tertiary text must retain at least 4.5:1 contrast against #FAFAFA.');
 requireCount(styles, "font-family: 'Manrope';", 3, 'Manrope weights 400, 500, and 700 must remain registered as bundled site fonts.');
 requireText(styles, "--body-font: 'Manrope', Arial, sans-serif;", 'The shared body-family token must remain Manrope.');
 requireText(styles, '--body-tracking: -.02em;', 'Every Manrope role must retain minus-two-percent tracking.');
@@ -74,7 +94,8 @@ for (const [, selector, body] of styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
 requireText(styles, '[data-asset-surface] { overflow: hidden; border-radius: var(--asset-radius); }', 'Asset surfaces must own both clipping and the shared radius.');
 requireText(styles, 'main :is(p, li) { text-wrap: pretty; }', 'Main prose must opt into pretty wrapping.');
 requireText(styles, 'font: 400 24px/1.35 var(--body-font);', 'Both homepage bio sentences must retain 24px type with 135% leading.');
-requireText(styles, '.home-bio-sentence--lead { font-weight: 500; }', 'The homepage lead sentence must retain medium weight.');
+requireText(styles, '.home-bio-sentence--lead { color: var(--text-primary); font-weight: 500; }', 'The homepage lead sentence must retain medium weight and editorial primary.');
+requireText(styles, '.home-bio-sentence--support { color: var(--text-secondary); }', 'The homepage supporting statement must use editorial secondary.');
 requireText(styles, '@media (min-width: 768px) {\n  .home-bio { max-width: 400px; }\n}', 'The homepage bio must become a 400px reading measure from 768px.');
 requireText(styles, '.js .home-bio-sentence--animated .home-bio-word {', 'Only the explicitly animated lead sentence may run the word entrance.');
 requireText(styles, 'animation: home-bio-word-reveal 100ms linear forwards;', 'Lead-sentence words must use Antinomy’s 100ms linear opacity entrance.');
@@ -137,10 +158,11 @@ requireText(styles, 'gap: 4px;\n  margin: 0;\n  padding: 0;\n  list-style: none;
 requireText(siteHeader, '<span class="site-header-person">Sākshāt Goyal</span>', 'The header must retain the named 500-weight person label.');
 requireText(siteHeader, '<span class="site-header-role">Product Designer</span>', 'The header must include the Product Designer role.');
 requireText(styles, '.site-header-person { font-weight: 500; }', 'The person label must retain weight 500.');
-requireText(styles, '.site-header-role { color: #416870; font-weight: 400; }', 'The Product Designer role must retain weight 400 and #416870.');
-requireText(styles, 'gap: 4px;\n  color: #000;\n  text-decoration: none;', 'The name and role must retain their 4px internal gap.');
-requireText(styles, '.site-header-link {\n  color: #416870;', 'Inactive navigation links must remain #416870.');
-requireText(styles, '.site-header-link.active { color: #000; }', 'Active, hovered, and focused navigation links must remain black.');
+requireText(styles, '.site-header-role { color: var(--text-secondary); font-weight: 400; }', 'The Product Designer role must use editorial secondary.');
+requireText(styles, 'gap: 4px;\n  color: var(--text-primary);\n  text-decoration: none;', 'The name and role must retain their 4px gap and primary name color.');
+requireText(styles, '.site-header-link {\n  color: var(--text-secondary);', 'Inactive navigation links must use editorial secondary.');
+requireText(styles, '.site-header-link.active { color: var(--text-primary); }', 'Active, hovered, and focused navigation links must use editorial primary.');
+requireText(styles, '.site-header-separator { color: var(--text-tertiary); }', 'Navigation separators must use editorial tertiary.');
 requireText(styles, 'border: 1px solid color-mix(in srgb, currentColor 5%, transparent);', 'The header capsule must retain its subtle closed outline.');
 requireText(styles, 'backdrop-filter: blur(12px);', 'The header capsule must retain its 12px backdrop blur.');
 requireText(styles, 'white-space: nowrap;', 'The approved one-row header behavior must remain explicit.');
@@ -154,6 +176,9 @@ requireText(lineSystem, 'window.__lineSystemDispose?.();', 'Line-system initiali
 requireText(lineSystem, "document.querySelectorAll('.line-system-layer').forEach((layer) => layer.remove());", 'Line-system initialization must remove orphan legacy layers.');
 
 requireCount(home, 'data-asset-surface', 2, 'Homepage media branches must each declare their clipping owner.');
+requireText(styles, '--home-ink: var(--text-primary);', 'Homepage titles must inherit editorial primary.');
+requireText(styles, '--home-secondary: var(--text-tertiary);', 'Homepage years, separators, and footer must inherit editorial tertiary.');
+requireText(styles, '.home-project-meta > .home-project-client { color: var(--text-secondary);', 'Selected Work clients must use editorial secondary.');
 requireText(styles, '.home-project-one-report .home-project-media-visual video {\n  width: 100% !important;\n  max-width: none;\n  height: 100% !important;\n  max-height: none;', 'The One Report homepage video must fill its media frame without the shared viewport cap.');
 const styleRules = [...styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)];
 const ruleBody = (selector) => styleRules.find(([, candidate]) => candidate.trim() === selector)?.[2] || '';
@@ -176,7 +201,10 @@ if (bodyRevealSource.includes("'[data-media-caption]'")) {
 requireText(motionSystem, "caption.dataset.bodyRevealKind = 'media-caption';", 'Media captions must be registered as media-owned reveals.');
 requireText(motionSystem, "caption.addEventListener('captionlayout'", 'Media captions must wait for completed caption layout.');
 requireText(motionSystem, 'markCaptionMediaStarted(state.anchor, target, state.error);', 'Media captions must activate from the media reveal lifecycle.');
+requireText(motionSystem, "anchor.setAttribute('data-media-ready', '');", 'Failed media must fail open so its caption remains readable.');
+requireText(motionSystem, "captionStates.forEach(({ caption }) => {\n      caption.classList.add('body-reveal-active');\n      completeCaptionReveal(caption);", 'Reduced motion must expose media captions without waiting for animation.');
 requireText(styles, "[data-body-reveal][data-body-reveal-kind='media-caption'].body-reveal-active", 'Media captions must preserve their shared text-block animation with media-owned timing.');
+requireText(layout, '<noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>', 'No-script rendering must keep media captions visible.');
 requireText(styles, 'padding: 24px;\n  border: 0;\n  background: transparent;', 'Selected Work tiles must use normalized 24px padding.');
 requireText(styles, 'transition: background-color 110ms var(--expressive-ease-in-out);', 'Selected Work hover must use Carbon’s 110ms expressive transition.');
 requireText(styles, 'background: rgb(190 204 207 / 25%);', 'Selected Work hover and focus must use the requested 25% BECCCF tint.');
@@ -186,12 +214,34 @@ requireText(styles, '--gallery-composition-inset: 12px;', 'The Gallery compositi
 requireText(styles, 'gap: 24px;\n  min-width: 0;\n  padding-inline: var(--home-pad);', 'Stacked Gallery artifacts must retain a 24px gap.');
 requireText(styles, 'row-gap: 24px;', 'Desktop Gallery artifacts must retain a 24px vertical gap.');
 requireText(styles, 'font: 700 16px/1.35 var(--body-font);', 'Gallery headings must use 16px bold Manrope.');
-requireText(styles, 'color: #416870;\n  font: 400 16px/var(--body-leading) var(--body-font);', 'Gallery body copy must use 16px Manrope in #416870.');
+requireText(styles, 'color: var(--text-secondary);\n  font: 400 16px/var(--body-leading) var(--body-font);', 'Gallery body copy must use 16px Manrope in editorial secondary.');
 requireCount(galleryProject, 'var(--gallery-composition-inset)', 2, 'Gallery copy placement must apply the shared inset to both eligible edges.');
 requireCount(galleryArtifact, 'var(--gallery-composition-inset)', 2, 'Gallery media placement must apply the shared inset to both eligible edges.');
 requireCount(carousel, 'data-asset-surface', 1, 'The carousel viewport must be the sole asset surface.');
 requireCount(oneReport, 'class="scenario-column" data-asset-surface', 3, 'Each One Report scenario group must own one asset surface.');
 requireCount(hbs, 'class="research-architecture" data-asset-surface', 1, 'The grouped HBS research visual must own one asset surface.');
+for (const token of [
+  '--cs-heading: var(--text-primary);',
+  '--cs-body-text: var(--text-secondary);',
+  '--cs-caption: var(--text-tertiary);',
+  '--cs-metadata-label: var(--text-tertiary);',
+  '--cs-metadata-value: var(--text-secondary);',
+]) requireText(styles, token, `Case-study editorial token must remain mapped: ${token}`);
+for (const obsolete of ['--cs-context-label', '--cs-context-value', '--cs-text-primary', '--cs-text-secondary', '.case-section h3']) {
+  if (styles.includes(obsolete)) errors.push(`Obsolete case-study typography role must remain removed: ${obsolete}`);
+}
+if (designSystem.includes('context label') || designSystem.includes('context value')) {
+  errors.push('Case-study documentation must call Stakeholder, Skills, Year, and Role metadata rather than context.');
+}
+for (const expected of ['`--text-primary` | `#000000`', '`--text-secondary` | `#416870`', '`--text-tertiary` | `#5F787D`']) {
+  requireText(designSystem, expected, `Case-study documentation must retain the canonical editorial color: ${expected}`);
+}
+if (typographyInventory.includes('| Subheading |') || typographyInventory.includes('| Context label |') || typographyInventory.includes('| Context value |')) {
+  errors.push('The typography inventory must omit the unused subheading role and use metadata terminology.');
+}
+for (const expected of ['| Metadata label |', '| Metadata value |', '`#5F787D`']) {
+  requireText(typographyInventory, expected, `Typography inventory is missing the approved editorial hierarchy: ${expected}`);
+}
 requireText(responsiveVideo, 'data-media-playback-control', 'Every responsive video must expose its persistent playback control.');
 requireText(styles, 'right: 12px;\n  bottom: 12px;', 'Every responsive-video control must stay 12px from the bottom-right corner.');
 requireText(styles, 'width: 40px;\n  height: 40px;', 'Responsive-video controls must retain their subtle 40px circle.');

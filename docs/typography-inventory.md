@@ -10,11 +10,11 @@ This inventory records the active typography system in `src/styles/global.css`. 
 | `--body-leading` | 1.5 | Default prose leading | “Wexel was an app designed to offer flexible booking options for caretakers.” |
 | `--body-tracking` | −0.02em | All active Manrope roles | “Product Designer” |
 | `--canvas` | `#FAFAFA` | Site canvas | The `#FAFAFA` background directly behind “Selected Work” on `/` |
-| `--ink` | `#000000` | Primary text | “Selected Work” |
-| `--muted` | `#62625F` | Secondary legacy text | “Back to top ↑” in the footer of `/work/hbs-ai-institute/` |
-| `--faint` | `#92928D` | Tertiary legacy text | No current route renders text with this token; it remains only in inactive legacy metadata rules |
-| Header secondary | `#416870` | Role label, inactive navigation, separators | “Product Designer” |
-| Homepage secondary | 50% black | Years, metadata separators, footer | “2025–26” |
+| `--text-primary` | `#000000` | Titles, headings, active navigation, and emphasis | “Selected Work” |
+| `--text-secondary` | `#416870` | Body copy, clients, inactive navigation, and metadata values | “Product Designer” |
+| `--text-tertiary` | `#5F787D` | Years, separators, metadata labels, captions, and footer text | “2025–26” |
+
+The legacy names `--ink`, `--muted`, and `--faint` are aliases to these three tokens, not additional colors. Inverse white text, controls, media surfaces, and branded embedded content remain scoped exceptions to the editorial typography palette.
 
 Bundled families are Manrope 400/500/700, Cabinet Grotesk variable 100–900, Public Sans 400, Inter variable 100–900, Fragment Mono 400, Basically A Mono 400, Clash Display 600, and Cisco Sans 400/700. Manrope is the default; the other families are deliberately scoped to the roles listed below.
 
@@ -26,7 +26,7 @@ Bundled families are Manrope 400/500/700, Cabinet Grotesk variable 100–900, Pu
 | Role | “Product Designer” | Manrope | 16px / 1 | 400 | −2% | `#416870` | 4px from the name |
 | Active, hovered, or focused link | “Selected Work” | Manrope | 16px / 1 | 400 | −2% | `#000000` | Selected state |
 | Inactive link | “Gallery” | Manrope | 16px / 1 | 400 | −2% | `#416870` | Unselected state |
-| Navigation separator | `・` | Manrope | 16px / 1 | 400 | −2% | `#416870` | Middle-dot separators |
+| Navigation separator | `・` | Manrope | 16px / 1 | 400 | −2% | `#5F787D` | Middle-dot separators |
 
 The header remains 48px high with a 24px radius. Typography does not change at a breakpoint.
 
@@ -35,7 +35,7 @@ The header remains 48px high with a 24px radius. Typography does not change at a
 | Use-case | Literal example from the site | Family | Size / leading | Weight | Tracking | Color | Motion |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Lead statement | “I lead design where problems are undefined, but commitments aren't” | Manrope | 24px / 135% | 500 | −2% | `#000000` | Each word fades from 10% to 100% opacity over 100ms linear, staggered by 75ms |
-| Supporting statement | “Over the last 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.” | Manrope | 24px / 135% | 400 | −2% | `#000000` | None |
+| Supporting statement | “Over the last 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.” | Manrope | 24px / 135% | 400 | −2% | `#416870` | None |
 
 Both statements are full width below 768px and share a 400px maximum width from 768px upward. The lead retains an unsplit screen-reader copy. Reduced-motion mode removes the lead animation and renders every word fully opaque.
 
@@ -45,8 +45,8 @@ Both statements are full width below 768px and share a 400px maximum width from 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Section title | “Selected Work” | Cabinet Grotesk | 36px / 110% | 400 | 0 | `#000000` | Fixed size |
 | Project title | “Designing AI experiences for deep analysis and traceability.” | Cabinet Grotesk | 24px / normal | 600 | 0.24px | `#000000` | 22px at 720px and below |
-| Client | “PALO ALTO NETWORKS” | Manrope | 14px / 135% | 700 | −2% | `#000000` | Fixed size |
-| Year and separator | `・ 2025–26` | Public Sans | 14px / 135% | 400 | Normal | 50% black | Fixed size |
+| Client | “PALO ALTO NETWORKS” | Manrope | 14px / 135% | 700 | −2% | `#416870` | Fixed size |
+| Year and separator | `・ 2025–26` | Public Sans | 14px / 135% | 400 | Normal | `#5F787D` | Fixed size |
 
 ## Homepage Gallery
 
@@ -55,24 +55,23 @@ Both statements are full width below 768px and share a 400px maximum width from 
 | Section title | “Gallery” | Cabinet Grotesk | 36px / 110% | 400 | 0 | `#000000` |
 | Project heading | “Wexel, Premera Blue Cross” | Manrope | 16px / 135% | 700 | −2% | `#000000` |
 | Project body | “Wexel was an app designed to offer flexible booking options for caretakers.” | Manrope | 16px / 150% | 400 | −2% | `#416870` |
-| Year and separator | `・ 2018` | Public Sans | 14px / 135% | 400 | Normal | 50% black |
-| Footer | “© 2026 Sākshāt Goyal” and “Back to top ↑” | Manrope | 14px / 135% | 400 | −2% | 50% black |
+| Year and separator | `・ 2018` | Public Sans | 14px / 135% | 400 | Normal | `#5F787D` |
+| Footer | “© 2026 Sākshāt Goyal” and “Back to top ↑” | Manrope | 14px / 135% | 400 | −2% | `#5F787D` |
 
 ## Case studies
 
 | Use-case | Literal example from the site | Family | Size / leading | Weight | Tracking | Color |
 | --- | --- | --- | --- | --- | --- | --- |
 | Case title | “Designing an AI architecture for large scale, qualitative research and product strategy.” | Cabinet Grotesk | 36px / 110% | 500 | 0 | `#000000` |
-| Narrative paragraphs and lists | “Reasoning models gave reliable answers but missed hidden meanings.” | Manrope | 20px / 150% | 400 | −2% | `#000000` |
+| Narrative paragraphs and lists | “Reasoning models gave reliable answers but missed hidden meanings.” | Manrope | 20px / 150% | 400 | −2% | `#416870` |
 | Section heading | “Maintaining Standards for AI Outputs” | Cabinet Grotesk | 28px / 135% | 700 | 0 | `#000000` |
-| Subheading | No current case-study route renders this role; it is reserved for a future `<h3>` inside a case section | Cabinet Grotesk | 20px / 135% | 700 | 0 | `#000000` |
-| Context label | “Stakeholder” | Manrope | 16px / 135% | 400 | −2% | `#26313B` |
-| Context value | “HBS AI Institute (Previously D^3 Institute)” | Manrope | 16px / 135% | 400 | −2% | `#68717B` |
-| Media caption | “Mapping current models’ strengths and weaknesses against our target performance.” | Cabinet Grotesk | 14px / 135% | 400 | Normal | `#38434D` |
+| Metadata label | “Stakeholder” | Manrope | 16px / 135% | 400 | −2% | `#5F787D` |
+| Metadata value | “HBS AI Institute (Previously D^3 Institute)” | Manrope | 16px / 135% | 400 | −2% | `#416870` |
+| Media caption | “Mapping current models’ strengths and weaknesses against our target performance.” | Cabinet Grotesk | 14px / 135% | 400 | Normal | `#5F787D` |
 | Team member name | “Tanya Flint” | Cabinet Grotesk | 16px / 135% | 700 | Normal | `#FFFFFF` |
 | Team role | “Head of AI” | Manrope | 14px / 140% | 400 | −2% | `#AEB7C0` |
 | Team note | “The HBS AI Institute engaged us to lead the research and design work, with the four team members below serving as project advisors.” | Manrope | 15px / 150% | 400 | −2% | `#D5DBE0` |
-| Previous / Next label | “Next” | Manrope | 18px / 130% | 400 | −2% | `#2C2C2C`; white on hover |
+| Previous / Next label | “Next” | Manrope | 18px / 130% | 400 | −2% | `#000000`; white on hover |
 
 ## Specialized and compatibility roles
 

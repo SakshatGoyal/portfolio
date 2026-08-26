@@ -23,16 +23,11 @@ The rendered reference image is the authority for intended appearance. Figma is 
 | `--color-surface` | `#FFFFFF` | Rail modules, text sections, and media cells |
 | `--color-divider-standard` | `#DBDEE2` | Structural seams between adjacent modules |
 | `--color-divider-intense` | `#9AA1A8` | Text-group, metadata, and high-emphasis rules |
-| `--color-text-heading` | `#04101C` | Page titles and section headings |
-| `--color-text-primary` | `#0B1117` | Primary narrative copy |
-| `--color-text-secondary` | `#4F5963` | Supporting narrative copy |
-| `--color-text-caption` | `#38434D` | Captions and media notes |
-| `--color-text-nav-label` | `#596168` | Default navigation tab label |
-| `--color-text-nav-label-active` | `#0B1117` | Selected navigation tab label |
-| `--color-text-context-label` | `#26313B` | Metadata labels: Stakeholder, Skills, Year, Role |
-| `--color-text-context-value` | `#68717B` | Metadata values |
+| `--text-primary` | `#000000` | Page titles, section headings, emphasis, and navigation labels |
+| `--text-secondary` | `#416870` | Narrative copy and metadata values |
+| `--text-tertiary` | `#5F787D` | Metadata labels, captions, and footer text |
 
-Project-specific accent colors may be used inside media, metrics, or explicitly designed feature modules. They must not replace global text or divider tokens.
+Project-specific accent colors may be used inside media, metrics, or explicitly designed feature modules. Inverse white text remains available for dark controls and overlays. Neither exception may replace the three editorial text tokens.
 
 ## 3. Responsive editorial rail
 
@@ -72,13 +67,14 @@ Typography families, sizes, line heights, and colors are system-level. Weight ch
 
 | Role | Family | Size / line height | Default weight | Color |
 | --- | --- | --- | ---: | --- |
-| Page title | Cabinet Grotesk | 36px / 1.1 | 500 | heading |
-| Section heading | Cabinet Grotesk | 20px / 1.35 | 700 | heading |
-| Narrative body | Manrope | 20px / 1.35 | 500 | primary |
-| Supporting body | Manrope | 20px / 1.35 | 500 | secondary |
-| Navigation label | Manrope | 20px / 1.35 | 500 | nav label |
-| Context label/value | Manrope | 16px / 1.35 | 500 | context label/value |
-| Caption | Cabinet Grotesk | 14px / 1.35 | 400 | caption |
+| Page title | Cabinet Grotesk | 36px / 1.1 | 500 | primary |
+| Section heading | Cabinet Grotesk | 28px / 1.35 | 700 | primary |
+| Narrative body | Manrope | 20px / 1.5 | 400 | secondary |
+| Inline strong emphasis | Manrope | 20px / 1.5 | 700 | primary |
+| Metadata label | Manrope | 16px / 1.35 | 400 | tertiary |
+| Metadata value | Manrope | 16px / 1.35 | 400 | secondary |
+| Caption | Cabinet Grotesk | 14px / 1.35 | 400 | tertiary |
+| Case navigation label | Manrope | 18px / 1.3 | 400 | primary |
 
 Use explicit `strong`, `emphasis`, or component modifiers for approved weight changes. Do not override typography ad hoc by page or selector position.
 
