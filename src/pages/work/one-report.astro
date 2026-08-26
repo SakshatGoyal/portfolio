@@ -1,6 +1,7 @@
 ---
 import CaseLayout from '../../layouts/CaseLayout.astro';
 import Figure from '../../components/Figure.astro';
+import ResponsiveVideo from '../../components/ResponsiveVideo.astro';
 ---
 
 <CaseLayout
@@ -23,8 +24,6 @@ import Figure from '../../components/Figure.astro';
   heroHeight={1688}
   heroViewportFit={false}
   theme="one-report"
-  previousHref="/work/hbs-ai-institute/"
-  nextHref="/work/global-data-analytics/"
 >
   <section class="case-section reading-column one-report-decision" data-reveal>
     <h2>Deciding what to build.</h2>
@@ -45,21 +44,21 @@ import Figure from '../../components/Figure.astro';
   <div class="media-grid three" data-reveal>
     <figure class="scenario-column" data-asset-surface data-media-unit data-media-ready data-media-reveal-group>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><div class="scenario-animation playable-media-surface" data-playable-media>
-        <video src="/assets/one-report/video/sc-01.webm" poster="/assets/one-report/posters/sc-01.png" aria-label="5-10 minute whitespaces during the day" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
+        <ResponsiveVideo src="/assets/one-report/video/sc-01.webm" poster="/assets/one-report/posters/sc-01.png" label="5-10 minute whitespaces during the day" standalone showPlaybackControl={false} />
       </div></div></div></div>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-01.png" alt="Reports" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>5-10 minute whitespaces during the day → Reports</figcaption>
     </figure>
     <figure class="scenario-column" data-asset-surface data-media-unit data-media-ready data-media-reveal-group>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><div class="scenario-animation playable-media-surface" data-playable-media>
-        <video src="/assets/one-report/video/sc-02.webm" poster="/assets/one-report/posters/sc-02.png" aria-label="Quick checks during meetings" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
+        <ResponsiveVideo src="/assets/one-report/video/sc-02.webm" poster="/assets/one-report/posters/sc-02.png" label="Quick checks during meetings" standalone showPlaybackControl={false} />
       </div></div></div></div>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-02.png" alt="Numbers" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>Quick checks during meetings → Numbers</figcaption>
     </figure>
     <figure class="scenario-column" data-asset-surface data-media-unit data-media-ready data-media-reveal-group>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><div class="scenario-animation playable-media-surface" data-playable-media>
-        <video src="/assets/one-report/video/sc-03.webm" poster="/assets/one-report/posters/sc-03.png" aria-label="Exploratory deep dives when time allows" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
+        <ResponsiveVideo src="/assets/one-report/video/sc-03.webm" poster="/assets/one-report/posters/sc-03.png" label="Exploratory deep dives when time allows" standalone showPlaybackControl={false} />
       </div></div></div></div>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-03.png" alt="Analysis" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>Exploratory deep dives when time allows → Analysis</figcaption>

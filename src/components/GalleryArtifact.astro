@@ -1,4 +1,6 @@
 ---
+import ResponsiveVideo from './ResponsiveVideo.astro';
+
 interface Props {
   id: string;
   type: 'image' | 'video';
@@ -17,8 +19,8 @@ interface Props {
 
 const { id, type, src, poster, width, height, label, placement } = Astro.props;
 const { column, span, row, rowSpan = 1 } = placement;
-const insetStart = column === 1 ? '0px' : '24px';
-const insetEnd = column + span > 20 ? '0px' : '24px';
+const insetStart = column === 1 ? '0px' : 'var(--gallery-composition-inset)';
+const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)';
 ---
 
 <div
@@ -35,31 +37,21 @@ const insetEnd = column + span > 20 ? '0px' : '24px';
   <div class="media-reveal-clip" data-media-reveal-clip>
     <div class="media-reveal-rise" data-media-reveal-rise>
       {type === 'video' ? (
-        <button
+        <div
           class="gallery-artifact-surface playable-media-surface"
-          type="button"
           data-playable-media
-          data-playback-mode="exclusive"
           data-asset-surface
-          data-behance-video
-          data-behance-title={label}
-          aria-label={`View ${label} video`}
         >
-          <video
+          <ResponsiveVideo
             src={src}
             poster={poster}
             width={width}
             height={height}
-            muted
-            loop
-            playsinline
-            preload="metadata"
-            data-autoplay-on-view
-            data-gallery-video
-            data-media-visual
-            aria-label={label}
-          ></video>
-        </button>
+            label={label}
+            gallery
+          />
+          <button class="media-viewer-trigger" type="button" data-behance-video data-behance-title={label} aria-label={`View ${label} video`}></button>
+        </div>
       ) : (
         <button
           class="gallery-artifact-surface"

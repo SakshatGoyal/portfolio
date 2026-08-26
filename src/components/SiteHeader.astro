@@ -7,7 +7,6 @@ const links = [
   { label: 'Selected Work', href: '/#work', section: 'work', active: isWork },
   { label: 'Gallery', href: '/#gallery', section: 'gallery', active: false },
   { label: 'About', href: '/#about', section: 'about', active: isHome },
-  { label: 'Contact', href: '/#contact', section: 'contact', active: false },
 ];
 ---
 
@@ -16,7 +15,10 @@ const links = [
     <div class="site-header-area">
       <div class="site-header-row">
         <div class="site-header-brand">
-          <a class="site-header-name" href="/" aria-label="Sākshāt Goyal — Home">Sākshāt Goyal</a>
+          <a class="site-header-name" href="/" aria-label="Sākshāt Goyal, Product Designer — Home">
+            <span class="site-header-person">Sākshāt Goyal</span>
+            <span class="site-header-role">Product Designer</span>
+          </a>
         </div>
         <nav aria-label="Primary navigation">
           <ul class="site-header-nav-list">

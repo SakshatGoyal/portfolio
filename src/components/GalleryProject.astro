@@ -38,8 +38,8 @@ const placementStyle = ({ column, span, row, rowSpan = 1 }: Placement) => [
   `--gallery-span: ${span}`,
   `--gallery-row: ${row}`,
   `--gallery-row-span: ${rowSpan}`,
-  `--gallery-inset-start: ${column === 1 ? '0px' : '24px'}`,
-  `--gallery-inset-end: ${column + span > 20 ? '0px' : '24px'}`,
+  `--gallery-inset-start: ${column === 1 ? '0px' : 'var(--gallery-composition-inset)'}`,
+  `--gallery-inset-end: ${column + span > 20 ? '0px' : 'var(--gallery-composition-inset)'}`,
 ].join('; ');
 ---
 

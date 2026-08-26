@@ -2,7 +2,7 @@
 const isHome = Astro.url.pathname === '/';
 ---
 
-<footer id="contact" class:list={['site-footer', { 'home-site-footer': isHome }]}>
+<footer class:list={['site-footer', { 'home-site-footer': isHome }]}>
   {isHome ? (
     <>
       <p>© 2026 Sākshāt Goyal</p>

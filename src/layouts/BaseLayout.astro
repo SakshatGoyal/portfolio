@@ -20,7 +20,7 @@ const isHomeSystem = Astro.url.pathname === '/';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#fcfcfa" />
+    <meta name="theme-color" content="#fafafa" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -41,8 +41,6 @@ const isHomeSystem = Astro.url.pathname === '/';
       <SiteFooter />
     </div>
     <div class="custom-site-cursor" data-custom-cursor aria-hidden="true">
-      <svg class="cursor-pause" viewBox="0 0 100 100"><rect x="20" width="20" height="100" rx="6"></rect><rect x="60" width="20" height="100" rx="6"></rect></svg>
-      <svg class="cursor-play" viewBox="0 0 100 100"><path d="M17 90.4251V9.57428C17 2.11666 25.1593-2.46895 31.5295 1.4088L95.6527 40.44C101.66 44.0969 101.795 52.7704 95.9041 56.6123L31.7809 98.4319C25.4226 102.579 17 98.0161 17 90.4251Z"></path></svg>
       <svg class="cursor-project-arrow" viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"></path></svg>
     </div>
     <div class="behance-viewer" data-behance-viewer hidden role="dialog" aria-modal="true" aria-labelledby="behance-viewer-title">
@@ -63,6 +61,18 @@ const isHomeSystem = Astro.url.pathname === '/';
         <svg viewBox="0 0 12 20" aria-hidden="true"><path d="M2 2L10 10L2 18" /></svg>
       </button>
     </div>
+    <script>
+      import { createMediaPlaybackController } from '../scripts/media-playback-controller.js';
+
+      const mediaWindow = window as typeof window & {
+        __mediaPlaybackController?: ReturnType<typeof createMediaPlaybackController>;
+        __mediaPlaybackDispose?: () => void;
+      };
+      mediaWindow.__mediaPlaybackDispose?.();
+      const mediaPlaybackController = createMediaPlaybackController();
+      mediaWindow.__mediaPlaybackController = mediaPlaybackController;
+      mediaWindow.__mediaPlaybackDispose = () => mediaPlaybackController.dispose();
+    </script>
     <script is:inline>
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -80,143 +90,8 @@ const isHomeSystem = Astro.url.pathname === '/';
         document.querySelectorAll('[data-reveal]').forEach((element) => element.classList.add('is-visible'));
       }
 
-      const playableSurfaces = [...document.querySelectorAll('[data-playable-media]')];
-      const inViewVideos = [...document.querySelectorAll('video[data-autoplay-on-view], video[data-home-autoplay-on-view]')]
-        .filter((video) => video instanceof HTMLVideoElement);
-      const videoVisibility = new Map(inViewVideos.map((video) => [video, 0]));
-      const independentHomepagePlayback = document.documentElement.dataset.homeSystem === 'true';
-      let manuallyActiveVideo = null;
-
-      const surfaceForVideo = (video) => video.closest('[data-playable-media]');
-      const isIndependentVideo = (video) => {
-        const playbackMode = surfaceForVideo(video)?.dataset.playbackMode;
-        return playbackMode ? playbackMode === 'independent' : independentHomepagePlayback;
-      };
-      const mediaLabel = (video) => video.getAttribute('aria-label') || 'animation';
-      const syncPlayableState = (video) => {
-        const surface = surfaceForVideo(video);
-        if (!surface) return;
-        const paused = video.paused;
-        surface.dataset.playbackState = paused ? 'paused' : 'playing';
-        surface.setAttribute('aria-label', surface.hasAttribute('data-behance-video')
-          ? `View ${mediaLabel(video)} video`
-          : `${paused ? 'Play' : 'Pause'} ${mediaLabel(video)}`);
-      };
-
-      const updateVideoPlayback = (video, shouldPlay) => {
-        if (!(video instanceof HTMLVideoElement)) return;
-        const manuallyPaused = video.dataset.manualPlayback === 'paused';
-        const reducedGalleryPlayback = reduceMotion
-          && video.hasAttribute('data-gallery-video')
-          && video.dataset.manualPlayback !== 'playing';
-        if (!shouldPlay || manuallyPaused || reducedGalleryPlayback || document.hidden
-          || document.body.classList.contains('behance-viewer-open')) {
-          video.pause();
-          return;
-        }
-
-        video.play().catch(() => {
-          // The poster remains visible if playback is blocked or decoding is delayed.
-        });
-      };
-
-      const selectActiveVideo = () => {
-        const independentVideos = inViewVideos.filter(isIndependentVideo);
-        const exclusiveVideos = inViewVideos.filter((video) => !isIndependentVideo(video));
-
-        independentVideos.forEach((video) => {
-            const inRange = (videoVisibility.get(video) ?? 0) >= 0.35;
-            video.toggleAttribute('data-in-playback-range', inRange);
-            video.toggleAttribute('data-active-playback', inRange);
-            updateVideoPlayback(video, inRange);
-        });
-
-        const viewportCenter = window.innerHeight / 2;
-        const eligibleVideos = exclusiveVideos.filter((video) => (
-          (videoVisibility.get(video) ?? 0) >= 0.35
-          && video.dataset.manualPlayback !== 'paused'
-        ));
-        const visibleRatio = (video) => {
-          const rect = video.getBoundingClientRect();
-          if (!rect.height) return 0;
-          return Math.max(0, Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0)) / rect.height;
-        };
-        const manualIsEligible = manuallyActiveVideo
-          && (eligibleVideos.includes(manuallyActiveVideo) || visibleRatio(manuallyActiveVideo) >= 0.35);
-        const activeVideo = manualIsEligible ? manuallyActiveVideo : eligibleVideos.reduce((closest, video) => {
-          if (!closest) return video;
-          const videoRect = video.getBoundingClientRect();
-          const closestRect = closest.getBoundingClientRect();
-          const videoDistance = Math.abs(videoRect.top + videoRect.height / 2 - viewportCenter);
-          const closestDistance = Math.abs(closestRect.top + closestRect.height / 2 - viewportCenter);
-          return videoDistance < closestDistance ? video : closest;
-        }, null);
-
-        exclusiveVideos.forEach((video) => {
-          const inRange = (videoVisibility.get(video) ?? 0) >= 0.35;
-          const isActive = video === activeVideo;
-          video.toggleAttribute('data-in-playback-range', inRange);
-          video.toggleAttribute('data-active-playback', isActive);
-          updateVideoPlayback(video, isActive);
-        });
-      };
-
-      const playbackObserver = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          const video = entry.target;
-          if (!(video instanceof HTMLVideoElement)) return;
-          videoVisibility.set(video, entry.intersectionRatio);
-        });
-        selectActiveVideo();
-      }, { threshold: [0, 0.15, 0.35, 0.5, 0.75, 1] });
-      inViewVideos.forEach((video) => {
-        playbackObserver.observe(video);
-        video.addEventListener('loadedmetadata', selectActiveVideo);
-        video.addEventListener('canplay', selectActiveVideo);
-        video.addEventListener('play', () => syncPlayableState(video));
-        video.addEventListener('pause', () => syncPlayableState(video));
-        video.addEventListener('ended', () => syncPlayableState(video));
-        syncPlayableState(video);
-      });
-
-      playableSurfaces.forEach((surface) => {
-        const video = surface.querySelector('video');
-        if (!(video instanceof HTMLVideoElement)) return;
-        surface.addEventListener('click', () => {
-          if (surface.hasAttribute('data-behance-video')) return;
-          if (video.paused) {
-            video.dataset.manualPlayback = 'playing';
-            if (!isIndependentVideo(video)) {
-              manuallyActiveVideo = video;
-              inViewVideos.filter((candidate) => candidate !== video && !isIndependentVideo(candidate))
-                .forEach((candidate) => candidate.pause());
-            }
-            video.play().catch(() => {});
-          } else {
-            video.dataset.manualPlayback = 'paused';
-            if (manuallyActiveVideo === video) manuallyActiveVideo = null;
-            video.pause();
-          }
-          syncPlayableState(video);
-          selectActiveVideo();
-        });
-      });
-
-      document.addEventListener('visibilitychange', () => {
-        selectActiveVideo();
-      });
-      document.addEventListener('viewerchange', selectActiveVideo);
-
       const customCursor = document.querySelector('[data-custom-cursor]');
       const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
-      let cursorSurface = null;
-      let cursorProject = null;
-      const syncCursorMediaState = () => {
-        const video = cursorSurface?.querySelector('video');
-        customCursor?.classList.toggle('is-project', Boolean(cursorProject));
-        customCursor?.classList.toggle('is-media', Boolean(video) && !cursorProject);
-        customCursor?.classList.toggle('is-paused', Boolean(video?.paused));
-      };
       if (customCursor && finePointer.matches) {
         document.documentElement.classList.add('custom-cursor-active');
         document.addEventListener('pointermove', (event) => {
@@ -224,19 +99,13 @@ const isHomeSystem = Astro.url.pathname === '/';
           customCursor.style.left = `${event.clientX}px`;
           customCursor.style.top = `${event.clientY}px`;
           customCursor.classList.add('is-visible');
-          const nextProject = event.target.closest?.('[data-project-tile]') || null;
-          cursorProject = nextProject;
-          cursorSurface = cursorProject
+          const nextProject = event.target.closest?.('[data-media-playback-control]')
             ? null
-            : event.target.closest?.('[data-playable-media]') || null;
-          syncCursorMediaState();
+            : event.target.closest?.('[data-project-tile]') || null;
+          customCursor.classList.toggle('is-project', Boolean(nextProject));
         }, { passive: true });
         document.documentElement.addEventListener('pointerleave', () => customCursor.classList.remove('is-visible'));
         window.addEventListener('blur', () => customCursor.classList.remove('is-visible'));
-        inViewVideos.forEach((video) => {
-          video.addEventListener('play', syncCursorMediaState);
-          video.addEventListener('pause', syncCursorMediaState);
-        });
       }
 
       const alignBranchedConnectors = () => {
@@ -465,7 +334,9 @@ const isHomeSystem = Astro.url.pathname === '/';
       const viewerItems = () => Array.from(document.querySelectorAll('[data-behance-image], [data-behance-video]'))
         .filter((item) => item.getAttribute('aria-hidden') !== 'true');
       const imageFor = (item) => item instanceof HTMLImageElement ? item : item.querySelector('img');
-      const videoFor = (item) => item instanceof HTMLVideoElement ? item : item.querySelector('video');
+      const videoFor = (item) => item instanceof HTMLVideoElement
+        ? item
+        : item.querySelector('video') || item.closest('.gallery-artifact-surface')?.querySelector('video');
       const titleFor = (item) => {
         const explicit = item.dataset.behanceTitle?.trim();
         const captionElement = item.closest('figure')?.querySelector('figcaption');
@@ -501,7 +372,7 @@ const isHomeSystem = Astro.url.pathname === '/';
         viewerTitle.textContent = title;
         setViewerExpanded(false);
         if (sourceVideo instanceof HTMLVideoElement) {
-          const continuePlayback = !reduceMotion && !sourceVideo.paused;
+          const continuePlayback = sourceVideo.dataset.playbackState === 'playing';
           const sourceTime = sourceVideo.currentTime;
           sourceVideo.pause();
           viewerSourceVideo = sourceVideo;
@@ -513,7 +384,13 @@ const isHomeSystem = Astro.url.pathname === '/';
           const continueAtSourceTime = () => {
             if (renderToken !== viewerRenderToken) return;
             viewerVideo.currentTime = Math.min(sourceTime, Number.isFinite(viewerVideo.duration) ? viewerVideo.duration : sourceTime);
-            if (continuePlayback) viewerVideo.play().catch(() => {});
+            if (continuePlayback) viewerVideo.play().catch((error) => {
+              viewerVideo.dataset.playbackState = 'failed';
+              viewerVideo.dispatchEvent(new CustomEvent('media-playback-statechange', {
+                bubbles: true,
+                detail: { state: 'failed', previousState: 'starting', reason: 'viewer-play-rejected', error: error?.name },
+              }));
+            });
           };
           if (viewerVideo.readyState >= 1) continueAtSourceTime();
           else viewerVideo.addEventListener('loadedmetadata', continueAtSourceTime, { once: true });

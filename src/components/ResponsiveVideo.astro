@@ -1,0 +1,62 @@
+---
+import { videoVariantsFor } from '../data/video-variants.js';
+
+interface Props {
+  src: string;
+  poster?: string;
+  width?: number;
+  height?: number;
+  label: string;
+  loop?: boolean;
+  autoplayOnView?: boolean;
+  home?: boolean;
+  gallery?: boolean;
+  standalone?: boolean;
+  showPlaybackControl?: boolean;
+}
+
+const {
+  src, poster, width, height, label, loop = true, autoplayOnView = true,
+  home = false, gallery = false, standalone = false, showPlaybackControl = true,
+} = Astro.props;
+const variants = videoVariantsFor(src);
+const mobileQuery = '(max-width: 1023px), (hover: none), (pointer: coarse)';
+const desktopQuery = '(min-width: 1024px) and (hover: hover) and (pointer: fine)';
+---
+
+<video
+  src={!variants ? src : undefined}
+  poster={poster}
+  width={width}
+  height={height}
+  muted
+  loop={loop}
+  playsinline
+  preload="metadata"
+  style={poster ? `--video-poster-image: url('${poster}')` : undefined}
+  data-autoplay-on-view={autoplayOnView && !home ? '' : undefined}
+  data-home-autoplay-on-view={autoplayOnView && home ? '' : undefined}
+  data-gallery-video={gallery ? '' : undefined}
+  data-standalone-media={standalone ? '' : undefined}
+  data-media-visual
+  aria-label={label}
+>
+  {variants && (
+    <>
+      <source src={variants.mobile.mp4} type="video/mp4" media={mobileQuery} />
+      <source src={variants.mobile.webm} type="video/webm" media={mobileQuery} />
+      <source src={variants.desktop.mp4} type="video/mp4" media={desktopQuery} />
+      <source src={variants.desktop.webm} type="video/webm" media={desktopQuery} />
+      <source src={variants.desktop.mp4} type="video/mp4" />
+      <source src={variants.desktop.webm} type="video/webm" />
+    </>
+  )}
+</video>
+{showPlaybackControl && (
+  <button class="media-playback-control" type="button" data-media-playback-control aria-label={`Play ${label}`}>
+    <svg class="media-playback-control__play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10-6.5z" /></svg>
+    <svg class="media-playback-control__pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3v14H7zM14 5h3v14h-3z" /></svg>
+    <span class="media-playback-control__spinner" aria-hidden="true"></span>
+    <span class="sr-only" data-media-playback-label>Play {label}</span>
+  </button>
+)}

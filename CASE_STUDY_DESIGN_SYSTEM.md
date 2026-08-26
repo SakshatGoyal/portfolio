@@ -74,13 +74,15 @@ Typography families, sizes, line heights, and colors are system-level. Weight ch
 | --- | --- | --- | ---: | --- |
 | Page title | Cabinet Grotesk | 36px / 1.1 | 500 | heading |
 | Section heading | Cabinet Grotesk | 20px / 1.35 | 700 | heading |
-| Narrative body | General Sans | 20px / 1.35 | 500 | primary |
-| Supporting body | General Sans | 20px / 1.35 | 500 | secondary |
-| Navigation label | General Sans | 20px / 1.35 | 500 | nav label |
-| Context label/value | General Sans | 16px / 1.35 | 500 | context label/value |
+| Narrative body | Manrope | 20px / 1.35 | 500 | primary |
+| Supporting body | Manrope | 20px / 1.35 | 500 | secondary |
+| Navigation label | Manrope | 20px / 1.35 | 500 | nav label |
+| Context label/value | Manrope | 16px / 1.35 | 500 | context label/value |
 | Caption | Cabinet Grotesk | 14px / 1.35 | 400 | caption |
 
 Use explicit `strong`, `emphasis`, or component modifiers for approved weight changes. Do not override typography ad hoc by page or selector position.
+
+All Manrope roles use `-.02em` letter spacing. Manrope weights 400, 500, and 700 are bundled under `public/fonts/` and must remain the active body-family assets.
 
 Cabinet Grotesk is a required design asset and is bundled at `public/fonts/cabinet-grotesk-variable.ttf`. Do not replace it with a metrically similar or locally available substitute. If the asset fails to load, treat that as an implementation failure and restore the specified face rather than changing the design-system token.
 

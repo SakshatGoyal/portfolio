@@ -2,11 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import GalleryProject from '../components/GalleryProject.astro';
 import PageHeading from '../components/PageHeading.astro';
+import ResponsiveVideo from '../components/ResponsiveVideo.astro';
 import { GLOBAL_DATA_ANALYTICS_TITLE } from '../data/project-titles.js';
 import { parseGalleryNotes } from '../data/gallery.js';
 import galleryNotes from '../content/gallery-notes.md?raw';
 
 const galleryProjects = parseGalleryNotes(galleryNotes);
+const heroLead = "I lead design where problems are undefined, but commitments aren't";
+const heroSupport = 'Over the last 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.';
 
 const projects = [
   {
@@ -84,8 +87,15 @@ const projects = [
 >
   <section class="home-hero" id="about">
     <div class="home-bio">
-      <p>I join teams during major overhauls, bringing structure to ambiguity and reliably carrying the work through delivery.</p>
-      <p>Over the last 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.</p>
+      <p class="home-bio-sentence home-bio-sentence--lead home-bio-sentence--animated">
+        <span class="sr-only">{heroLead}</span>
+        <span class="home-bio-words" aria-hidden="true">
+          {heroLead.split(' ').map((word, index) => (
+            <span class="home-bio-word" style={`--hero-word-index: ${index}`}>{word}</span>
+          ))}
+        </span>
+      </p>
+      <p class="home-bio-sentence home-bio-sentence--support">{heroSupport}</p>
     </div>
   </section>
 
@@ -95,20 +105,21 @@ const projects = [
       <div class="home-project-grid" data-home-project-grid data-home-layout="small">
         {projects.map((project, index) => (
           <div class="home-project-slot" data-home-project-slot data-home-order={project.order}>
-            <a class:list={['home-project-card', project.className]} href={project.href} aria-label={`View ${project.title}`} style={`--home-order: ${project.order}`} data-home-order={project.order} data-project-tile data-reveal>
+            <div class:list={['home-project-card', project.className]} style={`--home-order: ${project.order}`} data-home-order={project.order} data-project-tile data-reveal>
+              <a class="home-project-link" href={project.href} aria-label={`View ${project.title}`}></a>
               <div class="home-project-copy">
-                <h3 class="home-tape-label" data-tape-label data-tape-delay="0">{project.title}</h3>
+                <h3>{project.title}</h3>
               </div>
               <div class="home-project-meta">
-                <span class="home-project-client home-tape-label" data-tape-label data-tape-delay="75">{project.company}</span>
+                <span class="home-project-client">{project.company}</span>
                 <span class="home-project-meta-separator" aria-hidden="true">・</span>
-                <time class="home-project-year home-tape-label" data-tape-label data-tape-delay="150">{project.year}</time>
+                <time class="home-project-year">{project.year}</time>
               </div>
               {project.video ? (
                 <div class="home-project-media" data-media-reveal>
                   <span class="media-reveal-clip" data-media-reveal-clip>
-                    <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise data-asset-surface>
-                      <video src={project.video} poster={project.poster} style={`--video-poster-image: url('${project.poster}')`} aria-label={project.title} muted loop playsinline preload="metadata" data-home-autoplay-on-view></video>
+                    <span class="home-project-media-visual media-reveal-rise playable-media-surface" data-media-reveal-rise data-asset-surface data-playable-media>
+                      <ResponsiveVideo src={project.video} poster={project.poster} width={project.width} height={project.height} label={project.title} home showPlaybackControl={false} />
                     </span>
                   </span>
                 </div>
@@ -121,7 +132,7 @@ const projects = [
                   </span>
                 </div>
               )}
-            </a>
+            </div>
           </div>
         ))}
       </div>
@@ -230,7 +241,6 @@ const projects = [
       projectGrid.addEventListener('load', queueProjectLayout, true);
       projectGrid.addEventListener('loadedmetadata', queueProjectLayout, true);
       document.fonts?.ready.then(queueProjectLayout);
-      projectGrid.addEventListener('tapelayout', queueProjectLayout);
       window.addEventListener('resize', queueProjectLayout, { passive: true });
       layoutProjects();
 
@@ -248,7 +258,7 @@ const projects = [
       });
     }
 
-    const homeSections = ['about', 'work', 'gallery', 'contact']
+    const homeSections = ['about', 'work', 'gallery']
       .map((id) => document.getElementById(id))
       .filter(Boolean);
     const homeSectionLinks = [...document.querySelectorAll('[data-home-section-link]')];
@@ -268,16 +278,10 @@ const projects = [
     const syncHomeSectionState = () => {
       sectionStateFrame = 0;
       const readingLine = window.scrollY + (window.innerHeight * 0.25);
-      const atDocumentEnd = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2;
-      const contactSection = homeSections.at(-1);
-      const contactRect = contactSection?.getBoundingClientRect();
-      const contactIsVisible = Boolean(contactRect && contactRect.top < window.innerHeight && contactRect.bottom > 0);
       const activeSection = homeSections.find((section) => section.id === lockedSectionId)
-        || (atDocumentEnd || contactIsVisible
-          ? homeSections.at(-1)
-          : homeSections.reduce((active, section) => (
-            section.offsetTop <= readingLine ? section : active
-          ), homeSections[0]));
+        || homeSections.reduce((active, section) => (
+          section.offsetTop <= readingLine ? section : active
+        ), homeSections[0]);
       setHomeSectionState(activeSection?.id);
     };
     const queueHomeSectionState = () => {

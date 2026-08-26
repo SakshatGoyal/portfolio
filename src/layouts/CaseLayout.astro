@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Figure from '../components/Figure.astro';
 import TeamPanel from '../components/TeamPanel.astro';
 import PageHeading from '../components/PageHeading.astro';
+import { caseStudyNavigationFor } from '../data/project-sequence.js';
 
 interface TeamMember {
   name: string;
@@ -29,8 +30,6 @@ interface Props {
   heroLoop?: boolean;
   heroViewportFit?: boolean;
   theme?: string;
-  previousHref: string;
-  nextHref: string;
   introSpacing?: 'standard' | 'tight';
 }
 
@@ -38,9 +37,10 @@ const {
   headline, intro, stakeholder, skills, year, role, teamLabel, hero, heroVideo = false,
   heroWidth = 1920, heroHeight = 1080, heroCaption, heroPoster,
   heroAutoplayOnView = heroVideo, heroLoop = heroVideo, heroViewportFit = true,
-  theme = 'neutral', previousHref, nextHref, introSpacing = 'standard',
+  theme = 'neutral', introSpacing = 'standard',
   teamMembers = [], teamNote,
 } = Astro.props;
+const { previousHref, nextHref } = caseStudyNavigationFor(Astro.url.pathname);
 const hasTeamPanel = Boolean(teamLabel);
 const teamPanelId = `team-panel-${theme}`;
 ---

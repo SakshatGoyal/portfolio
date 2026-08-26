@@ -30,6 +30,73 @@ const initMediaReveals = (reduceMotion) => {
   });
 
   const targets = [...document.querySelectorAll('[data-media-reveal]')];
+  const anchors = new Map();
+  targets.forEach((target) => {
+    const anchor = target.closest('[data-media-unit]') || target;
+    anchors.set(anchor, [...(anchors.get(anchor) || []), target]);
+  });
+
+  const captionStates = new Map();
+  anchors.forEach((_, anchor) => {
+    const caption = anchor.querySelector('[data-media-caption]');
+    if (!(caption instanceof HTMLElement)) return;
+    const mediaUnit = caption.closest('[data-media-unit]');
+    caption.dataset.bodyReveal = '';
+    caption.dataset.bodyRevealKind = 'media-caption';
+    const captionState = {
+      caption,
+      layoutReady: !mediaUnit || mediaUnit.hasAttribute('data-media-ready'),
+      mediaStarted: false,
+      activated: false,
+    };
+    captionStates.set(anchor, captionState);
+    caption.addEventListener('captionlayout', () => {
+      captionState.layoutReady = true;
+      activateCaption(anchor);
+    });
+  });
+
+  const completeCaptionReveal = (caption, phase = 'complete') => {
+    caption.dataset.bodyRevealComplete = 'true';
+    caption.dispatchEvent(new CustomEvent('linegeometrychange', {
+      bubbles: true,
+      detail: { source: 'media-reveal', phase },
+    }));
+  };
+
+  function activateCaption(anchor) {
+    const captionState = captionStates.get(anchor);
+    if (!captionState || captionState.activated || !captionState.layoutReady || !captionState.mediaStarted) return;
+    captionState.activated = true;
+    const { caption } = captionState;
+    caption.classList.add('body-reveal-active');
+    caption.dispatchEvent(new CustomEvent('linegeometrychange', {
+      bubbles: true,
+      detail: { source: 'media-reveal', phase: 'start' },
+    }));
+    const onAnimationEnd = (event) => {
+      if (event.target !== caption || event.animationName !== 'text-block-in') return;
+      caption.removeEventListener('animationend', onAnimationEnd);
+      completeCaptionReveal(caption);
+    };
+    caption.addEventListener('animationend', onAnimationEnd);
+  }
+
+  const markCaptionMediaStarted = (anchor, target, mediaError = false) => {
+    const captionState = captionStates.get(anchor);
+    if (!captionState || captionState.mediaStarted) return;
+    captionState.mediaStarted = true;
+    captionState.caption.style.setProperty(
+      '--media-caption-reveal-delay',
+      target.style.getPropertyValue('--media-reveal-delay') || '0ms',
+    );
+    if (mediaError) {
+      captionState.layoutReady = true;
+      anchor.setAttribute('data-media-ready', '');
+    }
+    activateCaption(anchor);
+  };
+
   const durations = mediaRevealDurations.get(location.pathname);
   targets.forEach((target, index) => {
     const duration = durations?.[index];
@@ -57,16 +124,20 @@ const initMediaReveals = (reduceMotion) => {
       target.classList.add('media-reveal-active');
       target.dataset.mediaRevealComplete = 'true';
     });
+    captionStates.forEach(({ caption }) => {
+      caption.classList.add('body-reveal-active');
+      completeCaptionReveal(caption);
+    });
     return;
   }
 
   const states = new WeakMap();
-  const anchors = new Map();
   const reveal = (target) => {
     const state = states.get(target);
     if (!state?.intersecting || !state.ready || !state.painted || target.classList.contains('media-reveal-active')) return;
     target.classList.add('media-reveal-active');
     target.dataset.mediaRevealComplete = 'true';
+    markCaptionMediaStarted(state.anchor, target, state.error);
     const siblings = anchors.get(state.anchor) || [];
     if (siblings.every((sibling) => sibling.classList.contains('media-reveal-active'))) {
       observer.unobserve(state.anchor);
@@ -87,9 +158,8 @@ const initMediaReveals = (reduceMotion) => {
   targets.forEach((target) => {
     const anchor = target.closest('[data-media-unit]') || target;
     const visual = target.querySelector('[data-media-visual]:not([aria-hidden="true"]), img:not([aria-hidden="true"]), video');
-    const state = { anchor, intersecting: false, ready: false, painted: false };
+    const state = { anchor, intersecting: false, ready: false, painted: false, error: false };
     states.set(target, state);
-    anchors.set(anchor, [...(anchors.get(anchor) || []), target]);
 
     const markReady = () => {
       if (state.ready) return;
@@ -113,6 +183,7 @@ const initMediaReveals = (reduceMotion) => {
       else {
         visual.addEventListener(visual instanceof HTMLVideoElement ? 'loadedmetadata' : 'load', markReady, { once: true });
         visual.addEventListener('error', () => {
+          state.error = true;
           target.dataset.mediaRevealError = 'true';
           markReady();
         }, { once: true });
@@ -157,8 +228,6 @@ const initBodyReveals = (reduceMotion) => {
 
   document.querySelectorAll([
     '.home-bio',
-    '.home-project-copy',
-    '.home-project-meta',
     '.gallery-project-info',
     '.case-intro',
     '.case-meta',
@@ -168,7 +237,6 @@ const initBodyReveals = (reduceMotion) => {
     '.metric-tooltip',
     '.platform-core',
     '.platform-contributions > div',
-    '[data-media-caption]',
   ].join(',')).forEach((element) => register(element, 'standard'));
 
   document.documentElement.dataset.bodyMotionReady = 'true';
@@ -318,13 +386,7 @@ const initLineMaskHeadings = (reduceMotion) => {
 const initTapeLabels = () => {
   // Fixed nearest-ms Carbon Expressive Move values from the 1536px layout.
   const tapeMotionDurations = new Map([
-    ['Selected Work', 137], ['Gallery', 129], ['About', 128], ['Team', 126],
-    ['Designing AI experiences for deep analysis and traceability.', 191], ['PALO ALTO NETWORKS', 139], ['2025–26', 129],
-    ['Creating an AI driven research architecture for reliability and', 194], ['novel exploration.', 142], ['HARVARD BUSINESS SCHOOL', 144], ['2025', 126],
-    ['Turning exploratory research to internal tools.', 176], ['DOCUSIGN', 130], ['2023–24', 129],
-    ['Designing a data product around an executive’s inquisitive', 190], ['moments.', 134], ['2023', 126],
-    ["Designing a B2B buying experience for Hitachi's Sales Partners", 196], ['HITACHI ENERGY', 135], ['2022', 126],
-    ['Designing Customer Insights and extending it with Upsell', 188], ['Opportunities.', 139], ['CISCO', 127], ['2020–21', 128],
+    ['Team', 126],
   ]);
   const labels = [...document.querySelectorAll('[data-tape-label]')];
   if (!labels.length) return;
@@ -389,16 +451,7 @@ const initTapeLabels = () => {
   };
 
   const renderAll = () => {
-    const cards = [...document.querySelectorAll('[data-project-tile]')];
-    cards.forEach((card) => card.style.removeProperty('--home-tape-offset'));
     labels.forEach((label) => renderLabel(label));
-    cards.forEach((card) => {
-      const titleLine = card.querySelector('.home-project-copy .home-tape-line');
-      const overhang = Number.parseFloat(titleLine?.style.getPropertyValue('--tape-overhang')) || 0;
-      card.style.setProperty('--home-tape-offset', `${overhang}px`);
-      card.querySelectorAll('[data-tape-label]').forEach((label) => renderLabel(label, overhang));
-    });
-    document.querySelector('[data-home-project-grid]')?.dispatchEvent(new CustomEvent('tapelayout'));
   };
 
   document.fonts?.ready.then(renderAll);

@@ -9,9 +9,15 @@
     "check:dividers": "node scripts/check-divider-ownership.mjs",
     "check:gallery": "node scripts/check-gallery-content.mjs",
     "check:visual-contracts": "node scripts/check-visual-contracts.mjs",
-    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && astro check && astro build && node scripts/prune-public-assets.mjs",
+    "build:media": "node scripts/build-media-variants.mjs",
+    "check:media": "node scripts/check-media-contracts.mjs",
+    "check:media-playback": "node scripts/check-media-playback-controller.mjs",
+    "check:media-delivery": "node scripts/check-media-delivery.mjs",
+    "check:media-browserstack": "node scripts/check-media-browserstack.mjs",
+    "export:knowledge-base": "/Users/sakshatgoyal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/export-knowledge-base-pdfs.py",
+    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:media && npm run check:media-playback && astro check && astro build && node scripts/prune-public-assets.mjs",
     "preview": "astro preview",
-    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && astro check"
+    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:media && npm run check:media-playback && astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
