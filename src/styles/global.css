@@ -792,8 +792,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   background: rgb(0 0 0 / 85%);
   color: #fff;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
-  transition: background-color 110ms var(--expressive-ease-in-out), box-shadow 110ms var(--expressive-ease-in-out);
+  transition: background-color 110ms var(--expressive-ease-in-out);
 }
 .media-playback-control::before {
   position: absolute;
@@ -803,7 +802,6 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .media-playback-control:hover,
 .media-playback-control:focus-visible {
   background: #000;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 24%);
 }
 .media-playback-control svg {
   position: absolute;
@@ -830,7 +828,6 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .media-playback-control:focus-visible {
   outline: 3px solid #fff;
   outline-offset: 3px;
-  box-shadow: 0 0 0 5px #000;
 }
 .sr-only {
   position: absolute;
