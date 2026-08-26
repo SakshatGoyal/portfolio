@@ -26,7 +26,7 @@ import Figure from '../../components/Figure.astro';
   previousHref="/work/hbs-ai-institute/"
   nextHref="/work/global-data-analytics/"
 >
-  <section class="case-section reading-column" data-reveal>
+  <section class="case-section reading-column one-report-decision" data-reveal>
     <h2>Deciding what to build.</h2>
     <p>Rather than approaching it as a mobile version of our existing dashboards, I approached it as an exploration to understand when, and for what reason, might an executive need to access data.</p>
     <div class="branched-layout">
@@ -44,23 +44,23 @@ import Figure from '../../components/Figure.astro';
 
   <div class="media-grid three" data-reveal>
     <figure class="scenario-column" data-asset-surface data-media-unit data-media-ready data-media-reveal-group>
-      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause 5-10 minute whitespace animation">
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><div class="scenario-animation playable-media-surface" data-playable-media>
         <video src="/assets/one-report/video/sc-01.webm" poster="/assets/one-report/posters/sc-01.png" aria-label="5-10 minute whitespaces during the day" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
-      </button></div></div></div>
+      </div></div></div></div>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-01.png" alt="Reports" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>5-10 minute whitespaces during the day → Reports</figcaption>
     </figure>
     <figure class="scenario-column" data-asset-surface data-media-unit data-media-ready data-media-reveal-group>
-      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause quick-check animation">
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><div class="scenario-animation playable-media-surface" data-playable-media>
         <video src="/assets/one-report/video/sc-02.webm" poster="/assets/one-report/posters/sc-02.png" aria-label="Quick checks during meetings" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
-      </button></div></div></div>
+      </div></div></div></div>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-02.png" alt="Numbers" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>Quick checks during meetings → Numbers</figcaption>
     </figure>
     <figure class="scenario-column" data-asset-surface data-media-unit data-media-ready data-media-reveal-group>
-      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><button class="scenario-animation playable-media-surface" type="button" data-playable-media data-playback-mode="independent" aria-label="Pause exploratory deep-dive animation">
+      <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><div class="scenario-animation playable-media-surface" data-playable-media>
         <video src="/assets/one-report/video/sc-03.webm" poster="/assets/one-report/posters/sc-03.png" aria-label="Exploratory deep dives when time allows" muted loop playsinline preload="metadata" data-autoplay-on-view data-standalone-media></video>
-      </button></div></div></div>
+      </div></div></div></div>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-03.png" alt="Analysis" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
       <figcaption data-media-caption>Exploratory deep dives when time allows → Analysis</figcaption>
     </figure>
@@ -69,8 +69,8 @@ import Figure from '../../components/Figure.astro';
   <section class="case-section reading-column" data-reveal>
     <h2>Designing ‘Analysis’</h2>
     <p>Reviewing dashboards across departments showed that the same business unit could be a metric, dimension, or filter depending on the team. I needed one analytical layer that supported all three roles.</p>
-    <p>To create a single analytical layer that supported all three roles, I designed Analysis as a Sankey flow, letting users trace a metric through Partners, Region, Product, Channel, and Customers.</p>
-    <p>Focus and Filters drew from the same dataset and its subsets.</p>
+    <p>I designed Analysis as a Sankey flow that let users trace a metric through partners, regions, products, channels, and customers.</p>
+    <p>The Focus and Filters controls operated on the same dataset and its subsets.</p>
   </section>
 
   <div class="media-stack one-report-scenarios" data-reveal>
@@ -137,3 +137,7 @@ import Figure from '../../components/Figure.astro';
     <p>Despite being a speculative initiative, <strong>the application resonated with executives because it was designed around moments in the life cycle of an executive</strong> rather than as a mobile version of existing reporting infrastructure.</p>
   </section>
 </CaseLayout>
+
+<style>
+  .one-report-decision > .branched-layout { margin-top: 24px; }
+</style>

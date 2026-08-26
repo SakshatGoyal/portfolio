@@ -48,29 +48,29 @@ import Figure from '../../components/Figure.astro';
 
   <section class="case-section reading-column" data-reveal>
     <h2>Context</h2>
-    <p class="muted">Sales Workbench was designed as a tool to consolidate a wide range of tools into a single platform for account teams to manage their Opportunities, Accounts, Telemetry, and other sales activities.</p>
-    <p><strong>As part of the consolidation effort, leadership also wanted to introduce an AI chatbot as a step toward AI-assisted workflows.</strong></p>
+    <p class="muted">Sales Workbench consolidated a wide range of tools into one platform where account teams could manage opportunities, accounts, telemetry, and other sales activities. The platform supported oversight of roughly $3B in annual pipeline activity while reducing movement between fragmented tools.</p>
+    <p><strong>The consolidation also created an opportunity to introduce an AI assistant as an initial step toward AI-assisted workflows.</strong></p>
   </section>
 
-  <Figure src="/assets/panw-ai/panw-image-05-02.webp" alt="Sales Workbench interface" caption="Sales Workbench (part of Salesforce Account Executive Experience)" class="panw-context-cover" width={3000} height={2250} fluidFrame captionAlignment="frame" />
+  <Figure src="/assets/panw-ai/panw-image-05-02.webp" alt="Sales Workbench interface" caption="Sales Workbench, part of the Salesforce Account Executive Experience." class="panw-context-cover" width={3000} height={2250} fluidFrame captionAlignment="frame" />
 
   <section class="case-section reading-column problem-layout" data-reveal>
     <h2>Problem</h2>
-    <p data-branch-lead>With the push to add AI experiences to platforms, there was a disconnect between AI’s narrative exchanges and the structured, tactile interaction our users knew.</p>
+    <p data-branch-lead>As AI entered enterprise platforms, its narrative exchanges conflicted with the structured, tactile interactions familiar to users.</p>
     <svg class="problem-connector" aria-hidden="true" focusable="false">
       <path></path>
     </svg>
     <ol class="problem-list">
-      <li><span class="problem-marker" aria-hidden="true"></span><span>Leadership wanted to introduce an AI chatbot, but users were largely indifferent. They still considered structured interfaces better suited to the detailed analysis at the center of their work.</span></li>
-      <li><span class="problem-marker" aria-hidden="true"></span><span>The effort to verify a false response continued to outweigh the benefits of AI.</span></li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span>An AI assistant was part of the planned experience, but users remained largely indifferent. They considered structured interfaces better suited to the detailed analysis central to their work.</span></li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span>The effort required to verify an incorrect response continued to outweigh the benefits of AI.</span></li>
     </ol>
   </section>
 
-  <Figure src="/assets/panw-ai/imgPanwImage013.png" alt="Structured interface and conversational AI comparison" caption="A sketch to recognize the tension between established interaction patterns and an AI-first future among the team without taking sides." class="editorial-sketch" width={2499} height={1406} />
+  <Figure src="/assets/panw-ai/imgPanwImage013.png" alt="Structured interface and conversational AI comparison" caption="Illustration: The tension between established interaction patterns and an AI-first future." class="editorial-sketch" width={2499} height={1406} />
 
   <section class="case-section reading-column" data-reveal>
     <h2>Approach:</h2>
-    <p>Rather than applying AI across the workflow, we identified which tasks could benefit from it and which still required human judgment.</p>
+    <p>Rather than applying AI across the workflow, we identified which tasks could benefit from it and which still required human judgment. Account teams across the Americas, EMEA, and APJC expressed mixed reactions to introducing AI into their workflows.</p>
   </section>
 
   <div class="panw-approach-media" data-reveal>
@@ -79,14 +79,10 @@ import Figure from '../../components/Figure.astro';
     <Figure src="/assets/panw-ai/imgPanwImage016.png" alt="Opinion sketch" caption="An opinion sketch used to challenge assumptions and realign the team." class="editorial-sketch" width={2399} height={1349} />
   </div>
 
-  <section class="case-section reading-column compact" data-reveal>
-    <p>In conversations with account teams across the Americas, EMEA, and APJC, we heard mixed reactions to introducing AI into their workflows.</p>
-  </section>
-
   <div class="takeaway-grid" data-reveal>
-    <div class="takeaway-card"><div class="takeaway-card-content"><p class="takeaway-label">Takeaway 01</p><p>AI gets pitched for ‘insights’, but information workers require tools that help them examine in depth.</p></div></div>
+    <div class="takeaway-card"><div class="takeaway-card-content"><p class="takeaway-label">Takeaway 01</p><p>AI is often pitched as delivering “insights,” but information workers need tools that help them examine evidence in depth.</p></div></div>
     <div class="takeaway-card"><div class="takeaway-card-content"><p class="takeaway-label">Takeaway 02</p><p>Long chat threads increased cognitive load, making it difficult for users to maintain focus and avoid topic drift.</p></div></div>
-    <div class="takeaway-card wide"><div class="takeaway-card-content"><p class="takeaway-label">Takeaway 03</p><p>Teams often tried to automate work that still required human judgment, rather than giving users better tools to uncover hidden challenges.</p></div></div>
+    <div class="takeaway-card wide"><div class="takeaway-card-content"><p class="takeaway-label">Takeaway 03</p><p>Teams often tried to automate work that required human judgment, rather than giving users better tools to uncover hidden challenges.</p></div></div>
   </div>
 
   <section class="case-section reading-column" data-reveal>
@@ -105,7 +101,7 @@ import Figure from '../../components/Figure.astro';
 
   <section class="case-section reading-column" data-reveal>
     <h2>The Verification Issue:</h2>
-    <p class="body-regular">The data changed constantly, so users needed to verify responses quickly. More model reasoning added noise. I led with the conclusion, followed by a short evidence trail.</p>
+    <p class="body-regular">Because the data changed constantly, users needed to verify responses quickly. Additional model reasoning added noise.</p>
     <p class="body-regular">Transparency was relatively easy, <strong>the real challenge was user effort spent on verification.</strong></p>
     <p class="body-regular">Rather than refining a model’s thought process visibility, I explored a conclusion-derivation response approach. The system responds with an answer and produces a concise scannable evidence/decision trail.</p>
   </section>
@@ -119,7 +115,7 @@ import Figure from '../../components/Figure.astro';
 
   <section class="case-section reading-column trace-taxonomy" data-reveal>
     <p>For Trace, I built a taxonomy of process verbs to describe how the machine accessed information, and post-hoc verbs to describe what the model did with the data.</p>
-    <p>Sources were coupled with the last update time since opportunities and account details can change multiple times in a single day.</p>
+    <p>Each source included its last update time because opportunity and account data could change several times a day.</p>
   </section>
 
   <Figure src="/assets/panw-ai/video/trace-snippet.webm" poster="/assets/panw-ai/posters/trace-snippet.png" alt="Trace interaction" caption="Interaction showcasing Trace." class="panw-square-animation" contain fluidFrame squareMedia captionAlignment="frame" video autoplayOnView loop />
@@ -129,7 +125,7 @@ import Figure from '../../components/Figure.astro';
     <p>Within the first 90 days, one in three participants averaged more than two consecutive Anchored Follow-Ups per session, while one in five averaged more than four. Since each follow-up remained linked to a row or column, they formed connected chains indicating sustained investigation across several steps.</p>
     <p>Within the first week, Trace prompted a new feature request: users wanted to capture a response with its trace and share it in Slack, Salesforce notes, or email.</p>
     <p>We introduced Snapshot, which reached 27% usage overall, while 22% of anchored follow-up arcs ended with one.</p>
-    <p><strong>These metrics with user feedback, gave us our strongest observable signal that roughly one in five investigations reached a useful stopping point, producing a finding worth sharing (or preserving) and carrying into collaboration.</strong></p>
+    <p><strong>Together with user feedback, these metrics provided our strongest observable signal that roughly one in five investigations reached a useful stopping point, producing a finding worth preserving or carrying into collaboration.</strong></p>
   </section>
 
   <div class="metric-grid" data-reveal>

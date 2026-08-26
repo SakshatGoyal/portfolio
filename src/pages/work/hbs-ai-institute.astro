@@ -62,8 +62,7 @@ import Carousel from '../../components/Carousel.astro';
       <li><span class="problem-marker" aria-hidden="true"></span><span>What problems they encounter while doing so, and</span></li>
       <li><span class="problem-marker" aria-hidden="true"></span><span>What role AI currently plays in their decisions.</span></li>
     </ol>
-    <p class="branch-followup">I gathered credible resources and papers to examined these questions broadly across roles, industries, and types of strategy.</p>
-    <p>To handle research at scale, I built an AI-assisted research architecture that broke 237 papers into 992 traceable modules, translated qualitative observations into comparable measures, and preserved the evidence behind each synthesis.</p>
+    <p class="branch-followup">I gathered credible resources and papers to examined these questions broadly across roles, industries, and types of strategy. To handle research at scale, I built an AI-assisted research architecture. The true challenge remained reflecting on what we mean while using common terms like 'Insight', 'Synthesis', 'Analysis', and codifying them for an LLM.</p>
   </section>
 
   <div class="research-architecture" data-asset-surface data-media-reveal-group data-reveal>
@@ -76,27 +75,28 @@ import Carousel from '../../components/Carousel.astro';
   <section class="case-section reading-column" data-reveal>
     <h2>Maintaining Standards for AI Outputs</h2>
     <p>Reasoning models gave reliable answers but missed hidden meanings. Creativity models could go beyond basic understanding, but they weren’t consistent in applying logic across different sets.</p>
-    <p>Prompt engineering brought everything together. It let us combine the creative and analytical strengths of GPT 4.5 with the steady reliability of o3. I kept the same goal but tried several versions of the AI pipeline.</p>
+    <p>Prompt engineering let us combine GPT-4.5’s creative and analytical range with o3’s consistency. I kept the goal fixed while testing several versions of the AI pipeline.</p>
+    <p>I approached prompt deisgn it as a collaoration I would conduct with a distrubuted team of designers and researchers, each with their own opinions and implicit biases, which helped strike a balance between allowing for situational judgement but also maintaining consistency.</p>
   </section>
 
   <div class="media-stack" data-reveal>
     <Figure src="/assets/hbs/imgImage69.png" alt="Model strengths and weaknesses mapping" caption="Mapping current models’ strengths and weaknesses against our target performance." width={4096} height={2710} />
-    <Figure src="/assets/hbs/imgImage71.png" alt="Consistency and interpretive depth model comparison" caption="Models were compared by consistency and interpretive depth to identify the strongest balance between reliable output and meaningful interpretation." width={4096} height={2305} />
+    <Figure src="/assets/hbs/imgImage71.png" alt="Consistency and interpretive depth model comparison" caption="Models compared by consistency and interpretive depth to find the strongest balance between reliable output and meaningful interpretation." width={4096} height={2305} />
   </div>
 
   <section class="case-section reading-column" data-reveal>
     <h2>Designing Situational Axes.</h2>
-    <p>Despite multiple attempts at sorting, the resulting clusters were still too large to facilitate meaningful collaboration or productive discussion.</p>
-    <p>I considered subdividing the clusters by industry; however, this approach risked reinforcing industry stereotypes. Activities within a single industry can differ significantly. For example, marketing within pharmaceuticals and legal operations within a content generation team represent distinct functions.</p>
-    <p>To address this challenge, I developed a novel approach for mapping activities. Each activity was evaluated along shared dimensions, including regulation, modularity, timing, value horizon, knowledge transfer, and market spread, using situational axes.</p>
-    <p>This approach ensured that each collection was mutually exclusive and collectively exhaustive, allowing every module to be mapped without exception.</p>
+    <p>Despite several attempts at sorting, the clusters remained too broad for meaningful collaboration or productive discussion.</p>
+    <p>I considered subdividing the clusters by industry, but that risked reinforcing industry stereotypes. Activities within one industry can differ substantially; pharmaceutical marketing and legal operations within a content-generation team, for example, are distinct functions.</p>
+    <p>I mapped each activity along shared situational axes, including regulation, modularity, timing, value horizon, knowledge transfer, and market spread.</p>
+    <p>This made the collections mutually exclusive and collectively exhaustive, allowing every module to be mapped.</p>
   </section>
 
-  <Figure src="/assets/hbs/imgPanwImage012.png" alt="Situational tags applied to research modules" caption="Tagging each module based on the situations influencing the activity." width={2875} height={1768} />
+  <Figure src="/assets/hbs/imgPanwImage012.png" alt="Situational tags applied to research modules" caption="Each module tagged by the conditions influencing the activity." width={2875} height={1768} />
 
   <section class="case-section reading-column" data-reveal>
-    <p>With clusters finally manageable, I used contrastive typology: scoring evidence along bipolar situational dimensions and comparing their polar intersections to identify distinct operating contexts.</p>
-    <p>Although the dimensions produced several plausible permutations, collaborative working sessions helped us eliminate factors that did not generate meaningful distinctions, felt insufficiently relevant to the team’s objectives, or were unlikely to support useful product decisions.</p>
+    <p>Once the clusters were manageable, I used contrastive typology: scoring evidence along bipolar situational dimensions and comparing their intersections to identify distinct operating contexts. The dimensions produced several plausible permutations.</p>
+    <p>Collaborative sessions helped us remove factors that did not create meaningful distinctions, support the team’s objectives, or inform useful product decisions.</p>
   </section>
 
   <Figure src="/assets/hbs/imgImage32.png" alt="Four situational axes" caption="Four situational axes created a common language for comparing otherwise unrelated forms of strategic work." width={2048} height={1516} />
@@ -113,8 +113,9 @@ import Carousel from '../../components/Carousel.astro';
 
   <section class="case-section reading-column" data-reveal>
     <h2>Designing Principles of Human-AI interaction</h2>
-    <p>While not part of the scope, I recognized we had rich data, capable of helping us define design principles for AI interactions among executives for strategic discussions.</p>
-    <p>This allowed us to test different scenarios and contexts, helping us fine-tune the voice of an AI system designed specifically for executives.</p>
+    <p>Although outside the original scope, I recognized that the data from Research Question 3 could help us define principles for AI interactions with executives during strategic discussions.</p>
+    <p>Design principles often sound good but aren’t actually useful. When they become truisms like “AI should be trustworthy,” “prioritize the user,” or “support human judgment,” they’re easy to agree with but hard to use in real design work. I wrote each principle so its opposite could also make sense; something a smart team might choose in another situation or with different goals.</p>
+    <p>This helped me develop a way to frame principles as thoughtful trade-offs, grounded in context rather than as absolute truths.</p>
   </section>
 
   <Carousel
