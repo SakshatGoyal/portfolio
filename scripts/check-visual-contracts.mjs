@@ -218,6 +218,22 @@ requireText(styles, 'color: var(--text-secondary);\n  font: 400 16px/var(--body-
 requireCount(galleryProject, 'var(--gallery-composition-inset)', 2, 'Gallery copy placement must apply the shared inset to both eligible edges.');
 requireCount(galleryArtifact, 'var(--gallery-composition-inset)', 2, 'Gallery media placement must apply the shared inset to both eligible edges.');
 requireCount(carousel, 'data-asset-surface', 1, 'The carousel viewport must be the sole asset surface.');
+for (const expected of [
+  'height: 2px; padding: 0; margin: 8px 0 12px;',
+  'flex: 0 0 50px; width: 50px; height: 2px;',
+  'margin: 0 2px;',
+  'opacity: .25;',
+  'transition: opacity .2s ease-out;',
+  "button[aria-current='step'] { opacity: 1; }",
+  'top: -13px; left: 0; width: 100%; height: 30px;',
+  'velocity += (1 - position) * 0.025;',
+  'velocity *= 1 - 0.28;',
+  "viewport?.addEventListener('click', () => select(index + 1));",
+]) requireText(carousel, expected, `Carousel must retain the measured reference contract: ${expected}`);
+for (const forbidden of ['slideFadeDuration', 'autoAdvance', 'setTimeout', 'data-behance-image', '<svg', 'flex-basis: 30px']) {
+  if (carousel.includes(forbidden)) errors.push(`Carousel must not restore the replaced behavior or geometry: ${forbidden}`);
+}
+requireText(lineSystem, "|| focusedElement.closest('[data-carousel]')", 'Carousel controls must not receive the site-specific focus rectangle absent from the reference.');
 requireCount(oneReport, 'class="scenario-column" data-asset-surface', 3, 'Each One Report scenario group must own one asset surface.');
 requireCount(hbs, 'class="research-architecture" data-asset-surface', 1, 'The grouped HBS research visual must own one asset surface.');
 for (const token of [

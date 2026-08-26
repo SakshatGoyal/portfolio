@@ -312,7 +312,11 @@ export const initLineSystem = () => {
     const width = window.innerWidth;
     const height = window.innerHeight;
     viewportLayer.svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-    if (!(focusedElement instanceof HTMLElement) || !focusedElement.matches(':focus-visible')) {
+    if (
+      !(focusedElement instanceof HTMLElement)
+      || !focusedElement.matches(':focus-visible')
+      || focusedElement.closest('[data-carousel]')
+    ) {
       replaceLayerChildren(viewportLayer, 'none');
       return;
     }

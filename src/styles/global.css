@@ -2056,12 +2056,10 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 .line-system-path { stroke: var(--site-line); }
 
 [data-line-system='svg'] :focus-visible,
-[data-line-system='svg'] .case-meta button.team-label:focus-visible,
-[data-line-system='svg'] .carousel-pagination button:focus-visible {
+[data-line-system='svg'] .case-meta button.team-label:focus-visible {
   outline: 0 !important;
 }
-[data-line-system='svg'] .case-meta button.team-label,
-[data-line-system='svg'] .carousel-pagination button { --line-focus-offset: 3px; }
+[data-line-system='svg'] .case-meta button.team-label { --line-focus-offset: 3px; }
 
 /* Body tracking must not leak into preserved non-Manrope type roles. */
 .skip-link,
