@@ -385,7 +385,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   letter-spacing: var(--body-tracking);
 }
 .home-bio-sentence--lead { color: var(--text-primary); font-weight: 500; }
-.home-bio-sentence--support { color: var(--text-secondary); }
+.home-bio-sentence--support { color: var(--text-secondary); font-size: 20px; }
 .home-bio > * + * { margin-top: 32px; }
 .home-bio-words {
   display: flex;
