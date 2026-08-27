@@ -8,6 +8,8 @@ interface Props {
   poster?: string;
   width: number;
   height: number;
+  role: 'lead' | 'support';
+  caption: string;
   label: string;
   placement: {
     column: number;
@@ -17,15 +19,16 @@ interface Props {
   };
 }
 
-const { id, type, src, poster, width, height, label, placement } = Astro.props;
+const { id, type, src, poster, width, height, role, caption, label, placement } = Astro.props;
 const { column, span, row, rowSpan = 1 } = placement;
 const insetStart = column === 1 ? '0px' : 'var(--gallery-composition-inset)';
 const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)';
 ---
 
-<div
+<figure
   class="gallery-artifact"
   data-gallery-artifact={id}
+  data-gallery-role={role}
   data-gallery-column={column}
   data-gallery-span={span}
   data-gallery-row={row}
@@ -41,13 +44,15 @@ const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)'
           class="gallery-artifact-surface playable-media-surface"
           data-playable-media
           data-asset-surface
+          data-viewport-media-frame
+          data-viewport-media-inset="140"
         >
           <ResponsiveVideo
             src={src}
             poster={poster}
             width={width}
             height={height}
-            label={label}
+            label={caption}
             gallery
           />
           <button class="media-viewer-trigger" type="button" data-behance-video data-behance-title={label} aria-label={`View ${label} video`}></button>
@@ -57,13 +62,15 @@ const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)'
           class="gallery-artifact-surface"
           type="button"
           data-asset-surface
+          data-viewport-media-frame
+          data-viewport-media-inset="140"
           data-behance-image
           data-behance-title={label}
-          aria-label={`View ${label}`}
+          aria-label={`View ${caption}`}
         >
           <img
             src={src}
-            alt={label}
+            alt={caption}
             width={width}
             height={height}
             loading="lazy"
@@ -74,4 +81,5 @@ const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)'
       )}
     </div>
   </div>
-</div>
+  <figcaption class="gallery-artifact-caption" data-media-caption>{caption}</figcaption>
+</figure>

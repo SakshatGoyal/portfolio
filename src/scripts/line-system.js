@@ -4,6 +4,7 @@ export const LINE_TOPOLOGY = Object.freeze({
     divider: { css: '--cs-divider', width: 1 },
     intense: { css: '--cs-divider-intense', width: 1 },
     outline: { css: '--line', width: 1 },
+    'navigation-outline': { css: '--site-navigation-outline', width: 1 },
     accent: { css: '--accent', width: 2 },
     current: { css: 'currentColor', width: 1 },
     'platform-core': { css: '--line', width: 1 },
@@ -18,6 +19,16 @@ export const LINE_TOPOLOGY = Object.freeze({
   underlines: Object.freeze([
     { id: 'section-label-rule', selector: '.section-label', token: 'outline', direction: 'left-to-right' },
     { id: 'home-close-underline', selector: '.home-close a', token: 'current', direction: 'left-to-right' },
+  ]),
+  metadataRules: Object.freeze([
+    {
+      id: 'case-meta-row-rules',
+      selector: '.case-meta',
+      rowSelector: ':scope > div',
+      widthSource: '.case-intro > p',
+      token: 'navigation-outline',
+      direction: 'left-to-right',
+    },
   ]),
 });
 
@@ -220,6 +231,41 @@ export const initLineSystem = () => {
     });
   };
 
+  const renderMetadataRules = (rootRect) => {
+    LINE_TOPOLOGY.metadataRules.forEach((spec) => {
+      document.querySelectorAll(spec.selector).forEach((metadata, metadataIndex) => {
+        const rows = [...metadata.querySelectorAll(spec.rowSelector)];
+        const widthSource = document.querySelector(spec.widthSource);
+        if (rows.length === 0 || !(widthSource instanceof HTMLElement)) return;
+        const sourceRect = relativeRect(widthSource, rootRect);
+        rows.forEach((row, rowIndex) => {
+          const rowRect = relativeRect(row, rootRect);
+          drawHorizontal(
+            documentRenderGroup,
+            `${spec.id}.${metadataIndex + 1}.${rowIndex + 1}`,
+            sourceRect.left,
+            sourceRect.right,
+            rowRect.top,
+            spec.token,
+            true,
+            true,
+          );
+        });
+        const finalRowRect = relativeRect(rows.at(-1), rootRect);
+        drawHorizontal(
+          documentRenderGroup,
+          `${spec.id}.${metadataIndex + 1}.end`,
+          sourceRect.left,
+          sourceRect.right,
+          finalRowRect.bottom,
+          spec.token,
+          true,
+          true,
+        );
+      });
+    });
+  };
+
   const renderLocalLayers = () => {
     LINE_TOPOLOGY.localBoxes.forEach((spec) => {
       document.querySelectorAll(spec.selector).forEach((element, index) => {
@@ -362,6 +408,7 @@ export const initLineSystem = () => {
       .reduce((maximum, element) => Math.max(maximum, element.getBoundingClientRect().bottom - rootRect.top), 0);
     const height = Math.max(shell.clientHeight, contentHeight);
     renderPlatformConnectors(rootRect);
+    renderMetadataRules(rootRect);
     renderLocalLayers();
     renderFocus();
 

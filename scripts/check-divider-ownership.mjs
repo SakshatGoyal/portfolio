@@ -27,6 +27,12 @@ const register = (kind, spec) => {
 
 LINE_TOPOLOGY.localBoxes.forEach((spec) => register('localBoxes', spec));
 LINE_TOPOLOGY.underlines.forEach((spec) => register('underlines', spec));
+LINE_TOPOLOGY.metadataRules.forEach((spec) => {
+  register('metadataRules', spec);
+  if (!spec.rowSelector || !spec.widthSource) {
+    errors.push('Metadata divider entries require rowSelector and widthSource geometry sources.');
+  }
+});
 
 for (const [name, token] of Object.entries(LINE_TOPOLOGY.tokens)) {
   if (!token.css || !Number.isFinite(token.width) || token.width <= 0) {
@@ -102,6 +108,9 @@ for (const family of forbiddenStructuralRuntime) {
 }
 for (const requiredRuntime of ['renderPlatformConnectors(rootRect)', 'renderLocalLayers()', 'renderFocus()']) {
   if (!runtime.includes(requiredRuntime)) errors.push(`Functional line rendering must remain enabled: ${requiredRuntime}`);
+}
+if (!runtime.includes('renderMetadataRules(rootRect)')) {
+  errors.push('Case-study metadata dividers must remain owned by the shared line runtime.');
 }
 for (const lifecycleContract of [
   'window.__lineSystemDispose?.()',

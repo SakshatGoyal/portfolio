@@ -5,20 +5,20 @@ import Carousel from '../../components/Carousel.astro';
 ---
 
 <CaseLayout
-  headline="Designing an AI architecture for large scale, qualitative research and product strategy."
+  headline="Designing an AI architecture for large-scale qualitative research and product strategy."
   intro={[
     'As AI products multiplied around automation and content generation, HBS wanted to explore a more meaningful opportunity for AI in strategy among executives. The goal was to identify potential users and problems worth pursuing. The work resulted in:',
   ]}
-  stakeholder="HBS AI Institute (Previously D^3 Institute)"
+  stakeholder="HBS AI Institute (previously D^3 Institute)"
   skills={['Research Strategy', 'Product Discovery', 'Qualitative Data Analysis']}
   year="2025 (4 weeks)"
   role="Designer + Researcher"
   teamLabel="Team"
   teamMembers={[
     { name: 'Tanya Flint', role: 'Head of AI' },
-    { name: 'Yogesh Kumar', role: 'Sr. Data Engineer | Advisor for project' },
-    { name: 'Jean-Luc Jackson', role: 'Sr. Data Scientist | Advisor for project' },
-    { name: 'Rem Koning', role: 'Assistant Professor | Advisor for project' },
+    { name: 'Yogesh Kumar', role: 'Sr. Data Engineer | Project Advisor' },
+    { name: 'Jean-Luc Jackson', role: 'Sr. Data Scientist | Project Advisor' },
+    { name: 'Rem Koning', role: 'Assistant Professor | Project Advisor' },
   ]}
   teamNote="The HBS AI Institute engaged us to lead the research and design work, with the four team members below serving as project advisors."
   hero="/assets/hbs/hbs-cover.webp"
@@ -36,7 +36,7 @@ import Carousel from '../../components/Carousel.astro';
 
   <section class="case-section reading-column" data-reveal>
     <h2>Problem</h2>
-    <p>There was no defined industry, executive role, or problem space. “Executives” could mean anyone from a CEO/Chairman to Director/Lead. “Strategy” could include almost every consequential decision they made.</p>
+    <p>There was no defined industry, executive role, or problem space. “Executives” could mean anyone from a CEO or chair to a director or team lead. “Strategy” could include almost every consequential decision they made.</p>
     <p>Without clear boundaries, almost any polished answer could appear complete, even when important situations had been missed.</p>
   </section>
 
@@ -60,7 +60,7 @@ import Carousel from '../../components/Carousel.astro';
       <li><span class="problem-marker" aria-hidden="true"></span><span>What problems they encounter while doing so, and</span></li>
       <li><span class="problem-marker" aria-hidden="true"></span><span>What role AI currently plays in their decisions.</span></li>
     </ol>
-    <p class="branch-followup">I gathered credible resources and papers to examined these questions broadly across roles, industries, and types of strategy. To handle research at scale, I built an AI-assisted research architecture. The true challenge remained reflecting on what we mean while using common terms like 'Insight', 'Synthesis', 'Analysis', and codifying them for an LLM.</p>
+    <p class="branch-followup">I gathered credible resources and papers to examine these questions broadly across roles, industries, and types of strategy. To handle research at scale, I built an AI-assisted research architecture. The true challenge was reflecting on what we mean when using common terms like “insight,” “synthesis,” and “analysis,” then codifying those meanings for an LLM.</p>
   </section>
 
   <div class="research-architecture" data-asset-surface data-media-reveal-group data-reveal>
@@ -74,7 +74,7 @@ import Carousel from '../../components/Carousel.astro';
     <h2>Maintaining Standards for AI Outputs</h2>
     <p>Reasoning models gave reliable answers but missed hidden meanings. Creativity models could go beyond basic understanding, but they weren’t consistent in applying logic across different sets.</p>
     <p>Prompt engineering let us combine GPT-4.5’s creative and analytical range with o3’s consistency. I kept the goal fixed while testing several versions of the AI pipeline.</p>
-    <p>I approached prompt deisgn as a collaoration I would conduct with a distrubuted team of designers and researchers, each with their own opinions and implicit biases, which helped strike a balance between allowing for situational judgement but also maintaining consistency.</p>
+    <p>I approached prompt design as a collaboration with a distributed team of designers and researchers, each with their own opinions and implicit biases. This helped balance situational judgment with consistency.</p>
   </section>
 
   <div class="media-stack" data-reveal>
@@ -83,7 +83,7 @@ import Carousel from '../../components/Carousel.astro';
   </div>
 
   <section class="case-section reading-column" data-reveal>
-    <h2>Designing Situational Axes.</h2>
+    <h2>Designing Situational Axes</h2>
     <p>Despite several attempts at sorting, the clusters remained too broad for meaningful collaboration or productive discussion.</p>
     <p>I considered subdividing the clusters by industry, but that risked reinforcing industry stereotypes. Activities within one industry can differ substantially; pharmaceutical marketing and legal operations within a content-generation team, for example, are distinct functions.</p>
     <p>I mapped each activity along shared situational axes, including regulation, modularity, timing, value horizon, knowledge transfer, and market spread.</p>
@@ -109,9 +109,9 @@ import Carousel from '../../components/Carousel.astro';
   </Carousel>
 
   <section class="case-section reading-column" data-reveal>
-    <h2>Designing Principles of Human-AI interaction</h2>
+    <h2>Designing Principles of Human–AI Interaction</h2>
     <p>Although outside the original scope, I recognized that the data from Research Question 3 could help us define principles for AI interactions with executives during strategic discussions.</p>
-    <p>Design principles often sound good but aren’t actually useful. When they become truisms like “AI should be trustworthy,” “prioritize the user,” or “support human judgment,” they’re easy to agree with but hard to use in real design work. I wrote each principle so its opposite could also make sense; something a smart team might choose in another situation or with different goals.</p>
+    <p>Design principles often sound good but aren’t actually useful. When they become truisms like “AI should be trustworthy,” “prioritize the user,” or “support human judgment,” they’re easy to agree with but hard to use in real design work. I wrote each principle so its opposite could also make sense—something a smart team might choose in another situation or with different goals.</p>
     <p>This helped me develop a way to frame principles as thoughtful trade-offs, grounded in context rather than as absolute truths.</p>
   </section>
 
@@ -132,7 +132,7 @@ import Carousel from '../../components/Carousel.astro';
     </svg>
     <ol class="problem-list">
       <li><span class="problem-marker" aria-hidden="true"></span><span><strong>The seven human-AI interaction principles were used to fine-tune model responses across exploratory HBS projects for business executives.</strong> They gave teams specific behaviors to compare. For example, whether a model should present its conclusion or reasoning first, accept the user’s framing or introduce another perspective, and state uncertainty directly or leave it implicit.</span></li>
-      <li><span class="problem-marker" aria-hidden="true"></span><span><strong>The research architecture was repurposed for other qualitative work.</strong><br />We used it whenever it was necessary to converted unstructured text into comparable measures and reviewable patterns. Two immediate examples included scoring participant-written prompts at scale for HBS’ Sana.ai prompt engineering course, and analyze open-ended surveys from Leading with AI events.</span></li>
+      <li><span class="problem-marker" aria-hidden="true"></span><span><strong>The research architecture was repurposed for other qualitative work.</strong><br />We used it whenever we needed to convert unstructured text into comparable measures and reviewable patterns. Two immediate examples included scoring participant-written prompts at scale for HBS’ Sana.ai prompt engineering course and analyzing open-ended surveys from Leading with AI events.</span></li>
       <li><span class="problem-marker" aria-hidden="true"></span><span><strong>The sixteen people problems initiated follow-on research and exploration across HBS teams.</strong> Instead of beginning with “executive strategy” as one enormous subject, teams could investigate specific tensions such as deployment versus governance, short-term gains versus long-term capability, or intuitive judgment versus structured analysis.</span></li>
     </ol>
   </section>
@@ -143,7 +143,7 @@ import Carousel from '../../components/Carousel.astro';
     <h2>Lessons</h2>
     <p class="body-regular">The hardest part was distinguishing genuine insight from plausible-looking output.</p>
     <p><strong>Lesson #1: AI forced me to become more precise about research.</strong></p>
-    <p class="body-regular">To get precise outputs, a lot of effort went into defining, and revisiting terms we often take for granted. Like, ‘What makes an insight “insightful”?’, ‘Which form of ‘thematic synthesis’ is most applicable for a problem?’</p>
+    <p class="body-regular">To get precise outputs, a lot of effort went into defining and revisiting terms we often take for granted. For example: “What makes an insight insightful?” and “Which form of thematic synthesis is most applicable to a problem?”</p>
     <p><strong>Lesson #2: At scale, AI-assisted research can very quickly turn into a pipeline management activity.</strong></p>
     <p class="body-regular">Once hundreds of sources moved through the study, prompts, definitions, scoring rules, model choices, and review checkpoints became part of the research method.</p>
   </section>

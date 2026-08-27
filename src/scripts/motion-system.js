@@ -1,23 +1,6 @@
-// These are fixed 1536px-layout measurements, not responsive calculations.
-// Each value is the nearest-ms celebratory Move duration for that reveal's
-// clip/rise box (wipe distance = clip width; size = clip width × clip height).
-// Keeping the lookup here avoids coupling timing to lazy-media layout work.
-const mediaRevealDurations = new Map([
-  ['/', [
-    417, 398, 406, 451, 398, 398,
-    486, 468, 496, 509, 451, 468, 478, 468, 468, 459,
-    457, 468, 478, 466, 468, 479, 468, 468, 457, 474,
-  ]],
-  ['/work/panw-ai/', [660, 649, 618, 398, 417, 398, 608, 660, 594, 417, 417, 660, 618]],
-  ['/work/hbs-ai-institute/', [618, 618, 553, 629, 618, 649, 642, 618, 632, 649, 620, 619, 618]],
-  ['/work/one-report/', [618, 354, 367, 354, 367, 354, 367, 618, 618, 618, 618, 618]],
-  ['/work/global-data-analytics/', [618, 398, 398, 618, 649, 463, 354, 618, 618, 408, 618, 618, 618, 618]],
-  ['/work/hitachi-energy/', [618, 618, 618, 618, 618, 618, 436, 436, 618, 649, 649, 649]],
-  ['/work/cisco-customer-insights/', [618, 436, 436, 618, 594, 552, 436, 436, 618, 649, 574, 436, 436, 618, 566, 618]],
-]);
-
 const initMediaReveals = (reduceMotion) => {
   const groupSelector = [
+    '.gallery-project',
     '.media-stack',
     '.media-grid',
     '.asymmetric-grid',
@@ -75,7 +58,7 @@ const initMediaReveals = (reduceMotion) => {
       detail: { source: 'media-reveal', phase: 'start' },
     }));
     const onAnimationEnd = (event) => {
-      if (event.target !== caption || event.animationName !== 'text-block-in') return;
+      if (event.target !== caption || !['text-block-in', 'gallery-text-in'].includes(event.animationName)) return;
       caption.removeEventListener('animationend', onAnimationEnd);
       completeCaptionReveal(caption);
     };
@@ -97,17 +80,14 @@ const initMediaReveals = (reduceMotion) => {
     activateCaption(anchor);
   };
 
-  const durations = mediaRevealDurations.get(location.pathname);
-  targets.forEach((target, index) => {
-    const duration = durations?.[index];
-    if (duration) target.style.setProperty('--media-reveal-duration', `${duration}ms`);
-  });
   const mobile = window.matchMedia('(max-width: 671px)').matches;
   document.querySelectorAll('[data-media-reveal-group]').forEach((group) => {
     const directTargets = targets.filter((target) => target.closest('[data-media-reveal-group]') === group);
-    const stagger = directTargets.length > 1 ? (mobile ? 55 : 90) : 0;
+    const galleryProject = group.matches('.gallery-project');
+    const stagger = directTargets.length > 1 ? (galleryProject ? 70 : (mobile ? 55 : 90)) : 0;
+    const leadDelay = galleryProject ? 100 : 0;
     directTargets.forEach((target, index) => {
-      target.style.setProperty('--media-reveal-delay', `${index * stagger}ms`);
+      target.style.setProperty('--media-reveal-delay', `${leadDelay + (index * stagger)}ms`);
       target.dataset.mediaRevealIndex = String(index);
       target.dataset.mediaRevealStagger = String(stagger);
     });
@@ -234,7 +214,6 @@ const initBodyReveals = (reduceMotion) => {
     '.case-section',
     '.takeaway-card-content',
     '.metric',
-    '.metric-tooltip',
     '.platform-core',
     '.platform-contributions > div',
   ].join(',')).forEach((element) => register(element, 'standard'));
@@ -261,7 +240,7 @@ const initBodyReveals = (reduceMotion) => {
           detail: { source: 'body-reveal', phase: 'start' },
         }));
         const completeReveal = (event) => {
-          if (event.target !== entry.target || event.animationName !== 'text-block-in') return;
+          if (event.target !== entry.target || !['text-block-in', 'gallery-text-in'].includes(event.animationName)) return;
           entry.target.removeEventListener('animationend', completeReveal);
           entry.target.dataset.bodyRevealComplete = 'true';
           entry.target.dispatchEvent(new CustomEvent('linegeometrychange', {
@@ -311,13 +290,25 @@ const initLineMaskHeadings = (reduceMotion) => {
     heading.classList.remove('line-mask-ready', 'line-mask-active', 'line-mask-played');
     const probe = document.createElement('span');
     probe.className = 'line-mask-probe';
-    words.forEach((word, index) => {
-      if (index) probe.append(document.createTextNode(' '));
+    const appendWord = (parent, word, index) => {
+      if (index) parent.append(document.createTextNode(' '));
       const wordElement = document.createElement('span');
       wordElement.className = 'line-mask-word';
       wordElement.textContent = word;
-      probe.append(wordElement);
-    });
+      parent.append(wordElement);
+    };
+
+    const unpairedWordCount = Math.max(0, words.length - 2);
+    words.slice(0, unpairedWordCount).forEach((word, index) => appendWord(probe, word, index));
+    if (words.length > 1) {
+      if (unpairedWordCount) probe.append(document.createTextNode(' '));
+      const finalPair = document.createElement('span');
+      finalPair.className = 'line-mask-final-pair';
+      words.slice(-2).forEach((word, index) => appendWord(finalPair, word, index));
+      probe.append(finalPair);
+    } else {
+      appendWord(probe, words[0], 0);
+    }
     heading.replaceChildren(probe);
 
     const lines = [];

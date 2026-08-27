@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { GLOBAL_DATA_ANALYTICS_TITLE } from '../src/data/project-titles.js';
 import { CASE_STUDY_SEQUENCE, caseStudyNavigationFor } from '../src/data/project-sequence.js';
 
-const expectedTitle = 'Turning exploratory research to internal tools.';
+const expectedTitle = 'Turning exploratory research into internal tools.';
 const sources = await Promise.all([
   readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
   readFile(new URL('../src/pages/work/global-data-analytics.astro', import.meta.url), 'utf8'),

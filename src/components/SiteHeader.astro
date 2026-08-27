@@ -1,10 +1,9 @@
 ---
 const path = Astro.url.pathname;
 const isHome = path === '/';
-const isWork = path.startsWith('/work/');
 
 const links = [
-  { label: 'Selected Work', href: '/#work', section: 'work', active: isWork },
+  { label: 'Selected Work', href: '/#work', section: 'work', active: false },
   { label: 'Gallery', href: '/#gallery', section: 'gallery', active: false },
   { label: 'About', href: '/#about', section: 'about', active: isHome },
 ];
@@ -22,15 +21,14 @@ const links = [
         </div>
         <nav aria-label="Primary navigation">
           <ul class="site-header-nav-list">
-            {links.map((link, index) => (
+            {links.map((link) => (
               <li>
                 <a
                   class:list={['site-header-link', { active: link.active }]}
                   href={link.href}
                   data-home-section-link={isHome ? link.section : undefined}
-                  aria-current={link.active ? (isWork ? 'page' : 'location') : undefined}
+                  aria-current={link.active ? 'location' : undefined}
                 >{link.label}</a>
-                {index < links.length - 1 && <span class="site-header-separator" aria-hidden="true">・</span>}
               </li>
             ))}
           </ul>

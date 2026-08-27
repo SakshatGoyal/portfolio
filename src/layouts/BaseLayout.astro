@@ -139,6 +139,12 @@ const isHomeSystem = Astro.url.pathname === '/';
     </script>
     <script is:inline>
       const viewportMediaInset = 64;
+      const viewportInsetFor = (frame) => {
+        const requestedInset = Number(frame?.dataset.viewportMediaInset);
+        return Number.isFinite(requestedInset) && requestedInset >= 0
+          ? requestedInset
+          : viewportMediaInset;
+      };
       const mediaFrames = [...document.querySelectorAll('[data-viewport-media-frame]')];
       const standaloneMedia = [...document.querySelectorAll('[data-standalone-media]')];
       const synchronizedMediaGroups = [...document.querySelectorAll('[data-synchronized-media-group]')];
@@ -204,7 +210,7 @@ const isHomeSystem = Astro.url.pathname === '/';
           const frameStyles = getComputedStyle(frame);
           const paddingX = parseFloat(frameStyles.paddingLeft || '0') + parseFloat(frameStyles.paddingRight || '0');
           const paddingY = parseFloat(frameStyles.paddingTop || '0') + parseFloat(frameStyles.paddingBottom || '0');
-          const maxOuterHeight = Math.max(1, window.innerHeight - viewportMediaInset);
+          const maxOuterHeight = Math.max(1, window.innerHeight - viewportInsetFor(frame));
           const maxInnerHeight = Math.max(1, maxOuterHeight - paddingY);
           const targetWidth = frame.hasAttribute('data-fluid-media-frame')
             ? availableWidth

@@ -1,6 +1,7 @@
 const BREAKABLE_SPACE = /[\u0009-\u000d\u0020]/;
 const FINAL_WORD_SEPARATOR = /([\u0009-\u000d\u0020]+)(\S+)[\u0009-\u000d\u0020]*$/u;
 const EXCLUDED_NODE_SELECTOR = 'script, style, template, noscript, svg, [hidden], [aria-hidden="true"], [data-widow-ignore]';
+const EDITORIAL_TEXT_SELECTOR = 'body :is(p, li, h1, h2, h3, h4, h5, h6, figcaption, blockquote)';
 
 const eligibleTextNodes = (element) => {
   const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
@@ -54,5 +55,5 @@ export const initTypographySystem = () => {
   if (document.documentElement.dataset.typographySystemMounted === 'true') return;
   document.documentElement.dataset.typographySystemMounted = 'true';
 
-  document.querySelectorAll('main p, main li').forEach(guardFinalPair);
+  document.querySelectorAll(EDITORIAL_TEXT_SELECTOR).forEach(guardFinalPair);
 };

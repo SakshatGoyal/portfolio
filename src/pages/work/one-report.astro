@@ -16,8 +16,8 @@ import ResponsiveVideo from '../../components/ResponsiveVideo.astro';
   role="Senior Product Designer"
   teamLabel="Team"
   teamMembers={[
-    { name: 'Piyush Bhargava', role: 'Director, Product Management.' },
-    { name: 'Arvind Toor', role: 'Sr. Director, Strategy and Business Operations.' },
+    { name: 'Piyush Bhargava', role: 'Director, Product Management' },
+    { name: 'Arvind Toor', role: 'Sr. Director, Strategy and Business Operations' },
   ]}
   hero="/assets/one-report/onereport-analysis-04.webp"
   heroWidth={3000}
@@ -26,15 +26,15 @@ import ResponsiveVideo from '../../components/ResponsiveVideo.astro';
   theme="one-report"
 >
   <section class="case-section reading-column one-report-decision" data-reveal>
-    <h2>Deciding what to build.</h2>
-    <p>Rather than approaching it as a mobile version of our existing dashboards, I approached it as an exploration to understand when, and for what reason, might an executive need to access data.</p>
+    <h2>Deciding What to Build</h2>
+    <p>Rather than treating it as a mobile version of our existing dashboards, I explored when and why an executive might need to access data.</p>
     <div class="branched-layout">
-      <p data-branch-lead><strong>Three exploratory scenarios shifted the focus from mobile dashboards to three purpose-built surfaces --</strong></p>
+      <p data-branch-lead><strong>Three exploratory scenarios shifted the focus from mobile dashboards to three purpose-built surfaces:</strong></p>
       <svg class="problem-connector" aria-hidden="true" focusable="false">
         <path></path>
       </svg>
       <ol class="problem-list">
-        <li><span class="problem-marker" aria-hidden="true"></span><span>5-10 minute whitespaces during the day → Reports</span></li>
+        <li><span class="problem-marker" aria-hidden="true"></span><span>5–10-minute windows during the day → Reports</span></li>
         <li><span class="problem-marker" aria-hidden="true"></span><span>Quick checks during meetings → Numbers</span></li>
         <li><span class="problem-marker" aria-hidden="true"></span><span>Exploratory deep dives when time allows → Analysis</span></li>
       </ol>
@@ -44,10 +44,10 @@ import ResponsiveVideo from '../../components/ResponsiveVideo.astro';
   <div class="media-grid three" data-reveal>
     <figure class="scenario-column" data-asset-surface data-media-unit data-media-ready data-media-reveal-group>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><div class="scenario-animation playable-media-surface" data-playable-media>
-        <ResponsiveVideo src="/assets/one-report/video/sc-01.webm" poster="/assets/one-report/posters/sc-01.png" label="5-10 minute whitespaces during the day" standalone showPlaybackControl={false} />
+        <ResponsiveVideo src="/assets/one-report/video/sc-01.webm" poster="/assets/one-report/posters/sc-01.png" label="5–10-minute windows during the day" standalone showPlaybackControl={false} />
       </div></div></div></div>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><img src="/assets/one-report/sc-01.png" alt="Reports" width="1599" height="2955" loading="lazy" data-behance-image tabindex="0" role="button" data-container-media data-caption-anchor /></div></div></div>
-      <figcaption data-media-caption>5-10 minute whitespaces during the day → Reports</figcaption>
+      <figcaption data-media-caption>5–10-minute windows during the day → Reports</figcaption>
     </figure>
     <figure class="scenario-column" data-asset-surface data-media-unit data-media-ready data-media-reveal-group>
       <div class="media-reveal-unit" data-media-reveal><div class="media-reveal-clip" data-media-reveal-clip><div class="media-reveal-rise" data-media-reveal-rise><div class="scenario-animation playable-media-surface" data-playable-media>
@@ -76,7 +76,7 @@ import ResponsiveVideo from '../../components/ResponsiveVideo.astro';
     <Figure
       src="/assets/one-report/onereport-analysis-01.webp"
       alt="Churn Flow with swappable columns"
-      caption="Swapping a column redraws the same report through a different dimension. Here, Churn Flow shifts from Channel to Product, keeping the same surface usable to understand product/revenue and sales/distribution."
+      caption="Swapping a column redraws the same report through a different dimension. Here, Churn Flow shifts from Channel to Product, keeping the same surface useful for understanding product and revenue as well as sales and distribution."
       width={3000}
       height={1688}
       viewportFit={false}
@@ -92,7 +92,7 @@ import ResponsiveVideo from '../../components/ResponsiveVideo.astro';
     <Figure
       src="/assets/one-report/onereport-analysis-03.webp"
       alt="Focus and Filters on the same dataset"
-      caption="Focus and Filters operating on the same dataset — Focus narrows the scope, Filters refine within it."
+      caption="Focus and Filters operate on the same dataset—the Focus control narrows the scope, while the Filters control refines within it."
       width={3000}
       height={1688}
       viewportFit={false}
@@ -116,14 +116,14 @@ import ResponsiveVideo from '../../components/ResponsiveVideo.astro';
 
   <section class="case-section reading-column" data-reveal>
     <h2>Designing ‘Numbers’</h2>
-    <p>This surface centered on a user finding a metric during a call, making time-to-value critical.</p>
+    <p>This surface centered on helping a user find a metric during a call, making time-to-value critical.</p>
     <p>I used a search bar rather than a chat box to signal that short phrases were enough—a behavior validated in prototype testing with directors. Although the interface suggested sophisticated AI, the result could be delivered without LLMs using lower-cost NLP frameworks. That path enabled the project to move into cost estimation.</p>
   </section>
 
   <Figure
     src="/assets/one-report/onereport-insights.webp"
     alt="Search-based data visualization interface"
-    caption="The interface infering the right visualization from the phrasing alone, escalating from a number to a comparison to a trend."
+    caption="The interface inferring the right visualization from the phrasing alone, escalating from a number to a comparison to a trend."
     width={3000}
     height={1688}
     viewportFit={false}
@@ -132,7 +132,7 @@ import ResponsiveVideo from '../../components/ResponsiveVideo.astro';
   <section class="case-section reading-column" data-reveal>
     <h2>Outcome and Takeaway:</h2>
     <p>The application was tested with five chiefs of staff who acted as proxies for the C-suite and was later demoed to DocuSign's C-suite directly.</p>
-    <p>It then went through a cost estimation cycle and was subsequently shelved alongside several other company-wide initiatives as part of budget cuts following DocuSign's decision to acquire of Lexicon.</p>
+    <p>It then went through a cost-estimation cycle and was subsequently shelved alongside several other company-wide initiatives as part of budget cuts following DocuSign's acquisition of Lexicon.</p>
     <p>Despite being a speculative initiative, <strong>the application resonated with executives because it was designed around moments in the life cycle of an executive</strong> rather than as a mobile version of existing reporting infrastructure.</p>
   </section>
 </CaseLayout>

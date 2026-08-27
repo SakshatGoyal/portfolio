@@ -1,130 +1,142 @@
 /**
- * @typedef {{ id: string, type: 'image' | 'video', src: string, poster?: string, width: number, height: number }} GalleryArtifact
+ * @typedef {{ id: string, type: 'image' | 'video', src: string, poster?: string, width: number, height: number, role: 'lead' | 'support', caption: string }} GalleryArtifact
  * @typedef {{ column: number, span: number, row: number, rowSpan?: number }} GalleryPlacement
  * @typedef {{ info: GalleryPlacement, artifacts: Readonly<Record<string, GalleryPlacement>> }} GalleryLayout
  * @typedef {{ title: string, year: string, paragraphs: string[], media: GalleryArtifact[], layout: GalleryLayout }} GalleryProject
  */
 
 /** @returns {GalleryArtifact} */
-const image = (name, width, height) => ({
+const image = (name, width, height, caption, role = 'support') => ({
   id: name,
   type: 'image',
   src: `/assets/gallery/${name}.webp`,
   width,
   height,
+  role,
+  caption,
 });
 
 /** @returns {GalleryArtifact} */
-const video = (name, width, height) => ({
+const video = (name, width, height, caption, role = 'support') => ({
   id: name,
   type: 'video',
   src: `/assets/gallery/${name}.webm`,
   poster: `/assets/gallery/${name}-poster.webp`,
   width,
   height,
+  role,
+  caption,
 });
 
 /** @type {Readonly<Record<string, GalleryArtifact[]>>} */
 export const galleryMedia = Object.freeze({
   'Onboarding Redesign, Cisco Panoptica': [
-    video('panoptica-00', 1920, 1080),
-    video('panoptica-01', 1919, 1654),
+    video('panoptica-00', 1920, 1080, 'Outcome-led onboarding for Panoptica’s cloud security platform.', 'lead'),
+    video('panoptica-01', 1919, 1654, 'Guided explanations teaching users what setup enables.'),
   ],
   'Trebuchet Trials, Microsoft Hacking STEM': [
-    image('trebuchet-trials-00', 1024, 476),
-    video('trebuchet-trials-01', 1920, 864),
-    video('trebuchet-trials-02', 1920, 1080),
-    image('trebuchet-trials-03', 900, 600),
+    image('trebuchet-trials-00', 1024, 476, 'Completed trebuchet connected to its measurement interface.', 'lead'),
+    video('trebuchet-trials-01', 1920, 864, 'Physical-computing setup for an outdoor trial.'),
+    video('trebuchet-trials-02', 1920, 1080, 'Testing the paper trebuchet in the classroom.'),
+    image('trebuchet-trials-03', 900, 600, 'Team presenting the completed interactive learning kit.'),
   ],
   'Wexel, Premera Blue Cross': [
-    video('wexel-00', 1920, 1080),
-    image('wexel-01', 2400, 1627),
-    image('wexel-02', 2400, 1350),
-    image('wexel-03', 2400, 1350),
-    image('wexel-04', 2400, 1059),
-    image('wexel-05', 2048, 1274),
+    video('wexel-00', 1920, 1080, 'Wexel cancellation alert with travel-time context.', 'lead'),
+    image('wexel-01', 2400, 1627, 'End-to-end appointment and cancellation-alert workflow.'),
+    image('wexel-02', 2400, 1350, 'Interface iterations refined through participant testing.'),
+    image('wexel-03', 2400, 1350, 'Workshop mapping the appointment-booking experience.'),
+    image('wexel-04', 2400, 1059, 'Caregiver research combining interviews and diary studies.'),
+    image('wexel-05', 2048, 1274, 'Ideation and downselection across more than ninety concepts.'),
   ],
   'Platform Redesign, Cisco Ready': [
-    image('cready-redesign-00', 2400, 1350),
-    image('cready-redesign-01', 2400, 1079),
-    image('cready-redesign-02', 2400, 1350),
+    image('cready-redesign-02', 2400, 1350, 'Global Insights dashboard with performance and opportunity views.', 'lead'),
+    image('cready-redesign-01', 2400, 1079, 'Account-selection steps within the redesigned platform.'),
+    image('cready-redesign-00', 2400, 1350, 'Redesigned Cisco Ready dashboard and navigation system.'),
   ],
   'Researcher Outreach Service, HBS AI Institute': [
-    video('hbs-faculty-platform-00', 1920, 1920),
-    image('hbs-faculty-platform-01', 2400, 914),
+    video('hbs-faculty-platform-00', 1920, 1920, 'Research outreach across email and messaging ecosystems.', 'lead'),
+    image('hbs-faculty-platform-01', 2400, 914, 'Service workflow connecting researchers with industry participants.'),
   ],
-  'Event Experiences, HBS AI Institute': [video('hbs-leading-with-ai-00', 1920, 1080)],
-  'Platform Redesign, Luminoso': [video('luminoso-00', 1920, 1280)],
-  'Sales Workbench, Palo Alto Networks.': [image('panw-workbench', 2400, 1800)],
-  'NLP Experiences, Cisco Ready': [video('cisco-ready-ai-00', 1920, 1040)],
+  'Event Experiences, HBS AI Institute': [
+    video('hbs-leading-with-ai-00', 1920, 1080, 'AI agents creating intersections across the attendee journey.', 'lead'),
+  ],
+  'Platform Redesign, Luminoso': [
+    video('luminoso-00', 1920, 1280, 'A user building their dashboard on Luminoso.', 'lead'),
+  ],
+  'Sales Workbench, Palo Alto Networks': [
+    image('panw-workbench', 2400, 1800, 'Sales Workbench account and opportunity views.', 'lead'),
+  ],
+  'NLP Experiences, Cisco Ready': [
+    video('cisco-ready-ai-00', 1920, 1040, 'Prototype combining natural-language input with direct manipulation.', 'lead'),
+  ],
 });
 
 const place = (column, span, row, rowSpan = 1) => ({ column, span, row, rowSpan });
 
 /** @type {Readonly<Record<string, GalleryLayout>>} */
 export const galleryLayouts = Object.freeze({
-  'Sales Workbench, Palo Alto Networks.': {
-    info: place(13, 8, 1),
-    artifacts: { 'panw-workbench': place(1, 12, 1) },
+  'Sales Workbench, Palo Alto Networks': {
+    info: place(1, 20, 2),
+    artifacts: { 'panw-workbench': place(1, 20, 1) },
   },
   'Platform Redesign, Luminoso': {
-    info: place(1, 8, 1),
-    artifacts: { 'luminoso-00': place(9, 12, 1) },
+    info: place(1, 20, 2),
+    artifacts: { 'luminoso-00': place(1, 20, 1) },
   },
   'Event Experiences, HBS AI Institute': {
-    info: place(13, 8, 1),
-    artifacts: { 'hbs-leading-with-ai-00': place(1, 12, 1) },
+    info: place(1, 20, 2),
+    artifacts: { 'hbs-leading-with-ai-00': place(1, 20, 1) },
   },
   'Researcher Outreach Service, HBS AI Institute': {
-    info: place(1, 8, 1),
+    info: place(1, 20, 2),
     artifacts: {
-      'hbs-faculty-platform-00': place(9, 12, 1),
-      'hbs-faculty-platform-01': place(1, 20, 2),
+      'hbs-faculty-platform-00': place(1, 20, 1),
+      'hbs-faculty-platform-01': place(1, 20, 3),
     },
   },
   'Onboarding Redesign, Cisco Panoptica': {
-    info: place(11, 10, 1),
+    info: place(1, 20, 2),
     artifacts: {
-      'panoptica-00': place(1, 10, 1),
-      'panoptica-01': place(1, 20, 2),
+      'panoptica-00': place(1, 20, 1),
+      'panoptica-01': place(1, 12, 3),
     },
   },
   'Platform Redesign, Cisco Ready': {
-    info: place(1, 10, 1),
+    info: place(1, 20, 2),
     artifacts: {
-      'cready-redesign-00': place(16, 5, 2),
-      'cready-redesign-01': place(11, 10, 1),
-      'cready-redesign-02': place(1, 15, 2),
+      'cready-redesign-02': place(1, 20, 1),
+      'cready-redesign-01': place(1, 10, 3),
+      'cready-redesign-00': place(11, 10, 3),
     },
   },
   'NLP Experiences, Cisco Ready': {
-    info: place(11, 10, 1),
-    artifacts: { 'cisco-ready-ai-00': place(1, 10, 1) },
+    info: place(1, 20, 2),
+    artifacts: { 'cisco-ready-ai-00': place(1, 20, 1) },
   },
   'Trebuchet Trials, Microsoft Hacking STEM': {
-    info: place(9, 12, 1),
+    info: place(1, 20, 2),
     artifacts: {
-      'trebuchet-trials-00': place(1, 8, 1),
-      'trebuchet-trials-01': place(1, 15, 2, 2),
-      'trebuchet-trials-02': place(16, 5, 2),
-      'trebuchet-trials-03': place(16, 5, 3),
+      'trebuchet-trials-00': place(1, 20, 1),
+      'trebuchet-trials-01': place(1, 12, 3),
+      'trebuchet-trials-02': place(13, 8, 3),
+      'trebuchet-trials-03': place(5, 12, 4),
     },
   },
   'Wexel, Premera Blue Cross': {
-    info: place(1, 8, 1),
+    info: place(1, 20, 2),
     artifacts: {
-      'wexel-00': place(9, 12, 1),
-      'wexel-01': place(9, 12, 2),
-      'wexel-02': place(1, 12, 3, 2),
-      'wexel-03': place(1, 8, 2),
-      'wexel-04': place(13, 8, 3),
-      'wexel-05': place(13, 8, 4),
+      'wexel-00': place(1, 20, 1),
+      'wexel-01': place(1, 8, 3),
+      'wexel-02': place(9, 12, 3),
+      'wexel-03': place(1, 12, 4),
+      'wexel-04': place(13, 8, 4),
+      'wexel-05': place(5, 12, 5),
     },
   },
 });
 
 export const galleryProjectOrder = Object.freeze([
-  'Sales Workbench, Palo Alto Networks.',
+  'Sales Workbench, Palo Alto Networks',
   'Platform Redesign, Luminoso',
   'Event Experiences, HBS AI Institute',
   'Researcher Outreach Service, HBS AI Institute',

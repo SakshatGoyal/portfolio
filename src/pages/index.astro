@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import GalleryProject from '../components/GalleryProject.astro';
+import MultiscriptNameStrip from '../components/MultiscriptNameStrip.astro';
 import PageHeading from '../components/PageHeading.astro';
 import ResponsiveVideo from '../components/ResponsiveVideo.astro';
 import { GLOBAL_DATA_ANALYTICS_TITLE } from '../data/project-titles.js';
@@ -8,7 +9,7 @@ import { parseGalleryNotes } from '../data/gallery.js';
 import galleryNotes from '../content/gallery-notes.md?raw';
 
 const galleryProjects = parseGalleryNotes(galleryNotes);
-const heroLead = "I lead design where problems are undefined, but commitments aren't";
+const heroLead = "I lead design where problems are undefined, but commitments aren't.";
 const heroSupport = 'Over the last 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.';
 
 const projects = [
@@ -24,7 +25,7 @@ const projects = [
   },
   {
     href: '/work/hbs-ai-institute/',
-    title: 'Creating an AI driven research architecture for reliability and novel exploration.',
+    title: 'Creating an AI-driven research architecture for reliability and novel exploration.',
     company: 'HARVARD BUSINESS SCHOOL',
     year: '2025',
     order: 2,
@@ -55,7 +56,7 @@ const projects = [
   },
   {
     href: '/work/hitachi-energy/',
-    title: "Designing a B2B buying experience for Hitachi's Sales Partners",
+    title: "Designing a B2B buying experience for Hitachi's sales partners.",
     company: 'HITACHI ENERGY',
     year: '2022',
     order: 5,
@@ -98,6 +99,8 @@ const projects = [
       <p class="home-bio-sentence home-bio-sentence--support">{heroSupport}</p>
     </div>
   </section>
+
+  <MultiscriptNameStrip />
 
   <section class="home-work" id="work">
     <PageHeading title="Selected Work" level="h2" />
