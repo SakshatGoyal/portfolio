@@ -64,7 +64,7 @@ const contrastRatio = (foreground, background) => {
 };
 
 requireText(styles, '--asset-radius: 0px;', 'The shared visual-asset radius must remain 0px.');
-requireText(styles, "[data-home-system='true'] {\n  --home-background: #fff;\n  --home-accent-copy: #416870;\n  --gallery-band-gray: #fafafa;\n  --asset-radius: 0px;", 'Homepage media and accent copy must use the shared square-asset and editorial-secondary tokens.');
+requireText(styles, "[data-home-system='true'] {\n  --home-background: #fff;\n  --home-accent-copy: #416870;\n  --gallery-band-gray: #f5f5f5;\n  --asset-radius: 0px;", 'Homepage media and accent copy must use the shared square-asset and Gallery surface tokens.');
 requireText(styles, '--canvas: #fafafa;', 'The shared page canvas must remain #FAFAFA.');
 requireText(layout, '<meta name="theme-color" content="#fafafa" />', 'The browser theme color must match the #FAFAFA canvas.');
 if (styles.includes('--cs-surface') || styles.includes('background: var(--cs-surface)')) {
@@ -101,7 +101,7 @@ requireCount(styles, "font-family: 'Manrope Script Fallback';", 3, 'The strip mu
 requireText(styles, 'notosansdevanagari', 'The strip must retain the Noto Sans Devanagari fallback used by Figma.');
 requireText(styles, 'notosansgujarati', 'The strip must retain the Noto Sans Gujarati fallback used by Figma.');
 requireText(styles, 'notosanstamil', 'The strip must retain the Noto Sans Tamil fallback used by Figma.');
-requireText(styles, '.home-gallery > .page-heading > h2 {\n  font-size: 32px;\n  font-weight: 600;\n}', 'The homepage Gallery heading must match the requested 32px semibold role.');
+requireText(styles, ".home-work > .page-heading > h2,\n.home-gallery > .page-heading > h2 {\n  font-family: var(--body-font);\n  font-size: 32px;\n  font-weight: 500;\n}", 'Selected Work and Gallery headings must use 32px medium Manrope.');
 requireText(styles, "--body-font: 'Manrope', Arial, sans-serif;", 'The shared body-family token must remain Manrope.');
 requireText(styles, '--body-tracking: -.02em;', 'Every Manrope role must retain minus-two-percent tracking.');
 if (styles.includes('Fustat')) errors.push('Fustat must not remain in the active site stylesheet.');
@@ -129,8 +129,8 @@ requireText(styles, '.home-bio-sentence--lead { color: var(--text-primary); font
 requireText(styles, '.home-bio-sentence--support { color: var(--home-accent-copy); font-size: 20px; }', 'The homepage supporting statement must retain its 20px accent-copy role.');
 requireText(styles, '@media (min-width: 768px) {\n  .home-bio { max-width: 400px; }\n}', 'The homepage bio must become a 400px reading measure from 768px.');
 requireText(styles, '.js .home-bio-sentence--animated .home-bio-word {', 'Only the explicitly animated lead sentence may run the word entrance.');
-requireText(styles, 'animation: home-bio-word-reveal 100ms linear forwards;', 'Lead-sentence words must use Antinomy’s 100ms linear opacity entrance.');
-requireText(styles, 'animation-delay: calc(var(--hero-word-index) * 75ms);', 'Hero words must retain Antinomy’s 75ms stagger.');
+requireText(styles, 'animation: home-bio-word-reveal 200ms linear forwards;', 'Lead-sentence words must use the requested doubled 200ms opacity entrance.');
+requireText(styles, 'animation-delay: calc(var(--hero-word-index) * 150ms);', 'Hero words must use the requested doubled 150ms stagger.');
 requireText(home, '<span class="sr-only">{heroLead}</span>', 'The animated lead sentence must preserve an unsplit accessible copy.');
 requireText(home, '<p class="home-bio-sentence home-bio-sentence--support">{heroSupport}</p>', 'The supporting sentence must render as static prose without split-word animation markup.');
 requireText(styles, '.home-bio-sentence--animated .home-bio-word {\n    opacity: 1 !important;\n    animation: none !important;', 'Reduced motion must bypass the lead-sentence word sequence.');
@@ -141,7 +141,9 @@ for (const [, selector, body] of styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
   }
 }
 requireText(styles, '.home-project-scroller { overflow: visible; }', 'The project scroller must remain inert outside narrow screens.');
-requireText(styles, 'min-width: 420px;\n  padding-bottom: 24px;\n  background: transparent;', 'Selected Work must retain 24px of clearance below the final Cisco tile.');
+requireText(styles, 'min-width: 420px;\n  padding-bottom: 160px;\n  background: transparent;', 'Selected Work must retain 160px of clearance below the final Cisco tile.');
+requireText(home, 'const trailingSpace = Number.parseFloat(getComputedStyle(projectGrid).paddingBottom) || 0;', 'The masonry height must read the requested Selected Work trailing space.');
+requireText(home, ') + trailingSpace);', 'The masonry height must preserve the requested trailing space outside its positioned tiles.');
 requireText(styles, '@media (max-width: 451px) {\n  .home-project-scroller { overflow-x: auto; overflow-y: hidden; }\n}', 'Only the narrow project wrapper may scroll horizontally, with vertical overflow disabled.');
 requireCount(home, 'class="home-project-scroller"', 1, 'Selected Work must have exactly one isolated project scroller.');
 const homeProjectCopyIndex = home.indexOf('class="home-project-copy"');
@@ -186,7 +188,7 @@ requireText(styles, '--site-navigation-outline: color-mix(in srgb, var(--text-pr
 requireText(styles, 'font: 400 16px/1 var(--body-font);', 'The shared header must retain its optically centered 16px Manrope type.');
 requireText(styles, 'letter-spacing: var(--body-tracking);', 'The shared header must retain the Manrope tracking token.');
 requireText(styles, 'width: calc(var(--site-rail) - ((var(--site-header-content-inset) - var(--site-header-inner-pad)) * 2));', 'The expanded header text must align to the editorial content edges.');
-requireText(styles, '--site-header-end-pad: 8px;', 'The header must retain its reduced right inset so the pill group sits farther right.');
+requireText(styles, '--site-header-end-pad: 4px;', 'The header must retain its requested 4px right inset so the pill group sits farther right.');
 requireText(styles, 'padding-inline: var(--site-header-inner-pad) var(--site-header-end-pad);', 'The header must retain its intentional asymmetric internal padding.');
 requireText(styles, 'gap: 2px;\n  margin: 0;\n  padding: 0;\n  list-style: none;', 'Navigation pills must retain a 2px gap without inherited browser offsets.');
 requireText(siteHeader, '<span class="site-header-person">Sākshāt Goyal</span>', 'The header must retain the named 500-weight person label.');
@@ -194,7 +196,7 @@ requireText(siteHeader, '<span class="site-header-role">Product Designer</span>'
 requireText(styles, '.site-header-person { font-weight: 500; }', 'The person label must retain weight 500.');
 requireText(styles, '.site-header-role { color: var(--home-accent-copy, var(--text-secondary)); font-weight: 400; }', 'The Product Designer role must use homepage accent copy while retaining the editorial-secondary fallback.');
 requireText(styles, 'gap: 16px;\n  color: var(--text-primary);\n  text-decoration: none;', 'The name and role must retain their 16px gap and primary name color.');
-requireText(styles, 'padding: 8px 16px;\n  border-radius: 999px;\n  background: transparent;', 'Header pills must retain twice as much horizontal padding as vertical padding.');
+requireText(styles, 'padding: 12px 16px;\n  border-radius: 999px;\n  background: transparent;', 'Header pills must retain the requested 12px vertical and 16px horizontal padding.');
 requireText(styles, 'color: var(--text-secondary);\n  text-decoration: none;\n  transition: background 150ms var(--expressive-ease-in-out), color 150ms var(--expressive-ease-in-out);', 'Inactive navigation pills must use editorial secondary with the shared hover timing.');
 requireText(styles, '.site-header-link.active { color: var(--text-primary); }', 'Active navigation links must remain primary on their transparent rest state.');
 requireText(styles, '--site-navigation-hover: rgb(175 208 201 / 20%);', 'Header pills must retain the requested 20% AFD0C9 hover surface.');
@@ -229,7 +231,7 @@ requireCount(home, 'data-asset-surface', 2, 'Homepage media branches must each d
 requireText(styles, '--home-ink: var(--text-primary);', 'Homepage titles must inherit editorial primary.');
 requireText(styles, '--home-secondary: var(--text-tertiary);', 'Homepage years, separators, and footer must inherit editorial tertiary.');
 requireText(styles, '.home-project-meta > .home-project-client { color: var(--text-secondary); font: 600 14px/1.35 var(--body-font); }', 'Selected Work clients must use editorial secondary at weight 600.');
-requireText(styles, 'min-width: 420px;\n  padding-bottom: 24px;\n  background: transparent;', 'The Selected Work project grid must retain its requested 24px trailing space.');
+requireText(styles, 'min-width: 420px;\n  padding-bottom: 160px;\n  background: transparent;', 'The Selected Work project grid must retain its requested 160px trailing space.');
 requireText(styles, '.home-project-one-report .home-project-media-visual video {\n  width: 100% !important;\n  max-width: none;\n  height: 100% !important;\n  max-height: none;', 'The One Report homepage video must fill its media frame without the shared viewport cap.');
 const styleRules = [...styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)];
 const ruleBody = (selector) => styleRules.find(([, candidate]) => candidate.trim() === selector)?.[2] || '';
@@ -260,7 +262,18 @@ requireText(motionSystem, "anchor.setAttribute('data-media-ready', '');", 'Faile
 requireText(motionSystem, "captionStates.forEach(({ caption }) => {\n      caption.classList.add('body-reveal-active');\n      completeCaptionReveal(caption);", 'Reduced motion must expose media captions without waiting for animation.');
 requireText(styles, "[data-body-reveal][data-body-reveal-kind='media-caption'].body-reveal-active", 'Media captions must preserve their shared text-block animation with media-owned timing.');
 requireText(layout, '<noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>', 'No-script rendering must keep media captions visible.');
-requireText(styles, 'padding: 24px;\n  border: 0;\n  background: transparent;', 'Selected Work tiles must use normalized 24px padding.');
+requireText(styles, '--home-project-column-gap: 24px;', 'Selected Work columns must retain the requested 24px gap.');
+requireText(styles, '--home-project-row-gap: 24px;', 'Selected Work tiles within each column must retain the requested 24px maximum gap.');
+requireText(styles, 'padding: 24px;\n  border: 0;\n  background: transparent;', 'Selected Work tiles must retain 24px padding on every edge at every breakpoint.');
+if (styles.includes(".home-project-grid:not([data-home-layout='small']) .home-project-card { padding-inline: 0; }")) {
+  errors.push('Desktop Selected Work tiles must not remove their 24px left and right padding.');
+}
+requireText(home, "getPropertyValue('--home-project-column-gap')", 'Selected Work geometry must read the shared column-gap token.');
+requireText(home, "getPropertyValue('--home-project-row-gap')", 'Selected Work geometry must read the shared 24px row-gap token.');
+requireText(home, 'const secondColumnOffset = height1 * 0.2;', 'HBS must retain its 20%-of-PANW starting offset independently of the tile gaps.');
+requireText(home, '[1, 4].forEach((order) => setGeometry(order, 0, 0, columnWidth));', 'PANW and One Report must remain in the first Selected Work column.');
+requireText(home, '[2, 3, 5, 6].forEach((order) => setGeometry(order, secondColumnX, 0, columnWidth));', 'HBS, DocuSign, Hitachi, and Cisco must remain in the second Selected Work column.');
+requireText(home, 'setGeometry(6, secondColumnX, columnTwoFourthTop, columnWidth);', 'Cisco must render after Hitachi in the second Selected Work column.');
 requireText(styles, 'transition: background-color 110ms var(--expressive-ease-in-out);', 'Selected Work hover must use Carbon’s 110ms expressive transition.');
 requireText(styles, 'background: rgb(190 204 207 / 25%);', 'Selected Work hover and focus must use the requested 25% BECCCF tint.');
 requireText(styles, '.previous-case .line-system-path,\n.next-case .line-system-path { stroke: var(--site-navigation-outline); }', 'Case-study Previous and Next outlines must match the shared header outline.');
@@ -295,13 +308,19 @@ if (styles.includes('@media (min-width: 1200px)')) {
   errors.push('The Gallery must not introduce a private 1200px breakpoint outside the shared responsive system.');
 }
 requireText(styles, '--home-background: #fff;', 'The homepage canvas must be pure white.');
-requireText(styles, '--gallery-band-gray: #fafafa;', 'Gallery gray bands must retain the requested neutral 98% surface.');
-requireText(styles, '.home-gallery > .page-heading {\n  width: var(--home-rail);\n  margin-inline: auto;\n  padding-top: clamp(96px, 20vw, 160px);\n  padding-bottom: 0;', 'The Gallery heading must use the responsive 96–160px top rhythm and no bottom padding.');
+requireText(styles, "[data-case-system='true'] .page-shell > main { padding-top: 75px; background: #fff; }", 'Case-study main content must use the requested pure-white surface.');
+requireText(styles, '--gallery-band-gray: #f5f5f5;', 'Gallery gray bands must retain the requested #F5F5F5 surface.');
+requireText(styles, '.home-gallery > .page-heading {\n  width: var(--home-rail);\n  margin-inline: auto;\n  padding-top: 64px;\n  padding-bottom: 160px;', 'The Gallery heading must use 64px top and 160px bottom padding.');
+requireText(styles, '--caption-size: 16px;', 'All captions must use the approved 16px size token.');
+requireText(styles, 'font: 400 var(--caption-size)/var(--caption-leading) var(--cs-heading-font);', 'Case-study captions must inherit the shared caption size token.');
+requireText(carousel, '.carousel-caption :global(p:first-child) { display: inline; }', 'Carousel caption text must remain inline with its generated figure number.');
 requireText(styles, 'padding: 48px var(--gallery-band-inline) 84px;', 'Every Gallery band must retain 48px top and 84px bottom padding.');
 requireText(styles, '.gallery-project:first-child { padding-top: 24px; }', 'The first project must join the Gallery heading without excess spacing.');
 requireText(styles, '.gallery-project:nth-child(odd) { background: var(--gallery-band-gray); }', 'Odd Gallery projects must use the gray band surface.');
 requireText(styles, '.gallery-project:nth-child(even) { background: #fff; }', 'Even Gallery projects must use pure white bands.');
-requireText(styles, '.gallery-project:nth-child(2),\n.gallery-project:nth-child(6),\n.gallery-project:nth-child(8) { background: #f5f5f5; }', 'Luminoso, Cisco Ready, and Trebuchet Trials must use the specified #F5F5F5 bands.');
+if (styles.includes('.gallery-project:nth-child(2),') || styles.includes('.gallery-project:nth-child(6),')) {
+  errors.push('Gallery even rows must not override their pure-white alternating surface.');
+}
 if (styles.includes('.gallery-project + .gallery-project')) {
   errors.push('Gallery bands must not retain divider or margin-based separation rules.');
 }

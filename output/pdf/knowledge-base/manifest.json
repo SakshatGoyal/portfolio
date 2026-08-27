@@ -1,0 +1,1094 @@
+{
+  "document_count": 15,
+  "documents": [
+    {
+      "file": "case-studies/panw-ai.pdf",
+      "title": "Designing AI experiences for deep analysis and traceability.",
+      "source": "/work/panw-ai/",
+      "page_count": 14,
+      "sha256": "f64cc8317f083f539e8b073d7c617728f4d99d5402c83fa883892a93a24d4a1c",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/panw-ai/video/panw-traceability-scenario.webm",
+          "displayed_asset": "public/assets/panw-ai/posters/panw-traceability-scenario.png",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Designing AI experiences for deep analysis and traceability.",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/panw-image-05-02.webp",
+          "displayed_asset": "public/assets/panw-ai/panw-image-05-02.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Sales Workbench interface",
+          "caption": "Sales Workbench (part of Salesforce Account Executive Experience)"
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/imgPanwImage013.png",
+          "displayed_asset": "public/assets/panw-ai/imgPanwImage013.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Structured interface and conversational AI comparison",
+          "caption": "A sketch to recognize the tension between established interaction patterns and an AI-first future among the team without taking sides."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/imgScreenshot20260629At1208521.webp",
+          "displayed_asset": "public/assets/panw-ai/imgScreenshot20260629At1208521.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "PANW discovery session",
+          "caption": "Discovery session with PANW\u2019s EMEA Sales Leaders."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/panw-artifacts-discovery.webp",
+          "displayed_asset": "public/assets/panw-ai/panw-artifacts-discovery.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Manual AI interaction explorations",
+          "caption": "Manual explorations of AI interactions and use cases."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/imgPanwImage016.png",
+          "displayed_asset": "public/assets/panw-ai/imgPanwImage016.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Opinion sketch",
+          "caption": "An opinion sketch used to challenge assumptions and realign the team."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/panw-ai/video/codex-shim-03.webm",
+          "displayed_asset": "public/assets/panw-ai/posters/codex-shim-03.png",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Initial generative UI prototype",
+          "caption": "Initial prototype built with CopilotKit and a Codex shim."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/panw-ai/video/anchored-responses-snippet-01.webm",
+          "displayed_asset": "public/assets/panw-ai/posters/anchored-responses-snippet-01.png",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "A selected row becoming an anchored prompt chip",
+          "caption": "A selected row becomes a removable prompt chip backed by a stable Salesforce object ID."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/imgImage66.png",
+          "displayed_asset": "public/assets/panw-ai/imgImage66.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Comparison of verification approaches",
+          "caption": "Illustration comparing the user experience for verifying a response."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/panw-thinking.png",
+          "displayed_asset": "public/assets/panw-ai/panw-thinking.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Detailed trace explanation",
+          "caption": "Initial iteration: a detailed explanation that was difficult to scan."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/panw-trace.png",
+          "displayed_asset": "public/assets/panw-ai/panw-trace.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Numbered evidence trace",
+          "caption": "Final iteration: conclusion first, followed by numbered evidence steps."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/panw-ai/video/trace-snippet.webm",
+          "displayed_asset": "public/assets/panw-ai/posters/trace-snippet.png",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Trace interaction",
+          "caption": "Interaction showcasing Trace."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/panw-ai/imgScreenshot20260810At1940311.png",
+          "displayed_asset": "public/assets/panw-ai/imgScreenshot20260810At1940311.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Merged production code contribution",
+          "caption": "Merged production contribution: anchor-chip motion and related tests."
+        }
+      ]
+    },
+    {
+      "file": "case-studies/hbs-ai-institute.pdf",
+      "title": "Designing an AI architecture for large scale, qualitative research and product strategy.",
+      "source": "/work/hbs-ai-institute/",
+      "page_count": 16,
+      "sha256": "83c3fbd27ad01c1f90fc8504ceceba36940267f98a994a93d1707250a35222cc",
+      "media": [
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/hbs-cover.webp",
+          "displayed_asset": "public/assets/hbs/hbs-cover.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Designing an AI architecture for large scale, qualitative research and product strategy.",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgConsistencyVsInterpretiveDepthTable1.png",
+          "displayed_asset": "public/assets/hbs/imgConsistencyVsInterpretiveDepthTable1.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Illustration of feeling untethered",
+          "caption": "Feeling untethered without a well-defined audience, industry, or problem space. [AI-generated]"
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage2.png",
+          "displayed_asset": "public/assets/hbs/imgImage2.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Data collection",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage3.png",
+          "displayed_asset": "public/assets/hbs/imgImage3.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Extraction",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage4.png",
+          "displayed_asset": "public/assets/hbs/imgImage4.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Classification",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage5.png",
+          "displayed_asset": "public/assets/hbs/imgImage5.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Inquiry routing",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage69.png",
+          "displayed_asset": "public/assets/hbs/imgImage69.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Model strengths and weaknesses mapping",
+          "caption": "Mapping current models\u2019 strengths and weaknesses against our target performance."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage71.png",
+          "displayed_asset": "public/assets/hbs/imgImage71.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Consistency and interpretive depth model comparison",
+          "caption": "Models were compared by consistency and interpretive depth to identify the strongest balance between reliable output and meaningful interpretation."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgPanwImage012.png",
+          "displayed_asset": "public/assets/hbs/imgPanwImage012.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Situational tags applied to research modules",
+          "caption": "Tagging each module based on the situations influencing the activity."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage32.png",
+          "displayed_asset": "public/assets/hbs/imgImage32.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Four situational axes",
+          "caption": "Four situational axes created a common language for comparing otherwise unrelated forms of strategic work."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage79.png",
+          "displayed_asset": "public/assets/hbs/imgImage79.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 1",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage80.png",
+          "displayed_asset": "public/assets/hbs/imgImage80.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 2",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage81.png",
+          "displayed_asset": "public/assets/hbs/imgImage81.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 3",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage82.png",
+          "displayed_asset": "public/assets/hbs/imgImage82.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 4",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage78.png",
+          "displayed_asset": "public/assets/hbs/imgImage78.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 1",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage72.png",
+          "displayed_asset": "public/assets/hbs/imgImage72.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 2",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage73.png",
+          "displayed_asset": "public/assets/hbs/imgImage73.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 3",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage74.png",
+          "displayed_asset": "public/assets/hbs/imgImage74.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 4",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage75.png",
+          "displayed_asset": "public/assets/hbs/imgImage75.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 5",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage76.png",
+          "displayed_asset": "public/assets/hbs/imgImage76.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 6",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage77.png",
+          "displayed_asset": "public/assets/hbs/imgImage77.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "View slide 7",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hbs/imgImage68.png",
+          "displayed_asset": "public/assets/hbs/imgImage68.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Research architecture reused across HBS",
+          "caption": "Research architecture repurposed for additional qualitative analysis across the org."
+        }
+      ]
+    },
+    {
+      "file": "case-studies/global-data-analytics.pdf",
+      "title": "Turning exploratory research to internal tools.",
+      "source": "/work/global-data-analytics/",
+      "page_count": 11,
+      "sha256": "d68a83964cbd8c85979e03616a21199d03b34d9d5f2b275861e82502bd48ae65",
+      "media": [
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/bob-image-01.webp",
+          "displayed_asset": "public/assets/global-data/bob-image-01.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Turning exploratory research to internal tools.",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/imgScreenshot20260810At1619451.png",
+          "displayed_asset": "public/assets/global-data/imgScreenshot20260810At1619451.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Video interview with an account executive",
+          "caption": "1:1 interviews with Account Executives"
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/imgImage36.webp",
+          "displayed_asset": "public/assets/global-data/imgImage36.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Discovery workshop session",
+          "caption": "Discovery Workshop with Account Executives."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/imgOnePeerComparisonHypothesisSplitIntoTwoConcepts.png",
+          "displayed_asset": "public/assets/global-data/imgOnePeerComparisonHypothesisSplitIntoTwoConcepts.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Two peer-comparison concepts",
+          "caption": "One hypothesis, explored through two concepts. Undated project artifact."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/imgImage38.png",
+          "displayed_asset": "public/assets/global-data/imgImage38.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Illustration of user frustration",
+          "caption": "Illustration depicting the user frustration they shared after seeing designs from the different hypothesis."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/bob-image-03.png",
+          "displayed_asset": "public/assets/global-data/bob-image-03.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Controls for defining similar customers",
+          "caption": "Controls for defining \u2018similar\u2019 customers."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/imgImage37.webp",
+          "displayed_asset": "public/assets/global-data/imgImage37.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Customer-value feature groups with redacted notes",
+          "caption": "Features grouped by customer value. All note text is permanently redacted in the public asset."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/bob-image-02.png",
+          "displayed_asset": "public/assets/global-data/bob-image-02.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Feature adoption and associated outcomes",
+          "caption": "Feature adoption beside associated completion-time and send-velocity outcomes."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/bob-image-feature.webp",
+          "displayed_asset": "public/assets/global-data/bob-image-feature.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Feature Usage Baseline dashboard",
+          "caption": "The complete Feature Usage Baseline dashboard brought account criteria, feature adoption, and associated outcomes into one view."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/imgImage41.png",
+          "displayed_asset": "public/assets/global-data/imgImage41.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Needle-in-a-haystack prioritization illustration",
+          "caption": "Illustration: a needle-in-a-haystack prioritization problem."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/bob-image-04.png",
+          "displayed_asset": "public/assets/global-data/bob-image-04.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Six proposed account groups and controls",
+          "caption": "Six proposed groups and the controls used to explore them."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/bob-image-05.png",
+          "displayed_asset": "public/assets/global-data/bob-image-05.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Account patterns interface",
+          "caption": "Examples of the account patterns the tool helped sellers investigate."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/bob-image-bob.webp",
+          "displayed_asset": "public/assets/global-data/bob-image-bob.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Book of Business Analysis dashboard",
+          "caption": "The complete Book of Business Analysis dashboard combined account patterns, thresholds, and filters in one view."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/global-data/imgImage83.webp",
+          "displayed_asset": "public/assets/global-data/imgImage83.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Research synthesis shared with product leadership",
+          "caption": "The wider research synthesis shared with the Director of PM using artifacts and insights from discovery workshop. The synthesis included insights from a wider research including sales, marketing, product, and customer success; later compiled and presented to the Chief Information Officer, Shanti Iyer."
+        }
+      ]
+    },
+    {
+      "file": "case-studies/one-report.pdf",
+      "title": "Designing a data product around an executive\u2019s inquisitive moments.",
+      "source": "/work/one-report/",
+      "page_count": 8,
+      "sha256": "182429b2afc142a205482a0067637eb05d68e6beba3a20761b185f2f06eeeffb",
+      "media": [
+        {
+          "kind": "img",
+          "source_asset": "/assets/one-report/onereport-analysis-04.webp",
+          "displayed_asset": "public/assets/one-report/onereport-analysis-04.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Designing a data product around an executive\u2019s inquisitive moments.",
+          "caption": ""
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/one-report/video/sc-01.webm",
+          "displayed_asset": "public/assets/one-report/posters/sc-01.png",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "5-10 minute whitespaces during the day",
+          "caption": "5-10 minute whitespaces during the day \u2192 Reports"
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/one-report/video/sc-02.webm",
+          "displayed_asset": "public/assets/one-report/posters/sc-02.png",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Quick checks during meetings",
+          "caption": "Quick checks during meetings \u2192 Numbers"
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/one-report/video/sc-03.webm",
+          "displayed_asset": "public/assets/one-report/posters/sc-03.png",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Exploratory deep dives when time allows",
+          "caption": "Exploratory deep dives when time allows \u2192 Analysis"
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/one-report/onereport-analysis-01.webp",
+          "displayed_asset": "public/assets/one-report/onereport-analysis-01.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Churn Flow with swappable columns",
+          "caption": "Swapping a column redraws the same report through a different dimension. Here, Churn Flow shifts from Channel to Product, keeping the same surface usable to understand product/revenue and sales/distribution."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/one-report/onereport-analysis-02.webp",
+          "displayed_asset": "public/assets/one-report/onereport-analysis-02.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Analysis flow connected to reports and numbers",
+          "caption": "Tracing a single metric across the Analysis layer, showing how it connects to Reports and Numbers views."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/one-report/onereport-analysis-03.webp",
+          "displayed_asset": "public/assets/one-report/onereport-analysis-03.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Focus and Filters on the same dataset",
+          "caption": "Focus and Filters operating on the same dataset \u2014 Focus narrows the scope, Filters refine within it."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/one-report/onereport-report.webp",
+          "displayed_asset": "public/assets/one-report/onereport-report.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Report layout with progressively revealed chart detail",
+          "caption": "Report layout inspired by elements of a digital news report, with sheets revealing chart detail."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/one-report/onereport-insights.webp",
+          "displayed_asset": "public/assets/one-report/onereport-insights.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Search-based data visualization interface",
+          "caption": "The interface infering the right visualization from the phrasing alone, escalating from a number to a comparison to a trend."
+        }
+      ]
+    },
+    {
+      "file": "case-studies/hitachi-energy.pdf",
+      "title": "Designing a B2B buying experience for Hitachi's Sales Partners",
+      "source": "/work/hitachi-energy/",
+      "page_count": 10,
+      "sha256": "c4bb009a59382b9539b3a2e3b2e301be46c630cd3b3d17d9a63d4411603176b6",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/hitachi/video/partner-commerce-overview.webm",
+          "displayed_asset": "public/assets/hitachi/posters/partner-commerce-overview.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Designing a B2B buying experience for Hitachi's Sales Partners",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hitachi/partner-account-team.png",
+          "displayed_asset": "public/assets/hitachi/partner-account-team.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Sales partner and Hitachi account manager with their responsibilities",
+          "caption": "The two sides of the experience: a sales partner purchasing for an end customer, and a Hitachi account manager coordinating the people and conditions needed to fulfill it."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hitachi/journey-map.png",
+          "displayed_asset": "public/assets/hitachi/journey-map.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Synthesized journey from product browsing through order completion",
+          "caption": "The partner journey put browsing, configuration, quotation, and negotiation in one view, including the constraints and off-platform work in each phase."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hitachi/platform-space-map.png",
+          "displayed_asset": "public/assets/hitachi/platform-space-map.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Map of platform spaces and activities",
+          "caption": "I translated the journey into digital spaces and flows so product and engineering could see where each activity belonged and where the quotation loop needed to reconnect."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hitachi/original-quotation-boundary.png",
+          "displayed_asset": "public/assets/hitachi/original-quotation-boundary.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Original flow ending at proposal generation",
+          "caption": "The original plan digitized the trigger, then handed quotation and negotiation back to offline channels."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hitachi/updated-quotation-flow.png",
+          "displayed_asset": "public/assets/hitachi/updated-quotation-flow.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Updated end-to-end quotation flow",
+          "caption": "The revised flow kept quote creation, account-team review, partner negotiation, approval, and order placement connected inside the product."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hitachi/quotation-conversation-model.png",
+          "displayed_asset": "public/assets/hitachi/quotation-conversation-model.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Quotation conversations translated into structured and flexible interaction patterns",
+          "caption": "Conversation analysis separated a quote\u2019s structured initiation from the flexible negotiation that followed, giving each a different interaction model."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/hitachi/video/quotation-concept-inline.webm",
+          "displayed_asset": "public/assets/hitachi/posters/quotation-concept-inline.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Inline item-level quote adjustment prototype",
+          "caption": "Concept 01: item-level adjustment requests stayed close to the product rows they changed."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/hitachi/video/quotation-concept-panel.webm",
+          "displayed_asset": "public/assets/hitachi/posters/quotation-concept-panel.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Quote adjustment side-panel prototype",
+          "caption": "Concept 02: a persistent panel made it easier to move between several adjusted items in a large order."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/hitachi/flexible-product-tile.png",
+          "displayed_asset": "public/assets/hitachi/flexible-product-tile.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Product tile across cart, quote request, and updated quote states",
+          "caption": "The product tile became the shared unit across cart review, request creation, and the account team\u2019s revised quote."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/hitachi/video/itemized-quotation-flow.webm",
+          "displayed_asset": "public/assets/hitachi/posters/itemized-quotation-flow.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Itemized quotation workflow",
+          "caption": "The itemized flow let partners apply requests to individual products while retaining a readable view of the full order."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/hitachi/video/configuration-error-handling.webm",
+          "displayed_asset": "public/assets/hitachi/posters/configuration-error-handling.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Product configuration dependency and error handling",
+          "caption": "Configuration feedback showed the required add-on beside the affected selection, keeping recovery inside the product-building flow."
+        }
+      ]
+    },
+    {
+      "file": "case-studies/cisco-customer-insights.pdf",
+      "title": "Designing Customer Insights and extending it with Upsell Opportunities.",
+      "source": "/work/cisco-customer-insights/",
+      "page_count": 12,
+      "sha256": "5646b7a74eaaca7f92492f47103fe4dc9d4fc8a6c88c826a82983021df67e1ec",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/cisco/video/opportunity-extension-flow.webm",
+          "displayed_asset": "public/assets/cisco/posters/opportunity-extension-flow.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Designing Customer Insights and extending it with Upsell Opportunities.",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/previous-dashboard.png",
+          "displayed_asset": "public/assets/cisco/previous-dashboard.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Previous Customer Insights dashboard",
+          "caption": "The previous dashboard summarized the account. Users gathered the information needed for further analysis from other tools."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/participant-pivot-analysis-redacted.png",
+          "displayed_asset": "public/assets/cisco/participant-pivot-analysis-redacted.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Participant-created customer analysis pivot tables",
+          "caption": "Account teams\u2019 pivot tables showed the customer comparisons they needed to make."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/strategy-sensemaking.png",
+          "displayed_asset": "public/assets/cisco/strategy-sensemaking.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Framework connecting customer strategy questions to accessible data",
+          "caption": "I mapped the questions from the interviews to their data sources and checked which information Customer Insights could access."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/visualization-ideation.png",
+          "displayed_asset": "public/assets/cisco/visualization-ideation.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Board of data visualization concepts",
+          "caption": "Visualization studies tested how the same customer question could move from a quick signal to a detailed analysis."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/cisco/video/data-table-module.webm",
+          "displayed_asset": "public/assets/cisco/posters/data-table-module.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Reusable data table module expanding and collapsing rows",
+          "caption": "The reusable table module moved between collapsed summaries and expanded rows without leaving the page."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/exploratory-concept.png",
+          "displayed_asset": "public/assets/cisco/exploratory-concept.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Exploratory chart-led dashboard concept",
+          "caption": "Concept 01 gave users cataloged visualizations and the freedom to decide what mattered."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/guided-concept.png",
+          "displayed_asset": "public/assets/cisco/guided-concept.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Benchmark-guided metric tile dashboard concept",
+          "caption": "Concept 02 used predefined benchmarks to recommend a starting point."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/cisco/video/customer-insights-flow.webm",
+          "displayed_asset": "public/assets/cisco/posters/customer-insights-flow.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Customer Insights dashboard workflow",
+          "caption": "The final dashboard organized the account around six questions. Each module opened with a headline measure, followed by charts and tables."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/extension-constraints.png",
+          "displayed_asset": "public/assets/cisco/extension-constraints.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Framework for scaling contributed opportunity recommendations",
+          "caption": "Offers arrived in phases, could change over time, and always referenced an existing customer KPI."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/cisco/video/opportunity-panel-test.webm",
+          "displayed_asset": "public/assets/cisco/posters/opportunity-panel-test.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Opportunity panel usability concept",
+          "caption": "Panel test: the large panel was easy to see, but participants still overlooked offers labeled with internal program names."
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/cisco/video/opportunity-list-test.webm",
+          "displayed_asset": "public/assets/cisco/posters/opportunity-list-test.jpg",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Opportunity list usability concept",
+          "caption": "List test: offers remained independent from the existing tiles, leaving room for more offers later."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/opportunity-card-copy.png",
+          "displayed_asset": "public/assets/cisco/opportunity-card-copy.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Opportunity card before and after copy refinement",
+          "caption": "\u201cUpsell to NCD\u201d became \u201cUpgrade to Next Calendar Day,\u201d paired with the potential value for that customer."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/data-lens-model.png",
+          "displayed_asset": "public/assets/cisco/data-lens-model.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Several opportunities reusing subsets of Customer Insights data",
+          "caption": "Each offer filtered a different subset of data already available in Customer Insights."
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/cisco/opportunity-collection.png",
+          "displayed_asset": "public/assets/cisco/opportunity-collection.png",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Four Upsell Opportunity views available in Customer Insights",
+          "caption": "Customer Insights supported four Upsell Opportunities at this stage."
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/sales-workbench-palo-alto-networks.pdf",
+      "title": "Sales Workbench, Palo Alto Networks.",
+      "source": "/#gallery",
+      "page_count": 1,
+      "sha256": "23a9698ab5d3efc6e8e3331a130cf74e16c27f2cbc05af5de7877d6448fb93fb",
+      "media": [
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/panw-workbench.webp",
+          "displayed_asset": "public/assets/gallery/panw-workbench.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Sales Workbench, Palo Alto Networks.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/platform-redesign-luminoso.pdf",
+      "title": "Platform Redesign, Luminoso",
+      "source": "/#gallery",
+      "page_count": 1,
+      "sha256": "d5b3d37ba7a9458ed2436f501f35491ce790930461ce85acb1dd7c0f477a5cac",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/luminoso-00.webm",
+          "displayed_asset": "public/assets/gallery/luminoso-00-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Platform Redesign, Luminoso",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/event-experiences-hbs-ai-institute.pdf",
+      "title": "Event Experiences, HBS AI Institute",
+      "source": "/#gallery",
+      "page_count": 1,
+      "sha256": "6e919914c9b3f72d2aba4d04fb525245ea1d34b2ed47b37b5b08c44226cdb698",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/hbs-leading-with-ai-00.webm",
+          "displayed_asset": "public/assets/gallery/hbs-leading-with-ai-00-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Event Experiences, HBS AI Institute",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/researcher-outreach-service-hbs-ai-institute.pdf",
+      "title": "Researcher Outreach Service, HBS AI Institute",
+      "source": "/#gallery",
+      "page_count": 2,
+      "sha256": "5140758558d2f130ca923a6ee0a0c95089f0d95c211ed7e87c3d9ee38d3e262c",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/hbs-faculty-platform-00.webm",
+          "displayed_asset": "public/assets/gallery/hbs-faculty-platform-00-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Researcher Outreach Service, HBS AI Institute",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/hbs-faculty-platform-01.webp",
+          "displayed_asset": "public/assets/gallery/hbs-faculty-platform-01.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Researcher Outreach Service, HBS AI Institute",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/onboarding-redesign-cisco-panoptica.pdf",
+      "title": "Onboarding Redesign, Cisco Panoptica",
+      "source": "/#gallery",
+      "page_count": 2,
+      "sha256": "9cc5a126531fdbbd0c19e7777852a640db9db77755948fbcce2aba63316efdfc",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/panoptica-00.webm",
+          "displayed_asset": "public/assets/gallery/panoptica-00-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Onboarding Redesign, Cisco Panoptica",
+          "caption": ""
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/panoptica-01.webm",
+          "displayed_asset": "public/assets/gallery/panoptica-01-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Onboarding Redesign, Cisco Panoptica",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/platform-redesign-cisco-ready.pdf",
+      "title": "Platform Redesign, Cisco Ready",
+      "source": "/#gallery",
+      "page_count": 2,
+      "sha256": "a44dcdff59d0efd3584994653facf37ac114163ae06f944aaa75c29db25d9cd7",
+      "media": [
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/cready-redesign-00.webp",
+          "displayed_asset": "public/assets/gallery/cready-redesign-00.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Platform Redesign, Cisco Ready",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/cready-redesign-01.webp",
+          "displayed_asset": "public/assets/gallery/cready-redesign-01.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Platform Redesign, Cisco Ready",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/cready-redesign-02.webp",
+          "displayed_asset": "public/assets/gallery/cready-redesign-02.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Platform Redesign, Cisco Ready",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/nlp-experiences-cisco-ready.pdf",
+      "title": "NLP Experiences, Cisco Ready",
+      "source": "/#gallery",
+      "page_count": 1,
+      "sha256": "42ade3a148dde8f9094ce0b573dc36444279eeaac8133a5b331ad302fa0f013f",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/cisco-ready-ai-00.webm",
+          "displayed_asset": "public/assets/gallery/cisco-ready-ai-00-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "NLP Experiences, Cisco Ready",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/trebuchet-trials-microsoft-hacking-stem.pdf",
+      "title": "Trebuchet Trials, Microsoft Hacking STEM",
+      "source": "/#gallery",
+      "page_count": 3,
+      "sha256": "88f120714a9e4f4d972c8d605f37bf089a461b533b674ca8b29eec37133a2397",
+      "media": [
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/trebuchet-trials-00.webp",
+          "displayed_asset": "public/assets/gallery/trebuchet-trials-00.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Trebuchet Trials, Microsoft Hacking STEM",
+          "caption": ""
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/trebuchet-trials-01.webm",
+          "displayed_asset": "public/assets/gallery/trebuchet-trials-01-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Trebuchet Trials, Microsoft Hacking STEM",
+          "caption": ""
+        },
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/trebuchet-trials-02.webm",
+          "displayed_asset": "public/assets/gallery/trebuchet-trials-02-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Trebuchet Trials, Microsoft Hacking STEM",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/trebuchet-trials-03.webp",
+          "displayed_asset": "public/assets/gallery/trebuchet-trials-03.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Trebuchet Trials, Microsoft Hacking STEM",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "file": "gallery-projects/wexel-premera-blue-cross.pdf",
+      "title": "Wexel, Premera Blue Cross",
+      "source": "/#gallery",
+      "page_count": 4,
+      "sha256": "8997a861c27073380423fcc5553fe2c8dad736927935dfa787c0afed77d30f36",
+      "media": [
+        {
+          "kind": "video",
+          "source_asset": "/assets/gallery/wexel-00.webm",
+          "displayed_asset": "public/assets/gallery/wexel-00-poster.webp",
+          "fallback_frame": false,
+          "label": "Video poster",
+          "alt_text": "Wexel, Premera Blue Cross",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/wexel-01.webp",
+          "displayed_asset": "public/assets/gallery/wexel-01.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Wexel, Premera Blue Cross",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/wexel-02.webp",
+          "displayed_asset": "public/assets/gallery/wexel-02.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Wexel, Premera Blue Cross",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/wexel-03.webp",
+          "displayed_asset": "public/assets/gallery/wexel-03.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Wexel, Premera Blue Cross",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/wexel-04.webp",
+          "displayed_asset": "public/assets/gallery/wexel-04.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Wexel, Premera Blue Cross",
+          "caption": ""
+        },
+        {
+          "kind": "img",
+          "source_asset": "/assets/gallery/wexel-05.webp",
+          "displayed_asset": "public/assets/gallery/wexel-05.webp",
+          "fallback_frame": false,
+          "label": "Image",
+          "alt_text": "Wexel, Premera Blue Cross",
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}

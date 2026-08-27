@@ -69,7 +69,7 @@ projects.forEach((project) => {
     }
     const captionWords = artifact.caption.trim().split(/\s+/).length;
     if (captionWords < 5 || captionWords > 12) {
-      errors.push(`Gallery caption must contain 5–12 words: ${project.title} / ${artifact.id}.`);
+      errors.push(`Gallery caption must contain 5-12 words: ${project.title} / ${artifact.id}.`);
     }
   });
   if (project.layout.info.column !== 1 || project.layout.info.span !== 20 || project.layout.info.row !== 2) {

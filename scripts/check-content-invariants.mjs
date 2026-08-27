@@ -1,8 +1,9 @@
 import { readFile } from 'node:fs/promises';
-import { GLOBAL_DATA_ANALYTICS_TITLE } from '../src/data/project-titles.js';
+import { GLOBAL_DATA_ANALYTICS_TITLE, HBS_AI_INSTITUTE_TITLE } from '../src/data/project-titles.js';
 import { CASE_STUDY_SEQUENCE, caseStudyNavigationFor } from '../src/data/project-sequence.js';
 
 const expectedTitle = 'Turning exploratory research into internal tools.';
+const expectedHbsTitle = 'Creating an AI-driven research architecture for reliability and novel exploration.';
 const sources = await Promise.all([
   readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
   readFile(new URL('../src/pages/work/global-data-analytics.astro', import.meta.url), 'utf8'),
@@ -22,11 +23,20 @@ const errors = [];
 if (GLOBAL_DATA_ANALYTICS_TITLE !== expectedTitle) {
   errors.push(`The Global Data Analytics title must remain exactly “${expectedTitle}”`);
 }
+if (HBS_AI_INSTITUTE_TITLE !== expectedHbsTitle) {
+  errors.push(`The HBS AI Institute title must remain exactly “${expectedHbsTitle}”`);
+}
 if (!homePage.includes('title: GLOBAL_DATA_ANALYTICS_TITLE')) {
   errors.push('The homepage project card must use the canonical Global Data Analytics title.');
 }
 if (!caseStudy.includes('headline={GLOBAL_DATA_ANALYTICS_TITLE}')) {
   errors.push('The Global Data Analytics case study must use the canonical title.');
+}
+if (!homePage.includes('title: HBS_AI_INSTITUTE_TITLE')) {
+  errors.push('The homepage HBS project card must use the canonical HBS title.');
+}
+if (!casePages[1].includes('headline={HBS_AI_INSTITUTE_TITLE}')) {
+  errors.push('The HBS case study must use the canonical HBS title.');
 }
 if (homePage.includes('data-tape-label') || homePage.includes('home-tape-label')) {
   errors.push('Selected Work project content must not restore tape markup.');
@@ -39,12 +49,12 @@ if (!homePage.includes('class="home-bio-sentence home-bio-sentence--support">{he
 }
 
 const expectedProjectOrder = [
-  ['/work/panw-ai/', '2025–26', 1],
+  ['/work/panw-ai/', '2025-26', 1],
   ['/work/hbs-ai-institute/', '2025', 2],
-  ['/work/global-data-analytics/', '2023–24', 3],
+  ['/work/global-data-analytics/', '2023-24', 3],
   ['/work/one-report/', '2023', 4],
-  ['/work/hitachi-energy/', '2022', 5],
-  ['/work/cisco-customer-insights/', '2020–21', 6],
+  ['/work/hitachi-energy/', '2021-22', 5],
+  ['/work/cisco-customer-insights/', '2020-21', 6],
 ];
 const expectedCaseStudySequence = expectedProjectOrder.map(([href]) => href);
 if (JSON.stringify(CASE_STUDY_SEQUENCE) !== JSON.stringify(expectedCaseStudySequence)) {

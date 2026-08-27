@@ -121,7 +121,7 @@
   --asset-radius: 0px;
   --prose-measure: 70%;
   --gutter: clamp(20px, 5vw, 40px);
-  --caption-size: 14px;
+  --caption-size: 16px;
   --caption-leading: 1.35;
   --caption-pad-top: 8px;
   --caption-pad-bottom: 0px;
@@ -147,7 +147,7 @@
   --site-header-motion: 400ms cubic-bezier(.19, 1, .22, 1);
   --site-header-content-inset: 16px;
   --site-header-inner-pad: 16px;
-  --site-header-end-pad: 8px;
+  --site-header-end-pad: 4px;
   --site-navigation-outline: color-mix(in srgb, var(--text-primary) 5%, transparent);
   --site-navigation-hover: rgb(175 208 201 / 20%);
   color-scheme: light;
@@ -299,7 +299,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .site-header-link {
   display: inline-flex;
   align-items: center;
-  padding: 8px 16px;
+  padding: 12px 16px;
   border-radius: 999px;
   background: transparent;
   color: var(--text-secondary);
@@ -312,7 +312,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 
 .page-shell > main { padding-top: 128px; }
 [data-home-system='true'] .page-shell > main { padding-top: 76px; }
-[data-case-system='true'] .page-shell > main { padding-top: 75px; }
+[data-case-system='true'] .page-shell > main { padding-top: 75px; background: #fff; }
 #about,
 #work,
 #gallery { scroll-margin-top: calc(var(--site-header-gap) + var(--site-header-height) + var(--site-header-gap)); }
@@ -398,7 +398,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 [data-home-system='true'] {
   --home-background: #fff;
   --home-accent-copy: #416870;
-  --gallery-band-gray: #fafafa;
+  --gallery-band-gray: #f5f5f5;
   --asset-radius: 0px;
   --home-rail: var(--site-rail);
   --home-pad: 16px;
@@ -450,8 +450,8 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 }
 .js .home-bio-sentence--animated .home-bio-word {
   opacity: .1;
-  animation: home-bio-word-reveal 100ms linear forwards;
-  animation-delay: calc(var(--hero-word-index) * 75ms);
+  animation: home-bio-word-reveal 200ms linear forwards;
+  animation-delay: calc(var(--hero-word-index) * 150ms);
 }
 @keyframes home-bio-word-reveal { to { opacity: 1; } }
 
@@ -510,9 +510,11 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 }
 
 .home-project-grid {
+  --home-project-column-gap: 24px;
+  --home-project-row-gap: 24px;
   position: relative;
   min-width: 420px;
-  padding-bottom: 24px;
+  padding-bottom: 160px;
   background: transparent;
 }
 .home-project-scroller { overflow: visible; }
@@ -721,13 +723,11 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   text-wrap: wrap;
 }
 .home-work > .page-heading { padding-bottom: 16px; }
-.home-work > .page-heading > h2 {
-  font-size: 32px;
-  font-weight: 600;
-}
+.home-work > .page-heading > h2,
 .home-gallery > .page-heading > h2 {
+  font-family: var(--body-font);
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .js [data-line-mask]:not(.line-mask-ready) { visibility: hidden; }
 .line-mask-probe { display: inline; }
@@ -771,8 +771,8 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .home-gallery > .page-heading {
   width: var(--home-rail);
   margin-inline: auto;
-  padding-top: clamp(96px, 20vw, 160px);
-  padding-bottom: 0;
+  padding-top: 64px;
+  padding-bottom: 160px;
 }
 .gallery-project-list {
   display: grid;
@@ -794,9 +794,6 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .gallery-project:first-child { padding-top: 24px; }
 .gallery-project:nth-child(odd) { background: var(--gallery-band-gray); }
 .gallery-project:nth-child(even) { background: #fff; }
-.gallery-project:nth-child(2),
-.gallery-project:nth-child(6),
-.gallery-project:nth-child(8) { background: #f5f5f5; }
 
 .gallery-project-info {
   min-width: 0;
@@ -1581,7 +1578,7 @@ html[data-media-motion-ready='true'] [data-media-reveal][data-media-reveal-ready
   max-width: 75%;
   padding: var(--caption-pad-top) 0 var(--caption-pad-bottom);
   color: var(--cs-caption);
-  font: 400 14px/1.35 var(--cs-heading-font);
+  font: 400 var(--caption-size)/var(--caption-leading) var(--cs-heading-font);
 }
 
 [data-case-system='true'] .case-study { counter-reset: media-caption; }
@@ -1624,7 +1621,7 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
   max-width: 75%;
   padding: var(--caption-pad-top) 0 var(--caption-pad-bottom);
   color: var(--cs-caption);
-  font: 400 14px/1.35 var(--cs-heading-font);
+  font: 400 var(--caption-size)/var(--caption-leading) var(--cs-heading-font);
 }
 
 [data-case-system='true'] .problem-layout { height: auto; }

@@ -45,7 +45,7 @@ import Figure from '../../components/Figure.astro';
   </Fragment>
 
   <section class="case-section reading-column" data-reveal>
-    <h2>Context</h2>
+    <h2>Context:</h2>
     <p class="muted">Sales Workbench consolidated a wide range of tools into one platform where account teams could manage opportunities, accounts, telemetry, and other sales activities. The platform supported oversight of roughly $3B in annual pipeline activity while reducing movement between fragmented tools.</p>
     <p><strong>The consolidation also created an opportunity to introduce an AI assistant as an initial step toward AI-assisted workflows.</strong></p>
   </section>
@@ -53,7 +53,7 @@ import Figure from '../../components/Figure.astro';
   <Figure src="/assets/panw-ai/panw-image-05-02.webp" alt="Sales Workbench interface" caption="Sales Workbench, part of the Salesforce Account Executive Experience." class="panw-context-cover" width={3000} height={2250} fluidFrame captionAlignment="frame" />
 
   <section class="case-section reading-column problem-layout" data-reveal>
-    <h2>Problem</h2>
+    <h2>Problem:</h2>
     <p data-branch-lead>As AI entered enterprise platforms, its narrative exchanges conflicted with the structured, tactile interactions familiar to users.</p>
     <svg class="problem-connector" aria-hidden="true" focusable="false">
       <path></path>
@@ -90,7 +90,7 @@ import Figure from '../../components/Figure.astro';
   <Figure src="/assets/panw-ai/video/codex-shim-03.webm" poster="/assets/panw-ai/posters/codex-shim-03.png" alt="Initial generative UI prototype" caption="Initial prototype built with CopilotKit and a Codex shim." video autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
-    <h2>Prototyping and Technical Hurdles:</h2>
+    <h2>Prototyping and technical hurdles:</h2>
     <p>With limited engineering capacity, generative UI appeared too costly for V1, so I built a prototype to reduce the uncertainty. Using <a href="https://github.com/CopilotKit/CopilotKit" target="_blank" rel="noreferrer">CopilotKit</a>, it passed the user’s UI context and chat prompt to a Codex shim, which selected an approved React component and returned its structured data.</p>
     <p>The prototype gave engineering enough confidence to build a scalable solution on a forked CopilotKit repository.</p>
   </section>
@@ -98,7 +98,7 @@ import Figure from '../../components/Figure.astro';
   <Figure src="/assets/panw-ai/video/anchored-responses-snippet-01.webm" poster="/assets/panw-ai/posters/anchored-responses-snippet-01.png" alt="A selected row becoming an anchored prompt chip" caption="A selected row becomes a removable prompt chip backed by a stable Salesforce object ID." class="panw-square-animation" contain fluidFrame squareMedia captionAlignment="frame" video autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
-    <h2>The Verification Issue:</h2>
+    <h2>The verification issue:</h2>
     <p class="body-regular">Because the data changed constantly, users needed to verify responses quickly. Additional model reasoning added noise.</p>
     <p class="body-regular">Transparency was relatively easy; <strong>the real challenge was the effort users spent on verification.</strong></p>
     <p class="body-regular">Rather than refining the visibility of a model’s thought process, I explored a conclusion-and-derivation response approach. The system responds with an answer and produces a concise, scannable evidence-and-decision trail.</p>
@@ -119,7 +119,7 @@ import Figure from '../../components/Figure.astro';
   <Figure src="/assets/panw-ai/video/trace-snippet.webm" poster="/assets/panw-ai/posters/trace-snippet.png" alt="Trace interaction" caption="Interaction showcasing Trace." class="panw-square-animation" contain fluidFrame squareMedia captionAlignment="frame" video autoplayOnView loop />
 
   <section class="case-section reading-column" data-reveal>
-    <h2>Impact</h2>
+    <h2>Impact:</h2>
     <p>Within the first 90 days, one in three participants averaged more than two consecutive Anchored Follow-Ups per session, while one in five averaged more than four. Since each follow-up remained linked to a row or column, they formed connected chains indicating sustained investigation across several steps.</p>
     <p>Within the first week, Trace prompted a new feature request: users wanted to capture a response with its trace and share it in Slack, Salesforce notes, or email.</p>
     <p>We introduced Snapshot, which reached 27% usage overall, while 22% of anchored follow-up arcs ended with one.</p>

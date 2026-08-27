@@ -4,7 +4,7 @@ import GalleryProject from '../components/GalleryProject.astro';
 import MultiscriptNameStrip from '../components/MultiscriptNameStrip.astro';
 import PageHeading from '../components/PageHeading.astro';
 import ResponsiveVideo from '../components/ResponsiveVideo.astro';
-import { GLOBAL_DATA_ANALYTICS_TITLE } from '../data/project-titles.js';
+import { GLOBAL_DATA_ANALYTICS_TITLE, HBS_AI_INSTITUTE_TITLE } from '../data/project-titles.js';
 import { parseGalleryNotes } from '../data/gallery.js';
 import galleryNotes from '../content/gallery-notes.md?raw';
 
@@ -17,7 +17,7 @@ const projects = [
     href: '/work/panw-ai/',
     title: 'Designing AI experiences for deep analysis and traceability.',
     company: 'PALO ALTO NETWORKS',
-    year: '2025–26',
+    year: '2025-26',
     order: 1,
     video: '/assets/home-covers/panw-renewal-exception-row-anchor.webm',
     poster: '/assets/home-covers/posters/panw-renewal-exception-row-anchor.png',
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     href: '/work/hbs-ai-institute/',
-    title: 'Creating an AI-driven research architecture for reliability and novel exploration.',
+    title: HBS_AI_INSTITUTE_TITLE,
     company: 'HARVARD BUSINESS SCHOOL',
     year: '2025',
     order: 2,
@@ -38,7 +38,7 @@ const projects = [
     href: '/work/global-data-analytics/',
     title: GLOBAL_DATA_ANALYTICS_TITLE,
     company: 'DOCUSIGN',
-    year: '2023–24',
+    year: '2023-24',
     order: 3,
     video: '/assets/home-covers/gda.webm',
     poster: '/assets/home-covers/posters/gda.png',
@@ -58,7 +58,7 @@ const projects = [
     href: '/work/hitachi-energy/',
     title: "Designing a B2B buying experience for Hitachi's sales partners.",
     company: 'HITACHI ENERGY',
-    year: '2022',
+    year: '2021-22',
     order: 5,
     video: '/assets/home-covers/hitachi-cover.webm',
     poster: '/assets/home-covers/posters/hitachi-cover.png',
@@ -70,7 +70,7 @@ const projects = [
     href: '/work/cisco-customer-insights/',
     title: 'Designing Customer Insights and extending it with Upsell Opportunities.',
     company: 'CISCO',
-    year: '2020–21',
+    year: '2020-21',
     order: 6,
     video: '/assets/home-covers/cisco-customer-dashboard.webm',
     poster: '/assets/home-covers/posters/cisco-customer-dashboard.png',
@@ -183,6 +183,7 @@ const projects = [
       const resetToSingleColumn = () => {
         projectGrid.dataset.homeLayout = 'small';
         projectGrid.style.height = '';
+        projectGrid.style.removeProperty('--home-project-second-column-offset');
         Object.values(projectSlots).forEach((slot) => {
           slot.style.left = '';
           slot.style.top = '';
@@ -200,10 +201,14 @@ const projects = [
           return;
         }
 
-        const columnWidth = gridWidth / 2;
+        const columnGap = Number.parseFloat(
+          getComputedStyle(projectGrid).getPropertyValue('--home-project-column-gap'),
+        ) || 0;
+        const columnWidth = (gridWidth - columnGap) / 2;
+        const secondColumnX = columnWidth + columnGap;
         projectGrid.dataset.homeLayout = 'medium';
         [1, 4].forEach((order) => setGeometry(order, 0, 0, columnWidth));
-        [2, 3, 5, 6].forEach((order) => setGeometry(order, columnWidth, 0, columnWidth));
+        [2, 3, 5, 6].forEach((order) => setGeometry(order, secondColumnX, 0, columnWidth));
 
         const height1 = slotHeight(1);
         const height2 = slotHeight(2);
@@ -211,14 +216,28 @@ const projects = [
         const height4 = slotHeight(4);
         const height5 = slotHeight(5);
         const height6 = slotHeight(6);
-        setGeometry(4, 0, height1, columnWidth);
-        setGeometry(3, columnWidth, height2, columnWidth);
-        setGeometry(5, columnWidth, height2 + height3, columnWidth);
-        setGeometry(6, columnWidth, height2 + height3 + height5, columnWidth);
+        const rowGap = Number.parseFloat(
+          getComputedStyle(projectGrid).getPropertyValue('--home-project-row-gap'),
+        ) || 0;
+        const secondColumnOffset = height1 * 0.2;
+        projectGrid.style.setProperty('--home-project-second-column-offset', cssPixels(secondColumnOffset));
+
+        const columnOneSecondTop = height1 + rowGap;
+        const columnTwoFirstTop = secondColumnOffset;
+        const columnTwoSecondTop = columnTwoFirstTop + height2 + rowGap;
+        const columnTwoThirdTop = columnTwoSecondTop + height3 + rowGap;
+        const columnTwoFourthTop = columnTwoThirdTop + height5 + rowGap;
+
+        setGeometry(4, 0, columnOneSecondTop, columnWidth);
+        setGeometry(2, secondColumnX, columnTwoFirstTop, columnWidth);
+        setGeometry(3, secondColumnX, columnTwoSecondTop, columnWidth);
+        setGeometry(5, secondColumnX, columnTwoThirdTop, columnWidth);
+        setGeometry(6, secondColumnX, columnTwoFourthTop, columnWidth);
+        const trailingSpace = Number.parseFloat(getComputedStyle(projectGrid).paddingBottom) || 0;
         projectGrid.style.height = cssPixels(Math.max(
-          height1 + height4,
-          height2 + height3 + height5 + height6,
-        ));
+          columnOneSecondTop + height4,
+          columnTwoFourthTop + height6,
+        ) + trailingSpace);
 
         correctSectionHash();
       };
