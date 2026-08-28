@@ -1,6 +1,7 @@
 ---
 interface Props {
   slides: string[];
+  descriptions: string[];
   startIndex?: number;
   aspectRatio: string;
   class?: string;
@@ -8,10 +9,15 @@ interface Props {
 
 const {
   slides,
+  descriptions,
   startIndex = 0,
   aspectRatio,
   class: className = '',
 } = Astro.props;
+
+if (descriptions.length !== slides.length) {
+  throw new Error(`Carousel requires one description per slide; received ${slides.length} slides and ${descriptions.length} descriptions.`);
+}
 ---
 
 <div
@@ -38,7 +44,7 @@ const {
           {slides.map((slide, index) => (
             <img
               src={slide}
-              alt=""
+              alt={descriptions[index]}
               loading="lazy"
               data-carousel-slide
               data-media-visual
@@ -55,6 +61,9 @@ const {
       <button type="button" data-carousel-dot aria-label={`View slide ${index + 1}`} aria-current={index === startIndex ? 'step' : undefined}></button>
     ))}
   </div>
+  <p class="sr-only" data-carousel-status aria-live="polite" aria-atomic="true">
+    Slide {startIndex + 1} of {slides.length}: {descriptions[startIndex]}
+  </p>
   <div class="carousel-caption" data-media-caption><slot /></div>
 </div>
 
@@ -63,6 +72,7 @@ const {
     const slides = Array.from(carousel.querySelectorAll<HTMLElement>('[data-carousel-slide]'));
     const dots = Array.from(carousel.querySelectorAll<HTMLButtonElement>('[data-carousel-dot]'));
     const viewport = carousel.querySelector<HTMLElement>('.carousel-viewport');
+    const status = carousel.querySelector<HTMLElement>('[data-carousel-status]');
     let index = Number(carousel.dataset.index ?? '0');
     let fadeIndex = index;
     let position = 1;
@@ -87,6 +97,9 @@ const {
         else dot.removeAttribute('aria-current');
       });
       carousel.dataset.index = String(index);
+      const description = slides[index]?.getAttribute('alt') ?? '';
+      if (status) status.textContent = `Slide ${index + 1} of ${slides.length}: ${description}`;
+      viewport?.setAttribute('aria-label', `Show next slide. Slide ${index + 1} of ${slides.length}.`);
       dispatchMediaChange();
     };
 

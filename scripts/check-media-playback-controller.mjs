@@ -151,6 +151,9 @@ document.documentElement = {};
 document.defaultView = new EventTargetStub();
 document.defaultView.navigator = { onLine: true };
 const qualityQuery = new EventTargetStub();
+qualityQuery.matches = false;
+const reducedMotionQuery = new EventTargetStub();
+reducedMotionQuery.matches = false;
 const root = new RootStub(videos);
 const options = {
   document,
@@ -166,6 +169,7 @@ const options = {
   stallMs: 300,
   diagnosticsLimit: 8,
   qualityQuery,
+  reducedMotionQuery,
 };
 
 const controller = createMediaPlaybackController(options);
@@ -349,5 +353,32 @@ assert.equal(controller.records.size, 0, 'dispose releases every video record');
 const replacement = createMediaPlaybackController(options);
 assert.notEqual(replacement, controller, 'disposed controller can be safely reinitialized');
 replacement.dispose();
+
+const reducedVideo = new VideoStub('reduced-motion fixture');
+const reducedRoot = new RootStub([reducedVideo]);
+const reducedQuery = new EventTargetStub();
+reducedQuery.matches = true;
+const reducedController = createMediaPlaybackController({
+  ...options,
+  root: reducedRoot,
+  reducedMotionQuery: reducedQuery,
+});
+const reducedObserver = IntersectionObserverStub.instances.at(-1);
+reducedObserver.set(reducedVideo, 0.8);
+assert.equal(reducedVideo.playCalls, 0, 'reduced motion leaves eligible autoplay media on its poster');
+assert.equal(reducedController.getState(reducedVideo), 'paused', 'reduced-motion autoplay is represented as paused');
+document.dispatchEvent({
+  type: 'click', target: reducedVideo.control,
+  preventDefault() {}, stopPropagation() {}, stopImmediatePropagation() {},
+});
+assert.equal(reducedVideo.playCalls, 1, 'an explicit Play action remains available under reduced motion');
+reducedVideo.frame(0.04);
+reducedVideo.frame(0.08);
+assert.equal(reducedController.getState(reducedVideo), 'playing', 'explicit reduced-motion playback still requires rendered frames');
+reducedVideo.dataset.manualPlayback = '';
+reducedQuery.matches = false;
+reducedQuery.dispatchEvent({ type: 'change' });
+assert.equal(reducedController.getState(reducedVideo), 'playing', 'leaving reduced motion preserves eligible playback');
+reducedController.dispose();
 
 console.log('Media playback controller checks passed.');

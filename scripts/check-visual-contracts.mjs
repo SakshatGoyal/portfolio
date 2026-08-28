@@ -184,15 +184,15 @@ requireText(styles, '--panel-label-color: #000;\n  --panel-tape-color: #000;', '
 requireText(styles, 'width: var(--portfolio-panel-width);\n  min-width: var(--portfolio-panel-width);\n  max-width: var(--portfolio-panel-width);', 'The portfolio panel element must match the responsive grid track.');
 requireText(styles, 'padding: 32px 32px 64px;', 'The portfolio panel must preserve the fixed Figma outer padding.');
 requireText(styles, 'gap: 8px;\n  padding: 0 0 16px 2px;\n  font: 600 clamp(23.652px, calc(6.956522cqi + 4.452174px), 32px)/clamp(23.652px, calc(6.956522cqi + 4.452174px), 32px) var(--body-font);\n  letter-spacing: -.04em;', 'Panel identity must scale proportionally between the 460px and 340px panel widths.');
-requireText(styles, '.portfolio-panel-socials {\n  --panel-label-color: #819a9f;', 'The Figma social frame must use the muted resting label color.');
+requireText(styles, '.portfolio-panel-socials {\n  --panel-label-color: #5f787d;', 'The social frame must use the accessible muted resting label color.');
 requireText(styles, 'padding-bottom: 32px;\n  color: var(--panel-label-color);\n  font: 500 clamp(14.783px, calc(4.347826cqi + 2.782609px), 20px)/clamp(19.957px, calc(5.869565cqi + 3.756522px), 27px) var(--body-font);', 'Social labels must retain their spacing while scaling with the panel.');
 requireText(styles, 'font: 600 clamp(17.739px, calc(5.217391cqi + 3.33913px), 24px)/clamp(24.391px, calc(7.173913cqi + 4.591304px), 33px) var(--body-font);\n  letter-spacing: -.03em;', 'Panel lead typography must scale proportionally with the panel.');
-requireText(styles, 'color: #819a9f;\n  font: 500 clamp(14.783px, calc(4.347826cqi + 2.782609px), 20px)/clamp(19.957px, calc(5.869565cqi + 3.756522px), 27px) var(--body-font);\n  letter-spacing: -.03em;', 'Panel supporting copy must preserve its color while scaling with the panel.');
-requireText(styles, '--panel-label-color: #819a9f;\n  display: flex;', 'Unselected project links must use #819A9F.');
+requireText(styles, 'color: #5f787d;\n  font: 500 clamp(14.783px, calc(4.347826cqi + 2.782609px), 20px)/clamp(19.957px, calc(5.869565cqi + 3.756522px), 27px) var(--body-font);\n  letter-spacing: -.03em;', 'Panel supporting copy must preserve its accessible color while scaling with the panel.');
+requireText(styles, '--panel-label-color: #5f787d;\n  display: flex;', 'Unselected project links must use accessible tertiary text.');
 requireText(styles, 'background: var(--panel-tape-color);\n  color: #fff !important;', 'Selected project links must retain white text on black tape.');
 requireText(styles, 'padding-inline-start: 0;', 'Panel project rows must align with the panel content edge without an inset.');
 requireText(styles, '.portfolio-panel-navigation a,\n.portfolio-panel-contact { padding: 2px 4px; }', 'Panel label frames must retain fixed 2px by 4px Figma padding.');
-requireText(styles, '.portfolio-panel-projects {\n  --panel-label-color: #819a9f;\n  display: flex;\n  flex: none;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 8px;', 'Panel project rows must retain their fixed 8px gap.');
+requireText(styles, '.portfolio-panel-projects {\n  --panel-label-color: #5f787d;\n  display: flex;\n  flex: none;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 8px;', 'Panel project rows must retain their fixed 8px gap.');
 requireText(styles, 'background-image: linear-gradient(#d3ff7d, #d3ff7d);', 'Panel lead must use the updated neon text-bound background highlight.');
 requireText(styles, '--panel-highlight-height: 30px;', 'The first panel highlight band must retain the Figma 30px height.');
 requireText(styles, '.portfolio-panel-highlight-line:nth-child(2) { --panel-highlight-height: 28px; }', 'The second panel highlight band must retain the Figma 28px height.');
@@ -278,7 +278,7 @@ for (const [, selector, body] of styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
 requireText(styles, '.home-project-scroller { overflow: visible; }', 'The project scroller must remain inert outside narrow screens.');
 requireText(styles, 'min-width: 420px;\n  padding: 32px;\n  background: transparent;', 'Selected Work must use the Figma 32px outer frame padding.');
 requireText(home, 'const paddingBottom = Number.parseFloat(gridStyles.paddingBottom) || 0;', 'The masonry height must include the Figma bottom frame padding.');
-requireText(styles, '@media (max-width: 451px) {\n  .home-project-scroller { overflow-x: auto; overflow-y: hidden; }\n}', 'Only the narrow project wrapper may scroll horizontally, with vertical overflow disabled.');
+requireText(styles, '@media (max-width: 451px) {\n  .home-project-scroller { overflow-x: clip; overflow-y: visible; }\n  .home-project-grid { width: 100%; min-width: 0; }\n}', 'Narrow project cards must reflow without horizontal panning.');
 requireCount(home, 'class="home-project-scroller"', 1, 'Selected Work must have exactly one isolated project scroller.');
 if (home.includes('<PageHeading title="Selected Work"') || home.includes("import PageHeading from '../components/PageHeading.astro'")) {
   errors.push('The homepage must not render or import the removed Selected Work heading.');
@@ -325,7 +325,7 @@ requireCount(home, 'data-asset-surface', 3, 'Homepage image, video, and Memory L
 requireText(styles, '--home-ink: var(--text-primary);', 'Homepage titles must inherit editorial primary.');
 requireText(styles, '--home-secondary: var(--text-tertiary);', 'Homepage tertiary roles and footer must inherit editorial tertiary.');
 requireText(styles, '.home-project-client { color: #000; font-weight: 600; text-transform: uppercase; }', 'Selected Work clients must use the Figma black uppercase semibold treatment.');
-requireText(styles, '.home-project-year { color: #819a9f; font-weight: 400; }', 'Selected Work years must use the Figma #819A9F regular treatment.');
+requireText(styles, '.home-project-year { color: #5f787d; font-weight: 400; }', 'Selected Work years must use accessible tertiary regular text.');
 requireText(styles, 'align-items: center;\n  gap: 16px;\n  font: 400 14px/normal var(--body-font);', 'Every Selected Work client and year must use one consistent 16px gap.');
 requireText(styles, 'justify-content: flex-start;\n  gap: 16px;\n  min-width: 0;\n  margin-top: 8px;', 'Selected Work metadata must sit 8px below the project title, retain its internal 16px gaps, and remain width-constrained.');
 requireText(styles, '.home-project-copy {\n  display: flex;\n  flex-direction: column;\n  overflow-wrap: break-word;\n}', 'Selected Work copy frames must retain their title reveal wrapper without description spacing.');
@@ -747,6 +747,7 @@ if (typographyCall < 0 || motionCall < 0 || typographyCall > motionCall) {
   errors.push('Typography initialization must run before motion initialization.');
 }
 requireText(typography, "const EDITORIAL_TEXT_SELECTOR = 'body :is(p, li, h1, h2, h3, h4, h5, h6, figcaption, blockquote)';", 'The widow guard must cover every site-wide editorial text-block role.');
+requireText(typography, 'if (window.innerWidth <= 400) return;', 'Widow prevention must yield to 320px and 400%-zoom reflow.');
 requireText(typography, 'document.querySelectorAll(EDITORIAL_TEXT_SELECTOR).forEach(guardFinalPair);', 'The widow guard must apply to every editorial text block.');
 requireText(typography, "document.documentElement.dataset.typographySystemMounted === 'true'", 'The typography initializer must remain idempotent.');
 requireText(typography, "replaceCharacterAt(nodes, separatorIndex, '\\u00a0')", 'The final word pair must be joined with a nonbreaking space.');

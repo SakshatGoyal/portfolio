@@ -35,6 +35,7 @@ const replaceCharacterAt = (nodes, index, replacement) => {
 
 const guardFinalPair = (element) => {
   if (element.closest('[hidden], [aria-hidden="true"], [data-widow-ignore]')) return;
+  if (window.innerWidth <= 400) return;
 
   const nodes = eligibleTextNodes(element);
   const text = nodes.map((node) => node.data).join('');

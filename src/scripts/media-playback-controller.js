@@ -42,6 +42,9 @@ export class MediaPlaybackController {
     this.qualityQuery = options.qualityQuery ?? this.window?.matchMedia?.(
       '(max-width: 1023px), (hover: none), (pointer: coarse)',
     );
+    this.reducedMotionQuery = options.reducedMotionQuery ?? this.window?.matchMedia?.(
+      '(prefers-reduced-motion: reduce)',
+    );
     this.records = new Map();
     this.diagnostics = [];
     this.disposed = false;
@@ -92,6 +95,7 @@ export class MediaPlaybackController {
     listen(this.window, 'online', () => this.reconcileAll('online'));
     listen(this.window, 'offline', () => this.reconcileAll('offline'));
     listen(this.qualityQuery, 'change', () => this.onQualityTierChange());
+    listen(this.reducedMotionQuery, 'change', () => this.reconcileAll('reduced-motion-change'));
   }
 
   onQualityTierChange() {
@@ -223,8 +227,10 @@ export class MediaPlaybackController {
   }
 
   shouldPlay(record) {
+    const explicitlyStarted = record.video.dataset?.manualPlayback === 'playing';
     return record.inRange
       && !record.manuallyPaused
+      && (!this.reducedMotionQuery?.matches || explicitlyStarted)
       && !this.document.hidden
       && this.window?.navigator?.onLine !== false
       && !this.document.body?.classList?.contains('behance-viewer-open')

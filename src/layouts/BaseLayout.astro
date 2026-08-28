@@ -74,7 +74,9 @@ const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
         <svg viewBox="0 0 12 20" aria-hidden="true"><path d="M10 2L2 10L10 18" /></svg>
       </button>
       <div class="behance-viewer__stage" data-behance-viewer-stage>
-        <img data-behance-viewer-image alt="" tabindex="0" />
+        <button class="behance-viewer__zoom" type="button" data-behance-viewer-zoom aria-expanded="false" aria-label="Zoom in portfolio media" hidden>
+          <img data-behance-viewer-image alt="" />
+        </button>
         <video data-behance-viewer-video controls muted loop playsinline tabindex="0" hidden></video>
       </div>
       <button class="behance-viewer__next" type="button" data-behance-viewer-next aria-label="Next media">
@@ -331,6 +333,7 @@ const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
     </script>
     <script is:inline>
       const viewer = document.querySelector('[data-behance-viewer]');
+      const viewerZoom = viewer?.querySelector('[data-behance-viewer-zoom]');
       const viewerImage = viewer?.querySelector('[data-behance-viewer-image]');
       const viewerVideo = viewer?.querySelector('[data-behance-viewer-video]');
       const viewerStage = viewer?.querySelector('[data-behance-viewer-stage]');
@@ -362,10 +365,12 @@ const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
           || caseTitle || 'Portfolio media';
       };
       const setViewerExpanded = (expanded) => {
-        if (!viewer || !viewerImage || !viewerStage) return;
-        viewerExpanded = expanded && !viewerImage.hidden;
+        if (!viewer || !viewerZoom || !viewerImage || !viewerStage) return;
+        viewerExpanded = expanded && !viewerZoom.hidden;
         viewer.classList.toggle('is-expanded', viewerExpanded);
         viewerImage.style.width = viewerExpanded ? `${window.innerWidth}px` : '';
+        viewerZoom.setAttribute('aria-expanded', String(viewerExpanded));
+        viewerZoom.setAttribute('aria-label', `${viewerExpanded ? 'Zoom out' : 'Zoom in'} ${viewerTitle?.textContent?.trim() || 'portfolio media'}`);
         viewerStage.scrollTo({ top: 0, left: 0, behavior: 'instant' });
       };
       const releaseViewerVideo = () => {
@@ -377,7 +382,7 @@ const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
         viewerSourceVideo = null;
       };
       const renderViewer = () => {
-        if (!activeViewerItem || !viewerImage || !viewerVideo || !viewerTitle) return;
+        if (!activeViewerItem || !viewerZoom || !viewerImage || !viewerVideo || !viewerTitle) return;
         const renderToken = ++viewerRenderToken;
         releaseViewerVideo();
         const sourceImage = imageFor(activeViewerItem);
@@ -390,7 +395,7 @@ const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
           const sourceTime = sourceVideo.currentTime;
           sourceVideo.pause();
           viewerSourceVideo = sourceVideo;
-          viewerImage.hidden = true;
+          viewerZoom.hidden = true;
           viewerVideo.hidden = false;
           viewerVideo.src = sourceVideo.currentSrc || sourceVideo.src;
           viewerVideo.poster = sourceVideo.poster;
@@ -414,9 +419,10 @@ const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
         viewerVideo.hidden = true;
         viewerVideo.removeAttribute('src');
         viewerVideo.load();
-        viewerImage.hidden = false;
+        viewerZoom.hidden = false;
         viewerImage.src = sourceImage.currentSrc || sourceImage.src;
         viewerImage.alt = title;
+        setViewerExpanded(false);
       };
       const openViewer = (item) => {
         if (!viewer) return;
@@ -463,9 +469,14 @@ const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
         }
         if (!viewer || viewer.hidden) return;
         if (event.key === 'Escape') closeViewer();
+        const targetOwnsArrowKeys = event.target instanceof HTMLMediaElement
+          || event.target instanceof HTMLInputElement
+          || event.target instanceof HTMLTextAreaElement
+          || event.target instanceof HTMLSelectElement
+          || event.target?.isContentEditable;
+        if (targetOwnsArrowKeys && (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) return;
         if (event.key === 'ArrowLeft' && !viewerExpanded) moveViewer(-1);
         if (event.key === 'ArrowRight' && !viewerExpanded) moveViewer(1);
-        if (event.key === 'Enter' && event.target === viewerImage) setViewerExpanded(!viewerExpanded);
         if (event.key === 'Tab') {
           const focusable = [...viewer.querySelectorAll('button:not([disabled]), [tabindex="0"]')]
             .filter((element) => element instanceof HTMLElement && !element.hidden);
@@ -480,13 +491,7 @@ const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
           }
         }
       });
-      viewerImage?.addEventListener('click', () => setViewerExpanded(!viewerExpanded));
-      viewerImage?.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          setViewerExpanded(!viewerExpanded);
-        }
-      });
+      viewerZoom?.addEventListener('click', () => setViewerExpanded(!viewerExpanded));
       viewerClose?.addEventListener('click', closeViewer);
       viewerPrevious?.addEventListener('click', () => moveViewer(-1));
       viewerNext?.addEventListener('click', () => moveViewer(1));
