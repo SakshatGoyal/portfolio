@@ -1,6 +1,7 @@
 ---
 import SiteFooter from '../components/SiteFooter.astro';
 import PortfolioPanel from '../components/PortfolioPanel.astro';
+import CaseStudyHeader from '../components/CaseStudyHeader.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -36,6 +37,7 @@ const isHomeSystem = Astro.url.pathname === '/';
       <a class="skip-link" href="#main-content">Skip to content</a>
       <div class="site-layout">
         <PortfolioPanel />
+        {isCaseSystem && <CaseStudyHeader />}
         <div class="site-content">
           <main id="main-content" tabindex="-1">
             <slot />
@@ -67,6 +69,7 @@ const isHomeSystem = Astro.url.pathname === '/';
     </div>
     <script>
       import { createMediaPlaybackController } from '../scripts/media-playback-controller.js';
+      import { initContactLinks } from '../scripts/contact-links.js';
 
       const mediaWindow = window as typeof window & {
         __mediaPlaybackController?: ReturnType<typeof createMediaPlaybackController>;
@@ -76,6 +79,7 @@ const isHomeSystem = Astro.url.pathname === '/';
       const mediaPlaybackController = createMediaPlaybackController();
       mediaWindow.__mediaPlaybackController = mediaPlaybackController;
       mediaWindow.__mediaPlaybackDispose = () => mediaPlaybackController.dispose();
+      initContactLinks();
     </script>
     <script is:inline>
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

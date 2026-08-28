@@ -139,7 +139,7 @@ for (const expected of [
   'headline="Memory Lane"',
   'theme="memory-lane"',
   'showMeta={false}',
-  'class="memory-lane-hero-placeholder"',
+  'className="memory-lane-hero-placeholder"',
   'parseGalleryNotes(galleryNotes)',
   '<GalleryProject project={project} infoFirst projectNumber={index + 1} />',
 ]) {

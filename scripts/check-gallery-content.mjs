@@ -10,7 +10,9 @@ const normalizedNotes = notes.replace(/\r\n?/g, '\n')
   .filter(Boolean)
   .join('\n');
 const notesHash = createHash('sha256').update(normalizedNotes).digest('hex');
-const expectedNotesHash = '21e01fafd00510428a2a8d973b5cd792a8fed53ec30e6b1d7587ee82ce603826';
+const expectedNotesHash = '090179f38239eb9e65bb09711963f87bba856e7f0145b8685359958628d996d4';
+const expectedSalesWorkbenchSummary = 'Referenced in the first case study, Defined the architecture and consolidation strategy for Sales Workbench, PANW’s platform supporting $3B+ in annual pipeline activity, turning standalone apps into atomic workflows that reduced cross-tool switching 40% and enabled decommissioning of 12 internal tools.';
+const expectedPanopticaSummary = 'I redesigned Panoptica’s onboarding experience, contributing to a 26% increase in completion rate.';
 const expectedProjects = [
   ['Sales Workbench, Palo Alto Networks', '2025'],
   ['Platform Redesign, Luminoso', '2024'],
@@ -33,6 +35,12 @@ expectedProjects.forEach(([title, year], index) => {
     errors.push(`Project ${index + 1} must remain ${title} - ${year}.`);
   }
 });
+if (projects.find(({ title }) => title === 'Sales Workbench, Palo Alto Networks')?.paragraphs[0] !== expectedSalesWorkbenchSummary) {
+  errors.push('Sales Workbench must use the approved revised summary exactly.');
+}
+if (projects.find(({ title }) => title === 'Onboarding Redesign, Cisco Panoptica')?.paragraphs[0] !== expectedPanopticaSummary) {
+  errors.push('Panoptica must use the approved revised completion-rate summary exactly.');
+}
 
 const artifacts = projects.flatMap((project) => project.media);
 if (artifacts.length !== 21) errors.push(`Expected 21 artifacts; found ${artifacts.length}.`);

@@ -1,0 +1,54 @@
+---
+import { memoryLaneTrailAssets } from '../data/memory-lane-trail.js';
+
+interface Props {
+  [key: string]: unknown;
+  className: string;
+  decorative?: boolean;
+  label?: string;
+  loading?: 'eager' | 'lazy';
+}
+
+const {
+  className,
+  decorative = false,
+  label,
+  loading = 'eager',
+  ...attributes
+} = Astro.props;
+---
+
+<span
+  {...attributes}
+  class:list={['memory-lane-trail-surface', className]}
+  data-memory-lane-trail
+  data-trail-assets={JSON.stringify(memoryLaneTrailAssets)}
+  aria-hidden={decorative ? 'true' : undefined}
+  aria-label={!decorative ? label : undefined}
+  role={!decorative && label ? 'img' : undefined}
+>
+  <span class="memory-lane-trail-layers" aria-hidden="true">
+    {memoryLaneTrailAssets.map((asset, index) => (
+      <span
+        class="memory-lane-trail-layer"
+        data-asset-index={index}
+        data-width={asset.width}
+        data-height={asset.height}
+      >
+        <img
+          data-memory-lane-trail-visual
+          src={asset.src}
+          alt=""
+          width={asset.width}
+          height={asset.height}
+          decoding="async"
+          loading={loading}
+        />
+      </span>
+    ))}
+  </span>
+</span>
+
+<script>
+  import '../scripts/memory-lane-trail.js';
+</script>

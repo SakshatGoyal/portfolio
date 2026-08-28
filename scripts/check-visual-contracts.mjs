@@ -1,4 +1,6 @@
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir, stat } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import sharp from 'sharp';
 
 const read = (path) => readFile(new URL(path, import.meta.url), 'utf8');
 const caseStudySlugs = [
@@ -32,7 +34,10 @@ const [
   multiscriptNameStrip,
   about,
   portfolioPanel,
+  caseStudyHeader,
   memoryLaneTrail,
+  memoryLaneTrailComponent,
+  memoryLaneTrailManifest,
   galleryData,
   caseStudySources,
 ] = await Promise.all([
@@ -57,7 +62,10 @@ const [
   read('../src/components/MultiscriptNameStrip.astro'),
   read('../src/pages/about.astro'),
   read('../src/components/PortfolioPanel.astro'),
+  read('../src/components/CaseStudyHeader.astro'),
   read('../src/scripts/memory-lane-trail.js'),
+  read('../src/components/MemoryLaneTrail.astro'),
+  read('../src/data/memory-lane-trail.js'),
   read('../src/data/gallery.js'),
   Promise.all(caseStudySlugs.map((slug) => read(`../src/pages/work/${slug}.astro`))),
 ]);
@@ -67,6 +75,7 @@ const {
   shuffleAssets,
   surfaceAreaScale,
 } = await import('../src/scripts/memory-lane-trail.js');
+const { memoryLaneTrailAssets } = await import('../src/data/memory-lane-trail.js');
 
 const errors = [];
 const requireText = (source, expected, message) => {
@@ -156,6 +165,8 @@ const approvedManropeTrackingOverrides = new Set([
   '.portfolio-panel-support',
   '.portfolio-panel-navigation',
   '.portfolio-panel-socials',
+  '.case-study-header',
+  '.case-study-menu__identity',
   '.about-page-identity',
   '.about-page-lead',
   '.about-page-support',
@@ -194,7 +205,7 @@ requireText(styles, 'color: #819a9f;\n  font: 500 clamp(14.783px, calc(4.347826c
 requireText(styles, '--panel-label-color: #819a9f;\n  display: flex;', 'Unselected project links must use #819A9F.');
 requireText(styles, 'background: var(--panel-tape-color);\n  color: #fff !important;', 'Selected project links must retain white text on black tape.');
 requireText(styles, 'padding-inline-start: 0;', 'Panel project rows must align with the panel content edge without an inset.');
-requireText(styles, '.portfolio-panel-navigation a,\n.portfolio-panel-socials [role=\'link\'] { padding: 2px 4px; }', 'Panel label frames must retain fixed 2px by 4px Figma padding.');
+requireText(styles, '.portfolio-panel-navigation a,\n.portfolio-panel-contact { padding: 2px 4px; }', 'Panel label frames must retain fixed 2px by 4px Figma padding.');
 requireText(styles, '.portfolio-panel-projects {\n  --panel-label-color: #819a9f;\n  display: flex;\n  flex: none;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 8px;', 'Panel project rows must retain their fixed 8px gap.');
 requireText(styles, 'background-image: linear-gradient(#d3ff7d, #d3ff7d);', 'Panel lead must use the updated neon text-bound background highlight.');
 requireText(styles, '--panel-highlight-height: 30px;', 'The first panel highlight band must retain the Figma 30px height.');
@@ -207,7 +218,34 @@ if (styles.includes('.portfolio-panel-highlight-line::before')) {
 }
 requireText(styles, 'transition-delay: calc(var(--panel-highlight-index) * 60ms);', 'Panel highlight lines must retain their 60ms stagger.');
 requireText(portfolioPanel, 'data-tape-color="var(--panel-tape-color)"', 'Project links must use the black panel tape token independently of their resting text color.');
-requireText(styles, '@media (max-width: 900px) {\n  .site-layout { display: block; }', 'At 900px and below the panel must stack above the content.');
+requireText(styles, '@media (width < 1210px) {\n  .site-layout { display: block; }', 'Below 1210px the portfolio introduction must move above the full-width stage.');
+requireText(styles, 'width: 100%;\n    min-width: 0;\n    max-width: none;\n    min-height: 0;\n    max-height: none;\n    padding: 32px 32px 84px;', 'The compact portfolio introduction must fill the stage with 32px top and side padding and 84px bottom padding.');
+requireText(styles, 'flex-direction: row;\n    gap: 16px;\n    font: 600 clamp(1px, calc(7.195cqi - 1.3px), 32px)/1 var(--body-font);', 'The compact identity must place the name and title side by side and shrink them together only when the maximum size no longer fits.');
+requireText(styles, 'flex: none;\n    white-space: nowrap;', 'Compact identity labels must never wrap independently.');
+requireText(styles, '.portfolio-panel-socials,\n  .portfolio-panel-support {\n    font: 500 20px/27px var(--body-font);', 'Compact metadata and supporting copy must use the maximum panel typography.');
+requireText(styles, '.portfolio-panel-lead { font: 600 24px/33px var(--body-font); }', 'Compact highlighted copy must use the maximum panel typography.');
+requireText(styles, 'display: block;\n    width: 100%;\n    max-width: 100%;', 'Compact highlighted copy must use the full available line width.');
+requireText(styles, 'display: inline;\n    width: auto;\n    white-space: normal;', 'Compact highlighted copy segments must form one continuous text flow that wraps naturally.');
+requireText(portfolioPanel, "{line}{index < PANEL_LEAD_LINES.length - 1 ? ' ' : ''}", 'Panel lead source segments must retain their natural separating space when displayed inline.');
+requireText(styles, '.portfolio-panel-navigation { display: none; }', 'Project navigation must disappear below the 1210px transition.');
+requireText(layout, "import CaseStudyHeader from '../components/CaseStudyHeader.astro';", 'The shared layout must load the case-study-only compact header.');
+requireText(layout, '{isCaseSystem && <CaseStudyHeader />}', 'Only case-study routes may render the compact case-study header.');
+requireText(caseStudyHeader, 'class="case-study-header"', 'Case studies must expose the collapsed compact header.');
+requireText(caseStudyHeader, 'aria-haspopup="dialog"', 'The Menu control must identify its full-screen dialog.');
+requireText(caseStudyHeader, 'class="behance-viewer__close case-study-menu__close"', 'The expanded menu must reuse the lightbox close-button treatment.');
+requireText(caseStudyHeader, '<a class="case-study-menu__link" href="/">Home</a>', 'The expanded menu must include Home.');
+requireText(caseStudyHeader, 'PANEL_PROJECTS.map((project)', 'The expanded menu must include every portfolio project.');
+requireText(caseStudyHeader, "'is-selected': isProject(project.href)", 'The expanded menu must identify the current project.');
+if (caseStudyHeader.includes('PANEL_LEAD_LINES') || caseStudyHeader.includes('PANEL_SUPPORT') || caseStudyHeader.includes('portfolio-panel-intro')) {
+  errors.push('The case-study menu must not include the homepage biography.');
+}
+requireText(caseStudyHeader, "caseStudyMenu.addEventListener('cancel', (event) => event.preventDefault());", 'Escape must not dismiss the full-screen case-study menu.');
+requireText(styles, '.case-study-header {\n  position: sticky;\n  z-index: 40;\n  top: 0;', 'The collapsed case-study header must remain sticky.');
+requireText(styles, 'width: 100%;\n  min-height: 64px;\n  padding: 16px 32px;', 'The collapsed case-study header must retain the Figma frame height and padding.');
+requireText(styles, '.case-study-menu[open] {\n  position: fixed;', 'The expanded case-study menu must cover the viewport.');
+requireText(styles, 'padding: 32px 32px 64px;', 'The expanded case-study menu must preserve its Figma padding.');
+requireText(styles, "[data-case-system='true'] .portfolio-panel { display: none; }", 'The compact case-study system must replace the biography panel.');
+requireText(styles, "[data-case-system='true'] .case-study-header { display: flex; }", 'The case-study header must appear below the 1210px transition.');
 const identityIndex = portfolioPanel.indexOf('class="portfolio-panel-home"');
 const socialsIndex = portfolioPanel.indexOf('class="portfolio-panel-socials"');
 const introIndex = portfolioPanel.indexOf('class="portfolio-panel-intro"');
@@ -215,9 +253,16 @@ const navigationIndex = portfolioPanel.indexOf('class="portfolio-panel-navigatio
 if (!(identityIndex >= 0 && identityIndex < socialsIndex && socialsIndex < introIndex && introIndex < navigationIndex)) {
   errors.push('Portfolio panel frames must remain ordered identity, socials, introduction, navigation.');
 }
-for (const attribute of ['role="link"', 'tabindex="0"', 'aria-disabled="true"', 'data-tape-frame="true"', 'data-tape-color="var(--panel-tape-color)"', 'data-tape-duration="126"', 'data-tape-disabled="true"']) {
+for (const attribute of ['data-tape-frame="true"', 'data-tape-color="var(--panel-tape-color)"', 'data-tape-duration="126"']) {
   requireText(portfolioPanel, attribute, `Panel labels must retain ${attribute}.`);
 }
+requireText(portfolioPanel, 'data-copy-email={CONTACT_EMAIL}', 'The panel email control must copy the configured address.');
+requireText(caseStudyHeader, 'data-copy-email={CONTACT_EMAIL}', 'The compact case-study menu email control must copy the configured address.');
+requireText(portfolioPanel, 'href={LINKEDIN_URL}', 'The panel must link to LinkedIn.');
+requireText(portfolioPanel, 'href={RESUME_URL}', 'The panel must link to the resume.');
+requireText(caseStudyHeader, 'href={LINKEDIN_URL}', 'The compact case-study menu must link to LinkedIn.');
+requireText(caseStudyHeader, 'href={RESUME_URL}', 'The compact case-study menu must link to the resume.');
+requireText(portfolioPanel, '>copied to clipboard</span>', 'The email control must expose the requested copy confirmation.');
 requireText(motionSystem, 'const requestedDuration = Number(label.dataset.tapeDuration);', 'Tape labels must support per-label duration data.');
 requireText(motionSystem, "if (label.dataset.tapeColor) line.style.setProperty('--tape-color', label.dataset.tapeColor);", 'Tape labels must support per-label tape colors.');
 requireText(motionSystem, "if (label.getAttribute('aria-disabled') === 'true') label.dataset.tapeDisabled = 'true';", 'Tape labels must expose their disabled-link state.');
@@ -358,41 +403,62 @@ requireText(home, '[2, 4, 7].forEach((order) => setGeometry(order, secondColumnX
 requireText(home, 'setGeometry(6, firstColumnX, leftFourthTop, columnWidth);', 'Cisco must render after Hitachi in the left column.');
 requireText(home, 'setGeometry(7, secondColumnX, rightThirdTop, columnWidth);', 'MemoryLane must render after OneReport in the right column.');
 requireText(styles, '.home-project-memory-lane .home-project-media { aspect-ratio: 3 / 4; }', 'The MemoryLane Selected Work placeholder must use the Figma 3:4 ratio.');
-requireText(styles, ".home-project-memory-lane .home-project-placeholder {\n  height: 100%;\n  background: #e0f0ea;\n  box-shadow: 0 4px 249.1px 88px rgba(193, 220, 211, .3) inset;", 'Only the Memory Lane homepage placeholder must use the approved mint fill and inset shadow.');
+requireText(styles, ".home-project-memory-lane .home-project-placeholder {\n  height: 100%;", 'The live Memory Lane homepage trail must fill the complete 3:4 media surface.');
+requireText(home, "import MemoryLaneTrail from '../components/MemoryLaneTrail.astro';", 'The homepage must use the shared Memory Lane trail component.');
+requireText(home, '<MemoryLaneTrail', 'The homepage Memory Lane tile must render the live shared trail.');
+requireText(home, 'decorative', 'The homepage Memory Lane trail must remain decorative inside its accessible project link.');
+requireText(home, 'loading="lazy"', 'The below-fold homepage Memory Lane trail must lazy-load its twelve images.');
 requireText(styles, '.home-project-global .home-project-media { aspect-ratio: 1498 / 1124; }', 'The GDA Selected Work media must preserve the exact Figma ratio.');
 requireText(styles, '.home-project-one-report .home-project-media { aspect-ratio: 1138 / 2026; }', 'The OneReport Selected Work media must preserve the exact Figma ratio.');
 requireText(styles, '.memory-lane-hero-placeholder {', 'Memory Lane must expose its dedicated hero placeholder.');
-requireText(styles, "background: #e0f0ea;\n  box-shadow: 0 4px 249.1px 88px rgba(193, 220, 211, .3) inset;", 'The Memory Lane hero placeholder must use the approved mint fill and inset shadow.');
-requireCount(styles, 'box-shadow: 0 4px 249.1px 88px rgba(193, 220, 211, .3) inset;', 2, 'The approved inset shadow must be limited to the two Memory Lane placeholder boxes.');
-requireText(caseStudySources.at(-1), 'trailAssets.map((asset, index)', 'The Memory Lane cursor trail must render one persistent layer for every manifest asset.');
-requireCount(caseStudySources.at(-1), 'data-memory-lane-trail-visual', 1, 'The persistent Memory Lane layer template must expose one trail visual per rendered layer.');
-requireCount(caseStudySources.at(-1), "src: '/assets/memory-lane/trail/", 17, 'The Memory Lane trail manifest must contain all 17 approved folder assets.');
-for (const [filename, width, height] of [
-  ['Degrees-of-interpretive-depth.png', 2040, 4827],
-  ['bob-image-feature.png', 4356, 2448],
-  ['cready-redesign-02.png', 2569, 1445],
-  ['hbs-event.png', 1637, 1034],
-  ['luminoso-frame-06.png', 4320, 2880],
-  ['luminoso-frame-08.png', 4320, 2880],
-  ['onereport.png', 2350, 2350],
-  ['panw-ai-context-workbench.png', 9006, 5064],
-  ['panw-anchored-follow-ups-caricature.jpg', 2399, 1349],
-  ['research-synthesis-crop.jpg', 3000, 1232],
-  ['sc-01-02.png', 1599, 1599],
-  ['sc-01.png', 1599, 2955],
-  ['sc-02-03.png', 1599, 1599],
-  ['sc-03.png', 1599, 2955],
-  ['stakeholder-data-insight-comparison.png', 6621, 3724],
-  ['trebuchet-hero-prototype.jpeg', 1800, 1200],
-  ['upsell-dashboard-cover-animation.gif', 1600, 899],
-]) {
-  requireCount(caseStudySources.at(-1), filename, 1, `Memory Lane must reference ${filename} exactly once.`);
-  requireText(caseStudySources.at(-1), `width: ${width}, height: ${height}`, `Memory Lane must preserve ${filename}'s ${width}x${height} intrinsic dimensions.`);
+requireText(styles, '.memory-lane-trail-surface {', 'Both Memory Lane surfaces must inherit one shared visual treatment.');
+requireText(styles, "background: #008F98;\n  box-shadow: 0 4px 249.1px 88px rgba(0, 98, 125, .2) inset;", 'The shared Memory Lane trail surface must use the approved teal fill and inset shadow.');
+requireCount(styles, 'box-shadow: 0 4px 249.1px 88px rgba(0, 98, 125, .2) inset;', 1, 'The approved Memory Lane inset shadow must have one shared source rule.');
+requireText(caseStudySources.at(-1), 'import MemoryLaneTrail', 'The Memory Lane case-study hero must use the shared trail component.');
+requireText(caseStudySources.at(-1), 'className="memory-lane-hero-placeholder"', 'The Memory Lane case-study hero must retain its 16:9 surface class.');
+requireText(memoryLaneTrailComponent, 'memoryLaneTrailAssets.map((asset, index)', 'The shared cursor trail must render one persistent layer for every manifest asset.');
+requireCount(memoryLaneTrailComponent, 'data-memory-lane-trail-visual', 1, 'The shared persistent layer template must expose one trail visual per rendered layer.');
+requireText(memoryLaneTrailComponent, "import '../scripts/memory-lane-trail.js';", 'Both Memory Lane surfaces must initialize the same interaction runtime.');
+const expectedMemoryLaneTrailAssets = [
+  ['Degrees-of-interpretive-depth.png', 'Degrees-of-interpretive-depth.webp', 507, 1200],
+  ['IMG_0484.png', 'IMG_0484.webp', 1200, 900],
+  ['IMG_0492.png', 'IMG_0492.webp', 900, 1200],
+  ['IMG_0589.png', 'IMG_0589.webp', 900, 1200],
+  ['IMG_0652.png', 'IMG_0652.webp', 900, 1200],
+  ['bob-image-feature.png', 'bob-image-feature.webp', 1200, 674],
+  ['cready-redesign-02.png', 'cready-redesign-02.webp', 1200, 675],
+  ['hbs-event.png', 'hbs-event.webp', 1200, 758],
+  ['luminoso-frame-06.png', 'luminoso-frame-06.webp', 1200, 800],
+  ['luminoso-frame-08.png', 'luminoso-frame-08.webp', 1200, 800],
+  ['trebuchet-hero-prototype.jpeg', 'trebuchet-hero-prototype.webp', 1200, 800],
+  ['wexel-cover-image.png', 'wexel-cover-image.webp', 926, 1200],
+];
+const actualMemoryLaneTrailAssets = memoryLaneTrailAssets.map(({ source, src, width, height }) => [source, src.split('/').at(-1), width, height]);
+if (JSON.stringify(actualMemoryLaneTrailAssets) !== JSON.stringify(expectedMemoryLaneTrailAssets)) {
+  errors.push('Memory Lane trail manifest must exactly map the authoritative twelve-file source set to its 2x WebP derivatives.');
+}
+const publicMemoryLaneTrailAssets = (await readdir(new URL('../public/assets/memory-lane/trail/', import.meta.url))).sort();
+if (JSON.stringify(publicMemoryLaneTrailAssets) !== JSON.stringify(expectedMemoryLaneTrailAssets.map(([, output]) => output))) {
+  errors.push('Memory Lane public trail assets must contain exactly twelve optimized WebP derivatives with no stale copies.');
+}
+let optimizedMemoryLaneTrailBytes = 0;
+for (const [source, output, width, height] of expectedMemoryLaneTrailAssets) {
+  requireCount(memoryLaneTrailManifest, source, 1, `Memory Lane must retain ${source} as an authoritative source reference exactly once.`);
+  requireCount(memoryLaneTrailManifest, output, 1, `Memory Lane must reference ${output} exactly once.`);
+  requireText(memoryLaneTrailManifest, `width: ${width}, height: ${height}`, `Memory Lane must declare ${output}'s ${width}x${height} optimized intrinsic dimensions.`);
   try {
-    await readFile(new URL(`../public/assets/memory-lane/trail/${filename}`, import.meta.url));
+    const outputUrl = new URL(`../public/assets/memory-lane/trail/${output}`, import.meta.url);
+    const [metadata, fileStats] = await Promise.all([sharp(fileURLToPath(outputUrl)).metadata(), stat(outputUrl)]);
+    optimizedMemoryLaneTrailBytes += fileStats.size;
+    if (metadata.format !== 'webp' || metadata.width !== width || metadata.height !== height) {
+      errors.push(`Memory Lane optimized trail asset ${output} must be a ${width}x${height} WebP.`);
+    }
   } catch {
-    errors.push(`Memory Lane trail asset is missing: ${filename}.`);
+    errors.push(`Memory Lane optimized trail asset is missing: ${output}.`);
   }
+}
+if (optimizedMemoryLaneTrailBytes > 2 * 1024 * 1024) {
+  errors.push('The complete optimized Memory Lane trail must remain below 2 MiB.');
 }
 for (const [source, message] of [
   ['const TRAIL_SPAWN_INTERVAL = 1500;', 'Stationary Memory Lane trail changes must retain the approved 1500ms interval.'],
@@ -460,15 +526,15 @@ for (const scale of [1, 0.5, 0.25]) {
     errors.push(`Square height must remain between landscape and portrait heights at scale ${scale}.`);
   }
 }
-const manifestForShuffle = Array.from({ length: 17 }, (_, index) => ({ src: `asset-${index}` }));
+const manifestForShuffle = Array.from({ length: 12 }, (_, index) => ({ src: `asset-${index}` }));
 const seededRandom = (seed) => () => {
   seed = (seed * 1664525 + 1013904223) % 4294967296;
   return seed / 4294967296;
 };
 const firstCycle = shuffleAssets(manifestForShuffle, '', seededRandom(7));
 const secondCycle = shuffleAssets(manifestForShuffle, firstCycle.at(-1).src, seededRandom(13));
-if (new Set(firstCycle.map(({ src }) => src)).size !== 17 || new Set(secondCycle.map(({ src }) => src)).size !== 17) {
-  errors.push('Every Memory Lane shuffle cycle must contain all 17 assets exactly once.');
+if (new Set(firstCycle.map(({ src }) => src)).size !== 12 || new Set(secondCycle.map(({ src }) => src)).size !== 12) {
+  errors.push('Every Memory Lane shuffle cycle must contain all 12 assets exactly once.');
 }
 if (firstCycle.map(({ src }) => src).join('|') === secondCycle.map(({ src }) => src).join('|')) {
   errors.push('Successive Memory Lane shuffle cycles must not retain manifest order.');

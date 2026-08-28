@@ -2,7 +2,7 @@
 
 Onboarding Redesign, Cisco Panoptica - 2024
 
-I redesigned Panoptica’s onboarding experience, contributing to a 50% reduction in onboarding abandonment and helping more new users complete the full setup flow.
+I redesigned Panoptica’s onboarding experience, contributing to a 26% increase in completion rate.
 
 I evolved the experience from guiding users toward the next action to teaching them, through visuals, animations, concrete examples, and walkthroughs, what Panoptica could do and what they would gain from completing setup.
 
@@ -44,7 +44,7 @@ I designed a new experience for Luminoso, an AI text analytics platform that syn
 
 Sales Workbench, Palo Alto Networks - 2025
 
-As referenced in one of the case studies, I led the design of the Sales Workbench. The Sales Workbench was designed to consolidate multiple single-purpose internal tools.
+Referenced in the first case study, Defined the architecture and consolidation strategy for Sales Workbench, PANW’s platform supporting $3B+ in annual pipeline activity, turning standalone apps into atomic workflows that reduced cross-tool switching 40% and enabled decommissioning of 12 internal tools.
 
 NLP Experiences, Cisco Ready - 2019
 

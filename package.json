@@ -9,6 +9,7 @@
     "check:dividers": "node scripts/check-divider-ownership.mjs",
     "check:gallery": "node scripts/check-gallery-content.mjs",
     "check:visual-contracts": "node scripts/check-visual-contracts.mjs",
+    "build:memory-lane-trail": "node scripts/build-memory-lane-trail-assets.mjs",
     "build:media": "node scripts/build-media-variants.mjs",
     "check:media": "node scripts/check-media-contracts.mjs",
     "check:media-playback": "node scripts/check-media-playback-controller.mjs",
@@ -22,6 +23,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.10",
     "astro": "^7.2.2",
+    "sharp": "0.35.3",
     "typescript": "^5.9.2"
   }
 }

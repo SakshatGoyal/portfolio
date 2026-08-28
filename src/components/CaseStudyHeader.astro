@@ -1,0 +1,86 @@
+---
+import { PANEL_PROJECTS } from '../data/panel-navigation.js';
+import { CONTACT_EMAIL, LINKEDIN_URL, RESUME_URL } from '../data/contact-links.js';
+
+const pathname = Astro.url.pathname;
+const isProject = (href: string) => pathname === href || pathname === href.slice(0, -1);
+---
+
+<header class="case-study-header" aria-label="Case study navigation">
+  <a class="case-study-header__home" href="/">Sākshāt Goyal</a>
+  <button
+    class="case-study-header__menu"
+    type="button"
+    aria-haspopup="dialog"
+    aria-controls="case-study-menu"
+    aria-expanded="false"
+    data-case-study-menu-trigger
+  >Menu</button>
+</header>
+
+<dialog class="case-study-menu" id="case-study-menu" aria-label="Portfolio menu" data-case-study-menu>
+  <button
+    class="behance-viewer__close case-study-menu__close"
+    type="button"
+    aria-label="Close menu"
+    data-case-study-menu-close
+  >
+    <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 1L11 11M11 1L1 11" /></svg>
+  </button>
+
+  <a class="case-study-menu__identity" href="/">
+    <span>Sākshāt Goyal</span>
+    <span>Product Designer</span>
+  </a>
+
+  <div class="case-study-menu__socials" aria-label="Contact links" data-contact-links>
+    <button
+      class="case-study-menu__contact"
+      type="button"
+      aria-label={`Copy ${CONTACT_EMAIL} to clipboard`}
+      data-copy-email={CONTACT_EMAIL}
+    >Email</button>
+    <a class="case-study-menu__contact" href={LINKEDIN_URL} target="_blank" rel="noreferrer">LinkedIn</a>
+    <a class="case-study-menu__contact" href={RESUME_URL} target="_blank" rel="noreferrer">Resume</a>
+    <span class="contact-copy-tooltip" role="status" data-copy-tooltip hidden>copied to clipboard</span>
+  </div>
+
+  <nav class="case-study-menu__navigation" aria-label="Portfolio">
+    <a class="case-study-menu__link" href="/">Home</a>
+    {PANEL_PROJECTS.map((project) => (
+      <a
+        class:list={['case-study-menu__link', { 'is-selected': isProject(project.href) }]}
+        href={project.href}
+        aria-current={isProject(project.href) ? 'page' : undefined}
+      >{project.label}</a>
+    ))}
+  </nav>
+</dialog>
+
+<script is:inline>
+  const caseStudyMenu = document.querySelector('[data-case-study-menu]');
+  const caseStudyMenuTrigger = document.querySelector('[data-case-study-menu-trigger]');
+  const caseStudyMenuClose = caseStudyMenu?.querySelector('[data-case-study-menu-close]');
+
+  if (caseStudyMenu instanceof HTMLDialogElement && caseStudyMenuTrigger instanceof HTMLButtonElement) {
+    const openCaseStudyMenu = () => {
+      caseStudyMenu.showModal();
+      document.body.classList.add('case-study-menu-open');
+      caseStudyMenuTrigger.setAttribute('aria-expanded', 'true');
+      if (caseStudyMenuClose instanceof HTMLButtonElement) caseStudyMenuClose.focus();
+    };
+
+    const closeCaseStudyMenu = () => {
+      if (caseStudyMenu.open) caseStudyMenu.close();
+    };
+
+    caseStudyMenuTrigger.addEventListener('click', openCaseStudyMenu);
+    caseStudyMenuClose?.addEventListener('click', closeCaseStudyMenu);
+    caseStudyMenu.addEventListener('cancel', (event) => event.preventDefault());
+    caseStudyMenu.addEventListener('close', () => {
+      document.body.classList.remove('case-study-menu-open');
+      caseStudyMenuTrigger.setAttribute('aria-expanded', 'false');
+      caseStudyMenuTrigger.focus();
+    });
+  }
+</script>
