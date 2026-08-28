@@ -10,65 +10,19 @@ const links = [
 ---
 
 <header class="site-header" data-site-header>
-  <div class="site-header-capsule" data-site-header-capsule>
-    <div class="site-header-area">
-      <div class="site-header-row">
-        <div class="site-header-brand">
-          <a class="site-header-name" href="/" aria-label="Sākshāt Goyal, Product Designer — Home">
-            <span class="site-header-person">Sākshāt Goyal</span>
-            <span class="site-header-role">Product Designer</span>
-          </a>
-        </div>
-        <nav aria-label="Primary navigation">
-          <ul class="site-header-nav-list">
-            {links.map((link) => (
-              <li>
-                <a
-                  class:list={['site-header-link', { active: link.active }]}
-                  href={link.href}
-                  data-home-section-link={isHome ? link.section : undefined}
-                  aria-current={link.active ? 'location' : undefined}
-                >{link.label}</a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
+  <nav aria-label="Primary navigation">
+    <ul class="site-header-nav-list">
+      {links.map((link) => (
+        <li>
+          <a
+            class:list={['site-header-link', 'header-tape-label', { active: link.active }]}
+            href={link.href}
+            data-tape-label
+            data-home-section-link={isHome ? link.section : undefined}
+            aria-current={link.active ? 'location' : undefined}
+          >{link.label}</a>
+        </li>
+      ))}
+    </ul>
+  </nav>
 </header>
-
-<script is:inline>
-  (() => {
-    window.__siteHeaderCleanup?.();
-
-    const header = document.querySelector('[data-site-header]');
-    if (!(header instanceof HTMLElement)) return;
-
-    const controller = new AbortController();
-    let frame = 0;
-    let disposed = false;
-
-    const syncHeader = () => {
-      frame = 0;
-      if (disposed) return;
-      header.classList.toggle('site-header-minimized', window.scrollY > window.innerHeight * 0.5);
-    };
-    const queueHeaderSync = () => {
-      if (frame || disposed) return;
-      frame = requestAnimationFrame(syncHeader);
-    };
-    const dispose = () => {
-      if (disposed) return;
-      disposed = true;
-      controller.abort();
-      if (frame) cancelAnimationFrame(frame);
-      if (window.__siteHeaderCleanup === dispose) delete window.__siteHeaderCleanup;
-    };
-
-    window.__siteHeaderCleanup = dispose;
-    window.addEventListener('scroll', queueHeaderSync, { passive: true, signal: controller.signal });
-    window.addEventListener('resize', queueHeaderSync, { passive: true, signal: controller.signal });
-    syncHeader();
-  })();
-</script>

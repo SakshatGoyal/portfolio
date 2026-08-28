@@ -38,14 +38,20 @@ if (!homePage.includes('title: HBS_AI_INSTITUTE_TITLE')) {
 if (!casePages[1].includes('headline={HBS_AI_INSTITUTE_TITLE}')) {
   errors.push('The HBS case study must use the canonical HBS title.');
 }
-if (homePage.includes('data-tape-label') || homePage.includes('home-tape-label')) {
-  errors.push('Selected Work project content must not restore tape markup.');
+if (!homePage.includes('class="home-project-view" data-tape-label>View Project</span>')) {
+  errors.push('Every Selected Work tile must expose the shared View Project tape label.');
 }
-if (!homePage.includes('I lead design where problems are undefined, but commitments aren\'t')) {
-  errors.push('The homepage lead sentence must retain the approved copy.');
+if (!homePage.includes("const heroLeadLines = ['I lead design where problems are', \"undefined, but commitments aren't.\"]")) {
+  errors.push('The homepage lead sentence must retain its approved copy and forced break before “undefined.”');
 }
-if (!homePage.includes('class="home-bio-sentence home-bio-sentence--support">{heroSupport}</p>')) {
-  errors.push('The supporting bio sentence must remain unsplit and static.');
+if (!homePage.includes("const heroSupport = 'Over the last decade, I’ve led research and product efforts")) {
+  errors.push('The homepage supporting statement must retain the approved decade copy.');
+}
+if (!homePage.includes('class="home-bio-sentence home-bio-sentence--support" data-home-support>{heroSupport}</p>')) {
+  errors.push('The supporting bio sentence must remain a measurable static text block.');
+}
+if (homePage.includes('MultiscriptNameStrip')) {
+  errors.push('The multilingual name strip must not render on the alternate homepage.');
 }
 
 const expectedProjectOrder = [

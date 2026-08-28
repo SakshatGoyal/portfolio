@@ -207,7 +207,6 @@ const initBodyReveals = (reduceMotion) => {
   };
 
   document.querySelectorAll([
-    '.home-bio',
     '.gallery-project-info',
     '.case-intro',
     '.case-meta',
@@ -378,6 +377,13 @@ const initTapeLabels = () => {
   // Fixed nearest-ms Carbon Expressive Move values from the 1536px layout.
   const tapeMotionDurations = new Map([
     ['Team', 126],
+    ['View Project', 126],
+    ['Selected Work', 126],
+    ['Gallery', 126],
+    ['About', 126],
+    ['Resume', 126],
+    ['LinkedIn', 126],
+    ['Email', 126],
   ]);
   const labels = [...document.querySelectorAll('[data-tape-label]')];
   if (!labels.length) return;

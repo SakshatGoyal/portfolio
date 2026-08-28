@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import GalleryProject from '../components/GalleryProject.astro';
-import MultiscriptNameStrip from '../components/MultiscriptNameStrip.astro';
 import PageHeading from '../components/PageHeading.astro';
 import ResponsiveVideo from '../components/ResponsiveVideo.astro';
 import { GLOBAL_DATA_ANALYTICS_TITLE, HBS_AI_INSTITUTE_TITLE } from '../data/project-titles.js';
@@ -9,8 +8,9 @@ import { parseGalleryNotes } from '../data/gallery.js';
 import galleryNotes from '../content/gallery-notes.md?raw';
 
 const galleryProjects = parseGalleryNotes(galleryNotes);
-const heroLead = "I lead design where problems are undefined, but commitments aren't.";
-const heroSupport = 'Over the last 8 years, I’ve worked with teams at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, and Cisco.';
+const heroLeadLines = ['I lead design where problems are', "undefined, but commitments aren't."];
+const heroLead = heroLeadLines.join(' ');
+const heroSupport = 'Over the last decade, I’ve led research and product efforts at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, Cisco, and more.';
 
 const projects = [
   {
@@ -87,20 +87,95 @@ const projects = [
   description="Systems-oriented product designer working on ambiguous, organizationally complicated problems with imperfect data."
 >
   <section class="home-hero" id="about">
-    <div class="home-bio">
-      <p class="home-bio-sentence home-bio-sentence--lead home-bio-sentence--animated">
-        <span class="sr-only">{heroLead}</span>
-        <span class="home-bio-words" aria-hidden="true">
-          {heroLead.split(' ').map((word, index) => (
-            <span class="home-bio-word" style={`--hero-word-index: ${index}`}>{word}</span>
-          ))}
-        </span>
-      </p>
-      <p class="home-bio-sentence home-bio-sentence--support">{heroSupport}</p>
+    <div class="home-hero-band" aria-hidden="true"></div>
+    <div class="home-hero-stage">
+      <div class="home-contact-links" aria-label="Contact links">
+        {['Resume', 'LinkedIn', 'Email'].map((label) => (
+          <span class="home-contact-link" role="link" tabindex="0" aria-disabled="true" data-tape-label>{label}</span>
+        ))}
+      </div>
+      <div class="home-identity">
+        <h1>
+          <span>Sākshāt Goyal</span>
+          <span data-home-identity-fit>Product Designer</span>
+        </h1>
+      </div>
+      <div class="home-bio" data-home-bio>
+        <p class="home-bio-sentence home-bio-sentence--lead home-bio-sentence--animated">
+          <span class="sr-only">{heroLead}</span>
+          <span class="home-bio-words" aria-hidden="true">
+            {heroLeadLines.map((line, lineIndex) => {
+              const priorWords = heroLeadLines.slice(0, lineIndex).join(' ').split(' ').filter(Boolean).length;
+              return (
+                <span class="home-bio-line" data-home-bio-fit={lineIndex === 1 ? 'true' : undefined}>
+                  {line.split(' ').map((word, wordIndex) => (
+                    <span class="home-bio-word" style={`--hero-word-index: ${priorWords + wordIndex}`}>{word}</span>
+                  ))}
+                </span>
+              );
+            })}
+          </span>
+        </p>
+        <p class="home-bio-sentence home-bio-sentence--support" data-home-support>{heroSupport}</p>
+      </div>
     </div>
   </section>
 
-  <MultiscriptNameStrip />
+  <script is:inline>
+    const homeHeroStage = document.querySelector('.home-hero-stage');
+    const homeIdentity = document.querySelector('.home-identity h1');
+    const homeIdentityFitLine = document.querySelector('[data-home-identity-fit]');
+    const homeBio = document.querySelector('[data-home-bio]');
+    const homeBioFitLine = document.querySelector('[data-home-bio-fit]');
+    if (homeHeroStage && homeIdentity && homeIdentityFitLine && homeBio && homeBioFitLine) {
+      const renderedTextWidth = (element) => {
+        const range = document.createRange();
+        range.selectNodeContents(element);
+        return range.getBoundingClientRect().width;
+      };
+      const fitTextToWidth = (owner, line, targetWidth, property) => {
+        const currentSize = Number.parseFloat(getComputedStyle(owner).fontSize);
+        const currentWidth = renderedTextWidth(line);
+        if (!currentSize || !currentWidth || !targetWidth) return;
+        owner.style.setProperty(property, `${currentSize * (targetWidth / currentWidth)}px`);
+      };
+      let fitFrame = 0;
+      const fitHomeTypography = () => {
+        fitFrame = 0;
+        for (let pass = 0; pass < 2; pass += 1) {
+          fitTextToWidth(
+            homeIdentity,
+            homeIdentityFitLine,
+            homeIdentity.parentElement.getBoundingClientRect().width,
+            '--home-identity-font-size',
+          );
+          fitTextToWidth(
+            homeBio,
+            homeBioFitLine,
+            homeBio.getBoundingClientRect().width,
+            '--home-bio-font-size',
+          );
+        }
+        const leadLineWidths = [...homeBio.querySelectorAll('.home-bio-line')]
+          .map((line) => renderedTextWidth(line));
+        const visibleLeadWidth = Math.max(...leadLineWidths, 0);
+        if (visibleLeadWidth) {
+          const boundedLeadWidth = Math.floor(visibleLeadWidth * 1000) / 1000;
+          homeBio.style.setProperty('--home-bio-measure', `${boundedLeadWidth}px`);
+        }
+        const bioLineHeight = Number.parseFloat(getComputedStyle(homeBio).lineHeight);
+        if (bioLineHeight) homeHeroStage.style.setProperty('--home-bio-half-line', `${bioLineHeight / 2}px`);
+      };
+      const queueHomeTypographyFit = () => {
+        if (fitFrame) return;
+        fitFrame = requestAnimationFrame(fitHomeTypography);
+      };
+      document.fonts?.ready.then(queueHomeTypographyFit);
+      new ResizeObserver(queueHomeTypographyFit).observe(homeHeroStage);
+      window.addEventListener('resize', queueHomeTypographyFit, { passive: true });
+      fitHomeTypography();
+    }
+  </script>
 
   <section class="home-work" id="work">
     <PageHeading title="Selected Work" level="h2" />
@@ -114,9 +189,11 @@ const projects = [
                 <h3>{project.title}</h3>
               </div>
               <div class="home-project-meta">
-                <span class="home-project-client">{project.company}</span>
-                <span class="home-project-meta-separator" aria-hidden="true">・</span>
-                <time class="home-project-year">{project.year}</time>
+                <div class="home-project-meta-primary">
+                  <span class="home-project-client">{project.company}</span>
+                  <time class="home-project-year">{project.year}</time>
+                </div>
+                <span class="home-project-view" data-tape-label>View Project</span>
               </div>
               {project.video ? (
                 <div class="home-project-media" data-media-reveal>
