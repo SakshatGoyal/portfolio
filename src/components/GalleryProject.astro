@@ -17,6 +17,7 @@ interface Artifact {
   height: number;
   role: 'lead' | 'support';
   caption: string;
+  viewportFit?: boolean;
 }
 
 interface Project {
@@ -32,11 +33,18 @@ interface Project {
 
 interface Props {
   project: Project;
+  infoFirst?: boolean;
+  projectNumber?: number;
 }
 
-const { project } = Astro.props;
+const { project, infoFirst = false, projectNumber } = Astro.props;
 const [summary, ...notes] = project.paragraphs;
 const [lead, ...supports] = project.media;
+const infoPlacement = infoFirst ? { ...project.layout.info, row: 1 } : project.layout.info;
+const leadPlacement = infoFirst
+  ? { ...project.layout.artifacts[lead.id], row: 2 }
+  : project.layout.artifacts[lead.id];
+const formattedProjectNumber = projectNumber == null ? '' : String(projectNumber).padStart(2, '0');
 const placementStyle = ({ column, span, row, rowSpan = 1 }: Placement) => [
   `--gallery-column: ${column}`,
   `--gallery-span: ${span}`,
@@ -47,24 +55,21 @@ const placementStyle = ({ column, span, row, rowSpan = 1 }: Placement) => [
 ].join('; ');
 ---
 
-<article class="gallery-project" data-gallery-project>
-  <GalleryArtifact
-    {...lead}
-    label={project.title}
-    placement={project.layout.artifacts[lead.id]}
-  />
-
+<article class:list={['gallery-project', { 'gallery-project--info-first': infoFirst }]} data-gallery-project>
   <div
     class="gallery-project-info"
     data-gallery-info
-    data-gallery-column={project.layout.info.column}
-    data-gallery-span={project.layout.info.span}
-    data-gallery-row={project.layout.info.row}
-    data-gallery-row-span={project.layout.info.rowSpan ?? 1}
-    style={placementStyle(project.layout.info)}
+    data-gallery-column={infoPlacement.column}
+    data-gallery-span={infoPlacement.span}
+    data-gallery-row={infoPlacement.row}
+    data-gallery-row-span={infoPlacement.rowSpan ?? 1}
+    style={placementStyle(infoPlacement)}
   >
     <div class="gallery-project-heading">
-      <h2>{project.title}</h2>
+      <h2>
+        {project.title}
+        {formattedProjectNumber && <span class="gallery-project-number"> — {formattedProjectNumber}</span>}
+      </h2>
       <time>{project.year}</time>
     </div>
     <div class="gallery-project-copy">
@@ -76,6 +81,12 @@ const placementStyle = ({ column, span, row, rowSpan = 1 }: Placement) => [
       )}
     </div>
   </div>
+
+  <GalleryArtifact
+    {...lead}
+    label={project.title}
+    placement={leadPlacement}
+  />
 
   {supports.map((artifact) => (
     <GalleryArtifact

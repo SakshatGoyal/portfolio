@@ -11,6 +11,7 @@ interface Props {
   role: 'lead' | 'support';
   caption: string;
   label: string;
+  viewportFit?: boolean;
   placement: {
     column: number;
     span: number;
@@ -19,7 +20,7 @@ interface Props {
   };
 }
 
-const { id, type, src, poster, width, height, role, caption, label, placement } = Astro.props;
+const { id, type, src, poster, width, height, role, caption, label, viewportFit = true, placement } = Astro.props;
 const { column, span, row, rowSpan = 1 } = placement;
 const insetStart = column === 1 ? '0px' : 'var(--gallery-composition-inset)';
 const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)';
@@ -44,8 +45,9 @@ const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)'
           class="gallery-artifact-surface playable-media-surface"
           data-playable-media
           data-asset-surface
-          data-viewport-media-frame
-          data-viewport-media-inset="140"
+          data-viewport-media-frame={viewportFit ? '' : undefined}
+          data-viewport-media-inset={viewportFit ? '140' : undefined}
+          data-container-media-frame={!viewportFit ? '' : undefined}
         >
           <ResponsiveVideo
             src={src}
@@ -62,8 +64,9 @@ const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)'
           class="gallery-artifact-surface"
           type="button"
           data-asset-surface
-          data-viewport-media-frame
-          data-viewport-media-inset="140"
+          data-viewport-media-frame={viewportFit ? '' : undefined}
+          data-viewport-media-inset={viewportFit ? '140' : undefined}
+          data-container-media-frame={!viewportFit ? '' : undefined}
           data-behance-image
           data-behance-title={label}
           aria-label={`View ${caption}`}

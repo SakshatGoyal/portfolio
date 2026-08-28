@@ -32,6 +32,8 @@ const [
   multiscriptNameStrip,
   about,
   portfolioPanel,
+  memoryLaneTrail,
+  galleryData,
   caseStudySources,
 ] = await Promise.all([
   read('../src/styles/global.css'),
@@ -55,6 +57,8 @@ const [
   read('../src/components/MultiscriptNameStrip.astro'),
   read('../src/pages/about.astro'),
   read('../src/components/PortfolioPanel.astro'),
+  read('../src/scripts/memory-lane-trail.js'),
+  read('../src/data/gallery.js'),
   Promise.all(caseStudySlugs.map((slug) => read(`../src/pages/work/${slug}.astro`))),
 ]);
 
@@ -89,7 +93,7 @@ requireText(styles, '--prose-measure: 70%;', 'The shared desktop prose measure m
 requireText(styles, '--text-primary: #000;', 'Editorial primary text must remain pure black.');
 requireText(styles, '--text-secondary: #416870;', 'Editorial secondary text must remain #416870.');
 requireText(styles, '--text-tertiary: #5f787d;', 'Editorial tertiary text must remain the accessible #5F787D.');
-requireText(styles, '[data-theme=\'panw\'] { --accent: #2f6759; --case-tint: #d9e8e3; --panw-card-surface: #fff; }', 'PANW takeaway and metric cards must use a pure-white surface.');
+requireText(styles, '[data-theme=\'panw\'] { --accent: #2f6759; --case-tint: #d9e8e3; --panw-card-surface: #f5f5f5; }', 'PANW takeaway and metric cards must use the requested #F5F5F5 surface.');
 requireText(styles, '--ink: var(--text-primary);', 'The legacy ink token must alias the canonical primary token.');
 requireText(styles, '--muted: var(--text-secondary);', 'The legacy muted token must alias the canonical secondary token.');
 requireText(styles, '--faint: var(--text-tertiary);', 'The legacy faint token must alias the canonical tertiary token.');
@@ -110,7 +114,28 @@ requireCount(styles, "font-family: 'Manrope Script Fallback';", 3, 'The strip mu
 requireText(styles, 'notosansdevanagari', 'The strip must retain the Noto Sans Devanagari fallback used by Figma.');
 requireText(styles, 'notosansgujarati', 'The strip must retain the Noto Sans Gujarati fallback used by Figma.');
 requireText(styles, 'notosanstamil', 'The strip must retain the Noto Sans Tamil fallback used by Figma.');
-requireText(styles, ".home-work > .page-heading > h2,\n.home-gallery > .page-heading > h2 {\n  font-family: var(--body-font);\n  font-size: 32px;\n  font-weight: 500;\n}", 'Selected Work and Gallery headings must use 32px medium Manrope.');
+requireText(styles, ".home-work > .page-heading > h2,\n.home-gallery > .page-heading > h2 {\n  font-family: var(--body-font);\n  font-size: 32px;\n  font-weight: 500;\n}", 'Selected Work and shared Gallery headings must use 32px medium Manrope.');
+requireText(styles, ".page-heading > :is(h1, h2) {\n  grid-column: 1 / -1;\n  color: var(--home-ink);\n  font: 400 36px/1.1 'Cabinet Grotesk', Arial, sans-serif;\n  letter-spacing: -.02em;", 'All page headings must use minus-two-percent tracking.');
+requireText(styles, "--cs-page-gutter: 32px;\n  --cs-inline: 0px;\n  --cs-media-block-padding: 12px;\n  --cs-media-inset: var(--cs-media-block-padding);", 'All seven case-study routes must separate the 32px page gutter from the 12px media-block padding.');
+requireText(styles, '--cs-heading-bottom-gap: 24px;', 'Every case-study heading must retain the shared 24px gap before its hero.');
+requireText(styles, 'padding: var(--cs-section-end) var(--cs-inline) var(--cs-heading-bottom-gap);', 'The shared case-study heading rule must own the 24px hero separation.');
+if (/\[data-case-system='true'\] \.case-hero\s*\{[^}]*padding[^;]*\s0\s*;/s.test(styles)) {
+  errors.push('A shared case-study heading rule must never restore zero bottom padding.');
+}
+if (styles.includes("[data-theme='memory-lane'][data-case-system='true'] .case-hero")) {
+  errors.push('The case-study heading gap must remain shared across all seven routes, not route-specific.');
+}
+requireText(styles, "[data-case-system='true'] .site-content {\n  min-width: 0;\n  padding-inline: var(--cs-page-gutter);\n}", 'The complete right-hand case-study region must own the 32px page gutter without affecting the portfolio panel.');
+requireText(styles, ".memory-lane-project-list .gallery-artifact {\n  padding: var(--cs-media-block-padding);\n}", 'Every Memory Lane image-or-video and caption block must use the shared 12px padding.');
+requireText(styles, "[data-case-system='true'] .takeaway-grid {\n  grid-template-columns: 1fr;\n  gap: 24px;\n  padding: var(--cs-media-block-padding);", 'Every takeaway group must retain 12px outer padding at every breakpoint.');
+requireText(styles, "[data-case-system='true'] .metric-grid {\n  grid-template-columns: 1fr;\n  gap: 24px;\n  margin-top: 0;\n  padding: var(--cs-media-block-padding);", 'Every metric group must retain 12px outer padding at every breakpoint.');
+requireText(styles, "[data-case-system='true'] .takeaway-card {\n  display: flex;\n  width: 100%;\n  max-width: 100%;\n  min-width: 0;\n  aspect-ratio: 4 / 3;\n  height: auto;", 'Takeaway cards must remain constrained to their grid track, keep 4:3 as a preferred ratio, and allow their height to grow with content.');
+requireText(styles, "height: auto;\n  min-width: 0;\n  min-height: min-content;", 'Takeaway content must contribute its intrinsic height instead of being locked to the ratio box.');
+requireText(styles, "display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: space-between;\n  width: 100%;\n  max-width: 100%;\n  min-width: 0;\n  aspect-ratio: 4 / 3;\n  height: auto;", 'Metric cards must remain constrained to their grid track, keep 4:3 as a preferred ratio, and allow their label and value to determine a taller height.');
+requireText(styles, "[data-case-system='true'] .metric strong {\n  position: static;", 'Metric values must remain in normal flow so they cannot escape the card surface.');
+if (home.includes('home-gallery') || home.includes('id="gallery"') || home.includes('GalleryProject') || home.includes('parseGalleryNotes')) {
+  errors.push('The homepage must not render or load the retired Gallery section.');
+}
 requireText(styles, "--body-font: 'Manrope', Arial, sans-serif;", 'The shared body-family token must remain Manrope.');
 requireText(styles, '--body-tracking: -.02em;', 'Every Manrope role must retain minus-two-percent tracking.');
 if (styles.includes('Fustat')) errors.push('Fustat must not remain in the active site stylesheet.');
@@ -124,7 +149,7 @@ const approvedManropeTrackingOverrides = new Set([
   '.portfolio-panel-lead',
   '.portfolio-panel-support',
   '.portfolio-panel-navigation',
-  '.portfolio-panel-footer',
+  '.portfolio-panel-socials',
   '.about-page-identity',
   '.about-page-lead',
   '.about-page-support',
@@ -146,24 +171,44 @@ requireText(styles, '.project-card.square img { object-fit: contain; transform: 
 requireText(styles, 'body :is(p, li, h1, h2, h3, h4, h5, h6, figcaption, blockquote) { text-wrap: pretty; }', 'Every site-wide editorial text block must opt into pretty wrapping.');
 requireText(styles, '.line-mask-final-pair { white-space: nowrap; }', 'Animated headings must keep their final two words on the same line.');
 requireText(portfolioPanel, '<aside class="portfolio-panel" aria-label="Portfolio introduction and navigation">', 'The shared shell must include the Figma portfolio panel.');
+requireText(portfolioPanel, '<a class="portfolio-panel-home" href="/" aria-label="Go to homepage">', 'The shared panel identity must link back to the homepage.');
 requireText(layout, '<PortfolioPanel />', 'The portfolio panel must render on every site route.');
 requireText(layout, '<div class="site-content">', 'Page content must share the right content column.');
-requireText(styles, 'grid-template-columns: 25vw minmax(0, 75vw);', 'Desktop must use the reversed 25/75 panel and content split.');
+requireText(styles, 'grid-template-columns: 460px minmax(0, 1fr);', 'Desktop must keep the portfolio panel at the fixed 460px Figma width.');
 requireText(styles, 'position: sticky;\n  top: 0;', 'The desktop portfolio panel must remain pinned while the right column scrolls.');
-requireText(styles, '--panel-scale: min(0.054348vw, 1.3px);', 'Desktop panel measurements must scale from the 460px Figma reference and cap at 1.3.');
-requireText(styles, '--panel-label-color: #000;', 'Every portfolio-panel navigation and footer label must rest in black and use black tape.');
-requireText(styles, 'padding: calc(32 * var(--panel-scale));', 'The portfolio panel must preserve the scaled 32px Figma inset.');
-requireText(styles, 'font: 600 calc(32 * var(--panel-scale))/1 var(--body-font);\n  letter-spacing: -.04em;', 'Panel identity must preserve the Figma 32px semibold, 100% leading, and minus-four-percent tracking.');
-requireText(styles, 'font: 600 calc(24 * var(--panel-scale))/calc(33 * var(--panel-scale)) var(--body-font);\n  letter-spacing: -.03em;', 'Panel lead must preserve the Figma 24/33 semibold typography.');
-requireText(styles, 'color: #819a9f;\n  font: 500 calc(20 * var(--panel-scale))/calc(27 * var(--panel-scale)) var(--body-font);\n  letter-spacing: -.03em;', 'Panel supporting copy must preserve the Figma color and 20/27 typography.');
-requireText(styles, 'padding-inline-start: calc(32 * var(--panel-scale));', 'Panel project rows must retain their 32px inset.');
-requireText(styles, 'gap: calc(2 * var(--panel-scale));', 'Panel project rows must retain their 2px gap.');
-requireText(styles, 'background: #beff3f;', 'Panel lead highlights must use the Figma neon green.');
-requireText(styles, 'transition: clip-path 126ms var(--expressive-ease-in-out);', 'Panel highlights must use the 126ms tape wipe.');
+requireText(styles, '--panel-label-color: #000;\n  --panel-tape-color: #000;', 'The portfolio panel must separate resting label color from its persistent black tape color.');
+requireText(styles, 'width: 460px;\n  min-width: 460px;\n  max-width: 460px;', 'The portfolio panel width must remain fixed at 460px at every viewport width.');
+if (styles.includes('--panel-scale')) errors.push('Portfolio panel measurements must not scale with viewport width.');
+requireText(styles, 'padding: 32px 32px 64px;', 'The portfolio panel must preserve the fixed Figma outer padding.');
+requireText(styles, 'gap: 8px;\n  padding: 0 0 16px 2px;\n  font: 600 32px/32px var(--body-font);\n  letter-spacing: -.04em;', 'Panel identity must preserve its fixed Figma frame and typography.');
+requireText(styles, '.portfolio-panel-socials {\n  --panel-label-color: #819a9f;', 'The Figma social frame must use the muted resting label color.');
+requireText(styles, 'padding-bottom: 32px;\n  color: var(--panel-label-color);\n  font: 500 20px/27px var(--body-font);', 'Social labels must retain their fixed Figma spacing and typography.');
+requireText(styles, 'font: 600 24px/33px var(--body-font);\n  letter-spacing: -.03em;', 'Panel lead must preserve its fixed Figma 24/33 semibold typography.');
+requireText(styles, 'color: #819a9f;\n  font: 500 20px/27px var(--body-font);\n  letter-spacing: -.03em;', 'Panel supporting copy must preserve the Figma color and fixed 20/27 typography.');
+requireText(styles, '--panel-label-color: #819a9f;\n  display: flex;', 'Unselected project links must use #819A9F.');
+requireText(styles, 'background: var(--panel-tape-color);\n  color: #fff !important;', 'Selected project links must retain white text on black tape.');
+requireText(styles, 'padding-inline-start: 0;', 'Panel project rows must align with the panel content edge without an inset.');
+requireText(styles, '.portfolio-panel-navigation a,\n.portfolio-panel-socials [role=\'link\'] { padding: 2px 4px; }', 'Panel label frames must retain fixed 2px by 4px Figma padding.');
+requireText(styles, '.portfolio-panel-projects {\n  --panel-label-color: #819a9f;\n  display: flex;\n  flex: none;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 8px;', 'Panel project rows must retain their fixed 8px gap.');
+requireText(styles, 'background-image: linear-gradient(#d3ff7d, #d3ff7d);', 'Panel lead must use the updated neon text-bound background highlight.');
+requireText(styles, '--panel-highlight-height: 30px;', 'The first panel highlight band must retain the Figma 30px height.');
+requireText(styles, '.portfolio-panel-highlight-line:nth-child(2) { --panel-highlight-height: 28px; }', 'The second panel highlight band must retain the Figma 28px height.');
+requireText(styles, 'box-decoration-break: clone;', 'Panel highlight geometry must derive from the text line box.');
+requireText(styles, 'transition: background-size 126ms var(--expressive-ease-in-out);', 'Panel highlights must preserve the 126ms wipe.');
+if (styles.includes('.portfolio-panel-highlight-line::before')) {
+  errors.push('Panel highlights must not return to fixed pseudo-element shapes.');
+}
 requireText(styles, 'transition-delay: calc(var(--panel-highlight-index) * 60ms);', 'Panel highlight lines must retain their 60ms stagger.');
+requireText(portfolioPanel, 'data-tape-color="var(--panel-tape-color)"', 'Project links must use the black panel tape token independently of their resting text color.');
 requireText(styles, '@media (max-width: 900px) {\n  .site-layout { display: block; }', 'At 900px and below the panel must stack above the content.');
-requireText(styles, '--panel-scale: min(0.217391vw, 1.3px);', 'The stacked panel must scale from its full viewport width.');
-for (const attribute of ['role="link"', 'tabindex="0"', 'aria-disabled="true"', 'data-tape-frame="true"', 'data-tape-color="var(--panel-label-color)"', 'data-tape-duration="126"', 'data-tape-disabled="true"']) {
+const identityIndex = portfolioPanel.indexOf('class="portfolio-panel-home"');
+const socialsIndex = portfolioPanel.indexOf('class="portfolio-panel-socials"');
+const introIndex = portfolioPanel.indexOf('class="portfolio-panel-intro"');
+const navigationIndex = portfolioPanel.indexOf('class="portfolio-panel-navigation"');
+if (!(identityIndex >= 0 && identityIndex < socialsIndex && socialsIndex < introIndex && introIndex < navigationIndex)) {
+  errors.push('Portfolio panel frames must remain ordered identity, socials, introduction, navigation.');
+}
+for (const attribute of ['role="link"', 'tabindex="0"', 'aria-disabled="true"', 'data-tape-frame="true"', 'data-tape-color="var(--panel-tape-color)"', 'data-tape-duration="126"', 'data-tape-disabled="true"']) {
   requireText(portfolioPanel, attribute, `Panel labels must retain ${attribute}.`);
 }
 requireText(motionSystem, 'const requestedDuration = Number(label.dataset.tapeDuration);', 'Tape labels must support per-label duration data.');
@@ -171,7 +216,7 @@ requireText(motionSystem, "if (label.dataset.tapeColor) line.style.setProperty('
 requireText(motionSystem, "if (label.getAttribute('aria-disabled') === 'true') label.dataset.tapeDisabled = 'true';", 'Tape labels must expose their disabled-link state.');
 requireText(styles, '[data-tape-label]:focus-visible .home-tape-line > i,', 'Project and panel labels must expose their tape state to keyboard focus.');
 requireText(styles, '[data-tape-label]:hover .home-tape-line > i,', 'Project and panel labels must expose their tape state to fine-pointer hover.');
-requireText(styles, '.js .portfolio-panel-highlight-line::before { clip-path: inset(0) !important; transition: none !important; }', 'Reduced motion must show the completed highlight without animation.');
+requireText(styles, '.js .portfolio-panel-highlight-line { background-size: 100% var(--panel-highlight-height) !important; transition: none !important; }', 'Reduced motion must show the completed text highlight without animation.');
 requireText(about, 'class="about-page"', 'The About route must render its minimal biography page.');
 requireText(motionSystem, "const frameAligned = label.dataset.tapeFrame === 'true';", 'Panel tape must derive its geometry from the full padded item frame.');
 requireText(motionSystem, 'const framePaddingY = frameAligned', 'Panel tape must include both vertical frame paddings.');
@@ -191,11 +236,15 @@ for (const [, selector, body] of styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
   }
 }
 requireText(styles, '.home-project-scroller { overflow: visible; }', 'The project scroller must remain inert outside narrow screens.');
-requireText(styles, 'min-width: 420px;\n  padding-bottom: 160px;\n  background: transparent;', 'Selected Work must retain 160px of clearance below the final Cisco tile.');
-requireText(home, 'const trailingSpace = Number.parseFloat(getComputedStyle(projectGrid).paddingBottom) || 0;', 'The masonry height must read the requested Selected Work trailing space.');
-requireText(home, ') + trailingSpace);', 'The masonry height must preserve the requested trailing space outside its positioned tiles.');
+requireText(styles, 'min-width: 420px;\n  padding: 32px;\n  background: transparent;', 'Selected Work must use the Figma 32px outer frame padding.');
+requireText(home, 'const paddingBottom = Number.parseFloat(gridStyles.paddingBottom) || 0;', 'The masonry height must include the Figma bottom frame padding.');
 requireText(styles, '@media (max-width: 451px) {\n  .home-project-scroller { overflow-x: auto; overflow-y: hidden; }\n}', 'Only the narrow project wrapper may scroll horizontally, with vertical overflow disabled.');
 requireCount(home, 'class="home-project-scroller"', 1, 'Selected Work must have exactly one isolated project scroller.');
+if (home.includes('<PageHeading title="Selected Work"') || home.includes("import PageHeading from '../components/PageHeading.astro'")) {
+  errors.push('The homepage must not render or import the removed Selected Work heading.');
+}
+requireText(home, '<h3>{project.name}</h3>', 'Selected Work tiles must retain their project titles.');
+if (home.includes('<p>{project.description}</p>')) errors.push('Selected Work tiles must not render project descriptions.');
 const homeProjectCopyIndex = home.indexOf('class="home-project-copy"');
 const homeProjectMetaIndex = home.indexOf('class="home-project-meta"');
 const homeProjectMediaIndex = home.indexOf('class="home-project-media"');
@@ -207,9 +256,9 @@ if (
   errors.push('Selected Work project titles and metadata must remain in DOM order before their media.');
 }
 for (const className of ['home-project-copy', 'home-project-meta']) {
-  const markup = home.match(new RegExp(`<div class="${className}">[\\s\\S]*?<\\/div>`))?.[0] || '';
-  if (!markup || /data-(?:body-)?reveal/.test(markup)) {
-    errors.push(`Selected Work ${className} must remain static and free of reveal attributes.`);
+  const markup = home.match(new RegExp(`<div class="${className}"[^>]*>[\\s\\S]*?<\\/div>`))?.[0] || '';
+  if (!markup.includes('data-home-project-text-reveal') || /data-body-reveal/.test(markup)) {
+    errors.push(`Selected Work ${className} must use the homepage clip lifecycle without joining generic body reveals.`);
   }
   if (motionSystem.includes(`'.${className}'`)) {
     errors.push(`Selected Work ${className} must remain excluded from scroll-triggered reveal registration.`);
@@ -236,10 +285,11 @@ requireCount(home, 'data-asset-surface', 3, 'Homepage image, video, and Memory L
 requireText(styles, '--home-ink: var(--text-primary);', 'Homepage titles must inherit editorial primary.');
 requireText(styles, '--home-secondary: var(--text-tertiary);', 'Homepage tertiary roles and footer must inherit editorial tertiary.');
 requireText(styles, '.home-project-client { color: #000; font-weight: 600; text-transform: uppercase; }', 'Selected Work clients must use the Figma black uppercase semibold treatment.');
-requireText(styles, '.home-project-year { color: #8b8b8b; font-weight: 400; }', 'Selected Work years must use the Figma gray regular treatment.');
-requireText(styles, 'align-items: center;\n  gap: 20px;\n  font: 400 14px/normal var(--body-font);', 'Every Selected Work client and year must use one consistent 20px gap.');
-requireText(styles, 'justify-content: flex-start;\n  gap: 20px;\n  margin-top: 16px;', 'Selected Work metadata groups and View Project labels must use the same 20px gap.');
-requireText(styles, 'min-width: 420px;\n  padding-bottom: 160px;\n  background: transparent;', 'The Selected Work project grid must retain its requested 160px trailing space.');
+requireText(styles, '.home-project-year { color: #819a9f; font-weight: 400; }', 'Selected Work years must use the Figma #819A9F regular treatment.');
+requireText(styles, 'align-items: center;\n  gap: 16px;\n  font: 400 14px/normal var(--body-font);', 'Every Selected Work client and year must use one consistent 16px gap.');
+requireText(styles, 'justify-content: flex-start;\n  gap: 16px;\n  margin-top: 8px;', 'Selected Work metadata must sit 8px below the project title while retaining its internal 16px gaps.');
+requireText(styles, '.home-project-copy {\n  display: flex;\n  flex-direction: column;\n  overflow-wrap: break-word;\n}', 'Selected Work copy frames must retain their title reveal wrapper without description spacing.');
+if (styles.includes('.home-project-copy p')) errors.push('Selected Work must not retain obsolete description styling.');
 requireText(styles, '.home-project-one-report .home-project-media-visual video {\n  width: 100% !important;\n  max-width: none;\n  height: 100% !important;\n  max-height: none;', 'The One Report homepage video must fill its media frame without the shared viewport cap.');
 const styleRules = [...styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)];
 const ruleBody = (selector) => styleRules.find(([, candidate]) => candidate.trim() === selector)?.[2] || '';
@@ -247,6 +297,13 @@ if (/background/.test(ruleBody('.scenario-column')) || !/background\s*:\s*transp
   errors.push('One Report scenario columns and animations must not restore the obsolete wash background.');
 }
 requireText(home, 'class="home-project-view" data-tape-label>View Project</span>', 'Selected Work tiles must include the View Project tape label.');
+requireText(home, "<a class:list={['home-project-card', project.className]} href={project.href} aria-label={`View ${project.name} case study`}", 'Each Selected Work tile must use a semantic wrapping link so its visible descendants remain pointer targets.');
+if (home.includes('home-project-link')) errors.push('Selected Work must not restore a full-card overlay link that intercepts element inspection.');
+if (/\.home-project-media\s*\{[^}]*pointer-events\s*:\s*none/s.test(styles)) {
+  errors.push('Selected Work media frames must remain available to pointer hit-testing.');
+}
+requireText(styles, '.home-project-media .playable-media-surface > video { pointer-events: auto; }', 'Homepage videos must remain direct pointer and inspector targets.');
+requireText(styles, "[data-line-system='svg'] :focus-visible:not(.home-project-card),", 'The global line-system focus reset must not suppress the wrapping card link outline.');
 requireText(motionSystem, "['View Project', 126]", 'View Project tape motion must match the Team label duration.');
 requireText(styles, '.home-project-card:hover .home-project-view .home-tape-line > i {', 'Tile hover must animate the View Project tape.');
 requireText(styles, '.home-project-card:focus-within .home-project-view .home-tape-line > i {', 'Tile keyboard focus must animate the View Project tape.');
@@ -276,22 +333,49 @@ requireText(motionSystem, "anchor.setAttribute('data-media-ready', '');", 'Faile
 requireText(motionSystem, "captionStates.forEach(({ caption }) => {\n      caption.classList.add('body-reveal-active');\n      completeCaptionReveal(caption);", 'Reduced motion must expose media captions without waiting for animation.');
 requireText(styles, "[data-body-reveal][data-body-reveal-kind='media-caption'].body-reveal-active", 'Media captions must preserve their shared text-block animation with media-owned timing.');
 requireText(layout, '<noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>', 'No-script rendering must keep media captions visible.');
-requireText(styles, '--home-project-column-gap: 24px;', 'Selected Work columns must retain the requested 24px gap.');
-requireText(styles, '--home-project-row-gap: 24px;', 'Selected Work tiles within each column must retain the requested 24px maximum gap.');
-requireText(styles, 'padding: 24px;\n  border: 0;\n  border-radius: 12px;\n  background: #fff;', 'Selected Work tiles must retain 24px padding and the Figma white 12px-radius surface.');
+requireText(styles, '--home-project-column-gap: 32px;', 'Selected Work columns must use the Figma 32px gutter.');
+requireText(styles, '--home-project-row-gap: 32px;', 'Selected Work tiles within each column must use the Figma 32px gap.');
+requireText(styles, 'padding: 24px;\n  border: 0;\n  border-radius: 0;\n  background: transparent;', 'Selected Work tiles must use 24px padding and a transparent square surface.');
 if (styles.includes(".home-project-grid:not([data-home-layout='small']) .home-project-card { padding-inline: 0; }")) {
   errors.push('Desktop Selected Work tiles must not remove their 24px left and right padding.');
 }
 requireText(home, "getPropertyValue('--home-project-column-gap')", 'Selected Work geometry must read the shared column-gap token.');
-requireText(home, "getPropertyValue('--home-project-row-gap')", 'Selected Work geometry must read the shared 24px row-gap token.');
-requireText(home, 'const secondColumnOffset = height1 * 0.2;', 'HBS must retain its 20%-of-PANW starting offset independently of the tile gaps.');
-requireText(home, '[1, 4, 7].forEach((order) => setGeometry(order, 0, 0, columnWidth));', 'PANW, One Report, and Memory Lane must remain in the first Selected Work column.');
-requireText(home, '[2, 3, 5, 6].forEach((order) => setGeometry(order, secondColumnX, 0, columnWidth));', 'HBS, DocuSign, Hitachi, and Cisco must remain in the second Selected Work column.');
-requireText(home, 'setGeometry(6, secondColumnX, columnTwoFourthTop, columnWidth);', 'Cisco must render after Hitachi in the second Selected Work column.');
-requireText(home, 'setGeometry(7, 0, columnOneThirdTop, columnWidth);', 'Memory Lane must render after One Report in the first Selected Work column.');
-requireText(styles, '.home-project-memory-lane .home-project-media { aspect-ratio: 16 / 9; }', 'The Memory Lane Selected Work placeholder must remain 16:9.');
+requireText(home, "getPropertyValue('--home-project-row-gap')", 'Selected Work geometry must read the shared 32px row-gap token.');
+if (home.includes('secondColumnOffset')) errors.push('Selected Work columns must align at the Figma top edge without an HBS offset.');
+requireText(home, '[1, 3, 5, 6].forEach((order) => setGeometry(order, firstColumnX, paddingTop, columnWidth));', 'PANW, GDA, Hitachi, and Cisco must form the Figma left column.');
+requireText(home, '[2, 4, 7].forEach((order) => setGeometry(order, secondColumnX, paddingTop, columnWidth));', 'HBS, OneReport, and MemoryLane must form the Figma right column.');
+requireText(home, 'setGeometry(6, firstColumnX, leftFourthTop, columnWidth);', 'Cisco must render after Hitachi in the left column.');
+requireText(home, 'setGeometry(7, secondColumnX, rightThirdTop, columnWidth);', 'MemoryLane must render after OneReport in the right column.');
+requireText(styles, '.home-project-memory-lane .home-project-media { aspect-ratio: 3 / 4; }', 'The MemoryLane Selected Work placeholder must use the Figma 3:4 ratio.');
+requireText(styles, ".home-project-memory-lane .home-project-placeholder {\n  height: 100%;\n  background: #e0f0ea;\n  box-shadow: 0 4px 249.1px 88px rgba(193, 220, 211, .3) inset;", 'Only the Memory Lane homepage placeholder must use the approved mint fill and inset shadow.');
+requireText(styles, '.home-project-global .home-project-media { aspect-ratio: 1498 / 1124; }', 'The GDA Selected Work media must preserve the exact Figma ratio.');
+requireText(styles, '.home-project-one-report .home-project-media { aspect-ratio: 1138 / 2026; }', 'The OneReport Selected Work media must preserve the exact Figma ratio.');
 requireText(styles, '.memory-lane-hero-placeholder {', 'Memory Lane must expose its dedicated hero placeholder.');
-requireText(styles, 'background: #f5f5f5;', 'Memory Lane placeholders must use the approved gray surface.');
+requireText(styles, "background: #e0f0ea;\n  box-shadow: 0 4px 249.1px 88px rgba(193, 220, 211, .3) inset;", 'The Memory Lane hero placeholder must use the approved mint fill and inset shadow.');
+requireCount(styles, 'box-shadow: 0 4px 249.1px 88px rgba(193, 220, 211, .3) inset;', 2, 'The approved inset shadow must be limited to the two Memory Lane placeholder boxes.');
+requireCount(caseStudySources.at(-1), 'data-memory-lane-trail-visual', 5, 'The Memory Lane cursor trail must retain five reusable visual layers.');
+for (const [source, message] of [
+  ['const TRAIL_SPAWN_INTERVAL = 900;', 'Memory Lane trail layers must advance every 900ms while stationary.'],
+  ['const TRAIL_SPAWN_DISTANCE = 100;', 'Memory Lane trail layers must advance after 100px of cursor travel.'],
+  ['const TRAIL_DURATION = 400;', 'Memory Lane trail movement must retain the measured 400ms duration.'],
+  ["const TRAIL_EASING = 'cubic-bezier(.19, 1, .22, 1)';", 'Memory Lane trail movement must retain the measured snappy-out curve.'],
+  ['const TRAIL_LERP = 0.1;', 'Memory Lane trail movement must originate from the measured 10% cursor cache.'],
+  ['const TRAIL_SIZE_SCALE = 1.618;', 'Memory Lane trail media must retain the approved 1.618 size multiplier.'],
+  ['const minimum = aspectRatio > 1 ? (desktop ? 325 : 225) : (desktop ? 275 : 175);', 'Memory Lane trail media must retain the measured landscape and portrait minimum widths.'],
+  ['const maximum = aspectRatio > 1 ? (desktop ? 500 : 350) : (desktop ? 350 : 250);', 'Memory Lane trail media must retain the measured landscape and portrait width ceilings.'],
+]) {
+  requireText(memoryLaneTrail, source, message);
+}
+requireText(galleryProject, "const infoPlacement = infoFirst ? { ...project.layout.info, row: 1 } : project.layout.info;", 'Memory Lane project information must occupy the first chapter row.');
+requireText(galleryProject, "? { ...project.layout.artifacts[lead.id], row: 2 }", 'Memory Lane lead media must follow project information in the second chapter row.');
+requireText(galleryProject, "<span class=\"gallery-project-number\"> — {formattedProjectNumber}</span>", 'Memory Lane project titles must use the approved title-first number suffix.');
+requireText(styles, 'padding: var(--cs-section-end) 0 40px;', 'Narrow Memory Lane project information must retain responsive top spacing and 40px bottom spacing.');
+requireText(styles, 'padding-top: 280px;\n    padding-bottom: 40px;', 'Desktop Memory Lane project information must use 280px top and 40px bottom spacing.');
+requireText(styles, 'width: min(93.844%, 525.85px);', 'The reduced-motion Memory Lane image must use the same 1.618 size multiplier and remain clipped by the hero.');
+requireText(styles, 'padding: 0 var(--gallery-band-inline);', 'Memory Lane chapters must not stack an extra section-end gap between vertical media.');
+requireText(styles, '.memory-lane-project-list .gallery-project:last-child {\n  padding-bottom: var(--cs-section-end);', 'The final Memory Lane chapter must retain its closing case-study space.');
+requireText(styles, '.memory-lane-project-list .gallery-project {\n    row-gap: 0;', 'Desktop Memory Lane media rows must use Palo Alto’s zero-gap stack logic.');
+requireText(styles, ".memory-lane-project-list .gallery-artifact[data-gallery-role='support'] {\n    margin-top: 0;", 'Memory Lane supporting media must not add a private vertical margin.');
 requireText(styles, '.memory-lane-project-list .gallery-project {', 'Memory Lane must reuse Gallery chapters inside the case-study surface.');
 requireText(motionSystem, "const usesGalleryRevealProfile = group.matches('.gallery-project') || Boolean(group.closest('.case-study'));", 'Memory Lane GalleryProject media must inherit the exact Gallery reveal profile inside the case study.');
 if (/background-color/.test(ruleBody('.home-project-card'))
@@ -331,7 +415,8 @@ if (styles.includes('@media (min-width: 1200px)')) {
   errors.push('The Gallery must not introduce a private 1200px breakpoint outside the shared responsive system.');
 }
 requireText(styles, '--home-background: #fff;', 'The homepage canvas must be pure white.');
-requireText(styles, "[data-case-system='true'] .page-shell > main { background: #fff; }", 'Case-study main content must use the requested pure-white surface.');
+requireText(styles, "[data-case-system='true'] .page-shell,\n[data-case-system='true'] .site-content,\n[data-case-system='true'] .site-content > main,\n[data-case-system='true'] .case-study { background: #fff; }", 'Every case-study shell, content column, main, and article surface must use pure white.');
+requireText(styles, "[data-case-system='true'] {\n  --canvas: #fff;\n  --cs-canvas: #fff;", 'All seven case-study routes must override the shared canvas tokens to pure white.');
 requireText(styles, '--gallery-band-gray: #f5f5f5;', 'Gallery gray bands must retain the requested #F5F5F5 surface.');
 requireText(styles, '.home-gallery > .page-heading {\n  width: 100%;\n  margin-inline: 0;\n  padding-top: 64px;\n  padding-bottom: 160px;', 'The Gallery heading must use the full right column with 64px top and 160px bottom padding.');
 requireText(styles, '--caption-size: 16px;', 'All captions must use the approved 16px size token.');
@@ -354,7 +439,10 @@ requireText(styles, "padding: var(--caption-pad-top) 0 var(--caption-pad-bottom)
 requireText(galleryArtifact, 'data-gallery-role={role}', 'Gallery artifacts must expose their lead or support role.');
 requireText(galleryArtifact, 'data-media-caption>{caption}', 'Every Gallery artifact must render its factual caption.');
 requireCount(galleryArtifact, 'data-viewport-media-frame', 2, 'Gallery image and video surfaces must use the shared viewport-safe frame controller.');
-requireCount(galleryArtifact, 'data-viewport-media-inset="140"', 2, 'Gallery frames must reserve navigation and caption clearance.');
+requireCount(galleryArtifact, "data-viewport-media-inset={viewportFit ? '140' : undefined}", 2, 'Viewport-fitted Gallery frames must reserve navigation and caption clearance.');
+requireCount(galleryArtifact, "data-container-media-frame={!viewportFit ? '' : undefined}", 2, 'Gallery artifacts must support an explicit full-width container mode.');
+requireText(galleryData, "video('panoptica-01', 1919, 1654, 'Guided explanations teaching users what setup enables.', 'support', false)", 'The Panoptica explanation video must opt out of viewport fitting.');
+requireText(galleryData, "'panoptica-01': place(1, 20, 3)", 'The Panoptica explanation video must span the complete 20-column content grid.');
 requireText(layout, 'const viewportInsetFor = (frame) => {', 'Viewport-safe media must support frame-specific clearance.');
 requireText(styles, '--media-reveal-duration: 800ms;', 'Every media entrance must use the shared 800ms duration.');
 requireText(styles, '--expressive-ease-out: cubic-bezier(0, 0, 0.3, 1);', 'Every media entrance must retain the Gallery ease-out curve.');
@@ -363,6 +451,12 @@ requireText(styles, 'clip-path: inset(0 100% 0 0);', 'Every media entrance must 
 requireText(styles, "html[data-media-motion-ready='true'] [data-media-reveal][data-media-reveal-ready='true'] [data-media-reveal-rise] {\n  transform: none;\n  transition: none;", 'The shared media entrance must not add vertical rise motion.');
 requireText(motionSystem, 'const galleryRevealLeadDelay = 100;', 'Case-study media must reuse the Gallery 100ms lead delay.');
 requireText(motionSystem, 'const galleryRevealStagger = 70;', 'Case-study media groups must reuse the Gallery 70ms stagger.');
+requireText(motionSystem, 'const homepageRevealStagger = 90;', 'Homepage project units must reuse the Motion Design V1 90ms stagger.');
+requireText(motionSystem, 'const homepageRevealDuration = 1500;', 'Homepage media and text must use the Tobias-style 1500ms reveal duration.');
+requireText(motionSystem, 'const homepageCopyDelay = 300;', 'Homepage copy must begin 300ms after its own media starts.');
+requireText(motionSystem, 'const target = homepageTargets[nextHomepageTargetIndex];', 'Homepage media must be consumed in chronological DOM order rather than readiness order.');
+requireText(motionSystem, 'window.setTimeout(() => revealHomeText(copy), homepageCopyDelay);', 'Each project copy must overlap its own media without waiting for other projects.');
+requireText(motionSystem, 'window.setTimeout(() => revealHomeText(meta), homepageCopyDelay + homepageRevealStagger);', 'Homepage metadata must follow its copy by the shared 90ms cadence.');
 requireText(motionSystem, "const usesGalleryRevealProfile = group.matches('.gallery-project') || Boolean(group.closest('.case-study'));", 'Gallery and case-study groups must share one sequencing profile.');
 requireText(motionSystem, "const leadDelay = target.closest('.case-study') ? galleryRevealLeadDelay : 0;", 'Standalone case-study media must use the Gallery lead delay without changing homepage tile timing.');
 requireText(motionSystem, 'window.requestAnimationFrame(() => {\n        window.requestAnimationFrame(() => {', 'Media reveals must retain the two-frame paint safeguard.');
@@ -378,10 +472,15 @@ if (styles.includes("html[data-media-motion-ready='true'] .home-gallery [data-me
 if (styles.includes('@keyframes media-reveal-opacity') || styles.includes('translateY(32px)')) {
   errors.push('The retired opacity split and vertical rise must not return to media entrances.');
 }
+requireText(styles, '--home-project-reveal-duration: 1500ms;', 'Homepage reveals must use the Tobias-style 1500ms duration without changing the shared media duration.');
+requireText(styles, '--home-project-reveal-ease: cubic-bezier(0.19, 1, 0.22, 1);', 'Homepage reveals must use the CSS Expo-style ease-out curve.');
+requireText(styles, "html[data-media-motion-ready='true'] [data-home-project-media-reveal][data-media-reveal-ready='true'] [data-media-reveal-clip] {\n  transition-duration: var(--home-project-reveal-duration);\n  transition-timing-function: var(--home-project-reveal-ease);", 'Homepage media must override only the shared reveal timing profile.');
+requireText(styles, "html[data-media-motion-ready='true'] [data-home-project-text-reveal] {\n  opacity: 1;\n  clip-path: inset(0 100% 0 0);\n  transition: clip-path var(--home-project-reveal-duration) var(--home-project-reveal-ease);", 'Homepage text must use the same Tobias-style horizontal clip reveal as homepage media.');
+requireText(styles, "[data-home-project-text-reveal] {\n    opacity: 1 !important;\n    clip-path: inset(0) !important;\n    transition: none !important;", 'Reduced motion must expose homepage project text immediately.');
 requireText(galleryProject, 'const [lead, ...supports] = project.media;', 'Gallery projects must render the lead asset separately from supporting media.');
-if (!(galleryProject.indexOf('<GalleryArtifact\n    {...lead}') < galleryProject.indexOf('class="gallery-project-info"')
-  && galleryProject.indexOf('class="gallery-project-info"') < galleryProject.indexOf('{supports.map'))) {
-  errors.push('Gallery DOM order must remain lead media, information row, then supporting media.');
+if (!(galleryProject.indexOf('class="gallery-project-info"') < galleryProject.indexOf('<GalleryArtifact\n    {...lead}')
+  && galleryProject.indexOf('<GalleryArtifact\n    {...lead}') < galleryProject.indexOf('{supports.map'))) {
+  errors.push('Memory Lane DOM order must remain information row, lead media, then supporting media.');
 }
 if (bodyRevealSource.includes("'.gallery-project-notes'")) {
   errors.push('Gallery secondary notes must reveal with their parent information row.');
@@ -415,7 +514,9 @@ requireText(styles, '[data-media-reveal-clip] {\n    opacity: 1 !important;\n   
 caseStudySources.forEach((source, index) => {
   const rawMediaTags = source.match(/<(?:img|video)\b[^>]*>/gs) || [];
   rawMediaTags.forEach((tag) => {
-    if (!tag.includes('data-media-visual') && !tag.includes('/information-filled.svg')) {
+    if (!tag.includes('data-media-visual')
+      && !tag.includes('data-memory-lane-trail-visual')
+      && !tag.includes('/information-filled.svg')) {
       errors.push(`${caseStudySlugs[index]} contains editorial raw media outside the shared reveal readiness contract.`);
     }
   });

@@ -1,18 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import GalleryProject from '../components/GalleryProject.astro';
-import PageHeading from '../components/PageHeading.astro';
 import ResponsiveVideo from '../components/ResponsiveVideo.astro';
-import { GLOBAL_DATA_ANALYTICS_TITLE, HBS_AI_INSTITUTE_TITLE } from '../data/project-titles.js';
-import { parseGalleryNotes } from '../data/gallery.js';
-import galleryNotes from '../content/gallery-notes.md?raw';
-
-const galleryProjects = parseGalleryNotes(galleryNotes);
+import { HBS_AI_INSTITUTE_TITLE } from '../data/project-titles.js';
 
 const projects = [
   {
     href: '/work/panw-ai/',
-    title: 'Designing AI experiences for deep analysis and traceability.',
+    name: 'Sales Workbench AI Features',
+    description: 'Designing AI features for deep analysis and traceability.',
     company: 'PALO ALTO NETWORKS',
     year: '2025-26',
     order: 1,
@@ -22,8 +17,9 @@ const projects = [
   },
   {
     href: '/work/hbs-ai-institute/',
-    title: HBS_AI_INSTITUTE_TITLE,
-    company: 'HARVARD BUSINESS SCHOOL',
+    name: 'AI Research Architecture',
+    description: HBS_AI_INSTITUTE_TITLE,
+    company: 'HARVARD BUSINESS SCHOOL AI INSTITUTE',
     year: '2025',
     order: 2,
     image: '/assets/hbs/hbs-cover.webp',
@@ -33,7 +29,8 @@ const projects = [
   },
   {
     href: '/work/global-data-analytics/',
-    title: GLOBAL_DATA_ANALYTICS_TITLE,
+    name: 'GDA Dashboards',
+    description: 'Turning exploratory research into tools for thematic analysis and value-driven sales.',
     company: 'DOCUSIGN',
     year: '2023-24',
     order: 3,
@@ -43,7 +40,8 @@ const projects = [
   },
   {
     href: '/work/one-report/',
-    title: 'Designing a data product around an executive’s inquisitive moments.',
+    name: 'OneReport',
+    description: 'Designing a data product around an executive’s inquisitive moments.',
     company: 'DOCUSIGN',
     year: '2023',
     order: 4,
@@ -53,7 +51,8 @@ const projects = [
   },
   {
     href: '/work/hitachi-energy/',
-    title: "Designing a B2B buying experience for Hitachi's sales partners.",
+    name: 'PowerShop ABB',
+    description: 'Designing B2B experiences for Hitachi’s Sales Partners',
     company: 'HITACHI ENERGY',
     year: '2021-22',
     order: 5,
@@ -65,8 +64,9 @@ const projects = [
   },
   {
     href: '/work/cisco-customer-insights/',
-    title: 'Designing Customer Insights and extending it with Upsell Opportunities.',
-    company: 'CISCO',
+    name: 'Cisco Ready, Customer Insights.',
+    description: 'Designing Customer Insights, scaling it with Upsell Opportunities.',
+    company: 'CISCO SYSTEMS',
     year: '2020-21',
     order: 6,
     video: '/assets/home-covers/cisco-customer-dashboard.webm',
@@ -77,9 +77,10 @@ const projects = [
   },
   {
     href: '/work/memory-lane/',
-    title: 'Memory Lane',
-    company: 'PERSONAL ARCHIVE',
-    year: '2018-25',
+    name: 'MemoryLane',
+    description: 'A collection of work that doesn’t deserve a long case study, but worth mentioning.',
+    company: 'MULTIPLE',
+    year: '2019-Present',
     order: 7,
     placeholder: true,
     className: 'home-project-memory-lane',
@@ -93,17 +94,15 @@ const projects = [
   description="Systems-oriented product designer working on ambiguous, organizationally complicated problems with imperfect data."
 >
   <section class="home-work" id="work">
-    <PageHeading title="Selected Work" level="h2" />
     <div class="home-project-scroller">
       <div class="home-project-grid" data-home-project-grid data-home-layout="small">
         {projects.map((project, index) => (
           <div class="home-project-slot" data-home-project-slot data-home-order={project.order}>
-            <div class:list={['home-project-card', project.className]} style={`--home-order: ${project.order}`} data-home-order={project.order} data-project-tile data-reveal>
-              <a class="home-project-link" href={project.href} aria-label={`View ${project.title}`}></a>
-              <div class="home-project-copy">
-                <h3>{project.title}</h3>
+            <a class:list={['home-project-card', project.className]} href={project.href} aria-label={`View ${project.name} case study`} style={`--home-order: ${project.order}`} data-home-order={project.order} data-home-project-reveal-unit data-project-tile data-reveal>
+              <div class="home-project-copy" data-home-project-text-reveal>
+                <h3>{project.name}</h3>
               </div>
-              <div class="home-project-meta">
+              <div class="home-project-meta" data-home-project-text-reveal>
                 <div class="home-project-meta-primary">
                   <span class="home-project-client">{project.company}</span>
                   <time class="home-project-year">{project.year}</time>
@@ -111,41 +110,32 @@ const projects = [
                 <span class="home-project-view" data-tape-label>View Project</span>
               </div>
               {project.placeholder ? (
-                <div class="home-project-media" data-media-reveal>
+                <div class="home-project-media" data-home-project-media-reveal data-media-reveal>
                   <span class="media-reveal-clip" data-media-reveal-clip>
                     <span class="home-project-media-visual media-reveal-rise home-project-placeholder" data-media-reveal-rise data-asset-surface aria-hidden="true"></span>
                   </span>
                 </div>
               ) : project.video ? (
-                <div class="home-project-media" data-media-reveal>
+                <div class="home-project-media" data-home-project-media-reveal data-media-reveal>
                   <span class="media-reveal-clip" data-media-reveal-clip>
                     <span class="home-project-media-visual media-reveal-rise playable-media-surface" data-media-reveal-rise data-asset-surface data-playable-media>
-                      <ResponsiveVideo src={project.video} poster={project.poster} width={project.width} height={project.height} label={project.title} home showPlaybackControl={false} />
+                      <ResponsiveVideo src={project.video} poster={project.poster} width={project.width} height={project.height} label={project.name} home showPlaybackControl={false} />
                     </span>
                   </span>
                 </div>
               ) : (
-                <div class="home-project-media" data-media-reveal>
+                <div class="home-project-media" data-home-project-media-reveal data-media-reveal>
                   <span class="media-reveal-clip" data-media-reveal-clip>
                     <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise data-asset-surface>
-                      <img src={project.image} alt={project.title} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+                      <img src={project.image} alt={project.name} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
                     </span>
                   </span>
                 </div>
               )}
-            </div>
+            </a>
           </div>
         ))}
       </div>
-    </div>
-  </section>
-
-  <section class="home-gallery" id="gallery" data-home-gallery aria-label="Gallery">
-    <PageHeading title="Gallery" level="h2" />
-    <div class="gallery-project-list">
-      {galleryProjects.map((project) => (
-        <GalleryProject project={project} />
-      ))}
     </div>
   </section>
 
@@ -181,7 +171,6 @@ const projects = [
       const resetToSingleColumn = () => {
         projectGrid.dataset.homeLayout = 'small';
         projectGrid.style.height = '';
-        projectGrid.style.removeProperty('--home-project-second-column-offset');
         Object.values(projectSlots).forEach((slot) => {
           slot.style.left = '';
           slot.style.top = '';
@@ -193,20 +182,28 @@ const projects = [
         const gridWidth = projectGrid.clientWidth;
         if (!gridWidth) return;
 
-        if (gridWidth < minimumProjectCardWidth * 2) {
+        const gridStyles = getComputedStyle(projectGrid);
+        const paddingLeft = Number.parseFloat(gridStyles.paddingLeft) || 0;
+        const paddingRight = Number.parseFloat(gridStyles.paddingRight) || 0;
+        const paddingTop = Number.parseFloat(gridStyles.paddingTop) || 0;
+        const paddingBottom = Number.parseFloat(gridStyles.paddingBottom) || 0;
+        const contentWidth = gridWidth - paddingLeft - paddingRight;
+        const columnGap = Number.parseFloat(
+          gridStyles.getPropertyValue('--home-project-column-gap'),
+        ) || 0;
+
+        if (contentWidth < minimumProjectCardWidth * 2 + columnGap) {
           resetToSingleColumn();
           correctSectionHash();
           return;
         }
 
-        const columnGap = Number.parseFloat(
-          getComputedStyle(projectGrid).getPropertyValue('--home-project-column-gap'),
-        ) || 0;
-        const columnWidth = (gridWidth - columnGap) / 2;
-        const secondColumnX = columnWidth + columnGap;
+        const columnWidth = (contentWidth - columnGap) / 2;
+        const firstColumnX = paddingLeft;
+        const secondColumnX = paddingLeft + columnWidth + columnGap;
         projectGrid.dataset.homeLayout = 'medium';
-        [1, 4, 7].forEach((order) => setGeometry(order, 0, 0, columnWidth));
-        [2, 3, 5, 6].forEach((order) => setGeometry(order, secondColumnX, 0, columnWidth));
+        [1, 3, 5, 6].forEach((order) => setGeometry(order, firstColumnX, paddingTop, columnWidth));
+        [2, 4, 7].forEach((order) => setGeometry(order, secondColumnX, paddingTop, columnWidth));
 
         const height1 = slotHeight(1);
         const height2 = slotHeight(2);
@@ -215,30 +212,22 @@ const projects = [
         const height5 = slotHeight(5);
         const height6 = slotHeight(6);
         const height7 = slotHeight(7);
-        const rowGap = Number.parseFloat(
-          getComputedStyle(projectGrid).getPropertyValue('--home-project-row-gap'),
-        ) || 0;
-        const secondColumnOffset = height1 * 0.2;
-        projectGrid.style.setProperty('--home-project-second-column-offset', cssPixels(secondColumnOffset));
+        const rowGap = Number.parseFloat(gridStyles.getPropertyValue('--home-project-row-gap')) || 0;
+        const leftSecondTop = paddingTop + height1 + rowGap;
+        const leftThirdTop = leftSecondTop + height3 + rowGap;
+        const leftFourthTop = leftThirdTop + height5 + rowGap;
+        const rightSecondTop = paddingTop + height2 + rowGap;
+        const rightThirdTop = rightSecondTop + height4 + rowGap;
 
-        const columnOneSecondTop = height1 + rowGap;
-        const columnOneThirdTop = columnOneSecondTop + height4 + rowGap;
-        const columnTwoFirstTop = secondColumnOffset;
-        const columnTwoSecondTop = columnTwoFirstTop + height2 + rowGap;
-        const columnTwoThirdTop = columnTwoSecondTop + height3 + rowGap;
-        const columnTwoFourthTop = columnTwoThirdTop + height5 + rowGap;
-
-        setGeometry(4, 0, columnOneSecondTop, columnWidth);
-        setGeometry(7, 0, columnOneThirdTop, columnWidth);
-        setGeometry(2, secondColumnX, columnTwoFirstTop, columnWidth);
-        setGeometry(3, secondColumnX, columnTwoSecondTop, columnWidth);
-        setGeometry(5, secondColumnX, columnTwoThirdTop, columnWidth);
-        setGeometry(6, secondColumnX, columnTwoFourthTop, columnWidth);
-        const trailingSpace = Number.parseFloat(getComputedStyle(projectGrid).paddingBottom) || 0;
+        setGeometry(3, firstColumnX, leftSecondTop, columnWidth);
+        setGeometry(5, firstColumnX, leftThirdTop, columnWidth);
+        setGeometry(6, firstColumnX, leftFourthTop, columnWidth);
+        setGeometry(4, secondColumnX, rightSecondTop, columnWidth);
+        setGeometry(7, secondColumnX, rightThirdTop, columnWidth);
         projectGrid.style.height = cssPixels(Math.max(
-          columnOneThirdTop + height7,
-          columnTwoFourthTop + height6,
-        ) + trailingSpace);
+          leftFourthTop + height6,
+          rightThirdTop + height7,
+        ) + paddingBottom);
 
         correctSectionHash();
       };

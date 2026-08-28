@@ -91,9 +91,13 @@ projects.forEach((project) => {
     }
   }
   if (project.title === 'Onboarding Redesign, Cisco Panoptica') {
+    const explanation = project.media.find((artifact) => artifact.id === 'panoptica-01');
     const explanationPlacement = project.layout.artifacts['panoptica-01'];
-    if (explanationPlacement?.column !== 1) {
-      errors.push('The Panoptica supporting visual must remain left-aligned.');
+    if (explanationPlacement?.column !== 1 || explanationPlacement?.span !== 20) {
+      errors.push('The Panoptica supporting visual must fill the complete available grid width.');
+    }
+    if (explanation?.viewportFit !== false) {
+      errors.push('The Panoptica supporting visual must fill its grid width without viewport fitting.');
     }
   }
   if (project.title === 'Platform Redesign, Cisco Ready') {

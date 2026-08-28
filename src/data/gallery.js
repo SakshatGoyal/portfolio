@@ -1,5 +1,5 @@
 /**
- * @typedef {{ id: string, type: 'image' | 'video', src: string, poster?: string, width: number, height: number, role: 'lead' | 'support', caption: string }} GalleryArtifact
+ * @typedef {{ id: string, type: 'image' | 'video', src: string, poster?: string, width: number, height: number, role: 'lead' | 'support', caption: string, viewportFit?: boolean }} GalleryArtifact
  * @typedef {{ column: number, span: number, row: number, rowSpan?: number }} GalleryPlacement
  * @typedef {{ info: GalleryPlacement, artifacts: Readonly<Record<string, GalleryPlacement>> }} GalleryLayout
  * @typedef {{ title: string, year: string, paragraphs: string[], media: GalleryArtifact[], layout: GalleryLayout }} GalleryProject
@@ -17,7 +17,7 @@ const image = (name, width, height, caption, role = 'support') => ({
 });
 
 /** @returns {GalleryArtifact} */
-const video = (name, width, height, caption, role = 'support') => ({
+const video = (name, width, height, caption, role = 'support', viewportFit = true) => ({
   id: name,
   type: 'video',
   src: `/assets/gallery/${name}.webm`,
@@ -26,13 +26,14 @@ const video = (name, width, height, caption, role = 'support') => ({
   height,
   role,
   caption,
+  viewportFit,
 });
 
 /** @type {Readonly<Record<string, GalleryArtifact[]>>} */
 export const galleryMedia = Object.freeze({
   'Onboarding Redesign, Cisco Panoptica': [
     video('panoptica-00', 1920, 1080, 'Outcome-led onboarding for Panoptica’s cloud security platform.', 'lead'),
-    video('panoptica-01', 1919, 1654, 'Guided explanations teaching users what setup enables.'),
+    video('panoptica-01', 1919, 1654, 'Guided explanations teaching users what setup enables.', 'support', false),
   ],
   'Trebuchet Trials, Microsoft Hacking STEM': [
     image('trebuchet-trials-00', 1024, 476, 'Completed trebuchet connected to its measurement interface.', 'lead'),
@@ -98,7 +99,7 @@ export const galleryLayouts = Object.freeze({
     info: place(1, 20, 2),
     artifacts: {
       'panoptica-00': place(1, 20, 1),
-      'panoptica-01': place(1, 12, 3),
+      'panoptica-01': place(1, 20, 3),
     },
   },
   'Platform Redesign, Cisco Ready': {

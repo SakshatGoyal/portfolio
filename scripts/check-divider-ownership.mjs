@@ -56,7 +56,9 @@ const blocks = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)];
 for (const [, selector, body] of blocks) {
   const declarations = [...body.matchAll(/(border(?:-(?:top|right|bottom|left|inline|block))?|outline)\s*:\s*([^;}]+)/g)];
   if (!declarations.some(([, , value]) => visibleLineValue(value))) continue;
-  if (/\.home-project-(?:grid|card)/.test(selector)) {
+  const isCardFocusOutline = selector.trim() === '.home-project-card:focus-visible'
+    && declarations.every(([, property]) => property === 'outline');
+  if (/\.home-project-(?:grid|card)/.test(selector) && !isCardFocusOutline) {
     errors.push('Homepage card/grid lines must come from topology geometry.');
   }
   if (/\[data-case-system=['"]true['"]\]/.test(selector)) {

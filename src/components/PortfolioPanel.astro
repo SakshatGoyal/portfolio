@@ -6,10 +6,27 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
 ---
 
 <aside class="portfolio-panel" aria-label="Portfolio introduction and navigation">
-  <h1 class="portfolio-panel-identity">
-    <span>Sākshāt Goyal</span>
-    <span>Product Designer</span>
-  </h1>
+  <a class="portfolio-panel-home" href="/" aria-label="Go to homepage">
+    <h1 class="portfolio-panel-identity">
+      <span>Sākshāt Goyal</span>
+      <span>Product Designer</span>
+    </h1>
+  </a>
+
+  <div class="portfolio-panel-socials" aria-label="Contact links">
+    {['Email', 'LinkedIn', 'Resume'].map((label) => (
+      <span
+        role="link"
+        tabindex="0"
+        aria-disabled="true"
+        data-tape-label
+        data-tape-frame="true"
+        data-tape-color="var(--panel-tape-color)"
+        data-tape-duration="126"
+        data-tape-disabled="true"
+      >{label}</span>
+    ))}
+  </div>
 
   <div class="portfolio-panel-intro">
     <p class="portfolio-panel-lead">
@@ -32,27 +49,12 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
           aria-current={isProject(project.href) ? 'page' : undefined}
           data-tape-label
           data-tape-frame="true"
-          data-tape-color="var(--panel-label-color)"
+          data-tape-color="var(--panel-tape-color)"
           data-tape-duration="126"
         >{project.label}</a>
       ))}
     </div>
   </nav>
-
-  <div class="portfolio-panel-footer" aria-label="Contact links">
-    {['Email', 'LinkedIn', 'Resume'].map((label) => (
-      <span
-        role="link"
-        tabindex="0"
-        aria-disabled="true"
-        data-tape-label
-        data-tape-frame="true"
-        data-tape-color="var(--panel-label-color)"
-        data-tape-duration="126"
-        data-tape-disabled="true"
-      >{label}</span>
-    ))}
-  </div>
 </aside>
 
 <script is:inline>

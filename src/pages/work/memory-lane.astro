@@ -6,17 +6,44 @@ import galleryNotes from '../../content/gallery-notes.md?raw';
 
 const galleryProjects = parseGalleryNotes(galleryNotes);
 const intro = [
-  'Memory Lane is a gallery of projects that shaped how I work but do not need a full case study to remain part of my portfolio. Some capture a specific interaction; others preserve a way of framing a problem, working with a team, or learning through making.',
-  'I keep them together because a design practice is not defined only by its largest launches. It is also built through the experiments, constraints, and lessons that continue to influence how I approach the next problem.',
+  'Memory Lane gathers projects that still shape how I work, even if they do not need a full case study. Some preserve a specific interaction. Others capture how I framed a problem, worked with a team, or learned by making.',
+  'I keep them here because their experiments, constraints, and lessons still influence how I approach new work. They are part of my design practice, alongside the larger launches.',
 ];
 ---
 
 <CaseLayout headline="Memory Lane" intro={intro} theme="memory-lane" showMeta={false}>
-  <div slot="hero" class="memory-lane-hero-placeholder" aria-label="Memory Lane cover placeholder"></div>
+  <div
+    slot="hero"
+    class="memory-lane-hero-placeholder"
+    data-memory-lane-trail
+    aria-label="Memory Lane interactive image trail"
+  >
+    <div class="memory-lane-trail-layers" aria-hidden="true">
+      <figure class="memory-lane-trail-layer" data-width="2400" data-height="1800">
+        <img data-memory-lane-trail-visual src="/assets/gallery/panw-workbench.webp" alt="" width="2400" height="1800" />
+      </figure>
+      <figure class="memory-lane-trail-layer" data-width="1920" data-height="1080">
+        <img data-memory-lane-trail-visual src="/assets/gallery/panoptica-00-poster.webp" alt="" width="1920" height="1080" />
+      </figure>
+      <figure class="memory-lane-trail-layer" data-width="1920" data-height="1920">
+        <img data-memory-lane-trail-visual src="/assets/gallery/hbs-faculty-platform-00-poster.webp" alt="" width="1920" height="1920" />
+      </figure>
+      <figure class="memory-lane-trail-layer" data-width="1024" data-height="476">
+        <img data-memory-lane-trail-visual src="/assets/gallery/trebuchet-trials-00.webp" alt="" width="1024" height="476" />
+      </figure>
+      <figure class="memory-lane-trail-layer" data-width="2400" data-height="1059">
+        <img data-memory-lane-trail-visual src="/assets/gallery/wexel-04.webp" alt="" width="2400" height="1059" />
+      </figure>
+    </div>
+  </div>
 
   <div class="gallery-project-list memory-lane-project-list" aria-label="Memory Lane projects">
-    {galleryProjects.map((project) => (
-      <GalleryProject project={project} />
+    {galleryProjects.map((project, index) => (
+      <GalleryProject project={project} infoFirst projectNumber={index + 1} />
     ))}
   </div>
 </CaseLayout>
+
+<script>
+  import '../../scripts/memory-lane-trail.js';
+</script>

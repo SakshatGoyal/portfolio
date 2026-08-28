@@ -1,6 +1,9 @@
 const initMediaReveals = (reduceMotion) => {
   const galleryRevealLeadDelay = 100;
   const galleryRevealStagger = 70;
+  const homepageRevealStagger = 90;
+  const homepageRevealDuration = 1500;
+  const homepageCopyDelay = 300;
   const groupSelector = [
     '.gallery-project',
     '.media-stack',
@@ -15,6 +18,7 @@ const initMediaReveals = (reduceMotion) => {
   });
 
   const targets = [...document.querySelectorAll('[data-media-reveal]')];
+  const homepageTargets = targets.filter((target) => target.hasAttribute('data-home-project-media-reveal'));
   const anchors = new Map();
   targets.forEach((target) => {
     const anchor = target.closest('[data-media-unit]') || target;
@@ -110,13 +114,59 @@ const initMediaReveals = (reduceMotion) => {
       caption.classList.add('body-reveal-active');
       completeCaptionReveal(caption);
     });
+    document.querySelectorAll('[data-home-project-text-reveal]').forEach((text) => {
+      text.classList.add('home-project-text-reveal-active');
+      text.dataset.homeProjectTextRevealComplete = 'true';
+    });
     return;
   }
 
   const states = new WeakMap();
-  const reveal = (target) => {
-    const state = states.get(target);
-    if (!state?.intersecting || !state.ready || !state.painted || target.classList.contains('media-reveal-active')) return;
+  let nextHomepageRevealStart = 0;
+  let nextHomepageTargetIndex = 0;
+
+  const revealHomeText = (element) => {
+    if (!(element instanceof HTMLElement) || element.classList.contains('home-project-text-reveal-active')) return;
+    let completed = false;
+    const complete = () => {
+      if (completed) return;
+      completed = true;
+      element.dataset.homeProjectTextRevealComplete = 'true';
+      element.removeEventListener('transitionend', onTransitionEnd);
+    };
+    const onTransitionEnd = (event) => {
+      if (event.target === element && event.propertyName === 'clip-path') complete();
+    };
+    element.addEventListener('transitionend', onTransitionEnd);
+    element.classList.add('home-project-text-reveal-active');
+    window.setTimeout(complete, homepageRevealDuration);
+  };
+
+  const completeHomeMediaReveal = (target) => {
+    if (target.dataset.homeProjectMediaRevealComplete === 'true') return;
+    target.dataset.homeProjectMediaRevealComplete = 'true';
+  };
+
+  const scheduleHomeTextReveals = (target) => {
+    const unit = target.closest('[data-home-project-reveal-unit]');
+    const [copy, meta] = unit ? [...unit.querySelectorAll('[data-home-project-text-reveal]')] : [];
+    window.setTimeout(() => revealHomeText(copy), homepageCopyDelay);
+    window.setTimeout(() => revealHomeText(meta), homepageCopyDelay + homepageRevealStagger);
+  };
+
+  const activateTarget = (target, state) => {
+    if (target.hasAttribute('data-home-project-media-reveal')) {
+      const clip = target.querySelector('[data-media-reveal-clip]');
+      const onTransitionEnd = (event) => {
+        if (event.target !== clip || event.propertyName !== 'clip-path') return;
+        clip.removeEventListener('transitionend', onTransitionEnd);
+        completeHomeMediaReveal(target);
+      };
+      clip?.addEventListener('transitionend', onTransitionEnd);
+      window.setTimeout(() => completeHomeMediaReveal(target), homepageRevealDuration);
+      target.dataset.homeProjectMediaRevealStarted = 'true';
+      scheduleHomeTextReveals(target);
+    }
     target.classList.add('media-reveal-active');
     target.dataset.mediaRevealComplete = 'true';
     markCaptionMediaStarted(state.anchor, target, state.error);
@@ -124,6 +174,35 @@ const initMediaReveals = (reduceMotion) => {
     if (siblings.every((sibling) => sibling.classList.contains('media-reveal-active'))) {
       observer.unobserve(state.anchor);
     }
+  };
+
+  const flushHomepageReveals = () => {
+    while (nextHomepageTargetIndex < homepageTargets.length) {
+      const target = homepageTargets[nextHomepageTargetIndex];
+      const state = states.get(target);
+      if (!state?.intersecting || !state.ready || !state.painted) return;
+
+      state.queued = true;
+      const now = performance.now();
+      const startAt = Math.max(now, nextHomepageRevealStart);
+      nextHomepageRevealStart = startAt + homepageRevealStagger;
+      const delay = Math.max(0, startAt - now);
+      target.dataset.homeProjectRevealIndex = String(nextHomepageTargetIndex);
+      target.dataset.homeProjectRevealStagger = String(homepageRevealStagger);
+      target.dataset.homeProjectRevealDelay = String(Math.round(delay));
+      window.setTimeout(() => activateTarget(target, state), delay);
+      nextHomepageTargetIndex += 1;
+    }
+  };
+
+  const reveal = (target) => {
+    const state = states.get(target);
+    if (target.hasAttribute('data-home-project-media-reveal')) {
+      flushHomepageReveals();
+      return;
+    }
+    if (!state?.intersecting || !state.ready || !state.painted || state.queued || target.classList.contains('media-reveal-active')) return;
+    activateTarget(target, state);
   };
 
   const observer = new IntersectionObserver((entries) => {
@@ -140,7 +219,7 @@ const initMediaReveals = (reduceMotion) => {
   targets.forEach((target) => {
     const anchor = target.closest('[data-media-unit]') || target;
     const visual = target.querySelector('[data-media-visual]:not([aria-hidden="true"]), img:not([aria-hidden="true"]), video');
-    const state = { anchor, intersecting: false, ready: false, painted: false, error: false };
+    const state = { anchor, intersecting: false, ready: false, painted: false, error: false, queued: false };
     states.set(target, state);
 
     const markReady = () => {
