@@ -1,0 +1,63 @@
+---
+import { PANEL_LEAD_LINES, PANEL_PROJECTS, PANEL_SUPPORT } from '../data/panel-navigation.js';
+
+const pathname = Astro.url.pathname;
+const isProject = (href: string) => pathname === href || pathname === href.slice(0, -1);
+---
+
+<aside class="portfolio-panel" aria-label="Portfolio introduction and navigation">
+  <h1 class="portfolio-panel-identity">
+    <span>Sākshāt Goyal</span>
+    <span>Product Designer</span>
+  </h1>
+
+  <div class="portfolio-panel-intro">
+    <p class="portfolio-panel-lead">
+      <span class="sr-only">{PANEL_LEAD_LINES.join(' ')}</span>
+      <span class="portfolio-panel-highlight" aria-hidden="true" data-panel-highlight>
+        {PANEL_LEAD_LINES.map((line, index) => (
+          <span class="portfolio-panel-highlight-line" style={`--panel-highlight-index: ${index}`}>{line}</span>
+        ))}
+      </span>
+    </p>
+    <p class="portfolio-panel-support">{PANEL_SUPPORT}</p>
+  </div>
+
+  <nav class="portfolio-panel-navigation" aria-label="Portfolio">
+    <div class="portfolio-panel-projects">
+      {PANEL_PROJECTS.map((project) => (
+        <a
+          class:list={['portfolio-panel-link', { 'is-selected': isProject(project.href) }]}
+          href={project.href}
+          aria-current={isProject(project.href) ? 'page' : undefined}
+          data-tape-label
+          data-tape-frame="true"
+          data-tape-color="var(--panel-label-color)"
+          data-tape-duration="126"
+        >{project.label}</a>
+      ))}
+    </div>
+  </nav>
+
+  <div class="portfolio-panel-footer" aria-label="Contact links">
+    {['Email', 'LinkedIn', 'Resume'].map((label) => (
+      <span
+        role="link"
+        tabindex="0"
+        aria-disabled="true"
+        data-tape-label
+        data-tape-frame="true"
+        data-tape-color="var(--panel-label-color)"
+        data-tape-duration="126"
+        data-tape-disabled="true"
+      >{label}</span>
+    ))}
+  </div>
+</aside>
+
+<script is:inline>
+  const revealPanelHighlights = () => {
+    document.querySelector('[data-panel-highlight]')?.setAttribute('data-highlight-ready', 'true');
+  };
+  (document.fonts?.ready || Promise.resolve()).then(() => requestAnimationFrame(revealPanelHighlights));
+</script>

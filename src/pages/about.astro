@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const leadLines = ['I shape design where problems are', 'undefined, but commitments aren’t.'];
+const support = 'Over the last decade, I’ve led research and product efforts among organizations including Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, Cisco, and more....';
+---
+
+<BaseLayout
+  title="About — Sākshāt Goyal"
+  description="About Sākshāt Goyal, a product designer working on ambiguous and organizationally complicated problems."
+>
+  <article class="about-page">
+    <h1 class="about-page-identity">
+      <span>Sākshāt Goyal</span>
+      <span>Product Designer</span>
+    </h1>
+    <div class="about-page-biography">
+      <p class="about-page-lead">
+        {leadLines.map((line) => <span>{line}</span>)}
+      </p>
+      <p class="about-page-support">{support}</p>
+    </div>
+  </article>
+</BaseLayout>

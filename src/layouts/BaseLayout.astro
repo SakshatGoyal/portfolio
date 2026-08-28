@@ -1,6 +1,6 @@
 ---
-import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import PortfolioPanel from '../components/PortfolioPanel.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -34,11 +34,15 @@ const isHomeSystem = Astro.url.pathname === '/';
   <body id="top">
     <div class="page-shell">
       <a class="skip-link" href="#main-content">Skip to content</a>
-      <SiteHeader theme={theme} />
-      <main id="main-content" tabindex="-1">
-        <slot />
-      </main>
-      <SiteFooter />
+      <div class="site-layout">
+        <PortfolioPanel />
+        <div class="site-content">
+          <main id="main-content" tabindex="-1">
+            <slot />
+          </main>
+          {!isHomeSystem && <SiteFooter />}
+        </div>
+      </div>
     </div>
     <div class="custom-site-cursor" data-custom-cursor aria-hidden="true">
       <svg class="cursor-project-arrow" viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"></path></svg>

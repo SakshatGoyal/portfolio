@@ -8,9 +8,6 @@ import { parseGalleryNotes } from '../data/gallery.js';
 import galleryNotes from '../content/gallery-notes.md?raw';
 
 const galleryProjects = parseGalleryNotes(galleryNotes);
-const heroLeadLines = ['I lead design where problems are', "undefined, but commitments aren't."];
-const heroLead = heroLeadLines.join(' ');
-const heroSupport = 'Over the last decade, I’ve led research and product efforts at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, Cisco, and more.';
 
 const projects = [
   {
@@ -78,6 +75,15 @@ const projects = [
     height: 1080,
     className: 'home-project-cisco',
   },
+  {
+    href: '/work/memory-lane/',
+    title: 'Memory Lane',
+    company: 'PERSONAL ARCHIVE',
+    year: '2018-25',
+    order: 7,
+    placeholder: true,
+    className: 'home-project-memory-lane',
+  },
 ];
 
 ---
@@ -86,97 +92,6 @@ const projects = [
   title="Sākshāt Goyal — Product Designer"
   description="Systems-oriented product designer working on ambiguous, organizationally complicated problems with imperfect data."
 >
-  <section class="home-hero" id="about">
-    <div class="home-hero-band" aria-hidden="true"></div>
-    <div class="home-hero-stage">
-      <div class="home-contact-links" aria-label="Contact links">
-        {['Resume', 'LinkedIn', 'Email'].map((label) => (
-          <span class="home-contact-link" role="link" tabindex="0" aria-disabled="true" data-tape-label>{label}</span>
-        ))}
-      </div>
-      <div class="home-identity">
-        <h1>
-          <span>Sākshāt Goyal</span>
-          <span data-home-identity-fit>Product Designer</span>
-        </h1>
-      </div>
-      <div class="home-bio" data-home-bio>
-        <p class="home-bio-sentence home-bio-sentence--lead home-bio-sentence--animated">
-          <span class="sr-only">{heroLead}</span>
-          <span class="home-bio-words" aria-hidden="true">
-            {heroLeadLines.map((line, lineIndex) => {
-              const priorWords = heroLeadLines.slice(0, lineIndex).join(' ').split(' ').filter(Boolean).length;
-              return (
-                <span class="home-bio-line" data-home-bio-fit={lineIndex === 1 ? 'true' : undefined}>
-                  {line.split(' ').map((word, wordIndex) => (
-                    <span class="home-bio-word" style={`--hero-word-index: ${priorWords + wordIndex}`}>{word}</span>
-                  ))}
-                </span>
-              );
-            })}
-          </span>
-        </p>
-        <p class="home-bio-sentence home-bio-sentence--support" data-home-support>{heroSupport}</p>
-      </div>
-    </div>
-  </section>
-
-  <script is:inline>
-    const homeHeroStage = document.querySelector('.home-hero-stage');
-    const homeIdentity = document.querySelector('.home-identity h1');
-    const homeIdentityFitLine = document.querySelector('[data-home-identity-fit]');
-    const homeBio = document.querySelector('[data-home-bio]');
-    const homeBioFitLine = document.querySelector('[data-home-bio-fit]');
-    if (homeHeroStage && homeIdentity && homeIdentityFitLine && homeBio && homeBioFitLine) {
-      const renderedTextWidth = (element) => {
-        const range = document.createRange();
-        range.selectNodeContents(element);
-        return range.getBoundingClientRect().width;
-      };
-      const fitTextToWidth = (owner, line, targetWidth, property) => {
-        const currentSize = Number.parseFloat(getComputedStyle(owner).fontSize);
-        const currentWidth = renderedTextWidth(line);
-        if (!currentSize || !currentWidth || !targetWidth) return;
-        owner.style.setProperty(property, `${currentSize * (targetWidth / currentWidth)}px`);
-      };
-      let fitFrame = 0;
-      const fitHomeTypography = () => {
-        fitFrame = 0;
-        for (let pass = 0; pass < 2; pass += 1) {
-          fitTextToWidth(
-            homeIdentity,
-            homeIdentityFitLine,
-            homeIdentity.parentElement.getBoundingClientRect().width,
-            '--home-identity-font-size',
-          );
-          fitTextToWidth(
-            homeBio,
-            homeBioFitLine,
-            homeBio.getBoundingClientRect().width,
-            '--home-bio-font-size',
-          );
-        }
-        const leadLineWidths = [...homeBio.querySelectorAll('.home-bio-line')]
-          .map((line) => renderedTextWidth(line));
-        const visibleLeadWidth = Math.max(...leadLineWidths, 0);
-        if (visibleLeadWidth) {
-          const boundedLeadWidth = Math.floor(visibleLeadWidth * 1000) / 1000;
-          homeBio.style.setProperty('--home-bio-measure', `${boundedLeadWidth}px`);
-        }
-        const bioLineHeight = Number.parseFloat(getComputedStyle(homeBio).lineHeight);
-        if (bioLineHeight) homeHeroStage.style.setProperty('--home-bio-half-line', `${bioLineHeight / 2}px`);
-      };
-      const queueHomeTypographyFit = () => {
-        if (fitFrame) return;
-        fitFrame = requestAnimationFrame(fitHomeTypography);
-      };
-      document.fonts?.ready.then(queueHomeTypographyFit);
-      new ResizeObserver(queueHomeTypographyFit).observe(homeHeroStage);
-      window.addEventListener('resize', queueHomeTypographyFit, { passive: true });
-      fitHomeTypography();
-    }
-  </script>
-
   <section class="home-work" id="work">
     <PageHeading title="Selected Work" level="h2" />
     <div class="home-project-scroller">
@@ -195,7 +110,13 @@ const projects = [
                 </div>
                 <span class="home-project-view" data-tape-label>View Project</span>
               </div>
-              {project.video ? (
+              {project.placeholder ? (
+                <div class="home-project-media" data-media-reveal>
+                  <span class="media-reveal-clip" data-media-reveal-clip>
+                    <span class="home-project-media-visual media-reveal-rise home-project-placeholder" data-media-reveal-rise data-asset-surface aria-hidden="true"></span>
+                  </span>
+                </div>
+              ) : project.video ? (
                 <div class="home-project-media" data-media-reveal>
                   <span class="media-reveal-clip" data-media-reveal-clip>
                     <span class="home-project-media-visual media-reveal-rise playable-media-surface" data-media-reveal-rise data-asset-surface data-playable-media>
@@ -284,7 +205,7 @@ const projects = [
         const columnWidth = (gridWidth - columnGap) / 2;
         const secondColumnX = columnWidth + columnGap;
         projectGrid.dataset.homeLayout = 'medium';
-        [1, 4].forEach((order) => setGeometry(order, 0, 0, columnWidth));
+        [1, 4, 7].forEach((order) => setGeometry(order, 0, 0, columnWidth));
         [2, 3, 5, 6].forEach((order) => setGeometry(order, secondColumnX, 0, columnWidth));
 
         const height1 = slotHeight(1);
@@ -293,6 +214,7 @@ const projects = [
         const height4 = slotHeight(4);
         const height5 = slotHeight(5);
         const height6 = slotHeight(6);
+        const height7 = slotHeight(7);
         const rowGap = Number.parseFloat(
           getComputedStyle(projectGrid).getPropertyValue('--home-project-row-gap'),
         ) || 0;
@@ -300,19 +222,21 @@ const projects = [
         projectGrid.style.setProperty('--home-project-second-column-offset', cssPixels(secondColumnOffset));
 
         const columnOneSecondTop = height1 + rowGap;
+        const columnOneThirdTop = columnOneSecondTop + height4 + rowGap;
         const columnTwoFirstTop = secondColumnOffset;
         const columnTwoSecondTop = columnTwoFirstTop + height2 + rowGap;
         const columnTwoThirdTop = columnTwoSecondTop + height3 + rowGap;
         const columnTwoFourthTop = columnTwoThirdTop + height5 + rowGap;
 
         setGeometry(4, 0, columnOneSecondTop, columnWidth);
+        setGeometry(7, 0, columnOneThirdTop, columnWidth);
         setGeometry(2, secondColumnX, columnTwoFirstTop, columnWidth);
         setGeometry(3, secondColumnX, columnTwoSecondTop, columnWidth);
         setGeometry(5, secondColumnX, columnTwoThirdTop, columnWidth);
         setGeometry(6, secondColumnX, columnTwoFourthTop, columnWidth);
         const trailingSpace = Number.parseFloat(getComputedStyle(projectGrid).paddingBottom) || 0;
         projectGrid.style.height = cssPixels(Math.max(
-          columnOneSecondTop + height4,
+          columnOneThirdTop + height7,
           columnTwoFourthTop + height6,
         ) + trailingSpace);
 
@@ -356,67 +280,6 @@ const projects = [
         requestAnimationFrame(() => requestAnimationFrame(() => correctSectionHash(true)));
       });
     }
-
-    const homeSections = ['about', 'work', 'gallery']
-      .map((id) => document.getElementById(id))
-      .filter(Boolean);
-    const homeSectionLinks = [...document.querySelectorAll('[data-home-section-link]')];
-    let sectionStateFrame = 0;
-    let sectionStateTimer = 0;
-    let lockedSectionId = homeSections.some((section) => `#${section.id}` === location.hash)
-      ? location.hash.slice(1)
-      : '';
-    const setHomeSectionState = (sectionId) => {
-      homeSectionLinks.forEach((link) => {
-        const active = link.dataset.homeSectionLink === sectionId;
-        link.classList.toggle('active', active);
-        if (active) link.setAttribute('aria-current', 'location');
-        else link.removeAttribute('aria-current');
-      });
-    };
-    const syncHomeSectionState = () => {
-      sectionStateFrame = 0;
-      const readingLine = window.scrollY + (window.innerHeight * 0.25);
-      const activeSection = homeSections.find((section) => section.id === lockedSectionId)
-        || homeSections.reduce((active, section) => (
-          section.offsetTop <= readingLine ? section : active
-        ), homeSections[0]);
-      setHomeSectionState(activeSection?.id);
-    };
-    const queueHomeSectionState = () => {
-      if (!sectionStateFrame) sectionStateFrame = requestAnimationFrame(syncHomeSectionState);
-      window.clearTimeout(sectionStateTimer);
-      sectionStateTimer = window.setTimeout(syncHomeSectionState, 160);
-    };
-    homeSectionLinks.forEach((link) => {
-      link.addEventListener('click', () => {
-        lockedSectionId = link.dataset.homeSectionLink || '';
-        setHomeSectionState(lockedSectionId);
-      });
-    });
-    window.addEventListener('scroll', queueHomeSectionState, { passive: true });
-    window.addEventListener('scrollend', syncHomeSectionState, { passive: true });
-    window.addEventListener('resize', queueHomeSectionState, { passive: true });
-    window.addEventListener('hashchange', () => {
-      lockedSectionId = homeSections.some((section) => `#${section.id}` === location.hash)
-        ? location.hash.slice(1)
-        : '';
-      queueHomeSectionState();
-    });
-    const releaseSectionLock = () => {
-      if (!lockedSectionId) return;
-      lockedSectionId = '';
-      queueHomeSectionState();
-    };
-    window.addEventListener('wheel', releaseSectionLock, { passive: true });
-    window.addEventListener('touchstart', releaseSectionLock, { passive: true });
-    window.addEventListener('keydown', (event) => {
-      if (['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Home', 'End', ' '].includes(event.key)) {
-        releaseSectionLock();
-      }
-    });
-    document.fonts?.ready.then(queueHomeSectionState);
-    syncHomeSectionState();
 
   </script>
 </BaseLayout>

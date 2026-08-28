@@ -5,6 +5,7 @@ export const CASE_STUDY_SEQUENCE = Object.freeze([
   '/work/one-report/',
   '/work/hitachi-energy/',
   '/work/cisco-customer-insights/',
+  '/work/memory-lane/',
 ]);
 
 const normalizeRoute = (pathname) => pathname.endsWith('/') ? pathname : `${pathname}/`;

@@ -13,14 +13,14 @@ interface TeamMember {
 interface Props {
   headline: string;
   intro: string[];
-  stakeholder: string;
-  skills: string[];
-  year: string;
-  role: string;
-  teamLabel: string;
+  stakeholder?: string;
+  skills?: string[];
+  year?: string;
+  role?: string;
+  teamLabel?: string;
   teamMembers?: TeamMember[];
   teamNote?: string;
-  hero: string;
+  hero?: string;
   heroVideo?: boolean;
   heroWidth?: number;
   heroHeight?: number;
@@ -31,32 +31,38 @@ interface Props {
   heroViewportFit?: boolean;
   theme?: string;
   introSpacing?: 'standard' | 'tight';
+  showMeta?: boolean;
 }
 
 const {
-  headline, intro, stakeholder, skills, year, role, teamLabel, hero, heroVideo = false,
+  headline, intro, stakeholder = '', skills = [], year = '', role = '', teamLabel = '', hero = '', heroVideo = false,
   heroWidth = 1920, heroHeight = 1080, heroCaption, heroPoster,
   heroAutoplayOnView = heroVideo, heroLoop = heroVideo, heroViewportFit = true,
   theme = 'neutral', introSpacing = 'standard',
-  teamMembers = [], teamNote,
+  teamMembers = [], teamNote, showMeta = true,
 } = Astro.props;
 const { previousHref, nextHref } = caseStudyNavigationFor(Astro.url.pathname);
 const hasTeamPanel = Boolean(teamLabel);
 const teamPanelId = `team-panel-${theme}`;
+const hasCustomHero = Astro.slots.has('hero');
 ---
 
 <BaseLayout title={headline} description={headline} theme={theme}>
   <article class="case-study case-study-system">
     <PageHeading title={headline} caseStudy />
 
-    <Figure src={hero} alt={headline} caption={heroCaption} class="hero-figure" eager contain={theme === 'panw'} fluidFrame={theme === 'panw'} squareMedia={theme === 'panw'} viewportFit={heroViewportFit} video={heroVideo} autoplayOnView={heroAutoplayOnView} loop={heroLoop} poster={heroPoster} width={heroWidth} height={heroHeight} />
+    {hasCustomHero ? (
+      <slot name="hero" />
+    ) : (
+      <Figure src={hero} alt={headline} caption={heroCaption} class="hero-figure" eager contain={theme === 'panw'} fluidFrame={theme === 'panw'} squareMedia={theme === 'panw'} viewportFit={heroViewportFit} video={heroVideo} autoplayOnView={heroAutoplayOnView} loop={heroLoop} poster={heroPoster} width={heroWidth} height={heroHeight} />
+    )}
 
     <section class:list={['case-intro', 'reading-column', { tight: introSpacing === 'tight' }]} data-reveal>
       {intro.map((paragraph) => <p>{paragraph}</p>)}
       <slot name="intro-extra" />
     </section>
 
-    <dl class="case-meta reading-column" data-reveal>
+    {showMeta && <dl class="case-meta reading-column" data-reveal>
       <div><dt>Stakeholder</dt><dd>{stakeholder}</dd></div>
       <div><dt>Skills</dt><dd>{skills.map((skill) => <span>{skill}</span>)}</dd></div>
       <div><dt>Year</dt><dd>{year}</dd></div>
@@ -82,9 +88,9 @@ const teamPanelId = `team-panel-${theme}`;
           )}
         </dd>
       </div>
-    </dl>
+    </dl>}
 
-    {hasTeamPanel && (
+    {showMeta && hasTeamPanel && (
       <TeamPanel id={teamPanelId} members={teamMembers} note={teamNote} />
     )}
 

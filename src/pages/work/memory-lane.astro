@@ -1,0 +1,22 @@
+---
+import CaseLayout from '../../layouts/CaseLayout.astro';
+import GalleryProject from '../../components/GalleryProject.astro';
+import { parseGalleryNotes } from '../../data/gallery.js';
+import galleryNotes from '../../content/gallery-notes.md?raw';
+
+const galleryProjects = parseGalleryNotes(galleryNotes);
+const intro = [
+  'Memory Lane is a gallery of projects that shaped how I work but do not need a full case study to remain part of my portfolio. Some capture a specific interaction; others preserve a way of framing a problem, working with a team, or learning through making.',
+  'I keep them together because a design practice is not defined only by its largest launches. It is also built through the experiments, constraints, and lessons that continue to influence how I approach the next problem.',
+];
+---
+
+<CaseLayout headline="Memory Lane" intro={intro} theme="memory-lane" showMeta={false}>
+  <div slot="hero" class="memory-lane-hero-placeholder" aria-label="Memory Lane cover placeholder"></div>
+
+  <div class="gallery-project-list memory-lane-project-list" aria-label="Memory Lane projects">
+    {galleryProjects.map((project) => (
+      <GalleryProject project={project} />
+    ))}
+  </div>
+</CaseLayout>

@@ -16,7 +16,7 @@ This inventory records the active typography system in `src/styles/global.css`. 
 
 The legacy names `--ink`, `--muted`, and `--faint` are aliases to these three tokens, not additional colors. Inverse white text, controls, media surfaces, and branded embedded content remain scoped exceptions to the editorial typography palette.
 
-Bundled families are Manrope 400/500/700, Cabinet Grotesk variable 100–900, Public Sans 400, Inter variable 100–900, Fragment Mono 400, Basically A Mono 400, Clash Display 600, and Cisco Sans 400/700. Manrope is the default; the other families are deliberately scoped to the roles listed below.
+Bundled families are Manrope 400/500/600/700, Cabinet Grotesk variable 100–900, Public Sans 400, Inter variable 100–900, Fragment Mono 400, Basically A Mono 400, Clash Display 600, and Cisco Sans 400/700. Manrope is the default; the other families are deliberately scoped to the roles listed below.
 
 ## Navigation
 
@@ -43,10 +43,11 @@ Both statements are full width below 768px and share a 400px maximum width from 
 
 | Use-case | Literal example from the site | Family | Size / leading | Weight | Tracking | Color | Responsive behavior |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Section title | “Selected Work” | Cabinet Grotesk | 36px / 110% | 400 | 0 | `#000000` | Fixed size |
-| Project title | “Designing AI experiences for deep analysis and traceability.” | Cabinet Grotesk | 24px / normal | 600 | 0.24px | `#000000` | 22px at 720px and below |
-| Client | “PALO ALTO NETWORKS” | Manrope | 14px / 135% | 700 | −2% | `#416870` | Fixed size |
-| Year and separator | `・ 2025–26` | Public Sans | 14px / 135% | 400 | Normal | `#5F787D` | Fixed size |
+| Section title | “Selected Work” | Manrope | 32px / 110% | 500 | −2% | `#000000` | Fixed size |
+| Project title | “Designing AI experiences for deep analysis and traceability.” | Manrope | 24px / normal | 500 | −2% | `#000000` | Fixed size |
+| Client | “PALO ALTO NETWORKS” | Manrope | 14px / normal | 600 | Normal | `#000000` | Fixed size |
+| Year | `2025–26` | Manrope | 14px / normal | 400 | Normal | `#8B8B8B` | Fixed size |
+| Project action | “VIEW PROJECT” | Manrope | 14px / normal | 600 | Normal | `#000000` | Black tape and white text on tile hover or focus |
 
 ## Homepage Gallery
 

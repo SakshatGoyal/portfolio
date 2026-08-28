@@ -1,4 +1,6 @@
 const initMediaReveals = (reduceMotion) => {
+  const galleryRevealLeadDelay = 100;
+  const galleryRevealStagger = 70;
   const groupSelector = [
     '.gallery-project',
     '.media-stack',
@@ -80,12 +82,11 @@ const initMediaReveals = (reduceMotion) => {
     activateCaption(anchor);
   };
 
-  const mobile = window.matchMedia('(max-width: 671px)').matches;
   document.querySelectorAll('[data-media-reveal-group]').forEach((group) => {
     const directTargets = targets.filter((target) => target.closest('[data-media-reveal-group]') === group);
-    const galleryProject = group.matches('.gallery-project');
-    const stagger = directTargets.length > 1 ? (galleryProject ? 70 : (mobile ? 55 : 90)) : 0;
-    const leadDelay = galleryProject ? 100 : 0;
+    const usesGalleryRevealProfile = group.matches('.gallery-project') || Boolean(group.closest('.case-study'));
+    const stagger = directTargets.length > 1 && usesGalleryRevealProfile ? galleryRevealStagger : 0;
+    const leadDelay = usesGalleryRevealProfile ? galleryRevealLeadDelay : 0;
     directTargets.forEach((target, index) => {
       target.style.setProperty('--media-reveal-delay', `${leadDelay + (index * stagger)}ms`);
       target.dataset.mediaRevealIndex = String(index);
@@ -93,7 +94,8 @@ const initMediaReveals = (reduceMotion) => {
     });
   });
   targets.filter((target) => !target.closest('[data-media-reveal-group]')).forEach((target) => {
-    target.style.setProperty('--media-reveal-delay', '0ms');
+    const leadDelay = target.closest('.case-study') ? galleryRevealLeadDelay : 0;
+    target.style.setProperty('--media-reveal-delay', `${leadDelay}ms`);
     target.dataset.mediaRevealIndex = '0';
     target.dataset.mediaRevealStagger = '0';
   });
@@ -159,14 +161,20 @@ const initMediaReveals = (reduceMotion) => {
         (visual instanceof HTMLImageElement && visual.complete && visual.naturalWidth > 0)
         || (visual instanceof HTMLVideoElement && visual.readyState >= 1 && visual.videoWidth > 0)
       );
+      const failed = () => (
+        (visual instanceof HTMLImageElement && visual.complete && visual.naturalWidth === 0)
+        || (visual instanceof HTMLVideoElement && visual.error !== null)
+      );
+      const markErrorReady = () => {
+        state.error = true;
+        target.dataset.mediaRevealError = 'true';
+        markReady();
+      };
       if (usable()) markReady();
+      else if (failed()) markErrorReady();
       else {
         visual.addEventListener(visual instanceof HTMLVideoElement ? 'loadedmetadata' : 'load', markReady, { once: true });
-        visual.addEventListener('error', () => {
-          state.error = true;
-          target.dataset.mediaRevealError = 'true';
-          markReady();
-        }, { once: true });
+        visual.addEventListener('error', markErrorReady, { once: true });
       }
     } else {
       markReady();
@@ -433,18 +441,34 @@ const initTapeLabels = () => {
     });
     label.replaceChildren(accessible, visual);
 
+    const labelStyles = getComputedStyle(label);
+    const frameAligned = label.dataset.tapeFrame === 'true';
+    const framePaddingLeft = frameAligned ? Number.parseFloat(labelStyles.paddingLeft) || 0 : 0;
+    const framePaddingRight = frameAligned ? Number.parseFloat(labelStyles.paddingRight) || 0 : 0;
+    const framePaddingY = frameAligned
+      ? (Number.parseFloat(labelStyles.paddingTop) || 0) + (Number.parseFloat(labelStyles.paddingBottom) || 0)
+      : 0;
     visual.querySelectorAll('.home-tape-line').forEach((line) => {
       const text = line.querySelector('span');
-      const duration = tapeMotionDurations.get(text.textContent || '');
+      if (label.dataset.tapeColor) line.style.setProperty('--tape-color', label.dataset.tapeColor);
+      const requestedDuration = Number(label.dataset.tapeDuration);
+      const duration = Number.isFinite(requestedDuration) && requestedDuration >= 0
+        ? requestedDuration
+        : tapeMotionDurations.get(text.textContent || '');
       if (duration) line.style.setProperty('--tape-motion-duration', `${duration}ms`);
       const textWidth = text.getBoundingClientRect().width;
-      const computedLineHeight = Number.parseFloat(getComputedStyle(label).lineHeight);
-      const lineHeight = Number.isFinite(computedLineHeight) ? computedLineHeight : line.getBoundingClientRect().height;
-      const overhang = Number.isFinite(forcedOverhang) ? forcedOverhang : Math.round(lineHeight * 0.21);
+      const computedLineHeight = Number.parseFloat(labelStyles.lineHeight);
+      const contentLineHeight = Number.isFinite(computedLineHeight) ? computedLineHeight : line.getBoundingClientRect().height;
+      const lineHeight = contentLineHeight + framePaddingY;
+      const overhang = frameAligned
+        ? framePaddingLeft
+        : (Number.isFinite(forcedOverhang) ? forcedOverhang : Math.round(lineHeight * 0.21));
       line.style.setProperty('--tape-overhang', `${overhang}px`);
       line.style.setProperty('--tape-line-height', `${lineHeight}px`);
-      line.style.setProperty('--tape-width', `${Math.ceil(textWidth) + (overhang * 2)}px`);
+      const tapeTextWidth = frameAligned ? textWidth : Math.ceil(textWidth);
+      line.style.setProperty('--tape-width', `${tapeTextWidth + framePaddingLeft + framePaddingRight + (frameAligned ? 0 : overhang * 2)}px`);
     });
+    if (label.getAttribute('aria-disabled') === 'true') label.dataset.tapeDisabled = 'true';
   };
 
   const renderAll = () => {

@@ -78,7 +78,7 @@ Typography families, sizes, line heights, and colors are system-level. Weight ch
 
 Use explicit `strong`, `emphasis`, or component modifiers for approved weight changes. Do not override typography ad hoc by page or selector position.
 
-All Manrope roles use `-.02em` letter spacing. Manrope weights 400, 500, and 700 are bundled under `public/fonts/` and must remain the active body-family assets.
+All Manrope roles use `-.02em` letter spacing unless an approved Figma role specifies normal tracking. Manrope weights 400, 500, 600, and 700 are bundled under `public/fonts/` and must remain the active body-family assets.
 
 Cabinet Grotesk is a required design asset and is bundled at `public/fonts/cabinet-grotesk-variable.ttf`. Do not replace it with a metrically similar or locally available substitute. If the asset fails to load, treat that as an implementation failure and restore the specified face rather than changing the design-system token.
 

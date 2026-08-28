@@ -1,6 +1,15 @@
 import { readFile } from 'node:fs/promises';
 
 const read = (path) => readFile(new URL(path, import.meta.url), 'utf8');
+const caseStudySlugs = [
+  'panw-ai',
+  'hbs-ai-institute',
+  'global-data-analytics',
+  'one-report',
+  'hitachi-energy',
+  'cisco-customer-insights',
+  'memory-lane',
+];
 const [
   styles,
   layout,
@@ -21,6 +30,9 @@ const [
   responsiveVideo,
   playbackController,
   multiscriptNameStrip,
+  about,
+  portfolioPanel,
+  caseStudySources,
 ] = await Promise.all([
   read('../src/styles/global.css'),
   read('../src/layouts/BaseLayout.astro'),
@@ -41,6 +53,9 @@ const [
   read('../src/components/ResponsiveVideo.astro'),
   read('../src/scripts/media-playback-controller.js'),
   read('../src/components/MultiscriptNameStrip.astro'),
+  read('../src/pages/about.astro'),
+  read('../src/components/PortfolioPanel.astro'),
+  Promise.all(caseStudySlugs.map((slug) => read(`../src/pages/work/${slug}.astro`))),
 ]);
 
 const errors = [];
@@ -79,7 +94,8 @@ requireText(styles, '--ink: var(--text-primary);', 'The legacy ink token must al
 requireText(styles, '--muted: var(--text-secondary);', 'The legacy muted token must alias the canonical secondary token.');
 requireText(styles, '--faint: var(--text-tertiary);', 'The legacy faint token must alias the canonical tertiary token.');
 if (contrastRatio('5f787d', 'fafafa') < 4.5) errors.push('Editorial tertiary text must retain at least 4.5:1 contrast against #FAFAFA.');
-requireCount(styles, "font-family: 'Manrope';", 3, 'Manrope weights 400, 500, and 700 must remain registered as bundled site fonts.');
+requireCount(styles, "font-family: 'Manrope';", 4, 'Manrope weights 400, 500, 600, and 700 must remain registered as bundled site fonts.');
+requireText(styles, "src: url('/fonts/manrope-600.ttf') format('truetype');\n  font-weight: 600;", 'Manrope SemiBold must resolve to its bundled 600-weight font file.');
 if (home.includes('MultiscriptNameStrip')) {
   errors.push('The alternate homepage must not import or render the multilingual name strip.');
 }
@@ -90,11 +106,6 @@ requireText(multiscriptNameStrip, "'साक्षात् गोयल'", 'Th
 requireText(multiscriptNameStrip, "'સાક્ષાત્ ગોયલ'", 'The strip must retain the Gujarati name.');
 requireText(multiscriptNameStrip, "'ஸாக்ஷாத் கோயல்'", 'The strip must retain the Tamil name.');
 requireText(multiscriptNameStrip, "'Sākshāt Goyal'", 'The strip must retain the Latin name.');
-requireText(styles, 'width: 100vw;\n  height: 76px;\n  overflow-x: clip;\n  overflow-y: visible;\n  color: #afd0c9;', 'The multiscript strip must remain a 76px full-bleed band that clips horizontal overflow without cropping script glyphs.');
-requireText(styles, 'gap: 4px;\n  width: 100%;\n  height: 100%;', 'The multiscript strip rows must retain their 4px vertical stagger.');
-requireText(styles, 'width: 4454px;\n  min-width: 4454px;\n  height: 16px;\n  padding-left: var(--multiscript-row-offset);\n  transform: translateX(-50%);', 'Every multiscript row must retain the centered 4454px Figma coordinate system and measured inset.');
-requireText(styles, 'gap: 6px;\n  width: 359px;\n  height: 16px;', 'Each repeated multiscript group must retain its 359px by 16px Figma geometry.');
-requireText(styles, "font: 400 14px/16px 'Manrope', 'Manrope Script Fallback', Arial, sans-serif;\n  letter-spacing: -.42px;", 'The strip must retain Manrope with Figma-equivalent Noto script fallback at the specified size and tracking.');
 requireCount(styles, "font-family: 'Manrope Script Fallback';", 3, 'The strip must register deterministic Figma-equivalent fallback faces for all three Indic scripts.');
 requireText(styles, 'notosansdevanagari', 'The strip must retain the Noto Sans Devanagari fallback used by Figma.');
 requireText(styles, 'notosansgujarati', 'The strip must retain the Noto Sans Gujarati fallback used by Figma.');
@@ -109,10 +120,14 @@ if (!designSystem.includes('| Narrative body | Manrope |') || designSystem.inclu
 }
 const approvedManropeTrackingOverrides = new Set([
   '.multiscript-name-strip__name',
-  '.site-header',
-  '.home-identity h1',
-  '.home-contact-link',
-  '.home-bio',
+  '.portfolio-panel-identity',
+  '.portfolio-panel-lead',
+  '.portfolio-panel-support',
+  '.portfolio-panel-navigation',
+  '.portfolio-panel-footer',
+  '.about-page-identity',
+  '.about-page-lead',
+  '.about-page-support',
   '.home-project-meta-primary',
   '.home-project-view',
 ]);
@@ -130,52 +145,44 @@ requireText(styles, '.project-image { position: relative; overflow: hidden; min-
 requireText(styles, '.project-card.square img { object-fit: contain; transform: scale(.76); border-radius: 0; }', 'Legacy square project images must not restore rounded corners.');
 requireText(styles, 'body :is(p, li, h1, h2, h3, h4, h5, h6, figcaption, blockquote) { text-wrap: pretty; }', 'Every site-wide editorial text block must opt into pretty wrapping.');
 requireText(styles, '.line-mask-final-pair { white-space: nowrap; }', 'Animated headings must keep their final two words on the same line.');
-requireText(styles, 'font: 500 var(--home-bio-font-size, clamp(20px, 1.92cqi, 32px))/1.267 var(--body-font);', 'Both homepage bio sentences must share the measured responsive scale and compact fitted leading.');
-requireText(styles, 'letter-spacing: -.03em;', 'The homepage bio must retain the Figma minus-three-percent tracking.');
-if (styles.includes("/* Re-evaluate em-based tracking at each Manrope role's own font size. */\n.home-bio,")) {
-  errors.push('The legacy shared Manrope rule must not override the homepage bio’s minus-three-percent tracking.');
+requireText(portfolioPanel, '<aside class="portfolio-panel" aria-label="Portfolio introduction and navigation">', 'The shared shell must include the Figma portfolio panel.');
+requireText(layout, '<PortfolioPanel />', 'The portfolio panel must render on every site route.');
+requireText(layout, '<div class="site-content">', 'Page content must share the right content column.');
+requireText(styles, 'grid-template-columns: 25vw minmax(0, 75vw);', 'Desktop must use the reversed 25/75 panel and content split.');
+requireText(styles, 'position: sticky;\n  top: 0;', 'The desktop portfolio panel must remain pinned while the right column scrolls.');
+requireText(styles, '--panel-scale: min(0.054348vw, 1.3px);', 'Desktop panel measurements must scale from the 460px Figma reference and cap at 1.3.');
+requireText(styles, '--panel-label-color: #000;', 'Every portfolio-panel navigation and footer label must rest in black and use black tape.');
+requireText(styles, 'padding: calc(32 * var(--panel-scale));', 'The portfolio panel must preserve the scaled 32px Figma inset.');
+requireText(styles, 'font: 600 calc(32 * var(--panel-scale))/1 var(--body-font);\n  letter-spacing: -.04em;', 'Panel identity must preserve the Figma 32px semibold, 100% leading, and minus-four-percent tracking.');
+requireText(styles, 'font: 600 calc(24 * var(--panel-scale))/calc(33 * var(--panel-scale)) var(--body-font);\n  letter-spacing: -.03em;', 'Panel lead must preserve the Figma 24/33 semibold typography.');
+requireText(styles, 'color: #819a9f;\n  font: 500 calc(20 * var(--panel-scale))/calc(27 * var(--panel-scale)) var(--body-font);\n  letter-spacing: -.03em;', 'Panel supporting copy must preserve the Figma color and 20/27 typography.');
+requireText(styles, 'padding-inline-start: calc(32 * var(--panel-scale));', 'Panel project rows must retain their 32px inset.');
+requireText(styles, 'gap: calc(2 * var(--panel-scale));', 'Panel project rows must retain their 2px gap.');
+requireText(styles, 'background: #beff3f;', 'Panel lead highlights must use the Figma neon green.');
+requireText(styles, 'transition: clip-path 126ms var(--expressive-ease-in-out);', 'Panel highlights must use the 126ms tape wipe.');
+requireText(styles, 'transition-delay: calc(var(--panel-highlight-index) * 60ms);', 'Panel highlight lines must retain their 60ms stagger.');
+requireText(styles, '@media (max-width: 900px) {\n  .site-layout { display: block; }', 'At 900px and below the panel must stack above the content.');
+requireText(styles, '--panel-scale: min(0.217391vw, 1.3px);', 'The stacked panel must scale from its full viewport width.');
+for (const attribute of ['role="link"', 'tabindex="0"', 'aria-disabled="true"', 'data-tape-frame="true"', 'data-tape-color="var(--panel-label-color)"', 'data-tape-duration="126"', 'data-tape-disabled="true"']) {
+  requireText(portfolioPanel, attribute, `Panel labels must retain ${attribute}.`);
 }
-requireText(styles, '.home-bio-sentence--lead { color: #000; font-weight: 600; }', 'The homepage lead sentence must remain black semibold.');
-requireText(styles, 'width: min(100%, var(--home-bio-measure, 100%));\n  color: #8b8b8b;\n  font-size: inherit;\n  font-weight: 500;', 'The supporting statement must inherit the lead size and never exceed the rendered lead width.');
-requireText(styles, '.home-bio > * + * { margin-top: 16px; }', 'The two homepage bio statements must retain their exact 16px gap.');
-requireText(styles, '.home-bio-line {\n  display: flex;', 'The lead statement must own explicit line wrappers.');
-requireText(styles, '.js .home-bio-sentence--animated .home-bio-word {', 'Only the explicitly animated lead sentence may run the word entrance.');
-requireText(styles, 'animation: home-bio-word-reveal 200ms linear forwards;', 'Lead-sentence words must use the requested doubled 200ms opacity entrance.');
-requireText(styles, 'animation-delay: calc(var(--hero-word-index) * 150ms);', 'Hero words must use the requested doubled 150ms stagger.');
-requireText(home, '<span class="sr-only">{heroLead}</span>', 'The animated lead sentence must preserve an unsplit accessible copy.');
-requireText(home, 'const heroLeadLines = [\'I lead design where problems are\', "undefined, but commitments aren\'t."];', 'The primary bio must force its second line to begin with “undefined.”');
-requireText(home, '<p class="home-bio-sentence home-bio-sentence--support" data-home-support>{heroSupport}</p>', 'The supporting sentence must remain static and measurable for fold verification.');
-requireText(styles, '.home-bio-sentence--animated .home-bio-word {\n    opacity: 1 !important;\n    animation: none !important;', 'Reduced motion must bypass the lead-sentence word sequence.');
-requireText(home, '<div class="home-hero-band" aria-hidden="true"></div>', 'The alternate hero must begin with its edge-to-edge presentation band.');
-requireText(styles, '.home-hero-band {\n  width: calc(100% - 64px);\n  height: 240px;\n  margin-inline: 32px;\n  background: #f5f5f5;', 'The presentation band must remain #F5F5F5, exactly 240px tall, and inset 32px from both edges.');
-requireText(styles, 'grid-template-columns: 39fr 61fr;', 'The desktop hero must retain its complementary 39% and 61% columns.');
-requireText(styles, 'column-gap: 48px;', 'The fitted lead and identity blocks must retain their requested 48px desktop gutter.');
-requireText(styles, 'min-height: calc(100dvh - var(--site-header-height) - 240px + var(--home-bio-half-line, clamp(13.75px, 1.273cqi, 22px)));', 'The hero stage must extend half the measured bio line below the dynamic viewport fold.');
-requireText(styles, 'padding-inline: 32px;', 'The hero stage must retain its fixed 32px horizontal padding.');
-requireText(styles, 'font: 400 var(--home-identity-font-size, clamp(36px, 8.05cqi, 134px))/1 var(--body-font);\n  letter-spacing: -.04em;', 'The two-line identity must retain its measured responsive scale, regular weight, and Figma tracking.');
-requireText(home, 'data-home-identity-fit>Product Designer</span>', 'Product Designer must be the measured identity alignment line.');
-if (home.indexOf('<div class="home-contact-links"') > home.indexOf('<div class="home-identity">')) {
-  errors.push('Hero contact links must precede the identity in source and visual order.');
+requireText(motionSystem, 'const requestedDuration = Number(label.dataset.tapeDuration);', 'Tape labels must support per-label duration data.');
+requireText(motionSystem, "if (label.dataset.tapeColor) line.style.setProperty('--tape-color', label.dataset.tapeColor);", 'Tape labels must support per-label tape colors.');
+requireText(motionSystem, "if (label.getAttribute('aria-disabled') === 'true') label.dataset.tapeDisabled = 'true';", 'Tape labels must expose their disabled-link state.');
+requireText(styles, '[data-tape-label]:focus-visible .home-tape-line > i,', 'Project and panel labels must expose their tape state to keyboard focus.');
+requireText(styles, '[data-tape-label]:hover .home-tape-line > i,', 'Project and panel labels must expose their tape state to fine-pointer hover.');
+requireText(styles, '.js .portfolio-panel-highlight-line::before { clip-path: inset(0) !important; transition: none !important; }', 'Reduced motion must show the completed highlight without animation.');
+requireText(about, 'class="about-page"', 'The About route must render its minimal biography page.');
+requireText(motionSystem, "const frameAligned = label.dataset.tapeFrame === 'true';", 'Panel tape must derive its geometry from the full padded item frame.');
+requireText(motionSystem, 'const framePaddingY = frameAligned', 'Panel tape must include both vertical frame paddings.');
+requireText(portfolioPanel, "const isProject = (href: string) => pathname === href", 'Case-study routes must select their matching panel project.');
+for (const removedPanelLabel of ['Selected Work', 'Gallery', 'About Me']) {
+  if (portfolioPanel.includes(`>${removedPanelLabel}</a>`)) {
+    errors.push(`The shared panel must not render the removed ${removedPanelLabel} link.`);
+  }
 }
-requireText(styles, 'padding-block: 32px 64px;', 'The Product Designer identity block must retain 64px of bottom padding.');
-requireText(home, "data-home-bio-fit={lineIndex === 1 ? 'true' : undefined}", 'The second lead line must own the left-column alignment measurement.');
-requireText(home, "owner.style.setProperty(property, `${currentSize * (targetWidth / currentWidth)}px`);", 'Hero typography must scale from rendered text width to its current grid target.');
-requireText(home, "homeHeroStage.style.setProperty('--home-bio-half-line', `${bioLineHeight / 2}px`);", 'The fold offset must follow half the fitted bio line height.');
-requireText(styles, 'gap: 32px;\n  min-width: 0;', 'The hero contact labels must remain exactly 32px apart.');
-requireText(styles, 'font: 500 16px/1 var(--body-font);\n  letter-spacing: -.02em;', 'Hero contact labels must use Manrope 16px medium type at minus-two-percent tracking.');
-requireText(styles, '.home-contact-link {\n  display: inline-flex;\n  align-items: center;\n  padding: 0;', 'Contact labels must not add hidden box padding to their requested 32px visual gaps.');
-requireText(styles, '@media (max-width: 916px) {\n  .home-hero-stage {\n    grid-template-columns: minmax(0, 1fr);', 'The hero must stack without min-content overflow when the desktop 61% column falls below 520px.');
-requireText(styles, '@media (max-width: 359px) {\n  .home-identity h1 { font-size: 26px; }\n}', 'The smallest viewport must fit both identity lines without horizontal clipping.');
-for (const label of ['Resume', 'LinkedIn', 'Email']) {
-  requireText(home, `'${label}'`, `The hero must retain the ${label} placeholder.`);
-  requireText(motionSystem, `['${label}', 126]`, `${label} tape motion must match the Team label duration.`);
-}
-requireText(home, 'role="link" tabindex="0" aria-disabled="true" data-tape-label', 'Contact placeholders must remain focusable, aria-disabled tape labels.');
-requireText(home, 'const boundedLeadWidth = Math.floor(visibleLeadWidth * 1000) / 1000;', 'The supplementary measure must never round beyond the rendered width of the primary bio.');
-requireText(home, "homeBio.style.setProperty('--home-bio-measure', `${boundedLeadWidth}px`);", 'The supplementary measure must follow the rendered width of the primary bio.');
-requireText(styles, 'grid-row: 1 / -1;', 'The desktop bio must bottom-align independently of the identity and contact rows.');
-for (const label of ['Selected Work', 'Gallery', 'About']) {
-  requireText(motionSystem, `['${label}', 126]`, `${label} tape motion must match the Team label duration.`);
+if (portfolioPanel.includes('data-panel-section') || portfolioPanel.includes('setPanelSection')) {
+  errors.push('The shared panel must not retain homepage section-selection behavior.');
 }
 for (const [, selector, body] of styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
   const ownsHomeWork = selector.split(',').some((part) => part.trim() === '.home-work');
@@ -209,46 +216,23 @@ for (const className of ['home-project-copy', 'home-project-meta']) {
   }
 }
 
-for (const expected of [
-  'class="site-header" data-site-header',
-  'class="site-header-nav-list"',
-  'header-tape-label',
-  'data-tape-label',
-]) requireText(siteHeader, expected, `The Antinomi header DOM contract is missing: ${expected}`);
-for (const label of ['Selected Work', 'Gallery', 'About']) {
-  requireText(siteHeader, `label: '${label}'`, `The shared header must retain the ${label} link.`);
-}
 if (siteHeader.includes("label: 'Contact'") || siteHeader.includes("href: '/#contact'") || siteFooter.includes('id="contact"')) {
   errors.push('Contact navigation and its obsolete footer anchor must remain removed.');
 }
-requireText(styles, '--site-header-height: 54px;', 'The alternate solid header must remain at its requested 54px maximum height.');
-requireText(styles, '--site-header-padding-inline: clamp(16px, 2.222vw, 32px);', 'The header must keep 32px desktop padding and reduce it only when the viewport requires it.');
-requireText(styles, '--site-header-nav-gap: 32px;', 'The three navigation labels must remain exactly 32px apart.');
 requireText(styles, '--site-navigation-outline: color-mix(in srgb, var(--text-primary) 5%, transparent);', 'Header and case-navigation outlines must share the subtle navigation token.');
-requireText(styles, 'padding-inline: var(--site-header-padding-inline);\n  background: #fff;\n  color: var(--text-primary);\n  font: 500 16px/1 var(--body-font);\n  letter-spacing: -.02em;', 'The solid header must use the white fill and Manrope 16px medium type at minus-two-percent tracking.');
-requireText(styles, 'gap: var(--site-header-nav-gap);\n  margin: 0;\n  padding: 0;\n  list-style: none;', 'The header list must use the fixed 32px navigation gap without browser offsets.');
-for (const removed of ['site-header-capsule', 'site-header-brand', 'site-header-person', 'site-header-role']) {
-  if (siteHeader.includes(removed)) errors.push(`The alternate solid header must not retain ${removed}.`);
+if (layout.includes("import SiteHeader") || layout.includes('<SiteHeader')) {
+  errors.push('The global top navigation must not render on any route.');
 }
-if (siteHeader.includes('site-header-separator') || siteHeader.includes('・')) {
-  errors.push('Primary navigation must not render dot separators between its labels.');
-}
-requireText(siteHeader, "{ label: 'Selected Work', href: '/#work', section: 'work', active: false }", 'Selected Work must not render active on case-study or future non-home routes.');
-if (siteHeader.includes("path.startsWith('/work/')")) {
-  errors.push('Case-study routes must not force Selected Work into an active state.');
-}
+if (styles.includes('.site-header {')) errors.push('The removed global header must not retain active layout CSS.');
+requireText(layout, '{!isHomeSystem && <SiteFooter />}', 'The existing homepage footer must remain suppressed.');
 requireText(lineSystem, "id: 'case-meta-row-rules'", 'Every case study must retain the shared metadata row divider topology.');
 requireText(lineSystem, "widthSource: '.case-intro > p'", 'Metadata dividers must derive their width from the rendered body-text guideline.');
 requireText(lineSystem, "token: 'navigation-outline'", 'Metadata dividers must use the shared navigation-outline token.');
 requireText(styles, '.line-system-path.line-token-navigation-outline { stroke: var(--site-navigation-outline); }', 'Metadata divider strokes must exactly match the UI navigation border color.');
-requireText(home, 'let lockedSectionId = homeSections.some', 'In-page navigation must preserve its requested active state during smooth scrolling.');
-requireText(home, "lockedSectionId = link.dataset.homeSectionLink || '';", 'Clicking an in-page navigation link must lock its active state before scrolling starts.');
-requireText(home, "window.addEventListener('wheel', releaseSectionLock", 'Direct user scrolling must release the in-page navigation lock.');
-requireText(home, "window.addEventListener('scrollend', syncHomeSectionState", 'The homepage navigation state must settle after smooth scrolling and late layout changes.');
 requireText(lineSystem, 'window.__lineSystemDispose?.();', 'Line-system initialization must dispose an existing runtime before remounting.');
 requireText(lineSystem, "document.querySelectorAll('.line-system-layer').forEach((layer) => layer.remove());", 'Line-system initialization must remove orphan legacy layers.');
 
-requireCount(home, 'data-asset-surface', 2, 'Homepage media branches must each declare their clipping owner.');
+requireCount(home, 'data-asset-surface', 3, 'Homepage image, video, and Memory Lane placeholder branches must each declare their clipping owner.');
 requireText(styles, '--home-ink: var(--text-primary);', 'Homepage titles must inherit editorial primary.');
 requireText(styles, '--home-secondary: var(--text-tertiary);', 'Homepage tertiary roles and footer must inherit editorial tertiary.');
 requireText(styles, '.home-project-client { color: #000; font-weight: 600; text-transform: uppercase; }', 'Selected Work clients must use the Figma black uppercase semibold treatment.');
@@ -266,6 +250,10 @@ requireText(home, 'class="home-project-view" data-tape-label>View Project</span>
 requireText(motionSystem, "['View Project', 126]", 'View Project tape motion must match the Team label duration.');
 requireText(styles, '.home-project-card:hover .home-project-view .home-tape-line > i {', 'Tile hover must animate the View Project tape.');
 requireText(styles, '.home-project-card:focus-within .home-project-view .home-tape-line > i {', 'Tile keyboard focus must animate the View Project tape.');
+requireText(styles, '--tape-color: #000;\n  color: transparent;', 'View Project must remain invisible at rest while reserving its metadata space for the black tape.');
+requireText(styles, '.home-project-view .home-tape-line > span { color: transparent; }', 'The generated View Project tape text must remain invisible until tile hover or focus.');
+requireText(styles, '.home-project-card:hover .home-project-view .home-tape-line > span { color: #fff; }', 'Tile hover must expose View Project in white on black tape.');
+requireText(styles, '.home-project-card:focus-within .home-project-view .home-tape-line > span { color: #fff; }', 'Tile keyboard focus must expose View Project in white on black tape.');
 requireText(styles, '.home-tape-line > i,\n  .home-tape-line > span,\n  .custom-site-cursor,', 'View Project tape motion must retain the shared reduced-motion override.');
 const bodyRevealSource = motionSystem.slice(
   motionSystem.indexOf('const initBodyReveals'),
@@ -297,9 +285,15 @@ if (styles.includes(".home-project-grid:not([data-home-layout='small']) .home-pr
 requireText(home, "getPropertyValue('--home-project-column-gap')", 'Selected Work geometry must read the shared column-gap token.');
 requireText(home, "getPropertyValue('--home-project-row-gap')", 'Selected Work geometry must read the shared 24px row-gap token.');
 requireText(home, 'const secondColumnOffset = height1 * 0.2;', 'HBS must retain its 20%-of-PANW starting offset independently of the tile gaps.');
-requireText(home, '[1, 4].forEach((order) => setGeometry(order, 0, 0, columnWidth));', 'PANW and One Report must remain in the first Selected Work column.');
+requireText(home, '[1, 4, 7].forEach((order) => setGeometry(order, 0, 0, columnWidth));', 'PANW, One Report, and Memory Lane must remain in the first Selected Work column.');
 requireText(home, '[2, 3, 5, 6].forEach((order) => setGeometry(order, secondColumnX, 0, columnWidth));', 'HBS, DocuSign, Hitachi, and Cisco must remain in the second Selected Work column.');
 requireText(home, 'setGeometry(6, secondColumnX, columnTwoFourthTop, columnWidth);', 'Cisco must render after Hitachi in the second Selected Work column.');
+requireText(home, 'setGeometry(7, 0, columnOneThirdTop, columnWidth);', 'Memory Lane must render after One Report in the first Selected Work column.');
+requireText(styles, '.home-project-memory-lane .home-project-media { aspect-ratio: 16 / 9; }', 'The Memory Lane Selected Work placeholder must remain 16:9.');
+requireText(styles, '.memory-lane-hero-placeholder {', 'Memory Lane must expose its dedicated hero placeholder.');
+requireText(styles, 'background: #f5f5f5;', 'Memory Lane placeholders must use the approved gray surface.');
+requireText(styles, '.memory-lane-project-list .gallery-project {', 'Memory Lane must reuse Gallery chapters inside the case-study surface.');
+requireText(motionSystem, "const usesGalleryRevealProfile = group.matches('.gallery-project') || Boolean(group.closest('.case-study'));", 'Memory Lane GalleryProject media must inherit the exact Gallery reveal profile inside the case study.');
 if (/background-color/.test(ruleBody('.home-project-card'))
   || styles.includes('.home-project-card:focus-within { background:')
   || styles.includes('.home-project-card:hover { background:')) {
@@ -310,7 +304,7 @@ requireText(styles, '.previous-case:hover, .next-case:hover { background: var(--
 requireCount(figure, 'data-asset-surface', 2, 'Figure image and video branches must each declare their clipping owner.');
 requireCount(galleryArtifact, 'data-asset-surface', 2, 'Gallery image and video branches must each declare their clipping owner.');
 requireText(styles, '--gallery-composition-inset: 12px;', 'The Gallery composition must retain 12px per interior edge for a 24px media-to-copy gap.');
-requireText(styles, '--gallery-band-inline: calc((100vw - var(--home-rail)) / 2 + var(--home-pad));', 'Gallery content must use the shared site rail plus homepage interior inset.');
+requireText(styles, '--gallery-band-inline: var(--home-pad);', 'Gallery content must use the right-column interior inset.');
 if (styles.includes('calc(50vw - 742px)')) {
   errors.push('The Gallery must not restore its former viewport-based inset approximation.');
 }
@@ -339,7 +333,7 @@ if (styles.includes('@media (min-width: 1200px)')) {
 requireText(styles, '--home-background: #fff;', 'The homepage canvas must be pure white.');
 requireText(styles, "[data-case-system='true'] .page-shell > main { background: #fff; }", 'Case-study main content must use the requested pure-white surface.');
 requireText(styles, '--gallery-band-gray: #f5f5f5;', 'Gallery gray bands must retain the requested #F5F5F5 surface.');
-requireText(styles, '.home-gallery > .page-heading {\n  width: var(--home-rail);\n  margin-inline: auto;\n  padding-top: 64px;\n  padding-bottom: 160px;', 'The Gallery heading must use 64px top and 160px bottom padding.');
+requireText(styles, '.home-gallery > .page-heading {\n  width: 100%;\n  margin-inline: 0;\n  padding-top: 64px;\n  padding-bottom: 160px;', 'The Gallery heading must use the full right column with 64px top and 160px bottom padding.');
 requireText(styles, '--caption-size: 16px;', 'All captions must use the approved 16px size token.');
 requireText(styles, 'font: 400 var(--caption-size)/var(--caption-leading) var(--cs-heading-font);', 'Case-study captions must inherit the shared caption size token.');
 requireText(carousel, '.carousel-caption :global(p:first-child) { display: inline; }', 'Carousel caption text must remain inline with its generated figure number.');
@@ -363,8 +357,18 @@ requireCount(galleryArtifact, 'data-viewport-media-frame', 2, 'Gallery image and
 requireCount(galleryArtifact, 'data-viewport-media-inset="140"', 2, 'Gallery frames must reserve navigation and caption clearance.');
 requireText(layout, 'const viewportInsetFor = (frame) => {', 'Viewport-safe media must support frame-specific clearance.');
 requireText(styles, '--media-reveal-duration: 800ms;', 'Every media entrance must use the shared 800ms duration.');
+requireText(styles, '--expressive-ease-out: cubic-bezier(0, 0, 0.3, 1);', 'Every media entrance must retain the Gallery ease-out curve.');
 requireText(styles, 'transition: clip-path var(--media-reveal-duration) var(--expressive-ease-out) var(--media-reveal-delay, 0ms);', 'Every media entrance must use the restrained horizontal clip transition.');
+requireText(styles, 'clip-path: inset(0 100% 0 0);', 'Every media entrance must begin clipped from the right edge for a left-to-right reveal.');
 requireText(styles, "html[data-media-motion-ready='true'] [data-media-reveal][data-media-reveal-ready='true'] [data-media-reveal-rise] {\n  transform: none;\n  transition: none;", 'The shared media entrance must not add vertical rise motion.');
+requireText(motionSystem, 'const galleryRevealLeadDelay = 100;', 'Case-study media must reuse the Gallery 100ms lead delay.');
+requireText(motionSystem, 'const galleryRevealStagger = 70;', 'Case-study media groups must reuse the Gallery 70ms stagger.');
+requireText(motionSystem, "const usesGalleryRevealProfile = group.matches('.gallery-project') || Boolean(group.closest('.case-study'));", 'Gallery and case-study groups must share one sequencing profile.');
+requireText(motionSystem, "const leadDelay = target.closest('.case-study') ? galleryRevealLeadDelay : 0;", 'Standalone case-study media must use the Gallery lead delay without changing homepage tile timing.');
+requireText(motionSystem, 'window.requestAnimationFrame(() => {\n        window.requestAnimationFrame(() => {', 'Media reveals must retain the two-frame paint safeguard.');
+requireText(motionSystem, 'visual instanceof HTMLImageElement && visual.complete && visual.naturalWidth === 0', 'Images that fail before reveal initialization must still fail open.');
+requireText(motionSystem, 'visual instanceof HTMLVideoElement && visual.error !== null', 'Videos that fail before reveal initialization must still fail open.');
+requireText(motionSystem, "visual.addEventListener('error', markErrorReady, { once: true });", 'Media that fail after reveal initialization must fail open through the shared lifecycle.');
 if (motionSystem.includes('mediaRevealDurations')) {
   errors.push('Route-specific media reveal durations must remain removed.');
 }
@@ -403,6 +407,23 @@ for (const forbidden of ['slideFadeDuration', 'autoAdvance', 'setTimeout', 'data
 requireText(lineSystem, "|| focusedElement.closest('[data-carousel]')", 'Carousel controls must not receive the site-specific focus rectangle absent from the reference.');
 requireCount(oneReport, 'class="scenario-column" data-asset-surface', 3, 'Each One Report scenario group must own one asset surface.');
 requireCount(hbs, 'class="research-architecture" data-asset-surface', 1, 'The grouped HBS research visual must own one asset surface.');
+requireCount(hbs, 'data-media-unit data-media-reveal', 4, 'Every HBS research-architecture image must own an observable reveal unit.');
+requireCount(hbs, 'data-media-visual', 4, 'Every HBS research-architecture image must participate in media readiness.');
+requireCount(oneReport, 'data-media-visual', 3, 'Every manually authored One Report image must participate in media readiness.');
+requireText(styles, '[data-media-reveal-clip] {\n    opacity: 1 !important;\n    clip-path: inset(0) !important;\n    transition: none !important;', 'Reduced motion must expose case-study media immediately.');
+
+caseStudySources.forEach((source, index) => {
+  const rawMediaTags = source.match(/<(?:img|video)\b[^>]*>/gs) || [];
+  rawMediaTags.forEach((tag) => {
+    if (!tag.includes('data-media-visual') && !tag.includes('/information-filled.svg')) {
+      errors.push(`${caseStudySlugs[index]} contains editorial raw media outside the shared reveal readiness contract.`);
+    }
+  });
+});
+const ciscoSource = caseStudySources[caseStudySlugs.indexOf('cisco-customer-insights')];
+if (ciscoSource.includes('<figure class="platform-evolution" data-media-reveal')) {
+  errors.push('The CSS-only Cisco platform diagram must remain outside the image/video reveal lifecycle.');
+}
 for (const token of [
   '--cs-heading: var(--text-primary);',
   '--cs-body-text: var(--text-secondary);',
