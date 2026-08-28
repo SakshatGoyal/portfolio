@@ -1,5 +1,6 @@
 ---
 import ResponsiveVideo from './ResponsiveVideo.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
 
 interface Props {
   src: string;
@@ -46,7 +47,7 @@ const sourceAlt = alt ?? caption ?? captionLines?.join(' ') ?? '';
         </div>
       ) : (
         <button class="media-frame" type="button" data-asset-surface data-behance-image aria-label={`View ${sourceAlt || 'portfolio image'}`} data-viewport-media-frame={viewportFit ? '' : undefined} data-container-media-frame={!viewportFit ? '' : undefined} data-fluid-media-frame={fluidFrame ? '' : undefined} data-square-media-frame={squareMedia ? '' : undefined}>
-          <img src={src} alt={sourceAlt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} decoding="async" data-media-visual />
+          <ResponsiveImage src={src} alt={sourceAlt} width={width} height={height} sizes="(max-width: 1210px) calc(100vw - 64px), min(1032px, calc(100vw - 432px))" loading={eager ? 'eager' : 'lazy'} decoding="async" data-media-visual />
         </button>
       )}
     </div>

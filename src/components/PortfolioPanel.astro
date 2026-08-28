@@ -3,15 +3,23 @@ import { PANEL_LEAD_LINES, PANEL_PROJECTS, PANEL_SUPPORT } from '../data/panel-n
 import { CONTACT_EMAIL, LINKEDIN_URL, RESUME_URL } from '../data/contact-links.js';
 
 const pathname = Astro.url.pathname;
+const isHome = pathname === '/';
 const isProject = (href: string) => pathname === href || pathname === href.slice(0, -1);
 ---
 
 <aside class="portfolio-panel" aria-label="Portfolio introduction and navigation">
   <a class="portfolio-panel-home" href="/" aria-label="Go to homepage">
-    <h1 class="portfolio-panel-identity">
-      <span>Sākshāt Goyal</span>
-      <span>Product Designer</span>
-    </h1>
+    {isHome ? (
+      <h1 class="portfolio-panel-identity">
+        <span>Sākshāt Goyal</span>
+        <span>Product Designer</span>
+      </h1>
+    ) : (
+      <span class="portfolio-panel-identity">
+        <span>Sākshāt Goyal</span>
+        <span>Product Designer</span>
+      </span>
+    )}
   </a>
 
   <div class="portfolio-panel-socials" aria-label="Contact links" data-contact-links>

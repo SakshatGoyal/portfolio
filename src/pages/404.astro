@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Page not found — Sākshāt Goyal"
+  description="The requested page could not be found."
+  noindex
+>
+  <article class="not-found-page">
+    <p class="not-found-page__eyebrow">404</p>
+    <h1>Page not found.</h1>
+    <p>The address may be incorrect or the page may have moved.</p>
+    <a href="/">Return to the portfolio</a>
+  </article>
+</BaseLayout>
+
+<style>
+  .not-found-page {
+    width: min(100% - 40px, 680px);
+    margin-inline: auto;
+    padding-block: clamp(96px, 18vh, 180px);
+  }
+
+  .not-found-page__eyebrow {
+    color: var(--text-tertiary);
+    font: 400 12px/1.5 'Fragment Mono', monospace;
+  }
+
+  .not-found-page h1 {
+    margin-top: 16px;
+    font: 500 clamp(44px, 8vw, 88px)/0.98 var(--body-font);
+    letter-spacing: var(--body-tracking);
+  }
+
+  .not-found-page p:not(.not-found-page__eyebrow) {
+    max-width: 36rem;
+    margin-top: 28px;
+    color: var(--text-secondary);
+  }
+
+  .not-found-page a {
+    display: inline-block;
+    margin-top: 32px;
+    text-underline-offset: 4px;
+  }
+</style>

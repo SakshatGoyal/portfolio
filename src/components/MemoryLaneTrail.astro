@@ -37,7 +37,8 @@ const {
       >
         <img
           data-memory-lane-trail-visual
-          src={asset.src}
+          src={loading === 'eager' ? asset.src : undefined}
+          data-src={loading === 'lazy' ? asset.src : undefined}
           alt=""
           width={asset.width}
           height={asset.height}

@@ -8,11 +8,14 @@ interface Props {
   title: string;
   description: string;
   theme?: string;
+  noindex?: boolean;
 }
 
-const { title, description, theme = 'neutral' } = Astro.props;
+const { title, description, theme = 'neutral', noindex = false } = Astro.props;
 const isCaseSystem = theme !== 'neutral';
 const isHomeSystem = Astro.url.pathname === '/';
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? 'https://sakshat-goyal.com');
+const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
 ---
 
 <!doctype html>
@@ -21,11 +24,22 @@ const isHomeSystem = Astro.url.pathname === '/';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="theme-color" content="#fafafa" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Sākshāt Goyal product design portfolio homepage" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageUrl} />
+    <meta name="twitter:image:alt" content="Sākshāt Goyal product design portfolio homepage" />
     <title>{title}</title>
     <script is:inline>
       document.documentElement.classList.add('js');
@@ -82,22 +96,6 @@ const isHomeSystem = Astro.url.pathname === '/';
       initContactLinks();
     </script>
     <script is:inline>
-      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-      if (!reduceMotion) {
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('is-visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { rootMargin: '0px 0px -7% 0px', threshold: 0.08 });
-        document.querySelectorAll('[data-reveal]').forEach((element) => observer.observe(element));
-      } else {
-        document.querySelectorAll('[data-reveal]').forEach((element) => element.classList.add('is-visible'));
-      }
-
       const customCursor = document.querySelector('[data-custom-cursor]');
       const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
       if (customCursor && finePointer.matches) {
@@ -291,7 +289,9 @@ const isHomeSystem = Astro.url.pathname === '/';
           if (media.complete && media.naturalWidth) callback();
           else media.addEventListener('load', callback, { once: true });
         } else if (media instanceof HTMLVideoElement) {
-          if (media.readyState >= 1 && media.videoWidth) callback();
+          const declaredWidth = Number(media.getAttribute('width'));
+          const declaredHeight = Number(media.getAttribute('height'));
+          if ((media.readyState >= 1 && media.videoWidth) || (declaredWidth > 0 && declaredHeight > 0)) callback();
           else media.addEventListener('loadedmetadata', callback, { once: true });
         }
       };

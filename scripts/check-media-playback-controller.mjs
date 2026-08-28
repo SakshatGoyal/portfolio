@@ -81,6 +81,7 @@ class VideoStub extends ElementStub {
     this.loadCalls = 0;
     this.playResults = [];
     this.frameCallbacks = new Map();
+    this.sources = [];
     this.nextFrameId = 1;
     this.control = new ControlStub();
     this.surface = new SurfaceStub(this, this.control);
@@ -94,6 +95,7 @@ class VideoStub extends ElementStub {
       this.cancelVideoFrameCallback = (id) => this.frameCallbacks.delete(id);
     }
   }
+  querySelectorAll(selector) { return selector === 'source[data-src]' ? this.sources : []; }
   closest(selector) { return selector === '[data-playable-media]' ? this.surface : null; }
   play() {
     this.playCalls += 1;
@@ -139,6 +141,9 @@ const advance = (ms) => {
 const flush = () => new Promise((resolve) => setImmediate(resolve));
 
 const videos = [new VideoStub('one'), new VideoStub('two'), new VideoStub('fallback', { rvfc: false })];
+const deferredSource = new ElementStub();
+deferredSource.dataset.src = '/assets/example.mobile.mp4';
+videos[0].sources.push(deferredSource);
 const document = new EventTargetStub();
 document.hidden = false;
 document.body = { classList: new ClassListStub() };
@@ -164,9 +169,14 @@ const options = {
 };
 
 const controller = createMediaPlaybackController(options);
+const preloadObserver = IntersectionObserverStub.instances.at(-2);
 const observer = IntersectionObserverStub.instances.at(-1);
 assert.equal(controller.records.size, 3, 'all videos initialize independently');
 assert.equal(createMediaPlaybackController(options), controller, 'duplicate initialization returns the live controller');
+assert.equal(deferredSource.getAttribute('src'), null, 'offscreen media sources stay unhydrated');
+preloadObserver.set(videos[0], 0.01);
+assert.equal(deferredSource.getAttribute('src'), '/assets/example.mobile.mp4', 'near-viewport media sources hydrate');
+assert.equal(videos[0].preload, 'metadata', 'near-viewport media requests only metadata before playback');
 
 observer.set(videos[0], 0.2);
 observer.set(videos[1], 0.8);

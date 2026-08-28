@@ -1,0 +1,40 @@
+---
+import { imageVariantsFor } from '../data/image-variants.js';
+
+interface Props {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  sizes?: string;
+  loading?: 'eager' | 'lazy';
+  decoding?: 'sync' | 'async' | 'auto';
+  class?: string;
+  [key: string]: unknown;
+}
+
+const {
+  src, alt, width, height, sizes,
+  loading = 'lazy', decoding = 'async', class: className, ...attributes
+} = Astro.props;
+const entry = imageVariantsFor(src);
+const candidates = entry ? [
+  ...entry.variants,
+  { src: entry.original, width: entry.width, height: entry.height },
+] : [];
+const fallback = entry?.variants.at(-1)?.src ?? src;
+const srcset = candidates.map((candidate) => `${candidate.src} ${candidate.width}w`).join(', ');
+---
+
+<img
+  src={fallback}
+  srcset={entry ? srcset : undefined}
+  sizes={entry ? sizes : undefined}
+  alt={alt}
+  width={width ?? entry?.width}
+  height={height ?? entry?.height}
+  loading={loading}
+  decoding={decoding}
+  class={className}
+  {...attributes}
+/>

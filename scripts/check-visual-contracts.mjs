@@ -23,7 +23,6 @@ const [
   carousel,
   oneReport,
   hbs,
-  siteHeader,
   siteFooter,
   lineSystem,
   motionSystem,
@@ -31,7 +30,6 @@ const [
   typographyInventory,
   responsiveVideo,
   playbackController,
-  multiscriptNameStrip,
   about,
   portfolioPanel,
   caseStudyHeader,
@@ -51,7 +49,6 @@ const [
   read('../src/components/Carousel.astro'),
   read('../src/pages/work/one-report.astro'),
   read('../src/pages/work/hbs-ai-institute.astro'),
-  read('../src/components/SiteHeader.astro'),
   read('../src/components/SiteFooter.astro'),
   read('../src/scripts/line-system.js'),
   read('../src/scripts/motion-system.js'),
@@ -59,7 +56,6 @@ const [
   read('../docs/typography-inventory.md'),
   read('../src/components/ResponsiveVideo.astro'),
   read('../src/scripts/media-playback-controller.js'),
-  read('../src/components/MultiscriptNameStrip.astro'),
   read('../src/pages/about.astro'),
   read('../src/components/PortfolioPanel.astro'),
   read('../src/components/CaseStudyHeader.astro'),
@@ -73,6 +69,7 @@ const {
   assetCategory,
   categoryDimensions,
   shuffleAssets,
+  staticTrailDecision,
   surfaceAreaScale,
 } = await import('../src/scripts/memory-lane-trail.js');
 const { memoryLaneTrailAssets } = await import('../src/data/memory-lane-trail.js');
@@ -115,20 +112,9 @@ requireText(styles, '--faint: var(--text-tertiary);', 'The legacy faint token mu
 if (contrastRatio('5f787d', 'fafafa') < 4.5) errors.push('Editorial tertiary text must retain at least 4.5:1 contrast against #FAFAFA.');
 requireCount(styles, "font-family: 'Manrope';", 4, 'Manrope weights 400, 500, 600, and 700 must remain registered as bundled site fonts.');
 requireText(styles, "src: url('/fonts/manrope-600.ttf') format('truetype');\n  font-weight: 600;", 'Manrope SemiBold must resolve to its bundled 600-weight font file.');
-if (home.includes('MultiscriptNameStrip')) {
-  errors.push('The alternate homepage must not import or render the multilingual name strip.');
+if (home.includes('MultiscriptNameStrip') || styles.includes('Manrope Script Fallback') || styles.includes('fonts.gstatic.com')) {
+  errors.push('The proven-dead multilingual strip and its external fonts must remain removed.');
 }
-requireText(multiscriptNameStrip, 'const rowOffsets = [0, 69, 138, 275];', 'The multiscript strip must retain the four Figma row offsets.');
-requireText(multiscriptNameStrip, 'const repetitions = Array.from({ length: 15 });', 'Every multiscript row must retain fifteen repeated name groups.');
-requireText(multiscriptNameStrip, 'class="multiscript-name-strip" aria-hidden="true"', 'The decorative multiscript strip must remain hidden from assistive technology.');
-requireText(multiscriptNameStrip, "'साक्षात् गोयल'", 'The strip must retain the Devanagari name.');
-requireText(multiscriptNameStrip, "'સાક્ષાત્ ગોયલ'", 'The strip must retain the Gujarati name.');
-requireText(multiscriptNameStrip, "'ஸாக்ஷாத் கோயல்'", 'The strip must retain the Tamil name.');
-requireText(multiscriptNameStrip, "'Sākshāt Goyal'", 'The strip must retain the Latin name.');
-requireCount(styles, "font-family: 'Manrope Script Fallback';", 3, 'The strip must register deterministic Figma-equivalent fallback faces for all three Indic scripts.');
-requireText(styles, 'notosansdevanagari', 'The strip must retain the Noto Sans Devanagari fallback used by Figma.');
-requireText(styles, 'notosansgujarati', 'The strip must retain the Noto Sans Gujarati fallback used by Figma.');
-requireText(styles, 'notosanstamil', 'The strip must retain the Noto Sans Tamil fallback used by Figma.');
 requireText(styles, ".home-work > .page-heading > h2,\n.home-gallery > .page-heading > h2 {\n  font-family: var(--body-font);\n  font-size: 32px;\n  font-weight: 500;\n}", 'Selected Work and shared Gallery headings must use 32px medium Manrope.');
 requireText(styles, ".page-heading > :is(h1, h2) {\n  grid-column: 1 / -1;\n  color: var(--home-ink);\n  font: 400 36px/1.1 'Cabinet Grotesk', Arial, sans-serif;\n  letter-spacing: -.02em;", 'All page headings must use minus-two-percent tracking.');
 requireText(styles, "--cs-page-gutter: 32px;\n  --cs-inline: 0px;\n  --cs-media-block-padding: 12px;\n  --cs-media-inset: var(--cs-media-block-padding);", 'All seven case-study routes must separate the 32px page gutter from the 12px media-block padding.');
@@ -239,7 +225,9 @@ requireText(caseStudyHeader, "'is-selected': isProject(project.href)", 'The expa
 if (caseStudyHeader.includes('PANEL_LEAD_LINES') || caseStudyHeader.includes('PANEL_SUPPORT') || caseStudyHeader.includes('portfolio-panel-intro')) {
   errors.push('The case-study menu must not include the homepage biography.');
 }
-requireText(caseStudyHeader, "caseStudyMenu.addEventListener('cancel', (event) => event.preventDefault());", 'Escape must not dismiss the full-screen case-study menu.');
+if (caseStudyHeader.includes("addEventListener('cancel'")) errors.push('The case-study menu must not cancel native dialog dismissal.');
+requireText(caseStudyHeader, "if (event.key !== 'Escape') return;", 'The case-study menu must provide reliable Escape dismissal.');
+requireText(caseStudyHeader, 'closeCaseStudyMenu();', 'Escape dismissal must use the shared close path and focus restoration.');
 requireText(styles, '.case-study-header {\n  position: sticky;\n  z-index: 40;\n  top: 0;', 'The collapsed case-study header must remain sticky.');
 requireText(styles, 'width: 100%;\n  min-height: 64px;\n  padding: 16px 32px;', 'The collapsed case-study header must retain the Figma frame height and padding.');
 requireText(styles, '.case-study-menu[open] {\n  position: fixed;', 'The expanded case-study menu must cover the viewport.');
@@ -317,7 +305,7 @@ for (const className of ['home-project-copy', 'home-project-meta']) {
   }
 }
 
-if (siteHeader.includes("label: 'Contact'") || siteHeader.includes("href: '/#contact'") || siteFooter.includes('id="contact"')) {
+if (siteFooter.includes('id="contact"')) {
   errors.push('Contact navigation and its obsolete footer anchor must remain removed.');
 }
 requireText(styles, '--site-navigation-outline: color-mix(in srgb, var(--text-primary) 5%, transparent);', 'Header and case-navigation outlines must share the subtle navigation token.');
@@ -355,7 +343,9 @@ if (/\.home-project-media\s*\{[^}]*pointer-events\s*:\s*none/s.test(styles)) {
   errors.push('Selected Work media frames must remain available to pointer hit-testing.');
 }
 requireText(styles, '.home-project-media .playable-media-surface > video { pointer-events: auto; }', 'Homepage videos must remain direct pointer and inspector targets.');
-requireText(styles, "[data-line-system='svg'] :focus-visible:not(.home-project-card),", 'The global line-system focus reset must not suppress the wrapping card link outline.');
+requireText(styles, "[data-line-system='svg'] :focus-visible:not(.home-project-card):not(.carousel-viewport):not([data-carousel-dot]),", 'The global line-system focus reset must preserve card and carousel focus indicators.');
+requireText(carousel, '.carousel-viewport:focus-visible { outline: 2px solid currentColor;', 'Carousel viewports must expose a keyboard-only focus ring.');
+requireText(carousel, '.carousel-pagination button:focus-visible { outline: 2px solid currentColor;', 'Carousel pagination must expose keyboard-only focus rings.');
 requireText(motionSystem, "['View Project', 126]", 'View Project tape motion must match the Team label duration.');
 requireText(styles, '.home-project-card:hover .home-project-view .home-tape-line > i {', 'Tile hover must animate the View Project tape.');
 requireText(styles, '.home-project-card:focus-within .home-project-view .home-tape-line > i {', 'Tile keyboard focus must animate the View Project tape.');
@@ -408,6 +398,7 @@ requireText(home, "import MemoryLaneTrail from '../components/MemoryLaneTrail.as
 requireText(home, '<MemoryLaneTrail', 'The homepage Memory Lane tile must render the live shared trail.');
 requireText(home, 'decorative', 'The homepage Memory Lane trail must remain decorative inside its accessible project link.');
 requireText(home, 'loading="lazy"', 'The below-fold homepage Memory Lane trail must lazy-load its twelve images.');
+requireText(memoryLaneTrailComponent, "data-src={loading === 'lazy' ? asset.src : undefined}", 'The below-fold Memory Lane trail must withhold image URLs until it approaches the viewport.');
 requireText(styles, '.home-project-global .home-project-media { aspect-ratio: 1498 / 1124; }', 'The GDA Selected Work media must preserve the exact Figma ratio.');
 requireText(styles, '.home-project-one-report .home-project-media { aspect-ratio: 1138 / 2026; }', 'The OneReport Selected Work media must preserve the exact Figma ratio.');
 requireText(styles, '.memory-lane-hero-placeholder {', 'Memory Lane must expose its dedicated hero placeholder.');
@@ -480,6 +471,7 @@ for (const [source, message] of [
   ['if (placeRecord(record, false, placedAt)) state.lastPlacementTime = placedAt;', 'A pointer-driven Memory Lane placement must restart the stationary interval.'],
   ["record.layer.dataset.trailPlacedAt = String(placedAt);", 'Memory Lane placements must expose their exact runtime timestamp for pacing verification.'],
   ['const resizeObserver = new ResizeObserver', 'Memory Lane trail dimensions must respond to hero resizes.'],
+  ["{ rootMargin: '50% 0px' }", 'Deferred Memory Lane trail images must hydrate shortly before their surface reaches the viewport.'],
   ['record.position = clampPosition({', 'Placed Memory Lane layers must reproject their positions when the hero resizes.'],
   ['record.layer.style.transform = `translate(-50%, -50%) translate3d(${record.position.x}px, ${record.position.y}px, 0)`;', 'Resized Memory Lane layers must apply their reprojected position immediately.'],
   ['state.now = clampPosition({', 'Memory Lane pointer destinations must remain within the resized hero surface.'],
@@ -541,6 +533,11 @@ if (firstCycle.map(({ src }) => src).join('|') === secondCycle.map(({ src }) => 
 }
 if (secondCycle[0].src === firstCycle.at(-1).src) {
   errors.push('Memory Lane shuffle cycles must not repeat an asset across their boundary.');
+}
+if (staticTrailDecision([{ ready: true, failed: false }], 0).status !== 'ready'
+  || staticTrailDecision([{ ready: false, failed: true }], 0).status !== 'unavailable'
+  || staticTrailDecision([{ ready: false, failed: false }], 300).status !== 'unavailable') {
+  errors.push('Reduced-motion Memory Lane playback must settle when ready, failed, or bounded by its frame budget.');
 }
 requireText(galleryProject, "const infoPlacement = infoFirst ? { ...project.layout.info, row: 1 } : project.layout.info;", 'Memory Lane project information must occupy the first chapter row.');
 requireText(galleryProject, "? { ...project.layout.artifacts[lead.id], row: 2 }", 'Memory Lane lead media must follow project information in the second chapter row.');

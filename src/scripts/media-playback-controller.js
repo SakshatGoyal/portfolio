@@ -38,6 +38,7 @@ export class MediaPlaybackController {
     this.IntersectionObserver = options.IntersectionObserver ?? this.window?.IntersectionObserver;
     this.MutationObserver = options.MutationObserver ?? this.window?.MutationObserver;
     this.CustomEvent = options.CustomEvent ?? this.window?.CustomEvent ?? globalThis.CustomEvent;
+    this.preloadRootMargin = options.preloadRootMargin ?? '50% 0px';
     this.qualityQuery = options.qualityQuery ?? this.window?.matchMedia?.(
       '(max-width: 1023px), (hover: none), (pointer: coarse)',
     );
@@ -50,6 +51,13 @@ export class MediaPlaybackController {
     if (!this.document || !this.root) {
       throw new Error('MediaPlaybackController requires a document and root.');
     }
+
+    this.preloadObserver = this.IntersectionObserver
+      ? new this.IntersectionObserver((entries) => this.onPreloadIntersections(entries), {
+          rootMargin: this.preloadRootMargin,
+          threshold: 0,
+        })
+      : null;
 
     this.observer = this.IntersectionObserver
       ? new this.IntersectionObserver((entries) => this.onIntersections(entries), {
@@ -113,6 +121,36 @@ export class MediaPlaybackController {
     }
   }
 
+  hydrateSources(video) {
+    if (video.dataset?.mediaSourcesReady === 'true') return false;
+    let changed = false;
+    for (const source of video.querySelectorAll?.('source[data-src]') ?? []) {
+      const src = source.dataset?.src;
+      if (!src) continue;
+      source.setAttribute?.('src', src);
+      source.removeAttribute?.('data-src');
+      changed = true;
+    }
+    const directSrc = video.dataset?.src;
+    if (directSrc) {
+      video.setAttribute?.('src', directSrc);
+      video.removeAttribute?.('data-src');
+      changed = true;
+    }
+    if (video.dataset) video.dataset.mediaSourcesReady = 'true';
+    video.preload = 'metadata';
+    if (changed) video.load?.();
+    return changed;
+  }
+
+  onPreloadIntersections(entries) {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      this.hydrateSources(entry.target);
+      this.preloadObserver?.unobserve?.(entry.target);
+    }
+  }
+
   addVideo(video) {
     const record = {
       video,
@@ -132,6 +170,8 @@ export class MediaPlaybackController {
     };
     this.records.set(video, record);
     video.dataset.playbackState = 'idle';
+    if (this.preloadObserver) this.preloadObserver.observe(video);
+    else this.hydrateSources(video);
 
     const listen = (name, handler) => {
       video.addEventListener?.(name, handler);
@@ -157,6 +197,7 @@ export class MediaPlaybackController {
     record.attemptToken += 1;
     this.cancelFrameMonitor(record);
     record.listeners.forEach((remove) => remove());
+    this.preloadObserver?.unobserve?.(video);
     this.observer?.unobserve?.(video);
     this.records.delete(video);
     this.log(record, reason);
@@ -215,6 +256,7 @@ export class MediaPlaybackController {
 
   start(record, reason = 'autoplay') {
     if (!this.shouldPlay(record) || this.disposed) return;
+    this.hydrateSources(record.video);
     const token = ++record.attemptToken;
     record.advancingFrames = 0;
     record.lastMediaTime = Number.isFinite(record.video.currentTime) ? record.video.currentTime : 0;
@@ -442,6 +484,7 @@ export class MediaPlaybackController {
     if (this.watchdog !== null) this.clearTimer?.(this.watchdog);
     this.watchdog = null;
     this.observer?.disconnect?.();
+    this.preloadObserver?.disconnect?.();
     this.mutationObserver?.disconnect?.();
     this.listeners.splice(0).forEach((remove) => remove());
     for (const [video, record] of this.records) {

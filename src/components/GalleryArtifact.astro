@@ -1,5 +1,6 @@
 ---
 import ResponsiveVideo from './ResponsiveVideo.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
 
 interface Props {
   id: string;
@@ -71,11 +72,12 @@ const insetEnd = column + span > 20 ? '0px' : 'var(--gallery-composition-inset)'
           data-behance-title={label}
           aria-label={`View ${caption}`}
         >
-          <img
+          <ResponsiveImage
             src={src}
             alt={caption}
             width={width}
             height={height}
+            sizes="(max-width: 1210px) calc(100vw - 64px), min(1032px, calc(100vw - 432px))"
             loading="lazy"
             decoding="async"
             data-media-visual

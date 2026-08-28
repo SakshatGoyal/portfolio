@@ -5,15 +5,19 @@ const fallbackCopy = (text) => {
   field.setAttribute('readonly', '');
   field.style.position = 'fixed';
   field.style.opacity = '0';
-  document.body.append(field);
-  field.select();
-  // @ts-ignore Deprecated, but retained as a fallback when Clipboard API access is unavailable.
-  const copied = document.execCommand('copy');
-  field.remove();
-  return copied;
+  try {
+    document.body.append(field);
+    field.select();
+    // @ts-ignore Deprecated, but retained as a fallback when Clipboard API access is unavailable.
+    return document.execCommand('copy');
+  } catch {
+    return false;
+  } finally {
+    field.remove();
+  }
 };
 
-const copyText = async (text) => {
+export const copyText = async (text) => {
   if (navigator.clipboard?.writeText) {
     try {
       await navigator.clipboard.writeText(text);
@@ -34,10 +38,11 @@ export const initContactLinks = () => {
     button.addEventListener('click', async () => {
       const tooltip = button.closest('[data-contact-links]')?.querySelector('[data-copy-tooltip]');
       if (!(tooltip instanceof HTMLElement)) return;
-      const copied = await copyText(button.dataset.copyEmail || '');
-      if (!copied) return;
+      const email = button.dataset.copyEmail || '';
+      const copied = await copyText(email);
 
       window.clearTimeout(hideTimer);
+      tooltip.textContent = copied ? 'copied to clipboard' : `Copy unavailable — ${email}`;
       tooltip.hidden = false;
       hideTimer = window.setTimeout(() => {
         tooltip.hidden = true;

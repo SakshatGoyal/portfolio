@@ -3,27 +3,52 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "packageManager": "npm@11.19.0",
+  "engines": {
+    "node": "24.20.0",
+    "npm": "11.19.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "check:content": "node scripts/check-content-invariants.mjs",
     "check:dividers": "node scripts/check-divider-ownership.mjs",
     "check:gallery": "node scripts/check-gallery-content.mjs",
     "check:visual-contracts": "node scripts/check-visual-contracts.mjs",
+    "check:accessibility": "node scripts/check-accessibility-contracts.mjs",
     "build:memory-lane-trail": "node scripts/build-memory-lane-trail-assets.mjs",
     "build:media": "node scripts/build-media-variants.mjs",
+    "build:images": "node scripts/build-responsive-images.mjs",
     "check:media": "node scripts/check-media-contracts.mjs",
+    "check:images": "node scripts/check-image-contracts.mjs",
+    "check:images:quality": "node scripts/check-image-quality.mjs",
+    "check:media:deep": "node scripts/check-media-contracts.mjs --deep",
     "check:media-playback": "node scripts/check-media-playback-controller.mjs",
     "check:media-delivery": "node scripts/check-media-delivery.mjs",
     "check:media-browserstack": "node scripts/check-media-browserstack.mjs",
-    "export:knowledge-base": "/Users/sakshatgoyal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/export-knowledge-base-pdfs.py",
-    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:media && npm run check:media-playback && astro check && astro build && node scripts/prune-public-assets.mjs",
+    "check:deployment": "node scripts/check-deployment-contracts.mjs",
+    "export:knowledge-base": "python3 scripts/export-knowledge-base-pdfs.py",
+    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:images && npm run check:media && npm run check:media-playback && astro check && astro build && node scripts/prune-public-assets.mjs && node scripts/write-deployment-files.mjs",
+    "build:production": "DEPLOYMENT_TARGET=production npm run verify:release",
+    "verify:release": "npm run check:media:deep && npm run check:images:quality && npm run build",
     "preview": "astro preview",
-    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:media && npm run check:media-playback && astro check"
+    "deploy:preview": "npm run verify:release && wrangler deploy",
+    "rollback:preview": "wrangler rollback",
+    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:images && npm run check:media && npm run check:media-playback && astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
+    "@astrojs/sitemap": "3.7.3",
     "astro": "^7.2.2",
     "sharp": "0.35.3",
     "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "wrangler": "4.127.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "esbuild@0.28.1": true,
+    "fsevents@2.3.3": true,
+    "workerd@1.20260828.1": true
   }
 }

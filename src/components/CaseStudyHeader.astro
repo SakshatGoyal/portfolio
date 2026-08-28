@@ -76,7 +76,11 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
 
     caseStudyMenuTrigger.addEventListener('click', openCaseStudyMenu);
     caseStudyMenuClose?.addEventListener('click', closeCaseStudyMenu);
-    caseStudyMenu.addEventListener('cancel', (event) => event.preventDefault());
+    caseStudyMenu.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      closeCaseStudyMenu();
+    });
     caseStudyMenu.addEventListener('close', () => {
       document.body.classList.remove('case-study-menu-open');
       caseStudyMenuTrigger.setAttribute('aria-expanded', 'false');

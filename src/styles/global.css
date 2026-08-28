@@ -1,3 +1,5 @@
+@import './generated-image-variants.css';
+
 @font-face {
   font-family: 'Inter';
   src: url('/fonts/inter-400.woff2') format('woff2');
@@ -60,33 +62,6 @@
   src: url('/fonts/manrope-700.ttf') format('truetype');
   font-weight: 700;
   font-display: swap;
-}
-
-/* Figma resolves characters missing from Manrope through Noto. These
- * script-scoped faces make that fallback deterministic in the browser. */
-@font-face {
-  font-family: 'Manrope Script Fallback';
-  src: url('https://fonts.gstatic.com/s/notosansdevanagari/v30/TuGoUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv3NaV_SNmI0b8QQCQmHn6B2OHjbL_08AlXQl--Y5oXgT8O0L1r6E.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: block;
-  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
-}
-@font-face {
-  font-family: 'Manrope Script Fallback';
-  src: url('https://fonts.gstatic.com/s/notosansgujarati/v27/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_ypFzPQ9uZAFW0t2BKzwA.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: block;
-  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
-}
-@font-face {
-  font-family: 'Manrope Script Fallback';
-  src: url('https://fonts.gstatic.com/s/notosanstamil/v31/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGo40AoqHP-VvSlDrCqw.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: block;
-  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
 }
 
 @font-face {
@@ -886,7 +861,7 @@ body.case-study-menu-open { overflow: hidden; }
 
 .home-project-panw .home-project-media-visual {
   --panw-media-offset: 48px;
-  background-image: url('/assets/home-covers/panw-background-orange.png');
+  background-image: var(--responsive-background-home-panw, url('/assets/home-covers/panw-background-orange.png'));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1718,7 +1693,7 @@ html[data-media-motion-ready='true'] [data-home-project-text-reveal][data-home-p
   display: grid;
   place-items: center;
   padding: 32px clamp(16px, 4vw, 64px);
-  background: #1c2831 url('/assets/panw-ai/backgrounds/panw-background-dark.png') center / cover no-repeat;
+  background: #1c2831 var(--responsive-background-panw-dark, url('/assets/panw-ai/backgrounds/panw-background-dark.png')) center / cover no-repeat;
   box-shadow: none;
 }
 [data-theme='panw'][data-case-system='true'] .case-study > .hero-figure video {
@@ -1814,7 +1789,7 @@ html[data-media-motion-ready='true'] [data-home-project-text-reveal][data-home-p
   place-items: center;
   width: 100%;
   padding: 32px clamp(16px, 4vw, 64px);
-  background: #d6e6e1 url('/assets/panw-ai/backgrounds/panw-background-blue.png') center / cover no-repeat;
+  background: #d6e6e1 var(--responsive-background-panw-blue, url('/assets/panw-ai/backgrounds/panw-background-blue.png')) center / cover no-repeat;
   box-shadow: none;
 }
 [data-theme='panw'][data-case-system='true'] .case-body .panw-square-animation video {
@@ -1838,7 +1813,7 @@ html[data-media-motion-ready='true'] [data-home-project-text-reveal][data-home-p
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: url('/assets/panw-ai/backgrounds/panw-background-gray.png') center / cover no-repeat;
+  background: var(--responsive-background-panw-gray, url('/assets/panw-ai/backgrounds/panw-background-gray.png')) center / cover no-repeat;
   opacity: 0.4;
   pointer-events: none;
 }
@@ -2109,7 +2084,10 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
   justify-content: flex-start;
 }
 [data-theme='panw'][data-case-system='true'] .metric-label {
+  appearance: none;
   padding: 0;
+  border: 0;
+  background: transparent;
   cursor: pointer;
 }
 [data-theme='panw'][data-case-system='true'] .metric-tooltip-positioner {
@@ -2128,10 +2106,12 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
   max-width: min(272px, calc(100vw - 32px));
   opacity: 0;
 }
-[data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:hover .metric-tooltip-positioner {
+[data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:hover .metric-tooltip-positioner,
+[data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:focus-within .metric-tooltip-positioner {
   visibility: visible;
 }
-[data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:hover .metric-tooltip {
+[data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:hover .metric-tooltip,
+[data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:focus-within .metric-tooltip {
   opacity: 1;
   animation: panw-metric-tooltip-enter-up 128ms var(--expressive-ease-out) both;
 }
@@ -2157,7 +2137,8 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
   to { opacity: 1; transform: translateY(0); }
 }
 @media (prefers-reduced-motion: reduce) {
-  [data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:hover .metric-tooltip {
+  [data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:hover .metric-tooltip,
+  [data-theme='panw'][data-case-system='true'] .metric-tooltip-anchor:focus-within .metric-tooltip {
     animation: none;
   }
 }
@@ -2605,7 +2586,7 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 .previous-case .line-system-path,
 .next-case .line-system-path { stroke: var(--site-navigation-outline); }
 
-[data-line-system='svg'] :focus-visible:not(.home-project-card),
+[data-line-system='svg'] :focus-visible:not(.home-project-card):not(.carousel-viewport):not([data-carousel-dot]),
 [data-line-system='svg'] .case-meta button.team-label:focus-visible {
   outline: 0 !important;
 }

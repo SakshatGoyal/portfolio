@@ -9,6 +9,23 @@ const publicRoot = join(root, 'public');
 const manifestModule = await import(`${pathToFileURL(join(root, 'src/data/video-variants.js')).href}?check=${Date.now()}`);
 const { videoVariants, videoVariantsFor } = manifestModule;
 const failures = [];
+const deep = process.argv.includes('--deep');
+
+const toolVersion = (command) => execFileSync(command, ['-version'], {
+  encoding: 'utf8',
+  stdio: ['ignore', 'pipe', 'pipe'],
+}).split('\n')[0];
+
+if (deep) {
+  for (const command of ['ffprobe', 'ffmpeg']) {
+    try {
+      console.log(`${command}: ${toolVersion(command)}`);
+    } catch (error) {
+      console.error(`Deep media validation requires ${command} on PATH: ${error.message}`);
+      process.exit(1);
+    }
+  }
+}
 
 const probe = (path) => JSON.parse(execFileSync('ffprobe', [
   '-v', 'error', '-show_streams', '-show_format', '-of', 'json', path,
@@ -37,6 +54,12 @@ for (const source of active) {
         failures.push(`${source}: missing ${tier} ${format} variant.`);
         continue;
       }
+      fail(statSync(path).size === 0, `${url}: generated variant is empty.`);
+      if (format === 'mp4') {
+        const bytes = readFileSync(path);
+        fail(bytes.indexOf(Buffer.from('moov')) > bytes.indexOf(Buffer.from('mdat')), `${url}: MP4 is not faststart.`);
+      }
+      if (!deep) continue;
       const result = probe(path);
       const video = result.streams.filter((stream) => stream.codec_type === 'video');
       const audio = result.streams.filter((stream) => stream.codec_type === 'audio');
@@ -53,10 +76,6 @@ for (const source of active) {
       const duration = Number(result.format.duration);
       const overallKbps = statSync(path).size * 8 / duration / 1000;
       fail(!Number.isFinite(overallKbps) || overallKbps > maxrate * 1.05, `${url}: ${Math.round(overallKbps)}kbps exceeds the ${maxrate}kbps tier ceiling (plus mux tolerance).`);
-      if (format === 'mp4') {
-        const bytes = readFileSync(path);
-        fail(bytes.indexOf(Buffer.from('moov')) > bytes.indexOf(Buffer.from('mdat')), `${url}: MP4 is not faststart.`);
-      }
       const frameProbe = JSON.parse(execFileSync('ffprobe', [
         '-v', 'error', '-select_streams', 'v:0',
         '-show_entries', 'frame=key_frame,best_effort_timestamp_time', '-of', 'json', path,
@@ -79,4 +98,4 @@ if (failures.length) {
   console.error(`Media contract check failed (${failures.length}):\n${failures.map((failure) => `- ${failure}`).join('\n')}`);
   process.exit(1);
 }
-console.log(`Media contracts passed for ${active.length} sources and ${active.length * 4} generated variants.`);
+console.log(`${deep ? 'Deep media' : 'Portable media'} contracts passed for ${active.length} sources and ${active.length * 4} generated variants.`);

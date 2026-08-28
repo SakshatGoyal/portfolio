@@ -11,6 +11,7 @@ const TRAIL_REFERENCE_AREA = TRAIL_REFERENCE_WIDTH * TRAIL_REFERENCE_HEIGHT;
 const TRAIL_LANDSCAPE_WIDTH = 600;
 const TRAIL_PORTRAIT_HEIGHT = 600;
 const TRAIL_SQUARE_SIZE = 500;
+const TRAIL_STATIC_MAX_FRAMES = 300;
 
 const distance = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
 const lerp = (from, to, amount) => from + ((to - from) * amount);
@@ -55,6 +56,15 @@ export const shuffleAssets = (assets, previousSrc = '', random = Math.random) =>
     [shuffled[0], shuffled[1]] = [shuffled[1], shuffled[0]];
   }
   return shuffled;
+};
+
+export const staticTrailDecision = (records, frame, maxFrames = TRAIL_STATIC_MAX_FRAMES) => {
+  const record = records.find((candidate) => candidate.ready);
+  if (record) return { status: 'ready', record };
+  if (records.every((candidate) => candidate.failed) || frame >= maxFrames) {
+    return { status: 'unavailable', record: null };
+  }
+  return { status: 'pending', record: null };
 };
 
 const parseAssets = (trail) => {
@@ -209,17 +219,24 @@ const setupTrail = (trail) => {
   resizeObserver.observe(trail);
 
   if (reducedMotion.matches) {
-    const revealStatic = () => {
-      const firstReady = records.find((record) => record.ready);
-      if (firstReady) {
-        placeRecord(firstReady, true);
+    const revealStatic = (frame = 0) => {
+      const decision = staticTrailDecision(records, frame);
+      if (decision.status === 'ready') {
+        placeRecord(decision.record, true);
         trail.dataset.trailStatic = 'true';
         return;
       }
-      window.requestAnimationFrame(revealStatic);
+      if (decision.status === 'unavailable') {
+        trail.dataset.trailStatic = 'unavailable';
+        return;
+      }
+      state.frame = window.requestAnimationFrame(() => revealStatic(frame + 1));
     };
     revealStatic();
-    window.addEventListener('pagehide', () => resizeObserver.disconnect(), { once: true });
+    window.addEventListener('pagehide', () => {
+      window.cancelAnimationFrame(state.frame);
+      resizeObserver.disconnect();
+    }, { once: true });
     return;
   }
 
@@ -276,6 +293,29 @@ const setupTrail = (trail) => {
   }, { once: true });
 };
 
+const hydrateTrail = (trail) => {
+  trail.querySelectorAll('img[data-src]').forEach((image) => {
+    image.setAttribute('src', image.dataset.src);
+    delete image.dataset.src;
+  });
+  setupTrail(trail);
+};
+
 if (typeof document !== 'undefined') {
-  document.querySelectorAll('[data-memory-lane-trail]').forEach(setupTrail);
+  const trails = [...document.querySelectorAll('[data-memory-lane-trail]')];
+  const deferredTrails = trails.filter((trail) => trail.querySelector('img[data-src]'));
+  trails.filter((trail) => !deferredTrails.includes(trail)).forEach(hydrateTrail);
+
+  if (deferredTrails.length && 'IntersectionObserver' in window) {
+    const preloadObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        preloadObserver.unobserve(entry.target);
+        hydrateTrail(entry.target);
+      });
+    }, { rootMargin: '50% 0px' });
+    deferredTrails.forEach((trail) => preloadObserver.observe(trail));
+  } else {
+    deferredTrails.forEach(hydrateTrail);
+  }
 }

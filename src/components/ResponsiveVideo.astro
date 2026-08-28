@@ -25,14 +25,14 @@ const desktopQuery = '(min-width: 1024px) and (hover: hover) and (pointer: fine)
 ---
 
 <video
-  src={!variants ? src : undefined}
+  data-src={!variants ? src : undefined}
   poster={poster}
   width={width}
   height={height}
   muted
   loop={loop}
   playsinline
-  preload="metadata"
+  preload="none"
   style={poster ? `--video-poster-image: url('${poster}')` : undefined}
   data-autoplay-on-view={autoplayOnView && !home ? '' : undefined}
   data-home-autoplay-on-view={autoplayOnView && home ? '' : undefined}
@@ -43,12 +43,12 @@ const desktopQuery = '(min-width: 1024px) and (hover: hover) and (pointer: fine)
 >
   {variants && (
     <>
-      <source src={variants.mobile.mp4} type="video/mp4" media={mobileQuery} />
-      <source src={variants.mobile.webm} type="video/webm" media={mobileQuery} />
-      <source src={variants.desktop.mp4} type="video/mp4" media={desktopQuery} />
-      <source src={variants.desktop.webm} type="video/webm" media={desktopQuery} />
-      <source src={variants.desktop.mp4} type="video/mp4" />
-      <source src={variants.desktop.webm} type="video/webm" />
+      <source data-src={variants.mobile.mp4} type="video/mp4" media={mobileQuery} />
+      <source data-src={variants.mobile.webm} type="video/webm" media={mobileQuery} />
+      <source data-src={variants.desktop.mp4} type="video/mp4" media={desktopQuery} />
+      <source data-src={variants.desktop.webm} type="video/webm" media={desktopQuery} />
+      <source data-src={variants.desktop.mp4} type="video/mp4" />
+      <source data-src={variants.desktop.webm} type="video/webm" />
     </>
   )}
 </video>

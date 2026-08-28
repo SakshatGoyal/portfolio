@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MemoryLaneTrail from '../components/MemoryLaneTrail.astro';
 import ResponsiveVideo from '../components/ResponsiveVideo.astro';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
 import { HBS_AI_INSTITUTE_TITLE } from '../data/project-titles.js';
 
 const projects = [
@@ -14,6 +15,8 @@ const projects = [
     order: 1,
     video: '/assets/home-covers/panw-renewal-exception-row-anchor.webm',
     poster: '/assets/home-covers/posters/panw-renewal-exception-row-anchor.png',
+    width: 2304,
+    height: 2304,
     className: 'home-project-panw',
   },
   {
@@ -37,6 +40,8 @@ const projects = [
     order: 3,
     video: '/assets/home-covers/gda.webm',
     poster: '/assets/home-covers/posters/gda.png',
+    width: 1498,
+    height: 1124,
     className: 'home-project-global',
   },
   {
@@ -48,6 +53,8 @@ const projects = [
     order: 4,
     video: '/assets/home-covers/onereport-cover.webm',
     poster: '/assets/home-covers/posters/onereport-cover.png',
+    width: 1138,
+    height: 2026,
     className: 'home-project-one-report',
   },
   {
@@ -95,6 +102,7 @@ const projects = [
   description="Systems-oriented product designer working on ambiguous, organizationally complicated problems with imperfect data."
 >
   <section class="home-work" id="work">
+    <h2 class="sr-only">Selected Work</h2>
     <div class="home-project-scroller">
       <div class="home-project-grid" data-home-project-grid data-home-layout="small">
         {projects.map((project, index) => (
@@ -134,7 +142,7 @@ const projects = [
                 <div class="home-project-media" data-home-project-media-reveal data-media-reveal>
                   <span class="media-reveal-clip" data-media-reveal-clip>
                     <span class="home-project-media-visual media-reveal-rise" data-media-reveal-rise data-asset-surface>
-                      <img src={project.image} alt={project.name} width={project.width} height={project.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+                      <ResponsiveImage src={project.image!} alt={project.name} width={project.width} height={project.height} sizes="(max-width: 451px) 388px, (max-width: 1023px) calc(100vw - 64px), 444px" loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
                     </span>
                   </span>
                 </div>
