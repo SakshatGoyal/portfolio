@@ -4,11 +4,11 @@ import sharp from 'sharp';
 
 const read = (path) => readFile(new URL(path, import.meta.url), 'utf8');
 const caseStudySlugs = [
-  'panw-ai',
-  'hbs-ai-institute',
+  'sales-workbench-ai',
+  'ai-research-architecture',
   'global-data-analytics',
   'one-report',
-  'hitachi-energy',
+  'hitachi-energy-partner-portal',
   'cisco-customer-insights',
   'memory-lane',
 ];
@@ -48,7 +48,7 @@ const [
   read('../src/components/GalleryArtifact.astro'),
   read('../src/components/Carousel.astro'),
   read('../src/pages/work/one-report.astro'),
-  read('../src/pages/work/hbs-ai-institute.astro'),
+  read('../src/pages/work/ai-research-architecture.astro'),
   read('../src/components/SiteFooter.astro'),
   read('../src/scripts/line-system.js'),
   read('../src/scripts/motion-system.js'),

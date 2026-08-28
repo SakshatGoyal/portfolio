@@ -1,12 +1,8 @@
-export const CASE_STUDY_SEQUENCE = Object.freeze([
-  '/work/panw-ai/',
-  '/work/hbs-ai-institute/',
-  '/work/global-data-analytics/',
-  '/work/one-report/',
-  '/work/hitachi-energy/',
-  '/work/cisco-customer-insights/',
-  '/work/memory-lane/',
-]);
+import { PROJECTS } from './projects.js';
+
+export const CASE_STUDY_SEQUENCE = Object.freeze(
+  [...PROJECTS].sort((a, b) => a.sequence - b.sequence).map(({ route }) => route),
+);
 
 const normalizeRoute = (pathname) => pathname.endsWith('/') ? pathname : `${pathname}/`;
 

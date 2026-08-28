@@ -18,7 +18,7 @@ from reportlab.platypus import HRFlowable, Image, KeepTogether, Paragraph, Simpl
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC, DIST, OUTPUT, TMP = ROOT / 'public', ROOT / 'dist', ROOT / 'output/pdf/knowledge-base', ROOT / '.tmp/pdfs/knowledge-base'
-CASES = [('panw-ai', 'panw-ai.pdf'), ('hbs-ai-institute', 'hbs-ai-institute.pdf'), ('global-data-analytics', 'global-data-analytics.pdf'), ('one-report', 'one-report.pdf'), ('hitachi-energy', 'hitachi-energy.pdf'), ('cisco-customer-insights', 'cisco-customer-insights.pdf')]
+CASES = [('sales-workbench-ai', 'sales-workbench-ai.pdf'), ('ai-research-architecture', 'ai-research-architecture.pdf'), ('global-data-analytics', 'global-data-analytics.pdf'), ('one-report', 'one-report.pdf'), ('hitachi-energy-partner-portal', 'hitachi-energy-partner-portal.pdf'), ('cisco-customer-insights', 'cisco-customer-insights.pdf')]
 
 def text(element): return re.sub(r'\s+', ' ', ''.join(element.itertext())).strip()
 def esc(value): return value.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;')

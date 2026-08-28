@@ -4,6 +4,7 @@ import Figure from '../components/Figure.astro';
 import TeamPanel from '../components/TeamPanel.astro';
 import PageHeading from '../components/PageHeading.astro';
 import { caseStudyNavigationFor } from '../data/project-sequence.js';
+import { projectForRoute } from '../data/projects.js';
 
 interface TeamMember {
   name: string;
@@ -42,12 +43,14 @@ const {
   teamMembers = [], teamNote, showMeta = true,
 } = Astro.props;
 const { previousHref, nextHref } = caseStudyNavigationFor(Astro.url.pathname);
+const project = projectForRoute(Astro.url.pathname);
+if (!project) throw new Error(`Missing project registry entry for ${Astro.url.pathname}`);
 const hasTeamPanel = Boolean(teamLabel);
 const teamPanelId = `team-panel-${theme}`;
 const hasCustomHero = Astro.slots.has('hero');
 ---
 
-<BaseLayout title={headline} description={headline} theme={theme}>
+<BaseLayout title={project.metadata.title} description={project.metadata.description} theme={theme}>
   <article class="case-study case-study-system">
     <PageHeading title={headline} caseStudy />
 

@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { imageVariants } from '../src/data/image-variants.js';
+import { PROJECTS } from '../src/data/projects.js';
 
 const argumentsList = process.argv.slice(2);
 const allowNoRange = argumentsList.includes('--allow-no-range');
@@ -9,13 +10,7 @@ const productionOrigin = 'https://sakshat-goyal.com';
 const routes = [
   '/',
   '/about/',
-  '/work/panw-ai/',
-  '/work/hbs-ai-institute/',
-  '/work/global-data-analytics/',
-  '/work/one-report/',
-  '/work/hitachi-energy/',
-  '/work/cisco-customer-insights/',
-  '/work/memory-lane/',
+  ...PROJECTS.map(({ route }) => route),
 ];
 const result = { base: base.href, routes: [], checks: {} };
 
@@ -26,8 +21,24 @@ for (const route of routes) {
   const canonical = `${productionOrigin}${route}`;
   assert.ok(html.includes(`<link rel="canonical" href="${canonical}">`), `${route} has the wrong canonical URL`);
   assert.ok(html.includes('<meta property="og:image" content="https://sakshat-goyal.com/social-card.jpg">'), `${route} is missing the social image`);
+  const project = PROJECTS.find((entry) => entry.route === route);
+  if (project) {
+    assert.ok(html.includes(`<title>${project.metadata.title}</title>`), `${route} has the wrong metadata title`);
+    assert.ok(html.includes(`<meta property="og:title" content="${project.metadata.title}">`), `${route} has the wrong Open Graph title`);
+  }
   result.routes.push({ route, status: response.status, canonical });
 }
+
+for (const project of PROJECTS) {
+  for (const legacyRoute of project.legacyRoutes) {
+    for (const source of [legacyRoute, legacyRoute.slice(0, -1)]) {
+      const response = await fetch(new URL(source, base), { redirect: 'manual' });
+      assert.equal(response.status, 308, `${source} must return a direct 308 redirect`);
+      assert.equal(new URL(response.headers.get('location'), base).pathname, project.route, `${source} must redirect directly to ${project.route}`);
+    }
+  }
+}
+result.checks.legacyRedirects = 6;
 
 const slashRedirect = await fetch(new URL('/about', base), { redirect: 'manual' });
 assert.ok([301, 302, 307, 308].includes(slashRedirect.status), '/about must redirect to its trailing-slash URL');
@@ -58,6 +69,12 @@ assert.ok((await robots.text()).includes('https://sakshat-goyal.com/sitemap-inde
 const sitemap = await fetch(new URL('/sitemap-index.xml', base));
 assert.equal(sitemap.status, 200);
 assert.ok((await sitemap.text()).includes('https://sakshat-goyal.com/sitemap-0.xml'));
+const sitemapDocument = await fetch(new URL('/sitemap-0.xml', base));
+const sitemapXml = await sitemapDocument.text();
+for (const project of PROJECTS) assert.ok(sitemapXml.includes(`${productionOrigin}${project.route}`), `sitemap is missing ${project.route}`);
+for (const project of PROJECTS) {
+  for (const legacyRoute of project.legacyRoutes) assert.ok(!sitemapXml.includes(`${productionOrigin}${legacyRoute}`), `sitemap must exclude ${legacyRoute}`);
+}
 result.checks.discoveryFiles = true;
 
 const hashedImage = imageVariants['/assets/hbs/hbs-cover.webp'].variants[0].src;

@@ -1,0 +1,168 @@
+import { GLOBAL_DATA_ANALYTICS_TITLE, HBS_AI_INSTITUTE_TITLE } from './project-titles.js';
+
+export const PROJECTS = Object.freeze([
+  {
+    id: 'sales-workbench-ai',
+    label: 'Sales Workbench AI',
+    route: '/work/sales-workbench-ai/',
+    client: 'Palo Alto Networks',
+    metadata: {
+      title: 'Sales Workbench AI — Palo Alto Networks | Sākshāt Goyal',
+      description: 'Designing AI experiences for deep analysis and traceability.',
+    },
+    homepage: {
+      description: 'Designing AI features for deep analysis and traceability.',
+      company: 'PALO ALTO NETWORKS',
+      year: '2025-26',
+      video: '/assets/home-covers/panw-renewal-exception-row-anchor.webm',
+      poster: '/assets/home-covers/posters/panw-renewal-exception-row-anchor.png',
+      width: 2304,
+      height: 2304,
+      className: 'home-project-panw',
+    },
+    sequence: 1,
+    mediaOwner: 'sales-workbench-ai',
+    legacyRoutes: ['/work/panw-ai/'],
+  },
+  {
+    id: 'ai-research-architecture',
+    label: 'AI Research Architecture',
+    route: '/work/ai-research-architecture/',
+    client: 'Harvard Business School AI Institute',
+    metadata: {
+      title: 'AI Research Architecture — HBS AI Institute | Sākshāt Goyal',
+      description: HBS_AI_INSTITUTE_TITLE,
+    },
+    homepage: {
+      description: HBS_AI_INSTITUTE_TITLE,
+      company: 'HARVARD BUSINESS SCHOOL AI INSTITUTE',
+      year: '2025',
+      image: '/assets/hbs/hbs-cover.webp',
+      width: 3000,
+      height: 1688,
+      className: 'home-project-hbs',
+    },
+    sequence: 2,
+    mediaOwner: 'ai-research-architecture',
+    legacyRoutes: ['/work/hbs-ai-institute/'],
+  },
+  {
+    id: 'global-data-analytics',
+    label: 'Global Data Analytics',
+    route: '/work/global-data-analytics/',
+    client: 'DocuSign',
+    metadata: {
+      title: 'Global Data Analytics — DocuSign | Sākshāt Goyal',
+      description: GLOBAL_DATA_ANALYTICS_TITLE,
+    },
+    homepage: {
+      description: 'Turning exploratory research into tools for thematic analysis and value-driven sales.',
+      company: 'DOCUSIGN',
+      year: '2023-24',
+      video: '/assets/home-covers/gda.webm',
+      poster: '/assets/home-covers/posters/gda.png',
+      width: 1498,
+      height: 1124,
+      className: 'home-project-global',
+    },
+    sequence: 3,
+    mediaOwner: 'global-data-analytics',
+    legacyRoutes: [],
+  },
+  {
+    id: 'one-report',
+    label: 'OneReport',
+    route: '/work/one-report/',
+    client: 'DocuSign',
+    metadata: {
+      title: 'OneReport — DocuSign | Sākshāt Goyal',
+      description: 'Designing a data product around an executive’s inquisitive moments.',
+    },
+    homepage: {
+      description: 'Designing a data product around an executive’s inquisitive moments.',
+      company: 'DOCUSIGN',
+      year: '2023',
+      video: '/assets/home-covers/onereport-cover.webm',
+      poster: '/assets/home-covers/posters/onereport-cover.png',
+      width: 1138,
+      height: 2026,
+      className: 'home-project-one-report',
+    },
+    sequence: 4,
+    mediaOwner: 'one-report',
+    legacyRoutes: [],
+  },
+  {
+    id: 'hitachi-energy-partner-portal',
+    label: 'Hitachi Energy Partner Portal',
+    route: '/work/hitachi-energy-partner-portal/',
+    client: 'Hitachi Energy',
+    metadata: {
+      title: 'Hitachi Energy Partner Portal | Sākshāt Goyal',
+      description: "Designing a B2B buying experience for Hitachi's sales partners.",
+    },
+    homepage: {
+      description: 'Designing B2B experiences for Hitachi’s sales partners.',
+      company: 'HITACHI ENERGY',
+      year: '2021-22',
+      video: '/assets/home-covers/hitachi-cover.webm',
+      poster: '/assets/home-covers/posters/hitachi-cover.png',
+      width: 1080,
+      height: 608,
+      className: 'home-project-hitachi',
+    },
+    sequence: 5,
+    mediaOwner: 'hitachi-energy-partner-portal',
+    legacyRoutes: ['/work/hitachi-energy/'],
+  },
+  {
+    id: 'cisco-customer-insights',
+    label: 'Cisco Customer Insights',
+    route: '/work/cisco-customer-insights/',
+    client: 'Cisco Systems',
+    metadata: {
+      title: 'Cisco Customer Insights | Sākshāt Goyal',
+      description: 'Designing Customer Insights and extending it with Upsell Opportunities.',
+    },
+    homepage: {
+      description: 'Designing Customer Insights, scaling it with Upsell Opportunities.',
+      company: 'CISCO SYSTEMS',
+      year: '2020-21',
+      video: '/assets/home-covers/cisco-customer-dashboard.webm',
+      poster: '/assets/home-covers/posters/cisco-customer-dashboard.png',
+      width: 1920,
+      height: 1080,
+      className: 'home-project-cisco',
+    },
+    sequence: 6,
+    mediaOwner: 'cisco-customer-insights',
+    legacyRoutes: [],
+  },
+  {
+    id: 'memory-lane',
+    label: 'Memory Lane',
+    route: '/work/memory-lane/',
+    client: 'Multiple',
+    metadata: {
+      title: 'Memory Lane | Sākshāt Goyal',
+      description: 'Selected projects and experiments from Sākshāt Goyal’s design practice.',
+    },
+    homepage: {
+      description: 'A collection of work that does not need a long case study but remains worth mentioning.',
+      company: 'MULTIPLE',
+      year: '2019-Present',
+      placeholder: true,
+      className: 'home-project-memory-lane',
+    },
+    sequence: 7,
+    mediaOwner: 'memory-lane',
+    legacyRoutes: [],
+  },
+]);
+
+const normalizeRoute = (pathname) => pathname.endsWith('/') ? pathname : `${pathname}/`;
+
+export const projectForRoute = (pathname) => {
+  const route = normalizeRoute(pathname);
+  return PROJECTS.find((project) => project.route === route || project.legacyRoutes.includes(route));
+};

@@ -9,7 +9,7 @@ if (!username || !accessKey || !baseUrl) {
 }
 
 const auth = `Basic ${Buffer.from(`${username}:${accessKey}`).toString('base64')}`;
-const routes = ['/', '/work/panw-ai/', '/work/hbs-ai-institute/', '/work/global-data-analytics/', '/work/one-report/', '/work/hitachi-energy/', '/work/cisco-customer-insights/'];
+const routes = ['/', '/work/sales-workbench-ai/', '/work/ai-research-architecture/', '/work/global-data-analytics/', '/work/one-report/', '/work/hitachi-energy-partner-portal/', '/work/cisco-customer-insights/'];
 const api = async (url, options = {}) => {
   const response = await fetch(url, { ...options, headers: { Authorization: auth, 'Content-Type': 'application/json', ...options.headers } });
   const body = await response.text();

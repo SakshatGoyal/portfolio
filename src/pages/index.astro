@@ -3,97 +3,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import MemoryLaneTrail from '../components/MemoryLaneTrail.astro';
 import ResponsiveVideo from '../components/ResponsiveVideo.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
-import { HBS_AI_INSTITUTE_TITLE } from '../data/project-titles.js';
+import { PROJECTS } from '../data/projects.js';
 
-const projects = [
-  {
-    href: '/work/panw-ai/',
-    name: 'Sales Workbench AI Features',
-    description: 'Designing AI features for deep analysis and traceability.',
-    company: 'PALO ALTO NETWORKS',
-    year: '2025-26',
-    order: 1,
-    video: '/assets/home-covers/panw-renewal-exception-row-anchor.webm',
-    poster: '/assets/home-covers/posters/panw-renewal-exception-row-anchor.png',
-    width: 2304,
-    height: 2304,
-    className: 'home-project-panw',
-  },
-  {
-    href: '/work/hbs-ai-institute/',
-    name: 'AI Research Architecture',
-    description: HBS_AI_INSTITUTE_TITLE,
-    company: 'HARVARD BUSINESS SCHOOL AI INSTITUTE',
-    year: '2025',
-    order: 2,
-    image: '/assets/hbs/hbs-cover.webp',
-    width: 3000,
-    height: 1688,
-    className: 'home-project-hbs',
-  },
-  {
-    href: '/work/global-data-analytics/',
-    name: 'GDA Dashboards',
-    description: 'Turning exploratory research into tools for thematic analysis and value-driven sales.',
-    company: 'DOCUSIGN',
-    year: '2023-24',
-    order: 3,
-    video: '/assets/home-covers/gda.webm',
-    poster: '/assets/home-covers/posters/gda.png',
-    width: 1498,
-    height: 1124,
-    className: 'home-project-global',
-  },
-  {
-    href: '/work/one-report/',
-    name: 'OneReport',
-    description: 'Designing a data product around an executive’s inquisitive moments.',
-    company: 'DOCUSIGN',
-    year: '2023',
-    order: 4,
-    video: '/assets/home-covers/onereport-cover.webm',
-    poster: '/assets/home-covers/posters/onereport-cover.png',
-    width: 1138,
-    height: 2026,
-    className: 'home-project-one-report',
-  },
-  {
-    href: '/work/hitachi-energy/',
-    name: 'PowerShop ABB',
-    description: 'Designing B2B experiences for Hitachi’s Sales Partners',
-    company: 'HITACHI ENERGY',
-    year: '2021-22',
-    order: 5,
-    video: '/assets/home-covers/hitachi-cover.webm',
-    poster: '/assets/home-covers/posters/hitachi-cover.png',
-    width: 1080,
-    height: 608,
-    className: 'home-project-hitachi',
-  },
-  {
-    href: '/work/cisco-customer-insights/',
-    name: 'Cisco Ready, Customer Insights.',
-    description: 'Designing Customer Insights, scaling it with Upsell Opportunities.',
-    company: 'CISCO SYSTEMS',
-    year: '2020-21',
-    order: 6,
-    video: '/assets/home-covers/cisco-customer-dashboard.webm',
-    poster: '/assets/home-covers/posters/cisco-customer-dashboard.png',
-    width: 1920,
-    height: 1080,
-    className: 'home-project-cisco',
-  },
-  {
-    href: '/work/memory-lane/',
-    name: 'MemoryLane',
-    description: 'A collection of work that doesn’t deserve a long case study, but worth mentioning.',
-    company: 'MULTIPLE',
-    year: '2019-Present',
-    order: 7,
-    placeholder: true,
-    className: 'home-project-memory-lane',
-  },
-];
+const projects = PROJECTS.map((project) => ({
+  href: project.route,
+  name: project.label,
+  order: project.sequence,
+  ...project.homepage,
+}));
 
 ---
 
