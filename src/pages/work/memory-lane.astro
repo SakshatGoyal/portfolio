@@ -5,6 +5,25 @@ import { parseGalleryNotes } from '../../data/gallery.js';
 import galleryNotes from '../../content/gallery-notes.md?raw';
 
 const galleryProjects = parseGalleryNotes(galleryNotes);
+const trailAssets = [
+  { src: '/assets/memory-lane/trail/Degrees-of-interpretive-depth.png', width: 2040, height: 4827 },
+  { src: '/assets/memory-lane/trail/bob-image-feature.png', width: 4356, height: 2448 },
+  { src: '/assets/memory-lane/trail/cready-redesign-02.png', width: 2569, height: 1445 },
+  { src: '/assets/memory-lane/trail/hbs-event.png', width: 1637, height: 1034 },
+  { src: '/assets/memory-lane/trail/luminoso-frame-06.png', width: 4320, height: 2880 },
+  { src: '/assets/memory-lane/trail/luminoso-frame-08.png', width: 4320, height: 2880 },
+  { src: '/assets/memory-lane/trail/onereport.png', width: 2350, height: 2350 },
+  { src: '/assets/memory-lane/trail/panw-ai-context-workbench.png', width: 9006, height: 5064 },
+  { src: '/assets/memory-lane/trail/panw-anchored-follow-ups-caricature.jpg', width: 2399, height: 1349 },
+  { src: '/assets/memory-lane/trail/research-synthesis-crop.jpg', width: 3000, height: 1232 },
+  { src: '/assets/memory-lane/trail/sc-01-02.png', width: 1599, height: 1599 },
+  { src: '/assets/memory-lane/trail/sc-01.png', width: 1599, height: 2955 },
+  { src: '/assets/memory-lane/trail/sc-02-03.png', width: 1599, height: 1599 },
+  { src: '/assets/memory-lane/trail/sc-03.png', width: 1599, height: 2955 },
+  { src: '/assets/memory-lane/trail/stakeholder-data-insight-comparison.png', width: 6621, height: 3724 },
+  { src: '/assets/memory-lane/trail/trebuchet-hero-prototype.jpeg', width: 1800, height: 1200 },
+  { src: '/assets/memory-lane/trail/upsell-dashboard-cover-animation.gif', width: 1600, height: 899 },
+];
 const intro = [
   'Memory Lane gathers projects that still shape how I work, even if they do not need a full case study. Some preserve a specific interaction. Others capture how I framed a problem, worked with a team, or learned by making.',
   'I keep them here because their experiments, constraints, and lessons still influence how I approach new work. They are part of my design practice, alongside the larger launches.',
@@ -16,24 +35,28 @@ const intro = [
     slot="hero"
     class="memory-lane-hero-placeholder"
     data-memory-lane-trail
+    data-trail-assets={JSON.stringify(trailAssets)}
     aria-label="Memory Lane interactive image trail"
   >
     <div class="memory-lane-trail-layers" aria-hidden="true">
-      <figure class="memory-lane-trail-layer" data-width="2400" data-height="1800">
-        <img data-memory-lane-trail-visual src="/assets/gallery/panw-workbench.webp" alt="" width="2400" height="1800" />
-      </figure>
-      <figure class="memory-lane-trail-layer" data-width="1920" data-height="1080">
-        <img data-memory-lane-trail-visual src="/assets/gallery/panoptica-00-poster.webp" alt="" width="1920" height="1080" />
-      </figure>
-      <figure class="memory-lane-trail-layer" data-width="1920" data-height="1920">
-        <img data-memory-lane-trail-visual src="/assets/gallery/hbs-faculty-platform-00-poster.webp" alt="" width="1920" height="1920" />
-      </figure>
-      <figure class="memory-lane-trail-layer" data-width="1024" data-height="476">
-        <img data-memory-lane-trail-visual src="/assets/gallery/trebuchet-trials-00.webp" alt="" width="1024" height="476" />
-      </figure>
-      <figure class="memory-lane-trail-layer" data-width="2400" data-height="1059">
-        <img data-memory-lane-trail-visual src="/assets/gallery/wexel-04.webp" alt="" width="2400" height="1059" />
-      </figure>
+      {trailAssets.map((asset, index) => (
+        <figure
+          class="memory-lane-trail-layer"
+          data-asset-index={index}
+          data-width={asset.width}
+          data-height={asset.height}
+        >
+          <img
+            data-memory-lane-trail-visual
+            src={asset.src}
+            alt=""
+            width={asset.width}
+            height={asset.height}
+            decoding="async"
+            loading="eager"
+          />
+        </figure>
+      ))}
     </div>
   </div>
 
