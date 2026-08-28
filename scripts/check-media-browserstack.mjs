@@ -100,7 +100,7 @@ for (const target of targets) {
       body: JSON.stringify({ capabilities: { alwaysMatch: {
         browserName: target.browser,
         browserVersion: target.browser_version,
-        'bstack:options': { ...options, projectName: 'Portfolio V2', buildName: 'Media playback closure', sessionName: `${target.device || target.browser} run ${run}` },
+        'bstack:options': { ...options, projectName: 'Sakshat Goyal Portfolio', buildName: 'Media playback closure', sessionName: `${target.device || target.browser} run ${run}` },
       } } }),
     });
     const sessionId = created.value?.sessionId || created.sessionId;

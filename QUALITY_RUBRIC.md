@@ -1,4 +1,4 @@
-# Portfolio V2 quality rubric
+# Portfolio quality rubric
 
 The independent evaluator scores each dimension from 0–10. The final percentage is `total points / 70 × 100`. A release candidate passes only at **63/70 (90%) or higher**, with no individual dimension below 8.
 
@@ -32,4 +32,4 @@ Measures whether the reference language has been extended around the supplied ca
 
 ## Evaluation evidence
 
-The evaluator should inspect the home page and all four cases at approximately 1440px and 390px widths, check keyboard navigation and reduced-motion behavior, compare the result to the reference captures/data and Figma extracts, and list concrete deductions with page/section locations.
+The evaluator should inspect the home page and all seven cases at approximately 1440px and 390px widths, check keyboard navigation and reduced-motion behavior, compare the result to the reference captures/data and Figma extracts, and list concrete deductions with page/section locations.

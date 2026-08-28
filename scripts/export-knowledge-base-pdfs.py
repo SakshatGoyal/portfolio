@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build source-faithful Portfolio V2 knowledge-base PDFs."""
+"""Build source-faithful portfolio knowledge-base PDFs."""
 from __future__ import annotations
 
 import hashlib, json, re, shutil, subprocess
@@ -121,7 +121,7 @@ def build(path,title,source,blocks):
             if block['caption']: details.append('Caption: '+block['caption'])
             details.append('Source asset: '+block['source_asset'])
             story.append(KeepTogether([image(block['path']),Spacer(1,4),Paragraph(esc(' | '.join(details)),S['media'])]))
-    SimpleDocTemplate(str(path),pagesize=letter,leftMargin=.7*inch,rightMargin=.7*inch,topMargin=.65*inch,bottomMargin=.65*inch,title=title,author='Portfolio V2 knowledge-base export').build(story)
+    SimpleDocTemplate(str(path),pagesize=letter,leftMargin=.7*inch,rightMargin=.7*inch,topMargin=.65*inch,bottomMargin=.65*inch,title=title,author='Sakshat Goyal Portfolio knowledge-base export').build(story)
 
 def entry(pdf,title,source,blocks):
     return {'file':str(pdf.relative_to(OUTPUT)),'title':title,'source':source,'page_count':len(PdfReader(str(pdf)).pages),'sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'media':[{k:v for k,v in b.items() if k not in {'type','path'}} for b in blocks if b['type']=='media']}

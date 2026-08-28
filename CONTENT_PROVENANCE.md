@@ -13,7 +13,7 @@ The two added studies were edited from supplied project folders rather than tran
 
 | Route | Source material | Local media |
 | --- | --- | --- |
-| `/work/hitachi-energy/` | `portfolio-content-folder/Hitachi-Energy/` | `public/assets/hitachi/` |
-| `/work/cisco-customer-insights/` | `portfolio-content-folder/Cisco/Designing-Customer-Insights/` and `portfolio-content-folder/Cisco/Designing-Upsell-Opportunities/` | `public/assets/cisco/` |
+| `/work/hitachi-energy/` | `../portfolio-content-folder/Hitachi-Energy/` | `public/assets/hitachi/` |
+| `/work/cisco-customer-insights/` | `../portfolio-content-folder/Cisco/Designing-Customer-Insights/` and `../portfolio-content-folder/Cisco/Designing-Upsell-Opportunities/` | `public/assets/cisco/` |
 
 Hitachi’s post-launch timing is attributed to business-team follow-up received after the engagement; the underlying transaction sample was not available. Cisco’s 40% growth belongs to the core Customer Insights redesign, while the extension outcome is bounded to four shipped opportunity types and a shared product contract. Generated poster frames are stills from the supplied project videos.

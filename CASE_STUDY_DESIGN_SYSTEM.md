@@ -1,4 +1,4 @@
-# Portfolio V2 case-study design system
+# Portfolio case-study design system
 
 **Status:** Working specification 0.1
 **Last updated:** 2026-08-14

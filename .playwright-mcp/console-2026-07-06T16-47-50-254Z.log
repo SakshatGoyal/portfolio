@@ -1,7 +1,0 @@
-[    2302ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://rosenfeldmedia.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
-[    2936ms] [INFO] Uneets: Autoinitializing UBody from: JSHandle@node @ webpack:///./src/js/uneet-autoInit.js?:44
-[    2940ms] [INFO] Uneets: Autoinitializing UHeader from: JSHandle@node @ webpack:///./src/js/uneet-autoInit.js?:44
-[    2941ms] [INFO] Uneets: Autoinitializing UHeaderBar from: JSHandle@node @ webpack:///./src/js/uneet-autoInit.js?:44
-[    2941ms] [INFO] Uneets: Autoinitializing UTplPage from: JSHandle@node @ webpack:///./src/js/uneet-autoInit.js?:44
-[    2941ms] [INFO] Uneets: Autoinitializing USubscribeForm from: JSHandle@node @ webpack:///./src/js/uneet-autoInit.js?:44
-[    4652ms] [LOG] mailchimp ready @ https://rosenfeldmedia.com/wp-content/plugins/mailchimp-for-woocommerce/public/js/mailchimp-woocommerce-public.min.js?ver=5.5.1.07:0

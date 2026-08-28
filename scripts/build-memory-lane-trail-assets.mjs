@@ -6,7 +6,7 @@ import { memoryLaneTrailAssets } from '../src/data/memory-lane-trail.js';
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const sourceDirectory = resolve(
-  process.argv[2] || resolve(projectRoot, '../../portfolio-content-folder/homepage-carousel'),
+  process.argv[2] || resolve(projectRoot, '../portfolio-content-folder/homepage-carousel'),
 );
 const outputDirectory = resolve(projectRoot, 'public/assets/memory-lane/trail');
 const supportedSourceExtension = /\.(?:jpe?g|png)$/i;

@@ -3,13 +3,5 @@
   "compilerOptions": {
     "baseUrl": "."
   },
-  "exclude": [
-    "Archive",
-    "portfolio-site-studies",
-    "portfolio-content-folder",
-    "output",
-    ".tmp",
-    "dist",
-    "node_modules"
-  ]
+  "exclude": ["dist", "node_modules"]
 }

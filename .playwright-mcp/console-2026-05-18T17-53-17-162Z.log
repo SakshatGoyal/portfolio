@@ -1,6 +1,0 @@
-[    2207ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.2 @ http://web.archive.org/web/20221002193619js_/https://www.lizvwells.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2:10
-[    2226ms] [WARNING] Allow attribute will take precedence over 'allowfullscreen'. @ http://web.archive.org/web/20221002193619/https://www.lizvwells.com/project/lynching-in-america:476
-[    2891ms] [ERROR] Failed to load resource: the server responded with a status of 404 (NOT FOUND) @ http://web.archive.org/web/20221002193619/http://web.archive.org/screenshot/https://www.lizvwells.com/project/lynching-in-america:0
-[    3591ms] [ERROR] Failed to load resource: the server responded with a status of 404 (NOT FOUND) @ http://web.archive.org/web/20221002193619if_/https://player.vimeo.com/video/222412474?h=35f7103a8a&dnt=1&app_id=122963:0
-[    3635ms] [LOG] donation-banner loaded {version: 1.1.1} @ http://archive.org/includes/build/js/archive.min.js?v=87a9c020:400
-[    3787ms] [ERROR] Failed to load resource: the server responded with a status of 404 (NOT FOUND) @ http://web.archive.org/web/20221002193619/https://www.lizvwells.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.2:0

@@ -1,4 +1,4 @@
-# Portfolio V2 typography inventory
+# Portfolio typography inventory
 
 This inventory records the active typography system in `src/styles/global.css`. Values are organized by use-case so future changes can be evaluated against a named role instead of an isolated selector. Every quoted example below is literal text rendered by the portfolio. When no current route renders a role, the table says so explicitly.
 
