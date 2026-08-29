@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, statSync } from 'node:fs';
-import { dirname, join, resolve } from 'node:path';
+import { basename, dirname, join, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import sharp from 'sharp';
 import { responsiveBackgroundSources, responsiveImageSources } from './image-variant-sources.mjs';
@@ -33,6 +33,10 @@ for (const src of responsiveImageSources) {
     if (metadata.format !== 'webp' || metadata.width !== variant.width || metadata.height !== variant.height) {
       failures.push(`${variant.src}: metadata differs from the manifest.`);
     }
+    const derivativeHash = createHash('sha256').update(readFileSync(path)).digest('hex');
+    if (variant.sha256 !== derivativeHash || !basename(path).includes(`.${derivativeHash.slice(0, 12)}.`)) {
+      failures.push(`${variant.src}: filename and manifest must derive from the final derivative bytes.`);
+    }
   }
 }
 
@@ -47,6 +51,10 @@ for (const { name, src } of responsiveBackgroundSources) {
   for (const variant of entry.variants) {
     const path = join(publicRoot, variant.src.replace(/^\//, ''));
     if (!existsSync(path) || statSync(path).size === 0) failures.push(`${variant.src}: missing background derivative.`);
+    const derivativeHash = existsSync(path) ? createHash('sha256').update(readFileSync(path)).digest('hex') : '';
+    if (variant.sha256 !== derivativeHash || !basename(path).includes(`.${derivativeHash.slice(0, 12)}.`)) {
+      failures.push(`${variant.src}: filename and manifest must derive from the final derivative bytes.`);
+    }
   }
 }
 

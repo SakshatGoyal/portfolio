@@ -47,6 +47,7 @@ const contentSecurityPolicy = [
 
 const headers = `/*
   Content-Security-Policy: ${contentSecurityPolicy}
+  Cache-Control: public, max-age=0, must-revalidate
   Permissions-Policy: camera=(), geolocation=(), microphone=(), payment=(), usb=()
   Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
@@ -60,13 +61,17 @@ ${deploymentTarget === 'preview' ? '  X-Robots-Tag: noindex, nofollow\n' : ''}
   Cache-Control: public, max-age=31536000, immutable
 
 /media/generated/video/*
-  Cache-Control: public, max-age=3600, must-revalidate
+  Cache-Control: public, max-age=0, must-revalidate
+
+/media/projects/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/media/shared/*
+  Cache-Control: public, max-age=0, must-revalidate
 
 /fonts/*
   Cache-Control: public, max-age=86400, must-revalidate
 
-/media/shared/social-card.jpg
-  Cache-Control: public, max-age=86400, must-revalidate
 `;
 
 await writeFile(join(dist, '_headers'), headers);

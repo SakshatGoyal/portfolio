@@ -5,10 +5,12 @@
   "type": "module",
   "packageManager": "npm@11.19.0",
   "engines": {
-    "node": "24.20.0",
+    "node": "24.19.0",
     "npm": "11.19.0"
   },
   "scripts": {
+    "preinstall": "node scripts/check-runtime.mjs",
+    "check:runtime": "node scripts/check-runtime.mjs && node scripts/check-runtime-contracts.mjs",
     "dev": "astro dev",
     "check:content": "node scripts/check-content-invariants.mjs",
     "check:dividers": "node scripts/check-divider-ownership.mjs",
@@ -28,14 +30,15 @@
     "check:media-delivery": "node scripts/check-media-delivery.mjs",
     "check:media-browserstack": "node scripts/check-media-browserstack.mjs",
     "check:deployment": "node scripts/check-deployment-contracts.mjs",
+    "check:cloudflare-config": "node scripts/check-cloudflare-config.mjs",
     "export:knowledge-base": "python3 scripts/export-knowledge-base-pdfs.py",
-    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:media-inventory && npm run check:images && npm run check:media && npm run check:media-playback && astro check && astro build && node scripts/prune-public-assets.mjs && node scripts/write-deployment-files.mjs",
+    "build": "npm run check:runtime && npm run check:cloudflare-config && npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:media-inventory && npm run check:images && npm run check:media && npm run check:media-playback && astro check && astro build && node scripts/prune-public-assets.mjs && node scripts/write-deployment-files.mjs",
     "build:production": "DEPLOYMENT_TARGET=production npm run verify:release",
     "verify:release": "npm run check:media:deep && npm run check:images:quality && npm run build",
     "preview": "astro preview",
-    "deploy:preview": "npm run verify:release && wrangler deploy",
-    "rollback:preview": "wrangler rollback",
-    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:media-inventory && npm run check:images && npm run check:media && npm run check:media-playback && astro check"
+    "deploy:preview": "node scripts/deploy-preview.mjs",
+    "rollback:preview": "node scripts/rollback-preview.mjs",
+    "check": "npm run check:runtime && npm run check:cloudflare-config && npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:media-inventory && npm run check:images && npm run check:media && npm run check:media-playback && astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

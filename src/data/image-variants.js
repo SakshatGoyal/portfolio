@@ -14,14 +14,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/ai-research-architecture/hbs-cover.467126b61fbe.w640.webp",
+        "src": "/media/generated/images/ai-research-architecture/hbs-cover.ea91644c7bb1.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "ea91644c7bb17409176576304b0ed27444661eb77954040107e55a83c38504d5"
       },
       {
-        "src": "/media/generated/images/ai-research-architecture/hbs-cover.467126b61fbe.w1200.webp",
+        "src": "/media/generated/images/ai-research-architecture/hbs-cover.9c811cdd6eaf.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "9c811cdd6eafacb9e296cc0f05b03c050d69179e3db35e41d9ea9200073ab890"
       }
     ]
   },
@@ -39,14 +41,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage36.1970cc1dad80.w640.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage36.f338e093bbd6.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "f338e093bbd6206a74747592adce2f0be210833ff0ade7ede8fe14e94ab0f041"
       },
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage36.1970cc1dad80.w1200.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage36.ee4adb13f4f9.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "ee4adb13f4f913ec98ea2c45f2629980fdeb4bca60284df1f5ae82ba97cac1a0"
       }
     ]
   },
@@ -64,14 +68,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage37.33621b856a57.w640.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage37.5c7f85f8be1b.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "5c7f85f8be1b3527209217a5175d61865e8efdcb9948458c61c7678e6b887a4c"
       },
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage37.33621b856a57.w1200.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage37.3d84ecb88757.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "3d84ecb88757b6a8272214d74a8c839f0a66d341c1256064ac9ddfbd561c7b40"
       }
     ]
   },
@@ -89,14 +95,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/global-data-analytics/bob-image-01.0e1238dcaccd.w640.webp",
+        "src": "/media/generated/images/global-data-analytics/bob-image-01.b52de4c69fa5.w640.webp",
         "width": 640,
-        "height": 480
+        "height": 480,
+        "sha256": "b52de4c69fa56a80ed29c92ff36bc7bfb81a226d0e841db4d43b6cccfe13965d"
       },
       {
-        "src": "/media/generated/images/global-data-analytics/bob-image-01.0e1238dcaccd.w1200.webp",
+        "src": "/media/generated/images/global-data-analytics/bob-image-01.117d7e032f34.w1200.webp",
         "width": 1200,
-        "height": 900
+        "height": 900,
+        "sha256": "117d7e032f349afc7f32c0e5c51897d3d168d854bcaff8132017ec0f4cd5c17f"
       }
     ]
   },
@@ -114,14 +122,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage41.49399b449d5c.w640.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage41.385b8abd0b4a.w640.webp",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "sha256": "385b8abd0b4a0147a8a062aeb7fd2fa2854f3f5bf6bf372c61bd6d500201ea8a"
       },
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage41.49399b449d5c.w1200.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage41.99d1d1fe0af4.w1200.webp",
         "width": 1200,
-        "height": 1200
+        "height": 1200,
+        "sha256": "99d1d1fe0af46f53bfea1227ae1c610c65972a035d5f5cef57ec0e50d47c60d8"
       }
     ]
   },
@@ -139,14 +149,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage38.a92cea61d5da.w640.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage38.52a469b9d5a7.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "52a469b9d5a761b1a0625377e853a1622b47a4d6ae95de2d1a3cf2cc2fd1a013"
       },
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage38.a92cea61d5da.w1200.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage38.a99fd538bba3.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "a99fd538bba34735e2e2575f84daa4b1ebef9349ca7e93b3493b3ea9ee97b096"
       }
     ]
   },
@@ -164,14 +176,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage83.78ecd456dc74.w640.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage83.66622317e11c.w640.webp",
         "width": 640,
-        "height": 263
+        "height": 263,
+        "sha256": "66622317e11c9d477fa58d5c6a63d0b92706c65a2dcd4952ccadaf7e811dc91b"
       },
       {
-        "src": "/media/generated/images/global-data-analytics/imgImage83.78ecd456dc74.w1200.webp",
+        "src": "/media/generated/images/global-data-analytics/imgImage83.31d3b5cba043.w1200.webp",
         "width": 1200,
-        "height": 493
+        "height": 493,
+        "sha256": "31d3b5cba0432aa4df6f27631875cb445c649c20b58a38c12beca5e4d3cff045"
       }
     ]
   },
@@ -189,14 +203,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/global-data-analytics/bob-image-feature.6a671a582983.w640.webp",
+        "src": "/media/generated/images/global-data-analytics/bob-image-feature.838eecca5427.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "838eecca5427ce309c67c7836cafb359cccf4558057f7bdd79d8f20d657fd800"
       },
       {
-        "src": "/media/generated/images/global-data-analytics/bob-image-feature.6a671a582983.w1200.webp",
+        "src": "/media/generated/images/global-data-analytics/bob-image-feature.891befbd7518.w1200.webp",
         "width": 1200,
-        "height": 674
+        "height": 674,
+        "sha256": "891befbd75184e4b0952263d0232195ef46938ff83c0062cf6aea82ac907527a"
       }
     ]
   },
@@ -214,14 +230,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/global-data-analytics/bob-image-bob.52301c32b4b1.w640.webp",
+        "src": "/media/generated/images/global-data-analytics/bob-image-bob.e6ada9335ad0.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "e6ada9335ad09a732efb8b6fd967bab23628ad8494dc9db5c883dda3dfc84111"
       },
       {
-        "src": "/media/generated/images/global-data-analytics/bob-image-bob.52301c32b4b1.w1200.webp",
+        "src": "/media/generated/images/global-data-analytics/bob-image-bob.0339460f3397.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "0339460f3397ce16eaf38aa2f20f2714142e046d6b52a7575d33769f997f328c"
       }
     ]
   },
@@ -239,14 +257,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/one-report/onereport-analysis-01.d422e40d3418.w640.webp",
+        "src": "/media/generated/images/one-report/onereport-analysis-01.f18c5e82f38b.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "f18c5e82f38be2d28034156e8a9cfc17cd226187bcd5ce00ac4fb3fd343818ce"
       },
       {
-        "src": "/media/generated/images/one-report/onereport-analysis-01.d422e40d3418.w1200.webp",
+        "src": "/media/generated/images/one-report/onereport-analysis-01.8ff88438a658.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "8ff88438a658979974aa65e780e8913355caa297e73c418f70958878bd2bcf09"
       }
     ]
   },
@@ -264,14 +284,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/one-report/onereport-analysis-02.4867d65ba085.w640.webp",
+        "src": "/media/generated/images/one-report/onereport-analysis-02.bf2c29a92372.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "bf2c29a9237215bf1a729f3c6f1df09c1950380f18d044edc01b54fe7196e68a"
       },
       {
-        "src": "/media/generated/images/one-report/onereport-analysis-02.4867d65ba085.w1200.webp",
+        "src": "/media/generated/images/one-report/onereport-analysis-02.a7e66ff3b2b0.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "a7e66ff3b2b0101c3aff39e65d254ea2ee28d3fd4946d55c34290742495028b7"
       }
     ]
   },
@@ -289,14 +311,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/one-report/onereport-analysis-03.8539ef9c3b5b.w640.webp",
+        "src": "/media/generated/images/one-report/onereport-analysis-03.b5855f96b7bc.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "b5855f96b7bccee9a070bcf162154bb7ce285a52e749466779e4d8f7b1cc6fc0"
       },
       {
-        "src": "/media/generated/images/one-report/onereport-analysis-03.8539ef9c3b5b.w1200.webp",
+        "src": "/media/generated/images/one-report/onereport-analysis-03.0c51ae48e52a.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "0c51ae48e52a9b77c916871b253b47160148c01992552f637e2eb55e3efba3c2"
       }
     ]
   },
@@ -314,14 +338,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/one-report/onereport-analysis-04.d918752a5e70.w640.webp",
+        "src": "/media/generated/images/one-report/onereport-analysis-04.03cb00e38319.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "03cb00e383199e5a08bebab851e5a758ba121f160c1c70f79b5347c81913f4a3"
       },
       {
-        "src": "/media/generated/images/one-report/onereport-analysis-04.d918752a5e70.w1200.webp",
+        "src": "/media/generated/images/one-report/onereport-analysis-04.dcd02010c035.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "dcd02010c035fb3ab78481420a7c152eb9f539ea6a4039ba4b707ad0b2aa1767"
       }
     ]
   },
@@ -339,14 +365,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/one-report/onereport-report.ea78ef5ad1d4.w640.webp",
+        "src": "/media/generated/images/one-report/onereport-report.60eefb2202bd.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "60eefb2202bdaeb26844122a375a0163838bda864a27bfa732a5bb081cd5bb43"
       },
       {
-        "src": "/media/generated/images/one-report/onereport-report.ea78ef5ad1d4.w1200.webp",
+        "src": "/media/generated/images/one-report/onereport-report.3786e599be33.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "3786e599be33f41980740926ab6d71b42af7e81d6d6a0be6b3da29b3f6682093"
       }
     ]
   },
@@ -364,14 +392,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/one-report/onereport-insights.595d5adf1b8f.w640.webp",
+        "src": "/media/generated/images/one-report/onereport-insights.6ce1efbc9523.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "6ce1efbc95238a9ddad167e767331255458b8c8d93ec8ba729a57d48715f2c54"
       },
       {
-        "src": "/media/generated/images/one-report/onereport-insights.595d5adf1b8f.w1200.webp",
+        "src": "/media/generated/images/one-report/onereport-insights.2a3a732407f0.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "2a3a732407f06fe8508d94c5fd5f664bd14b7fc3a48a2177f858ec5ab035204b"
       }
     ]
   },
@@ -389,14 +419,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/imgScreenshot20260629At1208521.b9c9198e5e21.w640.webp",
+        "src": "/media/generated/images/sales-workbench-ai/imgScreenshot20260629At1208521.27b3f5e520f5.w640.webp",
         "width": 640,
-        "height": 356
+        "height": 356,
+        "sha256": "27b3f5e520f58673e29c44d978737a5ed1a8be78dc584e332672b69d8bd78b20"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/imgScreenshot20260629At1208521.b9c9198e5e21.w1200.webp",
+        "src": "/media/generated/images/sales-workbench-ai/imgScreenshot20260629At1208521.df2a575296e3.w1200.webp",
         "width": 1200,
-        "height": 667
+        "height": 667,
+        "sha256": "df2a575296e3da66a27244eaaf06e1f8712b0af5660372e7a9220e7428130c7a"
       }
     ]
   },
@@ -414,14 +446,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/panw-artifacts-discovery.bbc71153bf18.w640.webp",
+        "src": "/media/generated/images/sales-workbench-ai/panw-artifacts-discovery.820587b0c146.w640.webp",
         "width": 640,
-        "height": 640
+        "height": 640,
+        "sha256": "820587b0c146fe2acaa408b368d57a1dcb9349162887d76e7ac1f59e3929be6e"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/panw-artifacts-discovery.bbc71153bf18.w1200.webp",
+        "src": "/media/generated/images/sales-workbench-ai/panw-artifacts-discovery.9413155ef929.w1200.webp",
         "width": 1200,
-        "height": 1200
+        "height": 1200,
+        "sha256": "9413155ef929cbaa8d8a3e4f7418f1253073869a1dc68b7c27e8e7e02846b8dd"
       }
     ]
   },
@@ -439,14 +473,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/panw-image-05-02.90d63017d753.w640.webp",
+        "src": "/media/generated/images/sales-workbench-ai/panw-image-05-02.7662b27559da.w640.webp",
         "width": 640,
-        "height": 480
+        "height": 480,
+        "sha256": "7662b27559da0539c87aabeafd5268ac0757abd8a3f9c8d7ad8b6ff58119c7ad"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/panw-image-05-02.90d63017d753.w1200.webp",
+        "src": "/media/generated/images/sales-workbench-ai/panw-image-05-02.0bdcefc84394.w1200.webp",
         "width": 1200,
-        "height": 900
+        "height": 900,
+        "sha256": "0bdcefc843940f2938291b1833ebc3c6b05f4aaea50f7018b6141bf7ce299096"
       }
     ]
   },
@@ -464,14 +500,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/imgPanwImage016.11768f976fa7.w640.webp",
+        "src": "/media/generated/images/sales-workbench-ai/imgPanwImage016.16c0ffe3d4fd.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "16c0ffe3d4fd1fe9b739afe277265790d07fbba1607f542667ec028a60cd642b"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/imgPanwImage016.11768f976fa7.w1200.webp",
+        "src": "/media/generated/images/sales-workbench-ai/imgPanwImage016.c7cf564457fa.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "c7cf564457faa2dcb037f3515c83be300cd23436f085f748eacb07a244a31469"
       }
     ]
   },
@@ -489,14 +527,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/imgPanwImage013.73238ecde4ba.w640.webp",
+        "src": "/media/generated/images/sales-workbench-ai/imgPanwImage013.50adb9f97283.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "50adb9f97283fef8b8dce706e29b91b875dbb083d6cab5652125206d77c537c4"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/imgPanwImage013.73238ecde4ba.w1200.webp",
+        "src": "/media/generated/images/sales-workbench-ai/imgPanwImage013.ba18bab1d58e.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "ba18bab1d58e32e1a01aca1dcdf825382bfcf6cf8516052ec0041efbed0d7b16"
       }
     ]
   },
@@ -514,14 +554,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/cisco-customer-insights/strategy-sensemaking.375eaa39ab5b.w640.webp",
+        "src": "/media/generated/images/cisco-customer-insights/strategy-sensemaking.1582bca88c29.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "1582bca88c292b3fdf371996cbec75ab6e92a982558a32bc4c10b9195edb5dc1"
       },
       {
-        "src": "/media/generated/images/cisco-customer-insights/strategy-sensemaking.375eaa39ab5b.w1200.webp",
+        "src": "/media/generated/images/cisco-customer-insights/strategy-sensemaking.7a8ce22be3d3.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "7a8ce22be3d39534270c349fcaa099ec87042901978ea40a6826d593840f7a0c"
       }
     ]
   },
@@ -539,14 +581,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/cisco-customer-insights/participant-pivot-analysis-redacted.61b24874dbf8.w640.webp",
+        "src": "/media/generated/images/cisco-customer-insights/participant-pivot-analysis-redacted.c05d4b809e5a.w640.webp",
         "width": 640,
-        "height": 1123
+        "height": 1123,
+        "sha256": "c05d4b809e5a1fd0dd50b4e0083acf6361825958eb4e0a18420d126e0c957dbd"
       },
       {
-        "src": "/media/generated/images/cisco-customer-insights/participant-pivot-analysis-redacted.61b24874dbf8.w1200.webp",
+        "src": "/media/generated/images/cisco-customer-insights/participant-pivot-analysis-redacted.ad14eb317ee5.w1200.webp",
         "width": 1200,
-        "height": 2106
+        "height": 2106,
+        "sha256": "ad14eb317ee5c8849855f54e391b6a8bdfaa2ef875086e62d046b92fd468df36"
       }
     ]
   },
@@ -564,14 +608,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/cisco-customer-insights/visualization-ideation.8f36265ed9d1.w640.webp",
+        "src": "/media/generated/images/cisco-customer-insights/visualization-ideation.7c857e5913a4.w640.webp",
         "width": 640,
-        "height": 241
+        "height": 241,
+        "sha256": "7c857e5913a4baf6c3a87a9dc9dc581f8f7c26df35a032299e1fd1c883bda652"
       },
       {
-        "src": "/media/generated/images/cisco-customer-insights/visualization-ideation.8f36265ed9d1.w1200.webp",
+        "src": "/media/generated/images/cisco-customer-insights/visualization-ideation.11867d77b41b.w1200.webp",
         "width": 1200,
-        "height": 452
+        "height": 452,
+        "sha256": "11867d77b41b3c4b3f35b172f010b11b5a7ad98788403b995ae742e29eb42877"
       }
     ]
   },
@@ -589,14 +635,16 @@ export const imageVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/hitachi-energy-partner-portal/CJM-4.337ca3834eca.w640.webp",
+        "src": "/media/generated/images/hitachi-energy-partner-portal/CJM-4.455ac0dc1a7e.w640.webp",
         "width": 640,
-        "height": 360
+        "height": 360,
+        "sha256": "455ac0dc1a7eb7fea532b8439045af87bf4004ba11e7191fc46da25137bef47a"
       },
       {
-        "src": "/media/generated/images/hitachi-energy-partner-portal/CJM-4.337ca3834eca.w1200.webp",
+        "src": "/media/generated/images/hitachi-energy-partner-portal/CJM-4.f01a31f04034.w1200.webp",
         "width": 1200,
-        "height": 675
+        "height": 675,
+        "sha256": "f01a31f04034ea5f7b2bc817b4f94c5ef7be01d98a8bfd2af527bfd384c3b49e"
       }
     ]
   }
@@ -617,14 +665,16 @@ export const backgroundVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/home/panw-background-orange.8994b33d2068.w900.webp",
+        "src": "/media/generated/images/sales-workbench-ai/home/panw-background-orange.51864bab2e31.w900.webp",
         "width": 900,
-        "height": 900
+        "height": 900,
+        "sha256": "51864bab2e3101da7ccd780dee1c3036853231c6f3736b29cfa0f05b01571a51"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/home/panw-background-orange.8994b33d2068.w1773.webp",
+        "src": "/media/generated/images/sales-workbench-ai/home/panw-background-orange.ab1a2f933356.w1773.webp",
         "width": 1773,
-        "height": 1773
+        "height": 1773,
+        "sha256": "ab1a2f933356c5ffe4eb84a2f3af8b9ffeb1ce5b15bee9dab4e92534f7625e4d"
       }
     ]
   },
@@ -642,14 +692,16 @@ export const backgroundVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-blue.42e4d4380b18.w900.webp",
+        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-blue.0e4989bdab12.w900.webp",
         "width": 900,
-        "height": 639
+        "height": 639,
+        "sha256": "0e4989bdab12f0d4f29db27be1c940374d0c2f3d613040274b7dcea959620fee"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-blue.42e4d4380b18.w1773.webp",
+        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-blue.9c62a93886ec.w1773.webp",
         "width": 1773,
-        "height": 1258
+        "height": 1258,
+        "sha256": "9c62a93886ecc823ae77106e4d23b8e9864b18092f8c7280c89f0b3ebd3b321b"
       }
     ]
   },
@@ -667,14 +719,16 @@ export const backgroundVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-gray.758da647bdf7.w900.webp",
+        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-gray.3b3d2cdf37b0.w900.webp",
         "width": 900,
-        "height": 673
+        "height": 673,
+        "sha256": "3b3d2cdf37b0a32ad537815d5df9b1180865a32db718b7ed97d57bb7c994dfd4"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-gray.758da647bdf7.w1773.webp",
+        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-gray.b488697c06b7.w1773.webp",
         "width": 1773,
-        "height": 1325
+        "height": 1325,
+        "sha256": "b488697c06b79e1d9dc1ec6f10c3d2180d855618161b205c3edbe7d4aad5a0e8"
       }
     ]
   },
@@ -692,14 +746,16 @@ export const backgroundVariants = Object.freeze({
     },
     "variants": [
       {
-        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-dark.0bd7ed45bc02.w900.webp",
+        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-dark.30bc29dccf7d.w900.webp",
         "width": 900,
-        "height": 673
+        "height": 673,
+        "sha256": "30bc29dccf7d1de70cab7a6ab6ad760a4d283129749d38f0ffb669e37eb7b7d4"
       },
       {
-        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-dark.0bd7ed45bc02.w1773.webp",
+        "src": "/media/generated/images/sales-workbench-ai/backgrounds/panw-background-dark.f2d588f32139.w1773.webp",
         "width": 1773,
-        "height": 1325
+        "height": 1325,
+        "sha256": "f2d588f32139ba167f2e985ae3a19dc04cc0fa65031fe4bc8ff011a039cba7f7"
       }
     ]
   }

@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, unlink, writeFile } from 'node:fs/promises';
 import { dirname, extname, join, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import sharp from 'sharp';
 import {
   responsiveBackgroundSources,
@@ -15,18 +15,21 @@ const publicRoot = join(root, 'public');
 const outputRoot = join(publicRoot, 'media/generated/images');
 const manifestPath = join(root, 'src/data/image-variants.js');
 const cssPath = join(root, 'src/styles/generated-image-variants.css');
+const mediaInventoryPath = join(root, 'scripts/media-assets-manifest.json');
 const expected = new Set();
+const previousVariants = await import(`${pathToFileURL(manifestPath).href}?previous=${Date.now()}`);
+const mediaInventory = JSON.parse(await readFile(mediaInventoryPath, 'utf8'));
 
 const hashFor = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const sourcePath = (src) => join(publicRoot, src.replace(/^\//, ''));
-const outputUrl = (src, hash, width) => {
+const outputUrl = (src, derivativeHash, width) => {
   const [owner, ...sourceParts] = src.replace(/^\/media\/projects\//, '').split('/');
   let path = sourceParts.join('/').replace(new RegExp(`${extname(src)}$`), '');
   path = path.replace(/^images\//, '').replace(/^home\/images\//, 'home/');
-  return `/media/generated/images/${owner}/${path}.${hash.slice(0, 12)}.w${width}.webp`;
+  return `/media/generated/images/${owner}/${path}.${derivativeHash.slice(0, 12)}.w${width}.webp`;
 };
 
-const generate = async (src, requestedWidths, includeFullWidth = false) => {
+const generate = async (src, requestedWidths, includeFullWidth = false, previousEntry = null) => {
   const input = sourcePath(src);
   const bytes = await readFile(input);
   const sourceHash = hashFor(bytes);
@@ -39,19 +42,29 @@ const generate = async (src, requestedWidths, includeFullWidth = false) => {
   const variants = [];
 
   for (const width of widths) {
-    const url = outputUrl(src, sourceHash, width);
-    const output = sourcePath(url);
-    await mkdir(dirname(output), { recursive: true });
-    await sharp(bytes)
+    const outputBytes = await sharp(bytes)
       .resize({ width, withoutEnlargement: true, kernel: sharp.kernel.lanczos3 })
       .webp({ lossless: true, effort: 6 })
-      .toFile(output);
+      .toBuffer();
+    const derivativeHash = hashFor(outputBytes);
+    const url = outputUrl(src, derivativeHash, width);
+    const output = sourcePath(url);
+    await mkdir(dirname(output), { recursive: true });
+    await writeFile(output, outputBytes);
     expected.add(output);
-    const variantMetadata = await sharp(output).metadata();
+    const variantMetadata = await sharp(outputBytes).metadata();
+    const previousUrl = previousEntry?.variants.find((variant) => variant.width === variantMetadata.width)?.src;
+    const inventoryEntry = mediaInventory.files.find((entry) => entry.url === previousUrl);
+    if (!inventoryEntry) throw new Error(`${src} at ${width}px: generated derivative is missing from the explicit media inventory.`);
+    inventoryEntry.finalPath = `public${url}`;
+    inventoryEntry.url = url;
+    inventoryEntry.bytes = outputBytes.byteLength;
+    inventoryEntry.sha256 = derivativeHash;
     variants.push({
       src: url,
       width: variantMetadata.width,
       height: variantMetadata.height,
+      sha256: derivativeHash,
     });
   }
 
@@ -68,12 +81,12 @@ const generate = async (src, requestedWidths, includeFullWidth = false) => {
 
 const imageVariants = {};
 for (const src of responsiveImageSources) {
-  imageVariants[src] = await generate(src, responsiveImageWidths);
+  imageVariants[src] = await generate(src, responsiveImageWidths, false, previousVariants.imageVariants[src]);
 }
 
 const backgroundVariants = {};
 for (const { name, src } of responsiveBackgroundSources) {
-  backgroundVariants[name] = await generate(src, responsiveBackgroundWidths, true);
+  backgroundVariants[name] = await generate(src, responsiveBackgroundWidths, true, previousVariants.backgroundVariants[name]);
 }
 
 const walk = async (directory) => {
@@ -108,5 +121,10 @@ for (const [name, entry] of Object.entries(backgroundVariants)) {
 }
 cssLines.push('}', '');
 await writeFile(cssPath, cssLines.join('\n'));
+
+mediaInventory.summary.deployable.bytes = mediaInventory.files
+  .filter((entry) => entry.classification === 'deployable')
+  .reduce((total, entry) => total + entry.bytes, 0);
+await writeFile(mediaInventoryPath, `${JSON.stringify(mediaInventory, null, 2)}\n`);
 
 console.log(`Generated ${Object.values(imageVariants).flatMap((entry) => entry.variants).length} responsive image variants and ${Object.values(backgroundVariants).flatMap((entry) => entry.variants).length} background variants.`);
