@@ -35,6 +35,14 @@ const versions = () => {
   const records = JSON.parse(run(wrangler, ['versions', 'list', '--config', config, '--json'], { capture: true }));
   return Array.isArray(records) ? records : records.items ?? [];
 };
+const activeVersion = () => {
+  const deployment = JSON.parse(run(wrangler, ['deployments', 'status', '--config', config, '--json'], { capture: true }));
+  const active = deployment.versions?.filter(({ percentage }) => percentage === 100) ?? [];
+  if (active.length !== 1 || !active[0].version_id) {
+    throw new Error('Cloudflare must report exactly one active preview version before deployment can continue.');
+  }
+  return active[0].version_id;
+};
 
 run('npm', ['run', 'verify:release']);
 run(wrangler, ['whoami'], { capture: true });
@@ -48,20 +56,31 @@ if (previousEvidence) {
     throw new Error(`Previously verified rollback version ${previousVersion} is no longer available.`);
   }
 }
+const rollbackVersion = previousVersion ?? activeVersion();
+if (previousVersion && activeVersion() !== previousVersion) {
+  throw new Error(`Active preview does not match the last verified version ${previousVersion}.`);
+}
 let deployed = false;
 try {
   run(wrangler, ['deploy', '--config', config, '--strict']);
   deployed = true;
   run(process.execPath, ['scripts/check-deployment-contracts.mjs', validatedUrl]);
   run(process.execPath, ['scripts/check-media-delivery.mjs'], { env: { BASE_URL: validatedUrl } });
-  const verifiedVersion = versions()[0]?.id;
+  const verifiedVersion = activeVersion();
   if (!verifiedVersion) throw new Error('Cloudflare did not return a version ID for the verified preview.');
+  if (verifiedVersion === rollbackVersion) throw new Error('Cloudflare did not activate a new preview version.');
   mkdirSync(dirname(evidencePath), { recursive: true });
-  writeFileSync(evidencePath, `${JSON.stringify({ worker: expectedWorker, url: validatedUrl, verifiedVersion, previousVersion, verifiedAt: new Date().toISOString() }, null, 2)}\n`);
+  writeFileSync(evidencePath, `${JSON.stringify({ worker: expectedWorker, url: validatedUrl, verifiedVersion, previousVersion: rollbackVersion, verifiedAt: new Date().toISOString() }, null, 2)}\n`);
   console.log(`Preview verified. Evidence: ${evidencePath}`);
 } catch (error) {
   console.error(error.message);
-  if (deployed && previousVersion) console.error(`Rollback: npm run rollback:preview -- ${previousVersion}`);
-  else if (deployed) console.error('No previous preview version was available for rollback.');
+  if (deployed) {
+    console.error(`Preview verification failed; rolling back to ${rollbackVersion}.`);
+    try {
+      run(wrangler, ['rollback', rollbackVersion, '--config', config, '--yes']);
+    } catch {
+      console.error(`Automatic rollback failed. Run: npm run rollback:preview -- ${rollbackVersion}`);
+    }
+  }
   process.exit(1);
 }

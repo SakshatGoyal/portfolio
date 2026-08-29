@@ -79,11 +79,17 @@ result.checks.discoveryFiles = true;
 
 const hashedImage = imageVariants['/media/projects/ai-research-architecture/images/hbs-cover.webp'].variants[0].src;
 const hashedResponse = await fetch(new URL(hashedImage, base));
-assert.match(hashedResponse.headers.get('cache-control') ?? '', /max-age=31536000/);
-assert.match(hashedResponse.headers.get('cache-control') ?? '', /immutable/);
+assert.equal(
+  hashedResponse.headers.get('cache-control'),
+  'public, max-age=31536000, immutable',
+  'hashed assets must have one unambiguous immutable cache policy',
+);
 const unversionedResponse = await fetch(new URL('/media/projects/ai-research-architecture/images/hbs-cover.webp', base));
-assert.match(unversionedResponse.headers.get('cache-control') ?? '', /max-age=0/);
-assert.match(unversionedResponse.headers.get('cache-control') ?? '', /must-revalidate/);
+assert.equal(
+  unversionedResponse.headers.get('cache-control'),
+  'public, max-age=0, must-revalidate',
+  'unversioned assets must revalidate without conflicting cache directives',
+);
 result.checks.caching = true;
 
 const videoUrl = new URL('/media/generated/video/one-report/video/sc-01.mobile.mp4', base);

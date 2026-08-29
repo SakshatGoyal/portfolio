@@ -47,7 +47,6 @@ const contentSecurityPolicy = [
 
 const headers = `/*
   Content-Security-Policy: ${contentSecurityPolicy}
-  Cache-Control: public, max-age=0, must-revalidate
   Permissions-Policy: camera=(), geolocation=(), microphone=(), payment=(), usb=()
   Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff

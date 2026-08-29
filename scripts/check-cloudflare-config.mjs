@@ -18,8 +18,11 @@ assert.equal(production.name, 'sakshat-goyal-portfolio');
 assert.equal(production.workers_dev, false);
 assert.equal(production.preview_urls, false);
 for (const config of [preview, production]) {
+  assert.equal(config.main, './worker/index.ts');
   assert.deepEqual(config.assets, {
     directory: './dist/',
+    binding: 'ASSETS',
+    run_worker_first: ['/media/generated/video/*'],
     not_found_handling: '404-page',
     html_handling: 'auto-trailing-slash',
   });
@@ -29,5 +32,7 @@ assert.equal(packageJson.scripts['rollback:preview'], 'node scripts/rollback-pre
 assert.ok(!packageJson.scripts['deploy:production'], 'Production deployment must remain unavailable in this phase.');
 assert.ok(previewDeployment.includes("['scripts/check-media-delivery.mjs']"), 'Preview acceptance must exercise every generated video variant.');
 assert.ok(previewDeployment.includes('previousEvidence?.verifiedVersion'), 'Rollback must use the last verified preview version.');
-assert.ok(previewDeployment.includes("if (!verifiedVersion) throw new Error"), 'Preview acceptance must fail when Cloudflare version evidence is unavailable.');
+assert.ok(previewDeployment.includes('previousVersion ?? activeVersion()'), 'The first verified deployment must preserve the active preview as its rollback target.');
+assert.ok(previewDeployment.includes("['rollback', rollbackVersion"), 'Failed preview verification must automatically restore the previous deployment.');
+assert.ok(previewDeployment.includes('const verifiedVersion = activeVersion()'), 'Preview evidence must identify the version actually receiving traffic.');
 console.log('Cloudflare preview/production isolation contracts passed.');
