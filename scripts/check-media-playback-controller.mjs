@@ -142,7 +142,7 @@ const flush = () => new Promise((resolve) => setImmediate(resolve));
 
 const videos = [new VideoStub('one'), new VideoStub('two'), new VideoStub('fallback', { rvfc: false })];
 const deferredSource = new ElementStub();
-deferredSource.dataset.src = '/assets/example.mobile.mp4';
+deferredSource.dataset.src = '/media/example.mobile.mp4';
 videos[0].sources.push(deferredSource);
 const document = new EventTargetStub();
 document.hidden = false;
@@ -179,7 +179,7 @@ assert.equal(controller.records.size, 3, 'all videos initialize independently');
 assert.equal(createMediaPlaybackController(options), controller, 'duplicate initialization returns the live controller');
 assert.equal(deferredSource.getAttribute('src'), null, 'offscreen media sources stay unhydrated');
 preloadObserver.set(videos[0], 0.01);
-assert.equal(deferredSource.getAttribute('src'), '/assets/example.mobile.mp4', 'near-viewport media sources hydrate');
+assert.equal(deferredSource.getAttribute('src'), '/media/example.mobile.mp4', 'near-viewport media sources hydrate');
 assert.equal(videos[0].preload, 'metadata', 'near-viewport media requests only metadata before playback');
 
 observer.set(videos[0], 0.2);

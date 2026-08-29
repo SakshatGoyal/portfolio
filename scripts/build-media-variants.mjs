@@ -1,40 +1,25 @@
 import { execFileSync } from 'node:child_process';
-import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
-import { dirname, extname, join, relative, resolve } from 'node:path';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const sourceRoot = join(root, 'src');
 const publicRoot = join(root, 'public');
-const outputRoot = join(publicRoot, 'assets/generated/video');
-const manifestPath = join(sourceRoot, 'data/video-variants.js');
+const outputRoot = join(publicRoot, 'media/generated/video');
+const inventoryPath = join(root, 'scripts/media-assets-manifest.json');
+const manifestPath = join(root, 'src/data/video-variants.js');
 
 const tiers = Object.freeze({
   mobile: { pixels: 1280 * 720, maxrate: 1600, bufsize: 3200 },
   desktop: { pixels: 1920 * 1080, maxrate: 3000, bufsize: 6000 },
 });
 
-const walk = (directory) => readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
-  const path = join(directory, entry.name);
-  return entry.isDirectory() ? walk(path) : [path];
-});
+const mediaInventory = () => JSON.parse(readFileSync(inventoryPath, 'utf8'));
+const activeVideoEntries = () => mediaInventory().files
+  .filter(({ classification }) => classification === 'source')
+  .sort((left, right) => left.url.localeCompare(right.url));
 
-export const discoverActiveVideoSources = () => {
-  const sources = new Set();
-  for (const file of walk(sourceRoot).filter((path) => ['.astro', '.js', '.mjs', '.ts', '.tsx'].includes(extname(path)))) {
-    if (file === manifestPath) continue;
-    const contents = readFileSync(file, 'utf8');
-    for (const match of contents.matchAll(/['"`]((?:\/assets\/)[^'"`$]+\.webm)['"`]/g)) {
-      if (!match[1].startsWith('/assets/generated/')) sources.add(match[1]);
-    }
-    if (file.endsWith('/src/data/gallery.js')) {
-      for (const match of contents.matchAll(/\bvideo\(\s*['"]([^'"]+)['"]/g)) {
-        sources.add(`/assets/gallery/${match[1]}.webm`);
-      }
-    }
-  }
-  return [...sources].sort();
-};
+export const discoverActiveVideoSources = () => activeVideoEntries().map(({ url }) => url);
 
 const probe = (path) => JSON.parse(execFileSync('ffprobe', [
   '-v', 'error', '-select_streams', 'v:0',
@@ -54,9 +39,11 @@ const dimensionsFor = ({ width, height }, targetPixels) => {
   };
 };
 
-const outputUrlFor = (source, tier, extension) => {
-  const sourceRelative = source.replace(/^\/assets\//, '').replace(/\.webm$/i, '');
-  return `/assets/generated/video/${sourceRelative}.${tier}.${extension}`;
+const outputUrlFor = (entry, tier, extension) => {
+  const ownerPrefix = `media-source/projects/${entry.owner}/`;
+  let sourceRelative = entry.finalPath.replace(ownerPrefix, '').replace(/\.webm$/i, '');
+  sourceRelative = sourceRelative.replace(/^home\/video\//, 'home/').replace(/^gallery\/video\//, 'gallery/');
+  return `/media/generated/video/${entry.owner}/${sourceRelative}.${tier}.${extension}`;
 };
 
 const encode = (input, output, codec, { width, height, fps, maxrate, bufsize }) => {
@@ -75,16 +62,17 @@ const encode = (input, output, codec, { width, height, fps, maxrate, bufsize }) 
 
 export const buildMediaVariants = () => {
   const manifest = {};
-  for (const source of discoverActiveVideoSources()) {
-    const input = join(publicRoot, source.replace(/^\//, ''));
+  for (const entry of activeVideoEntries()) {
+    const source = entry.url;
+    const input = join(root, entry.finalPath);
     const metadata = probe(input);
     const fps = Math.min(30, rational(metadata.avg_frame_rate) || 30);
     manifest[source] = { original: source };
 
     for (const [tier, contract] of Object.entries(tiers)) {
       const dimensions = dimensionsFor(metadata, contract.pixels);
-      const mp4 = outputUrlFor(source, tier, 'mp4');
-      const webm = outputUrlFor(source, tier, 'webm');
+      const mp4 = outputUrlFor(entry, tier, 'mp4');
+      const webm = outputUrlFor(entry, tier, 'webm');
       encode(input, join(publicRoot, mp4.replace(/^\//, '')), 'h264', { ...dimensions, fps, ...contract });
       encode(input, join(publicRoot, webm.replace(/^\//, '')), 'vp9', { ...dimensions, fps, ...contract });
       manifest[source][tier] = { mp4, webm };

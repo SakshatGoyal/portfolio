@@ -7,10 +7,10 @@ import { backgroundVariants, imageVariants } from '../src/data/image-variants.js
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const publicRoot = join(root, 'public');
 const selected = [
-  imageVariants['/assets/hbs/hbs-cover.webp'],
-  imageVariants['/assets/global-data/imgImage36.webp'],
-  imageVariants['/assets/panw-ai/panw-artifacts-discovery.webp'],
-  imageVariants['/assets/cisco/strategy-sensemaking.png'],
+  imageVariants['/media/projects/ai-research-architecture/images/hbs-cover.webp'],
+  imageVariants['/media/projects/global-data-analytics/images/imgImage36.webp'],
+  imageVariants['/media/projects/sales-workbench-ai/images/panw-artifacts-discovery.webp'],
+  imageVariants['/media/projects/cisco-customer-insights/images/strategy-sensemaking.png'],
   ...Object.values(backgroundVariants),
 ];
 

@@ -12,7 +12,7 @@ import {
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const publicRoot = join(root, 'public');
-const outputRoot = join(publicRoot, 'assets/generated/images');
+const outputRoot = join(publicRoot, 'media/generated/images');
 const manifestPath = join(root, 'src/data/image-variants.js');
 const cssPath = join(root, 'src/styles/generated-image-variants.css');
 const expected = new Set();
@@ -20,8 +20,10 @@ const expected = new Set();
 const hashFor = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const sourcePath = (src) => join(publicRoot, src.replace(/^\//, ''));
 const outputUrl = (src, hash, width) => {
-  const path = src.replace(/^\/assets\//, '').replace(new RegExp(`${extname(src)}$`), '');
-  return `/assets/generated/images/${path}.${hash.slice(0, 12)}.w${width}.webp`;
+  const [owner, ...sourceParts] = src.replace(/^\/media\/projects\//, '').split('/');
+  let path = sourceParts.join('/').replace(new RegExp(`${extname(src)}$`), '');
+  path = path.replace(/^images\//, '').replace(/^home\/images\//, 'home/');
+  return `/media/generated/images/${owner}/${path}.${hash.slice(0, 12)}.w${width}.webp`;
 };
 
 const generate = async (src, requestedWidths, includeFullWidth = false) => {

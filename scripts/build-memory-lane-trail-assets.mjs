@@ -8,7 +8,7 @@ const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const sourceDirectory = resolve(
   process.argv[2] || resolve(projectRoot, '../portfolio-content-folder/homepage-carousel'),
 );
-const outputDirectory = resolve(projectRoot, 'public/assets/memory-lane/trail');
+const outputDirectory = resolve(projectRoot, 'public/media/projects/memory-lane/trail');
 const supportedSourceExtension = /\.(?:jpe?g|png)$/i;
 const supportedOutputExtension = /\.(?:jpe?g|png|webp)$/i;
 

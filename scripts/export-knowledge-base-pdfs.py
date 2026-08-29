@@ -26,7 +26,7 @@ def slug(value): return re.sub('[^a-z0-9]+', '-', value.lower().replace('&','and
 def classes(element): return set(element.get('class','').split())
 def source_path(src):
     path = PUBLIC / src.lstrip('/')
-    if not src.startswith('/assets/') or not path.is_file(): raise FileNotFoundError(f'Missing asset: {src}')
+    if not src.startswith('/media/') or not path.is_file(): raise FileNotFoundError(f'Missing asset: {src}')
     return path
 
 def font():
@@ -55,7 +55,7 @@ def record(element):
     media = element if element.tag in {'img','video'} else next(iter(element.xpath('.//img | .//video')), None)
     if media is None: return None
     src = media.get('src','')
-    if not src.startswith('/assets/') or src.endswith('.svg'): return None
+    if not src.startswith('/media/') or src.endswith('.svg'): return None
     original, displayed, label = source_path(src), None, 'Image'
     fallback_used = False
     if media.tag == 'video':

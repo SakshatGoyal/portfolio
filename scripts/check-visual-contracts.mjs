@@ -428,7 +428,7 @@ const actualMemoryLaneTrailAssets = memoryLaneTrailAssets.map(({ source, src, wi
 if (JSON.stringify(actualMemoryLaneTrailAssets) !== JSON.stringify(expectedMemoryLaneTrailAssets)) {
   errors.push('Memory Lane trail manifest must exactly map the authoritative twelve-file source set to its 2x WebP derivatives.');
 }
-const publicMemoryLaneTrailAssets = (await readdir(new URL('../public/assets/memory-lane/trail/', import.meta.url))).sort();
+const publicMemoryLaneTrailAssets = (await readdir(new URL('../public/media/projects/memory-lane/trail/', import.meta.url))).sort();
 if (JSON.stringify(publicMemoryLaneTrailAssets) !== JSON.stringify(expectedMemoryLaneTrailAssets.map(([, output]) => output))) {
   errors.push('Memory Lane public trail assets must contain exactly twelve optimized WebP derivatives with no stale copies.');
 }
@@ -438,7 +438,7 @@ for (const [source, output, width, height] of expectedMemoryLaneTrailAssets) {
   requireCount(memoryLaneTrailManifest, output, 1, `Memory Lane must reference ${output} exactly once.`);
   requireText(memoryLaneTrailManifest, `width: ${width}, height: ${height}`, `Memory Lane must declare ${output}'s ${width}x${height} optimized intrinsic dimensions.`);
   try {
-    const outputUrl = new URL(`../public/assets/memory-lane/trail/${output}`, import.meta.url);
+    const outputUrl = new URL(`../public/media/projects/memory-lane/trail/${output}`, import.meta.url);
     const [metadata, fileStats] = await Promise.all([sharp(fileURLToPath(outputUrl)).metadata(), stat(outputUrl)]);
     optimizedMemoryLaneTrailBytes += fileStats.size;
     if (metadata.format !== 'webp' || metadata.width !== width || metadata.height !== height) {

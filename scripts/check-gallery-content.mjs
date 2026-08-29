@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { galleryLayouts, galleryMedia, parseGalleryNotes } from '../src/data/gallery.js';
 
 const notes = await readFile(new URL('../src/content/gallery-notes.md', import.meta.url), 'utf8');
+const mediaInventory = JSON.parse(await readFile(new URL('./media-assets-manifest.json', import.meta.url), 'utf8'));
 const normalizedNotes = notes.replace(/\r\n?/g, '\n')
   .split('\n')
   .map((line) => line.trim())
@@ -133,7 +134,12 @@ const referencedAssets = [...new Set(artifacts.flatMap((artifact) => (
   [artifact.src, artifact.poster].filter(Boolean)
 )))];
 await Promise.all(referencedAssets.map(async (asset) => {
-  const file = new URL(`../public${asset}`, import.meta.url);
+  const entry = mediaInventory.files.find(({ url }) => url === asset);
+  if (!entry) {
+    errors.push(`Gallery asset is unclassified: ${asset}`);
+    return;
+  }
+  const file = new URL(`../${entry.finalPath}`, import.meta.url);
   try {
     await access(fileURLToPath(file));
   } catch {

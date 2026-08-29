@@ -15,7 +15,7 @@ const { title, description, theme = 'neutral', noindex = false } = Astro.props;
 const isCaseSystem = theme !== 'neutral';
 const isHomeSystem = Astro.url.pathname === '/';
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? 'https://sakshat-goyal.com');
-const socialImageUrl = new URL('/social-card.jpg', Astro.site ?? canonicalUrl);
+const socialImageUrl = new URL('/media/shared/social-card.jpg', Astro.site ?? canonicalUrl);
 ---
 
 <!doctype html>

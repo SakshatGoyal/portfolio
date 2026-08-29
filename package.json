@@ -15,6 +15,8 @@
     "check:gallery": "node scripts/check-gallery-content.mjs",
     "check:visual-contracts": "node scripts/check-visual-contracts.mjs",
     "check:accessibility": "node scripts/check-accessibility-contracts.mjs",
+    "check:media-inventory": "node scripts/check-media-inventory.mjs",
+    "check:media-restoration": "node scripts/check-media-restoration.mjs",
     "build:memory-lane-trail": "node scripts/build-memory-lane-trail-assets.mjs",
     "build:media": "node scripts/build-media-variants.mjs",
     "build:images": "node scripts/build-responsive-images.mjs",
@@ -27,13 +29,13 @@
     "check:media-browserstack": "node scripts/check-media-browserstack.mjs",
     "check:deployment": "node scripts/check-deployment-contracts.mjs",
     "export:knowledge-base": "python3 scripts/export-knowledge-base-pdfs.py",
-    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:images && npm run check:media && npm run check:media-playback && astro check && astro build && node scripts/prune-public-assets.mjs && node scripts/write-deployment-files.mjs",
+    "build": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:media-inventory && npm run check:images && npm run check:media && npm run check:media-playback && astro check && astro build && node scripts/prune-public-assets.mjs && node scripts/write-deployment-files.mjs",
     "build:production": "DEPLOYMENT_TARGET=production npm run verify:release",
     "verify:release": "npm run check:media:deep && npm run check:images:quality && npm run build",
     "preview": "astro preview",
     "deploy:preview": "npm run verify:release && wrangler deploy",
     "rollback:preview": "wrangler rollback",
-    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:images && npm run check:media && npm run check:media-playback && astro check"
+    "check": "npm run check:content && npm run check:gallery && npm run check:dividers && npm run check:visual-contracts && npm run check:accessibility && npm run check:media-inventory && npm run check:images && npm run check:media && npm run check:media-playback && astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

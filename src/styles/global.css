@@ -864,7 +864,7 @@ body.case-study-menu-open { overflow: hidden; }
 
 .home-project-panw .home-project-media-visual {
   --panw-media-offset: 48px;
-  background-image: var(--responsive-background-home-panw, url('/assets/home-covers/panw-background-orange.png'));
+  background-image: var(--responsive-background-home-panw, url('/media/projects/sales-workbench-ai/home/images/panw-background-orange.png'));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1698,7 +1698,7 @@ html[data-media-motion-ready='true'] [data-home-project-text-reveal][data-home-p
   display: grid;
   place-items: center;
   padding: 32px clamp(16px, 4vw, 64px);
-  background: #1c2831 var(--responsive-background-panw-dark, url('/assets/panw-ai/backgrounds/panw-background-dark.png')) center / cover no-repeat;
+  background: #1c2831 var(--responsive-background-panw-dark, url('/media/projects/sales-workbench-ai/backgrounds/panw-background-dark.png')) center / cover no-repeat;
   box-shadow: none;
 }
 [data-theme='panw'][data-case-system='true'] .case-study > .hero-figure video {
@@ -1794,7 +1794,7 @@ html[data-media-motion-ready='true'] [data-home-project-text-reveal][data-home-p
   place-items: center;
   width: 100%;
   padding: 32px clamp(16px, 4vw, 64px);
-  background: #d6e6e1 var(--responsive-background-panw-blue, url('/assets/panw-ai/backgrounds/panw-background-blue.png')) center / cover no-repeat;
+  background: #d6e6e1 var(--responsive-background-panw-blue, url('/media/projects/sales-workbench-ai/backgrounds/panw-background-blue.png')) center / cover no-repeat;
   box-shadow: none;
 }
 [data-theme='panw'][data-case-system='true'] .case-body .panw-square-animation video {
@@ -1818,7 +1818,7 @@ html[data-media-motion-ready='true'] [data-home-project-text-reveal][data-home-p
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: var(--responsive-background-panw-gray, url('/assets/panw-ai/backgrounds/panw-background-gray.png')) center / cover no-repeat;
+  background: var(--responsive-background-panw-gray, url('/media/projects/sales-workbench-ai/backgrounds/panw-background-gray.png')) center / cover no-repeat;
   opacity: 0.4;
   pointer-events: none;
 }

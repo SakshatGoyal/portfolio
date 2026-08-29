@@ -56,16 +56,16 @@ ${deploymentTarget === 'preview' ? '  X-Robots-Tag: noindex, nofollow\n' : ''}
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
 
-/assets/generated/images/*
+/media/generated/images/*
   Cache-Control: public, max-age=31536000, immutable
 
-/assets/generated/video/*
+/media/generated/video/*
   Cache-Control: public, max-age=3600, must-revalidate
 
 /fonts/*
   Cache-Control: public, max-age=86400, must-revalidate
 
-/social-card.jpg
+/media/shared/social-card.jpg
   Cache-Control: public, max-age=86400, must-revalidate
 `;
 

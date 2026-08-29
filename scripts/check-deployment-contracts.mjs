@@ -20,7 +20,7 @@ for (const route of routes) {
   const html = await response.text();
   const canonical = `${productionOrigin}${route}`;
   assert.ok(html.includes(`<link rel="canonical" href="${canonical}">`), `${route} has the wrong canonical URL`);
-  assert.ok(html.includes('<meta property="og:image" content="https://sakshat-goyal.com/social-card.jpg">'), `${route} is missing the social image`);
+  assert.ok(html.includes('<meta property="og:image" content="https://sakshat-goyal.com/media/shared/social-card.jpg">'), `${route} is missing the social image`);
   const project = PROJECTS.find((entry) => entry.route === route);
   if (project) {
     assert.ok(html.includes(`<title>${project.metadata.title}</title>`), `${route} has the wrong metadata title`);
@@ -77,16 +77,16 @@ for (const project of PROJECTS) {
 }
 result.checks.discoveryFiles = true;
 
-const hashedImage = imageVariants['/assets/hbs/hbs-cover.webp'].variants[0].src;
+const hashedImage = imageVariants['/media/projects/ai-research-architecture/images/hbs-cover.webp'].variants[0].src;
 const hashedResponse = await fetch(new URL(hashedImage, base));
 assert.match(hashedResponse.headers.get('cache-control') ?? '', /max-age=31536000/);
 assert.match(hashedResponse.headers.get('cache-control') ?? '', /immutable/);
-const unversionedResponse = await fetch(new URL('/assets/hbs/hbs-cover.webp', base));
+const unversionedResponse = await fetch(new URL('/media/projects/ai-research-architecture/images/hbs-cover.webp', base));
 assert.match(unversionedResponse.headers.get('cache-control') ?? '', /max-age=0/);
 assert.match(unversionedResponse.headers.get('cache-control') ?? '', /must-revalidate/);
 result.checks.caching = true;
 
-const videoUrl = new URL('/assets/generated/video/one-report/video/sc-01.mobile.mp4', base);
+const videoUrl = new URL('/media/generated/video/one-report/video/sc-01.mobile.mp4', base);
 const rangeResponse = await fetch(videoUrl, { headers: { Range: 'bytes=0-1023' } });
 const rangeBytes = (await rangeResponse.arrayBuffer()).byteLength;
 if (allowNoRange) {

@@ -9,7 +9,7 @@
 const image = (name, width, height, caption, role = 'support') => ({
   id: name,
   type: 'image',
-  src: `/assets/gallery/${name}.webp`,
+  src: `/media/projects/memory-lane/gallery/images/${name}.webp`,
   width,
   height,
   role,
@@ -20,8 +20,8 @@ const image = (name, width, height, caption, role = 'support') => ({
 const video = (name, width, height, caption, role = 'support', viewportFit = true) => ({
   id: name,
   type: 'video',
-  src: `/assets/gallery/${name}.webm`,
-  poster: `/assets/gallery/${name}-poster.webp`,
+  src: `/media/projects/memory-lane/gallery/video/${name}.webm`,
+  poster: `/media/projects/memory-lane/gallery/images/${name}-poster.webp`,
   width,
   height,
   role,
