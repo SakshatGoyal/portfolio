@@ -54,21 +54,15 @@ const headers = `/*
 ${deploymentTarget === 'preview' ? '  X-Robots-Tag: noindex, nofollow\n' : ''}
 
 /_astro/*
+  ! Cache-Control
   Cache-Control: public, max-age=31536000, immutable
 
 /media/generated/images/*
+  ! Cache-Control
   Cache-Control: public, max-age=31536000, immutable
 
-/media/generated/video/*
-  Cache-Control: public, max-age=0, must-revalidate
-
-/media/projects/*
-  Cache-Control: public, max-age=0, must-revalidate
-
-/media/shared/*
-  Cache-Control: public, max-age=0, must-revalidate
-
 /fonts/*
+  ! Cache-Control
   Cache-Control: public, max-age=86400, must-revalidate
 
 `;
