@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import MemoryLaneTrail from '../components/MemoryLaneTrail.astro';
 import ResponsiveVideo from '../components/ResponsiveVideo.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
+import MediaPlaybackControl from '../components/MediaPlaybackControl.astro';
 import { PROJECTS } from '../data/projects.js';
 
 const projects = PROJECTS.map((project) => ({
@@ -23,7 +24,7 @@ const projects = PROJECTS.map((project) => ({
     <div class="home-project-scroller">
       <div class="home-project-grid" data-home-project-grid data-home-layout="small">
         {projects.map((project, index) => (
-          <div class="home-project-slot" data-home-project-slot data-home-order={project.order}>
+          <div class="home-project-slot" data-home-project-slot data-home-order={project.order} data-playable-media={project.video ? '' : undefined}>
             <a class:list={['home-project-card', project.className]} href={project.href} aria-label={`View ${project.name} case study`} style={`--home-order: ${project.order}`} data-home-order={project.order} data-home-project-reveal-unit data-project-tile data-reveal>
               <div class="home-project-copy" data-home-project-text-reveal>
                 <h3>{project.name}</h3>
@@ -50,8 +51,8 @@ const projects = PROJECTS.map((project) => ({
               ) : project.video ? (
                 <div class="home-project-media" data-home-project-media-reveal data-media-reveal>
                   <span class="media-reveal-clip" data-media-reveal-clip>
-                    <span class="home-project-media-visual media-reveal-rise playable-media-surface" data-media-reveal-rise data-asset-surface data-playable-media>
-                      <ResponsiveVideo src={project.video} poster={project.poster} width={project.width} height={project.height} label={project.name} home />
+                    <span class="home-project-media-visual media-reveal-rise playable-media-surface" data-media-reveal-rise data-asset-surface>
+                      <ResponsiveVideo src={project.video} poster={project.poster} width={project.width} height={project.height} label={project.name} home showPlaybackControl={false} />
                     </span>
                   </span>
                 </div>
@@ -65,6 +66,7 @@ const projects = PROJECTS.map((project) => ({
                 </div>
               )}
             </a>
+            {project.video && <MediaPlaybackControl label={project.name} />}
           </div>
         ))}
       </div>

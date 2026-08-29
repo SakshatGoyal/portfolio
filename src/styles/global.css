@@ -700,7 +700,11 @@ body.case-study-menu-open { overflow: hidden; }
 }
 
 /* Card geometry is content-driven; the shared SVG topology owns every seam. */
-.home-project-slot { min-width: 0; }
+.home-project-slot {
+  --home-project-card-padding: 24px;
+  position: relative;
+  min-width: 0;
+}
 .home-project-grid:not([data-home-layout='small']) .home-project-slot { position: absolute; }
 .home-project-card {
   position: relative;
@@ -724,6 +728,7 @@ body.case-study-menu-open { overflow: hidden; }
     --home-project-row-gap: 16px;
     padding: 16px;
   }
+  .home-project-slot { --home-project-card-padding: 16px; }
   .home-project-card { padding: 16px; }
 }
 .home-project-card:focus-visible {
@@ -860,7 +865,11 @@ body.case-study-menu-open { overflow: hidden; }
   height: auto;
   opacity: 1;
 }
-.home-project-media .media-playback-control { pointer-events: auto; }
+.home-project-slot > .media-playback-control {
+  right: calc(var(--home-project-card-padding) + 12px);
+  bottom: calc(var(--home-project-card-padding) + 12px);
+  pointer-events: auto;
+}
 
 .home-project-panw .home-project-media-visual {
   --panw-media-offset: 48px;

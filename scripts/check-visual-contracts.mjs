@@ -1,17 +1,10 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { PROJECTS } from '../src/data/projects.js';
 
 const read = (path) => readFile(new URL(path, import.meta.url), 'utf8');
-const caseStudySlugs = [
-  'sales-workbench-ai',
-  'ai-research-architecture',
-  'global-data-analytics',
-  'one-report',
-  'hitachi-energy-partner-portal',
-  'cisco-customer-insights',
-  'memory-lane',
-];
+const caseStudySlugs = PROJECTS.map(({ id }) => id);
 const [
   styles,
   layout,
@@ -29,6 +22,7 @@ const [
   designSystem,
   typographyInventory,
   responsiveVideo,
+  mediaPlaybackControl,
   playbackController,
   about,
   portfolioPanel,
@@ -55,6 +49,7 @@ const [
   read('../CASE_STUDY_DESIGN_SYSTEM.md'),
   read('../docs/typography-inventory.md'),
   read('../src/components/ResponsiveVideo.astro'),
+  read('../src/components/MediaPlaybackControl.astro'),
   read('../src/scripts/media-playback-controller.js'),
   read('../src/pages/about.astro'),
   read('../src/components/PortfolioPanel.astro'),
@@ -723,7 +718,8 @@ if (typographyInventory.includes('| Subheading |') || typographyInventory.includ
 for (const expected of ['| Metadata label |', '| Metadata value |', '`#5F787D`']) {
   requireText(typographyInventory, expected, `Typography inventory is missing the approved editorial hierarchy: ${expected}`);
 }
-requireText(responsiveVideo, 'data-media-playback-control', 'Every responsive video must expose its persistent playback control.');
+requireText(responsiveVideo, '<MediaPlaybackControl label={label} />', 'ResponsiveVideo must expose its persistent playback control.');
+requireText(mediaPlaybackControl, 'data-media-playback-control', 'The shared playback control must retain its controller hook.');
 requireText(styles, 'right: 12px;\n  bottom: 12px;', 'Every responsive-video control must stay 12px from the bottom-right corner.');
 requireText(styles, 'width: 40px;\n  height: 40px;', 'Responsive-video controls must retain their subtle 40px circle.');
 requireText(styles, 'inset: -4px;\n  content:', 'Responsive-video controls must retain a 48px touch target.');

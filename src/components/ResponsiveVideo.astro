@@ -1,5 +1,6 @@
 ---
 import { videoVariantsFor } from '../data/video-variants.js';
+import MediaPlaybackControl from './MediaPlaybackControl.astro';
 
 interface Props {
   src: string;
@@ -53,10 +54,5 @@ const desktopQuery = '(min-width: 1024px) and (hover: hover) and (pointer: fine)
   )}
 </video>
 {showPlaybackControl && (
-  <button class="media-playback-control" type="button" data-media-playback-control aria-label={`Play ${label}`}>
-    <svg class="media-playback-control__play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10-6.5z" /></svg>
-    <svg class="media-playback-control__pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3v14H7zM14 5h3v14h-3z" /></svg>
-    <span class="media-playback-control__spinner" aria-hidden="true"></span>
-    <span class="sr-only" data-media-playback-label>Play {label}</span>
-  </button>
+  <MediaPlaybackControl label={label} />
 )}
