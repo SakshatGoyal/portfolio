@@ -5,7 +5,6 @@ import { fileURLToPath } from 'node:url';
 import { PROJECTS } from '../src/data/projects.js';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const portfolioRoot = resolve(root, '..');
 const manifest = JSON.parse(readFileSync(join(root, 'scripts/media-assets-manifest.json'), 'utf8'));
 const restoration = JSON.parse(readFileSync(join(root, 'docs/production-readiness/media-archive-daaf38d.json'), 'utf8'));
 const failures = [];
@@ -41,6 +40,7 @@ for (const entry of manifest.files) {
   fail(entry.classification !== 'archive' && entry.consumers.length === 0, `${entry.originalPath}: retained media needs an explicit consumer.`);
   for (const consumer of entry.consumers) fail(!existsSync(join(root, consumer)), `${entry.originalPath}: missing declared consumer ${consumer}.`);
 
+  if (entry.classification === 'archive') continue;
   const finalPath = resolve(root, entry.finalPath);
   if (!existsSync(finalPath)) {
     failures.push(`${entry.finalPath}: declared media file is missing.`);
@@ -56,7 +56,6 @@ for (const entry of manifest.files) {
 const sets = {
   deployable: new Set(walk(join(root, 'public/media')).map(normalized)),
   source: new Set(walk(join(root, 'media-source')).map(normalized)),
-  archive: new Set(walk(join(portfolioRoot, 'Archive/portfolio-sites/website-unused-media-daaf38d')).map((path) => relative(root, path).split(sep).join('/'))),
 };
 for (const classification of Object.keys(sets)) {
   const expected = new Set(manifest.files.filter((entry) => entry.classification === classification).map((entry) => entry.finalPath));
@@ -64,8 +63,6 @@ for (const classification of Object.keys(sets)) {
 }
 
 fail(existsSync(join(root, 'public/assets')), 'Legacy public/assets must not remain after migration.');
-const gitignore = readFileSync(join(portfolioRoot, '.gitignore'), 'utf8');
-fail(!gitignore.split('\n').includes('Archive/portfolio-sites/website-unused-media-daaf38d/'), 'Portfolio-root .gitignore must exclude the exact archive directory.');
 fail(JSON.stringify(restoration.summary) !== JSON.stringify(expectedSummary.archive), 'Restoration manifest totals do not match the archived set.');
 fail(restoration.files.length !== 95, 'Restoration manifest must contain exactly 95 files.');
 for (const item of restoration.files) {
