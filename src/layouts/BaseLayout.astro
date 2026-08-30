@@ -9,14 +9,24 @@ interface Props {
   description: string;
   theme?: string;
   noindex?: boolean;
+  structuredData?: Record<string, unknown>;
 }
 
-const { title, description, theme = 'neutral', noindex = false } = Astro.props;
+const {
+  title,
+  description,
+  theme = 'neutral',
+  noindex = false,
+  structuredData,
+} = Astro.props;
 const isCaseSystem = theme !== 'neutral';
 const isHomeSystem = Astro.url.pathname === '/';
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? 'https://sakshat-goyal.com');
 const socialImageUrl = new URL('/media/shared/homepage-social-preview.914a51567bd9.jpg', Astro.site ?? canonicalUrl);
 const socialImageAlt = 'Sākshāt Goyal’s portfolio homepage with his highlighted introduction and featured project cards';
+const structuredDataJson = structuredData
+  ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
+  : undefined;
 ---
 
 <!doctype html>
@@ -43,6 +53,7 @@ const socialImageAlt = 'Sākshāt Goyal’s portfolio homepage with his highligh
     <meta name="twitter:image" content={socialImageUrl} />
     <meta name="twitter:image:alt" content={socialImageAlt} />
     <title>{title}</title>
+    {structuredDataJson && <script type="application/ld+json" is:inline set:html={structuredDataJson} />}
     <script is:inline>
       document.documentElement.classList.add('js');
     </script>

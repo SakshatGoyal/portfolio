@@ -5,6 +5,7 @@ import ResponsiveVideo from '../components/ResponsiveVideo.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
 import MediaPlaybackControl from '../components/MediaPlaybackControl.astro';
 import { PROJECTS } from '../data/projects.js';
+import { HOME_STRUCTURED_DATA } from '../data/seo.js';
 
 const projects = PROJECTS.map((project) => ({
   href: project.route,
@@ -16,8 +17,9 @@ const projects = PROJECTS.map((project) => ({
 ---
 
 <BaseLayout
-  title="Sākshāt Goyal — Product Designer"
-  description="Systems-oriented product designer working on ambiguous, organizationally complicated problems with imperfect data."
+  title="Sakshat Goyal — Product Designer"
+  description="Sakshat Goyal (Sākshāt Goyal) is a systems-oriented product designer working on ambiguous, organizationally complicated problems with imperfect data."
+  structuredData={HOME_STRUCTURED_DATA}
 >
   <section class="home-work" id="work">
     <h2 class="sr-only">Selected Work</h2>

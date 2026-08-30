@@ -1,13 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { ABOUT_STRUCTURED_DATA } from '../data/seo.js';
 
 const leadLines = ['I shape design where problems are', 'undefined, but commitments aren’t.'];
 const support = 'Over the last decade, I’ve led research and product efforts among organizations including Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, Cisco, and more....';
 ---
 
 <BaseLayout
-  title="About — Sākshāt Goyal"
-  description="About Sākshāt Goyal, a product designer working on ambiguous and organizationally complicated problems."
+  title="About Sakshat Goyal — Product Designer"
+  description="About Sakshat Goyal (Sākshāt Goyal), a product designer with a decade of experience leading research and product efforts."
+  structuredData={ABOUT_STRUCTURED_DATA}
 >
   <article class="about-page">
     <h1 class="about-page-identity">
