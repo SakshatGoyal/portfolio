@@ -79,15 +79,17 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
           data-tape-frame="true"
           data-tape-color="var(--panel-tape-color)"
           data-tape-duration="126"
-        >{project.label}</a>
+        >{project.panelLabel}</a>
       ))}
     </div>
   </nav>
 </aside>
 
 <script is:inline>
-  const revealPanelHighlights = () => {
-    document.querySelector('[data-panel-highlight]')?.setAttribute('data-highlight-ready', 'true');
-  };
-  (document.fonts?.ready || Promise.resolve()).then(() => requestAnimationFrame(revealPanelHighlights));
+  if (document.documentElement.dataset.homeSystem === 'true') {
+    const revealPanelHighlights = () => {
+      document.querySelector('[data-panel-highlight]')?.setAttribute('data-highlight-ready', 'true');
+    };
+    (document.fonts?.ready || Promise.resolve()).then(() => requestAnimationFrame(revealPanelHighlights));
+  }
 </script>

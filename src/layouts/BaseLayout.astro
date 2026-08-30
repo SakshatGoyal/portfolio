@@ -105,9 +105,12 @@ const structuredDataJson = structuredData
         __mediaPlaybackDispose?: () => void;
       };
       mediaWindow.__mediaPlaybackDispose?.();
-      const mediaPlaybackController = createMediaPlaybackController();
-      mediaWindow.__mediaPlaybackController = mediaPlaybackController;
-      mediaWindow.__mediaPlaybackDispose = () => mediaPlaybackController.dispose();
+      const startMediaPlayback = () => {
+        const mediaPlaybackController = createMediaPlaybackController();
+        mediaWindow.__mediaPlaybackController = mediaPlaybackController;
+        mediaWindow.__mediaPlaybackDispose = () => mediaPlaybackController.dispose();
+      };
+      startMediaPlayback();
       initContactLinks();
     </script>
     <script is:inline>

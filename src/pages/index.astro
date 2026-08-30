@@ -29,7 +29,11 @@ const projects = PROJECTS.map((project) => ({
           <div class="home-project-slot" data-home-project-slot data-home-order={project.order} data-playable-media={project.video ? '' : undefined}>
             <a class:list={['home-project-card', project.className]} href={project.href} aria-label={`View ${project.name} case study`} style={`--home-order: ${project.order}`} data-home-order={project.order} data-home-project-reveal-unit data-project-tile data-reveal>
               <div class="home-project-copy" data-home-project-text-reveal>
-                <h3>{project.name}</h3>
+                <h3>
+                  <span class="home-project-title">{project.title}</span>
+                  <span aria-hidden="true"> — </span>
+                  <span class="home-project-description">{project.description}</span>
+                </h3>
               </div>
               <div class="home-project-meta" data-home-project-text-reveal>
                 <div class="home-project-meta-primary">

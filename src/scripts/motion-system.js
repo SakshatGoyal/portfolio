@@ -4,6 +4,7 @@ const initMediaReveals = (reduceMotion) => {
   const homepageRevealStagger = 90;
   const homepageRevealDuration = 1500;
   const homepageCopyDelay = 300;
+  const homepageContentStartDelay = 700;
   const groupSelector = [
     '.gallery-project',
     '.media-stack',
@@ -124,6 +125,18 @@ const initMediaReveals = (reduceMotion) => {
   const states = new WeakMap();
   let nextHomepageRevealStart = 0;
   let nextHomepageTargetIndex = 0;
+  const homepagePanel = document.querySelector("[data-home-system='true'] .portfolio-panel");
+  let homepageContentReleased = !homepagePanel || reduceMotion;
+
+  const releaseHomepageContent = () => {
+    if (homepageContentReleased) return;
+    homepageContentReleased = true;
+    flushHomepageReveals();
+  };
+
+  if (!homepageContentReleased) {
+    window.setTimeout(releaseHomepageContent, homepageContentStartDelay);
+  }
 
   const revealHomeText = (element) => {
     if (!(element instanceof HTMLElement) || element.classList.contains('home-project-text-reveal-active')) return;
@@ -177,6 +190,7 @@ const initMediaReveals = (reduceMotion) => {
   };
 
   const flushHomepageReveals = () => {
+    if (!homepageContentReleased) return;
     while (nextHomepageTargetIndex < homepageTargets.length) {
       const target = homepageTargets[nextHomepageTargetIndex];
       const state = states.get(target);

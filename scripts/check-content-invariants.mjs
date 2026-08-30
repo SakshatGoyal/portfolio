@@ -55,8 +55,8 @@ if (!panelNavigation.includes("'I shape design where problems are',")
   || !panelNavigation.includes("'undefined, but commitments aren’t.',")) {
   errors.push('The portfolio panel lead must retain the exact Figma copy and forced two-line structure.');
 }
-if (!panelNavigation.includes("export const PANEL_SUPPORT = 'Over the last decade, I’ve led research and product efforts among organizations including")) {
-  errors.push('The portfolio panel supporting statement must retain the exact Figma biography copy.');
+if (!panelNavigation.includes("export const PANEL_SUPPORT = 'Over the last decade, I’ve led research and product efforts at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi, and Cisco.';")) {
+  errors.push('The portfolio panel supporting statement must retain the approved biography copy.');
 }
 const panelComponent = await readFile(new URL('../src/components/PortfolioPanel.astro', import.meta.url), 'utf8');
 if (!panelComponent.includes('class="portfolio-panel-support">{PANEL_SUPPORT}</p>')) {

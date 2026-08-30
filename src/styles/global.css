@@ -88,7 +88,7 @@
 :root {
   --canvas: #fafafa;
   --text-primary: #000;
-  --text-secondary: #416870;
+  --text-secondary: #253c41;
   --text-tertiary: #5f787d;
   --ink: var(--text-primary);
   --muted: var(--text-secondary);
@@ -302,7 +302,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 .site-layout {
   --portfolio-panel-width: clamp(340px, 25vw, 460px);
   display: grid;
-  grid-template-columns: var(--portfolio-panel-width) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) var(--portfolio-panel-width);
   align-items: start;
   width: 100%;
 }
@@ -326,6 +326,16 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   background: #fff;
   color: #000;
   container-type: inline-size;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+html.js[data-home-system='true'] .portfolio-panel {
+  animation: home-panel-swipe-in var(--home-project-reveal-duration) var(--home-project-reveal-ease) both;
+}
+@keyframes home-panel-swipe-in {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0); }
 }
 
 .portfolio-panel-home {
@@ -387,12 +397,12 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   white-space: nowrap;
 }
 .portfolio-panel-highlight-line:nth-child(2) { --panel-highlight-height: 28px; }
-.js .portfolio-panel-highlight-line {
+html.js[data-home-system='true'] .portfolio-panel-highlight-line {
   background-size: 0 var(--panel-highlight-height);
   transition: background-size 126ms var(--expressive-ease-in-out);
   transition-delay: calc(var(--panel-highlight-index) * 60ms);
 }
-.js [data-highlight-ready='true'] .portfolio-panel-highlight-line { background-size: 100% var(--panel-highlight-height); }
+html.js[data-home-system='true'] [data-highlight-ready='true'] .portfolio-panel-highlight-line { background-size: 100% var(--panel-highlight-height); }
 
 .portfolio-panel-support {
   color: #5f787d;
@@ -473,10 +483,11 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
 }
 
 .site-content {
+  grid-column: 1;
+  grid-row: 1;
   min-width: 0;
   container: stage / inline-size;
 }
-
 .case-study-header,
 .case-study-menu { display: none; }
 
@@ -752,7 +763,7 @@ body.case-study-menu-open { overflow: hidden; }
   letter-spacing: normal;
   white-space: nowrap;
 }
-.home-project-client { color: #000; font-weight: 600; text-transform: uppercase; }
+.home-project-client { color: #000; font-weight: 700; text-transform: uppercase; }
 .home-project-year { color: #5f787d; font-weight: 400; }
 .home-project-view {
   --tape-color: #000;
@@ -928,8 +939,18 @@ body.case-study-menu-open { overflow: hidden; }
 .home-project-copy h3 {
   overflow-wrap: break-word;
   color: #000;
-  font: 500 24px/normal var(--body-font);
+  font: 400 24px/normal var(--body-font);
   letter-spacing: var(--body-tracking);
+}
+.home-project-title { font-weight: 600; }
+.home-project-description {
+  color: rgb(95, 120, 125);
+  font-weight: 500;
+  transition: color 126ms var(--expressive-ease-in-out);
+}
+.home-project-card:focus-within .home-project-description { color: #000; }
+@media (hover: hover) and (pointer: fine) {
+  .home-project-card:hover .home-project-description { color: #000; }
 }
 
 .page-heading {
@@ -2557,11 +2578,13 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .js .portfolio-panel-highlight-line { background-size: 100% var(--panel-highlight-height) !important; transition: none !important; }
+  html.js[data-home-system='true'] .portfolio-panel { animation: none !important; clip-path: inset(0) !important; }
+  html.js[data-home-system='true'] .portfolio-panel-highlight-line { background-size: 100% var(--panel-highlight-height) !important; transition: none !important; }
   .home-project-card,
   .media-playback-control { transition: none !important; }
   .home-tape-line > i,
   .home-tape-line > span,
+  .home-project-description,
   .custom-site-cursor,
   .custom-site-cursor svg { transition-duration: .001ms !important; }
   .media-playback-control__spinner { animation-duration: 1.6s; }

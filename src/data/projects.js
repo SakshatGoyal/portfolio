@@ -11,7 +11,8 @@ export const PROJECTS = Object.freeze([
       description: 'Designing AI experiences for deep analysis and traceability.',
     },
     homepage: {
-      description: 'Designing AI features for deep analysis and traceability.',
+      title: 'Sales Workbench AI',
+      description: 'designing AI for deep analysis and traceability.',
       company: 'PALO ALTO NETWORKS',
       year: '2025-26',
       video: '/media/projects/sales-workbench-ai/home/video/panw-renewal-exception-row-anchor.webm',
@@ -34,7 +35,8 @@ export const PROJECTS = Object.freeze([
       description: HBS_AI_INSTITUTE_TITLE,
     },
     homepage: {
-      description: HBS_AI_INSTITUTE_TITLE,
+      title: 'AI Research Architecture',
+      description: 'utilizing AI for reliable product discovery and novel exploration.',
       company: 'HARVARD BUSINESS SCHOOL AI INSTITUTE',
       year: '2025',
       image: '/media/projects/ai-research-architecture/images/hbs-cover.webp',
@@ -56,7 +58,9 @@ export const PROJECTS = Object.freeze([
       description: GLOBAL_DATA_ANALYTICS_TITLE,
     },
     homepage: {
-      description: 'Turning exploratory research into tools for thematic analysis and value-driven sales.',
+      title: 'GDA Dashboards',
+      panelLabel: 'GDA Dashboards',
+      description: 'turning exploratory research into internal tools.',
       company: 'DOCUSIGN',
       year: '2023-24',
       video: '/media/projects/global-data-analytics/home/video/gda.webm',
@@ -79,7 +83,8 @@ export const PROJECTS = Object.freeze([
       description: 'Designing a data product around an executive’s inquisitive moments.',
     },
     homepage: {
-      description: 'Designing a data product around an executive’s inquisitive moments.',
+      title: 'OneReport',
+      description: 'designing a data product around an executive’s inquisitive moments.',
       company: 'DOCUSIGN',
       year: '2023',
       video: '/media/projects/one-report/home/video/onereport-cover.webm',
@@ -102,7 +107,9 @@ export const PROJECTS = Object.freeze([
       description: "Designing a B2B buying experience for Hitachi's sales partners.",
     },
     homepage: {
-      description: 'Designing B2B experiences for Hitachi’s sales partners.',
+      title: 'Power ABB',
+      panelLabel: 'Power ABB',
+      description: "designing a B2B buying experience for Hitachi's sales partners.",
       company: 'HITACHI ENERGY',
       year: '2021-22',
       video: '/media/projects/hitachi-energy-partner-portal/home/video/hitachi-cover.webm',
@@ -125,7 +132,8 @@ export const PROJECTS = Object.freeze([
       description: 'Designing Customer Insights and extending it with Upsell Opportunities.',
     },
     homepage: {
-      description: 'Designing Customer Insights, scaling it with Upsell Opportunities.',
+      title: 'Cisco Customer Insights',
+      description: 'designing Customer Insights and extending it with Upsell Opportunities.',
       company: 'CISCO SYSTEMS',
       year: '2020-21',
       video: '/media/projects/cisco-customer-insights/home/video/cisco-customer-dashboard.webm',
@@ -148,7 +156,8 @@ export const PROJECTS = Object.freeze([
       description: 'Selected projects and experiments from Sākshāt Goyal’s design practice.',
     },
     homepage: {
-      description: 'A collection of work that does not need a long case study but remains worth mentioning.',
+      title: 'Memory Lane',
+      description: 'a collection of experiences worth remembering.',
       company: 'MULTIPLE',
       year: '2019-Present',
       placeholder: true,

@@ -98,7 +98,7 @@ if (styles.includes('--cs-surface') || styles.includes('background: var(--cs-sur
 }
 requireText(styles, '--prose-measure: 70%;', 'The shared desktop prose measure must remain 70%.');
 requireText(styles, '--text-primary: #000;', 'Editorial primary text must remain pure black.');
-requireText(styles, '--text-secondary: #416870;', 'Editorial secondary text must remain #416870.');
+requireText(styles, '--text-secondary: #253c41;', 'Editorial secondary text must remain #253C41.');
 requireText(styles, '--text-tertiary: #5f787d;', 'Editorial tertiary text must remain the accessible #5F787D.');
 requireText(styles, '[data-theme=\'panw\'] { --accent: #2f6759; --case-tint: #d9e8e3; --panw-card-surface: #f5f5f5; }', 'PANW takeaway and metric cards must use the requested #F5F5F5 surface.');
 requireText(styles, '--ink: var(--text-primary);', 'The legacy ink token must alias the canonical primary token.');
@@ -173,7 +173,9 @@ requireText(portfolioPanel, '<a class="portfolio-panel-home" href="/" aria-label
 requireText(layout, '<PortfolioPanel />', 'The portfolio panel must render on every site route.');
 requireText(layout, '<div class="site-content">', 'Page content must share the right content column.');
 requireText(styles, '--portfolio-panel-width: clamp(340px, 25vw, 460px);', 'The portfolio panel must occupy one quarter of the viewport while remaining between 340px and 460px.');
-requireText(styles, 'grid-template-columns: var(--portfolio-panel-width) minmax(0, 1fr);', 'The site grid must use the responsive portfolio panel width.');
+requireText(styles, 'grid-template-columns: minmax(0, 1fr) var(--portfolio-panel-width);', 'The site grid must place the responsive portfolio panel track on the right.');
+requireText(styles, 'container-type: inline-size;\n  grid-column: 2;\n  grid-row: 1;', 'The desktop portfolio panel must occupy only the right grid track without changing its geometry.');
+requireText(styles, '.site-content {\n  grid-column: 1;\n  grid-row: 1;', 'The site content must occupy the left desktop grid track.');
 requireText(styles, 'position: sticky;\n  top: 0;', 'The desktop portfolio panel must remain pinned while the right column scrolls.');
 requireText(styles, '--panel-label-color: #000;\n  --panel-tape-color: #000;', 'The portfolio panel must separate resting label color from its persistent black tape color.');
 requireText(styles, 'width: var(--portfolio-panel-width);\n  min-width: var(--portfolio-panel-width);\n  max-width: var(--portfolio-panel-width);', 'The portfolio panel element must match the responsive grid track.');
@@ -193,7 +195,8 @@ requireText(styles, '--panel-highlight-height: 30px;', 'The first panel highligh
 requireText(styles, '.portfolio-panel-highlight-line:nth-child(2) { --panel-highlight-height: 28px; }', 'The second panel highlight band must retain the Figma 28px height.');
 requireText(styles, 'width: max-content;\n  max-width: none;', 'Panel highlight bands must cover their complete non-wrapping text at every panel width.');
 requireText(styles, 'box-decoration-break: clone;', 'Panel highlight geometry must derive from the text line box.');
-requireText(styles, 'transition: background-size 126ms var(--expressive-ease-in-out);', 'Panel highlights must preserve the 126ms wipe.');
+requireText(styles, "html.js[data-home-system='true'] .portfolio-panel-highlight-line {", 'Only the homepage may initialize the neon panel highlight wipe.');
+requireText(styles, 'transition: background-size 126ms var(--expressive-ease-in-out);', 'Homepage panel highlights must preserve the 126ms wipe.');
 if (styles.includes('.portfolio-panel-highlight-line::before')) {
   errors.push('Panel highlights must not return to fixed pseudo-element shapes.');
 }
@@ -251,7 +254,7 @@ requireText(motionSystem, "if (label.dataset.tapeColor) line.style.setProperty('
 requireText(motionSystem, "if (label.getAttribute('aria-disabled') === 'true') label.dataset.tapeDisabled = 'true';", 'Tape labels must expose their disabled-link state.');
 requireText(styles, '[data-tape-label]:focus-visible .home-tape-line > i,', 'Project and panel labels must expose their tape state to keyboard focus.');
 requireText(styles, '[data-tape-label]:hover .home-tape-line > i,', 'Project and panel labels must expose their tape state to fine-pointer hover.');
-requireText(styles, '.js .portfolio-panel-highlight-line { background-size: 100% var(--panel-highlight-height) !important; transition: none !important; }', 'Reduced motion must show the completed text highlight without animation.');
+requireText(styles, "html.js[data-home-system='true'] .portfolio-panel-highlight-line { background-size: 100% var(--panel-highlight-height) !important; transition: none !important; }", 'Reduced motion must show the completed homepage text highlight without animation.');
 requireText(about, 'class="about-page"', 'The About route must render its minimal biography page.');
 requireText(motionSystem, "const frameAligned = label.dataset.tapeFrame === 'true';", 'Panel tape must derive its geometry from the full padded item frame.');
 requireText(motionSystem, 'const framePaddingY = frameAligned', 'Panel tape must include both vertical frame paddings.');
@@ -278,8 +281,8 @@ requireCount(home, 'class="home-project-scroller"', 1, 'Selected Work must have 
 if (home.includes('<PageHeading title="Selected Work"') || home.includes("import PageHeading from '../components/PageHeading.astro'")) {
   errors.push('The homepage must not render or import the removed Selected Work heading.');
 }
-requireText(home, '<h3>{project.name}</h3>', 'Selected Work tiles must retain their project titles.');
-if (home.includes('<p>{project.description}</p>')) errors.push('Selected Work tiles must not render project descriptions.');
+requireText(home, '<span class="home-project-title">{project.title}</span>', 'Selected Work tiles must retain their project titles.');
+requireText(home, '<span class="home-project-description">{project.description}</span>', 'Selected Work tiles must render their project descriptions inline.');
 const homeProjectCopyIndex = home.indexOf('class="home-project-copy"');
 const homeProjectMetaIndex = home.indexOf('class="home-project-meta"');
 const homeProjectMediaIndex = home.indexOf('class="home-project-media"');
@@ -319,12 +322,15 @@ requireText(lineSystem, "document.querySelectorAll('.line-system-layer').forEach
 requireCount(home, 'data-asset-surface', 3, 'Homepage image, video, and Memory Lane placeholder branches must each declare their clipping owner.');
 requireText(styles, '--home-ink: var(--text-primary);', 'Homepage titles must inherit editorial primary.');
 requireText(styles, '--home-secondary: var(--text-tertiary);', 'Homepage tertiary roles and footer must inherit editorial tertiary.');
-requireText(styles, '.home-project-client { color: #000; font-weight: 600; text-transform: uppercase; }', 'Selected Work clients must use the Figma black uppercase semibold treatment.');
+requireText(styles, '.home-project-client { color: #000; font-weight: 700; text-transform: uppercase; }', 'Selected Work clients must use the approved black uppercase bold treatment.');
 requireText(styles, '.home-project-year { color: #5f787d; font-weight: 400; }', 'Selected Work years must use accessible tertiary regular text.');
 requireText(styles, 'align-items: center;\n  gap: 16px;\n  font: 400 14px/normal var(--body-font);', 'Every Selected Work client and year must use one consistent 16px gap.');
 requireText(styles, 'justify-content: flex-start;\n  gap: 16px;\n  min-width: 0;\n  margin-top: 8px;', 'Selected Work metadata must sit 8px below the project title, retain its internal 16px gaps, and remain width-constrained.');
 requireText(styles, '.home-project-copy {\n  display: flex;\n  flex-direction: column;\n  overflow-wrap: break-word;\n}', 'Selected Work copy frames must retain their title reveal wrapper without description spacing.');
-if (styles.includes('.home-project-copy p')) errors.push('Selected Work must not retain obsolete description styling.');
+requireText(styles, '.home-project-title { font-weight: 600; }', 'Selected Work titles must use semibold text.');
+requireText(styles, 'transition: color 126ms var(--expressive-ease-in-out);', 'Selected Work descriptions must use the exact View Project tape duration and easing.');
+requireText(styles, '.home-project-card:focus-within .home-project-description { color: #000; }', 'Selected Work descriptions must turn black with keyboard focus.');
+requireText(styles, '.home-project-card:hover .home-project-description { color: #000; }', 'Selected Work descriptions must turn black on fine-pointer card hover.');
 requireText(styles, '.home-project-one-report .home-project-media-visual video {\n  width: 100% !important;\n  max-width: none;\n  height: 100% !important;\n  max-height: none;', 'The One Report homepage video must fill its media frame without the shared viewport cap.');
 const styleRules = [...styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)];
 const ruleBody = (selector) => styleRules.find(([, candidate]) => candidate.trim() === selector)?.[2] || '';
@@ -350,7 +356,7 @@ requireText(styles, '.home-project-card:hover .home-project-view .home-tape-line
 requireText(styles, '.home-project-card:focus-within .home-project-view .home-tape-line > span { color: #fff; }', 'Tile keyboard focus must expose View Project in white on black tape.');
 requireText(styles, 'display: grid;\n  grid-template-columns: minmax(0, 1fr);\n  gap: 0;\n  width: 100%;\n  max-width: 100%;\n  min-width: 0;', 'Every homepage project card must constrain its content track to the assigned tile width.');
 requireText(styles, '.home-project-meta {\n  display: flex;\n  flex-wrap: wrap;', 'Homepage metadata must wrap instead of imposing an intrinsic width on project media.');
-requireText(styles, '.home-tape-line > i,\n  .home-tape-line > span,\n  .custom-site-cursor,', 'View Project tape motion must retain the shared reduced-motion override.');
+requireText(styles, '.home-tape-line > i,\n  .home-tape-line > span,\n  .home-project-description,\n  .custom-site-cursor,', 'View Project tape and description color motion must retain the shared reduced-motion override.');
 const bodyRevealSource = motionSystem.slice(
   motionSystem.indexOf('const initBodyReveals'),
   motionSystem.indexOf('const initLineMaskHeadings'),
@@ -645,8 +651,17 @@ if (styles.includes('@keyframes media-reveal-opacity') || styles.includes('trans
 }
 requireText(styles, '--home-project-reveal-duration: 1500ms;', 'Homepage reveals must use the Tobias-style 1500ms duration without changing the shared media duration.');
 requireText(styles, '--home-project-reveal-ease: cubic-bezier(0.19, 1, 0.22, 1);', 'Homepage reveals must use the CSS Expo-style ease-out curve.');
-requireText(styles, "html[data-media-motion-ready='true'] [data-home-project-media-reveal][data-media-reveal-ready='true'] [data-media-reveal-clip] {\n  transition-duration: var(--home-project-reveal-duration);\n  transition-timing-function: var(--home-project-reveal-ease);", 'Homepage media must override only the shared reveal timing profile.');
-requireText(styles, "html[data-media-motion-ready='true'] [data-home-project-text-reveal] {\n  opacity: 1;\n  clip-path: inset(0 100% 0 0);\n  transition: clip-path var(--home-project-reveal-duration) var(--home-project-reveal-ease);", 'Homepage text must use the same Tobias-style horizontal clip reveal as homepage media.');
+requireText(styles, "html.js[data-home-system='true'] .portfolio-panel {\n  animation: home-panel-swipe-in var(--home-project-reveal-duration) var(--home-project-reveal-ease) both;", 'The right homepage panel must swipe in with the established homepage timing profile.');
+requireText(styles, '@keyframes home-panel-swipe-in {\n  from { clip-path: inset(0 100% 0 0); }\n  to { clip-path: inset(0); }\n}', 'The homepage panel must reveal strictly from left to right.');
+requireText(motionSystem, 'const homepageContentStartDelay = 700;', 'The original homepage project stagger must begin exactly 700ms after initialization.');
+requireText(motionSystem, 'window.setTimeout(releaseHomepageContent, homepageContentStartDelay);', 'Homepage project reveals must release at the explicit 700ms start time.');
+requireText(motionSystem, 'if (!homepageContentReleased) return;', 'Homepage project media must remain held until the stagger start time.');
+if (styles.includes('home-content-swipe-in')) {
+  errors.push('The homepage content must not be replaced by a monolithic shell wipe.');
+}
+if (styles.includes("html.js[data-home-system='true'] [data-home-project-media-reveal] [data-media-reveal-clip],")) {
+  errors.push('The original per-project media and text stagger must not be disabled by a homepage override.');
+}
 requireText(styles, "[data-home-project-text-reveal] {\n    opacity: 1 !important;\n    clip-path: inset(0) !important;\n    transition: none !important;", 'Reduced motion must expose homepage project text immediately.');
 requireText(galleryProject, 'const [lead, ...supports] = project.media;', 'Gallery projects must render the lead asset separately from supporting media.');
 if (!(galleryProject.indexOf('class="gallery-project-info"') < galleryProject.indexOf('<GalleryArtifact\n    {...lead}')
