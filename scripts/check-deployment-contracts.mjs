@@ -8,6 +8,8 @@ const baseArgument = argumentsList.find((argument) => !argument.startsWith('--')
 const base = new URL(baseArgument.endsWith('/') ? baseArgument : `${baseArgument}/`);
 const isPreview = base.hostname.endsWith('.workers.dev');
 const productionOrigin = 'https://sakshat-goyal.com';
+const socialImage = `${productionOrigin}/media/shared/homepage-social-preview.fd6b26c2abf2.jpg`;
+const socialImageAlt = 'Sākshāt Goyal’s portfolio homepage with his highlighted introduction and featured project cards';
 const routes = [
   '/',
   '/about/',
@@ -21,7 +23,14 @@ for (const route of routes) {
   const html = await response.text();
   const canonical = `${productionOrigin}${route}`;
   assert.ok(html.includes(`<link rel="canonical" href="${canonical}">`), `${route} has the wrong canonical URL`);
-  assert.ok(html.includes('<meta property="og:image" content="https://sakshat-goyal.com/media/shared/social-card.jpg">'), `${route} is missing the social image`);
+  assert.ok(html.includes(`<meta property="og:image" content="${socialImage}">`), `${route} is missing the Open Graph social image`);
+  assert.ok(html.includes('<meta property="og:image:width" content="1200">'), `${route} has the wrong social image width`);
+  assert.ok(html.includes('<meta property="og:image:height" content="900">'), `${route} has the wrong social image height`);
+  assert.ok(html.includes('<meta property="og:image:type" content="image/jpeg">'), `${route} has the wrong social image type`);
+  assert.ok(html.includes(`<meta property="og:image:alt" content="${socialImageAlt}">`), `${route} has the wrong Open Graph social image alt text`);
+  assert.ok(html.includes(`<meta name="twitter:image" content="${socialImage}">`), `${route} is missing the X social image`);
+  assert.ok(html.includes(`<meta name="twitter:image:alt" content="${socialImageAlt}">`), `${route} has the wrong X social image alt text`);
+  assert.ok(!html.includes('/media/shared/social-card.jpg'), `${route} still references the previous social image`);
   const project = PROJECTS.find((entry) => entry.route === route);
   if (project) {
     assert.ok(html.includes(`<title>${project.metadata.title}</title>`), `${route} has the wrong metadata title`);

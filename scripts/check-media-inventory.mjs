@@ -18,7 +18,7 @@ const walk = (directory) => existsSync(directory)
 const normalized = (path) => relative(root, path).split(sep).join('/');
 
 const expectedSummary = {
-  deployable: { files: 312, bytes: 278842915 },
+  deployable: { files: 312, bytes: 278900466 },
   source: { files: 31, bytes: 83184631 },
   archive: { files: 95, bytes: 266507622 },
 };
