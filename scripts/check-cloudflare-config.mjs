@@ -9,6 +9,7 @@ const preview = readJson('wrangler.preview.jsonc');
 const production = readJson('wrangler.production.jsonc');
 const packageJson = readJson('package.json');
 const previewDeployment = readFileSync(join(root, 'scripts/deploy-preview.mjs'), 'utf8');
+const workerSource = readFileSync(join(root, 'worker/index.ts'), 'utf8');
 
 assert.equal(existsSync(join(root, 'wrangler.jsonc')), false, 'An ambiguous default Wrangler configuration must not exist.');
 assert.equal(preview.name, 'sakshat-goyal-portfolio-preview');
@@ -22,11 +23,17 @@ for (const config of [preview, production]) {
   assert.deepEqual(config.assets, {
     directory: './dist/',
     binding: 'ASSETS',
-    run_worker_first: ['/media/generated/video/*'],
     not_found_handling: '404-page',
     html_handling: 'auto-trailing-slash',
   });
+  assert.equal('run_worker_first' in config.assets, false, 'Static assets must bypass Worker code.');
 }
+assert.match(workerSource, /return env\.ASSETS\.fetch\(request\);/, 'The Worker fallback must pass requests through unchanged.');
+assert.doesNotMatch(workerSource, /Range|Content-Range|GENERATED_VIDEO_BYTES/, 'The Worker must not implement static video delivery.');
+assert.equal(existsSync(join(root, 'worker/video-sizes.generated.ts')), false, 'The obsolete video-size manifest must stay removed.');
+assert.equal(existsSync(join(root, 'scripts/write-video-size-manifest.mjs')), false, 'The obsolete video-size generator must stay removed.');
+assert.ok(!packageJson.scripts['build:media'].includes('video-size-manifest'), 'Media builds must not generate Worker video sizes.');
+assert.ok(!packageJson.scripts['check:media'].includes('video-size-manifest'), 'Media checks must not verify Worker video sizes.');
 assert.equal(packageJson.scripts['deploy:preview'], 'node scripts/deploy-preview.mjs');
 assert.equal(packageJson.scripts['rollback:preview'], 'node scripts/rollback-preview.mjs');
 assert.ok(!packageJson.scripts['deploy:production'], 'Production deployment must remain unavailable in this phase.');

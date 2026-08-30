@@ -1,7 +1,11 @@
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { dirname, join, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { imageVariants } from '../src/data/image-variants.js';
 import { PROJECTS } from '../src/data/projects.js';
 
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const argumentsList = process.argv.slice(2);
 const allowNoRange = argumentsList.includes('--allow-no-range');
 const baseArgument = argumentsList.find((argument) => !argument.startsWith('--')) ?? 'http://127.0.0.1:8787';
@@ -106,20 +110,93 @@ assert.equal(
 );
 result.checks.caching = true;
 
-const videoUrl = new URL('/media/generated/video/one-report/video/sc-01.mobile.mp4', base);
-const rangeResponse = await fetch(videoUrl, { headers: { Range: 'bytes=0-1023' } });
-const rangeBytes = (await rangeResponse.arrayBuffer()).byteLength;
+const videoPath = '/media/generated/video/one-report/video/sc-01.mobile.mp4';
+const videoUrl = new URL(videoPath, base);
+const localVideo = await readFile(join(root, 'public', videoPath.slice(1)));
+const videoSize = localVideo.byteLength;
+const videoHead = await fetch(videoUrl, { method: 'HEAD' });
+const videoEtag = videoHead.headers.get('etag');
+const initialRange = await fetch(videoUrl, { headers: { Range: 'bytes=0-1023' } });
+let initialBytes;
 if (allowNoRange) {
-  assert.ok([200, 206].includes(rangeResponse.status));
+  assert.ok([200, 206].includes(initialRange.status));
+  initialBytes = (await initialRange.arrayBuffer()).byteLength;
 } else {
-  assert.equal(rangeResponse.status, 206, 'the deployed edge must return partial video content');
-  assert.match(rangeResponse.headers.get('content-range') ?? '', /^bytes 0-1023\//);
-  assert.equal(rangeBytes, 1024);
+  assert.equal(videoHead.status, 200, 'the deployed edge must serve the video');
+  const headContentLength = videoHead.headers.get('content-length');
+  if (headContentLength !== null) assert.equal(Number(headContentLength), videoSize, 'video Content-Length must match the local file');
+  assert.ok(videoEtag && !videoEtag.startsWith('W/'), 'video delivery must include a strong ETag for If-Range');
+
+  const assertRange = async (response, start, end, label) => {
+    const body = Buffer.from(await response.arrayBuffer());
+    assert.notEqual(response.status, 416, `valid ${label} must never return 416`);
+    assert.ok([200, 206].includes(response.status), `${label} must use native 200 or 206 semantics`);
+    if (response.status === 206) {
+      assert.equal(response.headers.get('content-range'), `bytes ${start}-${end}/${videoSize}`, `${label} has the wrong Content-Range`);
+      assert.match(response.headers.get('accept-ranges') ?? '', /bytes/i, `${label} must advertise byte ranges`);
+      assert.deepEqual(body, localVideo.subarray(start, end + 1), `${label} bytes must match the requested local slice`);
+    } else {
+      assert.deepEqual(body, localVideo, `${label} full response must match the local video`);
+    }
+    return body.byteLength;
+  };
+
+  initialBytes = await assertRange(initialRange, 0, 1023, 'initial range');
+  const middleStart = Math.floor(videoSize / 2);
+  await assertRange(
+    await fetch(videoUrl, { headers: { Range: `bytes=${middleStart}-${middleStart + 1023}` } }),
+    middleStart,
+    middleStart + 1023,
+    'middle range',
+  );
+  const openStart = videoSize - 2048;
+  await assertRange(
+    await fetch(videoUrl, { headers: { Range: `bytes=${openStart}-` } }),
+    openStart,
+    videoSize - 1,
+    'open-ended range',
+  );
+  await assertRange(
+    await fetch(videoUrl, { headers: { Range: 'bytes=-1024' } }),
+    videoSize - 1024,
+    videoSize - 1,
+    'suffix range',
+  );
+  await assertRange(
+    await fetch(videoUrl, { headers: { Range: 'bytes=0-1023', 'If-Range': videoEtag } }),
+    0,
+    1023,
+    'matching If-Range',
+  );
+
+  const notModifiedRange = await fetch(videoUrl, {
+    headers: { Range: 'bytes=0-1023', 'If-None-Match': videoEtag },
+  });
+  assert.notEqual(notModifiedRange.status, 416, 'a valid range with matching If-None-Match must never return 416');
+  assert.ok([200, 206, 304].includes(notModifiedRange.status), 'matching If-None-Match must use native 200, 206, or 304 semantics');
+  const notModifiedBytes = Buffer.from(await notModifiedRange.arrayBuffer());
+  if (notModifiedRange.status === 206) {
+    assert.deepEqual(notModifiedBytes, localVideo.subarray(0, 1024), 'conditional range bytes must match the local video');
+  } else if (notModifiedRange.status === 200) {
+    assert.deepEqual(notModifiedBytes, localVideo, 'conditional full response must match the local video');
+  } else {
+    assert.equal(notModifiedBytes.byteLength, 0, '304 must not include a response body');
+  }
+
+  const invalidRange = await fetch(videoUrl, { headers: { Range: `bytes=${videoSize}-` } });
+  const invalidBytes = Buffer.from(await invalidRange.arrayBuffer());
+  assert.ok([200, 416].includes(invalidRange.status), 'an unsatisfiable video range must use native 200 or 416 semantics');
+  if (invalidRange.status === 416) {
+    assert.equal(invalidRange.headers.get('content-range'), `bytes */${videoSize}`, 'invalid range must report the complete video size');
+    assert.equal(invalidBytes.byteLength, 0, '416 must not include a response body');
+  } else {
+    assert.deepEqual(invalidBytes, localVideo, 'an ignored invalid range must return the complete local video');
+  }
 }
-result.checks.videoRange = {
-  status: rangeResponse.status,
-  contentRange: rangeResponse.headers.get('content-range'),
-  bytes: rangeBytes,
+result.checks.videoRanges = {
+  status: initialRange.status,
+  contentRange: initialRange.headers.get('content-range'),
+  bytes: initialBytes,
   required: !allowNoRange,
 };
 
