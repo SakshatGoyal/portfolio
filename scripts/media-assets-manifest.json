@@ -3,7 +3,7 @@
   "summary": {
     "deployable": {
       "files": 312,
-      "bytes": 278900466
+      "bytes": 279033476
     },
     "source": {
       "files": 31,
@@ -5618,13 +5618,13 @@
     },
     {
       "originalPath": "public/social-card.jpg",
-      "finalPath": "public/media/shared/homepage-social-preview.fd6b26c2abf2.jpg",
-      "url": "/media/shared/homepage-social-preview.fd6b26c2abf2.jpg",
+      "finalPath": "public/media/shared/homepage-social-preview.914a51567bd9.jpg",
+      "url": "/media/shared/homepage-social-preview.914a51567bd9.jpg",
       "classification": "deployable",
       "owner": "shared",
       "category": "shared-image",
-      "bytes": 91793,
-      "sha256": "fd6b26c2abf2c977d6a3b89f6300d7caaf6e17c1b379f5c61f409c4d3db88474",
+      "bytes": 224803,
+      "sha256": "914a51567bd9e2421a17ae49237b9f152c75ad189837c185795cffd9c6d4d020",
       "consumers": [
         "scripts/check-deployment-contracts.mjs",
         "src/layouts/BaseLayout.astro"

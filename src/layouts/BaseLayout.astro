@@ -15,7 +15,7 @@ const { title, description, theme = 'neutral', noindex = false } = Astro.props;
 const isCaseSystem = theme !== 'neutral';
 const isHomeSystem = Astro.url.pathname === '/';
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? 'https://sakshat-goyal.com');
-const socialImageUrl = new URL('/media/shared/homepage-social-preview.fd6b26c2abf2.jpg', Astro.site ?? canonicalUrl);
+const socialImageUrl = new URL('/media/shared/homepage-social-preview.914a51567bd9.jpg', Astro.site ?? canonicalUrl);
 const socialImageAlt = 'Sākshāt Goyal’s portfolio homepage with his highlighted introduction and featured project cards';
 ---
 
@@ -33,8 +33,8 @@ const socialImageAlt = 'Sākshāt Goyal’s portfolio homepage with his highligh
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={socialImageUrl} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="900" />
+    <meta property="og:image:width" content="1320" />
+    <meta property="og:image:height" content="990" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:alt" content={socialImageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
