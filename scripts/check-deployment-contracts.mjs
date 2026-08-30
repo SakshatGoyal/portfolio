@@ -6,6 +6,7 @@ const argumentsList = process.argv.slice(2);
 const allowNoRange = argumentsList.includes('--allow-no-range');
 const baseArgument = argumentsList.find((argument) => !argument.startsWith('--')) ?? 'http://127.0.0.1:8787';
 const base = new URL(baseArgument.endsWith('/') ? baseArgument : `${baseArgument}/`);
+const isPreview = base.hostname.endsWith('.workers.dev');
 const productionOrigin = 'https://sakshat-goyal.com';
 const routes = [
   '/',
@@ -55,7 +56,11 @@ const csp = home.headers.get('content-security-policy') ?? '';
 assert.ok(csp.includes("script-src 'self' 'sha256-"), 'CSP must allow only same-origin and hashed inline scripts');
 assert.equal(home.headers.get('x-content-type-options'), 'nosniff');
 assert.equal(home.headers.get('x-frame-options'), 'DENY');
-assert.equal(home.headers.get('x-robots-tag'), 'noindex, nofollow');
+assert.equal(
+  home.headers.get('x-robots-tag'),
+  isPreview ? 'noindex, nofollow' : null,
+  isPreview ? 'preview deployments must be noindex' : 'production must not inherit preview noindex headers',
+);
 assert.ok(home.headers.get('etag'), 'HTML must include an ETag');
 result.checks.securityHeaders = true;
 
