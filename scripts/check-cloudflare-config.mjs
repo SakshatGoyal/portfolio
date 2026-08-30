@@ -16,7 +16,7 @@ assert.equal(preview.workers_dev, true);
 assert.equal(preview.preview_urls, true);
 assert.equal(production.name, 'sakshat-goyal-portfolio');
 assert.equal(production.workers_dev, false);
-assert.equal(production.preview_urls, false);
+assert.equal(production.preview_urls, true);
 for (const config of [preview, production]) {
   assert.equal(config.main, './worker/index.ts');
   assert.deepEqual(config.assets, {
