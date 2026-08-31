@@ -321,7 +321,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   min-height: 100dvh;
   max-height: 100vh;
   max-height: 100dvh;
-  padding: 32px 32px 64px;
+  padding: 54px 32px 64px;
   overflow-y: auto;
   background: #fff;
   color: #000;
@@ -939,7 +939,7 @@ body.case-study-menu-open { overflow: hidden; }
 .home-project-copy h3 {
   overflow-wrap: break-word;
   color: #000;
-  font: 400 24px/normal var(--body-font);
+  font: 400 20px/1.35 var(--body-font);
   letter-spacing: var(--body-tracking);
 }
 .home-project-title { font-weight: 600; }
