@@ -321,7 +321,7 @@ p, h1, h2, h3, figure, dl, dd { margin: 0; }
   min-height: 100dvh;
   max-height: 100vh;
   max-height: 100dvh;
-  padding: 54px 32px 64px;
+  padding: 48px 32px 64px;
   overflow-y: auto;
   background: #fff;
   color: #000;
@@ -691,12 +691,12 @@ body.case-study-menu-open { overflow: hidden; }
 }
 
 .home-project-grid {
-  --home-project-column-gap: 32px;
+  --home-project-column-gap: 16px;
   --home-project-row-gap: 32px;
   box-sizing: border-box;
   position: relative;
   min-width: 420px;
-  padding: 32px;
+  padding: 16px 16px 64px;
   background: transparent;
 }
 .home-project-grid[data-home-layout='small'] {
@@ -737,7 +737,7 @@ body.case-study-menu-open { overflow: hidden; }
   .home-project-grid {
     --home-project-column-gap: 16px;
     --home-project-row-gap: 16px;
-    padding: 16px;
+    padding: 16px 16px 64px;
   }
   .home-project-slot { --home-project-card-padding: 16px; }
   .home-project-card { padding: 16px; }
@@ -2268,7 +2268,7 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
   .about-page {
     padding-inline: var(--site-outer-gutter);
   }
-  .home-project-grid { padding: 0; }
+  .home-project-grid { padding: 0 0 64px; }
   [data-case-system='true'] {
     --cs-media-block-padding: 0px;
     --cs-media-inset: 0px;

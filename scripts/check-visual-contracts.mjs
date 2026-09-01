@@ -179,7 +179,7 @@ requireText(styles, '.site-content {\n  grid-column: 1;\n  grid-row: 1;', 'The s
 requireText(styles, 'position: sticky;\n  top: 0;', 'The desktop portfolio panel must remain pinned while the right column scrolls.');
 requireText(styles, '--panel-label-color: #000;\n  --panel-tape-color: #000;', 'The portfolio panel must separate resting label color from its persistent black tape color.');
 requireText(styles, 'width: var(--portfolio-panel-width);\n  min-width: var(--portfolio-panel-width);\n  max-width: var(--portfolio-panel-width);', 'The portfolio panel element must match the responsive grid track.');
-requireText(styles, 'padding: 54px 32px 64px;', 'The desktop portfolio panel must preserve its approved outer padding.');
+requireText(styles, 'padding: 48px 32px 64px;', 'The desktop portfolio panel must preserve its approved outer padding.');
 requireText(styles, 'gap: 8px;\n  padding: 0 0 16px 2px;\n  font: 600 clamp(23.652px, calc(6.956522cqi + 4.452174px), 32px)/clamp(23.652px, calc(6.956522cqi + 4.452174px), 32px) var(--body-font);\n  letter-spacing: -.04em;', 'Panel identity must scale proportionally between the 460px and 340px panel widths.');
 requireText(styles, '.portfolio-panel-socials {\n  --panel-label-color: #5f787d;', 'The social frame must use the accessible muted resting label color.');
 requireText(styles, 'padding-bottom: 32px;\n  color: var(--panel-label-color);\n  font: 500 clamp(14.783px, calc(4.347826cqi + 2.782609px), 20px)/clamp(19.957px, calc(5.869565cqi + 3.756522px), 27px) var(--body-font);', 'Social labels must retain their spacing while scaling with the panel.');
@@ -204,7 +204,7 @@ requireText(styles, 'transition-delay: calc(var(--panel-highlight-index) * 60ms)
 requireText(portfolioPanel, 'data-tape-color="var(--panel-tape-color)"', 'Project links must use the black panel tape token independently of their resting text color.');
 requireText(styles, '@media (width < 1210px) {\n  .site-layout { display: block; }', 'Below 1210px the portfolio introduction must move above the full-width stage.');
 requireText(styles, 'width: 100%;\n    min-width: 0;\n    max-width: none;\n    min-height: 0;\n    max-height: none;\n    padding: 32px 32px 84px;', 'The compact portfolio introduction must retain its tablet frame before the mobile gutter override applies.');
-requireText(styles, ".portfolio-panel,\n  .about-page {\n    padding-inline: var(--site-outer-gutter);\n  }\n  .home-project-grid { padding: 0; }\n  [data-case-system='true'] {\n    --cs-media-block-padding: 0px;\n    --cs-media-inset: 0px;\n  }", 'Mobile page rails and boundary media must cap their effective edge offset at the shared 16px gutter.');
+requireText(styles, ".portfolio-panel,\n  .about-page {\n    padding-inline: var(--site-outer-gutter);\n  }\n  .home-project-grid { padding: 0 0 64px; }\n  [data-case-system='true'] {\n    --cs-media-block-padding: 0px;\n    --cs-media-inset: 0px;\n  }", 'Mobile page rails and boundary media must cap their effective edge offset at the shared 16px gutter while preserving the homepage grid footer space.');
 requireText(styles, 'flex-direction: row;\n    gap: 16px;\n    font: 600 clamp(1px, calc(7.195cqi - 1.3px), 32px)/1 var(--body-font);', 'The compact identity must place the name and title side by side and shrink them together only when the maximum size no longer fits.');
 requireText(styles, 'flex: none;\n    white-space: nowrap;', 'Compact identity labels must never wrap independently.');
 requireText(styles, '.portfolio-panel-socials,\n  .portfolio-panel-support {\n    font: 500 20px/27px var(--body-font);', 'Compact metadata and supporting copy must use the maximum panel typography.');
@@ -275,7 +275,7 @@ for (const [, selector, body] of styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
   }
 }
 requireText(styles, '.home-project-scroller { overflow: visible; }', 'The project scroller must remain inert outside narrow screens.');
-requireText(styles, 'min-width: 420px;\n  padding: 32px;\n  background: transparent;', 'Selected Work must use the Figma 32px outer frame padding.');
+requireText(styles, 'min-width: 420px;\n  padding: 16px 16px 64px;\n  background: transparent;', 'Selected Work must use 16px top and side padding with 64px bottom padding.');
 requireText(home, 'const paddingBottom = Number.parseFloat(gridStyles.paddingBottom) || 0;', 'The masonry height must include the Figma bottom frame padding.');
 requireText(styles, '@media (max-width: 451px) {\n  .home-project-scroller { overflow-x: clip; overflow-y: visible; }\n  .home-project-grid { width: 100%; min-width: 0; }\n}', 'Narrow project cards must reflow without horizontal panning.');
 requireCount(home, 'class="home-project-scroller"', 1, 'Selected Work must have exactly one isolated project scroller.');
@@ -379,10 +379,10 @@ requireText(motionSystem, "anchor.setAttribute('data-media-ready', '');", 'Faile
 requireText(motionSystem, "captionStates.forEach(({ caption }) => {\n      caption.classList.add('body-reveal-active');\n      completeCaptionReveal(caption);", 'Reduced motion must expose media captions without waiting for animation.');
 requireText(styles, "[data-body-reveal][data-body-reveal-kind='media-caption'].body-reveal-active", 'Media captions must preserve their shared text-block animation with media-owned timing.');
 requireText(layout, '<noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>', 'No-script rendering must keep media captions visible.');
-requireText(styles, '--home-project-column-gap: 32px;', 'Selected Work columns must use the Figma 32px gutter.');
+requireText(styles, '--home-project-column-gap: 16px;', 'Selected Work columns must use the approved 16px gutter.');
 requireText(styles, '--home-project-row-gap: 32px;', 'Selected Work tiles within each column must use the Figma 32px gap.');
 requireText(styles, 'padding: 24px;\n  border: 0;\n  border-radius: 0;\n  background: transparent;', 'Selected Work tiles must use 24px padding and a transparent square surface.');
-requireText(styles, '@container stage (width < 1024px) {\n  .home-project-grid {\n    --home-project-column-gap: 16px;\n    --home-project-row-gap: 16px;\n    padding: 16px;', 'Stages below 1024px must use 16px outer padding and project gaps.');
+requireText(styles, '@container stage (width < 1024px) {\n  .home-project-grid {\n    --home-project-column-gap: 16px;\n    --home-project-row-gap: 16px;\n    padding: 16px 16px 64px;', 'Stages below 1024px must use 16px top and side padding, a 64px bottom, and 16px project gaps.');
 requireText(styles, '.home-project-card { padding: 16px; }', 'Project tiles on stages below 1024px must use 16px internal padding.');
 if (styles.includes(".home-project-grid:not([data-home-layout='small']) .home-project-card { padding-inline: 0; }")) {
   errors.push('Desktop Selected Work tiles must not remove their 24px left and right padding.');
