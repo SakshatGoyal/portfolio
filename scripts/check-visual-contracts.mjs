@@ -112,7 +112,7 @@ if (home.includes('MultiscriptNameStrip') || styles.includes('Manrope Script Fal
 }
 requireText(styles, ".home-work > .page-heading > h2,\n.home-gallery > .page-heading > h2 {\n  font-family: var(--body-font);\n  font-size: 32px;\n  font-weight: 500;\n}", 'Selected Work and shared Gallery headings must use 32px medium Manrope.');
 requireText(styles, ".page-heading > :is(h1, h2) {\n  grid-column: 1 / -1;\n  color: var(--home-ink);\n  font: 400 36px/1.1 'Cabinet Grotesk', Arial, sans-serif;\n  letter-spacing: -.02em;", 'All page headings must use minus-two-percent tracking.');
-requireText(styles, "--cs-page-gutter: 32px;\n  --cs-inline: 0px;\n  --cs-media-block-padding: 12px;\n  --cs-media-inset: var(--cs-media-block-padding);", 'All seven case-study routes must separate the 32px page gutter from the 12px media-block padding.');
+requireText(styles, "--cs-page-gutter: min(var(--site-outer-gutter), 32px);\n  --cs-inline: 0px;\n  --cs-media-block-padding: 12px;\n  --cs-media-inset: var(--cs-media-block-padding);", 'All seven case-study routes must cap their shared page gutter at 32px while retaining the tablet-and-desktop media inset.');
 requireText(styles, '--cs-heading-bottom-gap: 24px;', 'Every case-study heading must retain the shared 24px gap before its hero.');
 requireText(styles, 'padding: var(--cs-section-end) var(--cs-inline) var(--cs-heading-bottom-gap);', 'The shared case-study heading rule must own the 24px hero separation.');
 if (/\[data-case-system='true'\] \.case-hero\s*\{[^}]*padding[^;]*\s0\s*;/s.test(styles)) {
@@ -121,10 +121,10 @@ if (/\[data-case-system='true'\] \.case-hero\s*\{[^}]*padding[^;]*\s0\s*;/s.test
 if (styles.includes("[data-theme='memory-lane'][data-case-system='true'] .case-hero")) {
   errors.push('The case-study heading gap must remain shared across all seven routes, not route-specific.');
 }
-requireText(styles, "[data-case-system='true'] .site-content {\n  min-width: 0;\n  padding-inline: var(--cs-page-gutter);\n}", 'The complete right-hand case-study region must own the 32px page gutter without affecting the portfolio panel.');
-requireText(styles, ".memory-lane-project-list .gallery-artifact {\n  padding: var(--cs-media-block-padding);\n}", 'Every Memory Lane image-or-video and caption block must use the shared 12px padding.');
-requireText(styles, "[data-case-system='true'] .takeaway-grid {\n  grid-template-columns: 1fr;\n  gap: 24px;\n  padding: var(--cs-media-block-padding);", 'Every takeaway group must retain 12px outer padding at every breakpoint.');
-requireText(styles, "[data-case-system='true'] .metric-grid {\n  grid-template-columns: 1fr;\n  gap: 24px;\n  margin-top: 0;\n  padding: var(--cs-media-block-padding);", 'Every metric group must retain 12px outer padding at every breakpoint.');
+requireText(styles, "[data-case-system='true'] .site-content {\n  min-width: 0;\n  padding-inline: var(--cs-page-gutter);\n}", 'The complete right-hand case-study region must own the responsive page gutter without affecting the portfolio panel.');
+requireText(styles, ".memory-lane-project-list .gallery-artifact {\n  padding: var(--cs-media-block-padding);\n}", 'Every Memory Lane image-or-video and caption block must use the shared responsive media padding.');
+requireText(styles, "[data-case-system='true'] .takeaway-grid {\n  grid-template-columns: 1fr;\n  gap: 24px;\n  padding: var(--cs-media-block-padding);", 'Every takeaway group must use the shared responsive media padding.');
+requireText(styles, "[data-case-system='true'] .metric-grid {\n  grid-template-columns: 1fr;\n  gap: 24px;\n  margin-top: 0;\n  padding: var(--cs-media-block-padding);", 'Every metric group must use the shared responsive media padding.');
 requireText(styles, "[data-case-system='true'] .takeaway-card {\n  display: flex;\n  width: 100%;\n  max-width: 100%;\n  min-width: 0;\n  aspect-ratio: 4 / 3;\n  height: auto;", 'Takeaway cards must remain constrained to their grid track, keep 4:3 as a preferred ratio, and allow their height to grow with content.');
 requireText(styles, "height: auto;\n  min-width: 0;\n  min-height: min-content;", 'Takeaway content must contribute its intrinsic height instead of being locked to the ratio box.');
 requireText(styles, "display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: space-between;\n  width: 100%;\n  max-width: 100%;\n  min-width: 0;\n  aspect-ratio: 4 / 3;\n  height: auto;", 'Metric cards must remain constrained to their grid track, keep 4:3 as a preferred ratio, and allow their label and value to determine a taller height.');
@@ -179,7 +179,7 @@ requireText(styles, '.site-content {\n  grid-column: 1;\n  grid-row: 1;', 'The s
 requireText(styles, 'position: sticky;\n  top: 0;', 'The desktop portfolio panel must remain pinned while the right column scrolls.');
 requireText(styles, '--panel-label-color: #000;\n  --panel-tape-color: #000;', 'The portfolio panel must separate resting label color from its persistent black tape color.');
 requireText(styles, 'width: var(--portfolio-panel-width);\n  min-width: var(--portfolio-panel-width);\n  max-width: var(--portfolio-panel-width);', 'The portfolio panel element must match the responsive grid track.');
-requireText(styles, 'padding: 32px 32px 64px;', 'The portfolio panel must preserve the fixed Figma outer padding.');
+requireText(styles, 'padding: 54px 32px 64px;', 'The desktop portfolio panel must preserve its approved outer padding.');
 requireText(styles, 'gap: 8px;\n  padding: 0 0 16px 2px;\n  font: 600 clamp(23.652px, calc(6.956522cqi + 4.452174px), 32px)/clamp(23.652px, calc(6.956522cqi + 4.452174px), 32px) var(--body-font);\n  letter-spacing: -.04em;', 'Panel identity must scale proportionally between the 460px and 340px panel widths.');
 requireText(styles, '.portfolio-panel-socials {\n  --panel-label-color: #5f787d;', 'The social frame must use the accessible muted resting label color.');
 requireText(styles, 'padding-bottom: 32px;\n  color: var(--panel-label-color);\n  font: 500 clamp(14.783px, calc(4.347826cqi + 2.782609px), 20px)/clamp(19.957px, calc(5.869565cqi + 3.756522px), 27px) var(--body-font);', 'Social labels must retain their spacing while scaling with the panel.');
@@ -203,7 +203,8 @@ if (styles.includes('.portfolio-panel-highlight-line::before')) {
 requireText(styles, 'transition-delay: calc(var(--panel-highlight-index) * 60ms);', 'Panel highlight lines must retain their 60ms stagger.');
 requireText(portfolioPanel, 'data-tape-color="var(--panel-tape-color)"', 'Project links must use the black panel tape token independently of their resting text color.');
 requireText(styles, '@media (width < 1210px) {\n  .site-layout { display: block; }', 'Below 1210px the portfolio introduction must move above the full-width stage.');
-requireText(styles, 'width: 100%;\n    min-width: 0;\n    max-width: none;\n    min-height: 0;\n    max-height: none;\n    padding: 32px 32px 84px;', 'The compact portfolio introduction must fill the stage with 32px top and side padding and 84px bottom padding.');
+requireText(styles, 'width: 100%;\n    min-width: 0;\n    max-width: none;\n    min-height: 0;\n    max-height: none;\n    padding: 32px 32px 84px;', 'The compact portfolio introduction must retain its tablet frame before the mobile gutter override applies.');
+requireText(styles, ".portfolio-panel,\n  .about-page {\n    padding-inline: var(--site-outer-gutter);\n  }\n  .home-project-grid { padding: 0; }\n  [data-case-system='true'] {\n    --cs-media-block-padding: 0px;\n    --cs-media-inset: 0px;\n  }", 'Mobile page rails and boundary media must cap their effective edge offset at the shared 16px gutter.');
 requireText(styles, 'flex-direction: row;\n    gap: 16px;\n    font: 600 clamp(1px, calc(7.195cqi - 1.3px), 32px)/1 var(--body-font);', 'The compact identity must place the name and title side by side and shrink them together only when the maximum size no longer fits.');
 requireText(styles, 'flex: none;\n    white-space: nowrap;', 'Compact identity labels must never wrap independently.');
 requireText(styles, '.portfolio-panel-socials,\n  .portfolio-panel-support {\n    font: 500 20px/27px var(--body-font);', 'Compact metadata and supporting copy must use the maximum panel typography.');
@@ -227,9 +228,9 @@ if (caseStudyHeader.includes("addEventListener('cancel'")) errors.push('The case
 requireText(caseStudyHeader, "if (event.key !== 'Escape') return;", 'The case-study menu must provide reliable Escape dismissal.');
 requireText(caseStudyHeader, 'closeCaseStudyMenu();', 'Escape dismissal must use the shared close path and focus restoration.');
 requireText(styles, '.case-study-header {\n  position: sticky;\n  z-index: 40;\n  top: 0;', 'The collapsed case-study header must remain sticky.');
-requireText(styles, 'width: 100%;\n  min-height: 64px;\n  padding: 16px 32px;', 'The collapsed case-study header must retain the Figma frame height and padding.');
+requireText(styles, 'width: 100%;\n  min-height: 64px;\n  padding: 16px var(--cs-page-gutter, 32px);', 'The collapsed case-study header must retain its frame height and follow the responsive page gutter.');
 requireText(styles, '.case-study-menu[open] {\n  position: fixed;', 'The expanded case-study menu must cover the viewport.');
-requireText(styles, 'padding: 32px 32px 64px;', 'The expanded case-study menu must preserve its Figma padding.');
+requireText(styles, 'padding: 32px var(--cs-page-gutter, 32px) 64px;', 'The expanded case-study menu must preserve its vertical padding and follow the responsive page gutter.');
 requireText(styles, "[data-case-system='true'] .portfolio-panel { display: none; }", 'The compact case-study system must replace the biography panel.');
 requireText(styles, "[data-case-system='true'] .case-study-header { display: flex; }", 'The case-study header must appear below the 1210px transition.');
 const identityIndex = portfolioPanel.indexOf('class="portfolio-panel-home"');

@@ -499,7 +499,7 @@ html.js[data-home-system='true'] [data-highlight-ready='true'] .portfolio-panel-
   justify-content: space-between;
   width: 100%;
   min-height: 64px;
-  padding: 16px 32px;
+  padding: 16px var(--cs-page-gutter, 32px);
   background: #fff;
   color: #000;
   font: 600 24px/1 var(--body-font);
@@ -532,7 +532,7 @@ html.js[data-home-system='true'] [data-highlight-ready='true'] .portfolio-panel-
   height: 100dvh;
   max-height: none;
   margin: 0;
-  padding: 32px 32px 64px;
+  padding: 32px var(--cs-page-gutter, 32px) 64px;
   overflow: auto;
   border: 0;
   background: #fff;
@@ -1612,7 +1612,7 @@ html[data-media-motion-ready='true'] [data-home-project-text-reveal][data-home-p
   --cs-caption: var(--text-tertiary);
   --cs-metadata-label: var(--text-tertiary);
   --cs-metadata-value: var(--text-secondary);
-  --cs-page-gutter: 32px;
+  --cs-page-gutter: min(var(--site-outer-gutter), 32px);
   --cs-inline: 0px;
   --cs-media-block-padding: 12px;
   --cs-media-inset: var(--cs-media-block-padding);
@@ -2247,6 +2247,15 @@ html:not(.js) [data-case-system='true'] [data-media-caption]::before {
 }
 
 @media (max-width: 671px) {
+  .portfolio-panel,
+  .about-page {
+    padding-inline: var(--site-outer-gutter);
+  }
+  .home-project-grid { padding: 0; }
+  [data-case-system='true'] {
+    --cs-media-block-padding: 0px;
+    --cs-media-inset: 0px;
+  }
   [data-case-system='true'] .case-body figcaption { max-width: 100%; }
   .team-panel {
     inset: 8px auto auto 8px;
