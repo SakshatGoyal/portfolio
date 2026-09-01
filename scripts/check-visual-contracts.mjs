@@ -288,11 +288,11 @@ const homeProjectCopyIndex = home.indexOf('class="home-project-copy"');
 const homeProjectMetaIndex = home.indexOf('class="home-project-meta"');
 const homeProjectMediaIndex = home.indexOf('class="home-project-media"');
 if (
-  homeProjectCopyIndex < 0
+  homeProjectMediaIndex < 0
+  || homeProjectCopyIndex < homeProjectMediaIndex
   || homeProjectMetaIndex < homeProjectCopyIndex
-  || homeProjectMediaIndex < homeProjectMetaIndex
 ) {
-  errors.push('Selected Work project titles and metadata must remain in DOM order before their media.');
+  errors.push('Selected Work tiles must keep media, project copy, and metadata in that DOM order.');
 }
 for (const className of ['home-project-copy', 'home-project-meta']) {
   const markup = home.match(new RegExp(`<div class="${className}"[^>]*>[\\s\\S]*?<\\/div>`))?.[0] || '';
@@ -327,7 +327,7 @@ requireText(styles, '.home-project-client { color: #000; font-weight: 700; text-
 requireText(styles, '.home-project-year { color: #5f787d; font-weight: 400; }', 'Selected Work years must use accessible tertiary regular text.');
 requireText(styles, 'align-items: center;\n  gap: 16px;\n  font: 400 14px/normal var(--body-font);', 'Every Selected Work client and year must use one consistent 16px gap.');
 requireText(styles, 'justify-content: flex-start;\n  gap: 16px;\n  min-width: 0;\n  margin-top: 8px;', 'Selected Work metadata must sit 8px below the project title, retain its internal 16px gaps, and remain width-constrained.');
-requireText(styles, '.home-project-copy {\n  display: flex;\n  flex-direction: column;\n  overflow-wrap: break-word;\n}', 'Selected Work copy frames must retain their title reveal wrapper without description spacing.');
+requireText(styles, '.home-project-copy {\n  display: flex;\n  flex-direction: column;\n  margin-top: 16px;\n  overflow-wrap: break-word;\n}', 'Selected Work copy must sit 16px below the leading media while retaining its title reveal wrapper.');
 requireText(styles, '.home-project-title { font-weight: 600; }', 'Selected Work titles must use semibold text.');
 requireText(styles, 'transition: color 126ms var(--expressive-ease-in-out);', 'Selected Work descriptions must use the exact View Project tape duration and easing.');
 requireText(styles, '.home-project-card:focus-within .home-project-description { color: #000; }', 'Selected Work descriptions must turn black with keyboard focus.');
@@ -394,15 +394,17 @@ requireText(home, '[1, 3, 5, 6].forEach((order) => setGeometry(order, firstColum
 requireText(home, '[2, 4, 7].forEach((order) => setGeometry(order, secondColumnX, paddingTop, columnWidth));', 'HBS, OneReport, and MemoryLane must form the Figma right column.');
 requireText(home, 'setGeometry(6, firstColumnX, leftFourthTop, columnWidth);', 'Cisco must render after Hitachi in the left column.');
 requireText(home, 'setGeometry(7, secondColumnX, rightThirdTop, columnWidth);', 'MemoryLane must render after OneReport in the right column.');
-requireText(styles, '.home-project-memory-lane .home-project-media { aspect-ratio: 3 / 4; }', 'The MemoryLane Selected Work placeholder must use the Figma 3:4 ratio.');
+requireText(styles, '.home-project-memory-lane { --home-project-media-aspect: 3 / 4; }', 'The MemoryLane Selected Work placeholder must use the Figma 3:4 ratio.');
 requireText(styles, ".home-project-memory-lane .home-project-placeholder {\n  height: 100%;", 'The live Memory Lane homepage trail must fill the complete 3:4 media surface.');
 requireText(home, "import MemoryLaneTrail from '../components/MemoryLaneTrail.astro';", 'The homepage must use the shared Memory Lane trail component.');
 requireText(home, '<MemoryLaneTrail', 'The homepage Memory Lane tile must render the live shared trail.');
 requireText(home, 'decorative', 'The homepage Memory Lane trail must remain decorative inside its accessible project link.');
 requireText(home, 'loading="lazy"', 'The below-fold homepage Memory Lane trail must lazy-load its twelve images.');
 requireText(memoryLaneTrailComponent, "data-src={loading === 'lazy' ? asset.src : undefined}", 'The below-fold Memory Lane trail must withhold image URLs until it approaches the viewport.');
-requireText(styles, '.home-project-global .home-project-media { aspect-ratio: 1498 / 1124; }', 'The GDA Selected Work media must preserve the exact Figma ratio.');
-requireText(styles, '.home-project-one-report .home-project-media { aspect-ratio: 1138 / 2026; }', 'The OneReport Selected Work media must preserve the exact Figma ratio.');
+requireText(styles, '.home-project-global { --home-project-media-aspect: 1498 / 1124; }', 'The GDA Selected Work media must preserve the exact Figma ratio.');
+requireText(styles, '.home-project-one-report { --home-project-media-aspect: 1138 / 2026; }', 'The OneReport Selected Work media must preserve the exact Figma ratio.');
+requireText(styles, '.home-project-media,\n.home-project-playback-overlay { aspect-ratio: var(--home-project-media-aspect); }', 'Homepage media and its sibling playback overlay must share one aspect-ratio contract.');
+requireText(styles, 'top: var(--home-project-card-padding);\n  right: var(--home-project-card-padding);\n  left: var(--home-project-card-padding);\n  pointer-events: none;', 'Homepage playback overlays must align to the leading media without changing card geometry.');
 requireText(styles, '.memory-lane-hero-placeholder {', 'Memory Lane must expose its dedicated hero placeholder.');
 requireText(styles, '.memory-lane-trail-surface {', 'Both Memory Lane surfaces must inherit one shared visual treatment.');
 requireText(styles, "background: #008F98;\n  box-shadow: 0 4px 249.1px 88px rgba(0, 98, 125, .2) inset;", 'The shared Memory Lane trail surface must use the approved teal fill and inset shadow.');
