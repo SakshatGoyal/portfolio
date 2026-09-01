@@ -691,7 +691,7 @@ body.case-study-menu-open { overflow: hidden; }
 }
 
 .home-project-grid {
-  --home-project-column-gap: 16px;
+  --home-project-column-gap: 0px;
   --home-project-row-gap: 32px;
   box-sizing: border-box;
   position: relative;
@@ -735,7 +735,7 @@ body.case-study-menu-open { overflow: hidden; }
 }
 @container stage (width < 1024px) {
   .home-project-grid {
-    --home-project-column-gap: 16px;
+    --home-project-column-gap: 0px;
     --home-project-row-gap: 16px;
     padding: 16px 16px 64px;
   }

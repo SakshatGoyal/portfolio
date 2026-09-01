@@ -379,10 +379,10 @@ requireText(motionSystem, "anchor.setAttribute('data-media-ready', '');", 'Faile
 requireText(motionSystem, "captionStates.forEach(({ caption }) => {\n      caption.classList.add('body-reveal-active');\n      completeCaptionReveal(caption);", 'Reduced motion must expose media captions without waiting for animation.');
 requireText(styles, "[data-body-reveal][data-body-reveal-kind='media-caption'].body-reveal-active", 'Media captions must preserve their shared text-block animation with media-owned timing.');
 requireText(layout, '<noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>', 'No-script rendering must keep media captions visible.');
-requireText(styles, '--home-project-column-gap: 16px;', 'Selected Work columns must use the approved 16px gutter.');
+requireText(styles, '--home-project-column-gap: 0px;', 'Selected Work columns must meet without an inter-column gutter.');
 requireText(styles, '--home-project-row-gap: 32px;', 'Selected Work tiles within each column must use the Figma 32px gap.');
 requireText(styles, 'padding: 24px;\n  border: 0;\n  border-radius: 0;\n  background: transparent;', 'Selected Work tiles must use 24px padding and a transparent square surface.');
-requireText(styles, '@container stage (width < 1024px) {\n  .home-project-grid {\n    --home-project-column-gap: 16px;\n    --home-project-row-gap: 16px;\n    padding: 16px 16px 64px;', 'Stages below 1024px must use 16px top and side padding, a 64px bottom, and 16px project gaps.');
+requireText(styles, '@container stage (width < 1024px) {\n  .home-project-grid {\n    --home-project-column-gap: 0px;\n    --home-project-row-gap: 16px;\n    padding: 16px 16px 64px;', 'Stages below 1024px must keep zero column gap, 16px top and side padding, a 64px bottom, and 16px row gaps.');
 requireText(styles, '.home-project-card { padding: 16px; }', 'Project tiles on stages below 1024px must use 16px internal padding.');
 if (styles.includes(".home-project-grid:not([data-home-layout='small']) .home-project-card { padding-inline: 0; }")) {
   errors.push('Desktop Selected Work tiles must not remove their 24px left and right padding.');
