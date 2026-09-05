@@ -16,7 +16,6 @@ const socialImage = `${productionOrigin}/media/shared/homepage-social-preview.91
 const socialImageAlt = 'Sākshāt Goyal’s portfolio homepage with his highlighted introduction and featured project cards';
 const routes = [
   '/',
-  '/about/',
   ...PROJECTS.map(({ route }) => route),
 ];
 const result = { base: base.href, routes: [], checks: {} };
@@ -54,10 +53,15 @@ for (const project of PROJECTS) {
 }
 result.checks.legacyRedirects = 6;
 
-const slashRedirect = await fetch(new URL('/about', base), { redirect: 'manual' });
-assert.ok([301, 302, 307, 308].includes(slashRedirect.status), '/about must redirect to its trailing-slash URL');
-assert.equal(new URL(slashRedirect.headers.get('location'), base).pathname, '/about/');
+const slashRedirect = await fetch(new URL('/work/memory-lane', base), { redirect: 'manual' });
+assert.ok([301, 302, 307, 308].includes(slashRedirect.status), '/work/memory-lane must redirect to its trailing-slash URL');
+assert.equal(new URL(slashRedirect.headers.get('location'), base).pathname, '/work/memory-lane/');
 result.checks.slashRedirect = slashRedirect.status;
+for (const path of ['/about', '/about/']) {
+  const response = await fetch(new URL(path, base));
+  assert.equal(response.status, 404, 'The unpublished About page must not be available.');
+}
+result.checks.aboutUnpublished = true;
 
 const missing = await fetch(new URL('/production-readiness-missing-route/', base));
 assert.equal(missing.status, 404, 'unknown routes must return 404');

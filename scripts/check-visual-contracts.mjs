@@ -51,7 +51,7 @@ const [
   read('../src/components/ResponsiveVideo.astro'),
   read('../src/components/MediaPlaybackControl.astro'),
   read('../src/scripts/media-playback-controller.js'),
-  read('../src/pages/about.astro'),
+  read('../src/drafts/about.astro'),
   read('../src/components/PortfolioPanel.astro'),
   read('../src/components/CaseStudyHeader.astro'),
   read('../src/scripts/memory-lane-trail.js'),

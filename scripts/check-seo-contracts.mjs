@@ -11,7 +11,7 @@ import {
 
 const [home, about, layout, robots, astroConfig] = await Promise.all([
   readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
-  readFile(new URL('../src/pages/about.astro', import.meta.url), 'utf8'),
+  readFile(new URL('../src/drafts/about.astro', import.meta.url), 'utf8'),
   readFile(new URL('../src/layouts/BaseLayout.astro', import.meta.url), 'utf8'),
   readFile(new URL('../public/robots.txt', import.meta.url), 'utf8'),
   readFile(new URL('../astro.config.mjs', import.meta.url), 'utf8'),

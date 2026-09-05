@@ -70,7 +70,6 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
 
   <nav class="portfolio-panel-navigation" aria-label="Portfolio">
     <ul class="portfolio-navigation-levels">
-      <li><a class:list={['portfolio-panel-link', { 'is-selected': pathname.startsWith('/about') }]} href="/about/" aria-current={pathname.startsWith('/about') ? 'page' : undefined} data-tape-label data-tape-frame="true" data-tape-color="var(--panel-tape-color)" data-tape-duration="126">About</a></li>
       <li>
         <a class:list={['portfolio-panel-link', { 'is-selected': isHome }]} href="/" aria-current={isHome ? 'page' : undefined} data-tape-label data-tape-frame="true" data-tape-color="var(--panel-tape-color)" data-tape-duration="126">Work</a>
         <ul class="portfolio-panel-projects">

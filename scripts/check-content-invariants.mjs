@@ -8,7 +8,7 @@ const expectedTitle = 'Turning exploratory research into internal tools.';
 const expectedHbsTitle = 'Creating an AI-driven research architecture for reliability and novel exploration.';
 const sources = await Promise.all([
   readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
-  readFile(new URL('../src/pages/about.astro', import.meta.url), 'utf8'),
+  readFile(new URL('../src/drafts/about.astro', import.meta.url), 'utf8'),
   readFile(new URL('../src/data/panel-navigation.js', import.meta.url), 'utf8'),
   readFile(new URL('../src/pages/work/global-data-analytics.astro', import.meta.url), 'utf8'),
   readFile(new URL('../src/layouts/CaseLayout.astro', import.meta.url), 'utf8'),

@@ -13,7 +13,8 @@ Do not modify either unless the user explicitly places it in scope.
 
 ## Architecture
 
-- `src/pages/` owns the home page, About page, and seven case-study routes.
+- `src/pages/` owns the home page and seven case-study routes.
+- `src/drafts/about.astro` preserves the unpublished About page.
 - `src/components/`, `src/layouts/`, and `src/styles/` own shared UI behavior.
 - `public/` contains every asset required to run and build the website.
 - `scripts/` contains validation and asset tooling.
@@ -37,3 +38,9 @@ npm run build
 ```
 
 Keep `main` clean and synchronized with `origin/main` after finalized work.
+
+## About publication hold
+
+About is intentionally absent from production and its navigation. Continue About
+work on a local review branch with a localhost preview. Do not push, merge, or
+publish that work until the user explicitly finalizes and approves publishing it.
