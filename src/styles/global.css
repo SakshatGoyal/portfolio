@@ -695,7 +695,7 @@ body.case-study-menu-open { overflow: hidden; }
 .resume-education p { margin-top: 8px; }
 .resume-school { color: #000; font-size: 16px; font-weight: 800; text-transform: uppercase; }
 .resume-award { font: 400 13px/14px 'Geist', Arial, sans-serif; letter-spacing: -.39px; }
-@container (width < 850px) {
+@container (width < 1056px) {
   .resume-introduction { grid-template-columns: minmax(160px, 1fr) minmax(0, 2fr); }
   .resume-identity { grid-column: 1 / -1; }
   .resume-section { grid-template-columns: 1fr; gap: 32px; }
