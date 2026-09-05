@@ -3,7 +3,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import MemoryLaneTrail from '../components/MemoryLaneTrail.astro';
 import ResponsiveVideo from '../components/ResponsiveVideo.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
-import MediaPlaybackControl from '../components/MediaPlaybackControl.astro';
 import { PROJECTS } from '../data/projects.js';
 import { HOME_STRUCTURED_DATA } from '../data/seo.js';
 
@@ -72,11 +71,6 @@ const projects = PROJECTS.map((project) => ({
                 <span class="home-project-view" data-tape-label>View Project</span>
               </div>
             </a>
-            {project.video && (
-              <div class="home-project-playback-overlay">
-                <MediaPlaybackControl label={project.name} />
-              </div>
-            )}
           </div>
         ))}
       </div>

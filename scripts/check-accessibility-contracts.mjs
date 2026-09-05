@@ -34,8 +34,7 @@ assert.match(carousel, /alt=\{descriptions\[index\]\}/, 'carousel slides require
 assert.equal((hbs.match(/'Principle \d compares/g) ?? []).length, 7, 'all seven HBS principle slides require equivalent descriptions');
 assert.equal((hbs.match(/'Approach \d/g) ?? []).length, 4, 'all four HBS approach slides require equivalent descriptions');
 assert.match(home, /<ResponsiveVideo[^>]+showPlaybackControl=\{false\}/, 'homepage links must suppress nested playback controls');
-assert.match(home, /<\/a>\s*\{project\.video && \(\s*<div class="home-project-playback-overlay">\s*<MediaPlaybackControl label=\{project\.name\} \/>/, 'homepage autoplay videos require pause/play controls outside the wrapping link');
-assert.match(styles, /\.home-project-media,\s*\.home-project-playback-overlay \{ aspect-ratio:[\s\S]*?\.home-project-playback-overlay \{[\s\S]*?pointer-events: none;[\s\S]*?\.home-project-playback-overlay > \.media-playback-control \{\s*pointer-events: auto;/, 'homepage sibling controls must stay interactive over a non-interactive media-aligned overlay');
+assert.doesNotMatch(home, /MediaPlaybackControl|home-project-playback-overlay/, 'homepage must omit playback buttons as requested');
 assert.doesNotMatch(oneReport, /showPlaybackControl=\{false\}/, 'OneReport autoplay videos require persistent pause/play controls');
 assert.match(mediaController, /prefers-reduced-motion: reduce/, 'autoplay policy must observe reduced-motion preference');
 assert.match(mediaController, /!this\.reducedMotionQuery\?\.matches \|\| explicitlyStarted/, 'reduced motion may play only after an explicit action');

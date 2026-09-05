@@ -926,19 +926,7 @@ body.case-study-menu-open { overflow: hidden; }
 .home-project-hitachi { --home-project-media-aspect: 1080 / 608; }
 .home-project-cisco { --home-project-media-aspect: 1920 / 1080; }
 .home-project-memory-lane { --home-project-media-aspect: 3 / 4; }
-.home-project-media,
-.home-project-playback-overlay { aspect-ratio: var(--home-project-media-aspect); }
-.home-project-playback-overlay {
-  position: absolute;
-  z-index: 2;
-  top: var(--home-project-card-padding);
-  right: var(--home-project-card-padding);
-  left: var(--home-project-card-padding);
-  pointer-events: none;
-}
-.home-project-playback-overlay > .media-playback-control {
-  pointer-events: auto;
-}
+.home-project-media { aspect-ratio: var(--home-project-media-aspect); }
 
 .home-project-panw .home-project-media-visual {
   --panw-media-offset: 48px;
@@ -1247,18 +1235,12 @@ body.case-study-menu-open { overflow: hidden; }
 }
 .media-playback-control__pause,
 .media-playback-control__spinner { display: none; }
-[data-playback-state='playing'] > .media-playback-control .media-playback-control__play,
-[data-playback-state='playing'] > .home-project-playback-overlay > .media-playback-control .media-playback-control__play { display: none; }
-[data-playback-state='playing'] > .media-playback-control .media-playback-control__pause,
-[data-playback-state='playing'] > .home-project-playback-overlay > .media-playback-control .media-playback-control__pause { display: block; }
+[data-playback-state='playing'] > .media-playback-control .media-playback-control__play { display: none; }
+[data-playback-state='playing'] > .media-playback-control .media-playback-control__pause { display: block; }
 [data-playback-state='starting'] > .media-playback-control svg,
-[data-playback-state='buffering'] > .media-playback-control svg,
-[data-playback-state='starting'] > .home-project-playback-overlay > .media-playback-control svg,
-[data-playback-state='buffering'] > .home-project-playback-overlay > .media-playback-control svg { display: none; }
+[data-playback-state='buffering'] > .media-playback-control svg { display: none; }
 [data-playback-state='starting'] > .media-playback-control .media-playback-control__spinner,
-[data-playback-state='buffering'] > .media-playback-control .media-playback-control__spinner,
-[data-playback-state='starting'] > .home-project-playback-overlay > .media-playback-control .media-playback-control__spinner,
-[data-playback-state='buffering'] > .home-project-playback-overlay > .media-playback-control .media-playback-control__spinner {
+[data-playback-state='buffering'] > .media-playback-control .media-playback-control__spinner {
   display: block;
   width: 18px;
   height: 18px;
