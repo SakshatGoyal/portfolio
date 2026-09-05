@@ -5,7 +5,8 @@
 This repository is the main Sakshat Goyal portfolio website. Make website
 changes here; do not create a numbered replacement. The canonical local path is
 `/Users/sakshatgoyal/Documents/GitHub/portfolio/website` and the canonical
-branch is `main`.
+production branch is `main`. About work stays on `about-local-review`
+until the user explicitly approves publication.
 
 The adjacent `portfolio-content-folder/` contains protected source material.
 The adjacent `Archive/` contains historical versions and pre-cleanup material.
@@ -13,8 +14,8 @@ Do not modify either unless the user explicitly places it in scope.
 
 ## Architecture
 
-- `src/pages/` owns the home page and seven case-study routes.
-- `src/drafts/about.astro` preserves the unpublished About page.
+- `src/pages/` owns the home page, local About preview, and seven case-study routes.
+- About exists only on this local review branch; production keeps it in `src/drafts/`.
 - `src/components/`, `src/layouts/`, and `src/styles/` own shared UI behavior.
 - `public/` contains every asset required to run and build the website.
 - `scripts/` contains validation and asset tooling.
