@@ -1,4 +1,5 @@
 const initMediaReveals = (reduceMotion) => {
+  reduceMotion ||= document.documentElement.dataset.mediaMotionReady === 'fallback';
   const galleryRevealLeadDelay = 100;
   const galleryRevealStagger = 70;
   const homepageRevealStagger = 90;
@@ -105,7 +106,7 @@ const initMediaReveals = (reduceMotion) => {
     target.dataset.mediaRevealStagger = '0';
   });
 
-  document.documentElement.dataset.mediaMotionReady = 'true';
+  document.documentElement.dataset.mediaMotionReady = reduceMotion ? 'false' : 'true';
   if (reduceMotion) {
     targets.forEach((target) => {
       target.classList.add('media-reveal-active');
@@ -595,4 +596,5 @@ export const initMotionSystem = () => {
   initLineMaskHeadings(reduceMotion);
   initBodyReveals(reduceMotion);
   initMediaReveals(reduceMotion);
+  document.dispatchEvent(new Event('mediarevealinitialized'));
 };

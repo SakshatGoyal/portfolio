@@ -1579,6 +1579,13 @@ html[data-media-motion-ready='true'] [data-media-reveal][data-media-reveal-ready
   transform: none;
   transition: none;
 }
+/* Hide from first paint without clipping the loading geometry: native lazy
+ * images and video preload observers must still see the unmasked bounds. */
+html[data-media-motion-ready='true'] [data-media-reveal] [data-media-reveal-clip] {
+  opacity: 0;
+}
+/* Readiness installs the closed mask and removes transparency atomically.
+ * Activation opens that mask only after the existing two-frame safeguard. */
 html[data-media-motion-ready='true'] [data-media-reveal][data-media-reveal-ready='true'] [data-media-reveal-clip] {
   opacity: 1;
   clip-path: inset(0 100% 0 0);

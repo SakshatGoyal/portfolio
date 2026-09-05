@@ -39,6 +39,10 @@ npm run build
 
 Keep `main` clean and synchronized with `origin/main` after finalized work.
 
+For changes to media loading or entry animations, also run the rendered
+first-paint checks in `docs/media-first-paint.md`. Source contracts and a passing
+build alone cannot detect the visible → hidden → swipe regression.
+
 ## About publication hold
 
 About is intentionally absent from production and its navigation. Continue About
