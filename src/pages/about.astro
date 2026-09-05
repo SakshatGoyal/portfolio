@@ -14,8 +14,8 @@ const skills = [
   structuredData={ABOUT_STRUCTURED_DATA}
 >
   <article class="about-page">
+    <h1 class="sr-only">About</h1>
     <header class="resume-introduction">
-      <div class="resume-identity"><h1>Sakshat Goyal</h1><p class="resume-role">Product Designer</p></div>
       <div class="resume-photo" role="img" aria-label="Personal photograph placeholder"><span>Photograph</span></div>
       <div class="resume-intro-copy">
         <p>I shape design where problems seem uncertain, but deadlines do not.</p>
@@ -23,7 +23,7 @@ const skills = [
       </div>
     </header>
     <section class="resume-section" aria-labelledby="recent-experience">
-      <h2 id="recent-experience">Recent Experience</h2>
+      <h2 data-widow-ignore id="recent-experience">Recent Experience</h2>
       <div class="resume-experience-list">
         <section class="resume-experience" aria-labelledby="lead-product-designer">
           <div class="resume-job">
@@ -99,11 +99,11 @@ const skills = [
       </div>
     </section>
     <section class="resume-section" aria-labelledby="skills">
-      <h2 id="skills">SKILLS</h2>
+      <h2 data-widow-ignore id="skills">SKILLS</h2>
       <div class="resume-skills">{skills.map((group) => <ul>{group.map((skill) => <li>{skill}</li>)}</ul>)}</div>
     </section>
     <section class="resume-section" aria-labelledby="education">
-      <h2 id="education">Education</h2>
+      <h2 data-widow-ignore id="education">Education</h2>
       <div class="resume-education">
         <section>
           <h3 class="resume-role">Master of hci+d</h3>

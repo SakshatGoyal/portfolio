@@ -657,53 +657,80 @@ body.case-study-menu-open { overflow: hidden; }
 @font-face { font-family: 'Manrope'; src: url('/fonts/manrope-800.ttf') format('truetype'); font-weight: 800; font-display: swap; }
 @font-face { font-family: 'Geist'; src: url('/fonts/geist-400.ttf') format('truetype'); font-weight: 400; font-display: swap; }
 
-/* Resume frame 377:26: original type sizes and color hierarchy, with web spacing. */
+/* Resume frame 377:26 on one four-track grid, inset like case-study reading content. */
+[data-about-system='true'] { --canvas: #fff; }
+[data-about-system='true'] .site-content,
+[data-about-system='true'] .site-footer { background: #fff; }
+[data-about-system='true'] .site-footer {
+  width: min(100%, calc(var(--max) + 128px));
+  min-height: 112px;
+  margin: 0 auto;
+  padding: 0 64px 48px;
+}
 .about-page {
-  width: 100%;
-  padding: 48px 32px 96px;
+  width: min(100%, calc(var(--max) + 128px));
+  margin-inline: auto;
+  padding: 96px 64px;
   background: #fff;
   color: #618087;
   font: 500 15px/1.25 'Manrope', Arial, sans-serif;
   letter-spacing: -.015em;
   container-type: inline-size;
 }
-.resume-introduction { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr); gap: 24px; margin-bottom: 80px; }
-.resume-identity { min-width: 0; }
-.resume-identity h1 { color: #000; font-size: 31.765px; font-weight: 700; line-height: 1; letter-spacing: -.9529px; text-transform: uppercase; margin: 0 0 13px; }
+.resume-introduction,
+.resume-section { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 24px; }
+.resume-introduction { align-items: start; margin-bottom: 96px; }
+.resume-photo { grid-column: 2; }
+.resume-intro-copy { grid-column: 3 / -1; }
 .about-page .resume-role { color: #0043d6; font-size: 16px; font-weight: 800; line-height: 1.15; letter-spacing: .32px; text-transform: uppercase; }
 .resume-photo { width: 100%; max-width: 248px; aspect-ratio: 248 / 258; background: #edf1f2; border: 1px solid #becccf; display: grid; place-items: center; color: #416770; font-size: 14px; }
 .resume-intro-copy { font-size: 24px; line-height: 1.25; letter-spacing: -.36px; }
 .resume-intro-copy p + p { margin-top: 30px; }
-.resume-section { display: grid; grid-template-columns: minmax(140px, 1fr) minmax(0, 3fr); gap: 32px; padding-block: 40px; }
+.resume-section { padding-block: 48px; }
 .resume-section + .resume-section { border-top: 1px solid #becccf; }
 .resume-section h2 { color: #416770; font-size: 16px; line-height: 1.15; font-weight: 800; text-transform: uppercase; letter-spacing: 0; }
-.resume-experience-list { display: grid; gap: 64px; }
-.resume-experience { display: grid; grid-template-columns: minmax(140px, 1fr) minmax(0, 2.1fr); gap: 24px; }
+.resume-experience-list { grid-column: 2 / -1; display: grid; grid-template-columns: subgrid; row-gap: 80px; }
+.resume-experience { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; align-items: start; }
+.resume-job { grid-column: 1; }
 .resume-job > * + * { margin-top: 8px; }
 .resume-company { color: #000; font-size: 16px; font-weight: 600; line-height: 1.15; letter-spacing: .32px; text-transform: uppercase; }
 .resume-dates { font-size: 14px; line-height: 1.25; letter-spacing: .28px; text-transform: uppercase; }
-.resume-details { display: grid; gap: 32px; }
-.resume-details h4 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin-bottom: 12px; color: #000; font-size: 16px; font-weight: 800; line-height: 1.15; letter-spacing: .32px; text-transform: uppercase; }
+.resume-details { grid-column: 2 / -1; display: grid; gap: 40px; }
+.resume-details > section { margin: 0; padding: 0; }
+.resume-details h4 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 0 0 12px; color: #000; font-size: 16px; font-weight: 800; line-height: 1.15; letter-spacing: .32px; text-transform: uppercase; }
 .resume-details h4 span { color: #5f787d; font-size: 14px; font-weight: 500; letter-spacing: 0; text-transform: lowercase; }
 .resume-details ul { padding-left: 20px; margin: 0; }
 .resume-details li + li { margin-top: 12px; }
 .resume-emphasis { color: #000; }
-.resume-skills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; font-size: 14px; letter-spacing: -.42px; }
+.resume-skills { grid-column: 2 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; font-size: 14px; letter-spacing: -.42px; }
 .resume-skills ul { list-style: none; margin: 0; padding: 0; }
 .resume-skills li + li { margin-top: 8px; }
-.resume-education { display: grid; gap: 40px; max-width: 420px; }
+.resume-education { grid-column: 3 / -1; display: grid; gap: 40px; }
 .resume-education p { margin-top: 8px; }
 .resume-school { color: #000; font-size: 16px; font-weight: 800; text-transform: uppercase; }
 .resume-award { font: 400 13px/14px 'Geist', Arial, sans-serif; letter-spacing: -.39px; }
-@container (width < 1056px) {
-  .resume-introduction { grid-template-columns: minmax(160px, 1fr) minmax(0, 2fr); }
-  .resume-identity { grid-column: 1 / -1; }
-  .resume-section { grid-template-columns: 1fr; gap: 32px; }
+@container stage (width < 840px) {
+  .about-page { padding: 64px 32px; }
+  .resume-introduction { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .resume-photo { grid-column: 1; }
+  .resume-intro-copy { grid-column: 2 / -1; }
+  .resume-section { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); row-gap: 32px; }
+  .resume-experience-list, .resume-skills, .resume-education { grid-column: 2; }
+  .resume-experience { grid-template-columns: minmax(0, 1fr); row-gap: 24px; }
+  .resume-job, .resume-details { grid-column: 1; }
+  .resume-skills { grid-template-columns: minmax(0, 1fr); }
 }
-@container (width < 520px) {
-  .resume-introduction, .resume-experience { grid-template-columns: 1fr; }
-  .resume-skills { grid-template-columns: 1fr; }
-  .resume-photo { max-width: 248px; }
+@container stage (width < 480px) {
+  .resume-introduction { grid-template-columns: minmax(0, 1fr); row-gap: 32px; margin-bottom: 64px; }
+  .resume-photo, .resume-intro-copy { grid-column: 1; }
+  .resume-photo { max-width: 200px; }
+  .resume-section { grid-template-columns: minmax(0, 1fr); }
+  .resume-experience-list, .resume-skills, .resume-education { grid-column: 1; }
+  .resume-experience-list { row-gap: 56px; }
+}
+@media (max-width: 671px) {
+  [data-about-system='true'] .about-page,
+  [data-about-system='true'] .site-footer { padding-inline: 24px; }
 }
 
 .home-project-grid {
