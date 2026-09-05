@@ -69,9 +69,13 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
   </div>
 
   <nav class="portfolio-panel-navigation" aria-label="Portfolio">
-    <div class="portfolio-panel-projects">
+    <ul class="portfolio-navigation-levels">
+      <li><a class:list={['portfolio-panel-link', { 'is-selected': pathname.startsWith('/about') }]} href="/about/" aria-current={pathname.startsWith('/about') ? 'page' : undefined} data-tape-label data-tape-frame="true" data-tape-color="var(--panel-tape-color)" data-tape-duration="126">About</a></li>
+      <li>
+        <a class:list={['portfolio-panel-link', { 'is-selected': isHome }]} href="/" aria-current={isHome ? 'page' : undefined} data-tape-label data-tape-frame="true" data-tape-color="var(--panel-tape-color)" data-tape-duration="126">Work</a>
+        <ul class="portfolio-panel-projects">
       {PANEL_PROJECTS.map((project) => (
-        <a
+        <li><a
           class:list={['portfolio-panel-link', { 'is-selected': isProject(project.href) }]}
           href={project.href}
           aria-current={isProject(project.href) ? 'page' : undefined}
@@ -79,9 +83,11 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
           data-tape-frame="true"
           data-tape-color="var(--panel-tape-color)"
           data-tape-duration="126"
-        >{project.panelLabel}</a>
+        >{project.panelLabel}</a></li>
       ))}
-    </div>
+        </ul>
+      </li>
+    </ul>
   </nav>
 </aside>
 

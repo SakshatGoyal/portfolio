@@ -1,9 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { ABOUT_STRUCTURED_DATA } from '../data/seo.js';
-
-const leadLines = ['I shape design where problems are', 'undefined, but commitments aren’t.'];
-const support = 'Over the last decade, I’ve led research and product efforts among organizations including Palo Alto Networks, Harvard Business School, DocuSign, Hitachi Energy, Cisco, and more....';
+const skills = [
+  ['User research', 'Product strategy', 'Design leadership', 'Systems thinking', 'Interaction design'],
+  ['Design quality assurance', 'Data-informed design', 'Visual design', 'Conversational design', 'AI-assisted prototyping'],
+  ['Strategic foresight', 'AI-assisted coding', 'Stakeholder alignment', 'Information architecture', 'Design critique'],
+];
 ---
 
 <BaseLayout
@@ -12,15 +14,109 @@ const support = 'Over the last decade, I’ve led research and product efforts a
   structuredData={ABOUT_STRUCTURED_DATA}
 >
   <article class="about-page">
-    <h1 class="about-page-identity">
-      <span>Sākshāt Goyal</span>
-      <span>Product Designer</span>
-    </h1>
-    <div class="about-page-biography">
-      <p class="about-page-lead">
-        {leadLines.map((line) => <span>{line}</span>)}
-      </p>
-      <p class="about-page-support">{support}</p>
-    </div>
+    <header class="resume-introduction">
+      <div class="resume-identity"><h1>Sakshat Goyal</h1><p class="resume-role">Product Designer</p></div>
+      <div class="resume-photo" role="img" aria-label="Personal photograph placeholder"><span>Photograph</span></div>
+      <div class="resume-intro-copy">
+        <p>I shape design where problems seem uncertain, but deadlines do not.</p>
+        <p>I have a track record of owning and delivering on design for new initiatives, long-horizon revamps, and organizational shifts.</p>
+      </div>
+    </header>
+    <section class="resume-section" aria-labelledby="recent-experience">
+      <h2 id="recent-experience">Recent Experience</h2>
+      <div class="resume-experience-list">
+        <section class="resume-experience" aria-labelledby="lead-product-designer">
+          <div class="resume-job">
+            <h3 id="lead-product-designer" class="resume-role">Lead Product Designer</h3>
+            <p class="resume-company">Intelligaia LLC</p>
+            <p class="resume-dates">Feb 2024 - Present</p>
+          </div>
+          <div class="resume-details">
+            <section>
+              <h4>Palo Alto Networks <span>client</span></h4>
+              <ul>
+                <li>Led design for Sales Workbench, PANW’s platform supporting over $3B in annual pipeline activity, collaborating with cross-functional teams in strategy, operations, sales, and data and multiple Product / Engineering functions.</li>
+                <li>Designed complex workflows, reducing cross-tool switching by 40% and resulting in decommissioning of 12 internal legacy tools.</li>
+                <li>Introduced AI-driven features to Sales Workbench tailoring experiences for in-depth analysis, resulting in 4+ follow-up chains; reduced the effort of verifying AI responses for users by 75%.</li>
+                <li>Built a functional generative UI prototype that influenced engineering leads, enabling design features to move into an earlier release cycle.</li>
+                <li>Collaborated with engineers and designers to establish GitHub workflows, enabling myself and 3 designers to deploy code to production.</li>
+              </ul>
+            </section>
+            <section>
+              <h4>Company Initiatives <span>Ongoing</span></h4>
+              <ul>
+                <li>Expanded Intelligaia’s services beyond design to research, strategy, and speculative design, securing 4 new contracts and leading delivery.</li>
+                <li>Built and evolved Besan, Intelligaia’s reusable design system, enabling one-day brand adaptation and high-fidelity delivery for 8 companies. Built AI agents and guidelines to ensure interface consistency with the system.</li>
+              </ul>
+            </section>
+            <section>
+              <h4>Other Projects <span>ongoing</span></h4>
+              <ul>
+                <li>Developed an AI-driven research system for <span class="resume-emphasis">Harvard Business School</span> to identify product opportunities. Established Human-AI interaction principles for fine-tuning AI responses across team initiatives.</li>
+                <li>Redesigned <span class="resume-emphasis">Cisco Panoptica</span> onboarding, increasing completion rates by 22 percentage points.</li>
+                <li>Led the consolidation of cart and checkout across 24 <span class="resume-emphasis">Colibri</span> brands into a configurable system supporting diverse products, add-ons, purchasing models, and websites by coordinating with a cross-functional team of product managers, engineers, and designers.</li>
+              </ul>
+            </section>
+          </div>
+        </section>
+        <section class="resume-experience" aria-labelledby="senior-product-designer">
+          <div class="resume-job">
+            <h3 id="senior-product-designer" class="resume-role">Senior Product Designer</h3>
+            <p class="resume-company">Intelligaia LLC</p>
+            <p class="resume-dates">aug 2021 - feb 2024</p>
+          </div>
+          <div class="resume-details">
+            <section>
+              <h4>Docusign <span>client</span></h4>
+              <ul>
+                <li>Led design for DocuSign’s $5.2M dashboard migration initiative, accelerating development by three months through proactive teamwork and rapid iteration.</li>
+                <li>Partnered with directors of product, finance, customer success, operations, sales, and marketing to establish shared company-wide metrics and design dashboards that help executives monitor $2.5B in revenue and over $2.0B in spending.</li>
+                <li>Initiated end-to-end research and design for two internal tools, enabling thematic analysis (78% adoption) and value-driven sales (82% adoption) across the Americas and EMEA.</li>
+              </ul>
+            </section>
+          </div>
+        </section>
+        <section class="resume-experience" aria-labelledby="product-designer">
+          <div class="resume-job">
+            <h3 id="product-designer" class="resume-role">Product Designer</h3>
+            <p class="resume-company">Intelligaia LLC</p>
+            <p class="resume-dates">nov 2019 - aug 2021</p>
+          </div>
+          <div class="resume-details">
+            <section>
+              <h4>Hitachi Energy <span>client</span></h4>
+              <ul><li>Redesigned the Partner Portal experience, reducing deal cycles by 24% within six months post-release, generating over $280K in annual operating savings, and expanding quotation capacity across a $200M+ workflow.</li></ul>
+            </section>
+            <section>
+              <h4>Cisco Systems <span>client</span></h4>
+              <ul>
+                <li>Defined and implemented a design strategy for Cisco Ready, resulting in a 4x increase in monthly users among account managers within one fiscal year.</li>
+                <li>Clearly articulated design decisions to business leaders at Cisco, including the SVP of sales in the Americas, EMEA, and Asia Pacific.</li>
+              </ul>
+            </section>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="resume-section" aria-labelledby="skills">
+      <h2 id="skills">SKILLS</h2>
+      <div class="resume-skills">{skills.map((group) => <ul>{group.map((skill) => <li>{skill}</li>)}</ul>)}</div>
+    </section>
+    <section class="resume-section" aria-labelledby="education">
+      <h2 id="education">Education</h2>
+      <div class="resume-education">
+        <section>
+          <h3 class="resume-role">Master of hci+d</h3>
+          <p class="resume-school">University of Washington</p>
+          <p class="resume-dates">2018-19</p>
+          <p class="resume-award">Awarded the best technical implementation award by Microsoft’s Hacking STEM team.</p>
+        </section>
+        <section>
+          <h3 class="resume-role">Bachelor of Architecture</h3>
+          <p class="resume-school">Veer Narmad South Gujarat University</p>
+          <p class="resume-dates">2010-16</p>
+        </section>
+      </div>
+    </section>
   </article>
 </BaseLayout>

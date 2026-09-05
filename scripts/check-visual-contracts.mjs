@@ -105,7 +105,7 @@ requireText(styles, '--ink: var(--text-primary);', 'The legacy ink token must al
 requireText(styles, '--muted: var(--text-secondary);', 'The legacy muted token must alias the canonical secondary token.');
 requireText(styles, '--faint: var(--text-tertiary);', 'The legacy faint token must alias the canonical tertiary token.');
 if (contrastRatio('5f787d', 'fafafa') < 4.5) errors.push('Editorial tertiary text must retain at least 4.5:1 contrast against #FAFAFA.');
-requireCount(styles, "font-family: 'Manrope';", 4, 'Manrope weights 400, 500, 600, and 700 must remain registered as bundled site fonts.');
+requireCount(styles, "font-family: 'Manrope';", 5, 'Manrope weights 400, 500, 600, 700, and 800 must remain registered as bundled site fonts.');
 requireText(styles, "src: url('/fonts/manrope-600.ttf') format('truetype');\n  font-weight: 600;", 'Manrope SemiBold must resolve to its bundled 600-weight font file.');
 if (home.includes('MultiscriptNameStrip') || styles.includes('Manrope Script Fallback') || styles.includes('fonts.gstatic.com')) {
   errors.push('The proven-dead multilingual strip and its external fonts must remain removed.');
@@ -187,7 +187,7 @@ requireText(styles, 'font: 600 clamp(17.739px, calc(5.217391cqi + 3.33913px), 24
 requireText(styles, 'color: #5f787d;\n  font: 500 clamp(14.783px, calc(4.347826cqi + 2.782609px), 20px)/clamp(19.957px, calc(5.869565cqi + 3.756522px), 27px) var(--body-font);\n  letter-spacing: -.03em;', 'Panel supporting copy must preserve its accessible color while scaling with the panel.');
 requireText(styles, '--panel-label-color: #5f787d;\n  display: flex;', 'Unselected project links must use accessible tertiary text.');
 requireText(styles, 'background: var(--panel-tape-color);\n  color: #fff !important;', 'Selected project links must retain white text on black tape.');
-requireText(styles, 'padding-inline-start: 0;', 'Panel project rows must align with the panel content edge without an inset.');
+requireText(styles, 'padding-inline-start: 16px;', 'Panel project rows must be indented beneath Work.');
 requireText(styles, '.portfolio-panel-navigation a,\n.portfolio-panel-contact { padding: 2px 4px; }', 'Panel label frames must retain fixed 2px by 4px Figma padding.');
 requireText(styles, '.portfolio-panel-projects {\n  --panel-label-color: #5f787d;\n  display: flex;\n  flex: none;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 8px;', 'Panel project rows must retain their fixed 8px gap.');
 requireText(styles, 'background-image: linear-gradient(#d3ff7d, #d3ff7d);', 'Panel lead must use the updated neon text-bound background highlight.');
@@ -212,13 +212,13 @@ requireText(styles, '.portfolio-panel-lead { font: 600 24px/33px var(--body-font
 requireText(styles, 'display: block;\n    width: 100%;\n    max-width: 100%;', 'Compact highlighted copy must use the full available line width.');
 requireText(styles, 'display: inline;\n    width: auto;\n    white-space: normal;', 'Compact highlighted copy segments must form one continuous text flow that wraps naturally.');
 requireText(portfolioPanel, "{line}{index < PANEL_LEAD_LINES.length - 1 ? ' ' : ''}", 'Panel lead source segments must retain their natural separating space when displayed inline.');
-requireText(styles, '.portfolio-panel-navigation { display: none; }', 'Project navigation must disappear below the 1210px transition.');
+requireText(styles, '.portfolio-panel-navigation { display: flex; flex: none; }', 'The two-level navigation must remain visible without shrinking on compact layouts.');
 requireText(layout, "import CaseStudyHeader from '../components/CaseStudyHeader.astro';", 'The shared layout must load the case-study-only compact header.');
 requireText(layout, '{isCaseSystem && <CaseStudyHeader />}', 'Only case-study routes may render the compact case-study header.');
 requireText(caseStudyHeader, 'class="case-study-header"', 'Case studies must expose the collapsed compact header.');
 requireText(caseStudyHeader, 'aria-haspopup="dialog"', 'The Menu control must identify its full-screen dialog.');
 requireText(caseStudyHeader, 'class="behance-viewer__close case-study-menu__close"', 'The expanded menu must reuse the lightbox close-button treatment.');
-requireText(caseStudyHeader, '<a class="case-study-menu__link" href="/">Home</a>', 'The expanded menu must include Home.');
+requireText(caseStudyHeader, '<a class="case-study-menu__link" href="/">Work</a>', 'The expanded menu must include Work.');
 requireText(caseStudyHeader, 'PANEL_PROJECTS.map((project)', 'The expanded menu must include every portfolio project.');
 requireText(caseStudyHeader, "'is-selected': isProject(project.href)", 'The expanded menu must identify the current project.');
 if (caseStudyHeader.includes('PANEL_LEAD_LINES') || caseStudyHeader.includes('PANEL_SUPPORT') || caseStudyHeader.includes('portfolio-panel-intro')) {
@@ -256,7 +256,7 @@ requireText(motionSystem, "if (label.getAttribute('aria-disabled') === 'true') l
 requireText(styles, '[data-tape-label]:focus-visible .home-tape-line > i,', 'Project and panel labels must expose their tape state to keyboard focus.');
 requireText(styles, '[data-tape-label]:hover .home-tape-line > i,', 'Project and panel labels must expose their tape state to fine-pointer hover.');
 requireText(styles, "html.js[data-home-system='true'] .portfolio-panel-highlight-line { background-size: 100% var(--panel-highlight-height) !important; transition: none !important; }", 'Reduced motion must show the completed homepage text highlight without animation.');
-requireText(about, 'class="about-page"', 'The About route must render its minimal biography page.');
+requireText(about, 'class="about-page"', 'The About route must render its resume adaptation.');
 requireText(motionSystem, "const frameAligned = label.dataset.tapeFrame === 'true';", 'Panel tape must derive its geometry from the full padded item frame.');
 requireText(motionSystem, 'const framePaddingY = frameAligned', 'Panel tape must include both vertical frame paddings.');
 requireText(portfolioPanel, "const isProject = (href: string) => pathname === href", 'Case-study routes must select their matching panel project.');
@@ -407,8 +407,8 @@ requireText(styles, '.home-project-media,\n.home-project-playback-overlay { aspe
 requireText(styles, 'top: var(--home-project-card-padding);\n  right: var(--home-project-card-padding);\n  left: var(--home-project-card-padding);\n  pointer-events: none;', 'Homepage playback overlays must align to the leading media without changing card geometry.');
 requireText(styles, '.memory-lane-hero-placeholder {', 'Memory Lane must expose its dedicated hero placeholder.');
 requireText(styles, '.memory-lane-trail-surface {', 'Both Memory Lane surfaces must inherit one shared visual treatment.');
-requireText(styles, "background: #008F98;\n  box-shadow: 0 4px 249.1px 88px rgba(0, 98, 125, .2) inset;", 'The shared Memory Lane trail surface must use the approved teal fill and inset shadow.');
-requireCount(styles, 'box-shadow: 0 4px 249.1px 88px rgba(0, 98, 125, .2) inset;', 1, 'The approved Memory Lane inset shadow must have one shared source rule.');
+requireText(styles, "background: #c5ed63;\n  box-shadow: 0 4px 249.1px 88px rgba(92, 125, 0, .12) inset;", 'The shared Memory Lane trail surface must use the approved lime fill and inset shadow.');
+requireCount(styles, 'box-shadow: 0 4px 249.1px 88px rgba(92, 125, 0, .12) inset;', 1, 'The approved Memory Lane inset shadow must have one shared source rule.');
 requireText(caseStudySources.at(-1), 'import MemoryLaneTrail', 'The Memory Lane case-study hero must use the shared trail component.');
 requireText(caseStudySources.at(-1), 'className="memory-lane-hero-placeholder"', 'The Memory Lane case-study hero must retain its 16:9 surface class.');
 requireText(memoryLaneTrailComponent, 'memoryLaneTrailAssets.map((asset, index)', 'The shared cursor trail must render one persistent layer for every manifest asset.');

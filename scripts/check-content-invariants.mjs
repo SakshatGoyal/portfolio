@@ -65,9 +65,11 @@ if (!panelComponent.includes('class="portfolio-panel-support">{PANEL_SUPPORT}</p
 if (homePage.includes('MultiscriptNameStrip')) {
   errors.push('The multilingual name strip must not render on the alternate homepage.');
 }
-if (!aboutPage.includes("const leadLines = ['I shape design where problems are', 'undefined, but commitments aren’t.'];")
-  || !aboutPage.includes("const support = 'Over the last decade, I’ve led research and product efforts among organizations including")) {
-  errors.push('The minimal About page must reuse the portfolio-panel biography copy.');
+for (const text of ['I shape design where problems seem uncertain, but deadlines do not.', 'I have a track record of owning and delivering on design for new initiatives, long-horizon revamps, and organizational shifts.', 'Recent Experience', 'SKILLS', 'Education']) {
+  if (!aboutPage.includes(text)) errors.push(`The About page must preserve the resume text: ${text}`);
+}
+if (aboutPage.includes('sakshat.goyal@gmail.com') || aboutPage.includes('415 - 308 - 7597') || aboutPage.includes('sakshat-goyal.com') || /<img\b/.test(aboutPage)) {
+  errors.push('The About resume must exclude contact details and an actual portrait.');
 }
 
 const expectedPanelProjects = [

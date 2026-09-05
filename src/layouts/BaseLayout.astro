@@ -35,6 +35,8 @@ const structuredDataJson = structuredData
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
     <link rel="canonical" href={canonicalUrl} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="theme-color" content="#fafafa" />
@@ -75,6 +77,7 @@ const structuredDataJson = structuredData
     </div>
     <div class="custom-site-cursor" data-custom-cursor aria-hidden="true">
       <svg class="cursor-project-arrow" viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"></path></svg>
+      <svg class="cursor-image-fullscreen" viewBox="0 0 24 24"><path d="M9 5H5v4M15 5h4v4M19 15v4h-4M9 19H5v-4"></path></svg>
     </div>
     <div class="behance-viewer" data-behance-viewer hidden role="dialog" aria-modal="true" aria-labelledby="behance-viewer-title">
       <div class="behance-viewer__topbar">
@@ -126,7 +129,9 @@ const structuredDataJson = structuredData
           const nextProject = event.target.closest?.('[data-media-playback-control]')
             ? null
             : event.target.closest?.('[data-project-tile]') || null;
-          customCursor.classList.toggle('is-project', Boolean(nextProject));
+          const lightboxImage = event.target.closest?.('[data-behance-image]');
+          customCursor.classList.toggle('is-project', Boolean(nextProject) && !lightboxImage);
+          customCursor.classList.toggle('is-image', Boolean(lightboxImage));
         }, { passive: true });
         document.documentElement.addEventListener('pointerleave', () => customCursor.classList.remove('is-visible'));
         window.addEventListener('blur', () => customCursor.classList.remove('is-visible'));
@@ -361,6 +366,7 @@ const structuredDataJson = structuredData
       let activeViewerItem = null;
       let viewerReturnFocus = null;
       let viewerExpanded = false;
+      let viewerScale = 1;
       let viewerSourceVideo = null;
       let viewerRenderToken = 0;
 
@@ -380,15 +386,37 @@ const structuredDataJson = structuredData
         return explicit || caption || image?.alt?.trim() || video?.getAttribute('aria-label')?.trim()
           || caseTitle || 'Portfolio media';
       };
-      const setViewerExpanded = (expanded) => {
+      const setViewerScale = (scale, clientX, clientY) => {
         if (!viewer || !viewerZoom || !viewerImage || !viewerStage) return;
-        viewerExpanded = expanded && !viewerZoom.hidden;
+        const previousScale = viewerScale;
+        const previousRect = viewerImage.getBoundingClientRect();
+        const stageRect = viewerStage.getBoundingClientRect();
+        const anchorX = clientX ?? stageRect.left + stageRect.width / 2;
+        const anchorY = clientY ?? stageRect.top + stageRect.height / 2;
+        viewerScale = Math.max(1, Math.min(4, scale));
+        if (viewerScale < 1.01) viewerScale = 1;
+        viewerExpanded = viewerScale > 1 && !viewerZoom.hidden;
+        // Measure the fitted image separately from the enlarged canvas.
+        viewer.classList.remove('is-expanded');
+        viewerImage.style.width = '';
+        const fittedWidth = viewerImage.getBoundingClientRect().width;
         viewer.classList.toggle('is-expanded', viewerExpanded);
-        viewerImage.style.width = viewerExpanded ? `${window.innerWidth}px` : '';
+        viewerImage.style.width = viewerExpanded ? `${fittedWidth * viewerScale}px` : '';
         viewerZoom.setAttribute('aria-expanded', String(viewerExpanded));
         viewerZoom.setAttribute('aria-label', `${viewerExpanded ? 'Zoom out' : 'Zoom in'} ${viewerTitle?.textContent?.trim() || 'portfolio media'}`);
-        viewerStage.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (!viewerExpanded) {
+          viewerStage.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        } else {
+          const nextRect = viewerImage.getBoundingClientRect();
+          const ratio = viewerScale / previousScale;
+          viewerStage.scrollBy({
+            left: nextRect.left + (anchorX - previousRect.left) * ratio - anchorX,
+            top: nextRect.top + (anchorY - previousRect.top) * ratio - anchorY,
+            behavior: 'instant',
+          });
+        }
       };
+      const setViewerExpanded = (expanded) => setViewerScale(expanded ? 2 : 1);
       const releaseViewerVideo = () => {
         if (!(viewerVideo instanceof HTMLVideoElement)) return;
         viewerVideo.pause();
@@ -491,8 +519,8 @@ const structuredDataJson = structuredData
           || event.target instanceof HTMLSelectElement
           || event.target?.isContentEditable;
         if (targetOwnsArrowKeys && (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) return;
-        if (event.key === 'ArrowLeft' && !viewerExpanded) moveViewer(-1);
-        if (event.key === 'ArrowRight' && !viewerExpanded) moveViewer(1);
+        if (event.key === 'ArrowLeft') moveViewer(-1);
+        if (event.key === 'ArrowRight') moveViewer(1);
         if (event.key === 'Tab') {
           const focusable = [...viewer.querySelectorAll('button:not([disabled]), [tabindex="0"]')]
             .filter((element) => element instanceof HTMLElement && !element.hidden);
@@ -507,6 +535,13 @@ const structuredDataJson = structuredData
           }
         }
       });
+      viewerStage?.addEventListener('wheel', (event) => {
+        if (!viewer || viewer.hidden || viewerZoom.hidden || !event.deltaY) return;
+        event.preventDefault();
+        const delta = event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? viewerStage.clientHeight : 1);
+        setViewerScale(viewerScale * Math.exp(-Math.max(-240, Math.min(240, delta)) * 0.002), event.clientX, event.clientY);
+      }, { passive: false });
+      window.addEventListener('resize', () => { if (viewer && !viewer.hidden) setViewerExpanded(false); });
       viewerZoom?.addEventListener('click', () => setViewerExpanded(!viewerExpanded));
       viewerClose?.addEventListener('click', closeViewer);
       viewerPrevious?.addEventListener('click', () => moveViewer(-1));

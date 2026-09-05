@@ -46,14 +46,20 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
   </div>
 
   <nav class="case-study-menu__navigation" aria-label="Portfolio">
-    <a class="case-study-menu__link" href="/">Home</a>
+    <ul class="portfolio-navigation-levels">
+      <li><a class="case-study-menu__link" href="/about/">About</a></li>
+      <li><a class="case-study-menu__link" href="/">Work</a>
+        <ul class="case-study-menu__projects">
     {PANEL_PROJECTS.map((project) => (
-      <a
+      <li><a
         class:list={['case-study-menu__link', { 'is-selected': isProject(project.href) }]}
         href={project.href}
         aria-current={isProject(project.href) ? 'page' : undefined}
-      >{project.label}</a>
+      >{project.panelLabel}</a></li>
     ))}
+        </ul>
+      </li>
+    </ul>
   </nav>
 </dialog>
 
