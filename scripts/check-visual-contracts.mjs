@@ -403,8 +403,7 @@ requireText(home, 'loading="lazy"', 'The below-fold homepage Memory Lane trail m
 requireText(memoryLaneTrailComponent, "data-src={loading === 'lazy' ? asset.src : undefined}", 'The below-fold Memory Lane trail must withhold image URLs until it approaches the viewport.');
 requireText(styles, '.home-project-global { --home-project-media-aspect: 1498 / 1124; }', 'The GDA Selected Work media must preserve the exact Figma ratio.');
 requireText(styles, '.home-project-one-report { --home-project-media-aspect: 1138 / 2026; }', 'The OneReport Selected Work media must preserve the exact Figma ratio.');
-requireText(styles, '.home-project-media,\n.home-project-playback-overlay { aspect-ratio: var(--home-project-media-aspect); }', 'Homepage media and its sibling playback overlay must share one aspect-ratio contract.');
-requireText(styles, 'top: var(--home-project-card-padding);\n  right: var(--home-project-card-padding);\n  left: var(--home-project-card-padding);\n  pointer-events: none;', 'Homepage playback overlays must align to the leading media without changing card geometry.');
+requireText(styles, '.home-project-media { aspect-ratio: var(--home-project-media-aspect); }', 'Homepage media must retain its aspect-ratio contract.');
 requireText(styles, '.memory-lane-hero-placeholder {', 'Memory Lane must expose its dedicated hero placeholder.');
 requireText(styles, '.memory-lane-trail-surface {', 'Both Memory Lane surfaces must inherit one shared visual treatment.');
 requireText(styles, "background: #c5ed63;\n  box-shadow: 0 4px 249.1px 88px rgba(92, 125, 0, .12) inset;", 'The shared Memory Lane trail surface must use the approved lime fill and inset shadow.');

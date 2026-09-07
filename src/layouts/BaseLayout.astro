@@ -59,6 +59,21 @@ const structuredDataJson = structuredData
     {structuredDataJson && <script type="application/ld+json" is:inline set:html={structuredDataJson} />}
     <script is:inline>
       document.documentElement.classList.add('js');
+      // Establish the media's starting state before the body can paint. Waiting
+      // for the deferred motion bundle lets cached images and posters flash.
+      (() => {
+        const root = document.documentElement;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        root.dataset.mediaMotionReady = 'true';
+        // A missing/failed bundle must leave the portfolio readable. A bundle
+        // arriving after this deadline must not hide already exposed content.
+        const fallback = window.setTimeout(() => {
+          root.dataset.mediaMotionReady = 'fallback';
+        }, 8000);
+        document.addEventListener('mediarevealinitialized', () => {
+          window.clearTimeout(fallback);
+        }, { once: true });
+      })();
     </script>
     <noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>
   </head>
