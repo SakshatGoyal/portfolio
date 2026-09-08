@@ -67,7 +67,7 @@ if (homePage.includes('MultiscriptNameStrip')) {
 }
 for (const text of [
   'Most of my work begins with no inherited context, and I have learned to understand an unfamiliar business quickly enough to turn an undefined problem into a direction the team can act on.',
-  "I like working on messy systems with people who are willing to say when something still doesn't make sense. I ask a lot of questions, push back when a brief only treats the obvious symptom. I also prototype early, because it is much easier to have a useful disagreement when there is something real in front of us.",
+  "I like working on messy systems with people who are willing to say when something still doesn't make sense. I ask a lot of questions, investigate when a brief only treats the obvious symptom. I also prototype early, because it is much easier to have a useful disagreement when there is something real in front of us.",
   "Outside work, I cook 🍲, watch a lot of Conan O'Brien 🎭, and make what I firmly believe is the best chai 🫖 in the world. Nobody who has tried it has disagreed with me yet.",
   "Lately, I've been studying to better understand human consciousness.",
   'Experience',
