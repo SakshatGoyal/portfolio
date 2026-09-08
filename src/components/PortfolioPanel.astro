@@ -23,16 +23,19 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
   </a>
 
   <div class="portfolio-panel-socials" aria-label="Contact links" data-contact-links>
-    <button
-      class="portfolio-panel-contact"
-      type="button"
-      aria-label={`Copy ${CONTACT_EMAIL} to clipboard`}
-      data-copy-email={CONTACT_EMAIL}
-      data-tape-label
-      data-tape-frame="true"
-      data-tape-color="var(--panel-tape-color)"
-      data-tape-duration="126"
-    >Email</button>
+    <span class="contact-copy-control">
+      <button
+        class="portfolio-panel-contact"
+        type="button"
+        aria-label={`Copy ${CONTACT_EMAIL} to clipboard`}
+        data-copy-email={CONTACT_EMAIL}
+        data-tape-label
+        data-tape-frame="true"
+        data-tape-color="var(--panel-tape-color)"
+        data-tape-duration="126"
+      >Email</button>
+      <span class="contact-copy-tooltip" role="status" data-copy-tooltip hidden>copied to clipboard</span>
+    </span>
     <a
       class="portfolio-panel-contact"
       href={LINKEDIN_URL}
@@ -53,7 +56,6 @@ const isProject = (href: string) => pathname === href || pathname === href.slice
       data-tape-color="var(--panel-tape-color)"
       data-tape-duration="126"
     >Resume</a>
-    <span class="contact-copy-tooltip" role="status" data-copy-tooltip hidden>copied to clipboard</span>
   </div>
 
   <div class="portfolio-panel-intro">

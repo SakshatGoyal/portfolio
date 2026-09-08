@@ -20,8 +20,8 @@ const intro = [
   />
 
   <div class="gallery-project-list memory-lane-project-list" aria-label="Memory Lane projects">
-    {galleryProjects.map((project, index) => (
-      <GalleryProject project={project} infoFirst projectNumber={index + 1} />
+    {galleryProjects.map((project) => (
+      <GalleryProject project={project} infoFirst />
     ))}
   </div>
 </CaseLayout>

@@ -51,9 +51,9 @@ if (!homePage.includes("<a class:list={['home-project-card', project.className]}
 if (homePage.includes('<p>{project.description}</p>')) {
   errors.push('Selected Work tiles must not render project descriptions.');
 }
-if (!panelNavigation.includes("'I shape design where problems are',")
-  || !panelNavigation.includes("'undefined, but commitments aren’t.',")) {
-  errors.push('The portfolio panel lead must retain the exact Figma copy and forced two-line structure.');
+if (!panelNavigation.includes("'I shape design where problems seem',")
+  || !panelNavigation.includes("'uncertain, but deadlines do not.',")) {
+  errors.push('The portfolio panel lead must retain the approved copy and forced two-line structure.');
 }
 if (!panelNavigation.includes("export const PANEL_SUPPORT = 'Over the last decade, I’ve led research and product efforts at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi, and Cisco.';")) {
   errors.push('The portfolio panel supporting statement must retain the approved biography copy.');
@@ -65,11 +65,19 @@ if (!panelComponent.includes('class="portfolio-panel-support">{PANEL_SUPPORT}</p
 if (homePage.includes('MultiscriptNameStrip')) {
   errors.push('The multilingual name strip must not render on the alternate homepage.');
 }
-for (const text of ['I shape design where problems seem uncertain, but deadlines do not.', 'I have a track record of owning and delivering on design for new initiatives, long-horizon revamps, and organizational shifts.', 'Recent Experience', 'SKILLS', 'Education']) {
+for (const text of [
+  'Most of my work begins with no inherited context, and I have learned to understand an unfamiliar business quickly enough to turn an undefined problem into a direction the team can act on.',
+  "I like working on messy systems with people who are willing to say when something still doesn't make sense. I ask a lot of questions, push back when a brief only treats the obvious symptom. I also prototype early, because it is much easier to have a useful disagreement when there is something real in front of us.",
+  "Outside work, I cook 🍲, watch a lot of Conan O'Brien 🎭, and make what I firmly believe is the best chai 🫖 in the world. Nobody who has tried it has disagreed with me yet.",
+  "Lately, I've been studying to better understand human consciousness.",
+  'Experience',
+  'SKILLS',
+  'Education',
+]) {
   if (!aboutPage.includes(text)) errors.push(`The About page must preserve the resume text: ${text}`);
 }
-if (aboutPage.includes('sakshat.goyal@gmail.com') || aboutPage.includes('415 - 308 - 7597') || aboutPage.includes('sakshat-goyal.com') || /<img\b/.test(aboutPage)) {
-  errors.push('The About resume must exclude contact details and an actual portrait.');
+if (aboutPage.includes('sakshat.goyal@gmail.com') || aboutPage.includes('415 - 308 - 7597') || aboutPage.includes('sakshat-goyal.com')) {
+  errors.push('The About resume must exclude contact details.');
 }
 
 const expectedPanelProjects = [
@@ -173,7 +181,7 @@ for (const expected of [
   'showMeta={false}',
   'className="memory-lane-hero-placeholder"',
   'parseGalleryNotes(galleryNotes)',
-  '<GalleryProject project={project} infoFirst projectNumber={index + 1} />',
+  '<GalleryProject project={project} infoFirst />',
 ]) {
   if (!memoryLanePage.includes(expected)) errors.push(`Memory Lane must retain: ${expected}`);
 }

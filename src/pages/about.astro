@@ -1,5 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import { Image } from 'astro:assets';
+import aboutPortrait from '../assets/about/sakshat-goyal-portrait-9x16.webp';
 import { ABOUT_STRUCTURED_DATA } from '../data/seo.js';
 const skills = [
   ['User research', 'Product strategy', 'Design leadership', 'Systems thinking', 'Interaction design'],
@@ -14,24 +17,41 @@ const skills = [
   structuredData={ABOUT_STRUCTURED_DATA}
 >
   <article class="about-page">
-    <h1 class="sr-only">About</h1>
+    <PageHeading title="About" caseStudy />
     <header class="resume-introduction">
-      <div class="resume-photo" role="img" aria-label="Personal photograph placeholder"><span>Photograph</span></div>
+      <Image
+        class="resume-photo"
+        src={aboutPortrait}
+        alt="Portrait of Sākshāt Goyal"
+        widths={[248, 320, 496, 640, 744]}
+        sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1023px) 320px, 280px"
+        loading="eager"
+      />
       <div class="resume-intro-copy">
-        <p>I shape design where problems seem uncertain, but deadlines do not.</p>
-        <p>I have a track record of owning and delivering on design for new initiatives, long-horizon revamps, and organizational shifts.</p>
+        <p>Most of my work begins with no inherited context, and I have learned to understand an unfamiliar business quickly enough to turn an undefined problem into a direction the team can act on.</p>
+        <p>I like working on messy systems with people who are willing to say when something still doesn't make sense. I ask a lot of questions, push back when a brief only treats the obvious symptom. I also prototype early, because it is much easier to have a useful disagreement when there is something real in front of us.</p>
+        <p>Outside work, I cook 🍲, watch a lot of Conan O'Brien 🎭, and make what I firmly believe is the best chai 🫖 in the world. Nobody who has tried it has disagreed with me yet.</p>
+        <p>Lately, I've been studying to better understand human consciousness.</p>
       </div>
     </header>
-    <section class="resume-section" aria-labelledby="recent-experience">
-      <h2 data-widow-ignore id="recent-experience">Recent Experience</h2>
+    <section class="resume-section resume-experience-section" aria-labelledby="recent-experience">
+      <h2 data-widow-ignore id="recent-experience">Experience</h2>
       <div class="resume-experience-list">
         <section class="resume-experience" aria-labelledby="lead-product-designer">
-          <div class="resume-job">
-            <h3 id="lead-product-designer" class="resume-role">Lead Product Designer</h3>
-            <p class="resume-company">Intelligaia LLC</p>
-            <p class="resume-dates">Feb 2024 - Present</p>
-          </div>
-          <div class="resume-details">
+          <p class="resume-dates">Feb 2024 - Present</p>
+          <div class="resume-position">
+            <div class="resume-job">
+              <h3 id="lead-product-designer" class="resume-role">Lead Product Designer</h3>
+              <p class="resume-company">Intelligaia LLC</p>
+            </div>
+            <div class="resume-details">
+            <section>
+              <h4>Company Initiatives <span>Ongoing</span></h4>
+              <ul>
+                <li>Expanded Intelligaia’s services beyond design to research, strategy, and speculative design, securing 4 new contracts and leading delivery.</li>
+                <li>Built and evolved Besan, Intelligaia’s reusable design system, enabling one-day brand adaptation and high-fidelity delivery for 8 companies. Built AI agents and guidelines to ensure interface consistency with the system.</li>
+              </ul>
+            </section>
             <section>
               <h4>Palo Alto Networks <span>client</span></h4>
               <ul>
@@ -43,13 +63,6 @@ const skills = [
               </ul>
             </section>
             <section>
-              <h4>Company Initiatives <span>Ongoing</span></h4>
-              <ul>
-                <li>Expanded Intelligaia’s services beyond design to research, strategy, and speculative design, securing 4 new contracts and leading delivery.</li>
-                <li>Built and evolved Besan, Intelligaia’s reusable design system, enabling one-day brand adaptation and high-fidelity delivery for 8 companies. Built AI agents and guidelines to ensure interface consistency with the system.</li>
-              </ul>
-            </section>
-            <section>
               <h4>Other Projects <span>ongoing</span></h4>
               <ul>
                 <li>Developed an AI-driven research system for <span class="resume-emphasis">Harvard Business School</span> to identify product opportunities. Established Human-AI interaction principles for fine-tuning AI responses across team initiatives.</li>
@@ -57,43 +70,48 @@ const skills = [
                 <li>Led the consolidation of cart and checkout across 24 <span class="resume-emphasis">Colibri</span> brands into a configurable system supporting diverse products, add-ons, purchasing models, and websites by coordinating with a cross-functional team of product managers, engineers, and designers.</li>
               </ul>
             </section>
+            </div>
           </div>
         </section>
         <section class="resume-experience" aria-labelledby="senior-product-designer">
-          <div class="resume-job">
-            <h3 id="senior-product-designer" class="resume-role">Senior Product Designer</h3>
-            <p class="resume-company">Intelligaia LLC</p>
-            <p class="resume-dates">aug 2021 - feb 2024</p>
-          </div>
-          <div class="resume-details">
-            <section>
-              <h4>Docusign <span>client</span></h4>
-              <ul>
-                <li>Led design for DocuSign’s $5.2M dashboard migration initiative, accelerating development by three months through proactive teamwork and rapid iteration.</li>
-                <li>Partnered with directors of product, finance, customer success, operations, sales, and marketing to establish shared company-wide metrics and design dashboards that help executives monitor $2.5B in revenue and over $2.0B in spending.</li>
-                <li>Initiated end-to-end research and design for two internal tools, enabling thematic analysis (78% adoption) and value-driven sales (82% adoption) across the Americas and EMEA.</li>
-              </ul>
-            </section>
+          <p class="resume-dates">Aug 2021 - Feb 2024</p>
+          <div class="resume-position">
+            <div class="resume-job">
+              <h3 id="senior-product-designer" class="resume-role">Senior Product Designer</h3>
+              <p class="resume-company">Intelligaia LLC</p>
+            </div>
+            <div class="resume-details">
+              <section>
+                <h4>Docusign <span>client</span></h4>
+                <ul>
+                  <li>Led design for DocuSign’s $5.2M dashboard migration initiative, accelerating development by three months through proactive teamwork and rapid iteration.</li>
+                  <li>Partnered with directors of product, finance, customer success, operations, sales, and marketing to establish shared company-wide metrics and design dashboards that help executives monitor $2.5B in revenue and over $2.0B in spending.</li>
+                  <li>Initiated end-to-end research and design for two internal tools, enabling thematic analysis (78% adoption) and value-driven sales (82% adoption) across the Americas and EMEA.</li>
+                </ul>
+              </section>
+            </div>
           </div>
         </section>
         <section class="resume-experience" aria-labelledby="product-designer">
-          <div class="resume-job">
-            <h3 id="product-designer" class="resume-role">Product Designer</h3>
-            <p class="resume-company">Intelligaia LLC</p>
-            <p class="resume-dates">nov 2019 - aug 2021</p>
-          </div>
-          <div class="resume-details">
-            <section>
-              <h4>Hitachi Energy <span>client</span></h4>
-              <ul><li>Redesigned the Partner Portal experience, reducing deal cycles by 24% within six months post-release, generating over $280K in annual operating savings, and expanding quotation capacity across a $200M+ workflow.</li></ul>
-            </section>
-            <section>
-              <h4>Cisco Systems <span>client</span></h4>
-              <ul>
-                <li>Defined and implemented a design strategy for Cisco Ready, resulting in a 4x increase in monthly users among account managers within one fiscal year.</li>
-                <li>Clearly articulated design decisions to business leaders at Cisco, including the SVP of sales in the Americas, EMEA, and Asia Pacific.</li>
-              </ul>
-            </section>
+          <p class="resume-dates">Nov 2019 - Aug 2021</p>
+          <div class="resume-position">
+            <div class="resume-job">
+              <h3 id="product-designer" class="resume-role">Product Designer</h3>
+              <p class="resume-company">Intelligaia LLC</p>
+            </div>
+            <div class="resume-details">
+              <section>
+                <h4>Hitachi Energy <span>client</span></h4>
+                <ul><li>Redesigned the Partner Portal experience, reducing deal cycles by 24% within six months post-release, generating over $280K in annual operating savings, and expanding quotation capacity across a $200M+ workflow.</li></ul>
+              </section>
+              <section>
+                <h4>Cisco Systems <span>client</span></h4>
+                <ul>
+                  <li>Defined and implemented a design strategy for Cisco Ready, resulting in a 4x increase in monthly users among account managers within one fiscal year.</li>
+                  <li>Clearly articulated design decisions to business leaders at Cisco, including the SVP of sales in the Americas, EMEA, and Asia Pacific.</li>
+                </ul>
+              </section>
+            </div>
           </div>
         </section>
       </div>
@@ -106,7 +124,7 @@ const skills = [
       <h2 data-widow-ignore id="education">Education</h2>
       <div class="resume-education">
         <section>
-          <h3 class="resume-role">Master of hci+d</h3>
+          <h3 class="resume-role">Master of Human-Computer Interaction + Design</h3>
           <p class="resume-school">University of Washington</p>
           <p class="resume-dates">2018-19</p>
           <p class="resume-award">Awarded the best technical implementation award by Microsoft’s Hacking STEM team.</p>

@@ -115,6 +115,11 @@ requireText(styles, ".page-heading > :is(h1, h2) {\n  grid-column: 1 / -1;\n  co
 requireText(styles, "--cs-page-gutter: min(var(--site-outer-gutter), 32px);\n  --cs-inline: 0px;\n  --cs-media-block-padding: 12px;\n  --cs-media-inset: var(--cs-media-block-padding);", 'All seven case-study routes must cap their shared page gutter at 32px while retaining the tablet-and-desktop media inset.');
 requireText(styles, '--cs-heading-bottom-gap: 24px;', 'Every case-study heading must retain the shared 24px gap before its hero.');
 requireText(styles, 'padding: var(--cs-section-end) var(--cs-inline) var(--cs-heading-bottom-gap);', 'The shared case-study heading rule must own the 24px hero separation.');
+requireText(about, "import PageHeading from '../components/PageHeading.astro';", 'About must reuse the shared animated page-heading component.');
+requireText(about, '<PageHeading title="About" caseStudy />', 'About must opt into the complete case-study heading treatment.');
+if (about.includes('about-heading') || styles.includes('.about-heading')) {
+  errors.push('About must not retain a competing page-heading implementation or visual override.');
+}
 if (/\[data-case-system='true'\] \.case-hero\s*\{[^}]*padding[^;]*\s0\s*;/s.test(styles)) {
   errors.push('A shared case-study heading rule must never restore zero bottom padding.');
 }
@@ -144,6 +149,8 @@ const approvedManropeTrackingOverrides = new Set([
   '.portfolio-panel-identity',
   '.portfolio-panel-lead',
   '.portfolio-panel-support',
+  '.home-hero__lead',
+  '.home-hero__support',
   '.portfolio-panel-navigation',
   '.portfolio-panel-socials',
   '.case-study-header',
@@ -214,7 +221,8 @@ requireText(styles, 'display: inline;\n    width: auto;\n    white-space: normal
 requireText(portfolioPanel, "{line}{index < PANEL_LEAD_LINES.length - 1 ? ' ' : ''}", 'Panel lead source segments must retain their natural separating space when displayed inline.');
 requireText(styles, '.portfolio-panel-navigation { display: flex; flex: none; }', 'The two-level navigation must remain visible without shrinking on compact layouts.');
 requireText(layout, "import CaseStudyHeader from '../components/CaseStudyHeader.astro';", 'The shared layout must load the case-study-only compact header.');
-requireText(layout, '{isCaseSystem && <CaseStudyHeader />}', 'Only case-study routes may render the compact case-study header.');
+requireText(layout, 'const usesCompactNavigation = isCaseSystem || isAboutSystem || isHomeSystem;', 'Case studies, the homepage, and the local About page must opt into the compact navigation header.');
+requireText(layout, '{usesCompactNavigation && <CaseStudyHeader />}', 'The shared layout must render the compact header for case studies, the homepage, and the local About page.');
 requireText(caseStudyHeader, 'class="case-study-header"', 'Case studies must expose the collapsed compact header.');
 requireText(caseStudyHeader, 'aria-haspopup="dialog"', 'The Menu control must identify its full-screen dialog.');
 requireText(caseStudyHeader, 'class="behance-viewer__close case-study-menu__close"', 'The expanded menu must reuse the lightbox close-button treatment.');
@@ -231,8 +239,8 @@ requireText(styles, '.case-study-header {\n  position: sticky;\n  z-index: 40;\n
 requireText(styles, 'width: 100%;\n  min-height: 64px;\n  padding: 16px var(--cs-page-gutter, 32px);', 'The collapsed case-study header must retain its frame height and follow the responsive page gutter.');
 requireText(styles, '.case-study-menu[open] {\n  position: fixed;', 'The expanded case-study menu must cover the viewport.');
 requireText(styles, 'padding: 32px var(--cs-page-gutter, 32px) 64px;', 'The expanded case-study menu must preserve its vertical padding and follow the responsive page gutter.');
-requireText(styles, "[data-case-system='true'] .portfolio-panel { display: none; }", 'The compact case-study system must replace the biography panel.');
-requireText(styles, "[data-case-system='true'] .case-study-header { display: flex; }", 'The case-study header must appear below the 1210px transition.');
+requireText(styles, "[data-case-system='true'] .portfolio-panel,\n  [data-home-system='true'] .portfolio-panel,\n  [data-about-system='true'] .portfolio-panel { display: none; }", 'The compact navigation system must replace the biography panel on case studies, the homepage, and About.');
+requireText(styles, "[data-case-system='true'] .case-study-header,\n  [data-home-system='true'] .case-study-header,\n  [data-about-system='true'] .case-study-header { display: flex; }", 'The compact header must appear on case studies, the homepage, and About below the 1210px transition.');
 const identityIndex = portfolioPanel.indexOf('class="portfolio-panel-home"');
 const socialsIndex = portfolioPanel.indexOf('class="portfolio-panel-socials"');
 const introIndex = portfolioPanel.indexOf('class="portfolio-panel-intro"');
@@ -250,6 +258,10 @@ requireText(portfolioPanel, 'href={RESUME_URL}', 'The panel must link to the res
 requireText(caseStudyHeader, 'href={LINKEDIN_URL}', 'The compact case-study menu must link to LinkedIn.');
 requireText(caseStudyHeader, 'href={RESUME_URL}', 'The compact case-study menu must link to the resume.');
 requireText(portfolioPanel, '>copied to clipboard</span>', 'The email control must expose the requested copy confirmation.');
+requireText(styles, '.contact-copy-control {\n  position: relative;\n  display: block;\n  width: max-content;\n}', 'The copy confirmation must anchor directly to its Email trigger.');
+requireText(styles, 'position: absolute;\n  z-index: 100;\n  top: calc(100% + 6px);\n  left: 0;', 'The copy confirmation must overlay adjacent content no more than 6px below its trigger.');
+requireText(styles, 'box-sizing: border-box;\n  padding-block: 3px;\n  padding-inline: 6px;\n  border-radius: 4px;', 'The copy confirmation must expose an explicit 3px by 6px visible inset without pill-like corners.');
+requireText(styles, 'font: 400 16px/1 var(--body-font);', 'The copy confirmation must not inflate its compact padding with inherited leading.');
 requireText(motionSystem, 'const requestedDuration = Number(label.dataset.tapeDuration);', 'Tape labels must support per-label duration data.');
 requireText(motionSystem, "if (label.dataset.tapeColor) line.style.setProperty('--tape-color', label.dataset.tapeColor);", 'Tape labels must support per-label tape colors.');
 requireText(motionSystem, "if (label.getAttribute('aria-disabled') === 'true') label.dataset.tapeDisabled = 'true';", 'Tape labels must expose their disabled-link state.');
@@ -275,7 +287,7 @@ for (const [, selector, body] of styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
   }
 }
 requireText(styles, '.home-project-scroller { overflow: visible; }', 'The project scroller must remain inert outside narrow screens.');
-requireText(styles, 'min-width: 420px;\n  padding: 16px 16px 64px;\n  background: transparent;', 'Selected Work must use 16px top and side padding with 64px bottom padding.');
+requireText(styles, 'min-width: 420px;\n  padding: 24px 24px 64px;\n  background: transparent;', 'Wide Selected Work must use 24px top and side padding with 64px bottom padding.');
 requireText(home, 'const paddingBottom = Number.parseFloat(gridStyles.paddingBottom) || 0;', 'The masonry height must include the Figma bottom frame padding.');
 requireText(styles, '@media (max-width: 451px) {\n  .home-project-scroller { overflow-x: clip; overflow-y: visible; }\n  .home-project-grid { width: 100%; min-width: 0; }\n}', 'Narrow project cards must reflow without horizontal panning.');
 requireCount(home, 'class="home-project-scroller"', 1, 'Selected Work must have exactly one isolated project scroller.');
@@ -348,6 +360,10 @@ requireText(styles, '.home-project-media .playable-media-surface > video { point
 requireText(styles, "[data-line-system='svg'] :focus-visible:not(.home-project-card):not(.carousel-viewport):not([data-carousel-dot]),", 'The global line-system focus reset must preserve card and carousel focus indicators.');
 requireText(carousel, '.carousel-viewport:focus-visible { outline: 2px solid currentColor;', 'Carousel viewports must expose a keyboard-only focus ring.');
 requireText(carousel, '.carousel-pagination button:focus-visible { outline: 2px solid currentColor;', 'Carousel pagination must expose keyboard-only focus rings.');
+requireCount(hbs, 'startIndex={0}', 2, 'Both AI Research Architecture carousels must initialize on slide one.');
+requireCount(hbs, 'advanceAfterMs={1500}', 2, 'Both AI Research Architecture carousels must advance once after 1500ms.');
+requireText(carousel, "advanceObserver = new IntersectionObserver((entries) => {", 'Timed carousel advancement must begin only when the carousel enters the viewport.');
+requireText(carousel, 'if (advanceTimer !== undefined) window.clearTimeout(advanceTimer);', 'Manual carousel interaction must cancel a pending timed advance.');
 requireText(motionSystem, "['View Project', 126]", 'View Project tape motion must match the Team label duration.');
 requireText(styles, '.home-project-card:hover .home-project-view .home-tape-line > i {', 'Tile hover must animate the View Project tape.');
 requireText(styles, '.home-project-card:focus-within .home-project-view .home-tape-line > i {', 'Tile keyboard focus must animate the View Project tape.');
@@ -381,11 +397,11 @@ requireText(styles, "[data-body-reveal][data-body-reveal-kind='media-caption'].b
 requireText(layout, '<noscript><style>[data-line-mask], [data-media-caption] { visibility: visible !important; }</style></noscript>', 'No-script rendering must keep media captions visible.');
 requireText(styles, '--home-project-column-gap: 0px;', 'Selected Work columns must meet without an inter-column gutter.');
 requireText(styles, '--home-project-row-gap: 32px;', 'Selected Work tiles within each column must use the Figma 32px gap.');
-requireText(styles, 'padding: 24px;\n  border: 0;\n  border-radius: 0;\n  background: transparent;', 'Selected Work tiles must use 24px padding and a transparent square surface.');
+requireText(styles, 'padding: 16px;\n  border: 0;\n  border-radius: 0;\n  background: transparent;', 'Every Selected Work tile must use 16px padding and a transparent square surface.');
 requireText(styles, '@container stage (width < 1024px) {\n  .home-project-grid {\n    --home-project-column-gap: 0px;\n    --home-project-row-gap: 16px;\n    padding: 16px 16px 64px;', 'Stages below 1024px must keep zero column gap, 16px top and side padding, a 64px bottom, and 16px row gaps.');
 requireText(styles, '.home-project-card { padding: 16px; }', 'Project tiles on stages below 1024px must use 16px internal padding.');
 if (styles.includes(".home-project-grid:not([data-home-layout='small']) .home-project-card { padding-inline: 0; }")) {
-  errors.push('Desktop Selected Work tiles must not remove their 24px left and right padding.');
+  errors.push('Desktop Selected Work tiles must not remove their 16px left and right padding.');
 }
 requireText(home, "getPropertyValue('--home-project-column-gap')", 'Selected Work geometry must read the shared column-gap token.');
 requireText(home, "getPropertyValue('--home-project-row-gap')", 'Selected Work geometry must read the shared 32px row-gap token.');
@@ -544,7 +560,10 @@ if (staticTrailDecision([{ ready: true, failed: false }], 0).status !== 'ready'
 }
 requireText(galleryProject, "const infoPlacement = infoFirst ? { ...project.layout.info, row: 1 } : project.layout.info;", 'Memory Lane project information must occupy the first chapter row.');
 requireText(galleryProject, "? { ...project.layout.artifacts[lead.id], row: 2 }", 'Memory Lane lead media must follow project information in the second chapter row.');
-requireText(galleryProject, "<span class=\"gallery-project-number\"> — {formattedProjectNumber}</span>", 'Memory Lane project titles must use the approved title-first number suffix.');
+requireText(galleryProject, '{project.title} — <time>{project.year}</time>', 'Memory Lane project names must use the approved Title, Client — YYYY format.');
+if (galleryProject.includes('projectNumber')) {
+  errors.push('Memory Lane project names must not include sequence numbers.');
+}
 requireText(styles, 'padding: var(--cs-section-end) 0 40px;', 'Narrow Memory Lane project information must retain responsive top spacing and 40px bottom spacing.');
 requireText(styles, 'padding-top: 280px;\n    padding-bottom: 40px;', 'Desktop Memory Lane project information must use 280px top and 40px bottom spacing.');
 requireText(styles, '.memory-lane-trail-layers {\n  display: block;', 'Memory Lane trail layers must remain available below the former 768px cutoff.');
@@ -686,9 +705,9 @@ for (const expected of [
   'top: -13px; left: 0; width: 100%; height: 30px;',
   'velocity += (1 - position) * 0.025;',
   'velocity *= 1 - 0.28;',
-  "viewport?.addEventListener('click', () => select(index + 1));",
+  "viewport?.addEventListener('click', () => {",
 ]) requireText(carousel, expected, `Carousel must retain the measured reference contract: ${expected}`);
-for (const forbidden of ['slideFadeDuration', 'autoAdvance', 'setTimeout', 'data-behance-image', '<svg', 'flex-basis: 30px']) {
+for (const forbidden of ['slideFadeDuration', 'autoAdvance', 'data-behance-image', '<svg', 'flex-basis: 30px']) {
   if (carousel.includes(forbidden)) errors.push(`Carousel must not restore the replaced behavior or geometry: ${forbidden}`);
 }
 requireText(lineSystem, "|| focusedElement.closest('[data-carousel]')", 'Carousel controls must not receive the site-specific focus rectangle absent from the reference.');

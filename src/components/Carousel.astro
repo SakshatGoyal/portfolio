@@ -3,6 +3,7 @@ interface Props {
   slides: string[];
   descriptions: string[];
   startIndex?: number;
+  advanceAfterMs?: number;
   aspectRatio: string;
   class?: string;
 }
@@ -11,6 +12,7 @@ const {
   slides,
   descriptions,
   startIndex = 0,
+  advanceAfterMs,
   aspectRatio,
   class: className = '',
 } = Astro.props;
@@ -26,6 +28,7 @@ if (descriptions.length !== slides.length) {
   data-media-unit
   data-media-reveal
   data-index={startIndex}
+  data-advance-after-ms={advanceAfterMs}
 >
   <div class="media-reveal-clip" data-media-reveal-clip>
     <div class="media-reveal-rise" data-media-reveal-rise>
@@ -79,6 +82,9 @@ if (descriptions.length !== slides.length) {
     let velocity = 0;
     let restingFrames = 0;
     let animationFrame: number | undefined;
+    let advanceTimer: number | undefined;
+    let advanceObserver: IntersectionObserver | undefined;
+    const advanceAfterMs = Number(carousel.dataset.advanceAfterMs ?? '0');
 
     const prefersReducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -149,23 +155,55 @@ if (descriptions.length !== slides.length) {
       else animateFade();
     };
 
+    const cancelScheduledAdvance = () => {
+      if (advanceTimer !== undefined) window.clearTimeout(advanceTimer);
+      advanceTimer = undefined;
+      advanceObserver?.disconnect();
+      advanceObserver = undefined;
+    };
+
+    const scheduleAdvance = () => {
+      if (advanceAfterMs <= 0 || slides.length < 2 || prefersReducedMotion()) return;
+      advanceTimer = window.setTimeout(() => {
+        advanceTimer = undefined;
+        select(index + 1);
+      }, advanceAfterMs);
+    };
+
     dots.forEach((dot, dotIndex) => dot.addEventListener('click', () => {
+      cancelScheduledAdvance();
       select(dotIndex);
     }));
     carousel.addEventListener('keydown', (event) => {
       if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
       event.preventDefault();
+      cancelScheduledAdvance();
       const nextIndex = event.key === 'ArrowLeft' ? index - 1 : index + 1;
       select(nextIndex);
       dots[(nextIndex + slides.length) % slides.length]?.focus();
     });
-    viewport?.addEventListener('click', () => select(index + 1));
+    viewport?.addEventListener('click', () => {
+      cancelScheduledAdvance();
+      select(index + 1);
+    });
     viewport?.addEventListener('keydown', (event) => {
       if (!['Enter', ' '].includes(event.key)) return;
       event.preventDefault();
+      cancelScheduledAdvance();
       select(index + 1);
     });
     renderState();
+    if (advanceAfterMs > 0 && 'IntersectionObserver' in window) {
+      advanceObserver = new IntersectionObserver((entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) return;
+        advanceObserver?.disconnect();
+        advanceObserver = undefined;
+        scheduleAdvance();
+      }, { threshold: 0.25 });
+      advanceObserver.observe(carousel);
+    } else {
+      scheduleAdvance();
+    }
   });
 </script>
 

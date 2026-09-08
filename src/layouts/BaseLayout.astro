@@ -22,6 +22,7 @@ const {
 const isCaseSystem = theme !== 'neutral';
 const isHomeSystem = Astro.url.pathname === '/';
 const isAboutSystem = Astro.url.pathname.replace(/\/$/, '') === '/about';
+const usesCompactNavigation = isCaseSystem || isAboutSystem || isHomeSystem;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? 'https://sakshat-goyal.com');
 const socialImageUrl = new URL('/media/shared/homepage-social-preview.914a51567bd9.jpg', Astro.site ?? canonicalUrl);
 const socialImageAlt = 'Sākshāt Goyal’s portfolio homepage with his highlighted introduction and featured project cards';
@@ -82,7 +83,7 @@ const structuredDataJson = structuredData
       <a class="skip-link" href="#main-content">Skip to content</a>
       <div class="site-layout">
         <PortfolioPanel />
-        {isCaseSystem && <CaseStudyHeader />}
+        {usesCompactNavigation && <CaseStudyHeader />}
         <div class="site-content">
           <main id="main-content" tabindex="-1">
             <slot />
