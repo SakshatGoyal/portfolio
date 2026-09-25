@@ -52,7 +52,7 @@ if (homePage.includes('<p>{project.description}</p>')) {
   errors.push('Selected Work tiles must not render project descriptions.');
 }
 if (!panelNavigation.includes("'I shape design where problems seem',")
-  || !panelNavigation.includes("'uncertain, but deadlines do not.',")) {
+  || !panelNavigation.includes("'ambiguous, but deadlines do not.',")) {
   errors.push('The portfolio panel lead must retain the approved copy and forced two-line structure.');
 }
 if (!panelNavigation.includes("export const PANEL_SUPPORT = 'Over the last decade, I’ve led research and product efforts at Palo Alto Networks, Harvard Business School, DocuSign, Hitachi, and Cisco.';")) {
